@@ -1,0 +1,1604 @@
+{
+  "UBER": [
+    {
+      "abstract": "Apache Kafka at Uber\nUber has one of the largest deployments of Apache Kafka in the world, processing trillions of messages and multiple petabytes of data per day. As Figure 1 shows, today we position Apache Kafka as a cornerstone to Uber’s technology stack and build a complex ecosystem on top of it to empower a large number of different...",
+      "author": "Yupeng Fu and Mingmin Chen",
+      "date": "December 21, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/12/pasted-image-0-14-696x378.png",
+      "link": "https://eng.uber.com/kafka/",
+      "title": "Disaster Recovery for Multi-Region Kafka at Uber"
+    },
+    {
+      "abstract": "Uber builds multi-sided marketplaces handling millions of trips every day across the globe. We strive to build real-time experiences for all our users.\n\nThe nature of real time marketplaces make them very lively. Over the course of a trip, there are multiple participants that can modify and view the state of an ongoing trip and need real-time updates. This creates...",
+      "author": "Uday Kiran Medisetty, Nilesh Mahajan, Anirudh Raja, and Madan Thangavelu",
+      "date": "December 18, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/12/unnamed-4.png",
+      "link": "https://eng.uber.com/real-time-push-platform/",
+      "title": "Uber’s Real-Time Push Platform"
+    },
+    {
+      "abstract": "Data-In-Motion @ Uber\nAt Uber, several petabytes of data move across and within various platforms every day. We power this data movement by a strong backbone of data pipelines. Whether it’s ingesting the data from millions of Uber trips or transforming the ingested data for analytical and machine learning models, it all runs through these pipelines. To put it in...",
+      "author": "Sriharsha Chintalapani and Sandeep Karmakar",
+      "date": "December 11, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/12/image-e1607702779896.png",
+      "link": "https://eng.uber.com/no-code-workflow-orchestrator/",
+      "title": "No Code Workflow Orchestrator for Building Batch & Streaming Pipelines at Scale"
+    },
+    {
+      "abstract": "We originally open-sourced Horovod in 2017, and since then it has grown to become the standard solution in industry for scaling deep learning training to hundreds of GPUs.  With Horovod, you can reduce training times from days or weeks to hours or minutes by adding just a few lines of Python code to an existing TensorFlow, PyTorch, or Apache...",
+      "author": "Travis Addair",
+      "date": "November 24, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Header-1-696x298.png",
+      "link": "https://eng.uber.com/horovod-v0-21/",
+      "title": "Horovod v0.21: Optimizing Network Utilization with Local Gradient Aggregation and Grouped Allreduce"
+    },
+    {
+      "abstract": "Every day in over 10,000 cities around the world, millions of people rely on Uber to travel, order food, and ship cargo. Our apps and services are available in over 69 countries and run 24 hours a day. At our global scale, these activities generate large amounts of logging & operational data that runs through our systems in real-time....",
+      "author": "Sunheng Taing and Atul Gupte",
+      "date": "November 10, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/11/pasted-image-0-3-696x244.png",
+      "link": "https://eng.uber.com/metadata-insights-databook/",
+      "title": "Turning Metadata Into Insights with Databook"
+    },
+    {
+      "abstract": "About the Safety team & What we do\n\nUber is dedicated to keeping people safe on the road. The Safety and Insurance Engineering team is at the core of Uber’s business. We work to redefine what it takes to be safe on the roads at a global scale. Our technology enables us to focus on rider safety before, during, and...",
+      "author": "Safety Engineering Interns",
+      "date": "October 29, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/10/interns-696x435.png",
+      "link": "https://eng.uber.com/safety-engineering-interns-2020/",
+      "title": "Meet the 2020 Safety Engineering Interns: COVID Edition"
+    },
+    {
+      "abstract": "Introduction\nUber has a complex marketplace consisting of riders, drivers, eaters, restaurants and so on. Operating that marketplace at a global scale requires real-time intelligence and decision making. For instance, identifying delayed Uber Eats orders or abandoned carts helps to enable our community operations team to take corrective action. Having a real-time dashboard of different events such as consumer demand,...",
+      "author": "Yupeng Fu, Girish Baliga, Ting Chen, and Chinmay Soman",
+      "date": "October 20, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-20-at-8.59.53-AM-696x337.png",
+      "link": "https://eng.uber.com/operating-apache-pinot/",
+      "title": "Operating Apache Pinot @ Uber Scale"
+    },
+    {
+      "abstract": "The Uber Vilnius office is home to members of our Production Engineering, Infrastructure, Storage Platform, and Developer Tools team.",
+      "author": "Ieva Sapokaite",
+      "date": "October 14, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/03/Header-696x298.jpg",
+      "link": "https://eng.uber.com/building-from-the-baltics-uber-vilnius/",
+      "title": "Building from the Baltics: Meet the Uber Engineering Team in Vilnius, Lithuania"
+    },
+    {
+      "abstract": "In February 2019, Uber released Ludwig, an open source, code-free deep learning (DL) toolbox that gives non-programmers and advanced machine learning (ML) practitioners alike the power to develop models for a variety of DL tasks. With use cases spanning text classification, natural language understanding, image classification, and time series forecasting, among many others, Ludwig gives users the ability to...",
+      "author": "Travis Addair, Piero Molino, and Yaroslav Dudin",
+      "date": "October 6, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/10/unnamed-4-2.png",
+      "link": "https://eng.uber.com/ludwig-v0-3/",
+      "title": "Ludwig v0.3 Introduces Hyperparameter Optimization, Transformers and TensorFlow 2 support"
+    },
+    {
+      "abstract": "Uber as a platform invites its users to leverage it, earn from it, and be delighted by it. Serving more than 18 million requests per day, in 10,000+ cities, has enabled people to move freely and to think broadly while earning a livelihood on it. As one of the underlying engines, Uber Money fulfills some of the most important...",
+      "author": "Aakriti Singla and Simon Wu",
+      "date": "October 2, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/10/unnamed-696x368.png",
+      "link": "https://eng.uber.com/money-scale-strong-data/",
+      "title": "Revolutionizing Money Movements  at Scale with Strong Data Consistency"
+    },
+    {
+      "abstract": "Jim Jagielski's fascination with open source software began out of necessity. He was working at NASA Goddard in the 1980s, and the agency had just received fancy new Macintosh computers loaded with Apple's new A/UX operating system. There was only one problem: None of the tools Jagielski needed ran on A/UX. It fell to Jagielski to port everything himself.\n\n\"That’s...",
+      "author": "Uber Open Source Office",
+      "date": "September 24, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/09/jimjag-hack.jpg",
+      "link": "https://eng.uber.com/spearheading-open-source-jim-jagielski/",
+      "title": "Spearheading Open Source: A Conversation with Jim Jagielski, Staff Technical Program Manager with the Uber Open Source Program Office"
+    },
+    {
+      "abstract": "The making of Edge Gateway, the highly-available and scalable self-serve gateway to configure, manage, and monitor APIs of every business domain at Uber.\nEvolution of Uber's API gateway\nIn October 2014, Uber had started its journey of scale in what would eventually turn out to be one of the most impressive growth phases in the company. Over time we were scaling...",
+      "author": "Madan Thangavelu, Uday Kiran Medisetty, and Pavel Astakhov",
+      "date": "August 18, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/08/unnamed-3.png",
+      "link": "https://eng.uber.com/gatewayuberapi/",
+      "title": "Designing Edge Gateway, Uber’s API Lifecycle Management Platform"
+    },
+    {
+      "abstract": "Located in the heart of Latin America’s largest city, the Uber Sao Paulo Tech Center was founded in late 2018 as a company-wide hub for Safety Tech. The team is composed of product managers, UX designers, engineers and data scientists. As part of Uber’s mission to put the safety of our users first, our Sao Paulo-based Tech team is...",
+      "author": "Camila Carvalho",
+      "date": "July 28, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/07/pasted-image-0-696x392.png",
+      "link": "https://eng.uber.com/meet-sao-paulo-tech/",
+      "title": "Standing for Safety: Meet the Uber Sao Paulo Tech Team"
+    },
+    {
+      "abstract": "Introduction\nRecently there has been substantial discussion around the downsides of service oriented architectures and microservice architectures in particular. While only a few years ago, many people readily adopted microservice architectures due to the numerous benefits they provide such as flexibility in the form of independent deployments, clear ownership, improvements in system stability, and better separation of concerns, in recent...",
+      "author": "Adam Gluck",
+      "date": "July 23, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/07/unnamed.png",
+      "link": "https://eng.uber.com/microservice-architecture/",
+      "title": "Introducing Domain-Oriented Microservice Architecture"
+    },
+    {
+      "abstract": "Millions of users use Uber’s applications everyday across the globe, accessing seamless transportation or meal delivery at the push of a button. To achieve this accessibility at scale, our mobile apps require low-latency and highly reliable network communication, regardless of where customers use our services.\n\nThe network communication for all of Uber’s mobile applications are powered by the edge and...",
+      "author": "Sivabalan Narayanan, Rajesh Mahindra, and Christopher Francis",
+      "date": "July 14, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/07/first-.png",
+      "link": "https://eng.uber.com/eng-failover-handling/",
+      "title": "Engineering Failover Handling in Uber’s Mobile Networking Infrastructure"
+    },
+    {
+      "abstract": "Project Homepage: GitHub\n\nOver the past several years, increasing processing power of computing machines has led to an increase in machine learning advances. More and more, algorithms exploit parallelism and rely on distributed training to process an enormous amount of data. However, the resulting need to increase both data and training impose great challenges on the software that manages and...",
+      "author": "Jiale Zhi, Rui Wang, Jeff Clune, and Kenneth O. Stanley",
+      "date": "June 30, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/06/Screen-Shot-2020-06-29-at-10.47.05-PM-696x314.png",
+      "link": "https://eng.uber.com/fiberdistributed/",
+      "title": "Fiber: Distributed Computing for AI Made  Simple"
+    },
+    {
+      "abstract": "Uber built and open sourced nebula.gl, a tool set for full-featured geospatial editing in the web browser, to better visualize large-scale data sets.",
+      "author": "Georgios Karnas, Clay Anderson, and Xintong Xia",
+      "date": "June 23, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/06/Headerr-copy-696x298.png",
+      "link": "https://eng.uber.com/nebulagl/",
+      "title": "Editing Massive Geospatial Data Sets with nebula.gl"
+    },
+    {
+      "abstract": "Self-driving cars have long been considered the future of transportation, but they’re becoming more present everyday. Uber ATG (Advanced Technologies Group) is at the forefront of this technology, helping bring safe, reliable self-driving vehicles to the streets. Of course, this wouldn’t be possible without the work of the engineers building the ATG platform’s underlying technologies. \n\nAs the senior manager for...",
+      "author": "Bea Schuster",
+      "date": "June 16, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/06/Header-ATG-696x298.jpg",
+      "link": "https://eng.uber.com/profiles-in-coding-diana-yanakiev/",
+      "title": "Profiles in Coding: Diana Yanakiev, Uber ATG, Pittsburgh"
+    },
+    {
+      "abstract": "The Apache Hudi team at Uber reflects on the open source project's history as it graduates to a Top Level Project under the Apache Software Foundation.",
+      "author": "Nishith Agarwal",
+      "date": "June 9, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/06/image4-2-696x298.png",
+      "link": "https://eng.uber.com/apache-hudi-graduation/",
+      "title": "Building a Large-scale Transactional Data Lake at Uber Using Apache Hudi"
+    },
+    {
+      "abstract": "Developed by Uber ATG, Neuropod is an abstraction layer that provides a universal interface to run models across any deep learning framework.",
+      "author": "Vivek Panyam",
+      "date": "June 8, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/06/Header-image-copy-696x348.png",
+      "link": "https://eng.uber.com/introducing-neuropod/",
+      "title": "Introducing Neuropod, Uber ATG’s Open Source Deep Learning Inference Engine"
+    },
+    {
+      "abstract": "Uber ATG's self-driving vehicles measure a multitude of possible scenario variations to answer the age-old question: \"how does the pedestrian cross the road?\"",
+      "author": "Steffon Davis, Shouheng Yi, Andy Li, and Mallika Chawda",
+      "date": "June 2, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/06/header-image.1400x630-696x313.png",
+      "link": "https://eng.uber.com/uber-atg-data-mining/",
+      "title": "Inside Uber ATG’s Data Mining Operation: Identifying Real Road Scenarios at Scale for Machine Learning"
+    },
+    {
+      "abstract": "Uber AI introduces Meta-Graph, a new few-shot link prediction framework that facilitates the more accurate training of ML models that quickly adapt to new graph data.",
+      "author": "Ankit Jain, Piero Molino, Joey Bose, and William Hamilton",
+      "date": "May 29, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/Feature-696x313.png",
+      "link": "https://eng.uber.com/meta-graph/",
+      "title": "Meta-Graph: Few-Shot Link Prediction Using Meta-Learning"
+    },
+    {
+      "abstract": "Christabelle Bosson, a senior advanced airspaces services engineer, discusses her journey from NASA to Uber Elevate, what excites her about the future of aerial ridesharing, and advice for aspiring aerospace engineers.",
+      "author": "Bea Schuster",
+      "date": "May 28, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/Feature-copy-696x313.png",
+      "link": "https://eng.uber.com/profiles-in-coding-christabelle-bosson-uber-elevate/",
+      "title": "Profiles in Coding: Christabelle Bosson, Uber Elevate, San Francisco"
+    },
+    {
+      "abstract": "Participants in the Dev/Mission <> Uber Coding Fellowship took weekly courses taught by Uber engineers and worked with volunteers from Code for San Francisco on projects that benefit the local community.",
+      "author": "Kurtis Nusbaum",
+      "date": "May 22, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/DevMission-Header-696x298.jpg",
+      "link": "https://eng.uber.com/uber-open-source-coding-fellowship/",
+      "title": "Developing the Next Generation of Coders with the Dev/Mission  Uber Coding Fellowship"
+    },
+    {
+      "abstract": "Uber ATG built Athenadriver, an open source Amazon Athena database driver for Go, to facilitate communication between our business intelligence tools and the cloud.",
+      "author": "Henry Fuheng Wu, Raymond Won, Nick Cobb, Mingjie Lai, and Matt Ranney",
+      "date": "May 20, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/Facebook-2-696x348.png",
+      "link": "https://eng.uber.com/introducing-athenadriver/",
+      "title": "Introducing Athenadriver: An Open Source Amazon Athena Database Driver for Go"
+    },
+    {
+      "abstract": "When Uber adopted the open source Bazel build system, our engineers found many opportunities to contribute improvements to how Bazel works with a large Go monorepo.",
+      "author": "Zhongpeng Lin",
+      "date": "May 14, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/Bazel_Go_Monorepo-feature-image-696x365.png",
+      "link": "https://eng.uber.com/go-monorepo-bazel/",
+      "title": "Building Uber’s Go Monorepo with Bazel"
+    },
+    {
+      "abstract": "Uber AI released a new framework on top of Pyro that lets experimenters seamlessly automate optimal experimental design (OED) for quicker model iteration.",
+      "author": "Adam Foster and Martin Jankowiak",
+      "date": "May 12, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/image13-696x308.png",
+      "link": "https://eng.uber.com/oed-pyro-release/",
+      "title": "Announcing a New Framework for Designing Optimal Experiments with Pyro"
+    },
+    {
+      "abstract": "Uber employs statistical modeling to find anomalies in data and continually monitor data quality.",
+      "author": "Ye Henry Li, Ritesh Agrawal, Santhosh Shanmugam, and Andrea Pasqua",
+      "date": "May 7, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/Monitoring_Data_Quality_feature-image-696x392.png",
+      "link": "https://eng.uber.com/monitoring-data-quality-at-scale/",
+      "title": "Monitoring Data Quality at Scale with Statistical Modeling"
+    },
+    {
+      "abstract": "Building upon our existing open-ended learning research, Uber AI released Enhanced POET, a project that incorporates an improved algorithm and allows for more diverse training environments.",
+      "author": "Rui Wang, Joel Lehman, Aditya Rawal, Jiale Zhi, Yulun Li, Jeff Clune, and Kenneth O. Stanley",
+      "date": "May 6, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/05/Header-Image-696x313.png",
+      "link": "https://eng.uber.com/enhanced-poet-machine-learning/",
+      "title": "Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions"
+    },
+    {
+      "abstract": "Uber developed Piranha to seamlessly delete code related to obsolete feature flags, leading to improved developer productivity and a cleaner codebase.",
+      "author": "Murali Krishna Ramanathan, Lazaro Clapp, Rajkishore Barik, and Manu Sridharan",
+      "date": "March 17, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/03/Header-Piranha-696x298.jpg",
+      "link": "https://eng.uber.com/piranha/",
+      "title": "Introducing Piranha: An Open Source Tool to Automatically Delete Stale Code"
+    },
+    {
+      "abstract": "Designed by Uber's Office of the CTO, the Engineering Sponsorship and Development Program (ESDP) pairs participants with sponsors and provides an opportunity to hone technical leadership skills.",
+      "author": "Molly Vorwerck",
+      "date": "March 12, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/03/Header-image-696x298.jpg",
+      "link": "https://eng.uber.com/engineering-sponsorship-development-program/",
+      "title": "Fostering a Culture of Sponsorship: Introducing Uber’s Engineering and Sponsorship Development Program"
+    },
+    {
+      "abstract": "Multi-tenancy lets Uber tag requests coming into our microservice architecture, giving us the flexibility to route requests to specific components, such as during testing scenarios.",
+      "author": "Amit Gud",
+      "date": "March 11, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/03/Multi-tenancy_Feature_image-696x349.jpg",
+      "link": "https://eng.uber.com/multitenancy-microservice-architecture/",
+      "title": "Why We Leverage Multi-tenancy in Uber’s Microservice Architecture"
+    },
+    {
+      "abstract": "To celebrate International Women's Day, we spoke with women from across the company whose work helps deliver impactful experiences for Uber users worldwide.",
+      "author": "Molly Vorwerck, Wayne Cunningham, Stan Yee, and Bea Schuster",
+      "date": "March 9, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/03/image12-696x365.jpg",
+      "link": "https://eng.uber.com/international-womens-day-2020/",
+      "title": "Celebrating International Women’s Day: Meet the Women Building Uber’s Global Platform"
+    },
+    {
+      "abstract": "Uber shares our principles and goals for using and contributing open source software, providing visibility into our company's approach to open source.",
+      "author": "Brian Hsieh",
+      "date": "March 5, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/10/Uber-open-source-overview-feature-696x392.png",
+      "link": "https://eng.uber.com/open-source-principles/",
+      "title": "Introducing Uber’s Open Source Principles"
+    },
+    {
+      "abstract": "Managing multiple machine learning models to enable self-driving vehicles is a challenge. Uber ATG developed a model life cycle for quick iterations and a tool for continuous delivery and dependency management.",
+      "author": "Yu Guo, Khalid Ashmawy, Eric Huang, and Wei Zeng",
+      "date": "March 4, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/03/ATG_ML_platform_feature-image-e1590075460625-696x672.jpg",
+      "link": "https://eng.uber.com/machine-learning-model-life-cycle-version-control/",
+      "title": "Under the Hood of Uber ATG’s Machine Learning Infrastructure and Versioning Control Platform for Self-Driving Vehicles"
+    },
+    {
+      "abstract": "Rick Boone, Strategic Advisor for Uber's Core Infrastructure group, talks about his journey from his work in site reliability to his current role in long-term planning for infrastructure health and scalability.",
+      "author": "Wayne Cunningham",
+      "date": "February 27, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/02/Rick_Boone_profile_feature_image-696x365.jpg",
+      "link": "https://eng.uber.com/rick-boone-infrastructure-profile/",
+      "title": "Profiles in Coding: Rick Boone, Core Infrastructure, San Francisco"
+    },
+    {
+      "abstract": "Uber engineers share their learnings on how to tune a Java Virtual Machine so as to avoid long pauses and other issues with garbage collection.",
+      "author": "Xinli Shang, Yi Zhang, Fengnan Li, Amruth Sampath, and Girish Baliga",
+      "date": "February 26, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/02/JVM_tuning_feature_image-696x264.png",
+      "link": "https://eng.uber.com/jvm-tuning-garbage-collection/",
+      "title": "Tricks of the Trade: Tuning JVM Memory for Large-scale Services"
+    },
+    {
+      "abstract": "The Uber Seattle Tech team is responsible for building a diverse range of technologies, from developer tools to our data platform architecture.",
+      "author": "Kara Ortbal",
+      "date": "February 18, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-image-1-696x298.jpg",
+      "link": "https://eng.uber.com/seattle-tech-team/",
+      "title": "Building the Future of Mobility from the Pacific Northwest: Meet the Uber Seattle Tech Team"
+    },
+    {
+      "abstract": "We built a backtesting service to better assess financial forecast model error rates, facilitating improved forecast performance and decision making.",
+      "author": "Sam Xiao, Haoyu He, Pooja Kodavanti, and Ethan Meng",
+      "date": "February 13, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/02/Header-696x298.png",
+      "link": "https://eng.uber.com/backtesting-at-scale/",
+      "title": "Building a Backtesting Service to Measure Model Performance at Uber-scale"
+    },
+    {
+      "abstract": "Improving the performance and developer velocity for the Uber Eats web application involved a complete rewrite, developing a new architecture and using Fusion.js.",
+      "author": "Chris Lewis and Brendan Dean",
+      "date": "February 12, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/02/UberEats_Facebook_promo-696x365.png",
+      "link": "https://eng.uber.com/uber-eats-com-web-app-rewrite/",
+      "title": "Counting Calories: How We Improved the Performance and Developer Experience of UberEats.com"
+    },
+    {
+      "abstract": "In October 2019, Uber hosted our second annual Moving The World With Data meetup, showcasing some of our most interesting data science challenges in 2019.",
+      "author": "Emily Bailey",
+      "date": "January 28, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/01/WiSDOM-Header-696x298.png",
+      "link": "https://eng.uber.com/women-in-data-science-moving-the-world-with-data/",
+      "title": "Women in Data Science at Uber: Moving the World With Data in 2020—and Beyond"
+    },
+    {
+      "abstract": "We implemented a Kappa architecture at Uber to effectively backfill streaming data at scale, ensuring accurate data in our platform.",
+      "author": "Amey Chaugule",
+      "date": "January 23, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/01/Kappa_feature_image-696x365.jpg",
+      "link": "https://eng.uber.com/kappa-architecture-data-stream-processing/",
+      "title": "Designing a Production-Ready Kappa Architecture for Timely Data Stream Processing"
+    },
+    {
+      "abstract": "We engineered full SQL support on Apache Pinot to enable quick analysis and reporting on aggregated data, leading to improved experiences on our platform.",
+      "author": "Haibo Wang",
+      "date": "January 15, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2020/01/Header-SQL-696x298.png",
+      "link": "https://eng.uber.com/engineering-sql-support-on-apache-pinot/",
+      "title": "Engineering SQL Support on Apache Pinot at Uber"
+    },
+    {
+      "abstract": "First introduced by Uber Engineering in January 2019, Manifold is a visual debugging tool that enables users to quickly identify performance issues in machine learning models.",
+      "author": "Lezhi Li",
+      "date": "January 7, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/10/Manifold-Header-Image-696x298.jpg",
+      "link": "https://eng.uber.com/manifold-open-source/",
+      "title": "Open Sourcing Manifold, a Visual Debugging Tool for Machine Learning"
+    },
+    {
+      "abstract": "As part of Uber Visualization's all-team hackathon, we built SpeedsUp, a project using machine learning to process average speeds across a city, cluster the results, and overlay them on a street map.",
+      "author": "Bryant Luong and Lezhi Li",
+      "date": "January 2, 2020",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/SpeedsUp_feature-696x365.png",
+      "link": "https://eng.uber.com/visualization-city-speeds-machine-learning-speedsup/",
+      "title": "Uber Visualization Highlights: Displaying City Street Speed Clusters with SpeedsUp"
+    },
+    {
+      "abstract": "Uber recounts its many engagements with the open source community during 2019, from contributing projects to joining and founding new open source support organizations.",
+      "author": "Brian Hsieh",
+      "date": "December 20, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/10/Uber-open-source-overview-feature-696x392.png",
+      "link": "https://eng.uber.com/open-source-2019/",
+      "title": "Uber Open Source in 2019: Community Engagement and Contributions"
+    },
+    {
+      "abstract": "To cap off 2019, the Uber Engineering Blog editors present a selection of our most popular articles covering a range of technical topics, from AI to mobile development.",
+      "author": "Molly Vorwerck and Wayne Cunningham",
+      "date": "December 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Header-696x298.jpg",
+      "link": "https://eng.uber.com/2019-highlights/",
+      "title": "Year in Review: 2019 Highlights from the Uber Engineering Blog"
+    },
+    {
+      "abstract": "In 2019, Uber's Infrastructure team built new services and systems to enable resource savings, efficiency gains, and greater resilience across our technology stack.",
+      "author": "Rick Boone",
+      "date": "December 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Infra-Header-696x298.jpg",
+      "link": "https://eng.uber.com/uber-infrastructure-2019/",
+      "title": "Uber Infrastructure in 2019: Improving Reliability, Driving Customer Satisfaction"
+    },
+    {
+      "abstract": "In 2019, Uber AI built tools and systems that leverage ML to improve location accuracy and enhance real-time forecasting, among other applications on our platform.",
+      "author": "Zoubin Ghahramani",
+      "date": "December 18, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/image1-696x298.jpg",
+      "link": "https://eng.uber.com/uber-ai-blog-2019/",
+      "title": "Uber AI in 2019: Advancing Mobility with Artificial Intelligence"
+    },
+    {
+      "abstract": "Developed by Uber AI Labs, Generative Teaching Networks (GTNs) automatically generate training data, learning environments, and curricula to help AI agents rapidly learn.",
+      "author": "Felipe Petroski Such, Aditya Rawal, Joel Lehman, Kenneth O. Stanley, and Jeff Clune",
+      "date": "December 18, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Header-image-good-696x299.png",
+      "link": "https://eng.uber.com/generative-teaching-networks/",
+      "title": "Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data"
+    },
+    {
+      "abstract": "In 2019, Uber's Data Platform team leveraged data science to improve the efficiency of our infrastructure, enabling us to compute optimum datastore and hardware usage.",
+      "author": "Nikhil Joshi and Viv Keswani",
+      "date": "December 17, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Big-Data-Header-Image-696x298.jpg",
+      "link": "https://eng.uber.com/uber-data-platform-2019/",
+      "title": "Uber’s Data Platform in 2019: Transforming Information to Intelligence"
+    },
+    {
+      "abstract": "We share technical challenges and lessons learned while productionizing and scaling XGBoost to train distributed gradient boosted algorithms at Uber.",
+      "author": "Joseph Wang, Anne Holler, Mingshi Wang, and Michael Mui",
+      "date": "December 10, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Header-Image-696x298.png",
+      "link": "https://eng.uber.com/productionizing-distributed-xgboost/",
+      "title": "Productionizing Distributed XGBoost to Train Deep Tree Models with Large Data Sets at Uber"
+    },
+    {
+      "abstract": "Plug and Play Language Model, introduced by Uber AI Labs, gives NLP practitioners the flexibility to plug in one or more simple attribute models into a large, unconditional language model.",
+      "author": "Rosanne Liu, Sumanth Dathathri, Andrea Madotto, Piero Molino, and Jason Yosinski",
+      "date": "December 5, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Header-696x298.png",
+      "link": "https://eng.uber.com/pplm/",
+      "title": "Controlling Text Generation with Plug and Play Language Models"
+    },
+    {
+      "abstract": "By integrating graph learning techniques with our Uber Eats recommendation system, we created a more seamless and individualized user experience for eaters on our platform.",
+      "author": "Ankit Jain, Isaac Liu, Ankur Sarda, and Piero Molino",
+      "date": "December 4, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/Uber-Eats-Header-696x298.png",
+      "link": "https://eng.uber.com/uber-eats-graph-learning/",
+      "title": "Food Discovery with Uber Eats: Using Graph Learning to Power Recommendations"
+    },
+    {
+      "abstract": "Uber is presenting 11 papers at the NeurIPS 2019 conference in Vancouver, Canada, as well as sponsoring workshops including Women in Machine Learning (WiML) and Black in AI.",
+      "author": "Matthias Poloczek and Jason Yosinski",
+      "date": "December 4, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/image4-696x298.jpg",
+      "link": "https://eng.uber.com/neurips-2019/",
+      "title": "Uber Goes to NeurIPS 2019"
+    },
+    {
+      "abstract": "Uber introduces RxCentral, an open source library to reliably and repeatedly connect Bluetooth devices using a platform-agnostic, reactive design.",
+      "author": "Kevin Babcock and Joe Soultanis",
+      "date": "December 3, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/12/RxCentral_Feature_image-696x365.png",
+      "link": "https://eng.uber.com/rxcentral-bluetooth-connection-library-rxcentralble/",
+      "title": "RxCentral: Uber’s Open Source Library for Seamless Bluetooth Integrations"
+    },
+    {
+      "abstract": "Uber's 2020 AI Residency will focus on initiatives related to our self-driving car project through Uber Advanced Technology Group (ATG).",
+      "author": "Ersin Yumer, Zoubin Ghahramani, and Raquel Urtasun",
+      "date": "November 26, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/AI-Residency-program-696x348.png",
+      "link": "https://eng.uber.com/uber-ai-residency-2020/",
+      "title": "Announcing the 2020 Uber AI Residency"
+    },
+    {
+      "abstract": "Uber’s observability engineers present their work on distributed tracing (Jaeger), sampling (XYS), and metrics processing (M3).",
+      "author": "Bea Schuster",
+      "date": "November 26, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/11/Header-696x298.png",
+      "link": "https://eng.uber.com/optimizing-observability/",
+      "title": "Optimizing Observability with Jaeger, M3, and XYS at Uber"
+    },
+    {
+      "abstract": "Meet a few of the engineers from Uber's Boulder, Colorado office, working on everything from maps to new mobility to large-scale distributed systems.",
+      "author": "Jovanka Balac",
+      "date": "November 21, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/11/Boulder_profile_feature_image-696x340.jpg",
+      "link": "https://eng.uber.com/boulder-engineering-tech-office-profile/",
+      "title": "Global Tech in the Great Outdoors: Meet Uber’s Boulder Tech Office"
+    },
+    {
+      "abstract": "As part of Uber Visualization's all-team hackathon, we built Urban Symphony, an Uber Movement visualization that adds an audio component to traffic speed patterns.",
+      "author": "Jon Sadka",
+      "date": "November 20, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/11/image1.gif",
+      "link": "https://eng.uber.com/urban-symphony/",
+      "title": "Uber Visualization Highlights: How Urban Symphony Adds an Audio Dimension to Visualization"
+    },
+    {
+      "abstract": "To simplify the Uber Eats experience for our restaurant-partners, we built Menu Maker, a web-based tool for seamlessly managing menus on the Uber Eats app.",
+      "author": "Paul Hou",
+      "date": "November 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/11/image4-696x522.jpg",
+      "link": "https://eng.uber.com/introducing-menu-maker/",
+      "title": "Introducing Menu Maker: Uber Eats’ New Menu Management Tool"
+    },
+    {
+      "abstract": "Uber engineers describe Cadence, Uber’s open source workflow orchestration tool, its architecture, and its use in a series of informative presentations.",
+      "author": "Bea Schuster",
+      "date": "November 12, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/11/Cadence_feature_image-696x358.png",
+      "link": "https://eng.uber.com/open-source-orchestration-tool-cadence-overview/",
+      "title": "Conducting Better Business with Uber’s Open Source Orchestration Tool, Cadence"
+    },
+    {
+      "abstract": "Uber built beacon to improve vehicle location accuracy on our platform, leading to more seamless rider pickup and dropoff experiences.",
+      "author": "Hemabh Shekhar and Vivek Sankaravadivel",
+      "date": "November 6, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/11/Header-696x298.jpg",
+      "link": "https://eng.uber.com/beacon-improving-pickups-with-better-location-accuracy/",
+      "title": "Improving Pickups with Better Location Accuracy"
+    },
+    {
+      "abstract": "With the release of deck.gl version 7.3, Uber’s open source visualization tool now supports rendering massive geospatial data sets formatted according to the OGC 3D Tiles community standard.",
+      "author": "Ib Green, Chris Gervang, and Ian Villa",
+      "date": "October 29, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/10/Header-good-696x299.png",
+      "link": "https://eng.uber.com/3d-tiles-loadersgl/",
+      "title": "Taking City Visualization into the Third Dimension with Point Clouds, 3D Tiles, and deck.gl"
+    },
+    {
+      "abstract": "Attending ICCV, CoRL, or IROS 2019? Learn about Uber ATG's recent research in artificial intelligence by checking out our workshops, posters, and keynotes.",
+      "author": "Raquel Urtasun",
+      "date": "October 25, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/10/Header-ATG-696x298.png",
+      "link": "https://eng.uber.com/uber-atg-iccv-corl-iros-2019/",
+      "title": "Get to Know Uber ATG at ICCV, CoRL, and IROS 2019"
+    },
+    {
+      "abstract": "Uber's IT Engineering team builds the tools and systems that help other Uber employees do their jobs. Meet a few of these remarkable behind-the-scenes engineers.",
+      "author": "Arah Go",
+      "date": "October 24, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/10/IT_Eng_profile_feature_image-696x391.jpg",
+      "link": "https://eng.uber.com/it-engineering-meet-the-team-that-keeps-uber-moving/",
+      "title": "IT Engineering: Meet the Team that Keeps Uber Moving"
+    },
+    {
+      "abstract": "To accommodate additional ML use cases, Uber evolved Michelangelo's application of the Apache Spark MLlib library for greater flexibility and extensibility.",
+      "author": "Anne Holler and Michael Mui",
+      "date": "October 16, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/10/Michelangelo-Header-Image-696x298.png",
+      "link": "https://eng.uber.com/michelangelo-machine-learning-model-representation/",
+      "title": "Evolving Michelangelo Model Representation for Flexibility at Scale"
+    },
+    {
+      "abstract": "Uber has embraced Presto, a high performance, distributed SQL query engine, and joined the Presto Foundation. Meet the Uber engineers who contribute to and use Presto on a daily basis.",
+      "author": "Wayne Cunningham",
+      "date": "October 9, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/10/Presto_team_photo-2-1-696x456.jpg",
+      "link": "https://eng.uber.com/presto-team-profile/",
+      "title": "Building a Better Big Data Architecture: Meet Uber’s Presto Team"
+    },
+    {
+      "abstract": "When developing Uber's self driving car systems, engineers found a way to identify edge case scenarios amongst terabytes of sensor data representing real-world situations.",
+      "author": "Khalid Ashmawy, Shouheng Yi, and Alex Chao",
+      "date": "October 7, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Searchable_Ground_Truth_feature_image-696x338.png",
+      "link": "https://eng.uber.com/searchable-ground-truth-atg/",
+      "title": "Searchable Ground Truth: Querying Uncommon Scenarios in Self-Driving Car Development"
+    },
+    {
+      "abstract": "CTO Thuan Pham sat down with former intern, now employee, Sudhanshu Mishra to talk about his early experiences in the technology industry and growing Uber.",
+      "author": "Sudhanshu Mishra",
+      "date": "September 25, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Thuan_Sudhanshu-interview-feature-696x392.jpg",
+      "link": "https://eng.uber.com/cto-thuan-pham-interview/",
+      "title": "On Internships, Career Advice, and Reaching 15B Rides: A Conversation with Uber CTO Thuan Pham"
+    },
+    {
+      "abstract": "Uber is honored to join the Presto Foundation, a new initiative hosted by the Linux Foundation, to advance the open source data processing community.",
+      "author": "Molly Vorwerck",
+      "date": "September 23, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Uber-open-Source-header-696x298.png",
+      "link": "https://eng.uber.com/presto-foundation/",
+      "title": "Uber Joins LF Presto Foundation to Advance Open Source Analytics"
+    },
+    {
+      "abstract": "Uber introduces Hypothesis GU Func, a new extension to Hypothesis, as an open source Python package for unit testing.",
+      "author": "Ryan Turner",
+      "date": "September 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Hypothesis_GU_Funcs_feature_image-696x364.jpg",
+      "link": "https://eng.uber.com/hypothesis-gu-funcs-unit-testing/",
+      "title": "Introducing Hypothesis GU Funcs, an Open Source Python Package for Unit Testing"
+    },
+    {
+      "abstract": "Ankit Agrawal reflects on his internship with Uber Engineering, working on the Developer Experience team to build a feature that would highlight code errors in an IDE.",
+      "author": "Ankit Agrawal",
+      "date": "September 18, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Ankit_Agrawal_intern_feature_image-696x392.jpg",
+      "link": "https://eng.uber.com/internship-improving-developer-workflows/",
+      "title": "Gaining Confidence and Improving Android Developer Workflows as a Software Engineering Intern at Uber"
+    },
+    {
+      "abstract": "Uber Chief Scientist Zoubin Ghahramani explains how artificial intelligence went from academia to real-world applications, and how Uber uses it to make transportation better.",
+      "author": "Wayne Cunningham",
+      "date": "September 17, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Zoubin_Ghahramani_Science_Identity_feature-1-696x388.jpg",
+      "link": "https://eng.uber.com/improving-transportation-artificial-intelligence/",
+      "title": "Science at Uber: Improving Transportation with Artificial Intelligence"
+    },
+    {
+      "abstract": "Engineering manager Tory Schober talks about creating an Uber Freight engineering team in Chicago, and how that team will benefit from being close to its customer base.",
+      "author": "Wayne Cunningham",
+      "date": "September 12, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Uber_Freight_Chicago_feature_image-696x404.jpg",
+      "link": "https://eng.uber.com/uber-freight-chicago-engineering-office/",
+      "title": "Bringing Uber Freight to Chicago: A Conversation with Engineering Manager Tory Schober"
+    },
+    {
+      "abstract": "At an April 2019 meetup on ML and AI at Uber Seattle, members of our engineering team discussed three different approaches to enhancing our ML ecosystem.",
+      "author": "Bea Schuster",
+      "date": "September 11, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Header-Seattle-696x298.png",
+      "link": "https://eng.uber.com/three-approaches-to-scaling-machine-learning-with-uber-seattle-engineering/",
+      "title": "Three Approaches to Scaling Machine Learning with Uber Seattle Engineering"
+    },
+    {
+      "abstract": "Logan Jeya, Product Manager, explains how Uber's machine learning platform, Michelangelo, makes it easy to deploy models that enable data-driven decision making.",
+      "author": "Wayne Cunningham",
+      "date": "September 10, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Logan_Jeya_Science_Identity_feature-696x387.jpg",
+      "link": "https://eng.uber.com/uber-science-machine-learning-platform/",
+      "title": "Science at Uber: Powering Machine Learning at Uber"
+    },
+    {
+      "abstract": "Uber AI Labs proposes Loss Change Allocation (LCA), a new method that provides a rich window into the neural network training process.",
+      "author": "Janice Lan, Rosanne Liu, Hattie Zhou, and Jason Yosinski",
+      "date": "September 10, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Header-Image-696x298.png",
+      "link": "https://eng.uber.com/loss-change-allocation/",
+      "title": "Introducing LCA: Loss Change Allocation for Neural Network Training"
+    },
+    {
+      "abstract": "We built Cyborg, an open source implementation of VectorDrawable for iOS, to more easily implement designs across our apps.",
+      "author": "Ben Pious",
+      "date": "September 5, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/09/Header-696x298.png",
+      "link": "https://eng.uber.com/cyborg/",
+      "title": "Introducing Cyborg, an Open Source iOS Implementation of Android VectorDrawable"
+    },
+    {
+      "abstract": "Uber ATG Web Platform intern Anat Kleiman shares her advice for testing React version 16 components when altering application logic.",
+      "author": "Anat Kleiman",
+      "date": "August 29, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-1-696x298.jpg",
+      "link": "https://eng.uber.com/best-practices-for-react-v16/",
+      "title": "Best Practices for Unit Testing in React Version 16"
+    },
+    {
+      "abstract": "Uber Engineering details how GraphQL integrated into our Customer Care platform, making for more targeted queries and reducing server load.",
+      "author": "Kunyao Liu",
+      "date": "August 28, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/GraphQL_data_hydration-feature-image-696x392.jpg",
+      "link": "https://eng.uber.com/graphql-data-hydration-customer-care/",
+      "title": "Using GraphQL to Improve Data Hydration in our Customer Care Platform and Beyond"
+    },
+    {
+      "abstract": "Waleed Kadous, Principal Engineer at Uber, enjoys tackling technical challenges that bridge the digital and physical duality of Uber's problem space.",
+      "author": "Molly Vorwerck",
+      "date": "August 27, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-2-696x298.jpg",
+      "link": "https://eng.uber.com/science-at-uber-innovative-across-digital-and-physical-worlds/",
+      "title": "Science at Uber: Innovating Across Digital and Physical Worlds"
+    },
+    {
+      "abstract": "We redesigned the Uber Freight app with RIBs, our open source plugin architecture, to enable quicker feature rollouts and an improved user experience.",
+      "author": "Larry Wei, Tong Pan, and Senyang Zhuang",
+      "date": "August 22, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-Uber-Freight-1-696x348.jpg",
+      "link": "https://eng.uber.com/uber-freight-app-architecture-design/",
+      "title": "Building the New Uber Freight App as Lists of Modular, Reusable Components"
+    },
+    {
+      "abstract": "We sat down with Jeff Clune, Senior Research Manager, to talk about his work in AI, journey to Uber, and Presidential Early Career Achievement in Science and Engineering (PECASE) award.",
+      "author": "Molly Vorwerck",
+      "date": "August 21, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-Jeff-Clune-696x348.png",
+      "link": "https://eng.uber.com/jeff-clune-interview/",
+      "title": "Advancing AI: A Conversation with Jeff Clune, Senior Research Manager at Uber"
+    },
+    {
+      "abstract": "Suzette Puente, Uber Data Science Manager, shares how she applies her graduate work in statistics to forecast traffic patterns and generate better routes.",
+      "author": "Molly Vorwerck",
+      "date": "August 20, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-Suzette-696x348.jpg",
+      "link": "https://eng.uber.com/making-a-real-world-impact-with-data-science/",
+      "title": "Science at Uber: Making a Real-world Impact with Data Science"
+    },
+    {
+      "abstract": "Data science helps Uber determine which tables in a database should be off-boarded to another source to maximize the efficiency of our data warehouse.",
+      "author": "Ritesh Agrawal, Harsha Venkat Annapa Reddy, and Girish Baliga",
+      "date": "August 14, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Data_Warehouse_Efficiency_feature_image-696x365.png",
+      "link": "https://eng.uber.com/data-warehouse-efficiency/",
+      "title": "Less is More: Engineering Data Warehouse Efficiency with Minimalist Design"
+    },
+    {
+      "abstract": "Zoubin Ghahramani, Head of Uber AI, discusses how we use artificial intelligence techniques to make our platform more efficient for users.",
+      "author": "Wayne Cunningham",
+      "date": "August 13, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-Zoubin-696x348.jpg",
+      "link": "https://eng.uber.com/applying-artificial-intelligence-at-uber/",
+      "title": "Science at Uber: Applying Artificial Intelligence at Uber"
+    },
+    {
+      "abstract": "At the Uber Open Summit Sofia 2019, we showcased how open source technologies are driving the future of artificial intelligence, site reliability, and other domains.",
+      "author": "Eva Prodanova",
+      "date": "August 12, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-696x348.jpg",
+      "link": "https://eng.uber.com/uber-open-summit-sofia/",
+      "title": "Enabling Collaboration through Open Source: Highlights from Uber Open Summit Sofia 2019"
+    },
+    {
+      "abstract": "With zero downtime, Uber's Payments Engineering team embarked on a migration that would allow authorization hold logic to be written once and used across existing and future payments products.",
+      "author": "Shirish Gajera and Chris Blinn",
+      "date": "August 7, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Header-image-696x298.jpg",
+      "link": "https://eng.uber.com/migrating-functionality-between-production-systems/",
+      "title": "Migrating Functionality Between Large-scale Production Systems Seamlessly"
+    },
+    {
+      "abstract": "Dawn Woodard, Director of Data Science, considers travel time prediction one of Uber's most interesting mapping problems.",
+      "author": "Molly Vorwerck",
+      "date": "August 6, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/08/Dawn-Header-696x298.jpg",
+      "link": "https://eng.uber.com/science-at-uber-powering-ubers-ridesharing-technologies-through-mapping/",
+      "title": "Science at Uber: Powering Uber’s Ridesharing Technologies Through Mapping"
+    },
+    {
+      "abstract": "Uber Principal Engineer Waleed Kadous discusses how we assess technologies our teams can leverage to improve the reliability and performance of our platform.",
+      "author": "Molly Vorwerck",
+      "date": "July 30, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Header-Image-Real-696x298.jpg",
+      "link": "https://eng.uber.com/bringing-research-to-the-roads/",
+      "title": "Science at Uber: Bringing Research to the Roads"
+    },
+    {
+      "abstract": "Uber Poet, an open source mock application generator, helped us determine if refactoring the application part of our code into a few large modules would make our overall Swift build times faster.",
+      "author": "Mahyar McDonald",
+      "date": "July 25, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Header-2-696x298.jpg",
+      "link": "https://eng.uber.com/uber-poet/",
+      "title": "Introducing Uber Poet, an Open Source Mock App Generator for Determining Faster Swift Builds"
+    },
+    {
+      "abstract": "We redesigned Uber's web-based booking flow for riders who prefer a browser over the app, simplifying pickup options and speeding up interactivity.",
+      "author": "Madhur Chadha",
+      "date": "July 25, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Web_Booking_Flow_feature_image-696x392.png",
+      "link": "https://eng.uber.com/web-booking-flow/",
+      "title": "Building a More Seamless Web Booking Flow for Uber"
+    },
+    {
+      "abstract": "During our 2019 Uber European Technology Showcase, technical teams across the company discussed how we build products that drive safe and reliable transportation.",
+      "author": "Molly Vorwerck",
+      "date": "July 24, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Header-1-696x298.jpg",
+      "link": "https://eng.uber.com/european-tech-showcase/",
+      "title": "Showcasing the Technologies and Teams from Uber’s European Engineering Sites"
+    },
+    {
+      "abstract": "Ludwig version 0.2 integrates with Comet.ml, adds a new serving functionality, and incorporates the BERT text encoder, among other new features.",
+      "author": "Piero Molino, Yaroslav Dudin, and Sai Sumanth Miryala",
+      "date": "July 24, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Header-3-696x298.jpg",
+      "link": "https://eng.uber.com/ludwig-v0-2/",
+      "title": "Ludwig v0.2 Adds New Features and Other Improvements to its Deep Learning Toolbox"
+    },
+    {
+      "abstract": "Uber Director of Data Science Franziska Bell discusses how we created data science platforms at Uber, letting employees of all technical skills perform forecasts and analyze data.",
+      "author": "Wayne Cunningham",
+      "date": "July 23, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Fran_Bell_Science_Identity_feature-696x366.jpg",
+      "link": "https://eng.uber.com/building-ubers-data-science-platforms/",
+      "title": "Science at Uber: Building a Data Science Platform at Uber"
+    },
+    {
+      "abstract": "Uber AI Labs releases EvoGrad, a library for catalyzing gradient-based evolution research, and Evolvability ES, a new meta-learning algorithm enabled by this library.",
+      "author": "Alex Gajewski, Jeff Clune, Kenneth O. Stanley, and Joel Lehman",
+      "date": "July 22, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/EvoGrad-header-696x298.png",
+      "link": "https://eng.uber.com/evograd/",
+      "title": "Introducing EvoGrad: A Lightweight Library for Gradient-Based Evolution"
+    },
+    {
+      "abstract": "Uber engineers created uSCS, a Spark-as-a-Service solution that helps manage Apache Spark jobs throughout large organizations.",
+      "author": "Abhishek Modi and Adam Hudson",
+      "date": "July 17, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/uSCS_Drogon_Spark_feature_image-696x464.jpg",
+      "link": "https://eng.uber.com/uscs-apache-spark/",
+      "title": "Making Apache Spark Effortless for All of Uber"
+    },
+    {
+      "abstract": "The Plato Research Dialogue System enables experts and non-experts alike to quickly build, train, and deploy conversational AI agents.",
+      "author": "Alexandros Papangelis, Yi-Chia Wang, Mahdi Namazifar, and Chandra Khatri",
+      "date": "July 16, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Plato-header-696x298.png",
+      "link": "https://eng.uber.com/plato-research-dialogue-system/",
+      "title": "Introducing the Plato Research Dialogue System: A Flexible Conversational AI Platform"
+    },
+    {
+      "abstract": "Uber's MoneyCon brought together industry leaders to discuss the latest technologies and key learnings in the payments and finance engineering space.",
+      "author": "Mathieu Chauvin",
+      "date": "July 11, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/07/Header-696x298.jpg",
+      "link": "https://eng.uber.com/moneycon/",
+      "title": "MoneyCon ’19: Uber Hosts its First FinTech Engineering Conference"
+    },
+    {
+      "abstract": "In a selection of presentations delivered at a June 2019 Uber meetup, we discuss how to use H3, our open source hexagonal indexing system, to facilitate the granular mining of large geospatial data sets.",
+      "author": "Molly Vorwerck",
+      "date": "July 8, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/06/Header-for-H3.png",
+      "link": "https://eng.uber.com/visualizing-city-cores-with-h3/",
+      "title": "Visualizing City Cores with H3, Uber’s Open Source Geospatial Indexing System"
+    },
+    {
+      "abstract": "As head of Uber's Advanced Technologies Center in Paris, Francois Sillion and his team are responsible for supporting the R&D behind Uber Air, our effort to add a third dimension to our platform using flying vehicles.",
+      "author": "Wayne Cunningham",
+      "date": "June 26, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/06/Header-ATCP-696x298.png",
+      "link": "https://eng.uber.com/solving-for-urban-air-travel-a-qa-with-francois-sillion-director-of-uber-atcp/",
+      "title": "Solving for Urban Air Travel: A Q&A with François Sillion, Director of Uber ATCP"
+    },
+    {
+      "abstract": "Uber's Marketplace simulation platform leverages ML to rapidly prototype and test new product features and hypotheses in a risk-free environment.",
+      "author": "Haoyang Chen and Wei Wang",
+      "date": "June 24, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/06/Header-ML-696x298.jpg",
+      "link": "https://eng.uber.com/simulated-marketplace/",
+      "title": "Gaining Insights in a Simulated Marketplace with Machine Learning at Uber"
+    },
+    {
+      "abstract": "Uber Labs leverages causal inference, a statistical method for better understanding the cause of experiment results, to improve our products and operations analysis.",
+      "author": "Totte Harinen and Bonnie Li",
+      "date": "June 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/06/Header-Image-696x298.png",
+      "link": "https://eng.uber.com/causal-inference-at-uber/",
+      "title": "Using Causal Inference to Improve the Uber User Experience"
+    },
+    {
+      "abstract": "Uber AI's Piero Molino discusses Ludwig's origin story, common use cases, and how others can get started with this powerful deep learning framework built on top of TensorFlow.",
+      "author": "Molly Vorwerck",
+      "date": "June 14, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Ludwig-Header-696x298.png",
+      "link": "https://eng.uber.com/ludwig-deep-learning-toolbox/",
+      "title": "No Coding Required: Training Models with Ludwig, Uber’s Open Source Deep Learning Toolbox"
+    },
+    {
+      "abstract": "Jennifer Anderson, a veteran of Silicon Valley technology companies, leads Uber's Product Platform organization, which hosts our core services. In this interview, she describes her organization and the lessons she has learned.",
+      "author": "Wayne Cunningham",
+      "date": "June 13, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/06/JAnderson_interview_feature_image-e1560444134547-696x360.jpg",
+      "link": "https://eng.uber.com/jennifer-anderson-interview/",
+      "title": "Setting the Pace: A Q&A with Jennifer Anderson, Senior Director of Engineering at Uber"
+    },
+    {
+      "abstract": "Uber's Destination:Web meetup series gives great insight about the most current web building tools and techniques. These three videos from Uber presenters offer tips on a mysterious design pattern, the Elm language, and Progressive Enhancement.",
+      "author": "Wayne Cunningham",
+      "date": "June 7, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/06/Destination_Web_feature_image-696x162.png",
+      "link": "https://eng.uber.com/web-development-video-series-one/",
+      "title": "Learnings in Web Development: Design Patterns, Elm, and Progressive Enhancement"
+    },
+    {
+      "abstract": "A key challenge faced by self-driving vehicles comes during interactions with pedestrians. In our development of self-driving vehicles, the Data Engineering and Data Science teams at Uber ATG (Advanced Technologies Group) contribute to the data processing and analysis that help make these interactions safe.",
+      "author": "Steffon Davis",
+      "date": "June 4, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/06/Header-revised-696x298.png",
+      "link": "https://eng.uber.com/accelerating-self-driving-vehicle-development-with-data/",
+      "title": "Power On: Accelerating Uber’s Self-Driving Vehicle Development with Data"
+    },
+    {
+      "abstract": "On May 3, 2019, Uber’s Programming Systems Team hosted the Programming Systems and Tools Track of the company’s Second Uber Science Symposium, featuring a full day of talks by leading researchers and practitioners in the the field.",
+      "author": "Adam Welc",
+      "date": "May 31, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Headerr-696x298.jpg",
+      "link": "https://eng.uber.com/second-uber-science-symposium-programming-systems-and-tools/",
+      "title": "Second Uber Science Symposium: Showcasing Developments in Programming Systems and Tools"
+    },
+    {
+      "abstract": "Architecting the Uber driver app for Android, which needs to run for extended periods of time in the background, involved a unique idea where Activities and Services were not included in the structural foundations.",
+      "author": "Yohan Hartanto and Brian Attwell",
+      "date": "May 29, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Carbon_Android_Architecture_feature_image-696x390.png",
+      "link": "https://eng.uber.com/activity-service-dependency-android-app-architecture/",
+      "title": "Activity/Service as a Dependency: Rethinking Android Architecture for the Uber Driver App"
+    },
+    {
+      "abstract": "Uber Engineering Manager and open source software community member Felix Cheung talks about his work with the Apache Software Foundation, open source at Uber, and XGBoost, a machine learning library for optimized distributed gradient boosting.",
+      "author": "Wayne Cunningham",
+      "date": "May 22, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Felix_Cheung_feature_chad-peltola-unsplash-696x391.jpg",
+      "link": "https://eng.uber.com/uber-open-source-felix-cheung-inteview/",
+      "title": "Uber Open Source: Catching Up with Felix Cheung, Data Platform Engineering Manager"
+    },
+    {
+      "abstract": "On May 3, 2019, Uber’s Applied Behavioral Science team hosted the Behavioral Science Track of the Second Uber Science Symposium, featuring a full day of presentations delivered by leading researchers in the field.",
+      "author": "Laura Libby, Joshua Morris, and Candice Hogan",
+      "date": "May 20, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Featured2-696x298.png",
+      "link": "https://eng.uber.com/second-uber-science-symposium-behavioral-science/",
+      "title": "Second Uber Science Symposium: Exploring Advances in Behavioral Science"
+    },
+    {
+      "abstract": "Learn how to use Kepler.gl for data visualization through our tutorial, where we show how easy it is to load multiple datasets into Kepler.gl to visualize traffic safety in Manhattan.",
+      "author": "Carsten Jacobsen",
+      "date": "May 17, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Vis_Traffic_Safety_feature_image-696x251.png",
+      "link": "https://eng.uber.com/kepler-data-visualization-traffic-safety/",
+      "title": "Visualizing Traffic Safety with Uber Movement Data and Kepler.gl"
+    },
+    {
+      "abstract": "Implementing QUIC protocol against TCP over cellular networks on our apps led to a reduction of 10-30 percent in tail-end latencies for HTTP traffic.",
+      "author": "Rajesh Mahindra, Vinoth Chandar, and Ethan Guo",
+      "date": "May 14, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Header-QUIC-696x298.jpg",
+      "link": "https://eng.uber.com/employing-quic-protocol/",
+      "title": "Employing QUIC Protocol to Optimize Uber’s App Performance"
+    },
+    {
+      "abstract": "In this article, we share highlights from Uber’s annual Take Your Kids to Work Day celebration, an opportunity for the children of Uber parents to get a taste of what it’s like to work at a technology company.",
+      "author": "Amy Hooey",
+      "date": "May 8, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Header-3-696x298.png",
+      "link": "https://eng.uber.com/take-your-kids-to-work-day/",
+      "title": "Uber Engineering Celebrates Take Your Kids to Work Day"
+    },
+    {
+      "abstract": "In addition to joining the Urban Computing Foundation, Uber is contributing Kepler.gl, an open source geospatial analysis tool, as the organization's first hosted project.",
+      "author": "Molly Vorwerck",
+      "date": "May 7, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/05/Header-1.jpg",
+      "link": "https://eng.uber.com/urban-computing-foundation/",
+      "title": "Uber Joins Urban Computing Foundation, Contributes Kepler.gl as Organization’s First Hosted Project"
+    },
+    {
+      "abstract": "Uber builds upon the Lottery Ticket Hypothesis by proposing explanations behind these mechanisms and deriving a surprising by-product: the Supermask.",
+      "author": "Hattie Zhou, Janice Lan, Rosanne Liu, and Jason Yosinski",
+      "date": "May 6, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/blog_header_2-696x298.png",
+      "link": "https://eng.uber.com/deconstructing-lottery-tickets/",
+      "title": "Deconstructing Lottery Tickets: Zeros, Signs, and the Supermask"
+    },
+    {
+      "abstract": "Uber's Chief Scientist announces the launch of the Uber Research Publications Site, a portal for showcasing our contributions to the research community.",
+      "author": "Zoubin Ghahramani",
+      "date": "May 3, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/05/Header-UR-696x298.jpg",
+      "link": "https://eng.uber.com/introducing-the-uber-research-publications-site/",
+      "title": "Introducing the Uber Research Publications Site"
+    },
+    {
+      "abstract": "To determine if it made sense to adopt Kotlin for our Android monorepo, Uber's Mobile Engineering team measured Kotlin build performance at scale across a variety of project structures.",
+      "author": "Edgar Fernandes, Thales Machado, Tho Nguyen, and Zac Sweers",
+      "date": "April 30, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Header-2-696x298.png",
+      "link": "https://eng.uber.com/measuring-kotlin-build-performance/",
+      "title": "Measuring Kotlin Build Performance at Uber"
+    },
+    {
+      "abstract": "CatchMapError (CatchMe) is a system that automatically catches errors in Uber's map data with anonymized GPS traces from the driver app.",
+      "author": "Yuehai Xu, Congxiao Lu, Suneel Kaw, and Daniel Wolf",
+      "date": "April 25, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Header--696x298.png",
+      "link": "https://eng.uber.com/mapping-accuracy-with-catchme/",
+      "title": "Improving Uber’s Mapping Accuracy with CatchME"
+    },
+    {
+      "abstract": "Performing updates of individual records in Uber's over 100 petabyte Apache Hadoop data lake required building Global Index, a component that manages data bookkeeping and lookups at scale.",
+      "author": "Nishith Agarwal and Kaushik Devarajaiah",
+      "date": "April 23, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Global_Indexing_feature_image-696x452.jpg",
+      "link": "https://eng.uber.com/data-partitioning-global-indexing/",
+      "title": "Consistent Data Partitioning through Global Indexing for Large Apache Hadoop Tables at Uber"
+    },
+    {
+      "abstract": "We submitted Hudi to the Apache Incubator to ensure the long-term growth and sustainability of the project under The Apache Software Foundation.",
+      "author": "Brian Hsieh",
+      "date": "April 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Header-Image-696x298.png",
+      "link": "https://eng.uber.com/apache-hudi/",
+      "title": "Uber Submits Hudi, an Open Source Big Data Library, to The Apache Software Foundation"
+    },
+    {
+      "abstract": "Noticing increased latency in our metrics platform, Uber engineers track down a bug related to stack growth in a goroutine, resulting in a fix elevated to the Go open source GitHub repository.",
+      "author": "Richard Artoul",
+      "date": "April 18, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/M3DB_Ingestors_feature_image-e1576707852689-696x410.png",
+      "link": "https://eng.uber.com/optimizing-m3/",
+      "title": "Optimizing M3: How Uber Halved Our Metrics Ingestion Latency by (Briefly) Forking the Go Compiler"
+    },
+    {
+      "abstract": "Base Web is a React component library which implements the Base design language to act as a device-agnostic foundation for easily creating web applications.",
+      "author": "Nadiia Dmytrenko, Chase Starr, and Gergely Nemeth",
+      "date": "April 16, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Header-696x298.png",
+      "link": "https://eng.uber.com/introducing-base-web/",
+      "title": "Introducing Base Web, Uber’s New Design System for Building Websites in React"
+    },
+    {
+      "abstract": "Uber Technical Writer Shannon Brown offers three tips for creating concise, meaningful documentation.",
+      "author": "Shannon Brown",
+      "date": "April 15, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/4x3LOTG-696x522.png",
+      "link": "https://eng.uber.com/learning-on-the-go-engineering-efficiency-with-concise-documentation/",
+      "title": "Learning on the Go: Engineering Efficiency with Concise Documentation"
+    },
+    {
+      "abstract": "Celina Ward discusses her journey to engineering, what it was like to present at Kubecon 2018, and what’s next for M3, Uber's open source metrics platform.",
+      "author": "Molly Vorwerck",
+      "date": "April 12, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Header-696x298.jpg",
+      "link": "https://eng.uber.com/uber-open-source-celina-ward/",
+      "title": "Uber Open Source: Catching Up with Celina Ward, M3 Observability Engineer"
+    },
+    {
+      "abstract": "Uber Engineering Manager Marin Dimitrov shares his best practices for motivating an engineering team, keeping connected when your headquarters office is over 6,000 miles and 10 hours away, and leveraging open source software.",
+      "author": "Wayne Cunningham",
+      "date": "April 9, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Sofia_Marin_interview-696x522.jpg",
+      "link": "https://eng.uber.com/sofia-engineering-manager-marin-dimitrov-interview/",
+      "title": "Bridging the Gap from Sofia to San Francisco: A Conversation with Engineering Manager Marin Dimitrov"
+    },
+    {
+      "abstract": "Uber's IT Engineering team scaled mobile device management on macOS by leveraging open source tools and custom API-driven Chef cookbooks.",
+      "author": "Erik Gomez and Nate Walck",
+      "date": "April 2, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/04/Header-MDM-696x348.jpg",
+      "link": "https://eng.uber.com/scaling-mobile-device-management-at-uber/",
+      "title": "Scaling Mobile Device Management for macOS with Chef at Uber"
+    },
+    {
+      "abstract": "In this short tutorial, we show you how to build a Hello World! application using Fusion.js, an open source universal web framework suitable for building interactive web applications.",
+      "author": "Carsten Jacobsen",
+      "date": "April 1, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/FusionJS_Hello_World_feature_image-696x522.png",
+      "link": "https://eng.uber.com/build-a-hello-world-application-in-5-minutes-with-fusion-js/",
+      "title": "Build a ‘Hello World!’ Application in 5 Minutes with Fusion.js"
+    },
+    {
+      "abstract": "Uber adopted workflow orchestration and Cadence, our open source orchestration engine, to better handle customer support ticket routing at scale.",
+      "author": "Ken Buckner",
+      "date": "March 28, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Cadence-header-696x298.png",
+      "link": "https://eng.uber.com/customer-obsession-ticket-routing-workflow-and-orchestration-engine/",
+      "title": "Improving the User Experience with Uber’s Customer Obsession Ticket Routing Workflow and Orchestration Engine"
+    },
+    {
+      "abstract": "What began as a means of showing Uber's driver-partners their real-time earnings quickly became an extensible means of communicating not just earnings, but also incentives and other useful information within our new driver app.",
+      "author": "Zebing Zong",
+      "date": "March 25, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Carbon_Earnings_Tracker_feature_image-696x464.jpg",
+      "link": "https://eng.uber.com/real-time-earnings-tracker/",
+      "title": "Building a Real-time Earnings Tracker into Uber’s New Driver App"
+    },
+    {
+      "abstract": "Uber's Maps Collection and Reporting (MapCARs) team shares best practices when choosing which HDFS file formats are optimal for use with Apache Spark.",
+      "author": "Scott Short",
+      "date": "March 21, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Spark-header-696x298.jpg",
+      "link": "https://eng.uber.com/hdfs-file-format-apache-spark/",
+      "title": "Uber Case Study: Choosing the Right  HDFS File Format for Your Apache Spark Jobs"
+    },
+    {
+      "abstract": "How engineers and data scientists at Uber came together to come up with a means of partially replicating Vertica clusters to better scale our data volume.",
+      "author": "Atul Gupte and Ritesh Agrawal",
+      "date": "March 20, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Partially_Replicated_Databases_feature-696x492.png",
+      "link": "https://eng.uber.com/solving-big-data-challenges-with-data-science-at-uber/",
+      "title": "Solving Big Data Challenges with Data Science at Uber"
+    },
+    {
+      "abstract": "Uber engineers offer two common use cases showing how we orchestrate machine learning model training in our data workflow engine.",
+      "author": "Jianyong Zhang, Eric Chen, and Sally Lee",
+      "date": "March 18, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Accessible_Machine_Learning_feature_image-696x463.jpg",
+      "link": "https://eng.uber.com/machine-learning-data-workflow-management/",
+      "title": "Accessible Machine Learning through Data Workflow Management"
+    },
+    {
+      "abstract": "The next Uber Open Summit, where we present our latest and most impactful open source projects, will be in Sofia, Bulgaria on April 20, 2019.",
+      "author": "Wayne Cunningham",
+      "date": "March 15, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Sofia_AdobeStock_144961113-696x392.jpeg",
+      "link": "https://eng.uber.com/uber-open-summit-sofia-2019/",
+      "title": "Announcing the Uber Open Summit Sofia 2019"
+    },
+    {
+      "abstract": "Uber engineers discuss the development of DBEvents, a change data capture system designed for high data quality and freshness that is capable of operating on a global scale.",
+      "author": "Nishith Agarwal and Ovais Tariq",
+      "date": "March 14, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/DBEvents_feature_image-696x464.jpg",
+      "link": "https://eng.uber.com/dbevents-ingestion-framework/",
+      "title": "DBEvents: A Standardized Framework for Efficiently Ingesting Data into Uber’s Apache Hadoop Data Lake"
+    },
+    {
+      "abstract": "We spoke to Data Science Director Fran Bell about machine learning at Uber and what she finds most challenging—and rewarding—about her work.",
+      "author": "Molly Vorwerck",
+      "date": "March 13, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Fran-Header-696x298.jpg",
+      "link": "https://eng.uber.com/data-science-at-scale-a-conversation-with-ubers-fran-bell/",
+      "title": "Data Science at Scale: A Conversation with Uber’s Fran Bell"
+    },
+    {
+      "abstract": "We sat down with a risk strategy manager and a risk engineer to discuss how they build solutions to minimize risk in the Uber Eats three-sided marketplace.",
+      "author": "Molly Vorwerck",
+      "date": "March 12, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Header-696x298.jpg",
+      "link": "https://eng.uber.com/uber-eats-risk-team/",
+      "title": "Mitigating Risk in a Three-Sided Marketplace: A Conversation with Trupti Natu and Neel Mouleeswaran on the Uber Eats Risk Team"
+    },
+    {
+      "abstract": "First introduced by Uber in November 2018, Peloton manages resources across large-scale, distinct workloads, combining separate compute clusters.",
+      "author": "Min Cai and Mayank Bansal",
+      "date": "March 8, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Peloton-header-696x298.jpg",
+      "link": "https://eng.uber.com/open-sourcing-peloton/",
+      "title": "Open Sourcing Peloton, Uber’s Unified Resource Scheduler"
+    },
+    {
+      "abstract": "Uber leveraged machine learning to design our capacity safety forecasting tooling with a special emphasis on calculating a quality of reliability score.",
+      "author": "Ranjib Dey, Shrey Desai, and Ruogu Du",
+      "date": "March 7, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Head-696x298.png",
+      "link": "https://eng.uber.com/machine-learning-capacity-safety/",
+      "title": "Using Machine Learning to Ensure the Capacity Safety of Individual Microservices"
+    },
+    {
+      "abstract": "Developed by Uber, Kraken is an open source peer-to-peer Docker registry capable of distributing terabytes of data in seconds.",
+      "author": "Cody Gibb, Evelyn Liu, and Yiran Wang",
+      "date": "March 5, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/03/Header-Kraken-696x298.jpg",
+      "link": "https://eng.uber.com/introducing-kraken/",
+      "title": "Introducing Kraken, an Open Source Peer-to-Peer Docker Registry"
+    },
+    {
+      "abstract": "Engineering interns from Uber's European offices talk about their experiences, including the projects they worked on, the people they worked with, and the social activities they engaged in.",
+      "author": "Linn Andenes",
+      "date": "March 4, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/AMS_interns_2019_feature-696x523.jpg",
+      "link": "https://eng.uber.com/engineering-internship-europe/",
+      "title": "The Uber Engineering Internship Experience: European Edition"
+    },
+    {
+      "abstract": "Our driver app's new server-driven preferences section enables driver-partners to customize their experiences to make the app better fit into their lives.",
+      "author": "Brett Dupree, Quynh Nguyen, and Bao Lei",
+      "date": "March 1, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Carbon_driver_preferences_feature_image-696x522.jpg",
+      "link": "https://eng.uber.com/carbon-driver-app-preferences-ribs/",
+      "title": "Architecting a Safe, Scalable, and Server-Driven Platform for Driver Preferences with RIBs"
+    },
+    {
+      "abstract": "In this article, we discuss Uber's journey toward a unified, multi-tenant, and scalable data workflow management system.",
+      "author": "Alex Kira",
+      "date": "February 28, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Uber-Data-Header-696x298.png",
+      "link": "https://eng.uber.com/managing-data-workflows-at-scale/",
+      "title": "Managing Uber’s Data Workflows at Scale"
+    },
+    {
+      "abstract": "Uber SRE Tatiana Romanova discusses her computer science background, journey to Uber, and work on the Payments Platform team in Amsterdam.",
+      "author": "Wayne Cunningham",
+      "date": "February 26, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Profile_Tatiana_Romanova_feature_image-696x463.jpg",
+      "link": "https://eng.uber.com/profile-tatiana-romanova-sre-amsterdam-payments-team/",
+      "title": "Profiles in Coding: Tatiana Romanova, Uber Payments Platform, Amsterdam"
+    },
+    {
+      "abstract": "In addition to providing official plugins, Fusion.js enables developers to build and integrate their own plugins by leveraging dependency injection.",
+      "author": "Carsten Jacobsen",
+      "date": "February 22, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Header-1-1-696x299.png",
+      "link": "https://eng.uber.com/creating-custom-plugins-with-fusionjs/",
+      "title": "Creating Custom Plugins with Fusion.js, Uber’s Open Source Web Framework"
+    },
+    {
+      "abstract": "Horovod adds support for more frameworks in the latest release and introduces new features to improve versatility and productivity.",
+      "author": "Carsten Jacobsen",
+      "date": "February 21, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Header-1-696x299.png",
+      "link": "https://eng.uber.com/horovod-pyspark-apache-mxnet-support/",
+      "title": "Horovod Adds Support for PySpark and Apache MXNet and Additional Features for Faster Training"
+    },
+    {
+      "abstract": "Created by Uber in 2017, Pyro was voted in by the Linux Foundation Deep Learning Technical Board as the latest incubation project to join its foundation.",
+      "author": "Fritz Obermeyer and Noah Goodman",
+      "date": "February 21, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Header-696x299.png",
+      "link": "https://eng.uber.com/pyro-lf-deep-learning-foundation/",
+      "title": "Pyro Accepted by the LF Deep Learning Foundation as a Hosted Project"
+    },
+    {
+      "abstract": "We spoke with Fritz Obermeyer and Noah Goodman, Pyro project co-leads, about the potential of open source AI software at Uber and beyond.",
+      "author": "Molly Vorwerck",
+      "date": "February 21, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Header-696x299.png",
+      "link": "https://eng.uber.com/fritz-obermeyer-noah-goodman-pyro-interview/",
+      "title": "Uber Open Source: Catching Up with Fritz Obermeyer and Noah Goodman from the Pyro Team"
+    },
+    {
+      "abstract": "Uber Sofia is also home to a vibrant community of women technologists, from software engineers and data analysts to designers and program managers.",
+      "author": "Eva Prodanova",
+      "date": "February 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Header-696x298.jpg",
+      "link": "https://eng.uber.com/sofia-women-in-tech/",
+      "title": "Meet Uber Sofia’s Women in Tech"
+    },
+    {
+      "abstract": "Uber announces the release of the Autonomous Visualization System (AVS) as an open source project. AVS is a standard for creating a visual environment based on sensor data from autonomous vehicles, with playback available in multiple formats, including the web and video.",
+      "author": "Xiaoji Chen, Joseph Lisee, Tim Wojtaszek, and Abhishek Gupta",
+      "date": "February 19, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Introducing_AVS_Banner-1-696x522.png",
+      "link": "https://eng.uber.com/avs-autonomous-vehicle-visualization/",
+      "title": "Introducing AVS, an Open Standard for Autonomous Vehicle Visualization from Uber"
+    },
+    {
+      "abstract": "Censored time-to-event data is critical to the proper modeling and understanding of customer engagement on the Uber platform. In this article, we demonstrate an easier way to model this data using Pyro.",
+      "author": "Hesen Peng and Fritz Obermeyer",
+      "date": "February 15, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/pyro_logo-hd-696x392.jpg",
+      "link": "https://eng.uber.com/modeling-censored-time-to-event-data-using-pyro/",
+      "title": "Modeling Censored Time-to-Event Data Using Pyro, an Open Source Probabilistic Programming Language"
+    },
+    {
+      "abstract": "In our ongoing series about rewriting the Uber driver app, engineer Kevin Babcock explains how we built the connection between the app and the Uber Beacon device, which displays a color remotely selected through a rider's app.",
+      "author": "Kevin Babcock",
+      "date": "February 14, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Uber_Beacon_feature_image-696x522.jpg",
+      "link": "https://eng.uber.com/uber-beacon-bluetooth-mobile-app/",
+      "title": "Engineering Uber Beacon: Matching Riders and Drivers in 24-bit RGB Colors"
+    },
+    {
+      "abstract": "The Uber Science Symposium featured talks from members of the broader scientific community about the the latest innovations in RL, NLP, and other fields.",
+      "author": "Mahdi Namazifar, Gokhan Tur, Jeff Clune, John Sears, Rosanne Liu, Xu Ning, and Zoubin Ghahramani",
+      "date": "February 12, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/image11-696x298.png",
+      "link": "https://eng.uber.com/uber-science-symposium-2018/",
+      "title": "First Uber Science Symposium: Discussing the Next Generation of RL, NLP, ConvAI, and DL"
+    },
+    {
+      "abstract": "Uber AI developed Ludwig, a code-free deep learning toolbox, to make deep learning more accessible to non-experts and enable faster model iteration cycles.",
+      "author": "Piero Molino, Yaroslav Dudin, and Sai Sumanth Miryala",
+      "date": "February 11, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Ludwig-Header-696x298.png",
+      "link": "https://eng.uber.com/introducing-ludwig/",
+      "title": "Introducing Ludwig, a Code-Free Deep Learning Toolbox"
+    },
+    {
+      "abstract": "In this article, Uber’s Marianne Borzic Ducournau discusses why financial planning at Uber presents unique and challenging opportunities for data scientists.",
+      "author": "Marianne Borzic Ducournau",
+      "date": "February 7, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Financial_Planning_for_DS_feature_image-1-696x522.png",
+      "link": "https://eng.uber.com/financial-planning-for-data-scientist/",
+      "title": "Why Financial Planning is Exciting… At Least for a Data Scientist"
+    },
+    {
+      "abstract": "Ever wondered what it’s like to work in tech at Uber New York City? Just blocks from Times Square and Bryant Park, Uber’s new office in midtown Manhattan is home to more than a dozen teams, hundreds of employees (and growing), and a wide variety of engineering roles.",
+      "author": "Alexandra Sofen",
+      "date": "February 6, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/02/Uber-NYC-Photo-696x298.jpg",
+      "link": "https://eng.uber.com/uber-nyc-2019/",
+      "title": "Building Locally, Scaling Globally: Meet the Tech Team at Uber New York City"
+    },
+    {
+      "abstract": "In its first year, the Career Prep Program, a collaboration between Uber and The Hidden Genius Project, demonstrated how technology-focused companies can embrace and reinforce values of diversity and inclusion among engineers, while having a positive impact in the community.",
+      "author": "Wayne Cunningham",
+      "date": "January 30, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Hidden_Genius_wrap_feature_image-696x464.jpg",
+      "link": "https://eng.uber.com/increasing-representation-uber/",
+      "title": "Increasing Representation at Uber through The Hidden Genius Project"
+    },
+    {
+      "abstract": "AresDB, Uber's open source real-time analytics engine, leverages GPUs to enable real-time computation and data processing in parallel.",
+      "author": "Jian Shen, Ze Wang, David Wang, Jeremy Shi, and Steven Chen",
+      "date": "January 29, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Featured-1-696x298.png",
+      "link": "https://eng.uber.com/aresdb/",
+      "title": "Introducing AresDB: Uber’s GPU-Powered Open Source, Real-time Analytics Engine"
+    },
+    {
+      "abstract": "Uber Labs utilizes insights and methodologies from behavioral science to build programs and products that are intuitive and enjoyable for users on our platform.",
+      "author": "Priya Kamat and Candice Hogan",
+      "date": "January 28, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Featured2-696x298.png",
+      "link": "https://eng.uber.com/applied-behavioral-science-at-scale/",
+      "title": "How Uber Leverages Applied Behavioral Science at Scale"
+    },
+    {
+      "abstract": "Many people around the world use Android phones based on hardware developed in 2015 and earlier. Uber engineers explain how they developed a lightweight rider app to serve this global audience.",
+      "author": "Harshit Bangar, Prateek Garg, Uday Jalan, Manish Bharani, and Anindya Chakraborty",
+      "date": "January 23, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Uber_Lite_Feature_image-696x411.png",
+      "link": "https://eng.uber.com/engineering-uber-lite/",
+      "title": "Expanding Access: Engineering Uber Lite"
+    },
+    {
+      "abstract": "Uber intern Lau Skorstengaard shares his experience working on YQL, the graph query language for our in-house infrastructure state aggregation platform.",
+      "author": "Lau Skorstengaard",
+      "date": "January 16, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Header-696x298.jpg",
+      "link": "https://eng.uber.com/aarhus-engineering-internship/",
+      "title": "Aarhus Engineering Internship: Building Aggregation Support for YQL, Uber’s Graph Query Language for Grail"
+    },
+    {
+      "abstract": "Uber built Manifold, a model-agnostic visualization tool for ML performance diagnosis and model debugging, to facilitate a more informed and actionable model iteration process.",
+      "author": "Lezhi Li and Yang Wang",
+      "date": "January 14, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Header-1-696x298.png",
+      "link": "https://eng.uber.com/manifold/",
+      "title": "Manifold: A Model-Agnostic Visual Debugging Tool for Machine Learning at Uber"
+    },
+    {
+      "abstract": "In our ongoing series about rewriting the Uber driver app, engineer Chris Haugli explains how we designed the map display to be resilient, and always show the most useful information.",
+      "author": "Chris Haugli",
+      "date": "January 10, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Carbon_maps_feature_image-696x348.jpg",
+      "link": "https://eng.uber.com/building-a-scalable-and-reliable-map-interface-for-drivers/",
+      "title": "Building a Scalable and Reliable Map Interface for Drivers"
+    },
+    {
+      "abstract": "Uber AI Labs releases Atari Model Zoo, an open source repository of both trained Atari Learning Environment agents and tools to better understand them.",
+      "author": "Felipe Petroski Such, Vashisht Madhavan, Rosanne Liu, Rui Wang, Yulun Li, Jeff Clune, and Joel Lehman",
+      "date": "January 9, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Header-696x298.png",
+      "link": "https://eng.uber.com/atari-zoo-deep-reinforcement-learning/",
+      "title": "Creating a Zoo of Atari-Playing Agents to Catalyze the Understanding of Deep Reinforcement Learning"
+    },
+    {
+      "abstract": "Uber AI Labs introduces the Paired Open-Ended Trailblazer (POET), an algorithm that leverages open-endedness to push the bounds of machine learning.",
+      "author": "Rui Wang, Joel Lehman, Jeff Clune, and Kenneth O. Stanley",
+      "date": "January 8, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Header-Image-1-696x298.png",
+      "link": "https://eng.uber.com/poet-open-ended-deep-learning/",
+      "title": "POET: Endlessly Generating Increasingly Complex and Diverse Learning Environments and their Solutions through the Paired Open-Ended Trailblazer"
+    },
+    {
+      "abstract": "In this article, engineering manager Lili Kan reflects on her decision to lead Uber's Insurance Engineering team and discusses the challenges—and opportunities—of building insurance products for our platform.",
+      "author": "Lili Kan",
+      "date": "January 4, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/image1-5-696x298.png",
+      "link": "https://eng.uber.com/insurance-engineering/",
+      "title": "From Self-Driving Cars to Optimizing Claims Efficiency: My Unconventional Journey to Insurance Engineering"
+    },
+    {
+      "abstract": "Rather than shipping out our new driver app as a simple update to Android phones, Uber engineers delivered a dual binary package, enabling a safe and structured rollout of the new app while maintaining support for the previous version.",
+      "author": "James Barr and Zeyu Li",
+      "date": "January 3, 2019",
+      "image": "https://eng.uber.com/wp-content/uploads/2019/01/Carbon_dual_binary_feature_image-696x348.png",
+      "link": "https://eng.uber.com/carbon-dual-binary-mobile-app/",
+      "title": "How to Ship an App Rewrite Without Risking Your Entire Business"
+    },
+    {
+      "abstract": "During an October 2018 meetup, members of our Women in Statistics, Data, Optimization, and Machine Learning (WiSDOM) group presented on their technical work at Uber.",
+      "author": "Sreeta Gorripaty",
+      "date": "December 28, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Header-696x298.jpg",
+      "link": "https://eng.uber.com/women-in-data-science/",
+      "title": "Women in Data Science at Uber: Moving the World With Data"
+    },
+    {
+      "abstract": "For Uber's Profiles in Coding series, we interview Uber Freight engineer Sylvain Francois to find out the nature of his daily work and his best tips for coders.",
+      "author": "Wayne Cunningham",
+      "date": "December 27, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Profile_Sylvain_Francois_feature-696x522.jpg",
+      "link": "https://eng.uber.com/sylvain-francois-uber-freight/",
+      "title": "Profiles in Coding: Sylvain Francois, Uber Freight"
+    },
+    {
+      "abstract": "Our editors spotlight some of the year's most popular articles, from an overview of our Big Data platform to a first-person account of an engineer's immigrant journey.",
+      "author": "Molly Vorwerck and Wayne Cunningham",
+      "date": "December 20, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Giraffe-header-696x298.jpg",
+      "link": "https://eng.uber.com/2018-highlights/",
+      "title": "Year in Review: 2018 Highlights from the Uber Engineering Blog"
+    },
+    {
+      "abstract": "Brian Hsieh, Uber's Open Source program lead, reflects on open source accomplishments, project launches, and collaborations in 2018.",
+      "author": "Brian Hsieh",
+      "date": "December 19, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/ConorMyhrvold3-small_-696x418.jpg",
+      "link": "https://eng.uber.com/uber-open-source-2018/",
+      "title": "Year in Review: 2018 Highlights from Uber Open Source"
+    },
+    {
+      "abstract": "Uber's Head of Urban Computing & Visualization reflects on his team's work visualizing data to better understand urban mobility in 2018—and beyond.",
+      "author": "Nicolas Garcia Belmonte",
+      "date": "December 18, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Featured-Image-696x313.png",
+      "link": "https://eng.uber.com/uber-visualization-2018/",
+      "title": "Four Ways Uber Visualization Made an Impact in 2018"
+    },
+    {
+      "abstract": "Jonathan Levi recounts his experience as an intern at Uber during Summer 2018, including building a useful project for the Uber Eats team.",
+      "author": "Jonathan Levi",
+      "date": "December 17, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Header-for-intern-696x298.jpg",
+      "link": "https://eng.uber.com/uber-eats-menu-scheduler/",
+      "title": "Interning at Uber: Building the Uber Eats Menu Scheduler"
+    },
+    {
+      "abstract": "Horovod, Uber's distributed training framework, joins the LF Deep Learning Foundation to help advance open source innovation in AI, ML, and deep learning.",
+      "author": "Brian Hsieh",
+      "date": "December 13, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Header-1-696x298.png",
+      "link": "https://eng.uber.com/horovod-deep-learning-foundation/",
+      "title": "Horovod Joins the LF Deep Learning Foundation as its Newest Project"
+    },
+    {
+      "abstract": "We sat down with Horovod project lead, Alex Sergeev, to discuss his path to open source and what most excites him about the future of Uber's distributed deep learning framework.",
+      "author": "Molly Vorwerck",
+      "date": "December 13, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/image1-696x392.jpg",
+      "link": "https://eng.uber.com/alex-sergeev-horovod/",
+      "title": "Open Source at Uber: Meet Alex Sergeev, Horovod Project Lead"
+    },
+    {
+      "abstract": "Uber's new driver app leverages its offline mode along with a cash-drop system organized around restaurants so that Uber Eats customers can pay for deliveries with cash.",
+      "author": "Steven Austin",
+      "date": "December 12, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Carbon_Cash_feature_image-696x522.png",
+      "link": "https://eng.uber.com/driver-app-cash-payments/",
+      "title": "Scaling Cash Payments in Uber Eats"
+    },
+    {
+      "abstract": "Uber AI Labs introduces a method for making neural networks that process images faster and more accurately by leveraging JPEG representations.",
+      "author": "Lionel Gueguen, Alex Sergeev, Rosanne Liu, and Jason Yosinski",
+      "date": "December 11, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Header-696x298.png",
+      "link": "https://eng.uber.com/neural-networks-jpeg/",
+      "title": "Faster Neural Networks Straight from JPEG"
+    },
+    {
+      "abstract": "Part of Uber's open source M3 metrics system, our query engine can support real-time, large-scale computation and multiple query languages.",
+      "author": "Benjamin Raskin and Nikunj Aggarwal",
+      "date": "December 10, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/m3-696x298.jpg",
+      "link": "https://eng.uber.com/billion-data-point-challenge/",
+      "title": "The Billion Data Point Challenge: Building a Query Engine for High Cardinality Time Series Data"
+    },
+    {
+      "abstract": "Uber built Makisu, our open source Docker image builder, to enable the quick, reliable generation of Dockerfiles in Mesos and Kubernetes ecosystems.",
+      "author": "Evelyn Liu, Ed Oakes, Antoine Pourchet, and Yiran Wang",
+      "date": "December 6, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Makisu-696x392.jpg",
+      "link": "https://eng.uber.com/makisu/",
+      "title": "Introducing Makisu: Uber’s Fast, Reliable Docker Image Builder for Apache Mesos and Kubernetes"
+    },
+    {
+      "abstract": "As part of the OpenChain Project’s governing board, Uber will help create best practices and define standards for open source software compliance.",
+      "author": "Matt Kuipers",
+      "date": "December 6, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Uber-open-Source-header-696x298.png",
+      "link": "https://eng.uber.com/uber-openchain/",
+      "title": "Uber Joins the Linux Foundation’s OpenChain Project as a Platinum Member"
+    },
+    {
+      "abstract": "During a September 2018 meetup, Uber's Payments Platform team discusses how this technology supports our company's growth through an active-active architecture, exactly-once payment processing, and scalability across businesses.",
+      "author": "Dmitry Chornyi",
+      "date": "December 5, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Header-image-696x298.jpg",
+      "link": "https://eng.uber.com/payments-platform/",
+      "title": "Engineering Uber’s Next-Gen Payments Platform"
+    },
+    {
+      "abstract": "Uber's many data flows required modeling the data associated with a specific task, such as a rider trip, into a state machine. The state machine lets engineers focus on just the events needed to successfully accomplish a trip.",
+      "author": "Amey Chaugule",
+      "date": "December 4, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/12/Sessionizing_Data_feature_image-2-696x392.jpg",
+      "link": "https://eng.uber.com/sessionizing-data/",
+      "title": "Sessionizing Uber Trips in Real Time"
+    },
+    {
+      "abstract": "Metropolis-Hastings Generative Adversarial Networks (GANs) leverage the discriminator to pick better samples from the generator after ML model training is done.",
+      "author": "Ryan Turner, Jane Hung, Yunus Saatci, and Jason Yosinski",
+      "date": "November 29, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/blog_header-696x298.png",
+      "link": "https://eng.uber.com/mh-gan/",
+      "title": "How to Get a Better GAN (Almost) for Free: Introducing the Metropolis-Hastings GAN"
+    },
+    {
+      "abstract": "In our continuing series about building our new driver app, Uber engineers discuss building its Optimistic Mode feature, which lets the app continue functioning while traversing network lag areas.",
+      "author": "Chris Francis, Chris McGrath, Flynn Howling, Jatin Lodhia, and Yohan Hartanto",
+      "date": "November 28, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Carbon_Optimistic_Mode_feature_image-696x392.jpg",
+      "link": "https://eng.uber.com/driver-app-optimistic-mode/",
+      "title": "How Uber’s New Driver App Overcomes Network Lag"
+    },
+    {
+      "abstract": "Uber AI Labs introduces Go-Explore, a new reinforcement learning algorithm for solving a variety of challenging problems, especially in robotics.",
+      "author": "Adrien Ecoffet, Joost Huizinga, Joel Lehman, Kenneth O. Stanley, and Jeff Clune",
+      "date": "November 26, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Go-Explore-new-header-696x348.png",
+      "link": "https://eng.uber.com/go-explore/",
+      "title": "Montezuma’s Revenge Solved by Go-Explore, a New Algorithm for Hard-Exploration Problems (Sets Records on Pitfall, Too)"
+    },
+    {
+      "abstract": "Uber hosted its first Open Summit on November 15, inviting the open source community to learn about our open source projects from the engineers who  use them every day. Check out highlights from the day, including keynotes from the Linux Foundation's Jim Zemlin and Uber AI's Zoubin Ghahramani.",
+      "author": "Wayne Cunningham",
+      "date": "November 20, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Uber_Open_recap_feature-696x391.jpg",
+      "link": "https://eng.uber.com/uber-open-summit-2018-highlights/",
+      "title": "Collaboration at Scale: Highlights from Uber Open Summit 2018"
+    },
+    {
+      "abstract": "Uber’s Observability team built a robust, scalable metrics and alerting pipeline to detect, mitigate, and notify engineers of issues as they occur.",
+      "author": "Shreyas Srivatsan",
+      "date": "November 20, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Header-696x298.png",
+      "link": "https://eng.uber.com/observability-at-scale/",
+      "title": "Observability at Scale: Building Uber’s Alerting Ecosystem"
+    },
+    {
+      "abstract": "Announced during the Uber Open Summit 2018, we extend our commitment to open source by joining the Linux Foundation as a Gold Member.",
+      "author": "Brian Hsieh",
+      "date": "November 15, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Uber-open-Source-header-696x298.png",
+      "link": "https://eng.uber.com/linux-uber-gold-membership/",
+      "title": "Uber Joins the Linux Foundation as a Gold Member"
+    },
+    {
+      "abstract": "Uber welcomes Jan Pedersen as a Distinguished Scientist to our Uber AI group, where he will bring his extensive experience to our efforts in improving artificial intelligence and machine learning.",
+      "author": "Wayne Cunningham",
+      "date": "November 15, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Jan_Pedersen_announce_feature-02-696x290.png",
+      "link": "https://eng.uber.com/uber-hires-jan-pedersen/",
+      "title": "Experience in AI: Uber Hires Jan Pedersen"
+    },
+    {
+      "abstract": "Horovod, Uber's open source distributed deep learning system, enables NVIDIA to scale model training from one to eight GPUs for their self-driving sensing and perception technologies.",
+      "author": "Molly Vorwerck",
+      "date": "November 14, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Header-case-study-696x219.jpg",
+      "link": "https://eng.uber.com/nvidia-horovod-deep-learning/",
+      "title": "NVIDIA: Accelerating Deep Learning with Uber’s Horovod"
+    },
+    {
+      "abstract": "The Uber AI Residency is a 12-month training program for academics and professionals interested in becoming an AI researcher with Uber AI Labs or Uber ATG.",
+      "author": "Theofanis Karaletsos, Ersin Yumer, Raquel Urtasun, and Zoubin Ghahramani",
+      "date": "November 13, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/unnamed-1-696x222.png",
+      "link": "https://eng.uber.com/ai-residency-2019/",
+      "title": "Announcing the 2019 Uber AI Residency"
+    },
+    {
+      "abstract": "Samuel Zemedkun reflects on his immigrant experience and how his part-time driving through the Uber platform funded his education and inspired his decision to join the company.",
+      "author": "Samuel Zemedkun",
+      "date": "November 12, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Sami-header-696x392.jpg",
+      "link": "https://eng.uber.com/fabric-weaver-to-software-engineer/",
+      "title": "My Journey from Working as a Fabric Weaver in Ethiopia to Becoming a Software Engineer at Uber in San Francisco"
+    },
+    {
+      "abstract": "In our continuing series about building our new driver app, Uber engineers discuss designing the architecture of the mobile app using RIBs, our open source mobile development framework.",
+      "author": "Yohan Hartanto and Sami Aref",
+      "date": "November 9, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Carbon_architecture_feature_169-696x392.png",
+      "link": "https://eng.uber.com/driver-app-ribs-architecture/",
+      "title": "Architecting Uber’s New Driver App in RIBs"
+    },
+    {
+      "abstract": "Quantile treatment effects (QTEs) enable our data scientists to capture the inherent heterogeneity in treatment effects when riders and drivers interact within the Uber marketplace.",
+      "author": "Matthias Lux",
+      "date": "November 7, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/ETA-Header-696x392.png",
+      "link": "https://eng.uber.com/analyzing-experiment-outcomes/",
+      "title": "Analyzing Experiment Outcomes: Beyond Average Treatment Effects"
+    },
+    {
+      "abstract": "We sat down with Uber's Head of Information Technology to discuss her journey to tech services, what she finds most challenging about her work at Uber, and how her team is setting the company up for success.",
+      "author": "Molly Vorwerck",
+      "date": "November 6, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/10/Header-3-696x391.png",
+      "link": "https://eng.uber.com/shobhana-ahluwalia/",
+      "title": "Engineering Sustainability: An Interview with Uber’s Head of Information Technology, Shobhana Ahluwalia"
+    },
+    {
+      "abstract": "Uber built Michelangelo, our machine learning platform, in 2015. Three years later, we reflect our journey to scaling ML at Uber and lessons learned along the way.",
+      "author": "Jeremy Hermann and Mike Del Balso",
+      "date": "November 2, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/11/Michelangelo-header-696x392.png",
+      "link": "https://eng.uber.com/scaling-michelangelo/",
+      "title": "Scaling Machine Learning at Uber with Michelangelo"
+    },
+    {
+      "abstract": "Uber developed Peloton to help us balance resource use, elastically share resources, and plan for future capacity needs.",
+      "author": "Min Cai and Mayank Bansal",
+      "date": "October 30, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/10/Peloton-Header-2-1-696x392.png",
+      "link": "https://eng.uber.com/resource-scheduler-cluster-management-peloton/",
+      "title": "Peloton: Uber’s Unified Resource Scheduler for Diverse Cluster Workloads"
+    },
+    {
+      "abstract": "Home to Uber's Payments and Developer Platform teams, Uber Amsterdam is the company's largest engineering office outside of the U.S.",
+      "author": "Morgan Sebree",
+      "date": "October 24, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/10/Amsterdam-Header-696x391.jpg",
+      "link": "https://eng.uber.com/uber-amsterdam-profile-2018/",
+      "title": "Transforming Payments & Empowering Developers: Meet the Uber Amsterdam Tech Team"
+    },
+    {
+      "abstract": "Uber open source projects leads give updates on seven of our projects, all of which will be showcased at the upcoming Uber Open Summit 2018.",
+      "author": "Wayne Cunningham",
+      "date": "October 24, 2018",
+      "image": "https://eng.uber.com/wp-content/uploads/2018/10/Uber-open-source-overview-feature-696x392.png",
+      "link": "https://eng.uber.com/uber-open-source-overview-2018/",
+      "title": "Preview 7 Open Source Projects from the Uber Open Summit"
+    }
+  ]
+}
