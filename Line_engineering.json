@@ -1,0 +1,1073 @@
+[
+  {
+    "title": "\u3010Team & Project\u3011 Introducing LINE\u2019s Infrastructure Security Experts",
+    "date": " 2020.12.23",
+    "abstract": "\nLINE\u2019s software engineers belong in development centers comprised of different departments running various projects. The Team & Project series takes a closer look at these departments and projects, their roles, team structure, tech stacks, challenges that lie ahead, roadmaps, and more. In this blog post, we interviewed members of the Infra Protection Team who keep [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/introducing-lines-infrastructure-security-experts/",
+    "author": "LINE Engineering"
+  },
+  {
+    "title": "Engineers at LINE Fukuoka Participated in a Virtual Hackathon",
+    "date": " 2020.12.18",
+    "abstract": "\nAt the LINE Fukuoka development department, 80 engineers participated in a remote ideathon and hackathon for two weeks. I\u2019ll introduce how we prepared the event remotely and the deliverables that were presented at the event. Engineers at LINE Fukuoka participate in a hackathon every year (except last year when we couldn\u2019t run the event). This [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/engineers-at-line-fukuoka-participated-in-a-virtual-hackathon/",
+    "author": "Nakaly"
+  },
+  {
+    "title": "Abuser detection random forest model and hyperparameter tuning",
+    "date": " 2020.11.11",
+    "abstract": "\nHello everyone, I\u2019m Dekai Wah, currently an intern at LINE\u2019s Game Security Department.\u00a0In our department, we work on different facets of securing games from cheating behavior. These could range from obfuscating code\u00a0to analysis of suspicious behavior on our game servers.\u00a0In this project, my teammate Yoshiki Kusama and I analyzed the game data retrieved from our [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/abuser-detection-random-forest-model-and-hyperparameter-tuning/",
+    "author": "Dekai Wah"
+  },
+  {
+    "title": "An intern\u2019s tale of designing LINE\u2019s firewall secretary",
+    "date": " 2020.09.28",
+    "abstract": "\nGreetings! Today I\u2019m going to write about my experience as an intern working on LFMS \u2013 the LINE Firewall Management Service \u2013 and more specifically, how I designed a part of it called\u00a0Service Risk Scoring. But first, let me quickly introduce myself. My name is Valeri Haralanov \u2013 in English-speaking contexts I go by the [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/designing-line-firewall-secretary/",
+    "author": "Valeri Haralanov"
+  },
+  {
+    "title": "\u3010Team & Project\u3011 Meet the team that is in charge of the LINE app\u2019s messaging server development, as well as development and operation of the Apache Kafka Platform",
+    "date": " 2020.09.24",
+    "abstract": "\nThe Team & Project series takes a look at different departments within the development organization at LINE Corp. (\u201cLINE\u201d) and introduces their roles, team structure, tech stacks, challenges that lie ahead, roadmaps, and more. In this edition, we sat down to chat with the team that develops the LINE app\u2019s messaging server and develops and [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/z-part-team/",
+    "author": "LINE Engineering"
+  },
+  {
+    "title": "Adding experimental WebAssembly support to Decaton \u2013 Part 2",
+    "date": " 2020.09.17",
+    "abstract": "\nIn the 1st part of this article, we looked into how we can integrate WebAssembly runtime into a Java application. Then we faced a big limitation of current Wasm/WASI that it doesn\u2019t support sockets, making most of the practical Decaton processors difficult to be hosted on it due to disabled network I/O. In this 2nd [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-2/",
+    "author": "Kawamura Yuto"
+  },
+  {
+    "title": "Adding experimental WebAssembly support to Decaton \u2013 Part 1",
+    "date": " 2020.09.17",
+    "abstract": "\nWebAssembly\u00a0is a binary instruction format for a stack-based virtual machine, which aims to be a compilation target of many programming languages to enable executing a program at any place like browsers, embedded devices, and servers with high portability, high performance, and sandboxing capability. Wasm recently caught my interest along with the\u00a0Rust programming language, and I [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/adding-experimental-webassembly-support-to-decaton-part-1/",
+    "author": "Kawamura Yuto"
+  },
+  {
+    "title": "Monitoring applications with Prometheus and Metricat",
+    "date": " 2020.07.28",
+    "abstract": "\nIn this blog post, I would like to talk about the development of monitorable applications with Prometheus. I will also introduce one of the personal projects I work on in my free time which can help with the development of such applications \u2013 Metricat. Observability Observability has become one of the essential characteristics of modern [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/monitoring-applications-prometheus-metricat/",
+    "author": "Viacheslav Kapilevich"
+  },
+  {
+    "title": "API documentation with comments parsing",
+    "date": " 2020.07.22",
+    "abstract": "\nAs a technical writer, I get excited every time I start a new project. At the starting point, it gives me freedom as it is wide open with possibilities. Such a freedom motivates me to explore new domains.\u00a0From\u00a0that perspective, I find technical documentation consulting exciting as it gives me an opportunity to try new things [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/api-documentation-comments-parsing/",
+    "author": "jeongeun-jeon"
+  },
+  {
+    "title": "Using Circuit Breakers with Armeria",
+    "date": " 2020.07.08",
+    "abstract": "\nWhat is a circuit breaker? Suppose an unexpected failure occurs (For example, a network issue or a server crash) and a remote server is unable to respond to the request. If so, the client who made the request to the remote server will either wait for a response until a timeout occurs, consume resources, or [\u2026]\n#Armeria #java\n",
+    "link": "https://engineering.linecorp.com/en/blog/circuit-breakers-armeria/",
+    "author": "Seunghwan Joo"
+  },
+  {
+    "title": "Let\u2019s Play with Reactive Streams on Armeria \u2013 Part 2",
+    "date": " 2020.07.03",
+    "abstract": "\nIn the first part of this blog post, we took a look at the basic concepts of Reactive Streams. In part 2 of this blog post, I\u2019d like to tell you about how we use Reactive Streams with Armeria. What\u2019s Armeria? Armeria is an open-source asynchronous HTTP/2, RPC, REST client/server library based on Java 8, [\u2026]\n#Armeria #java #Open Source\n",
+    "link": "https://engineering.linecorp.com/en/blog/reactive-streams-armeria-2/",
+    "author": "Ikhun Um"
+  },
+  {
+    "title": "LINE Securities: Page Stack revisited",
+    "date": " 2020.06.15",
+    "abstract": "\n2 years ago I posted an article about why and how we achieved\u00a0Smooth page transition with Page Stack.\u00a0We adopted this approach for LINE Securities, and pushed it a little further. In this article, I am going to show you what we have done to improve it, and also what problems we are currently facing. Header [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/page-stack-revisited/",
+    "author": "sunderls"
+  },
+  {
+    "title": "Who murdered my lovely Prometheus container in Kubernetes cluster?",
+    "date": " 2020.06.01",
+    "abstract": "\nThis blog post is about an interesting experience I had while investigating and resolving a problem that happened in the Prometheus container which was still in the CrashLoopBackoff state. The phenomenon itself and the solution are obvious and simple; so simple that you may feel that it is not worth it to spend time on [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/prometheus-container-kubernetes-cluster/",
+    "author": "littledriver"
+  },
+  {
+    "title": "High-throughput distributed rate limiter",
+    "date": " 2020.05.14",
+    "abstract": "\nProduction-grade systems usually consist of multiple interconnected components that depend on each other. Popularization of the microservice architectures in recent years has led to an increase in the number of components and their interconnectivity. To protect each component from overloading and guarantee overall system quality of service, rate limiters can be used. Many articles and [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/high-throughput-distributed-rate-limiter/",
+    "author": "Viacheslav Kapilevich"
+  },
+  {
+    "title": "Keeping up with ever-changing web development trends",
+    "date": " 2020.05.13",
+    "abstract": "\nWeb Directions, a conference founded by John Allsopp and Maxine Sherrin in 2004, covers all facades of web and digital professionals such as web design, front-end and back-end development, information architecture, interaction design, product design, accessibility, product management, and other interesting topics. Most of the conferences have been held in Australia with the Web Directions [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/web-development-trends/",
+    "author": "Cipto Hartanto"
+  },
+  {
+    "title": "A new challenge for LINE Timeline \u2013 1",
+    "date": " 2020.05.13",
+    "abstract": "\nA feature called \u201cDiscover\u201d and a new subscription model called \u201cFollow\u201d have been added to the LINE Timeline service. Although users are familiar with these features, we ended up writing this post because we wanted to share the parts that we had considered and made efforts on within these features. Starting with this introduction, we have planned a three-part series to bring you more detailed information.\n#Recommendation #Server-dev\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-timeline-explorer-discover-1/",
+    "author": "Kyoungbok Lee"
+  },
+  {
+    "title": "How we developed and integrated \u2018share\u2019 module into LINE app \u2013 2",
+    "date": " 2020.05.11",
+    "abstract": "\nIn Part I, we defined the following six categories to share our experience, difficulties and solutions of the Share module development for LINE iOS and covered the first two categories.\nIn this Part II, we will cover the remaining four categories. We will continue our story with the thinking process we went through to implement a structure for easier maintenance and expansion, on top of meeting various requirements for many LINE services.\n#data\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-app-share-module-2/",
+    "author": "Hyeonji Jo / Keonhong Lee"
+  },
+  {
+    "title": "How we developed and integrated \u2018share\u2019 module into LINE app \u2013 1",
+    "date": " 2020.05.11",
+    "abstract": "\nHi, there! We are Hyeonji Jo and Keonhong Lee, responsible for LINE iOS client development. Here we\u2019d like to share our experience during the development of the Share module development on LINE for iOS, focusing on the difficulties we faced and how we overcame them. \n#data\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-app-share-module-1/",
+    "author": "Hyeonji Jo / Keonhong Lee"
+  },
+  {
+    "title": "Let\u2019s Play with Reactive Streams on Armeria \u2013 Part 1",
+    "date": " 2020.05.06",
+    "abstract": "\nWhat is Reactive Streams? In this post, I\u2019d like to introduce the basic concept of Reactive Streams, and how to use Reactive Streams with Armeria, the open-source asynchronous HTTP/2, RPC, REST client/server library. Let\u2019s begin by examining what Reactive Streams is. The\u00a0official homepage of Reactive Streams\u00a0defines it as follows. Reactive Streams is a standard for [\u2026]\n#java\n",
+    "link": "https://engineering.linecorp.com/en/blog/reactive-streams-armeria-1/",
+    "author": "Ikhun Um"
+  },
+  {
+    "title": "How LINE messaging servers prepare for New Year\u2019s traffic",
+    "date": " 2020.04.14",
+    "abstract": "\nThis post is the result of the combined efforts and work of many. We\u2019d like to thank all of you who were involved in preparation for New Year\u2019s traffic. Getting started LINE shows a unique traffic pattern typical to online messaging apps. This happens at the midnight of December 31st\u00a0when users start to share New [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/how-line-messaging-servers-prepare-for-new-years-traffic/",
+    "author": "Lee Kyoung Chan / Han Seung Wook"
+  },
+  {
+    "title": "LINE Developers site: From Middleman to VuePress",
+    "date": " 2020.03.10",
+    "abstract": "\nHi, we\u2019re Roman Lossa and Marshall Gunnell, a front-end developer and technical writer both working on the\u00a0LINE Developers site\u00a0here at LINE.\u00a0 Our team\u2019s mission statement is simple:\u00a0Empower\u00a0developers using the LINE Platform to\u00a0accomplish more\u00a0with\u00a0less friction. In other words, our goal is to provide a platform that allows developers to be self-sufficient, confident, and able to quickly [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developers-site-from-middleman-to-vuepress/",
+    "author": "Marshall Gunnell & Roman Lossa"
+  },
+  {
+    "title": "LINE Security Bug Bounty Program Report 2019",
+    "date": " 2020.03.02",
+    "abstract": "\nHello! I am\u00a0Robin Lunde\u00a0from the LINE Security team.2019 was a very eventful year for the LINE Bug Bounty program.I would like to share with you some of the highlights and key takeaways from 2019, as well as our plans for 2020. Transition to HackerOne In late 2018 through early 2019, we began investigating the potential [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-security-bug-bounty-program-report-2019/",
+    "author": "Robin Lunde"
+  },
+  {
+    "title": "Developing the Antman Project",
+    "date": " 2020.02.26",
+    "abstract": "\nCloud storage services for media have greatly risen in popularity over the past couple of years. Services such as Google Photos and NAVER nCloud are such examples. LINE also provides its users with a service named LINE Album, a service that lets users permanently store and view their photos on a cloud server. LINE Album [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/developing-the-antman-project/",
+    "author": "Joonsick Baick"
+  },
+  {
+    "title": "Monitoring a Spring Boot app in Kubernetes \u2013 What I learned from Devoxx Belgium 2019",
+    "date": " 2019.12.23",
+    "abstract": "\nThis November, accompanied by 3 other members of the Shop team, I attended Devoxx Belgium 2019, held in Antwerp, Belgium \u2013 the birthplace of Devoxx and most populous city of Belgium. Devoxx is a developer community conference series started in 2001 which quickly grew to become one of the largest vendor-independent Java conferences in the [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/monitoring-a-spring-boot-app-in-kubernetes-what-i-learned-from-devoxx-belgium-2019/",
+    "author": "Teo"
+  },
+  {
+    "title": "Learning to Work Better as a Team at LeSS Conference 2019",
+    "date": " 2019.12.17",
+    "abstract": "\nIntroduction to LeSS Conference Large-Scale Scrum (LeSS),\u00a0co-created by Craig Larman and Bas Vodde,\u00a0is a framework for scaling lean and agile development to big product groups. The LeSS conference is a gathering of LeSS practitioners from different countries and companies, where they share their experiences on Scrum and LeSS adoption. For the fourth\u00a0annual LeSS Conference hosted [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/learning-to-work-better-as-a-team-at-less-conference-2019/",
+    "author": "Ange Wei"
+  },
+  {
+    "title": "Building Large Kubernetes Clusters",
+    "date": " 2019.12.03",
+    "abstract": "\nIntroduction LINE supports its developers so that they can fully focus on development. This was the background of implementing Nucleo, LINE\u2019s in-house Kubernetes-based service, taking care of infrastructure on behalf of developers. Nucleo currently services 800 apps with about 4,000 pods.\u00a0The number of apps is growing by the minute. All the workloads are being managed [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters/",
+    "author": "Lee Seung"
+  },
+  {
+    "title": "LINE Android & iOS Engineer Workshop and Hackathon 2019",
+    "date": " 2019.11.27",
+    "abstract": "\nHello everyone, I\u2019m Aldo, an Android developer at LINE. In this article, I\u2019m going to share my experience in attending LINE Developer Workshop and Hackathon 2019. The aim of the event was in \u201cclosing the distance\u201d between LINERs; since for the most part, we usually only communicate through online platforms. Android and iOS developers from [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-android-ios-engineer-workshop-and-hackathon-2019/",
+    "author": "Aldo Kelvianto Wachyudi"
+  },
+  {
+    "title": "LINE at COSCUP 2019",
+    "date": " 2019.10.28",
+    "abstract": "\nWhat is COSCUP COSCUP is one of the biggest open source conferences around Asia. It is an annual conference that has been held by the open source community since 2006 and acted as the major advocate of the free open-source software\u00a0movement (FOSSM) in\u00a0Taiwan.\u00a0COSCUP\u00a0is composed of talks, sponsor and community booths, and BoF (Birds of a [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-at-coscup-2019/",
+    "author": "Claire Wang"
+  },
+  {
+    "title": "UIT Global Workshop 2019",
+    "date": " 2019.10.21",
+    "abstract": "\nLINE offers various services in the global scene, ranging from its famous instant messaging, content delivery (e.g., news, music, and video), and financial services (e.g., LINE Pay and personal finance app). The UIT team at LINE is responsible for the web front-end technology of these services, working hard across different time zones from Korea, Japan, [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/uit-global-workshop-2019/",
+    "author": "Hyeseong Oh"
+  },
+  {
+    "title": "LINE\u2019s Web-based services and technology. Isn\u2019t LINE an app developer?",
+    "date": " 2019.09.30",
+    "abstract": "\nHello to all! I\u2019m Seok Heo, a web service developer at LINE. I\u2019d like to introduce you to LINE\u2019s various web-based services and their architecture, technology stack, and development methodologies in this post. To simplify things, I\u2019ve classified LINE\u2019s web-based services into web services, hybrid web apps, messenger, and library/platform.\n#Front-End\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-web-services-technology/",
+    "author": "\ud5c8\uc11d"
+  },
+  {
+    "title": "LINE Taiwan Security Meetup \u2013 BECKS #3",
+    "date": " 2019.09.23",
+    "abstract": "\nInformation security has always been one of the key focuses of LINE. LINE has always strove to actively promote various security enhancement strategies over the years. As a part of our ongoing effort towards information security, LINE information security engineers hold a meetup known as BECKS (a portmanteau of beer and hacks) in Korea, Japan, [\u2026]\n#Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-taiwan-security-meetup-becks/",
+    "author": "Claire Wang"
+  },
+  {
+    "title": "The Repetitions Eliminator R Library \u201cmmetrics\u201d",
+    "date": " 2019.09.10",
+    "abstract": "\nHave you ever faced a situation where you need to compute the same metrics using similar or even the same computation formulas over and over again? How do you usually handle those repetitive tasks?\u00a0As many engineers in our field of work know,\u00a0dplyr\u00a0is one of the most cool and efficient data wrangling grammars that provide us [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-repetitions-eliminator-r-library-mmetrics/",
+    "author": "Yanjin Li"
+  },
+  {
+    "title": "SeleniumConf Tokyo 2019",
+    "date": " 2019.08.22",
+    "abstract": "\nIntroduction to SeleniumConf Selenium is one of the most popular automated software testing frameworks for the past decade. There are Selenium conferences in different cities around the world held\u00a0on a regular basis. This year\u2019s event, for the first time, was held in Tokyo. And it was also our first time attending a technical conference in [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/seleniumconf-tokyo-2019/",
+    "author": "Marc Lihan and Kent Han"
+  },
+  {
+    "title": "App Design and Development Conference: An iOS Developer\u2019s Impression",
+    "date": " 2019.08.14",
+    "abstract": "\nA great app needs both developers and designers working together, but we often have different tools and care about different aspects of the product. It can sometimes be difficult to coordinate our work, but at LINE we always try new ways to work more effectively. For instance, I\u2019ve trained designers on our team on how [\u2026]\n#ADDC #design sprint #iOS #SwiftUI\n",
+    "link": "https://engineering.linecorp.com/en/blog/app-design-and-development-conference-an-ios-developers-impression/",
+    "author": "Ray Tsaihong"
+  },
+  {
+    "title": "A walkthrough of my experience at WWDC19",
+    "date": " 2019.07.22",
+    "abstract": "\nThe Apple World Wide Developer Conference (WWDC) is an annual event for developers who want to see the latest announcements from Apple. I was blessed with the opportunity to attend WWDC19, and I\u2019m grateful that LINE covered all the expenses to make it happen. As this was the first time attending this wonderful conference for [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/a-walkthough-of-my-experience-at-wwdc19/",
+    "author": "Kuan-Wei Lin"
+  },
+  {
+    "title": "Developer interview with Trustin",
+    "date": " 2019.07.16",
+    "abstract": "\nQ. Hello, Trustin! Let\u2019s start with a brief introduction of yourself. A. Hi. My name is Trustin, and I\u2019m currently involved in open source development of\u00a0Armeria\u00a0and\u00a0Central Dogma\u00a0at LINE. Before I joined\u00a0LINE, I worked at\u00a0Twitter, responsible for the maintenance of\u00a0Netty\u00a0as well as the development of new features and upgrades to next versions. Q. You seem to [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/developer-interview-with-trustin/",
+    "author": "LINE Engineering"
+  },
+  {
+    "title": "Monitoring to prevent game cheating",
+    "date": " 2019.07.12",
+    "abstract": "\nIt has been six years since we\u2019ve began LINE GAME, and over those six years we\u2019ve been through many experiences. Today, I\u2019d like to share some lessons we\u2019ve learned along the six-year journey of LINE GAME, specifically focusing on how we used monitoring to prevent game cheating. When I say \u201cgame cheat\u201d in this blog [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/monitoring-to-prevent-game-cheating/",
+    "author": "Lee Myeongjae"
+  },
+  {
+    "title": "Cutting through the smog: making an air quality bot with Haskell",
+    "date": " 2019.07.01",
+    "abstract": "\nShort and long-term exposure to air pollution can result in significant health problems. When air quality is considered unhealthy we should avoid certain activities, which poses a question that bears asking: how can we get notified when air quality is poor? This post is an attempt at solving this. In this tutorial, I want to [\u2026]\n",
+    "link": "https://engineering.linecorp.com/en/blog/cutting-through-the-smog-making-an-air-quality-bot-with-haskell/",
+    "author": "Alexandre Moreno"
+  },
+  {
+    "title": "Highlight LINE THAILAND DEVELOPER CONFERENCE 2019 \u2013 \u2018Endless Possibilities with LINE API\u2019",
+    "date": " 2019.06.21",
+    "abstract": "\n\nHi there, I\u2019m Tan, a member of Developer Relations team in LINE Thailand. Recently, LINE Thailand has held the first technology conference by the name of \u201cLINE Thailand DEVELOPER CONFERENCE 2019\u201d. The event took place at BITEC Bangna on Saturday, May 25th. We had many developer guests as well as people from technology communities, with a pleasantly surprising participation count of more than 800 participants.\n\n\n\n\n#LINE API #LINE Developers #LINE Platform #LINE Thailand #LINEDEVCONF2019\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-thailand-developer-conference-2019/",
+    "author": "Tan"
+  },
+  {
+    "title": "How and what front-end developers actually do at LINE?",
+    "date": " 2019.06.19",
+    "abstract": "\nHello to the world! I\u2019m Yeon-Eui Hong from Developer Relations Team. I\u2019d like to take this opportunity to share the story of the\u00a0LINE Developers Meetup\u00a0held for the second time in Korea, on April 16, 2019. The theme of this meetup was \u201cLINE front-end developers, what do they actually do and how?\u201d I was proud to [\u2026]\n#frontend #frontend #meetup\n",
+    "link": "https://engineering.linecorp.com/en/blog/how-and-what-front-end-developers-actually-do-at-line/",
+    "author": "Yeoneui Hong"
+  },
+  {
+    "title": "Another one bites the apple!",
+    "date": " 2019.06.14",
+    "abstract": "\n\nHello, world! I\u2019m Ramses, responsible for security assessment at LINE. My work is to try to hack LINE services and find a way to enhance its security. During my personal time, I find and report security vulnerabilities in third party services\u00a0also. This is my way of contributing to building a more secure world. Among hackers, this is called a bug hunt. Hackers participate in bug hunting to win a bounty, build their reputation as a hacker or just because they enjoy hacking itself. Many hackers target Apple products for bug hunting, and I\u2019m writing this post to share my journey of bug hunting with Apple products. \n\n#Apple #Hacking #Security #XNU\n",
+    "link": "https://engineering.linecorp.com/en/blog/another-one-bites-the-apple/",
+    "author": "Junho Jang (ramses)"
+  },
+  {
+    "title": "First experience and takeaways of Google I/O 2019",
+    "date": " 2019.06.11",
+    "abstract": "\nGoogle I/O is an annual developer conference held by Google that brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at Google\u2019s latest developer products. As an Android developer, it\u2019s a dream to attend this conference, or you could say, festival. I am so honored and [\u2026]\n#Google IO\n",
+    "link": "https://engineering.linecorp.com/en/blog/first-experience-and-takeaways-of-google-io-2019/",
+    "author": "Rene Tsai"
+  },
+  {
+    "title": "LINE Things automatic communication",
+    "date": " 2019.06.05",
+    "abstract": "\nThe long-awaited \u201cAutomatic Communication\u201d functionality has finally been released. This new feature will allow Bluetooth LE communication even if the LINE Things app is not launched. LINE Things-compatible IoT devices will be able to work closely with a LINE bot in an instant with this feature.\n\n#LINE Things #LINE Things\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-things-automatic-communication/",
+    "author": "Ukrit Pongsathaporn"
+  },
+  {
+    "title": "Make your GitHub contributions calendar greener (featuring Armeria Sprint)!",
+    "date": " 2019.05.14",
+    "abstract": "\nHi, there! Do any of you need to make lots and lots of commits to turn your\u00a0GitHub contribution calendar\u00a0into a pastureland? If that\u2019s the case, I proudly present\u00a0Armeria Sprint! Let me give you some ideas on what Armeria Sprint is and share reviews from our enthusiastic participants. You\u2019ve probably come across a sprint at technical [\u2026]\n#Armeria #Open Source #OpenSource\n",
+    "link": "https://engineering.linecorp.com/en/blog/armeria-sprint-1/",
+    "author": "SeoYeon Lee"
+  },
+  {
+    "title": "Introducing LINE Games analytics environment",
+    "date": " 2019.05.13",
+    "abstract": "\nBig data and data analysis have long been popular key words in the IT world. Nowadays, they are no longer a choice but a necessity. Everyone is piling up and digging up data to find a meaning from big data. To achieve success in this \u201cfact-finding\u201d process, we need an appropriate analytics environment. Today I\u2019d like to share with you how and what LINE has built for game analysis.\n#data analysis #LINE Games\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-game-data-analysis/",
+    "author": "myunghoon yi"
+  },
+  {
+    "title": "VueConf TO 2018 Recap",
+    "date": " 2019.05.02",
+    "abstract": "\nVueConf TO\u00a0is North America\u2019s biggest Vue conference\u00a0with attendees from all around the world, including Vue.js core team members, Nuxt.js, Vuetify.js and main library authors, along with expert speakers from the community. Vue\u00a0is an open-source JavaScript\u00a0framework\u00a0for building user interfaces and single-page applications,\u00a0which lower the barrier and complexity of\u00a0frontend development. It\u2019s one of the most popular\u00a0framework nowadays [\u2026]\n#frontend #JavaScript #Vue #Vue.js\n",
+    "link": "https://engineering.linecorp.com/en/blog/vueconf-to-2018-recap/",
+    "author": "Ted Wu"
+  },
+  {
+    "title": "Thank you for contributing to Armeria!",
+    "date": " 2019.04.16",
+    "abstract": "\nHello to the readers! I\u2019d like to share with you the first ever Armeria Contributor Reward Event and how it went.\u00a0For this posting, I\u2019m not going to elaborate on the technical aspects of Armeria. To learn more about its technology and features, please visit the\u00a0official website for Armeria. The\u00a0Armeria\u00a0project was initially developed by LINE but [\u2026]\n#Armeria #Open Source #open source\n",
+    "link": "https://engineering.linecorp.com/en/blog/thank-you-for-contributing-to-armeria/",
+    "author": "SeoYeon Lee"
+  },
+  {
+    "title": "Making a polygraph bot without a single line of coding!",
+    "date": " 2019.04.01",
+    "abstract": "\n\nThe LINE Messaging API comes with a feature to send and reply to a message via a bot. Today I\u2019m going to introduce how to make a polygraph bot with the LINE Messaging API, without coding a single line. Let\u2019s first take a look at how LINE polygraph bot works.\n#Bot #chatbot #LINE BOT #LINE BOT #LINE messaging API\n",
+    "link": "https://engineering.linecorp.com/en/blog/making-a-polygraph-bot-without-a-single-line-of-coding/",
+    "author": "LINE AFD Labs"
+  },
+  {
+    "title": "EuroSTAR Conference 2018",
+    "date": " 2019.03.20",
+    "abstract": "\nWhat is EuroSTAR Conference 2018 EuroSTAR is an annual Software Testing Conference hosted in Europe, in November.\u00a0The topics of the conference covered vary from improving software development process, like DevOps and Agile, or AI related automation testing, and also the mindset building-up to overcome recognization biases. For the details of this yearly Software Testers Festival, [\u2026]\n#EuroSTAR #Software Engineering #Software Test #Software Test Pattern #Test Automation\n",
+    "link": "https://engineering.linecorp.com/en/blog/eurostar-conference-2018/",
+    "author": "Tony Lu"
+  },
+  {
+    "title": "Synchronizing largely geographically distributed teams with Lint",
+    "date": " 2019.03.13",
+    "abstract": "\nIt\u2019s well known that as a team grows, the communication overhead increases geometrically until it takes up most of the time of the members. Static analysis can help us reduce the time cost, streamline the code review process, as well as to keep big teams synchronized. As you can imagine, in LINE we face challenging [\u2026]\n#Android #Lint #Static analysis\n",
+    "link": "https://engineering.linecorp.com/en/blog/synchronizing-geographically-distributed-teams-with-lint/",
+    "author": "Daniel Vila Teissiere"
+  },
+  {
+    "title": "Wrapping a native SDK for Unity: our challenges and choices",
+    "date": " 2019.03.06",
+    "abstract": "\nI am Wei Wang from the LINE SDK development team. Last year at LINE Dev Day 2018, we released our new open source LINE SDK for\u00a0iOS\u00a0and\u00a0Android. The SDK provides a modern way to integrate LINE Login and several APIs into your app, helping you create an engaging and personalized user experience. In addition to app [\u2026]\n#LINE Native SDK #LINE SDK #Unity\n",
+    "link": "https://engineering.linecorp.com/en/blog/wrapping-a-native-sdk-for-unity/",
+    "author": "Wei Wang"
+  },
+  {
+    "title": "LINE with OpenJDK: From compatibility check to things to watch out for",
+    "date": " 2019.02.25",
+    "abstract": "\nGood to see you all! I\u2019m YongChan Kwon, an SRE (Service Reliability Engineer) at the Service Engineering Team. As you can guess from the team name or my role,\u00a0I\u2019m more like a generalist, filling in the gaps between various stages in service life cycle such as infrastructure, development and service technology. As Oracle announced\u00a0its new [\u2026]\n#OpenJDK\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-open-jdk/",
+    "author": "YongChan Kwon"
+  },
+  {
+    "title": "conflr: Publishing R Markdown documents on Confluence",
+    "date": " 2019.02.13",
+    "abstract": "\nI\u2019m Hiroaki Yutani from Data Analysis team, Data Labs. Today, I\u2019m happy to announce\u00a0conflr\u00a0(pronounced as confl-R), an open source R package for publishing\u00a0R Markdown documents on\u00a0Atlassian Confluence. In this post, I\u2019ll briefly explain the motivation; why we need this, and how to use conflr. A gap between R Markdown and Confluence Confluence is one of [\u2026]\n#conflr #Confluence #R Markdown #RStudio\n",
+    "link": "https://engineering.linecorp.com/en/blog/conflr-published/",
+    "author": "Hiroaki Yutani"
+  },
+  {
+    "title": "Introducing Rekcurd for Clova",
+    "date": " 2019.02.13",
+    "abstract": "\nMachine learning (ML) is getting more and more popular these days. You probably are using it already at your work, or have been encouraged to have a go at it. Thanks to its popularity, we see more tools and frameworks for machine learning emerging. Not only that, anyone can learn linear regression, logistic regression as well as various deep learning algorithms such as Perceptron, Adaboost, Random Forest, Support Vector Machine and XGBoost. Although we are seeing growth in tools and frameworks for learning, there are not enough tools or frameworks for operating machine learning modules. Which brings me to introduce a machine learning management platform, Rekcurd, we use for the LINE\u2019s AI platform, Clova.\n\n\n\n\n#Clova #machine learning #Rekcurd\n",
+    "link": "https://engineering.linecorp.com/en/blog/drucker-management-operation-machine-learning-module-clova/",
+    "author": "Keigo Hattori"
+  },
+  {
+    "title": "AIR GO and APK Signing",
+    "date": " 2019.01.29",
+    "abstract": "\nHello you all, this is Seunghoon Kim, a member of the AIR GO development team at LINE. Previously on our blog, we had a chance to introduce AIR GO with this post,\u00a0Introducing AIR GO. Following up on the article, I\u2019d like to talk about APK Signing and what AIR GO detects in regards to it. [\u2026]\n#AIR GO #Android #APK Signing #Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/air-go-apk-signing/",
+    "author": "Seunghoon Kim"
+  },
+  {
+    "title": "The Agile + DevOps EAST 2018",
+    "date": " 2019.01.29",
+    "abstract": "\nThe\u00a0Agile + DevOps\u00a0is\u00a0one of the software conferences\u00a0TechWell Corporation\u00a0holds. The conference focuses on\u00a0seeking to accelerate the delivery of reliable and secure software applications. Also on\u00a0how the practice of Agile & DevOps brings cross-functional stakeholders together, to deliver software with greater speed and agility, while meeting quality and security demands. This conference give you an opportunity to [\u2026]\n#Agile #DevOps #QA\n",
+    "link": "https://engineering.linecorp.com/en/blog/agile-devops-east-2018/",
+    "author": "Pei-Yun Lee"
+  },
+  {
+    "title": "An overview of 2018 language models",
+    "date": " 2019.01.16",
+    "abstract": "\nHello, this is Tung from Clova team.\u00a0Clova is our AI platform that comes with the first generation smart devices as Clova Friends and Clova Wave. You can find more information on the products\u00a0here\u00a0(Sorry, the site is in Japanese). Today, as we start 2019, I want to invite you to reflect on a very hot topic [\u2026]\n#AI #language models #LSTM #NLP #Transfer\n",
+    "link": "https://engineering.linecorp.com/en/blog/overview-of-2018-language-models/",
+    "author": "Tung Nguyen"
+  },
+  {
+    "title": "Automatically inspecting and testing with Google Analytics",
+    "date": " 2019.01.14",
+    "abstract": "\nAbstract Google Analytics testing for TODAY Using Google Analytics (GA) is a common way to track traffic on websites. With GA, you\u00a0can\u00a0learn important information such as\u00a0the\u00a0number of visitors on a specific page and even\u00a0sort them by device model or country, so that\u00a0operations team can\u00a0use these data to\u00a0analyze\u00a0the\u00a0visitors\u2019 behavior.\u00a0After analyzing, operations team can strategically optimize the [\u2026]\n#Automation #GA #mitmproxy #python #QA #Robotframework\n",
+    "link": "https://engineering.linecorp.com/en/blog/auto-inspecting-testing-with-google-analytics/",
+    "author": "Edward Chen/Miki Liao"
+  },
+  {
+    "title": "Test Automation Workshop 2018 Tokyo",
+    "date": " 2018.12.18",
+    "abstract": "\nWelcome to Test Automation Workshop It\u2019s a great pleasure for me to share our latest event with you all. I am Moses Kim from the Software Engineer in Test team at LINE. Last October, test automation teams from LINE\u2019s global offices gathered at LINE Tokyo office for a workshop \u2014 Test Automation Workshop 2018 \u2014 [\u2026]\n#Dev culture #Test Automation #workshop\n",
+    "link": "https://engineering.linecorp.com/en/blog/test-automation-workshop-2018-tokyo/",
+    "author": "Moses Kim"
+  },
+  {
+    "title": "Making a Flex Message with LINE\u2019s Go SDK",
+    "date": " 2018.12.14",
+    "abstract": "\nHi there, this is\u00a0@sugyan (Twitter,\u00a0GitHub)\u00a0from LINE Kyoto office. This was first time for me to experience\u00a0 Kyoto\u2019s Summer, and boy, was it really hot or what!? (The original post in Japanese was published in August 2018.) In June 2018, a new message type, Flex Message, was introduced in the LINE Message API, allowing more complex [\u2026]\n#Go #summer homework\n",
+    "link": "https://engineering.linecorp.com/en/blog/flex-message-line-bot-sdk-go/",
+    "author": "sugyan"
+  },
+  {
+    "title": "Developing server-side with Kotlin & entering Clova Skill Awards",
+    "date": " 2018.12.07",
+    "abstract": "\nHello fellow readers! We are, Kagaya, working on the LINE GAME Platform development team and Akira, on the LINE LIVE Android app development team. Have you ever used Kotlin? Kotlin is a static-typed programming language that runs on JVM, and has been developed by JetBrains, well-known for making IDEs like IntelliJ and Android Studio. Kotlin [\u2026]\n#Android #Clova #Kotlin #Skill #summer homework\n",
+    "link": "https://engineering.linecorp.com/en/blog/server-side-kotlin-clova-skill-challenge/",
+    "author": "Hokuto Kagaya & Akira Iwaya"
+  },
+  {
+    "title": "FIDO at LINE: A First Step to a World Without Passwords",
+    "date": " 2018.12.07",
+    "abstract": "\nGetting closer to a world without passwords Today we are happy to announce that\u00a0LINE\u00a0has achieved the world\u2019s first FIDO Universal Server certification (as a service provider1)\u00a0for our authentication server \u2014 LINE Authentication Server. With FIDO authentication, LINE users can sign in and authenticate both using biometrics (for example, face and fingerprint), as well as with [\u2026]\n#Authentication #FIDO\n",
+    "link": "https://engineering.linecorp.com/en/blog/fido-at-line/",
+    "author": "Kieun Shin"
+  },
+  {
+    "title": "LINE Things (IoT platform) at IFA, Europe\u2019s largest consumer electronics exhibit",
+    "date": " 2018.11.16",
+    "abstract": "\nHello, this is Jose from the Developer Product department. I\u2019d like to share my visit to the\u00a0IFA held in Berlin from August 31 to September 5. Introducing IFA IFA,\u00a0Internationale Funkausstellung,\u00a0is the largest consumer electronics exhibition in Europe, held annually around September in Berlin, which\u00a0started off as a global exhibition on broadcasting technology. In the midst [\u2026]\n#LINE Things\n",
+    "link": "https://engineering.linecorp.com/en/blog/iot-platform-line-things-booth-europe-ifa/",
+    "author": "JoseLuis Takahashi"
+  },
+  {
+    "title": "Redis Lua script for atomic operations and cache stampede",
+    "date": " 2018.11.15",
+    "abstract": "\nHello, this is Kagaya, a member of the LINE GAME Platform development team. It\u2019s nice to be back after writing a post on\u00a0Lazybones\u00a0(Japanese post), in 2016. Redis and LINE GAME Platform The LINE GAME Platform uses Redis \u2014 in-memory no SQL database \u2014 for its main database, mainly for cache. For instance, we are using [\u2026]\n#Lua scripting #Redis\n",
+    "link": "https://engineering.linecorp.com/en/blog/redis-lua-scripting-atomic-processing-cache/",
+    "author": "Kagaya Hokuto"
+  },
+  {
+    "title": "Effective code review",
+    "date": " 2018.10.25",
+    "abstract": "\n\n    Now and then, code quality becomes an issue in a team and everyone starts to talk about how we can improve unit test and code coverage, but not for long. Eventually, it\u2019s not a hot topic anymore as people get busy. But then, you will experience d\u00e9j\u00e0 vu probably within a year, because the same idea comes back the next year. My name is Bryan Liu, a quality engineer working on test automation of LINE NOW, and I\u2019d like to share what I did to facilitate unit test and code review process in LINE Taiwan.\n#Code quality #Code review #PR size #PR template #Unit test\n",
+    "link": "https://engineering.linecorp.com/en/blog/effective-code-review/",
+    "author": "Bryan Liu"
+  },
+  {
+    "title": "Introducing Flex Message, a new message type for LINE Messaging API",
+    "date": " 2018.10.23",
+    "abstract": "\n\n    A new type of message has been added to the LINE Messaging API, Flex Message. We\u2019ve been using a template-typed message in which you could place plain text, stickers, images, media types like videos, buttons and URLs. This type is quite useful for where the user had to select an option from available options, but there were restrictions such as the maximum number of buttons allowed, which is 4, for the button template, or the order in which you had to arrange the elements for a layout \u2014 title, content, and buttons.\n\nWhat is Flex Message?\n\n    The Flex Message type frees you from the old restrictions and enables you to arrange layouts as desired. There is a display frame, but you can change the layout as you do with HTML code, and each component is neatly displayed. Here are a few of the layouts you can compose with Flex Message.\n\n\n#LINE BOT #Messaging API\n",
+    "link": "https://engineering.linecorp.com/en/blog/introducing-flex-message-a-new-message-type-for-line-messaging-api/",
+    "author": "Kazuki Nakajima"
+  },
+  {
+    "title": "Write the Docs Prague 2018 Recap",
+    "date": " 2018.10.05",
+    "abstract": "\n\n    Hi all, this is Jeongil from Technical Writing team in LINE. I am based in Korea, and have been in the field of Technical writing for the past ten years. Currently, my main job is writing and managing Clova documentation for third-party developers.\n\n\n    Perhaps this is the first time for you to hear of technical writing or may be you have heard about it but don\u2019t exactly know what it is. In Korea, there is no degree programs for technical writing and in fact, it is quite difficult to find a person of this profession, especially the ones in the software industry, writing infrastructure documents or API references.\n\n\n    Having a rather small ecosystem, us technical writers in Korea rely much on web searches or team members for getting the latest news, tips, know-hows and strategies for technical writing. We struggle with such limited resources. Write the Docs Prague 2018 really hit the spot for me.\n\n\n#release notes #technical debt #Technical writing #write the docs #WTD\n",
+    "link": "https://engineering.linecorp.com/en/blog/write-the-docs-prague-2018-recap/",
+    "author": "Jeongil Kang"
+  },
+  {
+    "title": "Write you a webpack for great good",
+    "date": " 2018.10.05",
+    "abstract": "\n\n    Module bundlers have become quite popular in the world of JavaScript. Today, I\u2019d like us to briefly see the concept of it, get into how it really works, and I\u2019ll share the story of making a module bundler myself.\n\nWhat is a module bundler?\n\n    Module systems structure a large-scale code base into units of modules. For long, there has been no module system for JavaScript, but ever since Node.js started to use a module system called CommonJS from 2009, modular programming became a common practice. Also, ES Module, a new module system, has been added to the JavaScript specification in the ECMAScript 2015. It\u2019s hard to imagine coding JavaScript without modules nowadays.\n#JavaScript #module bundler #summer homework\n",
+    "link": "https://engineering.linecorp.com/en/blog/write-you-a-webpack-for-great-good/",
+    "author": "Jun"
+  },
+  {
+    "title": "Introducing AIR GO",
+    "date": " 2018.09.28",
+    "abstract": "\n\nAIR GO is an app vulnerability scanning service for finding vulnerabilities in Android or iOS app package files (apk or ipa). AIR GO is somewhat similar to SandDroid, an open source project. Recently, LINE has been using AIR GO to check LINE apps for vulnerabilities before they are released, to provide secure services to LINE users. Anyone can access AIR GO simply by registering their email address. Actually, AIR GO had been introduced on the LINE website previously; today, I\u2019d like to discuss about it in more of a developer\u2019s point of view.\n\n\n\n\n#vulnerability detection\n",
+    "link": "https://engineering.linecorp.com/en/blog/introducing-air-go/",
+    "author": "Taewoo Kim"
+  },
+  {
+    "title": "Combining Slackbots into one, with gRPC",
+    "date": " 2018.09.21",
+    "abstract": "\n\n    Hello all! I am suzuki-shunsuke from LINE IT Strategy team who is in charge of developing and running internal systems. Today, I\u2019d like to share how I merged multiple Slack bots into one using gRPC.\n\nHow it all began\n\n    These days, my main tasks as a member of Slack management team, are making and operating slack bots at LINE. One day, we got a request to combine the bots we use into a single bot, for the following reasons:\n\n\nInviting numerous bots into a chat is a fuss.\nKnowing all the bots available is difficult.\nAdding more functions to a single bot is better than adding more bots.\n\n#grpc #slack #Slack Bot #summer homework\n",
+    "link": "https://engineering.linecorp.com/en/blog/combining-slackbots-into-one-with-grpc/",
+    "author": "Suzuki Shunsuke"
+  },
+  {
+    "title": "Go GC",
+    "date": " 2018.09.21",
+    "abstract": "\n\n    Hi, I am Okada(@ocadaruma), a member of the LINE Ads Platform team. I\u2019ve been interested in Go\u2019s GC (Garbage Collection or Garbage Collector) for a while, which got me even to write a post about it. Go is a programming language developed by Google and supports garbage collection. Go also supports concurrency through channels. Many companies, including Google, are using Go, and LINE also uses Go for developing tools and services.\n\nGo GC\n\n    Using Go, you can easily develop low-latency applications. Go GC seems much simpler than the runtime of other languages. As of Go 1.10, the garbage collector for Go is the Concurrent Mask & Sweep (CMS) collector which does not compact and is not generational. This is nothing like JVM.\n#Go #summer homework\n",
+    "link": "https://engineering.linecorp.com/en/blog/go-gc/",
+    "author": "Haruki Okada"
+  },
+  {
+    "title": "OpenStack Summit Vancouver 2018 Recap (2/2)",
+    "date": " 2018.08.28",
+    "abstract": "\n\n  Hello again, this is Nishiwaki from Verda 2 team at LINE. In my previous post, I\u2019ve shared a number of sessions about containers that seemed interesting as a session attendee. On this post, I\u2019d like to share our presentation in the summit, Excitingly simple multi-path OpenStack networking: LAG-less, L2-less, yet fully redundant The main topic of our presentation was the architecture of a data network center we were setting up for a new region and Neutron integration. The new architecture was built with enhanced capacity for east-west network traffic. Here are a recording of our presentation and slides for those who couldn\u2019t make it to the conference.\n#Openstack\n",
+    "link": "https://engineering.linecorp.com/en/blog/openstack-summit-vancouver-2018-recap-2-2/",
+    "author": "Yuki Nishiwaki"
+  },
+  {
+    "title": "Adding an HTML Component on AMP",
+    "date": " 2018.08.23",
+    "abstract": "\n\nHello, this is Kyo, a front-end engineer at LINE. I\u2019d like to share my story on AMP Project, Google\u2019s open source project. While you work on markup with AMP HTML, haven\u2019t you ever felt an urge to make a component yourself, or to add a feature to it? I hope my post will give you a little push on your back if you are still hesitating.\n\n\n#AMP #Component #google\n",
+    "link": "https://engineering.linecorp.com/en/blog/adding-an-html-component-on-amp/",
+    "author": "Shoyo Kyo"
+  },
+  {
+    "title": "Using Headless Chrome with chatbots",
+    "date": " 2018.08.07",
+    "abstract": "\n\n  Hi again, this is Nakajima, LINE\u2019s Developer Advocate.\n\nBe smart in using web with chatbots\n\n  I am sure you\u2019ve had at least one or more encounters with the following and ended up with frustration:\n\n\nEntering something in on mobile-unfriendly websites\nHaving to sign in every time you access a webpage\nEntering something in on smartphones itself\n\n\n  LINE the app is mostly used on smartphone, and this is why we value and put much effort into UX. Having been frustrated myself, I wondered how LINE could ease up the use case I\u2019ve mentioned earlier and tried out something that has never been done before. Which I\u2019d like to share with you in this post.\n#chatbot #headless chrome #summer homework\n",
+    "link": "https://engineering.linecorp.com/en/blog/using-headless-chrome-with-chatbots/",
+    "author": "Kazuki Nakajima"
+  },
+  {
+    "title": "Agile Testing Days 2017",
+    "date": " 2018.07.20",
+    "abstract": "\n\n  Last winter in 2017, we\u2014Marc and Kent, QA engineers from LINE Taiwan office\u2014had an opportunity to attend one of the most well known software testing conferences in Europe called Agile Testing Days 2017 in Potsdam, Germany. Agile Testing Days or ATD has been hosting this conference every year for almost a decade and the community grows each year. It was a four full day conference with over 600 attendees, 160 sessions and 130 speakers. The conference week was jam-packed, that at times there were at most 8 parallel on-going sessions, which makes it difficult for us to decide on which track to attend because there were so many interesting topics.\n#Agile #Appium #CI/CD #DevOps #QA #Testing\n",
+    "link": "https://engineering.linecorp.com/en/blog/agile-testing-days-2017/",
+    "author": "Marc Lihan and Kent Han"
+  },
+  {
+    "title": "Announcing the LINE API Experts for 2018 Q2",
+    "date": " 2018.07.09",
+    "abstract": "\n\nLINE API Expert is a program that recognizes skilled engineers who have a deep understanding of the APIs provided by LINE and are influential in the community by giving them the title of \u201cLINE API experts\u201d. In addition to providing an array of benefits, LINE will also support the various activities of these LINE API experts through this program.\n \n\n#LINE API Expert\n",
+    "link": "https://engineering.linecorp.com/en/blog/announcing-the-line-api-experts-for-2018-q2/",
+    "author": "Shinichiro Isago"
+  },
+  {
+    "title": "V8 Hidden class",
+    "date": " 2018.06.27",
+    "abstract": "\n\n  As a frontend engineer, I feel I still need to know more about the structure of JavaScript and web browsers, in order to provide quality UX to our users. Thankfully, we are given an access to peak through JavaScript\u2019s thoughts, thanks to Google and Mozilla for making their engine code available to public, along with nicely prepared documentation. The availability of various means for tracing and profiling code surely helps too.\n#AdventCalendar #JavaScript\n",
+    "link": "https://engineering.linecorp.com/en/blog/v8-hidden-class/",
+    "author": "Masami Yonehara"
+  },
+  {
+    "title": "LIFF, our latest product for third party developers",
+    "date": " 2018.06.15",
+    "abstract": "\nWhat is LIFF?\n\n    LIFF is one of our latest products out for LINE Messaging API users. So, what is LIFF? LIFF stands for the LINE Front-end Framework, a web app platform that runs inside the LINE app. LIFF apps running on the LINE app can obtain LINE user ID or tokens needed to use the LIFF API. With the information obtained, LIFF apps can provide features using user information, such as sending messages on behalf of the user.\n#LINE BOT #Messaging API\n",
+    "link": "https://engineering.linecorp.com/en/blog/liff-our-latest-product-for-third-party-developers/",
+    "author": "Sho Tachibana"
+  },
+  {
+    "title": "API the Docs Recap",
+    "date": " 2018.05.28",
+    "abstract": "\n\n    Hi, my name is Serizawa and I\u2019m a technical writer in LINE. LINE has a program that allows engineers to attend overseas conferences on company expense so that they can grasp the latest technology trends. In this article, I\u2019d like to share my report on API the Docs, the API documentation conference that I attended, thanks to the program.\n\n\n\n\n#Technical writing\n",
+    "link": "https://engineering.linecorp.com/en/blog/api-the-docs-recap/",
+    "author": "Serizawa"
+  },
+  {
+    "title": "Bot Designer for previewing conversation with chatbots",
+    "date": " 2018.03.15",
+    "abstract": "\n\n    Bot Designer is an application which allows you to simulate and preview a conversation with a chatbot.\n\n\n\n\n\n    With the LINE Messaging API, you can make a bot send various types of messages such as texts, images, stickers, locations to a LINE user. To check how these messages are actually displayed on the LINE app, what you had to was to create a JSON object representing the message, call the Messaging API, and then check the sent message on the LINE app. Now, with Bot Designer, you can do it by simply entering information in the input fields of Bot Designer which automatically converts the information into JSON objects and renders message previews. You will get the idea right away when you watch the following video clip.\n#LINE BOT\n",
+    "link": "https://engineering.linecorp.com/en/blog/bot-designer-for-previewing-conversation-with-chatbots/",
+    "author": "Kazuki Nakajima"
+  },
+  {
+    "title": "LINE opens community site for third party developers",
+    "date": " 2018.03.13",
+    "abstract": "\n\n    We are very pleased to announce that we have opened a new site, the LINE Developers community site, which you can easily access from the existing LINE developers site. Note the links are added on the top navigation bar and the left-hand side menu of the developer site.\n\n\n\n\n#LINE API #LINE Developers\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-opens-community-site-for-third-party-developers/",
+    "author": "Kazuki Nakajima"
+  },
+  {
+    "title": "The structure of the LINE LIVE\u2019s encoder layer",
+    "date": " 2018.03.06",
+    "abstract": "\n\n    On December 10th of 2017, we celebrated our second anniversary for LINE LIVE, our live streaming service. The service has been up and running ever since the launch with no trouble, thanks to the efforts put in by countless engineers at LINE. On this blog post, as a member of ITSC, a team at LINE running a global infrastructure system, I\u2019d like to share with you some of decisions we had to make in the initial phase of designing and implementing the system. Back then, I had absolutely no experience in building or running a live media service.\n#AdventCalendar #LINE LIVE #Live Broadcasting #Live Video #PC Broadcasting\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-structure-of-the-line-live-s-encoder-layer/",
+    "author": "Suhyuk Kim"
+  },
+  {
+    "title": "Buffer overflow in PJSIP, a VoIP open source library",
+    "date": " 2018.02.27",
+    "abstract": "\n\n    Hi all, I am Youngsung Kim (Facebook, Twitter) of the Application Security team at LINE and am in charge of evaluating security of LINE services. On this post, I\u2019d like to share a vulnerability (CVE-2017-16872, AST-2017-009) of PJSIP, a VoIP open source library. PJSIP is a multimedia communication library based on the following standard protocols; SIP, SDP, RTP, STUN, TURN, and ICE. The Asterisk framework, widely used on IP-PBX and VoPI gateway has an SIP stack implemented based on PJSIP.\n\n\n    The cause of the vulnerability was due to incautiousness about sign extension for Integers in the process of converting signed int to unsigned long when handling client\u2019s SIP requests on 64-bit environment. There was no window to report the security issue to the PJSIP development teams, so I made my report to the Asterisk\u2019s security page. Afterwards, I\u2019ve consulted with George Joseph, an engineer at Asterisk, and the patch (PJSIP patch, Asterisk patch) has been applied on the pjproject v2.7.1. I\u2019d like to express my gratitude to George for processing the patch.\n#AdventCalendar #ASTERISK #CVE #OpenSource #PJPROJECT #PJSIP #Security #VoIP #Vulnerability\n",
+    "link": "https://engineering.linecorp.com/en/blog/buffer-overflow-in-pjsip-a-voip-open-source-library/",
+    "author": "Kim Youngsung"
+  },
+  {
+    "title": "LINE Security Bug Bounty Program Report 2017",
+    "date": " 2018.02.14",
+    "abstract": "\n\nHello again, this is Myoungje Yi (MJ) from LINE\u2019s security team. I\u2019d like to share our annual report on running the LINE Security Bug Bounty Program in 2017.\n\nProgram scope expansion & donation option\n\n    The \u2018LINE Security Bug Bounty Program\u2019 aims to provide LINE users the most secure service by fixing potential vulnerabilities in advance, by getting reports from external security researchers. As we have already mentioned in our previous post, we have expanded the program scope in 2017, which resulted in an increased number of reports submitted. In November 2017, we have added an option allowing reporters to donate their reward.\n#Bug Bounty #Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-security-bug-bounty-program-report-2017/",
+    "author": "Lee Myeongjae"
+  },
+  {
+    "title": "Easy code-splitting with grow-loader",
+    "date": " 2018.01.24",
+    "abstract": "\nHi, I\u2019m @sunderls from LINE MANGA team where I mostly write JavaScript. Did you know that you can read free Manga directly from LINE1)? Has anyone tried it? As we shared on our previous post, LINE MANGA: Smooth page transition with Page Stack, LINE MANGA is built with web technologies. Because it runs in within the LINE app, we have put in a great effort to create a smooth user experience, and as one of the means to accomplish our goal, we have chosen code-splitting. Today, I\u2019d like to introduce the grow-loader, LINE\u2019s open source project for code-splitting.\n#AdventCalendar #grow-loader #JavaScript\n",
+    "link": "https://engineering.linecorp.com/en/blog/easy-code-splitting-with-grow-loader/",
+    "author": "sunderls"
+  },
+  {
+    "title": "LINE\u2019s Experiences with Chatbots in Asia",
+    "date": " 2017.10.31",
+    "abstract": "\nHi, I\u2019m Mark Serrano, a technical consultant for the LINE Platform.\nOn October 10th, I attended the Business of Bots conference in San Francisco as an invited speaker and panelist. In this blog, I would like to talk about my experience at the conference and also share what I talked about in my session.\nThe conference\nThe conference was held at South San Francisco Conference Center in South San Francisco, California. The attendees were from companies in many different industries from hotels, to car companies, and even sports teams. All of them came eager to learn more about chatbots and how to use them to add value to their businesses. Sessions covered an array of topics from best practices for making bots to in-depth case studies of companies that used bots to improve their businesses.\nMy session\nIn my session, I talked about some major business use cases for chatbots in LINE\u2019s major markets of Japan, Taiwan, Thailand, and Indonesia. I also outlined what I think the future looks like for chatbots in LINE\u2019s major markets.\n\n\n#chatbot #LINE Chatbot #LINE Platform\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-experiences-with-chatbots-in-asia/",
+    "author": "Mark Serrano"
+  },
+  {
+    "title": "LINE DEVELOPER DAY 2017 Recap",
+    "date": " 2017.10.25",
+    "abstract": "\nHi, I\u2019m Miki, a technical public relations specialist at LINE Corporation.\nOn September 28, LINE held a technical conference, LINE DEVELOPER DAY 2017 (DevDay) at Shibuya, Tokyo. DevDay was a huge success with more than 1,000 engineers from within our company and externally in attendance. I would like to once again express my gratitude to all the participants.\nThis year, we gave the venue a new look and introduced many new ideas, content and events at DevDay. We covered a broad spectrum of topics and more than doubled the number of sessions from 17 last year to 39 sessions this year.\nHere, I\u2019d like to share what it was like at DevDay in photos. Hopefully, through these photos, you\u2019ll be able to get a sense of the unique atmosphere at the conference. \n\n\n#LINE DEVELOPER DAY #linedevday\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-day-2017-recap/",
+    "author": "Teppei Miki"
+  },
+  {
+    "title": "Implementing a queue for LINE LIVE PC transmission",
+    "date": " 2017.09.19",
+    "abstract": "\nGreetings, this is Yappo, in charge of LINE LIVE development. On this blog post, I will introduce a queue for delaying tasks, created for transmitting LINE LIVE service from users\u2019 PC.\nHow LINE LIVE was broadcasting\nWe used to have two ways to broadcast LINE LIVE. One is to broadcast directly from the LINE LIVE app and the other is to broadcast from computers. Broadcasting from computers required using the LINE Official Account Manager site and RTMP software (or an exclusive tool). In other words, users were only able to broadcast using the LINE LIVE app, and not PC; only the LINE OA managers have been able to use computers to broadcast.\nWhen you look at the following two sequence diagrams, you would probably think that the implementations for the two transmission types would be completely different. Much to your surprise, the fundamental designs are the same.\n\n\n\n\n#LINE LIVE #Redis\n",
+    "link": "https://engineering.linecorp.com/en/blog/implementing-a-queue-for-line-live-pc-transmission/",
+    "author": "Yappo"
+  },
+  {
+    "title": "LINE Developer Meetup in Fukuoka #18 Firsthand Report",
+    "date": " 2017.08.23",
+    "abstract": "\n\nHi, I\u2019m ha1f, the iOS development engineer for LINE Creators Studio here at LINE Fukuoka. I\u2019ll be giving you a firsthand report of the \u201cLINE Developer Meetup in Fukuoka #18\u201d that took place here in Fukuoka on July 19.\nLINE Creators Studio Android with Kotlin / Dave\nThis session was led by Dave, who has been with the company for two years and until recently was the Android development engineer for LINE Creators Studio. Modern languages / frameworks like Kotlin, Anko, and RxBinding are being used in the development of the Android version of Creators Studio. Dave talked about their advantages and the reasons they were adopted while manipulating code snippets.\n#Kotlin #LINE Developer Meetup #LINE Fukuoka #RxSwift\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-meetup-in-fukuoka-18-firsthand-report/",
+    "author": "ha1f"
+  },
+  {
+    "title": "LINE and Intertrust Security Summit 2017 Spring, Tokyo 2",
+    "date": " 2017.08.18",
+    "abstract": "\nHello, this is Ichihara from the LINE security team. I am in charge of security consultation for LINE services, providing countermeasures for account hacking and abusing, researching authentication technology, and engaging in standardization activities.\nToday, I would like to share with you an event titled, \u201cLINE and Intertrust Security Summit 2017 Spring, Tokyo\u201d, co-hosted by LINE and Intertrust on May 17. I will cover this event over two posts; this is the second part of the recap. Have a look at the first part from here\nHere is a few basic information of the event.\n\nOfficial website: https://www.intertrust.com/company/events/line/\nDate and time: Wednesday, May 17, 2017 10:00\u201318:00\nLocation: An auditorium in LINE office located at Shinjuku Miraina Tower\nParticipants: Approximately 140 people\n\n\n\n#Intertrust #Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-and-intertrust-security-summit-2017-spring-tokyo-2/",
+    "author": "Naohisa Ichihara"
+  },
+  {
+    "title": "LINE and Intertrust Security Summit 2017 Spring, Tokyo 1",
+    "date": " 2017.08.18",
+    "abstract": "\nHello, this is Ichihara from the LINE security team. I am in charge of security consultation for LINE services, providing countermeasures for account hacking and abusing, researching authentication technology, and engaging in standardization activities.\nToday, I would like to share with you an event titled, \u201cLINE and Intertrust Security Summit 2017 Spring, Tokyo\u201d, co-hosted by LINE and Intertrust on May 17. I will cover this event over two posts; this is the first part of the recap. Have a look at the second part from here\nHere is a few basic information of the event.\n\nOfficial website: https://www.intertrust.com/company/events/line/\nDate and time: Wednesday, May 17, 2017 10:00\u201318:00\nLocation: An auditorium in LINE office located at Shinjuku Miraina Tower\nParticipants: Approximately 140 people\n\n\n\n#Intertrust #Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-and-intertrust-security-summit-2017-spring-tokyo-1/",
+    "author": "Naohisa Ichihara"
+  },
+  {
+    "title": "Results From First half of 2017 LINE Security Bug Bounty Program",
+    "date": " 2017.08.07",
+    "abstract": "\nScope Expansion\nHi you all, this is MJ (Myoungjae Lee), in charge of security at LINE. I am back with a report on running the LINE Security Bug Bounty Program for the first half of 2017. For those of you who are new to this program, the purpose of this program is to provide LINE users the most secure service possible by letting external security researchers submit bug (vulnerability) reports which we would then immediately fix. Since our official launch of the program on June 2, 2016, we have expanded the program scope to include the following: \n\n\nLINE: Chrome version and Windows 10 Mobile version\n\n\nWebsite: LINE STORE, LINE NEWS, LINE MUSIC, and LINE LIVE\n\nFor those of you who are interested, check the press release on the program scope expansion.\n\n\n#Bug-Bounty #LINE-Bug-Bounty\n",
+    "link": "https://engineering.linecorp.com/en/blog/results-from-first-half-of-2017-line-security-bug-bounty-program/",
+    "author": "Lee Myeongjae"
+  },
+  {
+    "title": "Why we use Kotlin in LINE Creators Studio",
+    "date": " 2017.07.20",
+    "abstract": "\nBefore we begin\nHi everyone, I am Freddie Wang from LINE Fukuoka\u2019s development team. I\u2019m currently in charge of developing a new Android app called LINE Creators Studio. LINE Creators Studio is a sticker creation tool that lets anyone create his or her own stickers and sell them on LINE Store.\nIn this blog, I\u2019d like to talk about Kotlin, the programming language which the LINE Creators Studio app is built on. I will explain why we chose Kotlin as our main language and introduce some of the Kotlin features we are using.\nNote: LINE Creators Studio is currently available in Japan only. It will be released to other regions soon.\nAdvantages and key features of Kotlin\nWhy Kotlin?\nAt Google I/O 2017, Google announced that Kotlin is now officially supported in Android Studio 3.0. When we kicked off the development project for LINE Creators Studio at the end of 2016, we were tasked with the challenge of growing it into an MVP (Minimum Viable Product) project in a very short time. Although Kotlin 1.0 had been released quite some time ago, no one in our team had the experience of using Kotlin. We spent some time to conduct a survey on Kotlin before starting the development and eventually decided to use Kotlin because of the benefits it provides as described below.\n100% interoperable with Java\nThe most appealing aspect of Kotlin is that you can mix Kotlin code and Java code in the same project and continue to use all existing Java libraries. Although we don\u2019t have any legacy Java code in our project, we wanted to use some awesome libraries such as Dagger 2, Retrofit, and RxJava.\nConcise syntax\nKotlin is designed for solving problems. One of its main goals is to write clean code more easily than Java. This is the first and foremost essential factor for us when developing Android applications.\nReduced dependencies\nKotlin has a compact runtime library which can replace some large Java libraries such as Guava. Using large libraries may not be a problem in server or desktop environments but it can be problematic in Android. Because the Android environment puts 65K methods limit on Android apps, we should avoid using large Java libraries. Kotlin\u2019s stdlib library (version 1.1.3-2) has only 6306 methods, which means it has less impact than the Guava libraries in terms of the number of methods.\nCompatible with old Android devices\nKotlin 1.0 is based on Java 6, which means it can support Android devices whose version is 2.3 or higher. This is another very important factor for Android developers.\n#Android #Kotlin #Programming language\n",
+    "link": "https://engineering.linecorp.com/en/blog/why-we-use-kotlin-in-line-creators-studio/",
+    "author": "Freddie Wang"
+  },
+  {
+    "title": "BigDB \u2013 an ad data pipeline for LINE",
+    "date": " 2017.07.12",
+    "abstract": "\nBefore we begin\nHello, we are Jongkyu Lim and Joonghoon Shin responsible for processing of ads data and development of ads platform in LINE. In this blog post, I\u2019d like to talk about BigDB: a big data processing pipeline for LINE ads. I\u2019ll go into detail about how BigDB came to be, what BigDB is, how it\u2019s structured, what it does, and what use cases it has.\nHow BigDB came to be\nAs we gather data from various services that are growing in size, the size of the data grows larger as well, making it difficult to properly use them for analysis. Up until now, we\u2019ve used several open solutions that support big data to tackle this problem. While using several of these open solutions that have different strengths and weaknesses, we felt the need for a more simple and standardized way to collect, process, and look up data. And that is where the idea for BigDB began. Below are some of the key features we had in mind for BigDB. \nIntroducing BigDB\nWhat is BigDB\nBigDB is a big data processing pipeline for LINE ads. It can collect, reprocess, and look up data. LINE ads are analyzed in two ways: The first is in real-time whenever an ad is shown to a user. The second is batch analysis, where events are collected and analyzed after a set time, such as hourly or daily. BigDB fluidly provides the data used for analysis. Sometimes combining time series and static data if necessary.  \n\n#Big-Database #Big-DB #Data-pipeline\n",
+    "link": "https://engineering.linecorp.com/en/blog/bigdb-an-ad-data-pipeline-for-line/",
+    "author": "Jongkyu Lim, Joonghoon Shin"
+  },
+  {
+    "title": "Geo-linked applications with beacon",
+    "date": " 2017.07.10",
+    "abstract": "\nHello, my name is Charlotte Yu and I am currently in charge of the business development and planning of the LINE Beacon platform in Taiwan.\nOne of the projects I\u2019m working on involves using LINE Beacon as a feasible location contextual technology which can play an important role in LINE\u2019s \u201cSmart Portal\u201d concept to bring people, information and services closer together and march toward our mission of \u201cCLOSING THE DISTANCE\u201d.\nCurrently, at this early stage, we are focusing on creating successful beacon deployments and use cases to raise user awareness and usage rates.\nOur strategy behind the LINE Beacon platform is to take advantage of LINE\u2019s extensive user base and other LINE services and features popular in Taiwan. We believe that location-awareness will be a driving force in the advancement of mobile technology, and that\u2019s why we are building a beacon network by deploying LINE Beacon to as many places as possible. This is in line with two key factors of the online-to-offline (O2O) ecosystem: geo-linked applications using location-aware technology and platforms with a high user base.\nO2O messaging is used to connect the online digital platform to offline merchants. In terms of commerce, the aim of O2O is to drive customers from the online marketplace and platforms (where they spend most of their time) to offline brick-and-mortar stores. This can happen through digital coupons, membership cards, and proximity marketing. That\u2019s why we designed various beacon applications to build online-to-offline networks where the virtual world expands to the real world.\nO2O and beacons link everyday products and features such as LINE Coupon, LINE Points, and LINE Shop Card to drive sales. We can push GeoADs (geo-linked advertisements) to promote stores, clients, and events with LINE business accounts (such as official accounts or LINE@ accounts) to nearby LINE users. By encouraging LINE users to walk into stores using LBS (location-based service) incentives such as coupons and stickers, we can enhance the user experience and help LINE@ owners, who have an LBS add-on such as indoor navigation or a shopping guide, achieve higher user retention rates.\n\n#Beacon #Bot #o2o\n",
+    "link": "https://engineering.linecorp.com/en/blog/geo-linked-applications-with-beacon/",
+    "author": "Charlotte Yu"
+  },
+  {
+    "title": "WWDC17 Recap",
+    "date": " 2017.07.06",
+    "abstract": "\nIntroduction\n\nHello, we are Taejeong Lee and Hyuk Heo, both iOS app developers at LINE. We had an opportunity to attend WWDC17 held at the San Jose Convention Center, from June 5th to June 9th. WWDC is an event for developers held by Apple every June in California. The event starts with the CEO\u2019s keynote speech and is followed by 100 sessions and 200 labs in the course of 5 days, in which attendees can experience Apple\u2019s latest software and technology. WWDC has been held in San Francisco in recent years, but this year, it was held in San Jose, which is regarded as the heart of Silicon Valley and is close to Apple Infinite Loop and Apple Park of Cupertino. This year, 5,300 developers from 75 countries attended the event. Well-serving its reputation as the icon of renovation, Apple did not fail to surprise the world with new ideas and technologies, and we are happy to share them with you.\n\n#LINE WWDC #WWDC #WWDC17\n",
+    "link": "https://engineering.linecorp.com/en/blog/wwdc17-recap/",
+    "author": "Taejeong Lee, Hyuk Hur"
+  },
+  {
+    "title": "Elastic{ON} 2017 Recap",
+    "date": " 2017.06.21",
+    "abstract": "\nI am a software engineer at LINE and am in charge of developing a monitoring system. I am quite talented at catching cute stuff around me. Thanks to LINE, I was able to attend Elastic{ON} 2017. LINE encourages and supports LINE developers to attend conferences. On this post, I\u2019d like to share my visit to Elastic{ON} 2017 along with some pictures and brief summaries of each session I attended.\nIntroducing Elastic{ON} 2017\nOn Site\nElastic{ON} 2017 was held at Pier 48 in San Francisco, U.S.A from March 7th to 9th, 2017. As you can probably tell by the venue name, the conference was held in a warehouse-like building located near the AT&T Park. More than two thousand attendees came from all over the world. The conference was huge.\nElastic Stack products, especially Elasticsearch and Kibana, are widely used at LINE in various ways. I myself am using Elastic Stack in the monitoring system I am in charge of, to save, analyze and visualize events. Our monitoring system had no analyzing feature or visualizing feature until we used Elastic Stack to add these two features. Implementing the new features was simpler than I expected, thanks to Elastic Stack. However, I did encounter some issues while the system was up and running and solving the problems was quite difficult. Now, we are about to upgrade Elastic Stack to version 5.x. I was in a need to learn from other users\u2019 experiences and to learn new features and the optimal ways to implement the new features. This is why I attended the conference.\nLet me start by showing you some pictures of the conference.\nThe first thing I did at the conference was getting an attendee card. The conference site was bigger than I expected. The site consisted of session halls, AMA (Ask Me Anything) section, promotional booths, and Elastic booths where I was able to get my hands on the Elastic Stack products.\n\n#Elastic{ON} 2017 #elasticsearch #LINE Elasticsearch\n",
+    "link": "https://engineering.linecorp.com/en/blog/elastic-on-2017-recap/",
+    "author": "Jaejin Lee"
+  },
+  {
+    "title": "Google I/O 2017 Recap",
+    "date": " 2017.06.15",
+    "abstract": "\nIntroduction\n\nHello, my name is Seungwon Lee, I work at LINE as an Android developer. This post is about our visit to Google I/O 2017 held in Mountain View, USA from May 17th to 19th. Google I/O, started in 2008, is an annual developer-oriented conference. Along with Apple\u2019s WWDC, Google I/O is by far one of the largest events for software developers worldwide. The \u201cI\u201cand \u201cO\u201cin the conference name stand for \u201cInput and Output\u201d and also for \u201cInnovation in the Open\u201d. This conference is renowned for Google announcing its future visions. For me, the conference was a chance to learn the changes in the new Android OS that would immediately affect LINE, and to glance at Google\u2019s latest achievements and future plans for web technologies, cloud services and VR (Virtual Reality). \n\n#LINE Android app #LINE Google I/O\n",
+    "link": "https://engineering.linecorp.com/en/blog/google-i-o-2017-recap/",
+    "author": "Seungwon Lee"
+  },
+  {
+    "title": "Improving LINE Timeline performance on iOS through implementation of a view model",
+    "date": " 2017.05.30",
+    "abstract": "\nIntroductions\nHello, my name is Keonhong Lee and I\u2019m in charge of development for Timeline on iOS. In this blog post, I\u2019d like to talk about how we improved performance of the Timeline on iOS, after it had become heavy, slow, and difficult to manage from the many added features and history over time.\nBackground\nFirst, some background on why we started on this path. \nThe LINE Timeline is a place where you and your friends can share all of your social activities. Theoretically, a post uploaded to the Timeline can be seen in dozens of different ways. One single post may need to processed in different ways depending on the screen it\u2019s being displayed on, or the situation it\u2019s being read in.\n\n#iOS Timeline #iOS view model #Timeline performance\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-timeline-performance-on-ios-view-model/",
+    "author": "Keonhong Lee"
+  },
+  {
+    "title": "Using BitBar to monitor Prometheus alerts",
+    "date": " 2017.04.28",
+    "abstract": "\nTaking advantage of the menu bar on macOS\nI\u2019m Paul Traylor from LINE Fukuoka\u2019s development team. Since starting at LINE, my primary responsibility has been working with Prometheus and Grafana to update our internal server monitoring system into something that is easier to use. The end goal is to make it possible for developers to easily set their own alerts. Since I\u2019m in charge of monitoring the monitoring system, I often have to look at many different charts and check servers from several different environments. As it gets quite difficult to keep an eye on everything, I like to find small tools that make that easier. One of my favorites to work with is a tool called BitBar, which allows me to build simple status plugins to observe anything that I can think of.\n\n#BitBar #monitoring #plugin #Prometheus\n",
+    "link": "https://engineering.linecorp.com/en/blog/using-bitbar-to-monitor-prometheus-alerts/",
+    "author": "Paul Traylor"
+  },
+  {
+    "title": "LINE Developer Meetup in Fukuoka #17: Firsthand Report",
+    "date": " 2017.04.21",
+    "abstract": "\nHi, I\u2019m Oshiro on LINE Fukuoka\u2019s Data Analysis Team, and I\u2019ll be giving you a firsthand report on the \u201cLINE Developer Meetup in Fukuoka #17\u201d that took place here in Fukuoka on February 23.\n\n#Event Report #LINE Fukuoka\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-meetup-in-fukuoka-17-firsthand-report/",
+    "author": "oshiro"
+  },
+  {
+    "title": "LINE Group Call \u2013 Conference calls with up to 200 people",
+    "date": " 2017.02.22",
+    "abstract": "\nHello, my name is Park Jungjun and I am currently developing the LINE Group Call feature. \nOne of LINE\u2019s goals in development is Closing the Distance. To make this come true, LINE develops many different conversation services. On this LINE Engineering Blog post, I would like to introduce you to the features and technologies of one of our conversation services, LINE Group Call. \nLINE Group Call \u2013 Make voice calls with up to 200 people simultaneously\nLINE Group Call lets users have conference calls with up to 200 people simultaneously. Calls are made right from the LINE app. LINE Group Call was first released on March, 2016 with a voice call feature. By December, a video call feature was added to LINE Group Call. Using LINE Group Call, LINE users can make voice and video calls with their friends anywhere in the world for free. \nTo use LINE Group Call, the following versions of LINE or above must be installed on your device.\n\n\nLINE Group Voice Call: LINE iOS 5.11.0 or above, LINE Android 5.11.0 or above, LINE Desktop (Windows/macOS) 4.5.0 or above.\nLINE Group Video Call: LINE iOS 6.9 or above, LINE Android 6.9.2 or above, LINE Desktop (Windows) 5.0.0 or above.\n\n#Groupcall #LINE #VoIP\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-group-call-conference-calls-with-up-to-200-people/",
+    "author": "Jungjun Park"
+  },
+  {
+    "title": "LINE Taiwan TechPulse 2016 Recap",
+    "date": " 2017.02.21",
+    "abstract": "\nThis is Shawn Tsai from LINE Taiwan. In its goal to become a Smart Portal for users, LINE has been opening up more features of its LINE Platform to developers to spur on the development of innovative chatbot applications. On the heels of the successful LINE Developer Day events held in Japan, we held an event in Taiwan called \u201cLINE Taiwan TechPulse\u201d on December 26, 2016. We had a good turnout of more than 600 attendees to this event which included many of our local partners as well as many talented developers. Not only did we introduce the resources we\u2019ve made available to developers on the LINE Platform, we also shared information about LINE\u2019s unique engineering culture and the career opportunities that are available at LINE.\n\n#Taiwan TechPulse #TechPulse\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-taiwan-techpulse-2016-recap/",
+    "author": "Shawn Tsai"
+  },
+  {
+    "title": "LINE Engineering and the future of the LINE Engineering Blog",
+    "date": " 2017.02.10",
+    "abstract": "\nHello, Kushii here.\nIn this blog post, I\u2019d like to talk about the unveiling of the LINE Engineering site and what it means for the future of the LINE Engineers\u2019 Blog.\nThe LINE Engineering site is a constantly updated hub for everything from LINE development culture, to open-source projects, job openings, and development documentation straight from the LINE developers site. The site is available in English, Japanese, and Korean. Support for Traditional Chinese is coming soon.\n\n#LINE Engineering\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-engineering-and-the-future-of-the-line-engineering-blog/",
+    "author": "Yusuke Kushii"
+  },
+  {
+    "title": "Outcomes of the LINE Security Bug Bounty Program",
+    "date": " 2017.02.08",
+    "abstract": "\nAbout the LINE Security Bug Bounty Program\nHello, my name is Lee Myoung Jae (MJ) and I\u2019m in charge of security at LINE. In this post I\u2019m going to talk about the LINE Security Bug Bounty Program and the results of the program in 2016. The LINE Security Bug Bounty Program is an ongoing program to make the LINE app more secure for our users by letting external engineers submit bug (vulnerability) reports which we would then immediately fix. \nWe first conducted a trial run of the program called the LINE Bug Bounty Program from August 24 to September 23 in 2015. Based on our experience from that trial, we made various changes to create an improved bug bounty program for 2016. And on June 2, 2016, we launched the new and improved LINE Security Bug Bounty Program.\nFor more information about the LINE Bug Bounty Program, see our previous blog posts: \u201cIntroducing the LINE Bug Bounty Program\u201d and \u201cResults From the LINE Bug Bounty\u201d \nLINE Security Bug Bounty Program website:  https://bugbounty.linecorp.com/\n\n#BugBounty #Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/outcomes-of-the-line-security-bug-bounty-program/",
+    "author": "Lee Myeongjae"
+  },
+  {
+    "title": "LINE Haskell Boot Camp",
+    "date": " 2017.01.25",
+    "abstract": "\nGreetings! I\u2019m Jun, a frontend engineer at LINE.  \nWe had a five-day event for internal engineers called the \u201cLINE Haskell Boot Camp\u201d starting on October 24th, 2016 at the LINE Shibuya office. I will share what the event was about, and what Haskell is in this post. \n\nWhat is Haskell?\nHaskell is a modern application programming language that helps you write high-performance software with a great deal of flexibility, composability, and safety. With recent successful cases of adopting Haskell by companies like Facebook or Standard Chartered, this innovative tool has been gaining attention as it has inspired many libraries and concepts in other languages.\nLINE is not an exception in this regard. With growing interest in Haskell, there is an increasing number of developers having study group meetings on Haskell or developing internal services written in Haskell. The LINE Haskell Boot Camp was a five-day gathering of engineers attempting to enter the world of safer and happier programming. Instead of diving into the depths of Haskell\u2019s theoretical background, we chose to have a hands-on experience to effectively spur further enthusiasm for Haskell. The event was organized by Han, a LINE Plus Corporation engineer who recently released an internal web service in Haskell. \n#haskell\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-haskell-boot-camp/",
+    "author": "Jun"
+  },
+  {
+    "title": "Using LINE Notify to send stickers and upload images",
+    "date": " 2016.11.30",
+    "abstract": "\nHi, my name is Hasebe. I\u2019m in charge of the development of LINE Notify.\nIn a previous post, we introduced how you can use LINE Notify to send messages to LINE from the command-line. Today, I\u2019m going to introduce two features newly implemented in the LINE Notify API. One is sending stickers and the other is uploading images.\nSending stickers\nThe use case demonstrated in the previous post was sending a build result from Jenkins to LINE by using LINE Notify. In that use case, an image of Moon laughing was used to show how it can notify us of a build failure. It was during that time that we came to wonder, \u201cwhy not make LINE Notify send stickers as well as images?\u201d\nWe thought that sending stickers would make LINE Notify more \u201cLINE-ish.\u201d That\u2019s why we decided to develop this feature.\nSending stickers from the command-line\nLet\u2019s try sending a sticker by using the curl command.\n$ curl -X POST https://notify-api.line.me/api/notify -H 'Authorization: Bearer\nYOUR_PERSONAL_ACCESS_TOKEN' -F 'message=test' -F 'stickerPackageId=1' -F 'stickerId=113'\n\n#LINE Notify\n",
+    "link": "https://engineering.linecorp.com/en/blog/using-line-notify-to-send-stickers-and-upload-images/",
+    "author": "LINE"
+  },
+  {
+    "title": "Automated Testing Using the LINE Ad SDK",
+    "date": " 2016.11.24",
+    "abstract": "\nThis post introduces how to run tests with the ad client module provided for the LINE Platform. The LINE ad client module runs on both mobile and the web. This post will focus on testing with a mobile client.\nLINE Ads Platform overview\nThe structure of the LINE Platform is quite simple as shown below. Various types of protocols can be used for server-client communications. This post will focus on testing with the HTTP protocol.\n\n\n#Ad SDK\n",
+    "link": "https://engineering.linecorp.com/en/blog/automated-testing-using-the-line-ad-sdk/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE TODAY Service \u2013 True Agile development",
+    "date": " 2016.11.14",
+    "abstract": "\nIntroduction\nIn this blog post, I\u2019d like to explain how the LINE TODAY service was developed using the Agile development method. LINE TODAY is a mobile news service that was released in Taiwan, Thailand, Indonesia, Myanmar, and the United States in early 2016. As of July 30, 2016, the service recorded nearly 30M daily PV (page views). In Japan, a service similar to LINE TODAY is available under the name of LINE NEWS.\n\n\n#Agile #LINE TODAY\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-today-service-true-agile-development/",
+    "author": "Marco Chen & Rita Yang"
+  },
+  {
+    "title": "Panel discussion at GitHub Universe 2016",
+    "date": " 2016.11.09",
+    "abstract": "\nHello, my name is Inami (@inamiy), a member of the LINE development team. In this post, I\u2019ll be sharing my experience from being a part of the panel discussion at GitHub Universe 2016.\nAbout GitHub Universe 2016\nGitHub Universe 2016 took place during September 13-15 at Pier 70 in San Francisco.\nInside the refurbished warehouse, now conference hall, gathered over 1500 developers, technology and business leaders. Beginning with a keynote presentation from GitHub cofounder and CEO Chris Wanstrath, over 40 speakers from all over the globe gave talks on various open source projects and business activities.\nI was invited as the sole Japanese member at the panel discussion.\n\nBelow are some photos from the event.\nHere is Pier 70, the event venue, and Octocat looking down from above the roof. \n#GitHub #GitHub Universe\n",
+    "link": "https://engineering.linecorp.com/en/blog/panel-discussion-at-github-universe-2016/",
+    "author": "Inami Yasuhiro (Inamiy)"
+  },
+  {
+    "title": "Using LINE Notify to send messages to LINE from the command-line",
+    "date": " 2016.11.01",
+    "abstract": "\nForeword\nHi, my name is Watanabe and I\u2019m in charge of the development of LINE Notify. In this post, I\u2019d like to share how developers can use LINE Notify to send messages to LINE straight from the command-line.\nUp until now sending system messages to LINE either required a Bot API Trial or Business Connect account. While both are improved by Messaging API and provide many great features, they require a high level of implementation.\nLINE Notify is an API that has a limited set of features, streamlining the whole process of sending messages to LINE.\nSending messages using cURL\nBy generating your own \u201cpersonal access token\u201d through LINE Notify, you can send messages by sending an HTTP POST request to the API endpoint. Any method can be used as long as it uses an HTTP request. In this post, let\u2019s go over how you can use the HTTP client cURL.\n#LINE Notify\n",
+    "link": "https://engineering.linecorp.com/en/blog/using-line-notify-to-send-messages-to-line-from-the-command-line/",
+    "author": "Watanabe Hirofumi"
+  },
+  {
+    "title": "The architecture behind chatting on LINE LIVE",
+    "date": " 2016.10.26",
+    "abstract": "\nThis is Oklahomer from LINE Corp. In this post, I\u2019d like to explain the architecture behind the chatting function of LINE LIVE, a video streaming service.\nIntroduction\nLINE LIVE for iOS and Android has a chat feature that lets its users send comments in real-time while they are watching a live-streaming video. This not only lets users (or viewers in this case) communicate with each other, but it also lets the streamers connect with their viewers. Streamers can chat with their viewers back and forth, and sometimes plan their videos according to what the viewers say in the chat. This is why the chat is an integral part of the streaming experience.\nAs you can probably imagine, celebrity live streams attract a large number of viewers, and along with them a torrent of comments. Comments sent to the stream must be simultaneously broadcast to every other viewer, and effectively distributing the load has always been one of our top-priority tasks. There are sometimes 10,000 comments sent per minute on just one stream alone.\nWe took the possibility of large amounts of comments into consideration when we were developing LINE LIVE and presently have over 100 server instances in operation for the chat feature.\n#Architecture #LINE LIVE\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-architecture-behind-chatting-on-line-live/",
+    "author": "Hagiwara Go (Oklahomer)"
+  },
+  {
+    "title": "LINE Developer Day 2016 recap",
+    "date": " 2016.09.29",
+    "abstract": "\nHello, this is Momoki from the LINE Developer Day preparation committee.\nLINE Developer Day has always been a gathering place for sharing various technological experiences and global challenges and trends, and LINE Developer Day 2016 has just successfully come to a close.\nYou\u2019ve shown us a great amount of support by registering for the event, so much so that we could only invite a few that were selected from a draw.\nWe regret that we could only invite about 1000 of you to the event but we thank you all for showing tremendous support all the same!\n\n#linedevday\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-day-2016-recap/",
+    "author": "LINE"
+  },
+  {
+    "title": "Applying Kafka Streams for internal message delivery pipeline",
+    "date": " 2016.08.19",
+    "abstract": "\nIntroduction\nHello, my name is Yuto Kawamura. I\u2019m a LINE server engineer in charge of developing and operating LINE\u2019s core storage facilities such as HBase and Kafka.\nSince the latter half of last year, I\u2019ve been working on a new project called IMF, which stands for Internal Message Flow (or Fund). IMF has two main goals:\n\nDevelop a data pipeline which provides a unified way of delivering events between our systems.\nReplace talk-dispatcher, a component in the LINE server system responsible for background task processing.\n\nThe two goals may seem unrelated, but we\u2019re actually trying to adopt the same technologies for both; Apache Kafka and stream processing. Apache Kafka is a high-throughput distributed messaging system that was originally developed and used at LinkedIn. Although Kafka has various unique features, the most important ones are the following:\n",
+    "link": "https://engineering.linecorp.com/en/blog/applying-kafka-streams-for-internal-message-delivery-pipeline/",
+    "author": "Kawamura Yuto"
+  },
+  {
+    "title": "The next step for even safer messaging: Letter Sealing",
+    "date": " 2016.08.12",
+    "abstract": "\nIn New generation of safe messaging: \u201cLetter Sealing\u201d, we announced that end-to-end encryption (E2EE) has been made available on LINE messages.\nBut we\u2019ve made even more improvements to safe messaging over the past few months, expanding Letter Sealing to features other than one-on-one chats. We\u2019d like to share some of them here in this post.\n#Letter Sealing\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-next-step-for-even-safer-messaging-letter-sealing/",
+    "author": "Shin Kibin"
+  },
+  {
+    "title": "Official LINE Developer Day 2016 website and registration form",
+    "date": " 2016.08.08",
+    "abstract": "\nWe\u2019ve already announced LINE Developer Day 2016. Today, we\u2019re happy to announce that the official website and registration forms are also available.\n\n#linedevday\n",
+    "link": "https://engineering.linecorp.com/en/blog/official-line-developer-day-2016-website-and-registration-form/",
+    "author": "Yusuke Kushii"
+  },
+  {
+    "title": "Applying CircuitBreaker to Channel Gateway",
+    "date": " 2016.08.05",
+    "abstract": "\nBefore reading\nIf you have yet to read the introductory article to circuit breakers, I recommend you read the following article first: Circuit Breakers for distributed services\nApplying CircuitBreaker to Channel Gateway\nChannel Gateway servers provide various LINE server features to content providers. This is why Channel Gateway servers are highly affected by the servers they are connected to, with the effects easily spreading across all Channel Gateway servers.\n\n#CircuitBreaker\n",
+    "link": "https://engineering.linecorp.com/en/blog/applying-circuitbreaker-to-channel-gateway/",
+    "author": "Shin Jong Hun"
+  },
+  {
+    "title": "Report on Prometheus Casual Talks in Tokyo and then toward PromCon 2016",
+    "date": " 2016.08.02",
+    "abstract": "\nIntroduction\nHello, my name is Wataru Yukawa. I work at LINE as a data engineer.\nAs a data engineer, my daily duties include using Fluentd to collect logs, Hadoop to accumulate, and Hive to aggregate and analyze logs. Our Hadoop cluster is medium-sized, consisting of 40 units and approximately 370TB of DFS used space. Data from LINE family apps is smaller compared to the LINE app. While it\u2019s nowhere near large enough to be considered as big data, it still has many types of different data, Fluentd tags, and over 400 Fluentd processes due to the various LINE family services tied to it. The Fluentd data flow amounts to 150 thousand messages per second during peak times.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/report-on-prometheus-casual-talks-in-tokyo-and-then-toward-promcon-2016/",
+    "author": "Yukawa Wataru"
+  },
+  {
+    "title": "Introducing the LINE Game AirBorne DataCenter",
+    "date": " 2016.07.25",
+    "abstract": "\nLast time I posted an article titled, \u201cAnalyzing Large Amounts of Security Data with Spark, Mesos, Zeppelin, and HDFS.\u201d Today I will introduce how LINE applies cloud and stream processing technology to perform near-real-time processing on game data detected by AirArmor1.\n1: AirArmor is a security solution for mobile games developed by LINE.\nAirBorne DataCenter & Mesos (with DC/OS)\nTo analyze security data, we built our own system named AirBorne DataCenter. The system uses Apache Mesos as its base framework. And to process big data efficiently, the system implements open source components such as Kafka, Spark, Elasticsearch, Hadoop, Zeppelin, and Spring.\n",
+    "link": "https://engineering.linecorp.com/en/blog/introducing-the-line-game-airborne-datacenter/",
+    "author": "OH WANG JIN"
+  },
+  {
+    "title": "Circuit breakers for distributed services",
+    "date": " 2016.07.25",
+    "abstract": "\nHello, my name is Ono and I\u2019m a LINE engineer. In this blog post, I\u2019d like to talk about \u201ccircuit breakers\u201d which we use with our LINE servers.\nWhat is a Circuit Breaker?\nThe backend server systems for various web services and apps including LINE consist of networks that have several services connected with each other through APIs and RPCs.\nWhat would happen if one of these networks suddenly failed to respond? The downed services would be blocked until they time-out, and all other services that rely on the blocked service would start a chain reaction of failures. If no one has been keeping an eye on the entire network, it will take a long time to figure out which service is the root cause.\n\n#CircuitBreaker\n",
+    "link": "https://engineering.linecorp.com/en/blog/circuit-breakers-for-distributed-services/",
+    "author": "Ono Yuichi"
+  },
+  {
+    "title": "LINE Developer Day 2016",
+    "date": " 2016.07.12",
+    "abstract": "\nHello everyone. My name is Kushii, and I am in charge of organizing conferences at LINE.\nI am pleased to announce that LINE Developer Day will be taking place once again this year.\n\nAt the event our engineering team plan to share some of the experiences, the technical challenges that exist in Japan and overseas, and introduce our latest products directly to you. Security-related topics, BOTs, and other themes will be explored during our individual sessions to explain how LINE strives to overcoming the various challenges ahead.\nEvent Summary\nDate/Time:\u00a0September 29, 2016 from 10 a.m. to 6:30 p.m.\nPlace:\u00a0Shibuya Hikarie, 9F, Hikarie Hall\nInvitees: Application and web engineers\nAdmission:\u00a0Free\nAfter-Party: To take place in the Hikarie Hall after the event\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-day-2016/",
+    "author": "Yusuke Kushii"
+  },
+  {
+    "title": "How to provide stable \u201cLoves\u201d",
+    "date": " 2016.07.12",
+    "abstract": "\nHello, my name is Moznion and I\u2019m part of the team working on LIVE: a video-based social media service that connects stars and celebrities to their fans.\nOn LIVE, users can watch their favorite stars participating in programs or performing concerts all in real-time. LIVE is currently available on iOS/Android and on PC web browsers, and quickly gaining popularity.\nIn this blog post, I\u2019d like to explain how we handle large amounts of consecutive requests sent on LIVE.\nIntroduction\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/how-to-provide-stable-loves/",
+    "author": "Kawakami Taiki (moznion) "
+  },
+  {
+    "title": "Fukuoka office, reopened with a whole new look",
+    "date": " 2016.07.08",
+    "abstract": "\nHello, my name is Kushii. I work in the development department in Japan and I\u2019m in charge of promoting technology events at LINE.\nLINE has quite a few development offices worldwide where many engineers write code every day. We have offices in Tokyo, Fukuoka, Fukushima in Japan and also in Korea, Taiwan, and Thailand.\nThe Fukuoka office was relocated recently, and I think this is a good opportunity to introduce the brand new, upgraded working place for our engineers.\nThe new office is located in the JRJP Hakata building, directly accessible from Hakata station. When you first set foot in the building, the LINE Friends characters greet you at the entrance. \n\n",
+    "link": "https://engineering.linecorp.com/en/blog/fukuoka-office-reopened-with-a-whole-new-look/",
+    "author": "Yusuke Kushii"
+  },
+  {
+    "title": "The Road to Releasing LINE Trial Bot SDK",
+    "date": " 2016.06.15",
+    "abstract": "\nIntroduction\nHello, my name is Matsuno and I work at LINE.\nLINE BOT API Trial accounts were announced a few days ago, receiving a warm welcome from developers all over the world. Previously only available to developers working at companies who were under contract with LINE, now any individual developer can freely start developing their own project with their own LINE bot account.\nIn this post, I would like to talk about why we decided to start development on a LINE BOT API Trial account SDK and how we released it in less than a week.\nWhy the Bot SDK was created\nAs soon as LINE BOT API Trial accounts were announced, many of our own LINE engineers started developing for them. Which is when we began thinking\u2026\nWhat\u2019s the most difficult part about creating a bot with this API??\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-road-to-releasing-line-trial-bot-sdk/",
+    "author": "Matsuno Tokuhiro(tokuhirom) "
+  },
+  {
+    "title": "try! Swift Presentation Report",
+    "date": " 2016.04.28",
+    "abstract": "\nHello everyone, my name is Inami (@inamiy) and I\u2019m an iOS software engineer at LINE.\nA Swift developer conference titled \u201ctry! Swift\u201d was recently held in Shibuya, Tokyo from March 2 to March 4. LINE was a gold sponsor of the event, which was a gathering of over 500 people (30% of which were from overseas). There were many female presenters in the event as well, making it one of the most diverse gathering of developers I\u2019ve ever seen; the likes of which I haven\u2019t seen in any Swift/iOS study group! I was offered a chance to present at the event about \u201cParser Combinator in Swift\u201d, a functional programming method.\n\n#Swift\n",
+    "link": "https://engineering.linecorp.com/en/blog/try-swift-presentation-report/",
+    "author": "Inami Yasuhiro (Inamiy)"
+  },
+  {
+    "title": "Open-sourcing Armeria",
+    "date": " 2016.04.14",
+    "abstract": "\nArmeria is an asynchronous RPC/API client-server implementation built on top of Java 8 and Netty that went open-source last November under Apache License 2.0 by LINE Corporation. Its primary goal is to help engineers build high-performance asynchronous Thrift clients and servers that use HTTP/2 as a session layer protocol, although it is designed to be protocol-agnostic and highly extensible (for example, you can serve a directory of static files via HTTP/2 and run Java EE web applications).\nIn this post, I\u2019d like to focus on the steps that were taken to open-source an internal project rather than the technical aspect. If you are interested in the technical details of Armeria, you might want to check out the following slides presented last February during the 14th LINE Developer Meetup:\n#Armeria #OpenSource\n",
+    "link": "https://engineering.linecorp.com/en/blog/open-sourcing-armeria/",
+    "author": "Lee Heuiseung (trustin) "
+  },
+  {
+    "title": "Multi-Threaded Parallel Processing for Physics Simulation in Cocos2d-x",
+    "date": " 2016.01.27",
+    "abstract": "\nHello. My name is ST and I develop mobile games here at LINE. In this post I would like to talk about the multi-threaded parallel processing method we are using with Cocos2d-x, the leading mobile game engine. I will go into more detail about how we improved upon the existing single-thread structure and enhanced performance using multi-threaded physics calculation.\nMulti-Threaded physics calculation parallel processing architecture\nBefore we move on to the multi-threaded physics calculation parallel processing structure, we should take a look at the existing single-thread Cocos2d-x update loop.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/multi-threaded-parallel-processing-for-physics-simulation-in-cocos2d-x/",
+    "author": "Kim Suntae"
+  },
+  {
+    "title": "LINE Developer Week 2015",
+    "date": " 2015.12.29",
+    "abstract": "\nMy name is Augustin Wang. I work for LINE Taiwan as an application analyst and an API developer. In November 2015, I experienced LINE Developer Week and cannot wait to share my wonderful memories in this post.\nArrival in Korea\nWhat an exciting day! To start off, I could barely sleep because of the early flight we booked and because of my excitement from visiting Korea for the first time. After approximately one hour bus time from Incheon International Airport, we arrived at the Korea office around Seohyun station. There were so many cute decorations with LINE Friends figures and related items in the Korea office.\n\nI met lots of colleagues from Japan and China. We talked to each other in different languages: Chinese, English, Japanese and Korean. There is absolutely no language barrier between LINE engineers!\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-week-2015/",
+    "author": "Augustin Wang"
+  },
+  {
+    "title": "Results From the LINE Bug Bounty",
+    "date": " 2015.12.17",
+    "abstract": "\nPreparing the Bug Bounty Program\nHello. I am MJ, a LINE security engineer.\nIn this post I would like to share the results of the 2015 LINE Bug Bounty (August 24-September 23). As our first ever bug bounty program, we are very pleased with how well the program came together.\nThe core objective of the program was to discover and fix potential vulnerabilities in our services so that our users can enjoy them safely. Several departments lent us a hand in preparing the program and we could not have done it without them.\n#BugBounty #Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/results-line-bug-bounty/",
+    "author": "Lee Myeongjae"
+  },
+  {
+    "title": "New generation of safe messaging: \u201cLetter Sealing\u201d",
+    "date": " 2015.10.13",
+    "abstract": "\nHello, my name is JI and I am working at LINE as a security engineer.\nPeople might have wondered how safe mobile applications are. Message security is surely something most of you have thought about before. As we are centered around mobile messaging, all the engineers at LINE do take extra care to make our app even safer. But when companies are asked about how safe their message transfer process actually is, not many mobile messaging app companies are able to clearly explain about their security.\nToday, I proudly present the newest security feature called \u201cLetter Sealing.\u201d A new feature added in version 5.3.0 of LINE.\nSafe delivery of messages\nSince time immemorial, methods to transfer secrets between one another have existed, and were an important part of human history. People would whisper secrets in dark alleyways or sometimes even devise a code to prevent any potential eavesdroppers from understanding what they were saying.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/new-generation-of-safe-messaging-letter-sealing/",
+    "author": "LINE Security"
+  },
+  {
+    "title": "True Delete",
+    "date": " 2015.08.13",
+    "abstract": "\nHello, I am H2spice. I work in security development here at LINE.\nThis post will cover how your data can be leaked if your mobile device is stolen, and what we at LINE are doing to prevent that: a new feature called \u201cTrue Delete.\u201d\nThere are many instances where people lose their mobile devices, or leave their devices unattended in places where anyone can access them. Many serious problems may arise if someone else obtains your mobile device and gains access to the information inside. Devices like your smartphone contain information such as call records, messages, contacts, schedules, browsing history, navigational data, photos, memos and so on. Information leaks like this can lead to an invasion of your privacy, or a breach of confidential company information in some cases. There have been reports where thieves would steal mobile devices for this exact purpose. While our mobile devices bring us great convenience, one mistake and they can be used against you.\n",
+    "link": "https://engineering.linecorp.com/en/blog/true-delete/",
+    "author": "Ahn Sanghwan (h2spice) "
+  },
+  {
+    "title": "Introducing the LINE Bug Bounty Program",
+    "date": " 2015.08.05",
+    "abstract": "\nHello. I am MJ from the LINE Security Department. In this post, I would like to announce the details of the LINE Bug Bounty.\nWhat is a bug bounty?\nCompanies use bug bounty programs to strengthen their services and products by rewarding users that can find vulnerabilities in them. Many companies have used these programs to take a more active role in strengthening the security of their services.\nLINE has grown as a global company that now provides services to more than 2 hundred million active users on a monthly basis. The number of products and services have increased, and so have the number of users that require protection. We at LINE aim to provide a more stable service as a result of this bug bounty.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/introducing-the-line-bug-bounty-program/",
+    "author": "Lee Myeongjae"
+  },
+  {
+    "title": "Introducing the LINE Login Platform",
+    "date": " 2015.07.24",
+    "abstract": "\nLINE publicly released its Login Platform on June 30, 2015, allowing other services to take advantage of its robust features. In this article, we look at the details of the newly released LINE Login Platform. We are also pleased to introduce the LINE developers site to the public. It\u2019s packed with everything you\u2019ve ever wanted to know about the technical side of LINE, so check it out to see all of the features the platform has to offer!\nWhat is the LINE Login Platform?\nThe LINE Login Platform lets developers who create mobile apps and web applications offer a way for users to log into their apps using their LINE account. There are already many mobile and web apps out on the market that utilize the login features of the LINE Login Platform. In this article, we will take a closer look at Popcorn Buzz and LINE STORE to see exactly how they use this powerful platform.\nPopcorn Buzz: LINE Login Platform for Mobile Apps\nPopcorn Buzz is a free app for Android and iOS which provides a group calling service that lets users talk to up to 200 people at the same time. Developers usually use a screen like the one shown below when integrating the login feature into a mobile app like Popcorn Buzz. The login screen displays a \u201cLog in with LINE\u201d button that calls the login feature of the LINE Login Platform the moment the user taps it. If the user has the LINE app installed on their device, it automatically takes them to a second screen where they are asked to confirm that they want to log in with LINE. The login process is over before the user has a chance to blink. The superior login functionality offered by the LINE Login Platform leads to a better overall user experience on many apps the world over.  \n#LINE Login\n",
+    "link": "https://engineering.linecorp.com/en/blog/introducing-the-line-login-platform/",
+    "author": "LINE"
+  },
+  {
+    "title": "Improving Call Quality On Popcorn Buzz, A Multi-user Call Service",
+    "date": " 2015.07.02",
+    "abstract": "\nWe are IG and JN, and we work in the mobile VoIP development department at LINE.\nIn this post, we would like to talk about what we have done to improve the call quality on the newly launched Popcorn Buzz.\nIntroduction\nPopcorn Buzz is a group call service that enables up to 200 users to call simultaneously over the internet. Popcorn Buzz users will be able to gather in a virtual space like the one you see below. They will be able to talk to each other, or even hold large-scale conference calls and such.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/improving-call-quality-on-popcorn-buzz-a-multi-user-call-service/",
+    "author": "Kang In Gyu"
+  },
+  {
+    "title": "Improving Call Quality On Popcorn Buzz, A Multi-user Call Service",
+    "date": " 2015.07.02",
+    "abstract": "\nWe are IG and JN, and we work in the mobile VoIP development department at LINE.\nIn this post, we would like to talk about what we have done to improve the call quality on the newly launched Popcorn Buzz.\n#Popcorn Buzz\n",
+    "link": "https://engineering.linecorp.com/en/blog/improving-call-quality-on-popcorn-buzz-a-multi-user-call-service/",
+    "author": "LINE"
+  },
+  {
+    "title": "Analyzing Large Amounts of Security Data With Spark, Mesos, Zeppelin, and HDFS",
+    "date": " 2015.06.03",
+    "abstract": "\nHello, we are WJ and KH and we are in charge of game security development at LINE.\nA massive number of players play LINE Games at any given time, and that is why quick issue analysis and response can be difficult. With the large increase in LINE Game players and users from abroad, many instances of abuse (profiting through unauthorized actions) are being observed. Abusing the system affects other players that are playing the game by the rules, while also directly affecting the game itself. Responding to these abuses as quickly as possible is crucial to keeping the game stable, and to protect players that are playing the game as intended.\n\n#Spark\n",
+    "link": "https://engineering.linecorp.com/en/blog/analyzing-large-amounts-of-security-data-with-spark-mesos-zeppelin-and-hdfs/",
+    "author": "OH WANG JIN"
+  },
+  {
+    "title": "LINE DEVELOPER DAY_2015 Videos and Slides",
+    "date": " 2015.05.14",
+    "abstract": "\nHello, my name is K. I was in charge of organizing this year\u2019s conference. As announced in the LINE DEVELOPER DAY_2015 Tokyo Announcement \u00ab LINE Engineers\u2019 Blog post, the LINE DEVELOPER DAY_2015 conference was held on April 28th, 2015.\nThere were so many people that signed up for the conference, we could not invite everyone. But thanks to all the engineers that showed interest in the event, the conference was a huge success. We would like to express our sincere gratitude! \n\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-day-2015-videos-and-slides/",
+    "author": "LINE"
+  },
+  {
+    "title": "Choosing Video Codecs and Optimizing Options in B612",
+    "date": " 2015.04.30",
+    "abstract": "\n\nHello, I am HT and I work in B612 for Android development. B612, which is named after the asteroid B-612 from the novella \u201cthe Little Prince,\u201d is the world\u2019s first selfie app to feature pre-filtered selfie and 3 or 6 second collaged video capture. In this post, I would like to discuss the process of creating an MP4 file by making a video collage using MediaCodec in B612.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/choosing-video-codecs-and-optimizing-options-in-b612/",
+    "author": "Jo hyuntae"
+  },
+  {
+    "title": "Apple Watch \u2013 A completely new horizon",
+    "date": " 2015.04.24",
+    "abstract": "\nHello, my name is Roy and I work in LINE iOS development. With the recent release of Apple Watch, I would like to introduce the features of Apple Watch, and how it was like developing LINE for Apple Watch.\nIntroducing Apple Watch\nApple Watch was first unveiled on September 9th, 2014 as \u201cone more thing\u201d following the iPhone 6, iPhone 6 Plus, and Apple Pay. It will be available in three different versions named Watch, Watch Sport, and Watch Edition with a choice between a 38mm or 42mm watch face. Apple Watch will be able to track the user\u2019s movements, as well as receive notifications from an iPhone. An SDK was also released so that third parties could develop for Apple Watch as well.  Apple Watch comes equipped with a display that supports Force Touch, and a Digital Crown that is used to zoom the display in or out. The side button below the Digital Crown launches Friends, giving you access to all of your contacts. On the bottom is the sensor, capable of detecting the heart rate of the user. Inside Apple Watch is the built-in speaker and Taptic Engine, which will alert users with sound or haptic feedback whenever they receive a notification. \n\n",
+    "link": "https://engineering.linecorp.com/en/blog/apple-watch-a-completely-new-horizon/",
+    "author": "KANG YOONSIK"
+  },
+  {
+    "title": "A Special Announcement from LINE",
+    "date": " 2015.04.01",
+    "abstract": "\nThe coming summer of 2015 marks the fourth anniversary since we have first announced the LINE mobile messenger app. Since its initial launch, LINE has gathered an overwhelmingly large number of users. Over the years we have also provided many LINE Family Apps to enable users to communicate by sharing pictures, playing games, keeping up with the news, and design wallpapers. To us, ensuring that users have an optimal mobile experience is one of our top priorities.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/a-special-announcement-from-line/",
+    "author": "LINE"
+  },
+  {
+    "title": "A Rookie Engineer\u2019s Analysis on the Server of LINE Rangers",
+    "date": " 2015.03.12",
+    "abstract": "\nIntroduction\nHello. My name is JY and I am an engineer on the LINE Rangers development team.\nI wonder if the readers out there have ever played LINE Rangers? It is one of the many popular LINE Games serviced through LINE, while also being an in-house developed game.\nSome screenshots from LINE Rangers.\nIt sure is fun freezing enemies and attacking them while they\u2019re helpless!\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/a-rookie-engineer-s-analysis-on-the-server-of-line-rangers/",
+    "author": "LINE"
+  },
+  {
+    "title": "Recruit Training Epilogues",
+    "date": " 2015.03.12",
+    "abstract": "\nLINE recruited its new employees publicly for the first time in 2015 and \u201cLINE style\u201d on-the-ground training was held for about 6 weeks for the newcomers. Here are the epilogues shared by 2 of the participants (1 male and 1 female).\nRecruit Training Epilogue 1\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/recruit-training-epilogues/",
+    "author": "LINE"
+  },
+  {
+    "title": "The 7 Ways of Counting Characters",
+    "date": " 2015.03.11",
+    "abstract": "\nHello, I am SJ, an engineer working at LINE.\nIn this post, I would like to talk about counting characters. There are many places in various LINE services where the number of characters must be counted such as profile or group names, and status messages. Counting the characters on-screen is important for several reasons. The text must not be shorter or longer than necessary, and storage capacity must be allocated accordingly. As LINE is used worldwide, it is crucial that string length can be precisely calculated for various languages. One day, we encountered an issue where emojis would be counted as 2 when they should count as 1. Originating from Japan, emoji is a language comprised of images used all around the world today.\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-7-ways-of-counting-characters/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE Developer Workshop & Hackathon 2015",
+    "date": " 2015.02.02",
+    "abstract": "\nHi, my name is James and I work for LINE Corporation as a junior software developer. I\u2019m very pleased and even thrilled today because it\u2019s such a great honor to share my experiences and thoughts from \u201cLINE Developer Workshop & Hackathon 2015.\u201d.\n\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-developer-workshop-hackathon-2015/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE BusinessConnect: Error Detection and Notification Using Fluentd and Norikra",
+    "date": " 2014.09.09",
+    "abstract": "\nMy name is Yoichiro, and I work in the Technology Strategy Department here at LINE. Thanks for taking the time to check out our blog. Today we\u2019ll be introducing the system we use for the error detection and notification process for the gradually growing service \u201cLINE BusinessConnect.\u201d\n\nAbout LINE Business Connect\nSee this blog for more information on LINE Business Connect.\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-businessconnect-error-detection-and-notification-using-fluentd-and-norikra/",
+    "author": "LINE"
+  },
+  {
+    "title": "The Technical Side of LINE Business Connect",
+    "date": " 2014.05.23",
+    "abstract": "\nMy name is Yoichiro, and I work in the Technology Strategy Department here at LINE. We really appreciate everyone out there reading this blog. In today\u2019s post, we\u2019ll be talking about all the juicy details of the technical side of LINE Business Connect, a new service released recently.\nAbout LINE Business Connect\nFirst, let\u2019s talk about what LINE Business Connect actually is. At the core, this service is an official account that allows you to respond to messages automatically by using a program.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/the-technical-side-of-line-business-connect/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE on Firefox OS",
+    "date": " 2014.05.20",
+    "abstract": "\nDevelopment for the Firefox OS version of LINE began during the second half of 2013, and the app was officially released in February of the following year. LINE for Firefox OS is currently used in 19 countries around the world, and ranks high in the apps with the most number of downloads in the Firefox Marketplace. This unique version of the LINE app has also received favorable reviews from users, and it is the only app in the Popular Top 7 to maintain a consistent four-star rating.\nThe Firefox OS version of LINE may be receiving rave reviews, but the creation process for the app was no bed of roses. This article goes into detail on how LINE for Firefox OS was born and engineered, as well as a scene look into the blood, sweat, and tears that went into improving the app\u2019s performance.\n\n#FireFoxOS\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-on-firefox-os/",
+    "author": "LINE"
+  },
+  {
+    "title": "Git Rich Quick: The Development Process for the iOS Version of LINE",
+    "date": " 2014.04.21",
+    "abstract": "\nHi there. My name is Hayaishi, and I\u2019m part of the Technology Strategy\nDepartment here at LINE. I\u2019d like to share a few details about the\ndevelopment process of the iOS version of the LINE app in this blog\nentry.\n\n#iOS\n",
+    "link": "https://engineering.linecorp.com/en/blog/git-rich-quick-the-development-process-for-the-ios-version-of-line/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE Fellowship",
+    "date": " 2014.04.07",
+    "abstract": "\nIn this article, we\u2019re going to discuss how LINE goes about measuring and improving the level of quality offered by our products from a user perspective, as we continue to expand globally. It does bear mentioning that the processes outlined in this article only cover a portion of what actually goes on here. Every one of our developers, designers, and business representatives all contribute to the process in their own unique way.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-fellowship/",
+    "author": "LINE"
+  },
+  {
+    "title": "Adopting SPDY in LINE \u2013 Part 2: The Details",
+    "date": " 2014.03.18",
+    "abstract": "\nIntroduction\nIn a previous post,* we gave an overview of how we came to adopt the networking protocol \u201cSPDY\u201d for use with the messaging service offered on LINE. This time we would like to go into detail about the various features that SPDY has to offer.\n\n",
+    "link": "https://engineering.linecorp.com/en/blog/adopting-spdy-in-line-part-2-the-details/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE Security \u2013 Simple, Safe, Secure",
+    "date": " 2014.03.11",
+    "abstract": "\n\nGreetings, this is the LINE Security Center. LINE has grown into a global messaging app enjoyed by people from all around the world. We are proud to say that LINE not only offers incredible ease of use, but also a secure environment where users\u2019 information is kept safe and secure.\n#Security\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-security-simple-safe-secure/",
+    "author": "LINE Security"
+  },
+  {
+    "title": "Adopting SPDY in Line \u2013 Part 1: An Overview",
+    "date": " 2013.01.11",
+    "abstract": "\nWe are constantly striving to improve the user experience of Line. Given the nature of Line as a communication tool, one way to do this is to reduce the time it takes to send and receive messages. Making the connection to our servers more efficient is one way to accomplish this.\nUntil recently, Line had been using HTTP to transmit messages. HTTP, well known for its use in web browsers, has its strengths and is well understood. It has its downsides as well, however. Simply put, HTTP was not designed for the types of real-time applications we see nowadays. HTTP is based on a simple request/response model: you send a request over a TCP connection, and wait for its response. HTTP does not fit well with a messaging service for the following reasons:\n",
+    "link": "https://engineering.linecorp.com/en/blog/adopting-spdy-in-line-part-1-overview/",
+    "author": "LINE"
+  },
+  {
+    "title": "LINE Storage: Storing billions of rows in Sharded-Redis and HBase per Month",
+    "date": " 2012.04.26",
+    "abstract": "\nHi, I\u2019m Shunsuke Nakamura (@sunsuk7tp). Just half a year ago, I completed the Computer Science Master\u2019s program in Tokyo Tech and joined to NHN Japan as a member of LINE server team. My ambition is to hack distributed processing and storage systems and develop the next generation\u2019s architecture.\nIn the LINE server team, I\u2019m in charge of development and operation of the advanced storage system which manages LINE\u2019s message, contacts and groups.\nToday, I\u2019ll briefly introduce the LINE storage stack.\n",
+    "link": "https://engineering.linecorp.com/en/blog/line-storage-storing-billions-of-rows-in-sharded-redis-and-hbase/",
+    "author": "LINE"
+  }
+]
