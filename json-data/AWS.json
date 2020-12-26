@@ -1,0 +1,1084 @@
+{
+  "AWS": [
+    {
+      "abstract": "Below are the major 2020 re:Invent launch and preview announcements covered by our dedicated team of AWS News bloggers / developer advocates from around the globe. For a complete overview of all re:Invent 2020 launches, see the full list here. Plus, don’t miss our liveblog recaps of all the re:Invent 2020 keynotes: Andy Jassy’s Keynote […]",
+      "author": "AWS News Blog Team",
+      "categories": "Amazon Machine Learning, Analytics, Announcements, AWS Marketplace, AWS re:Invent, AWS Well-Architected, Compute, Containers, Customer Enablement, Front-End Web & Mobile, Launch, Networking & Content Delivery, News, Storage",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-reinvent-announcements-2020/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-reinvent-announcements-2020/",
+      "title": "AWS re:Invent 2020 – Top Announcements"
+    },
+    {
+      "abstract": "We want to make it easier and more cost-effective for you to add maps, location awareness, and other location-based features to your web and mobile applications. Until now, doing this has been somewhat complex and expensive, and also tied you to the business and programming models of a single provider. Introducing Amazon Location Service Today […]",
+      "author": "Jeff Barr",
+      "categories": "AWS re:Invent, Front-End Web & Mobile, Launch, News",
+      "date": "16 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-location-add-maps-and-location-awareness-to-your-applications/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-location-add-maps-and-location-awareness-to-your-applications/",
+      "title": "Amazon Location – Add Maps and Location Awareness to Your Applications"
+    },
+    {
+      "abstract": "Today, I’m particularly happy to announce FreeRTOS Long Term Support (LTS). FreeRTOS is an open source, real-time operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage. LTS releases offer a more stable foundation than standard releases as manufacturers deploy and later update devices in the field. […]",
+      "author": "Channy Yun",
+      "categories": "AWS re:Invent, FreeRTOS, Launch, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-freertos-long-term-support-to-provide-years-of-feature-stability/",
+      "link": "https://aws.amazon.com/blogs/aws/new-freertos-long-term-support-to-provide-years-of-feature-stability/",
+      "title": "New –  FreeRTOS Long Term Support to Provide Years of Feature Stability"
+    },
+    {
+      "abstract": "I am happy to announce AWS IoT Greengrass 2.0, a new version of AWS IoT Greengrass that makes it easy for device builders to build, deploy, and manage intelligent device software. AWS IoT Greengrass 2.0 provides an open source edge runtime, a rich set of pre-built software components, tools for local software development, and new […]",
+      "author": "Channy Yun",
+      "categories": "AWS Greengrass, AWS re:Invent, Internet of Things, Launch, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/announcing-aws-iot-greengrass-2-0-with-an-open-source-edge-runtime-and-new-developer-capabilities/",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-aws-iot-greengrass-2-0-with-an-open-source-edge-runtime-and-new-developer-capabilities/",
+      "title": "Announcing AWS IoT Greengrass 2.0 – With an Open Source Edge Runtime and New Developer Capabilities"
+    },
+    {
+      "abstract": "Today, I am happy to announce AWS IoT Core for LoRaWAN, a new fully-managed feature that allows AWS IoT Core customers to connect and manage wireless devices that use long-range, low-power wide area network (LoRaWAN) connectivity with the AWS Cloud. Using AWS IoT Core for LoRaWAN, customers can now set up a private LoRaWAN network […]",
+      "author": "Channy Yun",
+      "categories": "AWS re:Invent, Internet of Things, Launch, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-aws-iot-core-for-lorawan-to-connect-manage-and-secure-lorawan-devices-at-scale/",
+      "link": "https://aws.amazon.com/blogs/aws/new-aws-iot-core-for-lorawan-to-connect-manage-and-secure-lorawan-devices-at-scale/",
+      "title": "New – AWS IoT Core for LoRaWAN to Connect, Manage, and Secure LoRaWAN Devices at Scale"
+    },
+    {
+      "abstract": "Today, in partnership with Grafana Labs, we are excited to announce in preview, Amazon Managed Service for Grafana (AMG), a fully managed service that makes it easy to create on-demand, scalable, and secure Grafana workspaces to visualize and analyze your data from multiple sources. If you’d like to read more about this exciting partnership, check […]",
+      "author": "Marcia Villalba",
+      "categories": "Announcements, AWS re:Invent, Management Tools, Open Source",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/announcing-amazon-managed-grafana-service-in-preview/",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-managed-grafana-service-in-preview/",
+      "title": "Announcing Amazon Managed Service for Grafana (in Preview)"
+    },
+    {
+      "abstract": "Observability is an essential aspect of running cloud infrastructure at scale. You need to know that your resources are healthy and performing as expected, and that your system is delivering the desired level of performance to your customers. A lot of challenges arise when monitoring container-based applications. First, because container resources are transient and there […]",
+      "author": "Jeff Barr",
+      "categories": "AWS re:Invent, Launch, Management Tools, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/join-the-preview-amazon-managed-service-for-prometheus-amp/",
+      "link": "https://aws.amazon.com/blogs/aws/join-the-preview-amazon-managed-service-for-prometheus-amp/",
+      "title": "Join the Preview – Amazon Managed Service for Prometheus (AMP)"
+    },
+    {
+      "abstract": "A desire for consolidated, and simplified operational oversight isn’t limited to just cloud infrastructure. Increasingly, customers ask us for a “single pane of glass” approach for also monitoring and managing their application portfolios. These customers tell us that detection and investigation of application issues takes additional time and effort, due to the typical use of […]",
+      "author": "Steve Roberts",
+      "categories": "Announcements, AWS re:Invent, AWS Systems Manager, Launch, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-aws-systems-manager-consolidates-application-management/",
+      "link": "https://aws.amazon.com/blogs/aws/new-aws-systems-manager-consolidates-application-management/",
+      "title": "New – AWS Systems Manager Consolidates Application Management"
+    },
+    {
+      "abstract": "Because you are constantly listening to the feedback from your customer, you are iterating, innovating, and improving your applications and infrastructures. You continually modify your IT systems in the cloud. And let’s face it, changing something in a working system risks breaking things or introducing side effects that are sometimes unpredictable; it doesn’t matter how […]",
+      "author": "Sébastien Stormacq",
+      "categories": "Announcements, AWS re:Invent, AWS Systems Manager, Launch, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/introducing-systems-manager-change-manager/",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-systems-manager-change-manager/",
+      "title": "Introducing AWS Systems Manager Change Manager"
+    },
+    {
+      "abstract": "No matter how much automation you have built, no matter how great you are at practicing Infrastructure as Code (IAC), and no matter how successfully you have transitioned from pets to cattle, you sometimes need to interact with your AWS resources at the command line. You might need to check or adjust a configuration file, […]",
+      "author": "Jeff Barr",
+      "categories": "Announcements, AWS CloudShell, AWS re:Invent, Launch, News",
+      "date": "15 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/",
+      "title": "AWS CloudShell – Command-Line Access to AWS Resources"
+    },
+    {
+      "abstract": "Thanks for joining us as Jeff Barr, Martin Beeby, Steve Roberts and Channy Yun liveblogged Dr. Werner Vogels’ Keynote, where he shared how Amazon is solving today’s hardest technology problems. See the recap below. And if you missed them, be sure to check out our re:Invent 2020 liveblog recaps for Andy Jassy’s Keynote, the Partner […]",
+      "author": "AWS News Blog Team",
+      "categories": "Announcements, AWS re:Invent, Events, Launch, News",
+      "date": "14 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-werner-vogels-keynote/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-werner-vogels-keynote/",
+      "title": "re:Invent 2020 Liveblog: Werner Vogels Keynote"
+    },
+    {
+      "abstract": "With Amazon Virtual Private Cloud (VPC), you can launch a logically isolated customer-specific virtual network on the AWS Cloud. As customers expand their footprint on the cloud and deploy increasingly complex network architectures, it can take longer to resolve network connectivity issues caused by misconfiguration. Today, we are happy to announce VPC Reachability Analyzer, a […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon VPC, Amazon VPC, Announcements, AWS re:Invent, Compute, Events, Networking & Content Delivery",
+      "date": "10 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-vpc-insights-analyzes-reachability-and-visibility-in-vpcs/",
+      "link": "https://aws.amazon.com/blogs/aws/new-vpc-insights-analyzes-reachability-and-visibility-in-vpcs/",
+      "title": "New – VPC Reachability Analyzer"
+    },
+    {
+      "abstract": "Thanks for joining us for the AWS re:Invent Infrastructure Keynote with Peter DeSantis, senior vice president of AWS Global Infrastructure and Customer Support which took place Thursday, Dec. 10. AWS Chief Evangelist Jeff Barr and Developer Advocates Martin Beeby and Steve Roberts followed all the action and you can read their recap below. Steve Roberts  9:30 […]",
+      "author": "AWS News Blog Team",
+      "categories": "Announcements, AWS re:Invent, Infrastructure & Automation, Launch, News",
+      "date": "09 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-infrastructure-keynote/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-infrastructure-keynote/",
+      "title": "re:Invent 2020 Liveblog: Infrastructure Keynote"
+    },
+    {
+      "abstract": "Tens of thousands of customers use Amazon EMR to run big data analytics applications on frameworks such as Apache Spark, Hive, HBase, Flink, Hudi, and Presto at scale. EMR automates the provisioning and scaling of these frameworks and optimizes performance with a wide range of EC2 instance types to meet price and performance requirements. Customer […]",
+      "author": "Channy Yun",
+      "categories": "Amazon Elastic Kubernetes Service, Amazon EMR, AWS re:Invent, Launch, News",
+      "date": "09 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-emr-on-amazon-elastic-kubernetes-service-eks/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-emr-on-amazon-elastic-kubernetes-service-eks/",
+      "title": "New – Amazon EMR on Amazon Elastic Kubernetes Service (EKS)"
+    },
+    {
+      "abstract": "I first wrote about Amazon Braket last year and invited you to Get Started with Quantum Computing! Since that launch we have continued to push forward, and have added several important & powerful new features to Amazon Braket: August 2020 – General Availability of Amazon Braket with access to quantum computing hardware from D-Wave, IonQ, […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Braket, AWS re:Invent, Events, Launch, News, Quantum Technologies",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/pennylane-on-braket-progress-toward-fault-tolerant-quantum-computing-tensor-network-simulator/",
+      "link": "https://aws.amazon.com/blogs/aws/pennylane-on-braket-progress-toward-fault-tolerant-quantum-computing-tensor-network-simulator/",
+      "title": "PennyLane on Braket + Progress Toward Fault-Tolerant Quantum Computing + Tensor Network Simulator"
+    },
+    {
+      "abstract": "Amazon CodeGuru is a developer tool that helps you improve your code quality and has two main components: CodeGuru Reviewer uses program analysis and machine learning to detect potential defects that are difficult to find in your code and offers suggestions for improvement. CodeGuru Profiler collects runtime performance data from your live applications, and provides […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon CodeGuru, Announcements, Artificial Intelligence, AWS re:Invent, Developer Tools, Launch, News, Python",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-for-amazon-codeguru-python-support-security-detectors-and-memory-profiling/",
+      "link": "https://aws.amazon.com/blogs/aws/new-for-amazon-codeguru-python-support-security-detectors-and-memory-profiling/",
+      "title": "New for Amazon CodeGuru – Python Support, Security Detectors, and Memory Profiling"
+    },
+    {
+      "abstract": "Gathering evidence in a timely manner to support an audit can be a significant challenge due to manual, error-prone, and sometimes, distributed processes. If your business is subject to compliance requirements, preparing for an audit can cause significant lost productivity and disruption as a result. You might also have trouble applying traditional audit practices, which […]",
+      "author": "Steve Roberts",
+      "categories": "Announcements, AWS re:Invent, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-audit-manager-simplifies-audit-preparation/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-audit-manager-simplifies-audit-preparation/",
+      "title": "AWS Audit Manager Simplifies Audit Preparation"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce the availability of Amazon SageMaker JumpStart, a capability of Amazon SageMaker that accelerates your machine learning workflows with one-click access to popular model collections (also known as “model zoos”), and to end-to-end solutions that solve common use cases. In recent years, machine learning (ML) has proven to be a […]",
+      "author": "Julien Simon",
+      "categories": "Amazon SageMaker, Announcements, Artificial Intelligence, AWS re:Invent, Events, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-jumpstart-simplifies-access-to-prebuilt-models-and-machine-learning-models/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-jumpstart-simplifies-access-to-prebuilt-models-and-machine-learning-models/",
+      "title": "Amazon SageMaker JumpStart Simplifies Access to Pre-built Models and Machine Learning Solutions"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce Amazon SageMaker Pipelines, a new capability of Amazon SageMaker that makes it easy for data scientists and engineers to build, automate, and scale end to end machine learning pipelines. Machine learning (ML) is intrinsically experimental and unpredictable in nature. You spend days or weeks exploring and processing data in […]",
+      "author": "Julien Simon",
+      "categories": "Amazon SageMaker, Announcements, Artificial Intelligence, AWS re:Invent, Events, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-pipelines-brings-devops-to-machine-learning-projects/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-pipelines-brings-devops-to-machine-learning-projects/",
+      "title": "New – Amazon SageMaker Pipelines Brings DevOps Capabilities to your Machine Learning Projects"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce Amazon SageMaker Data Wrangler, a new capability of Amazon SageMaker that makes it faster for data scientists and engineers to prepare data for machine learning (ML) applications by using a visual interface. Whenever I ask a group of data scientists and ML engineers how much time they actually spend […]",
+      "author": "Julien Simon",
+      "categories": "Amazon SageMaker, Announcements, Artificial Intelligence, AWS re:Invent, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/introducing-amazon-sagemaker-data-wrangler-a-visual-interface-to-prepare-data-for-machine-learning/",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-sagemaker-data-wrangler-a-visual-interface-to-prepare-data-for-machine-learning/",
+      "title": "Introducing Amazon SageMaker Data Wrangler, a Visual Interface to Prepare Data for Machine Learning"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce Amazon SageMaker Feature Store, a new capability of Amazon SageMaker that makes it easy for data scientists and machine learning engineers to securely store, discover and share curated data used in training and prediction workflows. For all the importance of selecting the right algorithm to train machine learning (ML) […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Machine Learning, Amazon SageMaker, Artificial Intelligence, AWS re:Invent, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-store-discover-and-share-machine-learning-features-with-amazon-sagemaker-feature-store/",
+      "link": "https://aws.amazon.com/blogs/aws/new-store-discover-and-share-machine-learning-features-with-amazon-sagemaker-feature-store/",
+      "title": "New – Store, Discover, and Share Machine Learning Features with Amazon SageMaker Feature Store"
+    },
+    {
+      "abstract": "Healthcare organizations collect vast amounts of patient information every day, from family history and clinical observations to diagnoses and medications. They use all this data to try to compile a complete picture of a patient’s health information in order to provide better healthcare services. Currently, this data is distributed across various systems (electronic medical records, […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon Machine Learning, Artificial Intelligence, AWS re:Invent, Events, Healthcare, Industries",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-healthlake-to-store-transform-and-analyze-petabytes-of-health-and-life-sciences-data-in-the-cloud/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-healthlake-to-store-transform-and-analyze-petabytes-of-health-and-life-sciences-data-in-the-cloud/",
+      "title": "Amazon HealthLake Stores, Transforms, and Analyzes Health Data in the Cloud"
+    },
+    {
+      "abstract": "We are excited to announce Amazon Lookout for Metrics, a new service that uses machine learning (ML) to detect anomalies in your metrics, helping you proactively monitor the health of your business, diagnose issues, and find opportunities quickly – with no ML experience required. Lookout for Metrics uses the same technology used by Amazon to […]",
+      "author": "Alex Casalboni",
+      "categories": "Amazon Machine Learning, Analytics, Announcements, Artificial Intelligence, AWS re:Invent",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/preview-amazon-lookout-for-metrics-anomaly-detection-service-monitoring-health-business/",
+      "link": "https://aws.amazon.com/blogs/aws/preview-amazon-lookout-for-metrics-anomaly-detection-service-monitoring-health-business/",
+      "title": "Preview: Amazon Lookout for Metrics, an Anomaly Detection Service for Monitoring the Health of Your Business"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce Amazon SageMaker Edge Manager, a new capability of Amazon SageMaker that makes it easier to optimize, secure, monitor, and maintain machine learning models on a fleet of edge devices. Edge computing is certainly one of the most exciting developments in information technology. Indeed, thanks to continued advances in compute, […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Machine Learning, Amazon SageMaker, Amazon SageMaker Neo, Artificial Intelligence, AWS re:Invent, Events, Internet of Things, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-edge-manager-simplifies-operating-machine-learning-models-on-edge-devices/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-edge-manager-simplifies-operating-machine-learning-models-on-edge-devices/",
+      "title": "Amazon SageMaker Edge Manager Simplifies Operating Machine Learning Models on Edge Devices"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce Amazon SageMaker Clarify, a new capability of Amazon SageMaker that helps customers detect bias in machine learning (ML) models, and increase transparency by helping explain model behavior to stakeholders and customers. As ML models are built by training algorithms that learn statistical patterns present in datasets, several questions immediately […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Machine Learning, Amazon SageMaker, Announcements, Artificial Intelligence, AWS re:Invent, Events, Launch, News",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-sagemaker-clarify-detects-bias-and-increases-the-transparency-of-machine-learning-models/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-sagemaker-clarify-detects-bias-and-increases-the-transparency-of-machine-learning-models/",
+      "title": "New – Amazon SageMaker Clarify Detects Bias and Increases the Transparency of Machine Learning Models"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce that Amazon SageMaker Debugger can now profile machine learning models, making it much easier to identify and fix training issues caused by hardware resource usage. Despite its impressive performance on a wide range of business problems, machine learning (ML) remains a bit of a mysterious topic. Getting things right […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Machine Learning, Amazon SageMaker, Announcements, Artificial Intelligence, AWS re:Invent, PyTorch on AWS, Tensorflow on AWS",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/profile-your-machine-learning-training-jobs-with-amazon-sagemaker-debugger/",
+      "link": "https://aws.amazon.com/blogs/aws/profile-your-machine-learning-training-jobs-with-amazon-sagemaker-debugger/",
+      "title": "New – Profile Your Machine Learning Training Jobs With Amazon SageMaker Debugger"
+    },
+    {
+      "abstract": "Today, I’m particularly happy to announce that Amazon SageMaker now supports a new data parallelism library that makes it easier to train models on datasets that may be as large as hundreds or thousands of gigabytes. As data sets and models grow larger and more sophisticated, machine learning (ML) practitioners working on large distributed training […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Machine Learning, Announcements, Artificial Intelligence, AWS re:Invent, Events, Open Source, PyTorch on AWS, Tensorflow on AWS",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/managed-data-parallelism-in-amazon-sagemaker-simplifies-training-on-large-datasets/",
+      "link": "https://aws.amazon.com/blogs/aws/managed-data-parallelism-in-amazon-sagemaker-simplifies-training-on-large-datasets/",
+      "title": "New – Managed Data Parallelism in Amazon SageMaker Simplifies Training on Large Datasets"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce that Amazon SageMaker simplifies the training of very large deep learning models that were previously difficult to train due to hardware limitations. In the last 10 years, a subset of machine learning named deep learning (DL) has taken the world by storm. Based on neural networks, DL algorithms have […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Machine Learning, Amazon SageMaker, Artificial Intelligence, AWS re:Invent, Events",
+      "date": "08 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-simplifies-training-deep-learning-models-with-billions-of-parameters/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-simplifies-training-deep-learning-models-with-billions-of-parameters/",
+      "title": "Amazon SageMaker Simplifies Training Deep Learning Models With Billions of Parameters"
+    },
+    {
+      "abstract": "We launched new AWS Regions in Italy and South Africa in 2020, and are working on regions in Indonesia, Japan, Spain, India, and Switzerland. Melbourne, Australia in 2020 Today I am happy to announce that the Asia Pacific (Melbourne) region is in the works, and will open in the second half of 2022 with three […]",
+      "author": "Jeff Barr",
+      "categories": "AWS re:Invent, Launch, News",
+      "date": "07 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/in-the-works-aws-region-in-melbourne-australia/",
+      "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-region-in-melbourne-australia/",
+      "title": "In the Works – AWS Region in Melbourne, Australia"
+    },
+    {
+      "abstract": "AWS Chief Evangelist Jeff Barr and Developer Advocates Martin Beeby and Steve Roberts liveblogged the first-ever Machine Learning Keynote. Swami Sivasubramanian, VP of Amazon Machine Learning shared the latest developments and launches in Amazon ML/AI, as well as demos of new technology, and insights from customers. Read the Machine Learning Keynote recap below. You can […]",
+      "author": "AWS News Blog Team",
+      "categories": "Amazon Machine Learning, Announcements, Artificial Intelligence, AWS re:Invent, Healthcare, Launch, Manufacturing, News",
+      "date": "07 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-machine-learning-keynote/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-machine-learning-keynote/",
+      "title": "re:Invent 2020 Liveblog: Machine Learning Keynote"
+    },
+    {
+      "abstract": "To balance costs, while at the same time ensuring the service levels needed to meet business requirements are met, some customers elect to continuously monitor and optimize their AWS Lambda functions. They collect and analyze metrics and logs to monitor performance, and to isolate errors for troubleshooting purposes. Additionally, they also seek to right-size function […]",
+      "author": "Steve Roberts",
+      "categories": "Amazon CloudWatch, AWS Lambda, AWS re:Invent, Launch, News",
+      "date": "03 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/using-amazon-cloudwatch-lambda-insights-to-improve-operational-visibility/",
+      "link": "https://aws.amazon.com/blogs/aws/using-amazon-cloudwatch-lambda-insights-to-improve-operational-visibility/",
+      "title": "Using Amazon CloudWatch Lambda Insights to Improve Operational Visibility"
+    },
+    {
+      "abstract": "We launched AWS Batch on December 2016 as a fully managed batch computing service that enables developers, scientists and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. With AWS Batch, you no longer need to install and manage batch computing software or server clusters to run your jobs. […]",
+      "author": "Harunobu Kameda",
+      "categories": "AWS Batch, AWS Fargate, AWS re:Invent, Compute, Events",
+      "date": "03 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-fully-serverless-batch-computing-with-aws-batch-support-for-aws-fargate/",
+      "link": "https://aws.amazon.com/blogs/aws/new-fully-serverless-batch-computing-with-aws-batch-support-for-aws-fargate/",
+      "title": "New – Fully Serverless Batch Computing with AWS Batch Support for AWS Fargate"
+    },
+    {
+      "abstract": "To help you build secure, high-performing, resilient, and efficient solutions on AWS, in 2015 we publicly launched the AWS Well-Architected Framework. It started as a single whitepaper but has expanded to include domain-specific lenses, hands-on labs, and the AWS Well-Architected Tool (available at no cost in the AWS Management Console) that provides a mechanism for […]",
+      "author": "Danilo Poccia",
+      "categories": "Announcements, AWS re:Invent, AWS Well-Architected, AWS Well-Architected Framework, AWS Well-Architected Tool, Launch, News",
+      "date": "03 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-saas-lens-in-aws-well-architected-tool/",
+      "link": "https://aws.amazon.com/blogs/aws/new-saas-lens-in-aws-well-architected-tool/",
+      "title": "New – SaaS Lens in AWS Well-Architected Tool"
+    },
+    {
+      "abstract": "Now with AWS Marketplace, customers can not only find and buy third-party software but also the professional services needed to support the full lifecycle of those products, including planning, deployment and support. This simplifies the software supply chain including tasks like managing provider relationships and procurement processes and also consolidates billing and invoices in one […]",
+      "author": "Marcia Villalba",
+      "categories": "Announcements, AWS Marketplace, AWS re:Invent",
+      "date": "03 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-marketplace-now-offers-professional-services/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-marketplace-now-offers-professional-services/",
+      "title": "AWS Marketplace Now Offers Professional Services"
+    },
+    {
+      "abstract": "AWS License Manager is a service that helps you easily manage software licenses from vendors such as Microsoft, SAP, Oracle, and IBM across your Amazon Web Services (AWS) and on-premises environments. You can define rules based on your licensing agreements to prevent license violations, such as using more licenses than are available. You can set […]",
+      "author": "Harunobu Kameda",
+      "categories": "AWS License Manager, AWS Marketplace, AWS re:Invent, Events, Software",
+      "date": "03 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/managed-entitlements-for-aws-license-manager-streamlines-license-management-for-customers-and-isvs/",
+      "link": "https://aws.amazon.com/blogs/aws/managed-entitlements-for-aws-license-manager-streamlines-license-management-for-customers-and-isvs/",
+      "title": "Managed Entitlements in AWS License Manager Streamlines License Tracking and Distribution for Customers and ISVs"
+    },
+    {
+      "abstract": "Thanks for joining us for the AWS Partner Keynote with Doug Yeum, head of Worldwide Channels and Alliances; Sandy Carter, vice president, Global Public Sector Partners and Programs; and Dave McCann, vice president, AWS Migration, Marketplace, and Control Services. Below is the liveblog from Developer Advocates Steve Roberts and Martin Beeby. Now, go check out […]",
+      "author": "AWS News Blog Team",
+      "categories": "Announcements, AWS re:Invent, Launch, News",
+      "date": "02 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-partner-keynote/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-partner-keynote/",
+      "title": "re:Invent 2020 Liveblog: Partner Keynote"
+    },
+    {
+      "abstract": "When we launched S3 back in 2006, I discussed its virtually unlimited capacity (“…easily store any number of blocks…”), the fact that it was designed to provide 99.99% availability, and that it offered durable storage, with data transparently stored in multiple locations. Since that launch, our customers have used S3 in an amazing diverse set […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Simple Storage Services (S3), Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/",
+      "title": "Amazon S3 Update – Strong Read-After-Write Consistency"
+    },
+    {
+      "abstract": "Amazon Simple Storage Service (S3) supports many types of replication, including S3 Same-Region Replication (SRR), which launched in 2019 and S3 Cross-Region Replication (CRR), which has been around since 2015. Today, we are happy to announce S3 Replication support for multiple destination buckets. S3 Replication now gives you the ability to replicate data from one […]",
+      "author": "Marcia Villalba",
+      "categories": "Amazon Simple Storage Services (S3), Announcements, AWS re:Invent, Storage",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-s3-replication-adds-support-for-multiple-destination-buckets/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-s3-replication-adds-support-for-multiple-destination-buckets/",
+      "title": "New – Amazon S3 Replication Adds Support for Multiple Destination Buckets"
+    },
+    {
+      "abstract": "Today AWS Amplify announces new Admin UI to configure an application backend, and manage app users and content outside the AWS console. This new feature makes it easier to use AWS services and accelerates the development and management of full-stack web and mobile apps. We launched AWS Amplify in November 2018, and since then it […]",
+      "author": "Marcia Villalba",
+      "categories": "Announcements, AWS Amplify, AWS re:Invent, Front-End Web & Mobile",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-amplify-admin-ui-helps-you-develop-app-backends-no-cloud-experience-required/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-amplify-admin-ui-helps-you-develop-app-backends-no-cloud-experience-required/",
+      "title": "New AWS Amplify Admin UI Helps You Develop App Backends, No Cloud Experience Required"
+    },
+    {
+      "abstract": "Our customers have told us that they want to focus on building innovative solutions for their customers, and focus less on the heavy lifting of managing Kubernetes infrastructure. That is why Amazon Elastic Kubernetes Service (EKS) has been so popular; we remove the burden of managing Kubernetes while our customers glean the benefits. However, not […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon Elastic Kubernetes Service, Announcements, AWS re:Invent, Open Source",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-eks-distro-the-kubernetes-distribution-used-by-amazon-eks/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-eks-distro-the-kubernetes-distribution-used-by-amazon-eks/",
+      "title": "Amazon EKS Distro: The Kubernetes Distribution Used by Amazon EKS"
+    },
+    {
+      "abstract": "Below are the major 2020 re:Invent launch and preview announcements covered by our dedicated team of AWS News bloggers / developer advocates from around the globe. For a complete overview of all re:Invent 2020 launches, see the full list here. Plus, don’t miss our liveblog recaps of all the re:Invent 2020 keynotes: Andy Jassy’s Keynote […]",
+      "author": "AWS News Blog Team",
+      "categories": "Amazon Machine Learning, Analytics, Announcements, AWS Marketplace, AWS re:Invent, AWS Well-Architected, Compute, Containers, Customer Enablement, Front-End Web & Mobile, Launch, Networking & Content Delivery, News, Storage",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-reinvent-announcements-2020/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-reinvent-announcements-2020/",
+      "title": "AWS re:Invent 2020 – Top Announcements"
+    },
+    {
+      "abstract": "We launched the first AWS Local Zone in Los Angeles last December, and added a second one (also in Los Angeles) in August of 2020. In my original post, I quoted Andy Jassy’s statement that we would be giving consideration to adding Local Zones in more geographic areas. Our customers are using the EC2 instances […]",
+      "author": "Jeff Barr",
+      "categories": "Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/in-the-works-more-aws-local-zones/",
+      "link": "https://aws.amazon.com/blogs/aws/in-the-works-more-aws-local-zones/",
+      "title": "In the Works – 3 More AWS Local Zones in 2020, and 12 More in 2021"
+    },
+    {
+      "abstract": "Andy Jassy just gave you a hint about some upcoming AWS launches, and I’ll have more to say about them when they are ready. To tide you over until then, here’s a summary of what he pre-announced: Smaller AWS Outpost Form Factors – We are introducing two new sizes of AWS Outposts, suitable for locations […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Elastic Container Service, Amazon Elastic Kubernetes Service, AWS Outposts, AWS re:Invent, Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-preannouncements-for-tuesday-december-1/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-preannouncements-for-tuesday-december-1/",
+      "title": "re:Invent 2020 – Preannouncements for Tuesday, December 1"
+    },
+    {
+      "abstract": "At AWS re:Invent today, we gave a preview of the AWS Panorama Appliance. Also, we announced the AWS Panorama SDK is coming soon. These allow organizations to bring computer vision to their on-premises cameras and make automated predictions with high accuracy and low latency. Over the past couple of decades, computer vision has gone from […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon Machine Learning, AWS re:Invent",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/using-computer-vision-applications-at-the-edge/",
+      "link": "https://aws.amazon.com/blogs/aws/using-computer-vision-applications-at-the-edge/",
+      "title": "AWS Panorama Appliance: Bringing Computer Vision Applications to the Edge"
+    },
+    {
+      "abstract": "Today, I’m excited to announce Amazon Lookout for Vision, a new machine learning (ML) service that helps customers in industrial environments to detect visual defects on production units and equipment in an easy and cost-effective way. Can you spot the circuit board with the defect in these images? Maybe you can if you are familiar […]",
+      "author": "Marcia Villalba",
+      "categories": "Announcements, Artificial Intelligence, Automotive, AWS re:Invent, Launch, Manufacturing",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-lookout-for-vision-new-machine-learning-service-that-simplifies-defect-detection-for-manufacturing/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-lookout-for-vision-new-machine-learning-service-that-simplifies-defect-detection-for-manufacturing/",
+      "title": "Amazon Lookout for Vision – New ML Service Simplifies Defect Detection for Manufacturing"
+    },
+    {
+      "abstract": "Companies that operate industrial equipment are constantly working to improve operational efficiency and avoid unplanned downtime due to component failure. They invest heavily and repeatedly in physical sensors (tags), data connectivity, data storage, and building dashboards over the years to monitor the condition of their equipment and get real-time alerts. The primary data analysis methods […]",
+      "author": "Harunobu Kameda",
+      "categories": "Announcements, Artificial Intelligence, AWS IoT SiteWise, AWS re:Invent, Events, Internet of Things",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-lookout-for-equipment-analyzes-sensor-data-to-help-detect-equipment-failure/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-lookout-for-equipment-analyzes-sensor-data-to-help-detect-equipment-failure/",
+      "title": "New – Amazon Lookout for Equipment Analyzes Sensor Data to Help Detect Equipment Failure"
+    },
+    {
+      "abstract": "Today, I’m extremely happy to announce Amazon Monitron, a condition monitoring service that detects potential failures and allows user to track developing faults enabling you to implement predictive maintenance and reduce unplanned downtime. True story: A few months ago, I bought a new washing machine. As the delivery man was installing it in my basement, […]",
+      "author": "Julien Simon",
+      "categories": "Artificial Intelligence, AWS re:Invent, Events, Internet of Things",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-monitron-a-simple-cost-effective-service-enabling-predictive-maintenance/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-monitron-a-simple-cost-effective-service-enabling-predictive-maintenance/",
+      "title": "Amazon Monitron, a Simple and Cost-Effective Service Enabling Predictive Maintenance"
+    },
+    {
+      "abstract": "We launched Amazon Connect in 2017 and, since then, thousands of customers have created their own contact centers in the cloud. Amazon Connect makes it easy for non-technical customers to design interaction flows, manage agents, and track performance metrics. For example, when I book a Best Western hotel room in Europe by phone, the call […]",
+      "author": "Sébastien Stormacq",
+      "categories": "Amazon Connect, Announcements, AWS re:Invent, Contact Center, Contact Lens for Amazon Connect, Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-connect-smarter-and-more-integrated/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-connect-smarter-and-more-integrated/",
+      "title": "Amazon Connect – Now Smarter and More Integrated With Third-Party Tools"
+    },
+    {
+      "abstract": "We launched Amazon QuickSight as the first Business Intelligence (BI) service with Pay-per-Session pricing. Today, we are happy to announce the preview of Amazon QuickSight Q, a Natural Language Query (NLQ) feature powered by machine learning (ML). With Q, business users can now use QuickSight to ask questions about their data using everyday language and […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon QuickSight, Analytics, AWS re:Invent, Events",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-quicksight-q-to-answer-ad-hoc-business-questions/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-quicksight-q-to-answer-ad-hoc-business-questions/",
+      "title": "New – Amazon QuickSight Q Answers Natural-Language Questions About Business Data"
+    },
+    {
+      "abstract": "Today, we are announcing Amazon DevOps Guru, a fully managed operations service that makes it easy for developers and operators to improve application availability by automatically detecting operational issues and recommending fixes. DevOps Guru applies machine learning informed by years of operational excellence from Amazon.com and Amazon Web Services (AWS) to automatically collect and analyze […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon CodeGuru, Artificial Intelligence, AWS re:Invent, DevOps, Events",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-devops-guru-machine-learning-powered-service-identifies-application-errors-and-fixes/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-devops-guru-machine-learning-powered-service-identifies-application-errors-and-fixes/",
+      "title": "New- Amazon DevOps Guru Helps Identify Application Errors and Fixes"
+    },
+    {
+      "abstract": "With AWS Lambda, you upload your code and run it without thinking about servers. Many customers enjoy the way this works, but if you’ve invested in container tooling for your development workflows, it’s not easy to use the same approach to build applications using Lambda. To help you with that, you can now package and […]",
+      "author": "Danilo Poccia",
+      "categories": "Announcements, AWS Lambda, AWS re:Invent, Compute, Containers, Serverless",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/",
+      "link": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/",
+      "title": "New for AWS Lambda – Container Image Support"
+    },
+    {
+      "abstract": "Amazon Elastic Block Store (EBS) volumes have been an essential EC2 component since they were launched in 2008. Today, you can choose between six types of HDD and SSD volumes, each designed to serve a particular use case and to deliver a specified amount of performance. Earlier this year we launched io2 volumes with 100x […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon EC2, Amazon Elastic Block Storage (EBS), AWS re:Invent, Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/now-in-preview-larger-faster-io2-ebs-volumes-with-higher-throughput/",
+      "link": "https://aws.amazon.com/blogs/aws/now-in-preview-larger-faster-io2-ebs-volumes-with-higher-throughput/",
+      "title": "Now in Preview – Larger & Faster io2 Block Express EBS Volumes with Higher Throughput"
+    },
+    {
+      "abstract": "Amazon Elastic Block Store (EBS) is an easy-to-use, high-performance block storage service designed for use with Amazon EC2 instances for both throughput and transaction-intensive workloads of all sizes. Using existing general purpose solid state drive (SSD) gp2 volumes, performance scales with storage capacity. By provisioning larger storage volume sizes, you can improve application input / […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon Elastic Block Storage (EBS), AWS re:Invent, Events, Storage",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-ebs-gp3-volume-lets-you-provision-performance-separate-from-capacity-and-offers-20-lower-price/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-ebs-gp3-volume-lets-you-provision-performance-separate-from-capacity-and-offers-20-lower-price/",
+      "title": "New – Amazon EBS gp3 Volume Lets You Provision Performance Apart From Capacity"
+    },
+    {
+      "abstract": "Today, we are excited to announce the public preview of AWS Proton, a new service that helps you automate and manage infrastructure provisioning and code deployments for serverless and container-based applications. Maintaining hundreds – or sometimes thousands – of microservices with constantly changing infrastructure resources and configurations is a challenging task for even the most […]",
+      "author": "Alex Casalboni",
+      "categories": "Announcements, AWS Fargate, AWS Lambda, AWS re:Invent, Compute, Containers, Infrastructure & Automation, Serverless",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/preview-aws-proton-automated-management-for-container-and-serverless-deployments/",
+      "link": "https://aws.amazon.com/blogs/aws/preview-aws-proton-automated-management-for-container-and-serverless-deployments/",
+      "title": "Preview: AWS Proton – Automated Management for Container and Serverless Deployments"
+    },
+    {
+      "abstract": "AWS Lambda runs your code on an highly available and scalable compute infrastructure so that you can focus on what you want to build. Do you want to get the advantages of Lambda for workloads that are memory or computationally intensive? Wait no more! Starting today, you can allocate up to 10 GB of memory […]",
+      "author": "Danilo Poccia",
+      "categories": "Announcements, AWS Lambda, AWS re:Invent, Compute, Launch, News, Serverless",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-functions-with-up-to-10-gb-of-memory-and-6-vcpus/",
+      "link": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-functions-with-up-to-10-gb-of-memory-and-6-vcpus/",
+      "title": "New for AWS Lambda – Functions with Up to 10 GB of Memory and 6 vCPUs"
+    },
+    {
+      "abstract": "What I like about AWS Lambda is that it lets you run code without provisioning or managing servers, and you pay only for what you use. Since we launched Lambda in 2014, you have been charged for the number of times your code is triggered (requests) and for the time your code executes, rounded up […]",
+      "author": "Danilo Poccia",
+      "categories": "Announcements, AWS Lambda, AWS re:Invent, Compute, Launch, News, Serverless",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-1ms-billing-granularity-adds-cost-savings/",
+      "link": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-1ms-billing-granularity-adds-cost-savings/",
+      "title": "New for AWS Lambda – 1ms Billing Granularity Adds Cost Savings"
+    },
+    {
+      "abstract": "In November, we announced that we intended to create a public container registry, and today at AWS re:Invent, we followed through on that promise and launched Amazon Elastic Container Registry Public (ECR Public). ECR Public allows you to store, manage, share, and deploy container images for anyone to discover and download globally. You have long […]",
+      "author": "Martin Beeby",
+      "categories": "Announcements, AWS re:Invent, Containers, Launch",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-ecr-public-a-new-public-container-registry/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-ecr-public-a-new-public-container-registry/",
+      "title": "Amazon Elastic Container Registry Public: A New Public Container Registry"
+    },
+    {
+      "abstract": "Update (December 9, 2020) – The G4ad instances described in this post are available today in the US East (N. Virginia), US West (Oregon), and Europe (Ireland) regions. Customers with high performance graphic workloads, such as game streaming, animation, and video rendering for example, are always looking for higher performance with less cost. Today, I’m […]",
+      "author": "Steve Roberts",
+      "categories": "Amazon EC2, Announcements, AWS re:Invent, Launch",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-g4ad-instances-featuring-amd-gpus-for-graphics-workloads/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-g4ad-instances-featuring-amd-gpus-for-graphics-workloads/",
+      "title": "Coming Soon – Amazon EC2 G4ad Instances Featuring AMD GPUs for Graphics Workloads"
+    },
+    {
+      "abstract": "We launched the compute-intensive z1d instances in mid-2018 for customers who asked us for extremely high per-core performance and a high memory-to-core ratio to power their front-end Electronic Design Automation (EDA), actuarial, and CPU-bound relational database workloads. In order to address a complementary set of use cases, customers have asked us for an EC2 instance […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon EC2, AWS re:Invent, Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-ec2-m5zn-instances-fastest-intel-xeon-scalable-cpu-in-the-cloud/",
+      "link": "https://aws.amazon.com/blogs/aws/new-ec2-m5zn-instances-fastest-intel-xeon-scalable-cpu-in-the-cloud/",
+      "title": "New EC2 M5zn Instances – Fastest Intel Xeon Scalable CPU in the Cloud"
+    },
+    {
+      "abstract": "Based on the amazing feedback from customers such as Snap, NextRoll, Intuit, SmugMug, and Honeycomb who are running their workloads on Amazon Elastic Compute Cloud (EC2) instances powered by AWS Graviton2, today we are announcing an addition to our broad Arm-based Graviton2 portfolio with C6gn instances that deliver up to 100 Gbps network bandwidth, up […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon EC2, Announcements, AWS re:Invent, Compute, Graviton, Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/coming-soon-ec2-c6gn-instances-100-gbps-networking-with-aws-graviton2-processors/",
+      "link": "https://aws.amazon.com/blogs/aws/coming-soon-ec2-c6gn-instances-100-gbps-networking-with-aws-graviton2-processors/",
+      "title": "Coming Soon – EC2 C6gn Instances – 100 Gbps Networking with AWS Graviton2 Processors"
+    },
+    {
+      "abstract": "In July 2018, we announced memory-optimized R5 instances for the Amazon Elastic Compute Cloud (Amazon EC2). R5 instances are designed for memory-intensive applications such as high-performance databases, distributed web scale in-memory caches, in-memory databases, real time big data analytics, and other enterprise applications. R5 instances offer two different block storage options. R5d instances offer up […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon EC2, Amazon EC2 Bare Metal, Amazon Elastic Block Storage (EBS), AWS re:Invent, Compute, Storage",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-r5b-instances-providing-3x-higher-ebs-performance/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-r5b-instances-providing-3x-higher-ebs-performance/",
+      "title": "New – Amazon EC2 R5b Instances Provide 3x Higher EBS Performance"
+    },
+    {
+      "abstract": "We have launched several generations of EC2 instances with dense storage including the HS1 in 2012 and the D2 in 2015. As you can guess from the name, our customers use these instances when they need massive amounts of very economical on-instance storage for their data warehouses, data lakes, network file systems, Hadoop clusters, and […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon EC2, AWS re:Invent, Launch, News",
+      "date": "01 DEC 2020",
+      "image": "https://aws.amazon.com/blogs/aws/ec2-update-d3-d3en-dense-storage-instances/",
+      "link": "https://aws.amazon.com/blogs/aws/ec2-update-d3-d3en-dense-storage-instances/",
+      "title": "EC2 Update – D3 / D3en Dense Storage Instances"
+    },
+    {
+      "abstract": "Throughout the course of my career I have done my best to stay on top of new hardware and software. As a teenager I owned an Altair 8800 and an Apple II. In my first year of college someone gave me a phone number and said “call this with modem.” I did, it answered “PENTAGON […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon EC2, AWS re:Invent, Launch, News",
+      "date": "30 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-use-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/",
+      "link": "https://aws.amazon.com/blogs/aws/new-use-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/",
+      "title": "New – Use Amazon EC2 Mac Instances to Build & Test macOS, iOS, iPadOS, tvOS, and watchOS Apps"
+    },
+    {
+      "abstract": "Edit: Our livestream has finished for 2020, but the episodes are available to watch on demand! Visit our playlist on YouTube. Join AWS On Air throughout re:Invent (Dec 1 – Dec 17) for daily livestreams with news, announcements, demos, and interviews with experts across industry and technology. Use the schedule below to find out when […]",
+      "author": "Nicholas Walsh",
+      "categories": "Announcements, AWS re:Invent, Events",
+      "date": "30 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-streaming-schedule/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-streaming-schedule/",
+      "title": "AWS On Air – re:Invent Weekly Streaming Schedule"
+    },
+    {
+      "abstract": "Jeff Barr‘s liveblog of Andy Jassy’s re:Invent keynote on Dec. 1, 2020 has ended, but you can read all about the event – from Jeff’s perspective – below. Be sure to follow along with all the top re:Invent announcements here, and we’ll also use this space to keep you posted about other  re:Invent liveblogs as […]",
+      "author": "Jeff Barr",
+      "categories": "Announcements, AWS re:Invent, Launch, News",
+      "date": "27 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-andy-jassy-keynote/",
+      "link": "https://aws.amazon.com/blogs/aws/reinvent-2020-liveblog-andy-jassy-keynote/",
+      "title": "re:Invent 2020 Liveblog: Andy Jassy Keynote"
+    },
+    {
+      "abstract": "Starting today, you can pass user attributes in the AWS session when your workforce sign-in into the cloud using AWS Single Sign-On. This gives you the centralized account access management of AWS Single Sign-On and ABAC, with the flexibility to use AWS SSO, Active Directory, or an external identity provider as your identity source. To […]",
+      "author": "Sébastien Stormacq",
+      "categories": "AWS Single Sign-On (SSO), Identity, Launch, News, Security, Identity, & Compliance",
+      "date": "24 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-attributes-based-access-control-with-aws-single-sign-on/",
+      "link": "https://aws.amazon.com/blogs/aws/new-attributes-based-access-control-with-aws-single-sign-on/",
+      "title": "New – Attribute-Based Access Control with AWS Single Sign-On"
+    },
+    {
+      "abstract": "As the volume and complexity of your data processing pipelines increase, you can simplify the overall process by decomposing it into a series of smaller tasks and coordinate the execution of these tasks as part of a workflow. To do so, many developers and data engineers use Apache Airflow, a platform created by the community […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA), Announcements, Application Integration, Launch, News",
+      "date": "24 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/introducing-amazon-managed-workflows-for-apache-airflow-mwaa/",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-managed-workflows-for-apache-airflow-mwaa/",
+      "title": "Introducing Amazon Managed Workflows for Apache Airflow (MWAA)"
+    },
+    {
+      "abstract": "Code signing is an industry standard technique used to confirm that the code is unaltered and from a trusted publisher. Code running inside AWS Lambda functions is executed on highly hardened systems and runs in a secure manner. However, function code is susceptible to alteration as it moves through deployment pipelines that run outside AWS. […]",
+      "author": "Channy Yun",
+      "categories": "AWS Lambda, Launch, News",
+      "date": "23 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-code-signing-a-trust-and-integrity-control-for-aws-lambda/",
+      "link": "https://aws.amazon.com/blogs/aws/new-code-signing-a-trust-and-integrity-control-for-aws-lambda/",
+      "title": "New – Code Signing, a Trust and Integrity Control for AWS Lambda"
+    },
+    {
+      "abstract": "Starting today, you can add WebAuthn as a new multi-factor authentication (MFA) to AWS Single Sign-On, in addition to currently supported one-time password (OTP) and Radius authenticators. By adding support for WebAuthn, a W3C specification developed in coordination with FIDO Alliance, you can now authenticate with a wide variety of interoperable authenticators provisioned by your […]",
+      "author": "Sébastien Stormacq",
+      "categories": "AWS Single Sign-On (SSO), Launch, News, Security",
+      "date": "23 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/multi-factor-authentication-with-webauthn-for-aws-sso/",
+      "link": "https://aws.amazon.com/blogs/aws/multi-factor-authentication-with-webauthn-for-aws-sso/",
+      "title": "New – Multi-Factor Authentication with WebAuthn for AWS SSO"
+    },
+    {
+      "abstract": "Our customers build applications that need to serve users that live in all corners of the world. When listening to our customers, they told us that whilst they were comfortable building Active Directory (AD) aware applications on AWS, making them work globally can be a real challenge. Customers told us that AWS Directory Service for […]",
+      "author": "Martin Beeby",
+      "categories": "Announcements, AWS Directory Service",
+      "date": "19 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/multi-region-replication-now-enabled-for-aws-managed-microsoft-active-directory/",
+      "link": "https://aws.amazon.com/blogs/aws/multi-region-replication-now-enabled-for-aws-managed-microsoft-active-directory/",
+      "title": "Multi-Region Replication Now Enabled for AWS Managed Microsoft Active Directory"
+    },
+    {
+      "abstract": "When starting out in the cloud, a customer’s storage requirements might consist of a handful of S3 buckets, but as they grow, migrate more applications and realize the power of the cloud, things can become more complicated. A customer may have tens or even hundreds of accounts and have multiple S3 buckets across numerous AWS […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon Simple Storage Services (S3), AWS Organizations, Storage",
+      "date": "18 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/s3-storage-lens/",
+      "link": "https://aws.amazon.com/blogs/aws/s3-storage-lens/",
+      "title": "Introducing Amazon S3 Storage Lens – Organization-wide Visibility Into Object Storage"
+    },
+    {
+      "abstract": "Our customers want to have a high availability, scalable firewall service to protect their virtual networks in the cloud. Security is the number one priority of AWS, which has provided various firewall capabilities on AWS that address specific security needs, like Security Groups to protect Amazon Elastic Compute Cloud (EC2) instances, Network ACLs to protect […]",
+      "author": "Channy Yun",
+      "categories": "Amazon VPC, Launch, News, Security, Identity, & Compliance",
+      "date": "17 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/",
+      "title": "AWS Network Firewall – New Managed Firewall Service in VPC"
+    },
+    {
+      "abstract": "When I am delivering an introduction to the AWS Cloud for developers, I usually spend a bit of time to mention and to demonstrate Amazon Lightsail. It is by far the easiest way to get started on AWS. It allows you to get your application running on your own virtual server in a matter of […]",
+      "author": "Sébastien Stormacq",
+      "categories": "Amazon Lightsail, Containers, Launch, News",
+      "date": "13 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/lightsail-containers-an-easy-way-to-run-your-containers-in-the-cloud/",
+      "link": "https://aws.amazon.com/blogs/aws/lightsail-containers-an-easy-way-to-run-your-containers-in-the-cloud/",
+      "title": "Lightsail Containers: An Easy Way to Run your Containers in the Cloud"
+    },
+    {
+      "abstract": "The AWS Heroes program recognizes individuals from around the world who have extensive AWS knowledge and go above and beyond to share their expertise with others. The program continues to grow, to better recognize the most influential community leaders across a variety of technical disciplines. Introducing AWS DevTools Heroes Today we are introducing AWS DevTools […]",
+      "author": "Ross Barich",
+      "categories": "Announcements, AWS Heroes, Launch, News",
+      "date": "12 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/meet-the-newest-aws-heroes-including-the-first-devtools-heroes/",
+      "link": "https://aws.amazon.com/blogs/aws/meet-the-newest-aws-heroes-including-the-first-devtools-heroes/",
+      "title": "Meet the newest AWS Heroes including the first DevTools Heroes!"
+    },
+    {
+      "abstract": "Today, we are announcing that the Amazon Alexa team has migrated the vast majority of their GPU-based machine learning inference workloads to Amazon Elastic Compute Cloud (EC2) Inf1 instances, powered by AWS Inferentia. This resulted in 25% lower end-to-end latency, and 30% lower cost compared to GPU-based instances for Alexa’s text-to-speech workloads. The lower latency […]",
+      "author": "Sébastien Stormacq",
+      "categories": "Alexa, Amazon EC2, Artificial Intelligence, AWS Inferentia",
+      "date": "12 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/majority-of-alexa-now-running-on-faster-more-cost-effective-amazon-ec2-inf1-instances/",
+      "link": "https://aws.amazon.com/blogs/aws/majority-of-alexa-now-running-on-faster-more-cost-effective-amazon-ec2-inf1-instances/",
+      "title": "Majority of Alexa Now Running on Faster, More Cost-Effective Amazon EC2 Inf1 Instances"
+    },
+    {
+      "abstract": "To be able to run analytics, build reports, or apply machine learning, you need to be sure the data you’re using is clean and in the right format. That’s the data preparation step that requires data analysts and data scientists to write custom code and do many manual activities. First, you need to look at […]",
+      "author": "Danilo Poccia",
+      "categories": "Analytics, Announcements, AWS Glue, Launch, News",
+      "date": "11 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/announcing-aws-glue-databrew-a-visual-data-preparation-tool-that-helps-you-clean-and-normalize-data-faster/",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-aws-glue-databrew-a-visual-data-preparation-tool-that-helps-you-clean-and-normalize-data-faster/",
+      "title": "Announcing AWS Glue DataBrew – A Visual Data Preparation Tool That Helps You Clean and Normalize Data Faster"
+    },
+    {
+      "abstract": "Last year, we launched Virtual Private Cloud (VPC) Ingress Routing to allow routing of all incoming and outgoing traffic to/from an Internet Gateway (IGW) or Virtual Private Gateway (VGW) to the Elastic Network Interface of a specific Amazon Elastic Compute Cloud (EC2) instance. With VPC Ingress Routing, you can now configure your VPC to send all […]",
+      "author": "Channy Yun",
+      "categories": "AWS Marketplace, AWS Partner Network, Elastic Load Balancing, Gateway Load Balancer, Launch, Networking & Content Delivery, News",
+      "date": "10 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/introducing-aws-gateway-load-balancer-easy-deployment-scalability-and-high-availability-for-partner-appliances/",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-aws-gateway-load-balancer-easy-deployment-scalability-and-high-availability-for-partner-appliances/",
+      "title": "Introducing AWS Gateway Load Balancer – Easy Deployment, Scalability, and High Availability for Partner Appliances"
+    },
+    {
+      "abstract": "Hundreds of thousands of AWS customers have chosen Amazon DynamoDB for mission-critical workloads since its launch in 2012. DynamoDB is a nonrelational managed database that allows you to store a virtually infinite amount of data and retrieve it with single-digit-millisecond performance at any scale. To get the most value out of this data, customers had […]",
+      "author": "Alex Casalboni",
+      "categories": "Amazon Athena, Amazon DynamoDB, Amazon Simple Storage Services (S3), Analytics, Announcements, Database",
+      "date": "09 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-export-amazon-dynamodb-table-data-to-data-lake-amazon-s3/",
+      "link": "https://aws.amazon.com/blogs/aws/new-export-amazon-dynamodb-table-data-to-data-lake-amazon-s3/",
+      "title": "New – Export Amazon DynamoDB Table Data to Your Data Lake in Amazon S3, No Code Writing Required"
+    },
+    {
+      "abstract": "Our first-ever Storage Day in November 2019 (Welcome to AWS Storage Day) was a big success. We were able to take a multitude of significant announcements related to AWS Storage services and summarize them in a single post, with longer and more detailed posts as needed. Today, we are doing it again, so welcome to […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Elastic Block Storage (EBS), Amazon Elastic File System (EFS), Amazon FSx, Amazon FSx for Lustre, Amazon FSx for Windows, Amazon Simple Storage Services (S3), AWS Backup, AWS DataSync, AWS Snow Family, AWS Storage Gateway, AWS Transfer Family, Events, Launch, News, Storage",
+      "date": "09 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/welcome-to-aws-storage-day-2020/",
+      "link": "https://aws.amazon.com/blogs/aws/welcome-to-aws-storage-day-2020/",
+      "title": "Welcome to AWS Storage Day 2020"
+    },
+    {
+      "abstract": "We launched S3 Intelligent-Tiering two years ago, which added the capability to take advantage of S3 without needing to have a deep understanding of your data access patterns. Today we are launching two new optimizations for S3 Intelligent-Tiering that will automatically archive objects that are rarely accessed. These new optimizations will reduce the amount of […]",
+      "author": "Marcia Villalba",
+      "categories": "Amazon Simple Storage Services (S3), Announcements, News, Storage",
+      "date": "09 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/s3-intelligent-tiering-adds-archive-access-tiers/",
+      "link": "https://aws.amazon.com/blogs/aws/s3-intelligent-tiering-adds-archive-access-tiers/",
+      "title": "S3 Intelligent-Tiering Adds Archive Access Tiers"
+    },
+    {
+      "abstract": "Event-driven architectures use events to share information between the components of one or more applications. Events tell us that “something has happened,” maybe you received an API request, a file has been uploaded to a storage platform, or a database record has been updated. Business events describe something related to your activities, for example that […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon EventBridge, Announcements, Application Integration, Launch, News",
+      "date": "06 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-archive-and-replay-events-with-amazon-eventbridge/",
+      "link": "https://aws.amazon.com/blogs/aws/new-archive-and-replay-events-with-amazon-eventbridge/",
+      "title": "New – Archive and Replay Events with Amazon EventBridge"
+    },
+    {
+      "abstract": "We opened the AWS Regions in South Africa and Italy earlier this year and are currently working on regions in Indonesia, Japan, Spain, and Switzerland. Second AWS Region in India We launched the Asia Pacific (Mumbai) Region in June 2016, giving enterprises, public sector organizations, startups, and SMBs access to state-of-the-art public cloud infrastructure. In […]",
+      "author": "Jeff Barr",
+      "categories": "Launch, News, Regions",
+      "date": "05 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/in-the-works-aws-region-in-hyderabad-india/",
+      "link": "https://aws.amazon.com/blogs/aws/in-the-works-aws-region-in-hyderabad-india/",
+      "title": "In the Works – AWS Region in Hyderabad, India"
+    },
+    {
+      "abstract": "Over a year ago, I wrote about the Launch of a feature in AWS Systems Manager called OpsCenter, which allows customers to aggregate issues, events, and alerts into one place and make it easier for operations engineers and IT professionals to investigate and remediate problems. Today, I get to tell you about a new integration […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon CloudWatch, AWS Systems Manager",
+      "date": "04 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/a-new-integration-for-cloudwatch-alarms-and-opscenter/",
+      "link": "https://aws.amazon.com/blogs/aws/a-new-integration-for-cloudwatch-alarms-and-opscenter/",
+      "title": "A New Integration for CloudWatch Alarms and OpsCenter"
+    },
+    {
+      "abstract": "In 2017, we launched Amazon MQ – a managed message broker service for Apache ActiveMQ, a popular open-source message broker that is fast and feature-rich. It offers queues and topics, durable and non-durable subscriptions, push-based and poll-based messaging, and filtering. With Amazon MQ, we have enhanced lots of new features by customer feedback to improve […]",
+      "author": "Channy Yun",
+      "categories": "Amazon MQ, Launch, News, Open Source",
+      "date": "04 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-mq-update-new-rabbitmq-message-broker-service/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-mq-update-new-rabbitmq-message-broker-service/",
+      "title": "Amazon MQ Update – New RabbitMQ Message Broker Service"
+    },
+    {
+      "abstract": "The Amazon EC2 team has been providing our customers with GPU-equipped instances for nearly a decade. The first-generation Cluster GPU instances were launched in late 2010, followed by the G2 (2013), P2 (2016), P3 (2017), G3 (2017), P3dn (2018), and G4 (2019) instances. Each successive generation incorporates increasingly-capable GPUs, along with enough CPU power, memory, […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon EC2, High Performance Computing, Launch, News",
+      "date": "02 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-gpu-equipped-ec2-p4-instances-for-machine-learning-hpc/",
+      "link": "https://aws.amazon.com/blogs/aws/new-gpu-equipped-ec2-p4-instances-for-machine-learning-hpc/",
+      "title": "New – GPU-Equipped EC2 P4 Instances for Machine Learning & HPC"
+    },
+    {
+      "abstract": "Earlier this year, we launched the new AWS Region in Italy and South Africa, and have plans for three more AWS Regions in Indonesia, Japan, and Spain. Coming to Switzerland in 2022 Today, I’m happy to announce that the AWS Europe (Zurich) Region is in the works. It will open in the second half of […]",
+      "author": "Alex Casalboni",
+      "categories": "Announcements, Launch, News",
+      "date": "02 NOV 2020",
+      "image": "https://aws.amazon.com/blogs/aws/in-the-works-new-aws-region-in-zurich-switzerland/",
+      "link": "https://aws.amazon.com/blogs/aws/in-the-works-new-aws-region-in-zurich-switzerland/",
+      "title": "In the Works – New AWS Region in Zurich, Switzerland"
+    },
+    {
+      "abstract": "Thanks to its efficiency and support for numerous programming languages, gRPC is a popular choice for microservice integrations and client-server communications. gRPC is a high performance remote procedure call (RPC) framework using HTTP/2 for transport and Protocol Buffers to describe the interface. To make it easier to use gRPC with your applications, Application Load Balancer (ALB) […]",
+      "author": "Danilo Poccia",
+      "categories": "Announcements, Elastic Load Balancing, Launch, Networking & Content Delivery, News",
+      "date": "29 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-application-load-balancer-support-for-end-to-end-http-2-and-grpc/",
+      "link": "https://aws.amazon.com/blogs/aws/new-application-load-balancer-support-for-end-to-end-http-2-and-grpc/",
+      "title": "New – Application Load Balancer Support for End-to-End HTTP/2 and gRPC"
+    },
+    {
+      "abstract": "When I first told you about the AWS Nitro System, I said: The Nitro system is a rich collection of building blocks that can be assembled in many different ways, giving us the flexibility to design and rapidly deliver EC2 instance types with an ever-broadening selection of compute, storage, memory, and networking options. To date, […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon EC2, Launch, News",
+      "date": "28 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-nitro-enclaves-isolated-ec2-environments-to-process-confidential-data/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-nitro-enclaves-isolated-ec2-environments-to-process-confidential-data/",
+      "title": "AWS Nitro Enclaves – Isolated EC2 Environments to Process Confidential Data"
+    },
+    {
+      "abstract": "When designing a distributed software architecture, it is important to define how services exchange information. For example, the use of asynchronous communication decouples components and simplifies scaling, reducing the impact of changes and making it easier to release new features. The two most common forms of asynchronous service-to-service communication are message queues and publish/subscribe messaging: With […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon Simple Notification Service (SNS), Announcements, Launch, Messaging, News",
+      "date": "22 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/introducing-amazon-sns-fifo-first-in-first-out-pub-sub-messaging/",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-sns-fifo-first-in-first-out-pub-sub-messaging/",
+      "title": "Introducing Amazon SNS FIFO – First-In-First-Out Pub/Sub Messaging"
+    },
+    {
+      "abstract": "Tipped off by a colleague in Denmark, I bought the LEGO Star Wars Stormtrooper Helmet, which turned out to be a Prime Day best-seller! As I like to do every year, I would like to share a few of the many ways that AWS helped to make Prime Day a reality for our customers. Back […]",
+      "author": "Jeff Barr",
+      "categories": "AWS Support, Customer Enablement, Launch, News",
+      "date": "22 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-prime-day-2020-powered-by-aws/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-prime-day-2020-powered-by-aws/",
+      "title": "Amazon Prime Day 2020 – Powered by AWS"
+    },
+    {
+      "abstract": "It took me a while to figure out what observability was all about. A year or two I asked around and my colleagues told me that I needed to follow Charity Majors and to read her blog (done, and done). Just this week, Charity tweeted: Kislay’s tweet led to his blog post, Observing is not […]",
+      "author": "Jeff Barr",
+      "categories": "AWS Distro for OpenTelemetry, Launch, News, Open Source",
+      "date": "21 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/public-preview-aws-distro-open-telemetry/",
+      "link": "https://aws.amazon.com/blogs/aws/public-preview-aws-distro-open-telemetry/",
+      "title": "Public Preview – AWS Distro for OpenTelemetry"
+    },
+    {
+      "abstract": "AWS Lambda is a serverless computing service that lets you run code without provisioning or managing servers. You simply upload your code and Lambda does all the work to execute and scale your code for high availability. Many AWS customers today use this serverless computing platform to significantly improve their productivity while developing and operating […]",
+      "author": "Harunobu Kameda",
+      "categories": "AWS Lambda, AWS PrivateLink, Compute, Networking & Content Delivery",
+      "date": "20 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-use-aws-privatelink-to-access-aws-lambda-over-private-aws-network/",
+      "link": "https://aws.amazon.com/blogs/aws/new-use-aws-privatelink-to-access-aws-lambda-over-private-aws-network/",
+      "title": "New – Use AWS PrivateLink to Access AWS Lambda Over Private AWS Network"
+    },
+    {
+      "abstract": "I recently wrote a post to announce the availability of M6g, R6g and C6g families of instances on Amazon Elastic Compute Cloud (EC2). These instances offer better cost-performance ratio than their x86 counterparts. They are based on AWS-designed AWS Graviton2 processors, utilizing 64-bit Arm Neoverse N1 cores. Starting today, you can also benefit from better […]",
+      "author": "Sébastien Stormacq",
+      "categories": "Amazon RDS, Launch, News",
+      "date": "15 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-amazon-rds-on-graviton2-processors/",
+      "link": "https://aws.amazon.com/blogs/aws/new-amazon-rds-on-graviton2-processors/",
+      "title": "New – Amazon RDS on Graviton2 Processors"
+    },
+    {
+      "abstract": "After the last Redis 5.0 compatibility for Amazon ElastiCache, there has been lots of improvements to Amazon ElastiCache for Redis including upstream supports such as 5.0.6. Earlier this year, we announced Global Datastore for Redis that lets you replicate a cluster in one region to clusters in up to two other regions. Recently we improved […]",
+      "author": "Channy Yun",
+      "categories": "Amazon ElastiCache, Launch, News, Open Source",
+      "date": "07 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-redis-6-compatibility-for-amazon-elasticache/",
+      "link": "https://aws.amazon.com/blogs/aws/new-redis-6-compatibility-for-amazon-elasticache/",
+      "title": "New – Redis 6 Compatibility for Amazon ElastiCache"
+    },
+    {
+      "abstract": "Since 2006, Amazon Web Services (AWS) has been helping millions of customers build and manage their IT workloads. From startups to large enterprises to public sector, organizations of all sizes use our cloud computing services to reach unprecedented levels of security, resiliency, and scalability. Every day, they’re able to experiment, innovate, and deploy to production […]",
+      "author": "Julien Simon",
+      "categories": "Amazon SageMaker, Announcements, Apache MXNet on AWS, Artificial Intelligence, Open Source, PyTorch on AWS, Tensorflow on AWS",
+      "date": "07 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-leads-way-in-machine-learning/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-leads-way-in-machine-learning/",
+      "title": "Amazon SageMaker Continues to Lead the Way in Machine Learning and Announces up to 18% Lower Prices on GPU Instances"
+    },
+    {
+      "abstract": "A year or so after we launched Amazon S3, I was in an elevator at a tech conference and heard a couple of developers use “just throw it into S3” as the answer to their data storage challenge. I remember that moment well because the comment was made so casually, and it was one of […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Simple Storage Services (S3), Launch, News",
+      "date": "02 OCT 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-s3-update-three-new-security-access-control-features/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-update-three-new-security-access-control-features/",
+      "title": "Amazon S3 Update – Three New Security & Access Control Features"
+    },
+    {
+      "abstract": "Time series are a very common data format that describes how things change over time. Some of the most common sources are industrial machines and IoT devices, IT infrastructure stacks (such as hardware, software, and networking components), and applications that share their results over time. Managing time series data efficiently is not easy because the […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon Timestream, Announcements, Database, Launch, News",
+      "date": "30 SEP 2020",
+      "image": "https://aws.amazon.com/blogs/aws/store-and-access-time-series-data-at-any-scale-with-amazon-timestream-now-generally-available/",
+      "link": "https://aws.amazon.com/blogs/aws/store-and-access-time-series-data-at-any-scale-with-amazon-timestream-now-generally-available/",
+      "title": "Store and Access Time Series Data at Any Scale with Amazon Timestream – Now Generally Available"
+    },
+    {
+      "abstract": "AWS Outposts customers can now use Amazon Simple Storage Service (S3) APIs to store and retrieve data in the same way they would access or use data in a regular AWS Region. This means that many tools, apps, scripts, or utilities that already use S3 APIs, either directly or through SDKs, can now be configured […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon Simple Storage Services (S3), AWS Outposts",
+      "date": "30 SEP 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-s3-on-outposts-now-available/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-on-outposts-now-available/",
+      "title": "Amazon S3 on Outposts Now Available"
+    },
+    {
+      "abstract": "In 2017, we launched Amazon Transcribe, an automatic speech recognition service that makes it easy for developers to add a speech-to-text capability to their applications. Since then, we added support for more languages, enabling customers globally to transcribe audio recordings in 31 languages, including 6 in real-time. A popular use case for Amazon Transcribe is transcribing […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Transcribe, Announcements, Artificial Intelligence",
+      "date": "15 SEP 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-transcribe-now-supports-automatic-language-identification/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-transcribe-now-supports-automatic-language-identification/",
+      "title": "Amazon Transcribe Now Supports Automatic Language Identification"
+    },
+    {
+      "abstract": "December 10, 2020 – Post updated for the extension of the T4g free-trial until March 31, 2021. During the free-trial period, customers who run a t4g.micro instance will automatically get 750 free hours per month deducted from their bill during each month. T4g free-trial will be available in addition to the existing AWS Free-Tier on […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon EC2, Announcements, Compute, Graviton, Launch, News",
+      "date": "14 SEP 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-t4g-instances-burstable-performance-powered-by-aws-graviton2/",
+      "link": "https://aws.amazon.com/blogs/aws/new-t4g-instances-burstable-performance-powered-by-aws-graviton2/",
+      "title": "New EC2 T4g Instances – Burstable Performance Powered by AWS Graviton2 – Try Them for Free"
+    },
+    {
+      "abstract": "At AWS, we strive to provide you a technology platform that allows for agile development, rapid deployment, and unlimited scale, so that you can free up your resources to focus on innovation for your customers. It’s greatly rewarding to see our efforts recognized not just by our customers, but also by leading analysts. This year, Gartner announced […]",
+      "author": "Danilo Poccia",
+      "categories": "Announcements, News",
+      "date": "04 SEP 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-named-as-a-cloud-leader-for-the-10th-consecutive-year-in-gartners-infrastructure-platform-services-magic-quadrant/",
+      "title": "AWS Named as a Cloud Leader for the 10th Consecutive Year in Gartner’s Infrastructure & Platform Services Magic Quadrant"
+    },
+    {
+      "abstract": "In December 2019, Jeff Barr published this post announcing the launch of a new Local Zone in Los Angeles, California. A Local Zone extends existing AWS regions closer to end-users, providing single-digit millisecond latency to a subset of AWS services in the zone. Local Zones are attached to parent regions – in this case US […]",
+      "author": "Steve Roberts",
+      "categories": "Launch, News",
+      "date": "27 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/announcing-a-second-local-zone-in-los-angeles/",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-a-second-local-zone-in-los-angeles/",
+      "title": "Announcing a second Local Zone in Los Angeles"
+    },
+    {
+      "abstract": "Many customers I speak to use Active Directory to manage centralized user authentication and authorization for a variety of applications and services. For these customers, Active Directory is a critical piece of their IT Jigsaws. At AWS, we offer the AWS Directory Service for Microsoft Active Directory that provides our customers with a highly available […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon EC2, AWS Directory Service",
+      "date": "27 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/seamlessly-join-a-linux-instance-to-aws-directory-service-for-microsoft-active-directory/",
+      "link": "https://aws.amazon.com/blogs/aws/seamlessly-join-a-linux-instance-to-aws-directory-service-for-microsoft-active-directory/",
+      "title": "Seamlessly Join a Linux Instance to AWS Directory Service for Microsoft Active Directory"
+    },
+    {
+      "abstract": "The Amazon Route 53 team has just launched a new feature called Route 53 Resolver Query Logs, which will let you log all DNS queries made by resources within your Amazon Virtual Private Cloud. Whether it’s an Amazon Elastic Compute Cloud (EC2) instance, an AWS Lambda function, or a container, if it lives in your […]",
+      "author": "Martin Beeby",
+      "categories": "Amazon CloudWatch, Amazon Route 53, Amazon Simple Storage Services (S3), Kinesis Data Firehose",
+      "date": "27 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/log-your-vpc-dns-queries-with-route-53-resolver-query-logs/",
+      "link": "https://aws.amazon.com/blogs/aws/log-your-vpc-dns-queries-with-route-53-resolver-query-logs/",
+      "title": "Log your VPC DNS queries with Route 53 Resolver Query Logs"
+    },
+    {
+      "abstract": "We launched EBS Volumes with Provisioned IOPS way back in 2012. These volumes are a great fit for your most I/O-hungry and latency-sensitive applications because you can dial in the level of performance that you need, and then (with the launch of Elastic Volumes in 2017) change it later. Over the years, we have increased […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Elastic Block Storage (EBS), Launch, News",
+      "date": "24 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-ebs-volume-type-io2-more-iops-gib-higher-durability/",
+      "link": "https://aws.amazon.com/blogs/aws/new-ebs-volume-type-io2-more-iops-gib-higher-durability/",
+      "title": "New EBS Volume Type (io2) – 100x Higher Durability and 10x More IOPS/GiB"
+    },
+    {
+      "abstract": "The AWS Heroes program recognizes a select few individuals who go above and beyond to share AWS knowledge and teach others about AWS, all while helping make building AWS skills accessible to many. These leaders have an incredible impact within technical communities worldwide and their efforts are greatly appreciated. Today we are excited to introduce […]",
+      "author": "Ross Barich",
+      "categories": "Announcements, AWS Heroes, Launch, News",
+      "date": "20 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/announcing-the-newest-aws-heroes-august-2020/",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-the-newest-aws-heroes-august-2020/",
+      "title": "Announcing the newest AWS Heroes – August 2020"
+    },
+    {
+      "abstract": "What was announced? We’re announcing the availability of AWS Contact Center Intelligence (CCI) solutions, a combination of services that empowers customers to easily integrate AI into contact centers, made available through AWS Partner Network (APN) partners. AWS CCI has solutions for self-service, live-call analytics & agent assist, and post-call analytics, making it possible for customers […]",
+      "author": "Alejandra Quetzalli",
+      "categories": "Amazon Machine Learning, Announcements, Artificial Intelligence, AWS Partner Network, Contact Center",
+      "date": "18 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-announces-aws-contact-center-intelligence-solutions/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-announces-aws-contact-center-intelligence-solutions/",
+      "title": "AWS announces AWS Contact Center Intelligence solutions"
+    },
+    {
+      "abstract": "What was announced? Introducing AWS RoboMaker WorldForge 🤖, a new capability that makes robotics simulation easier! 🎉 AWS RoboMaker WorldForge makes it faster, simpler, and less expensive to create a multitude of 3D virtual worlds to simulate your robots in. Now robotics application developers and QA engineers can automatically create hundreds of user-defined, randomized 3D virtual […]",
+      "author": "Alejandra Quetzalli",
+      "categories": "Announcements, AWS RoboMaker, Robotics",
+      "date": "18 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-announces-worldforge-in-aws-robomaker/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-announces-worldforge-in-aws-robomaker/",
+      "title": "AWS announces WorldForge in AWS RoboMaker"
+    },
+    {
+      "abstract": "AWS Fargate is a serverless compute engine for containers available with both Amazon Elastic Kubernetes Service (EKS) and Amazon Elastic Container Service (ECS). With Fargate, developers are able to focus on building applications, eliminating the need to manage the infrastructure related undifferentiated heavy lifting. Developers specify resources for each Kubernetes pod, and are charged only […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon Elastic File System (EFS), Amazon Elastic Kubernetes Service, AWS Fargate, Compute, Storage",
+      "date": "17 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-aws-fargate-for-amazon-eks-now-supports-amazon-efs/",
+      "link": "https://aws.amazon.com/blogs/aws/new-aws-fargate-for-amazon-eks-now-supports-amazon-efs/",
+      "title": "New – AWS Fargate for Amazon EKS now supports Amazon EFS"
+    },
+    {
+      "abstract": "Join us for live, online presentations led by AWS solutions architects and engineers. AWS Online Tech Talks cover a range of topics and expertise levels, and feature technical deep dives, demonstrations, customer examples, and live Q&A with AWS experts. Note – All sessions are free and in Pacific Time. Can’t join us live? Access webinar […]",
+      "author": "Jimmy Cooper",
+      "categories": "Advanced (300), Best Practices, Events, Expert (400), Foundational (100), Intermediate (200), Technical How-to, Webinars",
+      "date": "14 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-online-tech-talks-for-august-2020/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-online-tech-talks-for-august-2020/",
+      "title": "AWS Online Tech Talks for August 2020"
+    },
+    {
+      "abstract": "As machine learning and deep learning models become more sophisticated, hardware acceleration is increasingly required to deliver fast predictions at high throughput. Today, we’re very happy to announce that AWS customers can now use the Amazon EC2 Inf1 instances on Amazon Elastic Container Service (ECS), for high performance and the lowest prediction cost in the […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Elastic Container Service, Announcements, Artificial Intelligence, AWS Inferentia, Compute, Containers",
+      "date": "14 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-ecs-now-supports-ec2-inf1-instances/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-ecs-now-supports-ec2-inf1-instances/",
+      "title": "Amazon ECS Now Supports EC2 Inf1 Instances"
+    },
+    {
+      "abstract": "Last year I told you about Amazon Braket and explained the basics of quantum computing, starting from qubits and progressing to quantum circuits. During the preview, AWS customers such as Enel, Fidelity (Exploring Quantum Computing with Amazon Web Services), and Volkswagen have been using Amazon Braket to explore and gain experience with quantum computing. I […]",
+      "author": "Jeff Barr",
+      "categories": "Amazon Braket, Launch, News",
+      "date": "13 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-braket-go-hands-on-with-quantum-computing/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-braket-go-hands-on-with-quantum-computing/",
+      "title": "Amazon Braket – Go Hands-On with Quantum Computing"
+    },
+    {
+      "abstract": "Developers can use AWS Step Functions to design and execute workflows that connect services such as AWS Lambda, AWS Fargate, and Amazon SageMaker into a rich application. A workflow consists of a series of steps, with the output of one step being the input to the next step. Application development becomes more intuitive using the […]",
+      "author": "Harunobu Kameda",
+      "categories": "Application Services, AWS Step Functions",
+      "date": "13 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-step-functions-adds-updates-to-choice-state-global-access-to-context-object-dynamic-timeouts-result-selection-and-intrinsic-functions-to-amazon-states-languages/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-step-functions-adds-updates-to-choice-state-global-access-to-context-object-dynamic-timeouts-result-selection-and-intrinsic-functions-to-amazon-states-languages/",
+      "title": "AWS Step Functions adds updates to ‘choice’ state, global access to context object, dynamic timeouts, result selection, and intrinsic functions to Amazon States Language"
+    },
+    {
+      "abstract": "Many workloads, such as genome analysis, training of machine learning models, High Performance Computing (HPC), and analytics applications depend on multiple compute instances accessing the same set of data. For these workloads, clusters of compute instances are commonly connected to a high-performance shared file system. Amazon FSx for Lustre makes it easy and cost-effective to […]",
+      "author": "Harunobu Kameda",
+      "categories": "Amazon FSx for Lustre, Storage",
+      "date": "12 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-high-performance-hdd-storage-for-amazon-fsx-for-lustre-file-systems/",
+      "link": "https://aws.amazon.com/blogs/aws/new-high-performance-hdd-storage-for-amazon-fsx-for-lustre-file-systems/",
+      "title": "New – High-Performance HDD Storage for Amazon FSx for Lustre File Systems"
+    },
+    {
+      "abstract": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. Glue is “serverless” – you don’t need to provision or manage any resources and you only pay for resources when Glue is actively running. AWS Glue version 2.0 is […]",
+      "author": "Harunobu Kameda",
+      "categories": "Analytics, AWS Glue",
+      "date": "10 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-glue-version-2-0-featuring-10x-faster-job-start-times-and-1-minute-minimum-billing-duration/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-glue-version-2-0-featuring-10x-faster-job-start-times-and-1-minute-minimum-billing-duration/",
+      "title": "AWS Glue version 2.0 featuring 10x faster job start times and 1-minute minimum billing duration"
+    },
+    {
+      "abstract": "We announced AWS Wavelength at AWS re:Invent 2019. As a quick recap, we have partnered with multiple 5G telecommunication providers to embed AWS hardware and software in their datacenters. The goal is to allow developers to build and deliver applications that can benefit from ultra-low latency. In the time since the announcement we have been […]",
+      "author": "Jeff Barr",
+      "categories": "AWS Wavelength, Launch, News",
+      "date": "06 AUG 2020",
+      "image": "https://aws.amazon.com/blogs/aws/aws-wavelength-zones-are-now-open-in-boston-san-francisco/",
+      "link": "https://aws.amazon.com/blogs/aws/aws-wavelength-zones-are-now-open-in-boston-san-francisco/",
+      "title": "AWS Wavelength Zones Are Now Open in Boston & San Francisco"
+    },
+    {
+      "abstract": "As we anticipated in this post, the anomaly and threat detection for Amazon Simple Storage Service (S3) activities that was previously available in Amazon Macie has now been enhanced and reduced in cost by over 80% as part of Amazon GuardDuty. This expands GuardDuty threat detection coverage beyond workloads and AWS accounts to also help you protect your […]",
+      "author": "Danilo Poccia",
+      "categories": "Amazon GuardDuty, Amazon Simple Storage Services (S3), Announcements, Compliance, Launch, News, Security, Security, Identity, & Compliance, Storage",
+      "date": "31 JUL 2020",
+      "image": "https://aws.amazon.com/blogs/aws/new-using-amazon-guardduty-to-protect-your-s3-buckets/",
+      "link": "https://aws.amazon.com/blogs/aws/new-using-amazon-guardduty-to-protect-your-s3-buckets/",
+      "title": "New – Using Amazon GuardDuty to Protect Your S3 Buckets"
+    },
+    {
+      "abstract": "We continue to be amazed by the enthusiasm for AWS knowledge sharing in technical communities. Many experienced AWS advocates are passionate about helping others build on AWS by sharing their challenges, success stories, and code. Others who are newer to AWS are showing a similar enthusiasm for community building and are asking how they can […]",
+      "author": "Channy Yun",
+      "categories": "Announcements, News",
+      "date": "30 JUL 2020",
+      "image": "https://aws.amazon.com/blogs/aws/announcing-the-new-aws-community-builders-program/",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-the-new-aws-community-builders-program/",
+      "title": "Announcing the New AWS Community Builders Program!"
+    },
+    {
+      "abstract": "Whether your organization is a multinational enterprise present in many countries, or a small startup hungry for global success, translating your content to local languages may be an enduring challenge. Indeed, text data often comes in many formats, and processing them may require several different tools. Also, as all these tools may not support the […]",
+      "author": "Julien Simon",
+      "categories": "Amazon Comprehend, Amazon Translate, Announcements, Artificial Intelligence",
+      "date": "29 JUL 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-translate-now-supports-office-documents/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-translate-now-supports-office-documents/",
+      "title": "Amazon Translate now supports Office documents"
+    },
+    {
+      "abstract": "What was announced? Amazon Fraud Detector is now Generally Available! 🥳 In case you missed the announcement during 2019 re:Invent week, Amazon Fraud Detector was originally released in preview mode on December 3rd, 2019. But today it is now Generally Available for customers to check out. What is Amazon Fraud Detector? Amazon Fraud Detector is […]",
+      "author": "Alejandra Quetzalli",
+      "categories": "Amazon Fraud Detector, Amazon Machine Learning, Announcements, Artificial Intelligence",
+      "date": "28 JUL 2020",
+      "image": "https://aws.amazon.com/blogs/aws/amazon-fraud-detector-is-now-generally-available/",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-fraud-detector-is-now-generally-available/",
+      "title": "Amazon Fraud Detector is now Generally Available"
+    }
+  ]
+}
