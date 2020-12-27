@@ -1,0 +1,130 @@
+{  
+  "airbnb":[
+	  {
+	    "title": "Improving Deep Learning for Ranking Stays at Airbnb",
+	    "author": "Malay Haldar",
+	    "abstract": "A practical case study of how to iterate on DNNs",
+	    "date": "Oct 6",
+	    "link": "https://medium.com/airbnb-engineering/improving-deep-learning-for-ranking-stays-at-airbnb-959097638bde?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Using Chatbots to Provide Faster COVID-19 Community Support",
+	    "author": "Chris Zhu",
+	    "abstract": "How we architected Helpbot, our customer support chatbot powered by machine learning.",
+	    "date": "Jul 15",
+	    "link": "https://medium.com/airbnb-engineering/using-chatbots-to-provide-faster-covid-19-community-support-567c97c5c1c9?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "Amenity Detection and Beyond — New Frontiers of Computer Vision at Airbnb",
+	    "author": "Shijing Yao",
+	    "abstract": "Build highly customized AI technologies into home-sharing products and help our guests belong anywhere.",
+	    "date": "Jul 16, 2019",
+	    "link": "https://medium.com/airbnb-engineering/amenity-detection-and-beyond-new-frontiers-of-computer-vision-at-airbnb-144a4441b72e?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "Data Quality at Airbnb",
+	    "author": "Jonathan Parks",
+	    "abstract": "Part 1 — Rebuilding at Scale",
+	    "date": "Nov 4",
+	    "link": "https://medium.com/airbnb-engineering/data-quality-at-airbnb-e582465f3ef7?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Project Lighthouse — Part 1: P-sensitive k-anonymity",
+	    "author": "Skyler Wharton",
+	    "abstract": "Part one of a series on how we will measure discrepancies in Airbnb guest acceptance rates using anonymized perceived demographic data.",
+	    "date": "Sep 2",
+	    "link": "https://medium.com/airbnb-engineering/project-lighthouse-part-1-p-sensitive-k-anonymity-c6ee7d79c4f9?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "On Spark, Hive, and Small Files: An In-Depth Look at Spark Partitioning Strategies",
+	    "author": "Zachary Ennenga",
+	    "abstract": "One of the most common ways to store results from a Spark job is by writing the results to a Hive table stored on HDFS. While in theory…",
+	    "date": "Mar 3",
+	    "link": "https://medium.com/airbnb-engineering/on-spark-hive-and-small-files-an-in-depth-look-at-spark-partitioning-strategies-a9a364f908?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "How Airbnb is Moving 10x Faster at Scale with GraphQL and Apollo",
+	    "author": "Adam Neary",
+	    "abstract": "Demystifying My GraphQL Summit Talk",
+	    "date": "Dec 5, 2018",
+	    "link": "https://medium.com/airbnb-engineering/how-airbnb-is-moving-10x-faster-at-scale-with-graphql-and-apollo-aa4ec92d69e2?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Reconciling GraphQL and Thrift at Airbnb",
+	    "author": "Adam Neary",
+	    "abstract": "Our frontend engineers wanted rapid iteration and flexibility from GraphQL, while our backend engineers wanted stability and specificity…",
+	    "date": "May 29, 2018",
+	    "link": "https://medium.com/airbnb-engineering/reconciling-graphql-and-thrift-at-airbnb-a97e8d290712?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "Server Rendering, Code Splitting, and Lazy Loading with React Router v4",
+	    "author": "Gary Borton",
+	    "abstract": "“Godspeed those who attempt the server-rendered, code-split apps.”\n — Ryan Florence, Co-Creator of React Router",
+	    "date": "Jan 10, 2018",
+	    "link": "https://medium.com/airbnb-engineering/server-rendering-code-splitting-and-lazy-loading-with-react-router-v4-bfe596a6af70?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "Better Android Testing at Airbnb",
+	    "author": "Eli Hart",
+	    "abstract": "Part 7: Test Generation and CI",
+	    "date": "Jan 12",
+	    "link": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-eacec3a8a72f?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Better Android Testing at Airbnb",
+	    "author": "Eli Hart",
+	    "abstract": "Part 6: Consistent Mocking",
+	    "date": "Dec 27, 2019",
+	    "link": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a11f6832773f?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "Better Android Testing at Airbnb",
+	    "author": "Eli Hart",
+	    "abstract": "Part 5: Test Architecture",
+	    "date": "Dec 23, 2019",
+	    "link": "https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-661a554a8c8b?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "A “Krispr” Approach to Kubernetes Infrastructure",
+	    "author": "Daniel Low",
+	    "abstract": "Keeping pods fresh by leveraging the mutating admission controller webhook",
+	    "date": "Nov 18",
+	    "link": "https://medium.com/airbnb-engineering/a-krispr-approach-to-kubernetes-infrastructure-a0741cff4e0c?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Taming Service-Oriented Architecture Using A Data-Oriented Service Mesh",
+	    "author": "Adam Miskiewicz",
+	    "abstract": "Introducing Viaduct, Airbnb’s data-oriented service mesh",
+	    "date": "Nov 11",
+	    "link": "https://medium.com/airbnb-engineering/taming-service-oriented-architecture-using-a-data-oriented-service-mesh-da771a841344?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "Building Airbnb’s Internationalization Platform",
+	    "author": "Hua Zheng",
+	    "abstract": "How we built Airbnb’s Internationalization Platform in an efficient, robust, and scalable manner.",
+	    "date": "Oct 28",
+	    "link": "https://medium.com/airbnb-engineering/building-airbnbs-internationalization-platform-45cf0104b63c?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "Avoiding Double Payments in a Distributed Payments System",
+	    "author": "Jon Chew",
+	    "abstract": "How we built a generic idempotency framework to achieve eventual consistency and correctness across our payments micro-service…",
+	    "date": "Apr 17, 2019",
+	    "link": "https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Measuring Transactional Integrity in Airbnb’s Distributed Payment Ecosystem",
+	    "author": "Ninad Khisti",
+	    "abstract": "In a distributed payment ecosystem, it is critical to accurately measure and track a transaction’s end to end state and contents to ensure…",
+	    "date": "Jan 17, 2018",
+	    "link": "https://medium.com/airbnb-engineering/measuring-transactional-integrity-in-airbnbs-distributed-payment-ecosystem-a670d6926d22?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "Tracking the Money — Scaling Financial Reporting at Airbnb",
+	    "author": "Alice Liang",
+	    "abstract": "At Airbnb, the Payments team is responsible for everything related to moving money in Airbnb’s global marketplace. We build technology that…",
+	    "date": "Mar 16, 2017",
+	    "link": "https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040?source=collection_home---4------2-----------------------"
+	  }
+	]
+}

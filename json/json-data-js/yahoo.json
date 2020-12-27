@@ -1,0 +1,881 @@
+{
+  "yahoo": [
+    {
+      "abstract": "By Akshay Sarma, Principal Engineer, Verizon Media & Brian Xiao, Software Engineer, Verizon Media This is the first of an ongoing series of blog posts sharing releases and announcements for Bullet, an open-sourced lightweight, scalable, pluggable, multi-tenant query system.",
+      "author": "By  rosaliebeevm",
+      "categories": "open source big data javascript java",
+      "date": "Mar 8th, 2019",
+      "link": "https://yahooeng.tumblr.com/post/183315480351/bullet-updates-windowing-apache-pulsar-pubsub",
+      "title": "Bullet Updates - Windowing, Apache Pulsar PubSub, Configuration-based Data Ingestion, and More"
+    },
+    {
+      "abstract": "By Chris Larsen, Architect ",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Dec 27th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/181461332311/announcing-opentsdb-240-rollup-and",
+      "title": "Announcing OpenTSDB 2.4.0: Rollup and Pre-Aggregation Storage, Histograms, Sketches, and More"
+    },
+    {
+      "abstract": "Today we’re kicking off a blog post series of need-to-know updates on Vespa, summarizing the features and fixes detailed in Github issues. We welcome your contributions and feedback about any new features or improvements you’d like to see.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Dec 13th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/181089393751/vespa-product-updates-december-2018-onnx-import",
+      "title": "Vespa Product Updates, December 2018 - ONNX Import and Map Attribute Grouping"
+    },
+    {
+      "abstract": "By Ohad Shacham, Yonatan Gottesman, Edward BortnikovScalable Systems Research, Verizon/Oath Omid, an open source transaction processing platform for Big Data, was born as a research project at Yahoo (now part of Verizon), and became an Apache Incubator project in 2015. Omid complements Apache HBase, a distributed key-value store in Apache Hadoop suite, with a capability to clip multiple operations into logically indivisible (atomic) units named transactions. This programming model has been extremely popular since the dawn of SQL databases, and has more recently become indispensable in the NoSQL world. For example, it is the centerpiece for dynamic content indexing of search and media products at Verizon, powering a web-scale content management platform since 2015.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Dec 6th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/180867271141/a-new-chapter-for-omid",
+      "title": "A New Chapter for Omid"
+    },
+    {
+      "abstract": "By Scott Bush, Director, Hadoop Software Engineering, Oath On Tuesday, September 25, we hosted a special day-long Hadoop Contributors Meetup at our Sunnyvale, California campus. Much of the early Hadoop development work started at Yahoo, now part of Oath, and has continued over the past decade. Our campus was the perfect setting for this meetup, as we continue to make Hadoop a priority.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Nov 8th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/179901430546/hadoop-contributors-meetup-at-oath",
+      "title": "Hadoop Contributors Meetup at Oath"
+    },
+    {
+      "abstract": "By Jon Bratseth, Distinguished Architect, Oath I had the wonderful opportunity to present Vespa at the SF Big Analytics Meetup on September 26th, hosted by Amplitude. Several members of the Vespa team (Kim, Frode and Kristian) also attended. We all enjoyed meeting with members of the Big Analytics community to discuss how Vespa could be helpful for their companies. Thank you to Chester Chen, T.J. Bay, and Jin Hao Wan for planning the meetup, and here’s our presentation, in case you missed it (slides are also available here):",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Oct 17th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/179150583591/sharing-vespa-open-source-big-data-serving",
+      "title": "Sharing Vespa (Open Source Big Data Serving Engine) at the SF Big Analytics Meetup"
+    },
+    {
+      "abstract": "By Ian Flint, Network Automation Architect and Varun Varma, Senior Principal Engineer The Oath network automation team is proud to announce that we are open-sourcing Panoptes, a distributed system for collecting, enriching and distributing network telemetry.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Oct 4th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/178738044351/open-sourcing-panoptes-oaths-distributed-network",
+      "title": "Open-Sourcing Panoptes, Oath’s distributed network telemetry collector"
+    },
+    {
+      "abstract": "By Joe Francis, Director, Storage & Messaging We’re excited to share that The Apache Software Foundation announced today that Apache Pulsar has graduated from the incubator to a Top-Level Project. Apache Pulsar is an open-source distributed pub-sub messaging system, created by Yahoo in June 2015 and submitted to the Apache Incubator in June 2017.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Sep 25th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/178450976346/apache-pulsar-graduates-to-top-level-project",
+      "title": "Apache Pulsar graduates to Top-Level Project"
+    },
+    {
+      "abstract": "By Arjun Mannaly, Senior Software Engineer At Oath, multiple ad platforms use a high throughput, low latency distributed key-value database that runs in data centers all over the world. The database stores billions of records and handles millions of read and write requests per second at millisecond latencies. The data we have in this database must be persistent, and the working set is larger than what we can fit in memory. Therefore, a key component of the database performance is a fast storage engine. Our current solution had served us well, but it was primarily designed for a read-heavy workload and its write throughput started to be a bottleneck as write traffic increased.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Sep 19th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/178262468576/introducing-halodb-a-fast-embedded-key-value",
+      "title": "Introducing HaloDB, a fast, embedded key-value storage engine written in Java"
+    },
+    {
+      "abstract": "By Dmitry Basin, Edward Bortnikov, Anastasia Braginsky, Eshcar Hillel, Idit Keidar, Hagar Meir, Gali Sheffi Real-time analytics applications are on the rise. Modern decision support and machine intelligence engines strive to continuously ingest large volumes of data while providing up-to-date insights with minimum delay. For example, in Flurry Analytics, an Oath service which provides mobile developers with rich tools to explore user behavior in real time, it only takes seconds to reflect the events that happened on mobile devices in its numerous dashboards. The scalability demand is immense – as of late 2017, the Flurry SDK was installed on 2.6B devices and monitored 1M+ mobile apps. Mobile data hits the Flurry backend at a huge rate, updates statistics across hundreds of dimensions, and becomes queryable immediately. Flurry harnesses the open-source distributed interactive analytics engine named Druid to ingest data and serve queries at this massive rate.",
+      "author": "By  amberwilsonla",
+      "categories": "",
+      "date": "Sep 13th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/178045294111/introducing-oak-an-open-source-scalable-key-value",
+      "title": "Introducing Oak: an Open Source Scalable Key-Value Map for Big Data Analytics"
+    },
+    {
+      "abstract": "By George Fletcher and Lovlesh Chhabra When Yahoo and AOL came together a year ago as a part of the new Verizon subsidiary Oath,  we took on the challenge of unifying their identity platforms based on current identity standards. Identity standards have been a critical part of the Internet ecosystem over the last 20+ years. From single-sign-on and identity federation with SAML; to the newer identity protocols including OpenID Connect, OAuth2, JOSE, and SCIM (to name a few); to the explorations of “self-sovereign identity” based on distributed ledger technologies; standards have played a key role in providing a secure identity layer for the Internet.",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo identity standards AOL authentication",
+      "date": "Jun 25th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/175238642656/innovating-on-authentication-standards",
+      "title": "Innovating on Authentication Standards"
+    },
+    {
+      "abstract": " ",
+      "author": "By  marcelatoath",
+      "categories": "",
+      "date": "May 18th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/174023151641/a-peek-behind-the-mail-curtain",
+      "title": "A Peek Behind the Mail Curtain"
+    },
+    {
+      "abstract": "By Mohit Goenka, Gnanavel Shanmugam, and Lance Welsh At Yahoo Mail, we’re constantly striving to upgrade our product experience. We do this not only by adding new features based on our members’ feedback, but also by providing the best technical solutions to power the most engaging experiences. As such, we’ve recently introduced a number of novel and unique revisions to the way in which we use Redux that have resulted in significant stability and performance improvements. Developers may find our methods useful in achieving similar results in their apps.",
+      "author": "By  mikesefanov",
+      "categories": "Redux Yahoo Mail Engineering developers open source react",
+      "date": "Apr 18th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/173062946866/achieving-major-stability-and-performance",
+      "title": "Achieving Major Stability and Performance Improvements in Yahoo Mail with a Novel Redux Architecture"
+    },
+    {
+      "abstract": "By Marcel Becker The mail team at OATH is busy  integrating  Yahoo and AOL technology to deliver an even better experience across all our consumer mail products. While privacy and security are top priority for us, we also want to improve the experience and remove unnecessary clutter across all of our products.",
+      "author": "By  marcelatoath",
+      "categories": "",
+      "date": "Mar 20th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/172068649246/secure-images",
+      "title": "Secure Images"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Apache Oath Yahoo hadoop Tez open source",
+      "date": "Feb 5th, 2018",
+      "link": "https://yahooeng.tumblr.com/post/170536010891/success-at-apache-a-newbies-narrative",
+      "title": "Success at Apache: A Newbie’s Narrative"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Oath webpack Yahoo Yahoo Mail developers",
+      "date": "Dec 13th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/168508200981/how-to-make-your-web-app-more-reliable-and",
+      "title": "How to Make Your Web App More Reliable and Performant Using webpack: a Yahoo Mail Case Study"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Mail Yahoo Engineering React Redux Node.js open source",
+      "date": "Jun 27th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/162320493306/yahoo-mails-new-tech-stack-built-for-performance",
+      "title": "Yahoo Mail’s New Tech Stack, Built for Performance and Reliability"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Mail Yahoo Engineering CI/CD continuous delivery",
+      "date": "Jun 27th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/162320459636/speed-and-stability-yahoo-mails-forward-thinking",
+      "title": "Speed and Stability: Yahoo Mail’s Forward-Thinking Continuous Integration and Delivery Pipeline"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Big Data Real-time open source storm",
+      "date": "Jun 15th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/161855616651/open-sourcing-bullet-yahoos-forward-looking",
+      "title": "Open Sourcing Bullet, Yahoo’s Forward-Looking Query Engine for Streaming Data"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Open Source Systems Engineering Architecture CI/CD Performance Testing Cloud Services",
+      "date": "May 23rd, 2017",
+      "link": "https://yahooeng.tumblr.com/post/160987779296/open-sourcing-daytona-a-framework-for-automated",
+      "title": "Open Sourcing Daytona: A Framework For Automated and Application-agnostic Performance Analysis"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Hadoop Hadoop HadoopSummit DataWorks",
+      "date": "May 22nd, 2017",
+      "link": "https://yahooeng.tumblr.com/post/160966148886/join-us-at-the-10th-annual-hadoop-summit",
+      "title": "Join Us at the 10th Annual Hadoop Summit / DataWorks Summit, San Jose (Jun 13-15)"
+    },
+    {
+      "abstract": " By Lee Boynton, Henry Avetisyan, Ken Fox, Itsik Figenblat, Mujib Wahab, Gurpreet Kaur, Usha Parsa, and Preeti Somal",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Cloud Servicecs open source",
+      "date": "May 9th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/160481899076/open-sourcing-athenz-fine-grained-role-based",
+      "title": "Open Sourcing Athenz: Fine-Grained, Role-Based Access Control"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering OpenStack Cloud Services IaaS Scale",
+      "date": "Apr 20th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/159795571841/operating-openstack-at-scale",
+      "title": "Operating OpenStack at Scale"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Flickr Tripod Yahoo Engineering",
+      "date": "Feb 13th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/157200523046/introducing-tripod-flickrs-backend-refactored",
+      "title": "Introducing Tripod: Flickr’s Backend, Refactored"
+    },
+    {
+      "abstract": "By Lee Yang, Jun Shi, Bobbie Chern, and Andy Feng (@afeng76), Yahoo Big ML team Introduction",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Hadoop Hadoop Open Source Engineering TensorFlow Spark",
+      "date": "Feb 13th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/157196488076/open-sourcing-tensorflowonspark-distributed-deep",
+      "title": "Open Sourcing TensorFlowOnSpark: Distributed Deep Learning on Big-Data Clusters"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Open Source Screwdriver CI/CD continuous delivery cloud services",
+      "date": "Jan 12th, 2017",
+      "link": "https://yahooeng.tumblr.com/post/155765242061/open-sourcing-screwdriver-yahoos-continuous",
+      "title": "Open Sourcing Screwdriver, Yahoo’s Continuous Delivery Build System for Dynamic Infrastructure"
+    },
+    {
+      "abstract": "By Aasish Pappu, Roi Blanco, and Amanda Stent What’s the first thing you want to know about any kind of text document (like a Yahoo News or Yahoo Sports article)? What it’s about, of course! That means you want to know something about the people, organizations, and locations that are mentioned in the document. Systems that automatically surface this information are called named entity recognition and linking systems. These are one of the most useful components in text analytics as they are required for a wide variety of applications including search, recommender systems, question answering, and sentiment analysis.",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Open Source Research Yahoo Research",
+      "date": "Dec 7th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/154168092396/presenting-an-open-source-toolkit-for-lightweight",
+      "title": "Presenting an Open Source Toolkit for Lightweight Multilingual Entity Linking"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering ATS Apache Traffic Server Apache open source cloud services",
+      "date": "Nov 1st, 2016",
+      "link": "https://yahooeng.tumblr.com/post/152602307661/the-apache-traffic-server-projects-next-chapter",
+      "title": "The Apache Traffic Server Project’s Next Chapter"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Open Source CIO Review TODOgroup",
+      "date": "Oct 26th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/152340372151/why-professional-open-source-management-is",
+      "title": "Why Professional Open Source Management is Critical for your Business"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Engineering Engineering Search Redux React open source",
+      "date": "Oct 20th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/152078809581/refactoring-components-for-redux-performance",
+      "title": "Refactoring Components for Redux Performance"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Engineering Video Yahoo Video VR Virtual Reality 360 video 3D",
+      "date": "Oct 17th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/151940036881/bringing-the-viewer-in-the-video-opportunity-in",
+      "title": "Bringing the Viewer In: The Video Opportunity in Virtual Reality"
+    },
+    {
+      "abstract": "By Dylan Casey, Vice President of Product Management We’re making it easier than ever to see and manage all of the devices connected to your Yahoo account. Today, you might notice some new improvements to help you keep track of the account activity and devices associated with your Yahoo account. This information is available to all users under “Account Info” here: https://login.yahoo.com/account/activity. Before we get too technical, let’s explain how this works in a real-world scenario.",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Oct 12th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/151708893366/managing-your-yahoo-account-access-is-easier-than",
+      "title": "Managing Your Yahoo Account Access is Easier than Ever"
+    },
+    {
+      "abstract": " ",
+      "author": "By  davglass",
+      "categories": "image processing machine learning open source cloud services",
+      "date": "Sep 30th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/151148689421/open-sourcing-a-deep-learning-solution-for",
+      "title": "Open Sourcing a Deep Learning Solution for Detecting NSFW Images"
+    },
+    {
+      "abstract": " ",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Sep 30th, 2016",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fcode.flickr.net%2F2016%2F09%2F30%2Fpersonalized-group-recommendations-on-flickr%2F&t=ZTNkYmExZWVjZGZjMDE1MTIzZTZlZTU4MzhlMjczYTBiMDk2ZjdkYyxsSGl6YVNESA%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F151144204266%2Fpersonalized-group-recommendations-are-here&m=0&ts=1608798329",
+      "title": "Personalized Group Recommendations on Flickr | code.flickr.com"
+    },
+    {
+      "abstract": "By Francisco Perez-Sorrosal, Ohad Shacham, Kostas Tsioutsiouliklis, and Edward Bortnikov ",
+      "author": "By  davglass",
+      "categories": "open source omid Yahoo Yahoo Engineering",
+      "date": "Sep 27th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/151015726181/omids-first-step-in-the-apache-community",
+      "title": "Omid’s First Step in the Apache Community"
+    },
+    {
+      "abstract": " ",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Sep 21st, 2016",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fwww.streamingmedia.com%2FArticles%2FEditorial%2FFeatured-Articles%2FMoving-Beyond-Flash-The-Yahoo-HTML5-Video-Player-113635.aspx&t=ZGRkZDFjODk4MjhiN2I0ZTIzMGIwMGRkZjI0YzcyNzcxZDUwYTk1Nix4VVlWR2dHMA%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F150727511601%2Fmoving-beyond-flash-the-yahoo-html5-video-player&m=0&ts=1608798329",
+      "title": "Moving Beyond Flash: The Yahoo HTML5 Video Player - Streaming Media Magazine"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Engineering Github Git Pulsar pub-sub open source messaging bookkeeper zookeeper performance",
+      "date": "Sep 7th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/150078336821/open-sourcing-pulsar-pub-sub-messaging-at-scale",
+      "title": "Open-sourcing Pulsar, Pub-sub Messaging at Scale"
+    },
+    {
+      "abstract": " ",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Yahoo Engineering Engineering Druid DataSketches Analytics Open Source algorithms Sketches",
+      "date": "Jul 20th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/147711922956/combining-druid-and-datasketches-for-real-time",
+      "title": "Combining Druid and DataSketches for Real-time, Robust Behavioral Analytics"
+    },
+    {
+      "abstract": "Doug DePerry, Senior Security Engineer, Paranoids In our inaugural post to The Paranoid, we discussed the human element behind online attacks–the human adversary. We sought to give some perspectives as to who is behind online threats in order to better understand how to defend against them. Yahoo’s bug bounty program applies that insight in our ongoing efforts to provide a safe environment for our users. By thinking about the economics of security, we’ve found that we can tilt the advantage in our favor by partnering with industry-leading security researchers.",
+      "author": "By  mikesefanov",
+      "categories": "Yahoo Security Engineering Hackers Bugs",
+      "date": "Jun 17th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/146077281316/not-all-bugs-are-created-equal",
+      "title": "Not All Bugs Are Created Equal"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Apr 7th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/142418165386/simple-workflow-for-building-web-service-apis",
+      "title": "Simple workflow for building web service APIs"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Mar 29th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/141920508211/configuration-management-for-distributed-systems",
+      "title": "Configuration management for distributed systems (using GitHub and cfg4j)"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Mar 17th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/141211499516/elements-of-api-design-delivering-a-flawless-nfl",
+      "title": "Elements of API design: Delivering a flawless NFL experience"
+    },
+    {
+      "abstract": " ",
+      "author": "By  staticpulse",
+      "categories": "",
+      "date": "Mar 16th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/141143817861/unit-testing-networking-code-can-be-problematic",
+      "title": "Using NSURLProtocol for Testing"
+    },
+    {
+      "abstract": "I believe that in about fifty years’ time it will be possible to program computers, with a storage capacity of about 109, to make them play the imitation game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. … I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted. ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Mar 3rd, 2016",
+      "link": "https://yahooeng.tumblr.com/post/140395457866/turing-test-for-ott-video-streaming-can-a",
+      "title": "“Turing Test” for OTT Video Streaming: \nCan a viewer distinguish between Streaming and Broadcast Video in 2016?"
+    },
+    {
+      "abstract": "By Lovlesh\nChhabra, Product Manager Passwords suck and we’re on a mission to kill\nthem. That’s why we introduced Yahoo Account\nKey in October 2015, which is now available on over 50M devices. This product\nlets you access your Yahoo account with the simple tap on an Account Key push\nnotification sent to your mobile device. It is a major step towards a\npassword-free future, and one where we can say “Goodbye complicated passwords!”",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Feb 29th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/140219851556/yahoo-account-key-now-available-with-new-features",
+      "title": "Yahoo Account Key Now Available With New Features On Even More Apps"
+    },
+    {
+      "abstract": "By Andy Feng(@afeng76), Jun Shi and Mridul Jain (@mridul_jain), Yahoo Big ML Team ",
+      "author": "By  yahoo",
+      "categories": "yahoo yahoo engineering open source",
+      "date": "Feb 24th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/139916828451/caffeonspark-open-sourced-for-distributed-deep",
+      "title": "CaffeOnSpark Open Sourced for Distributed Deep Learning on Big Data Clusters"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Feb 19th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/139612658811/yahoo-hosts-the-streaming-video-alliances",
+      "title": "Yahoo Hosts The Streaming Video Alliance’s Quarterly Member Meeting"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Feb 16th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/139421974901/introducing-1080p-video-experience-on-yahoo",
+      "title": "Introducing 1080p Video Experience on Yahoo"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "open source Yahoo Engineering yahoo",
+      "date": "Feb 5th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/138742476996/hadoop-turns-10",
+      "title": "Hadoop Turns 10"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Jan 27th, 2016",
+      "link": "https://yahooeng.tumblr.com/post/138159851891/yahoo-champaign-scoble-ized",
+      "title": "Yahoo Champaign - Scoble-ized"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "Yahoo Yahoo Engineering Open Source",
+      "date": "Dec 17th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/135390948446/data-sketches",
+      "title": "Data Sketches"
+    },
+    {
+      "abstract": "At Yahoo, we manage a massive number of MySQL databases spread across multiple data centers. We have thousands of databases and each database has many partitioned tables. In order to efficiently create and maintain partitions we developed a partition manager which automatically manages these for you with minimal pre configuration.",
+      "author": "By  gilyehuda",
+      "categories": "Yahoo Yahoo Engineering Open Source",
+      "date": "Dec 16th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/135332825141/mysql-partition-manager-is-open-source",
+      "title": "MySQL Partition Manager is Open Source"
+    },
+    {
+      "abstract": " ",
+      "author": "By  revans2",
+      "categories": "apachestorm apachespark apacheflink streaming realtime benchmark yahoo performance open source yahoo engineering",
+      "date": "Dec 16th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/135321837876/benchmarking-streaming-computation-engines-at",
+      "title": "Benchmarking Streaming Computation Engines at Yahoo!"
+    },
+    {
+      "abstract": " ",
+      "author": "By  aklish",
+      "categories": "jpa falcor graphql jsonapi elide rest web services javasript java development mobile data yahoo open source yahoo engineering",
+      "date": "Dec 8th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/134800436351/elide-simplify-your-crud",
+      "title": "Elide : Simplify Your CRUD"
+    },
+    {
+      "abstract": " ",
+      "author": "By  staticpulse",
+      "categories": "",
+      "date": "Nov 17th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/133423436921/controlling-audio-output-on-ios-with",
+      "title": "Controlling audio output on iOS with AVAudioSession"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Oct 29th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/132155634066/under-the-hood-delivering-the-first-free-global",
+      "title": "Under the Hood: Delivering the First Free Global Live Stream of an NFL Game on Yahoo"
+    },
+    {
+      "abstract": "By Dylan Casey, VP of Product Management Earlier this year, we launched on-demand passwords so you can sign into your Yahoo account using an SMS code, instead of memorizing a complicated password. It was the first step toward a password-free future.",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Oct 15th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/131218006711/yahoo-account-key-signing-in-has-never-been",
+      "title": "Yahoo Account Key – Signing in Has Never Been Easier"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "",
+      "date": "Oct 5th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/130574301641/perceptual-image-compression-at-flickr",
+      "title": "Perceptual Image Compression at Flickr"
+    },
+    {
+      "abstract": " ",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Sep 25th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/129855575131/yahoo-daily-fantasy-everyones-invitedand-we",
+      "title": "Yahoo Daily Fantasy: Everyone’s Invited—and We Mean “Everyone”"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "flickr magic view hbase lambda realtime",
+      "date": "Sep 3rd, 2015",
+      "link": "https://yahooeng.tumblr.com/post/128273446181/building-flickrs-magic-view-with-hbase-and-the",
+      "title": "Building Flickr’s Magic View with HBase and the Lambda Architecture"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "yahoo yahoo engineering open source",
+      "date": "Jul 28th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/125287346011/complementing-hadoop-at-yahoo-interactive",
+      "title": "Complementing Hadoop at Yahoo: Interactive Analytics with Druid"
+    },
+    {
+      "abstract": " ",
+      "author": "By  kaesonho-blog",
+      "categories": "react instrumentation",
+      "date": "Jun 22nd, 2015",
+      "link": "https://yahooeng.tumblr.com/post/122162710056/easier-instrumentation-with-react-i13n",
+      "title": "Easier instrumentation with react-i13n"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "sherpa engineering",
+      "date": "Jun 4th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/120730204806/sherpa-scales-new-heights",
+      "title": "Sherpa Scales New Heights"
+    },
+    {
+      "abstract": "Normally there is no back navigation on the login screen. Webbing added the back button on the bottom. ",
+      "author": "By  greyson-p",
+      "categories": "yahoo yahoo engineering open source",
+      "date": "Jun 1st, 2015",
+      "link": "https://yahooeng.tumblr.com/post/120453453401/webbing-a-template-for-firefox-os-apps",
+      "title": "Webbing, a Template for Firefox OS Apps"
+    },
+    {
+      "abstract": "By Nikolay Laptev, Saeed Amizadeh, Youssef Billawala As new Yahoo Mail or Flickr features go from a prototype to full production, monitoring vital system components for problems (i.e. anomalies) is critical. Manually setting static thresholds to detect big spikes in traffic becomes…",
+      "author": "By  davglass",
+      "categories": "yahoo yahoo engineering open source",
+      "date": "May 20th, 2015",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoolabs.tumblr.com%2Fpost%2F118966433256%2Fegads-a-scalable-configurable-and-novel-anomaly&t=MzA1MDMyYTlmZDkyMGMwNThlMzY3YzBmY2UxYmU3NTk1N2U0NDdjZCxIWnJQb0lWMg%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F119442420161%2Fegads-a-scalable-configurable-and-novel-anomaly&m=0&ts=1608798407",
+      "title": "EGADS: A Scalable, Configurable, and Novel Anomaly Detection System"
+    },
+    {
+      "abstract": " ",
+      "author": "By  bengl",
+      "categories": "yahoo npm registry registry-static nodeconf",
+      "date": "May 4th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/118110129916/registry-in-a-box",
+      "title": "Registry In A Box"
+    },
+    {
+      "abstract": " ",
+      "author": "By  prbinu",
+      "categories": "web security csp yahoo node.js open source csptester",
+      "date": "Apr 27th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/117515291106/web-security-introducing-csptester-io-a-quick",
+      "title": "Web Security: Introducing CSPTESTER.IO - A quick way to test and learn CSP on modern browsers"
+    },
+    {
+      "abstract": " ",
+      "author": "By  sbosley88",
+      "categories": "sqlite java android yahoo developers mobile yahoo engineering open source",
+      "date": "Apr 20th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/116923604061/squidb-a-sqlite-database-layer-for-android",
+      "title": "SquiDB, a SQLite database layer for Android"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "yahoo cloud object storage",
+      "date": "Apr 14th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/116391291701/yahoo-cloud-object-store-object-storage-at",
+      "title": "Yahoo Cloud Object Store - Object Storage at Exabyte Scale"
+    },
+    {
+      "abstract": " ",
+      "author": "By  ankitdshah-blog",
+      "categories": "protractor testing yahoo yahoomail react",
+      "date": "Apr 6th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/115664629471/automated-testing-in-yahoo-mail",
+      "title": "Automated testing in Yahoo Mail"
+    },
+    {
+      "abstract": " ",
+      "author": "By  dwighthubbard-blog",
+      "categories": "",
+      "date": "Mar 19th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/114042809966/using-redis-with-your-python-applications-just-got",
+      "title": "Announcing redislite: Python support for redis without a separate redis server."
+    },
+    {
+      "abstract": " ",
+      "author": "By  vinit-sacheti-blog",
+      "categories": "nodejs javascript modules yahoo cloud services",
+      "date": "Feb 23rd, 2015",
+      "link": "https://yahooeng.tumblr.com/post/111880429321/various-ynodejs-middleware",
+      "title": "Various NodeJS Middleware"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "yahoo yahoo developers cloud bouncer platform",
+      "date": "Feb 17th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/111288877956/cloud-bouncer-distributed-rate-limiting-at-yahoo",
+      "title": "Cloud Bouncer - Distributed Rate Limiting at Yahoo"
+    },
+    {
+      "abstract": " ",
+      "author": "By  jlecomte-yahoo",
+      "categories": "ember javascript i18n yahoo yahoo engineering open source",
+      "date": "Feb 12th, 2015",
+      "link": "https://yahooeng.tumblr.com/post/110812216531/announcing-ember-intl-format-js-support-for-ember",
+      "title": "Announcing ember-intl: Format.JS Support for Ember Apps"
+    },
+    {
+      "abstract": " ",
+      "author": "By  scsper",
+      "categories": "",
+      "date": "Feb 4th, 2015",
+      "title": ""
+    },
+    {
+      "abstract": " ",
+      "author": "By  hiral-p",
+      "categories": "kafka analytics real-time open source yahoo yahoo engineering",
+      "date": "Feb 3rd, 2015",
+      "link": "https://yahooeng.tumblr.com/post/109994930921/kafka-yahoo",
+      "title": "Kafka @ Yahoo"
+    },
+    {
+      "abstract": " ",
+      "author": "By  yahoo",
+      "categories": "yahoo yahoo developers apache bookkeeper storage yahoo engineering open source",
+      "date": "Feb 2nd, 2015",
+      "link": "https://yahooeng.tumblr.com/post/109908973316/bookkeeper-yahoos-distributed-log-storage-is",
+      "title": "BookKeeper - Yahoo’s Distributed Log Storage - is an Apache Top Level Project"
+    },
+    {
+      "abstract": " ",
+      "author": "By  westchase-blog",
+      "categories": "nodejs gifshot npm javascript screenshots yahoo yahoo engineering open source",
+      "date": "Dec 23rd, 2014",
+      "link": "https://yahooeng.tumblr.com/post/105960960701/cronshot-release",
+      "title": "Cronshot Release!"
+    },
+    {
+      "abstract": " ",
+      "author": "By  timmahnator",
+      "categories": "nosql yahoo mdbm database",
+      "date": "Dec 10th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/104861108931/mdbm-high-speed-database",
+      "title": "MDBM - High-speed database"
+    },
+    {
+      "abstract": " ",
+      "author": "By  marcelerz-blog",
+      "categories": "visual regression testing selenium webdriver page-objects coverage test-runner",
+      "date": "Nov 20th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/103124603756/announcing-preceptor-simplified-fe-testing",
+      "title": "Simplified FE testing with Selenium"
+    },
+    {
+      "abstract": " ",
+      "author": "By  scsper",
+      "categories": "mail reactjs",
+      "date": "Nov 10th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/102274727496/to-testutil-or-not-to-testutil",
+      "title": "To TestUtil or not to TestUtil"
+    },
+    {
+      "abstract": " ",
+      "author": "By  subramanyan-murali-blog-blog",
+      "categories": "javascript reactjs yahoo yahoomail",
+      "date": "Nov 3rd, 2014",
+      "link": "https://yahooeng.tumblr.com/post/101682875656/evolving-the-yahoo-mail",
+      "title": "Evolving Yahoo Mail"
+    },
+    {
+      "abstract": " ",
+      "author": "By  davglass",
+      "categories": "yahoo javascript reactjs meetup",
+      "date": "Oct 27th, 2014",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fpablolmiranda.tumblr.com%2Fpost%2F101101455156%2Fnovember-reactjs-meetup-at-yahoo&t=NWY1YjdiZjJlOTI1MGMyMjUwZjJjMTQ4NWY3NTVlMDMwZGIyMTBlNyxZQVdoN2NTaA%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F101108721956%2Fnovember-reactjs-meetup-at-yahoo&m=0&ts=1608798456",
+      "title": "November ReactJS Meetup at Yahoo"
+    },
+    {
+      "abstract": " ",
+      "author": "By  jlecomte-yahoo",
+      "categories": "",
+      "date": "Oct 14th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/100006468771/announcing-formatjs-internationalize-your-web",
+      "title": "Announcing Format.JS: Internationalize your web apps on the client & server"
+    },
+    {
+      "abstract": " ",
+      "author": "By  westchase-blog",
+      "categories": "javascript gif animation",
+      "date": "Sep 30th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/98817655136/an-animated-gif-is-worth-a-thousand-words",
+      "title": "An Animated GIF is Worth a Thousand Words"
+    },
+    {
+      "abstract": "Front-end technology has changed rapidly over the past few years. React has emerged as a modular and performant way to build web applications. It defines a component’s life cycle in an easy and predictable way that works quite well for large scale client-side applications. It’s simple and… ",
+      "author": "By  davglass",
+      "categories": "javascript reactjs",
+      "date": "Sep 12th, 2014",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fpablolmiranda.tumblr.com%2Fpost%2F97242478366%2Ffirst-react-meetup-at-yahoo&t=YzE2YjVlMDI3ZGFlZjBhZTE0NzU5MmFkNzA2ZTRiNjA0ZDE4NWNiMixIWDM5bjBOZg%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F97332353906%2Ffirst-react-meetup-at-yahoo&m=0&ts=1608798456",
+      "title": "First React Meetup at Yahoo"
+    },
+    {
+      "abstract": " ",
+      "author": "By  jlecomte-yahoo",
+      "categories": "",
+      "date": "Aug 29th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/96098168666/important-announcement-regarding-yui",
+      "title": "Important Announcement Regarding YUI"
+    },
+    {
+      "abstract": "By Sumeet Singh, Sr. Director, Product Management, Hadoop (@sumeetksingh) ",
+      "author": "By  davglass",
+      "categories": "hadoop",
+      "date": "May 22nd, 2014",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoodevelopers.tumblr.com%2Fpost%2F86526442223%2Fyahoo-at-hadoop-summit-san-jose-2014&t=ODdjMjRlZTZhY2NiZjM4NGY5N2Q4NTMyMmJiOWFiNTM0YjUzOGQ5Yiw0ZUVYanBEdw%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F86533661736%2Fyahoo-at-hadoop-summit-san-jose-2014&m=0&ts=1608798456",
+      "title": "Yahoo at Hadoop Summit, San Jose 2014"
+    },
+    {
+      "abstract": "by The Hadoop Platforms Team Low-latency SQL queries, Business Intelligence (BI), and Data Discovery on Big Data are some of the hottest topics these days in the industry with a range of solutions coming to life lately to address them as either proprietary or open-source implementations on…",
+      "author": "By  davglass",
+      "categories": "hadoop",
+      "date": "May 16th, 2014",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoodevelopers.tumblr.com%2Fpost%2F85930551108%2Fyahoo-betting-on-apache-hive-tez-and-yarn&t=MWIyZGIzNzNjZGJmOTUxNWE5ZDAxZWRmODBkZmM3YTU3NzBiNTRjZSxCMVY3MFdVUA%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F85931764571%2Fyahoo-betting-on-apache-hive-tez-and-yarn&m=0&ts=1608798456",
+      "title": "Yahoo Betting on Apache Hive, Tez, and YARN"
+    },
+    {
+      "abstract": "By Mayukh Bhaowal, Senior Product Manager, Yahoo Mail Plain blue links aren’t too exciting on their own, but they often lead to the most interesting content in an email. Now, Yahoo Mail offers a preview of that content right in your inbox. Today, we are excited to announce that plain blue…",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Mar 13th, 2014",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoomail.tumblr.com%2Fpost%2F79395405926%2Fbringing-links-to-life-with-link-preview&t=NGViYzBiOTkwMDQ2NWUwMWMyMTJkYTViZTQzMDQ5N2RlYjA4OWQxMSxPa0FISWRNcw%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F79488104352%2Fbringing-links-to-life-with-link-preview&m=0&ts=1608798456",
+      "title": "Bringing Links to Life with Link Preview"
+    },
+    {
+      "abstract": " April 2-3 Amsterdam, Netherlands",
+      "author": "By  davglass",
+      "categories": "hadoop",
+      "date": "Mar 4th, 2014",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoodevelopers.tumblr.com%2Fpost%2F78583247851%2Fjoin-us-for-the-2nd-annual-hadoop-summit-europe-in&t=ZjQwYzRlYjc0OTM3OTJkYmViODZlODIwODAxYWM0MGI1NGE2YzVjZCx4SzE3WWs0TA%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F78583473743%2Fjoin-us-for-the-2nd-annual-hadoop-summit-europe&m=0&ts=1608798479",
+      "title": "Join Us for the 2nd Annual Hadoop Summit, Europe in Amsterdam"
+    },
+    {
+      "abstract": " ",
+      "author": "By  devon-rifkin",
+      "categories": "javascript cassowary yahoo yahoo tech yahoo food",
+      "date": "Feb 11th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/76324905222/how-math-helped-me-write-less-code-and-made-our-app",
+      "title": "How Math Helped Me Write Less Code and Made Our App Faster"
+    },
+    {
+      "abstract": " ",
+      "author": "By  reidburke",
+      "categories": "",
+      "date": "Jan 30th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/75054690857/code-coverage-for-executable-node-js-scripts",
+      "title": "Code coverage for executable Node.js scripts"
+    },
+    {
+      "abstract": "Notice how the <body> tag is not closed. ",
+      "author": "By  jarnoux",
+      "categories": "nodejs mojito pipeline rendering yahoo",
+      "date": "Jan 22nd, 2014",
+      "link": "https://yahooeng.tumblr.com/post/74193313158/scheduled-rendering-and-pipelining-in-latency-sensitive",
+      "title": "Scheduled Rendering and Pipelining in Latency Sensitive Web Applications"
+    },
+    {
+      "abstract": " ",
+      "author": "By  jarnoux",
+      "categories": "yahoo mojito ab testing nodejs engineering",
+      "date": "Jan 13th, 2014",
+      "link": "https://yahooeng.tumblr.com/post/73209757588/the-spaghetti-problem-of-low-coverage-features-in",
+      "title": "The Spaghetti Problem of Low Coverage Features in Industrial Web Applications"
+    },
+    {
+      "abstract": " ",
+      "author": "By  sudocoder",
+      "categories": "YQL Yahoo YUI YCB Arrow MObStor Istanbul",
+      "date": "Dec 19th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/70487852701/the-yahoo-query-language-yql-is-a-web-service",
+      "title": "The YQL Unified Console Stack"
+    },
+    {
+      "abstract": " ",
+      "author": "By  adrianocastro",
+      "categories": "nodejs javascript yahoo nodesummit nodebingo",
+      "date": "Dec 18th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/70390803757/bingo",
+      "title": "BINGO!!!"
+    },
+    {
+      "abstract": " ",
+      "author": "By  markpercival",
+      "categories": "",
+      "date": "Dec 5th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/69110311667/come-join-our-team-at-yahoo-media",
+      "title": "Come join our team at Yahoo Media"
+    },
+    {
+      "abstract": " ",
+      "author": "By  rohiniwork",
+      "categories": "nodejs javascript high availability yahoo",
+      "date": "Dec 2nd, 2013",
+      "link": "https://yahooeng.tumblr.com/post/68823943185/nodejs-high-availability",
+      "title": "NodeJS High Availability"
+    },
+    {
+      "abstract": " ",
+      "author": "By  imbrianj",
+      "categories": "",
+      "date": "Nov 20th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/67579656567/using-css-for-more-than-styling",
+      "title": "Using CSS For More Than Styling"
+    },
+    {
+      "abstract": " ",
+      "author": "By  gdfm-blog",
+      "categories": "big data streaming machine learning data mining samoa",
+      "date": "Oct 29th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/65453012905/introducing-samoa-an-open-source-platform-for-mining",
+      "title": "Introducing SAMOA, an open source platform for mining big data streams."
+    },
+    {
+      "abstract": " ",
+      "author": "By  markpercival",
+      "categories": "",
+      "date": "Oct 28th, 2013",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fcoding.smashingmagazine.com%2F2013%2F10%2F21%2Fchallenging-css-best-practices-atomic-approach%2F&t=ZGJkMDJiNWU4OGQ4NmM4NDIyN2UxODViYTE2N2RhMmM4OGQ5YWI3ZSxWRndIRUVURQ%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F65376473032%2Fchallenging-css-best-practices-smashing-coding&m=0&ts=1608798508",
+      "title": "Challenging CSS Best Practices | Smashing Coding"
+    },
+    {
+      "abstract": " ",
+      "author": "By  revans2",
+      "categories": "storm apache netty java",
+      "date": "Oct 22nd, 2013",
+      "link": "https://yahooeng.tumblr.com/post/64758709722/making-storm-fly-with-netty",
+      "title": "Making Storm fly with Netty"
+    },
+    {
+      "abstract": " ",
+      "author": "By  jamesalley",
+      "categories": "javascript mojito middleware",
+      "date": "Oct 9th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/63566710090/introducing-mojito-jscheck",
+      "title": "Introducing Mojito-JSCheck"
+    },
+    {
+      "abstract": "By Ramses Martinez, Director, Yahoo Paranoids So, I am the guy who started sending t-shirts as a thanks to people when they sent us a potential vulnerability issue. What an interesting 36 hours it has been :)",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Oct 3rd, 2013",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoodevelopers.tumblr.com%2Fpost%2F62953984019%2Fso-im-the-guy-who-sent-the-t-shirt-out-as-a-thank-you&t=ZGFiZjkxZTM2YTMyNmQyZWNlOWM3YTEwNjUzMzIyYTQ4YzZiYmVmNSwwdkk0V2RISw%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F62991785337%2Fyahoo-developer-network-so-im-the-guy-who-sent&m=0&ts=1608798508",
+      "title": "Yahoo! Developer Network: So I’m the guy who sent the t-shirt out as a thank you."
+    },
+    {
+      "abstract": " ",
+      "author": "By  devshaines",
+      "categories": "amd ecmascript javascript",
+      "date": "Sep 26th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead",
+      "title": "Javascript Modules, AMD, and the road ahead."
+    },
+    {
+      "abstract": "By Julie Shin Choi The time is almost here - Yahoo Hack USA hits Sunnyvale this Saturday and Sunday, September 28-29! Developers, you’re cordially welcome to make Yahoo’s Sunnyvale campus your home for the weekend. We are so excited to meet, learn, and hack together with you. We have…",
+      "author": "By  davglass",
+      "categories": "",
+      "date": "Sep 24th, 2013",
+      "link": "https://t.umblr.com/redirect?z=http%3A%2F%2Fyahoodevelopers.tumblr.com%2Fpost%2F62075930629%2Fyahoo-hack-usa-this-weekend-in-sunnyvale&t=ZGQxNTE0YWNhYzNiODdmOTc2NDFlMWMwMjY0ZmNiMTlmOWE2MTVkNSxnejU0VnA3Tg%3D%3D&b=t%3AYqGumMGxvMNvAG4ZAKKWLQ&p=https%3A%2F%2Fyahooeng.tumblr.com%2Fpost%2F62167686324%2Fyahoo-developer-network-yahoo-hack-usa-this&m=0&ts=1608798508",
+      "title": "Yahoo! Developer Network: Yahoo Hack USA: This Weekend in Sunnyvale"
+    },
+    {
+      "abstract": " ",
+      "author": "By  davglass",
+      "categories": "open source engineering yahoo",
+      "date": "Aug 15th, 2013",
+      "link": "https://yahooeng.tumblr.com/post/58346791890/welcome",
+      "title": "Yahoo & Open Source"
+    },
+    {
+      "abstract": " ",
+      "author": "",
+      "categories": "",
+      "date": "",
+      "title": ""
+    },
+    {
+      "abstract": " ",
+      "author": "",
+      "categories": "",
+      "date": "",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,976 @@
+{
+  "linkedin": [
+    {
+      "abstract": "Co-authors: Alexander Ivaniuk and Weitao Duan Editor’s note: This blog post is the second in a series providing an overview and history of LinkedIn’s experimentation platform. The previous post on the history of LinkedIn’s experimentation infrastructure can be found here. Introducing variant assignment Previously on the blog, we’ve shared a look into how...",
+      "author": "Alexander Ivaniuk",
+      "categories": "Topics:scale, A/B Testing, infrastructure, T-REX",
+      "date": "December 16, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/a-b-testing-variant-assignment",
+      "title": "A/B testing at LinkedIn: Assigning variants at scale"
+    },
+    {
+      "abstract": "Co-authors: Walaa Eldin Moustafa, Wenye Zhang, Sushant Raikar, Raymond Lam, Ron Hu, Shardul Mahadik, Laura Chen, Khai Tran, Chris Chen, and Nagarathnam Muthusamy Introduction At LinkedIn, our big data compute infrastructure continually grows over time, not only to keep pace with the growth in the number of data applications, or their domains spanning data...",
+      "author": "Walaa Eldin Moustafa",
+      "categories": "Topics:scale, Apache Pig, Data, Dali, Open Source",
+      "date": "December 10, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/coral",
+      "title": "Coral: A SQL translation, analysis, and rewrite engine for modern data lakehouses"
+    },
+    {
+      "abstract": "When I started my journey at LinkedIn ten years ago, the company was just beginning to experience extreme growth in the volume, variety, and velocity of our data. Over the next few years, my colleagues and I in LinkedIn’s data infrastructure team built out foundational technology like Espresso, Databus, and Kafka, among others, to ensure that LinkedIn would...",
+      "author": "Shirshanka Das",
+      "categories": "Topics:Data, Metadata, Open Source",
+      "date": "December 7, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/datahub-popular-metadata-architectures-explained",
+      "title": "DataHub: Popular metadata architectures explained"
+    },
+    {
+      "abstract": "Co-authors: Xiang Zhang and Jingyu Zhu Introduction The Lambda architecture has become a popular architectural style that promises...",
+      "author": "Xiang Zhang",
+      "categories": "Topics:Stream Processing, Pinot, Profile, Architecture, Kafka, batch processing",
+      "date": "December 1, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/lambda-to-lambda-less-architecture",
+      "title": "From Lambda to Lambda-less: Lessons learned"
+    },
+    {
+      "abstract": "Pegasus Data Schema (PDSC) is a Pegasus schema definition language that has been used for data modeling with Rest.li services for...",
+      "author": "Yingjie Bi",
+      "categories": "Topics:rest.li, Data, Open Source",
+      "date": "November 19, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/pegasus-data-language",
+      "title": "Pegasus Data Language: Evolving schema definitions for data..."
+    },
+    {
+      "abstract": "Co-authors: Chen Yuan, Lauren Caponong, and Derrick Showers An active community is core to the LinkedIn experience because it provides...",
+      "author": "Chen Yuan",
+      "categories": "Topics:iOS, Product Design, Mobile",
+      "date": "November 11, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-stories-on-ios",
+      "title": "Building a smooth Stories experience on iOS"
+    },
+    {
+      "abstract": "In recent years, we’ve been fortunate to see a growing number of excellent machine learning tools, such as TensorFlow, PyTorch, DeepLearning4J, and CNTK for neural networks, Spark and Kubeflow for very-large-scale pipelines, and scikit-learn, ML.NET, and the recent Tribuo for a wide variety of common models. However, models are typically part of an integrated...",
+      "author": "Jeff Pasternack",
+      "categories": "Topics:machine learning, artificial intelligence, Data",
+      "date": "November 10, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/open-sourcing-dagli",
+      "title": "Dagli: Faster and easier machine learning on the JVM, without the tech debt"
+    },
+    {
+      "abstract": "Co-authors: Hang Li, David Huang, Shuangfei Li, and Shannon Zhang A robust hiring ecosystem is one that serves the needs of both employers and prospective candidates, and is a critical component of creating economic opportunity for every member of the global workforce. A robust hiring ecosystem is now more important than ever as COVID-19 has left millions...",
+      "author": "Hang Li",
+      "categories": "Topics:infrastructure, Product Design, Mobile",
+      "date": "October 28, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/the-new-linkedin-jobs-experience",
+      "title": "Behind the scenes: The new LinkedIn Jobs experience"
+    },
+    {
+      "abstract": "Co-authors: Nima Dini and Dan Sully Introduction LinkedIn has 12,000 Multirepo codebases, referred to as multiproducts, which represent individual software components developed by our engineering team across the globe. Every day, thousands of code changes are pushed through our Continuous Integration (CI) pipeline. Our ecosystem is rapidly evolving and we have...",
+      "author": "Nima Dini",
+      "categories": "Topics:Developer Productivity",
+      "date": "October 28, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/compatibility-testing",
+      "title": "How LinkedIn scales compatibility testing"
+    },
+    {
+      "abstract": "Co-author: Jitesh Gandhi and Eric Babyak Across LinkedIn, we recently launched a new design that brings a warmer, more inclusive...",
+      "author": "Jitesh Gandhi",
+      "categories": "Topics:infrastructure, Product Design",
+      "date": "October 22, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/updating-linkedins-ui",
+      "title": "Under the hood: Updating LinkedIn's UI"
+    },
+    {
+      "abstract": "Co-authors: Min Shen, Chandni Singh, Ye Zhou, and Sunitha Beeram At LinkedIn, we rely heavily on offline data analytics for...",
+      "author": "Min Shen",
+      "categories": "Topics:Spark, infrastructure, Data, Open Source",
+      "date": "October 21, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/introducing-magnet",
+      "title": "Magnet: A scalable and performant shuffle architecture for ..."
+    },
+    {
+      "abstract": "As companies grow, adapt, morph, and mature, one item remains the same: the need for reinvention. Technical infrastructure is no...",
+      "author": "Ryan Underwood",
+      "categories": "Topics:Performance, infrastructure, linux, SRE",
+      "date": "October 16, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/fixing-linux-filesystem-performance-regressions",
+      "title": "Fixing Linux filesystem performance regressions"
+    },
+    {
+      "abstract": "Co-authors: Benjamin Le, Daniel Gmach, Aman Grover, Roshan Lal, Jerry Lin, Austin Lu, Qingyun Wan, and Leighton Zhang Feature engineering is foundational for building artificial intelligence (AI) that powers products at LinkedIn. Recently, “representation learning” or “feature learning” has started replacing manually engineered features, as they provide...",
+      "author": "Benjamin Le",
+      "categories": "Topics:artificial intelligence, machine learning, Data, Product Design, Personalization",
+      "date": "October 14, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/pensieve",
+      "title": "Pensieve: An embedding feature platform"
+    },
+    {
+      "abstract": "Co-authors: Parag Agrawal, Ankan Saha, Yafei Wang, Aastha Nigam, and Eric Lawrence Figure 1: A heterogeneous social network LinkedIn’s “People You May Know” (PYMK) feature has long been used by our members to form connections with other members and expand their networks. As member networks become more heterogeneous, the People You May Know tab (MyNetwork tab...",
+      "author": "Parag Agrawal",
+      "categories": "Topics:artificial intelligence, Recommender Systems, machine learning, Data",
+      "date": "October 6, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-a-heterogeneous-social-network-recommendation-system",
+      "title": "Building a heterogeneous social network recommendation system"
+    },
+    {
+      "abstract": "Co-authors: Yixing Zhang, Bingfeng Xia, Ke Wu, and Xinyu Liu Since Beam Samza runner was developed in 2018 at LinkedIn, we now have 100+ Samza Beam jobs running in production. As our usage grew, we wanted to better understand how the Samza runner performs compared to other runners and identify areas of improvement. In general, for stream processing platforms,...",
+      "author": "Yixing Zhang",
+      "categories": "Topics:Stream Processing, Apache Samza, Performance, Benchmark",
+      "date": "October 1, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-a-better-and-faster-beam-samza-runner",
+      "title": "Building a better and faster Beam Samza runner"
+    },
+    {
+      "abstract": "Last week, the global LinkedIn Data Science team joined together for our third-annual Data Science Week. This virtual event included...",
+      "author": "Ya Xu",
+      "categories": "Topics:data science, engineering culture",
+      "date": "September 30, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/celebrating-success-data-science-week",
+      "title": "Celebrating Innovation, Success, and the Future at Data..."
+    },
+    {
+      "abstract": "Our logo is inspired by the chameleon: You can enable personalization on your ranking model with GDMix, bringing a personalized...",
+      "author": "Jun Shi",
+      "categories": "Topics:artificial intelligence, machine learning, Personalization, Open Source",
+      "date": "September 29, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/gdmix--a-deep-ranking-personalization-framework",
+      "title": "GDMix: A deep ranking personalization framework"
+    },
+    {
+      "abstract": "Editor’s note: This blog post is the first in a series providing an overview and history of LinkedIn’s experimentation platform. At...",
+      "author": "Alexander Ivaniuk",
+      "categories": "Topics:scale, A/B Testing, infrastructure, T-REX, experimentation",
+      "date": "September 24, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/our-evolution-towards-t-rex--the-prehistory-of-experimentation-i",
+      "title": "Our evolution towards T-REX: The prehistory of..."
+    },
+    {
+      "abstract": "Co-authors: Chiachi Lo, Bohong Zhao, and Elina Lin When we launched a major redesign of LinkedIn’s mobile application and desktop web experiences a few years back, we focused the My Network tab to help professionals connect with each other on LinkedIn through our People You May Know feature. Over time, we realized there was much more we could do to help our 706M...",
+      "author": "Chiachi Lo",
+      "categories": "Topics:relevance, artificial intelligence, Feed Personalization , Data",
+      "date": "September 17, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/helping-members-discover-communities-around-interests",
+      "title": "Helping members discover communities around interests"
+    },
+    {
+      "abstract": "Co-authors: Scott Meyer, Andrew Carter, and Andrew Rodriguez Editor’s note: This is the second part of a two-part blog series. Part 1 described how graph data relates to the in-memory graph of structures commonly used as models (as in “model-view-controller”) by applications, how graph data can be stored in a conventional relational database, and why...",
+      "author": "Scott Meyer",
+      "categories": "Topics:scale, infrastructure, knowledge graph, Data",
+      "date": "September 16, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/liquid--the-soul-of-a-new-graph-database--part-2",
+      "title": "LIquid: The soul of a new graph database, Part 2"
+    },
+    {
+      "abstract": "The internet software industry has moved away from long development cycles and dedicated quality assurance (QA) stages, toward a fast-paced continuous-integration/continuous-delivery (CI/CD) pipeline, where new code is quickly written, committed, and pushed to user-facing applications and services. Doing so has dramatically increased iteration speeds, and at...",
+      "author": "David Hoa",
+      "categories": "Topics:artificial intelligence, Developer Productivity, Testing, infrastructure, Automation",
+      "date": "September 10, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/production-testing-with-dark-canaries",
+      "title": "Production testing with dark canaries"
+    },
+    {
+      "abstract": "Co-authors: Hunter Lee and Dru Pollini LinkedIn was built to help professionals achieve more in their careers, and every day millions...",
+      "author": "Hunter Lee",
+      "categories": "Topics:Apache Helix, Distributed Systems, ESPRESSO, Data",
+      "date": "August 27, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/jhubbub-on-helix",
+      "title": "Jhubbub on Helix: Stateless and elastic made easy"
+    },
+    {
+      "abstract": "Co-authors: Sriram Vasudevan, Cyrus DiCiccio, and Kinjal Basu At LinkedIn, our imperative is to create economic opportunity for every...",
+      "author": "Sriram Vasudevan",
+      "categories": "Topics:Spark, artificial intelligence, machine learning, Data, Open Source",
+      "date": "August 25, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/lift-addressing-bias-in-large-scale-ai-applications",
+      "title": "Addressing bias in large-scale AI applications: The..."
+    },
+    {
+      "abstract": "In the previous blog posts of our “Rebuilding messaging” series, we shared the process of how we designed the system from high-level...",
+      "author": "Jeffrey Schang",
+      "categories": "Topics:infrastructure, Architecture, Product Design",
+      "date": "August 20, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-for-extensibility",
+      "title": "Rebuilding messaging: How we built for extensibility"
+    },
+    {
+      "abstract": "Co-authors: Grace Tang, Pavan K. Ganganahalli Marulappa, Montinee Khunvirojpanich, and Ting Chen LinkedIn is an active professional community where our members come to stay informed, build meaningful relationships, and find a job. In order for members to confidently engage in this community, they have to feel safe. This sense of safety is at risk when spam,...",
+      "author": "Grace Tang",
+      "categories": "Topics:machine learning, artificial intelligence, trust engineering",
+      "date": "August 12, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/fighting-harassment",
+      "title": "The technology behind fighting harassment on LinkedIn"
+    },
+    {
+      "abstract": "Co-authors: Gaurav Mishra, Song Lu, Antony Curtis, Shuangyang Yang Espresso is LinkedIn's horizontally scalable, highly-available, and elastic data-as-a-service platform that serves nearly 95% of our online storage traffic. Given its position in our tech stack, an optimization in Espresso availability can have a major impact on our members’ experience. In this...",
+      "author": "Gaurav Mishra",
+      "categories": "Topics:Data, ESPRESSO",
+      "date": "August 11, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/improving-espresso-availability",
+      "title": "Improving Espresso availability with preemptive Helix-managed traffic shift"
+    },
+    {
+      "abstract": "Co-authors: Sandhya Ramu and Vasanth Rajamani For companies and organizations, failure tends to be far more illuminating than success and the lingering effects of a failure can be harmful if the team moves too quickly and does not resolve the issue in a thorough and transparent manner. We recently ran into a large incident that involved data loss in our big data...",
+      "author": "Sandhya Ramu",
+      "categories": "Topics:Performance, Hadoop, data center, Data",
+      "date": "August 6, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/learnings-from-a-recent-hadoop-incident",
+      "title": "Theory vs. Practice: Learnings from a recent Hadoop incident"
+    },
+    {
+      "abstract": "Co-authors: Konstantin Salomatin, Kirill Talanine, Barış Özmen, Gungor Polatkan, Linda Fayad, Arjun Kulothungun, and Deepak Kumar Our...",
+      "author": "Konstantin Salomatin",
+      "categories": "Topics:artificial intelligence, relevance, Recommender Systems, machine learning, Data",
+      "date": "July 30, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/quality-matches-via-personalized-ai",
+      "title": "Quality matches via personalized AI for hirer and seeker..."
+    },
+    {
+      "abstract": "Co-authors: Weiwei Guo, Xiaowei Liu, Sida Wang, Huiji Gao, and Bo Long Natural language processing (NLP) technologies are widely...",
+      "author": "Weiwei Guo",
+      "categories": "Topics:artificial intelligence, machine learning, research, Open Source",
+      "date": "July 28, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/open-sourcing-detext",
+      "title": "DeText: A deep NLP framework for intelligent text..."
+    },
+    {
+      "abstract": "Co-authors: Scott Meyer, Andrew Carter, and Andrew Rodriguez Editor’s note: In this two-part blog series, we introduce LIquid, a new...",
+      "author": "Scott Meyer",
+      "categories": "Topics:scale, infrastructure, knowledge graph, Data",
+      "date": "July 23, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/liquid-the-soul-of-a-new-graph-database-part-1",
+      "title": "LIquid: The soul of a new graph database, Part 1"
+    },
+    {
+      "abstract": "Co-authors: Pradhan Cadabam and Jingxuan (Rex) Zhang Messaging has been a core part of Linkedin since the day we launched and our system behind it has evolved tremendously over the past 17 years. However, the architecture of our messaging backend largely remained unchanged until a recent ground-up overhaul. In the second part of our “Rebuilding messaging” series...",
+      "author": "Pradhan Cadabam",
+      "categories": "Topics:infrastructure, Architecture, Product Design",
+      "date": "July 21, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/bootstrapping-our-new-messaging-platform",
+      "title": "Rebuilding messaging: How we bootstrapped our platform"
+    },
+    {
+      "abstract": "Co-authors: Khai Tran and Steve Weiss Batch and streaming computations are often combined together in the Lambda architecture, but carry the cost of maintaining two different code bases for the same logic. We have previously shared on the blog a behind-the-scenes look at our approach into enabling the seamless translation of declarative batch code into streaming...",
+      "author": "Khai Tran",
+      "categories": "Topics:Stream Processing, batch processing, Data, Pinot, Gobblin, Kafka, Samza",
+      "date": "July 14, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/bridging-batch-and-stream-processing",
+      "title": "Bridging batch and stream processing for the Recruiter usage statistics dashboard"
+    },
+    {
+      "abstract": "Co-authors: Sneha Chaudhari, Mahesh Joshi, and Gungor Polatkan In part 1 of this series, we shared a high-level overview of our course recommendation engine for LinkedIn Learning. First, we provided details on the offline and online components of the system design. Later on, we discussed the three main components of the recommendation engine that are key for...",
+      "author": "Sneha Chaudhari",
+      "categories": "Topics:artificial intelligence, Recommender Systems, Data, Product Design, relevance, Collaborative Filtering, machine learning, TensorFlow",
+      "date": "July 1, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/course-recommendations-ai-part-two",
+      "title": "A closer look at the AI behind course recommendations on LinkedIn Learning, Part 2"
+    },
+    {
+      "abstract": "Co-authors: Timothy Santos and Jeremy Lwanga LinkedIn is a mission-driven organization, and we take our mission of “connecting the...",
+      "author": "Timothy Santos",
+      "categories": "Topics:Pinot, Product Design",
+      "date": "June 29, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-linkedin-talent-insights",
+      "title": "Building LinkedIn Talent Insights to democratize..."
+    },
+    {
+      "abstract": "Introduction When testing Android applications (for example, the LinkedIn mobile app for Android), thorough testing practices can...",
+      "author": "John Rusnak",
+      "categories": "Topics:Testing, Mobile, Android",
+      "date": "June 26, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/mobile-test-orchestrator",
+      "title": "Faster testing on Android with Mobile Test Orchestrator"
+    },
+    {
+      "abstract": "Co-authors: Madhumita Mantri and Tyler James At LinkedIn, ThirdEye is used for business and platform health metrics monitoring,...",
+      "author": "Madhumita Mantri",
+      "categories": "Topics:artificial intelligence, monitoring, Pinot, machine learning, metrics, Data",
+      "date": "June 25, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/monitoring-business-performance-data-with-thirdeye-smart-alerts",
+      "title": "Monitoring business performance data with ThirdEye smart..."
+    },
+    {
+      "abstract": "Espresso is LinkedIn's defacto NoSQL database solution. It is an online, distributed, fault-tolerant database that powers most of LinkedIn’s applications including member profiles, InMail (LinkedIn's member-to-member messaging system), sections of the main LinkedIn homepage, our mobile applications, and more. Since Espresso caters to many critical features, its...",
+      "author": "Kalyanasundaram Somasundaram",
+      "categories": "Topics:Performance, ESPRESSO, site speed, SRE",
+      "date": "June 23, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/the-impact-of-slow-nfs-on-data-systems",
+      "title": "The impact of slow NFS on data systems"
+    },
+    {
+      "abstract": "Co-authors: Sneha Chaudhari, Mahesh Joshi, and Gungor Polatkan LinkedIn Learning is a platform where LinkedIn members have the opportunity to develop the relevant skills needed to achieve their professional goals. The Learning AI team continually advances the large-scale content recommendation engine for LinkedIn Learning, serving over 690M LinkedIn members and...",
+      "author": "Sneha Chaudhari",
+      "categories": "Topics:artificial intelligence, Recommender Systems, Data, Product Design, relevance, Collaborative Filtering, machine learning",
+      "date": "June 17, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/course-recommendations-ai-part-one",
+      "title": "A closer look at the AI behind course recommendations on LinkedIn Learning, Part 1"
+    },
+    {
+      "abstract": "Co-authors: Viranch Mehta, Jon Sorenson, Samir Jafferali As LinkedIn has grown to more than 690 million members, we’ve expanded our edge platform to 19 Points of Presence (PoPs) across 5 continents over the years to be closer to our members and provide a quick and reliable experience. As we started evaluating how to best scale for the future needs of our...",
+      "author": "Samir Jafferali",
+      "categories": "Topics:scale, infrastructure, SRE",
+      "date": "June 16, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/linkedin-scales-edge-with-azure-front-door",
+      "title": "Scaling LinkedIn’s Edge with Azure Front Door"
+    },
+    {
+      "abstract": "Co-authors: Tyler Grant, Armen Hamstra, Cliff Snyder Over the last five years, the number of messages sent on LinkedIn has quadrupled....",
+      "author": "Tyler Grant",
+      "categories": "Topics:infrastructure, Architecture, Product Design",
+      "date": "June 15, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/designing-our-new-messaging-system",
+      "title": "Rebuilding messaging: How we designed our new system"
+    },
+    {
+      "abstract": "Co-authors: Cong Gu, Abin Shahab, Chen Qiang, and Keqiu Hu Editor's note: This blog has been updated. LinkedIn AI has been...",
+      "author": "Cong Gu",
+      "categories": "Topics:Hadoop, Security, Open Source",
+      "date": "June 10, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/open-sourcing-kube2hadoop",
+      "title": "Open sourcing Kube2Hadoop: Secure access to HDFS from..."
+    },
+    {
+      "abstract": "Co-authors: Guillaume Saint-Jacques, Stuart Ambler Last month on this blog, we introduced how we are building inclusive products...",
+      "author": "Guillaume Saint-Jacques",
+      "categories": "Topics:data science, experimentation, machine learning, research, Product Design, Data",
+      "date": "May 26, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/bringing-project-every-member-to-life",
+      "title": "Bringing Project Every Member to life: Open sourcing our..."
+    },
+    {
+      "abstract": "Co-authors: Oliver Tse, Andrew Lee, Melanie Sumner, and Renato Iwashima Editor's note: This blog has been updated. Accessibility (A11y) Engineering at LinkedIn aims to streamline accessible product development and maintenance. We think about how tooling can help achieve accessibility success and increase the efficiency of our fellow engineers across the...",
+      "author": "Oliver Tse",
+      "categories": "Topics:Accessibility, iOS, Android",
+      "date": "May 21, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/automated-accessibility-testing",
+      "title": "LinkedIn’s approach to automated accessibility (A11y) testing"
+    },
+    {
+      "abstract": "Co-authors: Siddharth Dangi, Johnson Jia, Manas Somaiya, and Ying Xuan The LinkedIn feed is the cornerstone of the member experience. It’s where our members post ideas, career news, questions, and jobs in an array of formats, including short text, long-form articles, images, and videos. The Feed AI Team’s mission is to help LinkedIn’s members discover the most...",
+      "author": "Siddharth Dangi",
+      "categories": "Topics:artificial intelligence, relevance, Feed Personalization , machine learning, research, Data",
+      "date": "May 12, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/understanding-feed-dwell-time",
+      "title": "Understanding dwell time to improve LinkedIn feed ranking"
+    },
+    {
+      "abstract": "Co-authors: Jun Shi, Mingzhou Zhou Introduction In the machine learning community, Apache Spark is widely used for data processing due to its efficiency in SQL-style operations, while TensorFlow is one of the most popular frameworks for model training. Although there are some data formats supported by both tools, TFRecord—the data format native to TensorFlow—is...",
+      "author": "Jun Shi",
+      "categories": "Topics:Spark, machine learning, TensorFlow, Data, Open Source",
+      "date": "May 4, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/spark-tfrecord",
+      "title": "Spark-TFRecord: Toward full support of TFRecord in Spark"
+    },
+    {
+      "abstract": "Editor's note: This blog has been updated. The product ecosystem at LinkedIn is vast, and managing its infrastructure can be daunting....",
+      "author": "Niket Parikh",
+      "categories": "Topics:Developer Productivity",
+      "date": "April 30, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/continuous-integration",
+      "title": "How LinkedIn handles merging code in high-velocity..."
+    },
+    {
+      "abstract": "Built at LinkedIn, Pinot is an open source, distributed, and scalable OLAP data store that we use as our de-facto near-real-time...",
+      "author": "Mayank Shrivastava",
+      "categories": "Topics:Pinot, metrics, Data, Open Source",
+      "date": "April 27, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/apache-pinot-030-update",
+      "title": "Introducing Apache Pinot 0.3.0"
+    },
+    {
+      "abstract": "The needs of our members and customers have evolved rapidly in recent weeks, and we’ve been focused on evolving alongside them to meet...",
+      "author": "Maria Zhang",
+      "categories": "Topics:Developer Productivity, Product Design",
+      "date": "April 23, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-with-agility-for-our-members-in-times-of-need",
+      "title": "Building with agility for our members in times of need"
+    },
+    {
+      "abstract": "Co-authors: Xiang Zhang, Estella Pham, and Ke Wu Identity services are critical systems that serve data on profile and member settings to help power many other applications at LinkedIn. In this blog post, we’ll share how we merged two layers of the identity services that handle more than half a million queries per second (QPS) that drove a 10% reduction in...",
+      "author": "Xiang Zhang",
+      "categories": "Topics:A/B Testing, Architecture, experimentation, Performance, ESPRESSO, T-REX, Data",
+      "date": "April 22, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/reducing-latency-and-cost-for-identity-services",
+      "title": "How we reduced latency and cost-to-serve by merging two systems"
+    },
+    {
+      "abstract": "LinkedIn recently launched a new feature on Profile called Featured Items. It allows members to pin a post, article, or uploaded media to their profiles to showcase their work. Because the range of what members can choose to highlight is so broad, it was important that the feature was built to accommodate them all. We were excited to release Featured Items into...",
+      "author": "Zoro Wu",
+      "categories": "Topics:Android, Product Design",
+      "date": "April 17, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/featured-items-horizontal-carousel-on-android",
+      "title": "Feature spotlight: Building a horizontal carousel on Android"
+    },
+    {
+      "abstract": "Serving the most relevant information for LinkedIn members in the homepage feed requires a massive effort—hundreds of features are used to personalize content for hundreds of millions of members. For each homepage visit, our machine learning models have to find and surface the best activity across a member's whole network, and they have to source that content...",
+      "author": "Ian Ackerman",
+      "categories": "Topics:artificial intelligence, Feed Personalization , Metadata, A/B Testing, experimentation, Data, relevance, machine learning, T-REX",
+      "date": "April 15, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/feed-typed-ai-features",
+      "title": "Rapid experimentation through standardization: Typed AI features for LinkedIn’s feed"
+    },
+    {
+      "abstract": "Co-authors: Jefferson Lai, Vinyas Maddi, and Vijay Ramamurthy One of our core engineering principles here at LinkedIn is to create...",
+      "author": "Jefferson Lai",
+      "categories": "Topics:scale, infrastructure, Product Design",
+      "date": "April 3, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-a-platform-for-leverage",
+      "title": "Building a platform: Learnings from our pursuit for leverage"
+    },
+    {
+      "abstract": "Co-authors: Guillaume Saint-Jacques, Amir Sepehri, Nicole Li, and Igor Perisic Introduction Previously on this blog, we’ve shared...",
+      "author": "Guillaume Saint-Jacques",
+      "categories": "Topics:A/B Testing, data science, experimentation, research, Product Design, Data, machine learning, T-REX",
+      "date": "March 31, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-inclusive-products-through-a-b-testing",
+      "title": "Building inclusive products through A/B testing"
+    },
+    {
+      "abstract": "Co-authors: Walaa Eldin Moustafa, Wenye Zhang, Adwait Tumbde, Ratandeep Ratti Introduction Over the years, the popularity of Apache...",
+      "author": "Walaa Eldin Moustafa",
+      "categories": "Topics:scale, Spark, Data",
+      "date": "March 25, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/advanced-schema-management-for-spark",
+      "title": "Advanced schema management for Spark applications at scale"
+    },
+    {
+      "abstract": "Co-authors: Arun Swami, Sriram Vasudevan, Sailesh Mittal, Jiefu Zheng, Joojay Huyn, Audrey Alpizar, Changling Huang, Maneesh Varshney, Adrian Fernandez Data’s value is best realized when prepared and treated correctly. However, when you’re working with data at an extensive scale, it’s not as easy to make sure that every data set has been cleaned and validated....",
+      "author": "Arun Swami",
+      "categories": "Topics:scale, Developer Productivity, tools, Data",
+      "date": "March 10, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/data-sentinel-automating-data-validation",
+      "title": "Data Sentinel: Automating data validation"
+    },
+    {
+      "abstract": "As a step to help reduce the spread of COVID-19, many companies are now encouraging employees to work remotely. Supporting a workforce that’s fully remote, at least at this scale, is new to many businesses, LinkedIn being no exception. In the last couple of weeks, our 16,000+ employees have transitioned from being a mostly centralized workforce in a set of...",
+      "author": "Sabry Tozin",
+      "categories": "Topics:infrastructure",
+      "date": "March 13, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/preparing-infra-for-WFH",
+      "title": "Preparing your infrastructure for a WFH shift"
+    },
+    {
+      "abstract": "Co-authors: Arun Swami, Sriram Vasudevan, Sailesh Mittal, Jiefu Zheng, Joojay Huyn, Audrey Alpizar, Changling Huang, Maneesh Varshney, Adrian Fernandez Data’s value is best realized when prepared and treated correctly. However, when you’re working with data at an extensive scale, it’s not as easy to make sure that every data set has been cleaned and validated....",
+      "author": "Arun Swami",
+      "categories": "Topics:scale, Developer Productivity, tools, Data",
+      "date": "March 10, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/data-sentinel-automating-data-validation",
+      "title": "Data Sentinel: Automating data validation"
+    },
+    {
+      "abstract": "Co-authors: Yen-Jung Chang, Yang Yang, Xiaohui Sun, and Tie Wang At LinkedIn, ThirdEye is the backbone of our monitoring toolkit. We...",
+      "author": "Yen-Jung Chang",
+      "categories": "Topics:monitoring, Pinot, metrics, Data",
+      "date": "February 20, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/analyzing-anomalies-with-thirdeye",
+      "title": "Analyzing anomalies with ThirdEye"
+    },
+    {
+      "abstract": "Co-authors: Kerem Sahin, Mars Lan, and Shirshanka Das Finding the right data quickly is critical for any company that relies on big...",
+      "author": "Kerem Sahin",
+      "categories": "Topics:Metadata, infrastructure, Data, Open Source",
+      "date": "February 18, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/open-sourcing-datahub--linkedins-metadata-search-and-discovery-p",
+      "title": "Open sourcing DataHub: LinkedIn’s metadata search and..."
+    },
+    {
+      "abstract": "Our members place their trust in us, and expect and deserve a safe and trusted community where they can express themselves...",
+      "author": "Daniel Gorham",
+      "categories": "Topics:artificial intelligence, Security, trust engineering, machine learning",
+      "date": "January 16, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/keeping-linkedin-professional",
+      "title": "Keeping LinkedIn professional by detecting and removing..."
+    },
+    {
+      "abstract": "Nearly 20 years after the first release of Python 2 and 11 years after the first release of Python 3, the Python development community has retired Python 2.7, the last of the Python 2 series. This marks the end of all upstream support for Python 2, including bug and security fixes, and allows developers to devote their time fully to Python 3, which is faster,...",
+      "author": "Barry Warsaw",
+      "categories": "Topics:Python, Open Source",
+      "date": "January 29, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/how-we-retired-python-2-and-improved-developer-happiness",
+      "title": "How we retired Python 2 and improved developer happiness"
+    },
+    {
+      "abstract": "Our members place their trust in us, and expect and deserve a safe and trusted community where they can express themselves professionally. We are constantly investing in a variety of systems (Automated Fake Account Detection at LinkedIn, Defending Against Abuse at LinkedIn’s Scale, and How We’re Protecting Members From Fake Profiles) to help automatically detect...",
+      "author": "Daniel Gorham",
+      "categories": "Topics:artificial intelligence, Security, trust engineering, machine learning",
+      "date": "January 16, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/keeping-linkedin-professional",
+      "title": "Keeping LinkedIn professional by detecting and removing inappropriate profiles"
+    },
+    {
+      "abstract": "Pinot, an open source scalable distributed columnar OLAP data store, is used extensively across almost all areas of LinkedIn. It drives member-facing use cases such as Feed Item Popularity and Who Viewed My Profile, supports recruiter tools such as Talent Intelligence, and holds the data for our internal unified metrics platform. Pinot adoption has grown...",
+      "author": "Walter Huf",
+      "categories": "Topics:Performance, Pinot, linux, Data",
+      "date": "January 14, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/upgrading-to-rhel7-with-minimal-interruptions",
+      "title": "Upgrading to RHEL7 with minimal interruptions"
+    },
+    {
+      "abstract": "Monitor, profile, optimize, and ramp. This is the cycle of performance operations that we rely on to improve our Android app. Part 1...",
+      "author": "Chao Zhang",
+      "categories": "Topics:Performance, Mobile, Android, RUM, site speed",
+      "date": "January 7, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/building-a-blazingly-fast-android-app-part-2",
+      "title": "Building a blazingly fast Android app, Part 2"
+    },
+    {
+      "abstract": "Co-authors: Alexander Ivaniuk, Jingbang Liu At LinkedIn, we like to say that experimentation is in our blood because no production...",
+      "author": "Alexander Ivaniuk",
+      "categories": "Topics:Developer Productivity, A/B Testing, experimentation, T-REX, Data",
+      "date": "January 3, 2020",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2020/making-the-linkedin-experimentation-engine-20x-faster",
+      "title": "Making the LinkedIn experimentation engine 20x faster"
+    },
+    {
+      "abstract": "Defined as the speed at which an app loads and responds to a member, app performance is critical to an app’s success. When an app...",
+      "author": "Chao Zhang",
+      "categories": "Topics:Performance, Mobile, Android",
+      "date": "December 23, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/building-a-blazingly-fast-android-app-part-1",
+      "title": "Building a blazingly fast Android app, Part 1"
+    },
+    {
+      "abstract": "If a picture’s worth a thousand words, then what about a video? In 2017, we launched video sharing to give our members the ability to share video content on the feed via the LinkedIn mobile app or a web browser. When posting a video from an Android device, the member could either record it using their device camera app or pick an existing video from the gallery....",
+      "author": "Izzat Bahadirov",
+      "categories": "Topics:Android, Mobile, NYC Engineering, Data, Open Source",
+      "date": "December 19, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/litr-a-lightweight-video-audio-transcoder-for-android",
+      "title": "LiTr: A lightweight video/audio transcoder for Android"
+    },
+    {
+      "abstract": "One of the most important traits we look for when hiring engineering talent is a growth mindset: the ability to learn and adapt to changing conditions and technologies over time. This is partly because, as engineers, we work at the forefront of tech, which means we constantly seek new and exciting ways to unlock the potential of technology. Aside from our own...",
+      "author": "Erica Lockheimer",
+      "categories": "Topics:Skills, Leadership",
+      "date": "December 18, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/on-linkedin-learning--career-advice-from-leadership-in-tech",
+      "title": "On LinkedIn Learning: Career advice from leadership in tech"
+    },
+    {
+      "abstract": "In today’s newly-published Emerging Jobs Report, we introduce the “skills genome methodology” to highlight the unique skills for emerging jobs—occupations that have experienced tremendous growth in hiring, but may not have had a correspondingly large or established workforce. Often, these jobs are relatively new, such as the top job globally on this year’s...",
+      "author": "Jenny Ying",
+      "categories": "Topics:economic graph, data science, research, Data",
+      "date": "December 10, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/how-we-mapped-the-skills-genome-of-emerging-jobs",
+      "title": "How we mapped the “skills genome” of emerging jobs"
+    },
+    {
+      "abstract": "As the year draws to a close, we’re taking a look back at ten of our most popular 2019 articles on the LinkedIn Engineering Blog....",
+      "author": "Jaren Anderson",
+      "categories": "Topics:artificial intelligence, Pinot, Feed Personalization , Security, Kafka, SRE",
+      "date": "December 9, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/the-top-2019-linkedin-engineering-blogs",
+      "title": "The Top 2019 LinkedIn Engineering Blogs"
+    },
+    {
+      "abstract": "Introduction In 2013, when LinkedIn moved to multiple data centers across the globe, we needed a way to redirect traffic from one data...",
+      "author": "Nishant Singh",
+      "categories": "Topics:data center, Automation, SRE",
+      "date": "December 6, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/eliminating-toil-with-fully-automated-load-testing",
+      "title": "Eliminating toil with fully automated load testing"
+    },
+    {
+      "abstract": "LinkedIn delivers value to more than 660 million members via thousands of microservices, most of which depend on data infrastructure...",
+      "author": "Ji Ma",
+      "categories": "Topics:infrastructure, Data",
+      "date": "November 19, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/nuage-sdk",
+      "title": "Empowering our developers with the Nuage SDK"
+    },
+    {
+      "abstract": "Co-authors: Todd Palino, Samir Jafferali, Kurt Andersen, and Carolyn Blood LinkedIn hosted its 4th annual SRE[in]con conference in late October that brought together over 700 LinkedIn site engineers, as well as partners from Microsoft, Github, Drawbridge and Glint, for more than 60 talks, workshops, and main stage keynotes. The purpose? To provide engineers...",
+      "author": "Michael Kehoe",
+      "categories": "Topics:engineering culture, events, SRE",
+      "date": "November 14, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/a-look-at-our-biggest-sre-in-con-yet",
+      "title": "A look at our biggest SRE[in]con yet"
+    },
+    {
+      "abstract": "LinkedIn wouldn't be the company it is today without the engineers who built it and the talented individuals in technical roles across the company. They are the ones who create, build, and maintain our platform, tools, and features—as well as write posts for this blog. In this series, we feature some of the people and personalities that make LinkedIn great....",
+      "author": "Angel Liu",
+      "categories": "Topics:engineering culture",
+      "date": "November 12, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/getting-to-know-natasha-michel",
+      "title": "Getting to know Natasha Michel"
+    },
+    {
+      "abstract": "Co-authors: Nanna Ericson and Tetyana Bruevich Over the last few years, LinkedIn has rolled out several features that provide instant translation of feed content, enabling members to experience content in their own interface language. The interface language is set by default to be the same as the browser language the member is using when signing up for LinkedIn,...",
+      "author": "Nanna Ericson",
+      "categories": "Topics:artificial intelligence, machine translation",
+      "date": "November 1, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/feature-spotlight--advancing-language-settings-for-content-on-li",
+      "title": "Feature spotlight: Advancing language settings for content on LinkedIn"
+    },
+    {
+      "abstract": "Co-authors: Krishnan Raman and Joey Salacup Editor's note: This blog has been updated. Monitoring big data pipelines often equates to...",
+      "author": "Krishnan Raman",
+      "categories": "Topics:infrastructure, Gobblin, tools, Kafka, Data",
+      "date": "October 30, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/an-inside-look-at-linkedins-data-pipeline-monitoring-system-",
+      "title": "An inside look at LinkedIn’s data pipeline monitoring..."
+    },
+    {
+      "abstract": "LinkedIn wouldn't be the company it is today without the engineers who built it. We have no shortage of talented individuals in...",
+      "author": "Vishal Gosar",
+      "categories": "Topics:engineering culture",
+      "date": "October 24, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/getting-to-know-chiranjeevi-devi",
+      "title": "Getting to know Chiranjeevi Devi"
+    },
+    {
+      "abstract": "As an engineer, your goal is for every commit to seamlessly land in production and provide a delightful experience for your customers....",
+      "author": "Gururajan Raghavendran",
+      "categories": "Topics:Continuous Integration, scale, deployment, 3x3",
+      "date": "October 18, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/learnings-from-the-journey-to-continuous-deployment",
+      "title": "Learnings from the journey to continuous deployment"
+    },
+    {
+      "abstract": "Co-authors: Vipin Gupta, Ananth Sankar and Jyotsna Thapliyal As part of our vision to provide economic opportunity for every member of the global workforce, LinkedIn creates a unique environment for members to network, learn, share knowledge, and find jobs. In many ways, the LinkedIn feed has become the core of this effort as the preeminent way to share...",
+      "author": "Vipin Gupta",
+      "categories": "Topics:Accessibility, Product Design",
+      "date": "October 10, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/alternative-text-descriptions",
+      "title": "Making LinkedIn media more inclusive with alternative text descriptions"
+    },
+    {
+      "abstract": "Co-authors: Jon Lee and Wesley Wu Apache Kafka is a core part of our infrastructure at LinkedIn. It was originally developed in-house as a stream processing platform and was subsequently open sourced, with a large external adoption rate today. While many other companies and projects leverage Kafka, few—if any—do so at LinkedIn’s scale. Kafka is used extensively...",
+      "author": "Jon Lee",
+      "categories": "Topics:scale, Kafka, Data, Open Source",
+      "date": "October 8, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/apache-kafka-trillion-messages",
+      "title": "How LinkedIn customizes Apache Kafka for 7 trillion messages per day"
+    },
+    {
+      "abstract": "Editor's Note: This is the second in a series of posts describing how we improved productivity at scale—both in terms of lines of code and number of engineers—at LinkedIn. In our first post of the #ProductivityAtScale series, we shared details on how we improved build time by 400%. This post covers how we continue to improve productivity with Gradle build cache....",
+      "author": "Devi Sridharan",
+      "categories": "Topics:Developer Productivity, gradle",
+      "date": "October 1, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/productivity-at-scale--how-we-improved-build-time-with-gradle-bu",
+      "title": "Productivity at scale: How we improved build time with Gradle build cache"
+    },
+    {
+      "abstract": "Co-authors: Christian Mathiesen and Jie Zhang Your LinkedIn profile is intended to be a representative picture of your professional...",
+      "author": "Christian Mathiesen",
+      "categories": "Topics:Hadoop, Product Design, ESPRESSO",
+      "date": "September 17, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/the-building-blocks-of-linkedin-skill-assessments",
+      "title": "The building blocks of LinkedIn Skill Assessments"
+    },
+    {
+      "abstract": "Introduction LinkedIn is committed to providing economic opportunities for every member of the global workforce, and we’re growing at...",
+      "author": "Nishant Lakshmikanth",
+      "categories": "Topics:scale, infrastructure, Data",
+      "date": "September 16, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/solving-manageability-challenges-with-nuage",
+      "title": "Solving manageability challenges at scale with Nuage"
+    },
+    {
+      "abstract": "Co-authors: Nicole Brunnett, Shalini Agarwal Engineering talent comes in many different forms and from many different backgrounds, and...",
+      "author": "Shalini Agarwal",
+      "categories": "Topics:Women in Tech, REACH, culture",
+      "date": "August 29, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/REACH-update",
+      "title": "Talent spotlight: REACH at LinkedIn"
+    },
+    {
+      "abstract": "We regularly play host to a series of meetups here at the LinkedIn office in the Empire State Building. Open to the community, these events cover a range of topics—from distributed systems, web and mobile development, to machine learning—and are a great way for engineers to meet, share notes, and learn from each other on various technical topics. At our latest...",
+      "author": "Zaina Afoulki",
+      "categories": "Topics:NYC Engineering, Distributed Systems, events",
+      "date": "August 28, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/nyc-engineering-excellence-meetup",
+      "title": "LinkedIn NYC Tech Talk series: Engineering Excellence Meetup"
+    },
+    {
+      "abstract": "The LinkedIn feed relies on a ranked list of the most relevant content for a member. More than 80% of the feed is organic content created by people, companies, or groups that a member is following; the rest consists of recommendations such as jobs, articles, or ads. All organic content in the Linkedin feed is powered by FollowFeed. FollowFeed has two main...",
+      "author": "Banu Muthukumar",
+      "categories": "Topics:FollowFeed, Feed Personalization , Kafka, Data",
+      "date": "August 27, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/followfeed-features-auditing",
+      "title": "Auditing content features in FollowFeed"
+    },
+    {
+      "abstract": "When adopting a new language at scale, there are many different factors to consider because things can change dramatically. For many, choosing a language can arguably rely on personal preference, but at LinkedIn, we have a Foundation team tasked with evaluating the impact of such fundamental technical decisions. Recently, we underwent the process of evaluating...",
+      "author": "YJ Yang",
+      "categories": "Topics:Developer Productivity, Android, Mobile",
+      "date": "August 20, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/language-adoption",
+      "title": "Evaluating language adoption at scale"
+    },
+    {
+      "abstract": "One of the core aspirations of the engineering teams at LinkedIn is to delight our members with instantaneous page load experiences....",
+      "author": "Ramya Olichandran",
+      "categories": "Topics:Performance, site speed",
+      "date": "August 16, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/connection-coalescing",
+      "title": "Evaluating Connection Coalescing For Static and Media Asset..."
+    },
+    {
+      "abstract": "Co-authors: Mars Lan, Seyi Adebajo, Shirshanka Das Editor’s note: Since publishing this blog post, the team open sourced DataHub in...",
+      "author": "Mars Lan",
+      "categories": "Topics:Metadata, data science, infrastructure, Data",
+      "date": "August 14, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/data-hub",
+      "title": "DataHub: A generalized metadata search & discovery tool"
+    },
+    {
+      "abstract": "The Anti-Abuse AI Team at LinkedIn creates, deploys, and maintains models that detect and prevent various types of abuse, including...",
+      "author": "James Verbus",
+      "categories": "Topics:machine learning, Open Source, trust engineering",
+      "date": "August 13, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/isolation-forest",
+      "title": "Detecting and preventing abuse on LinkedIn using isolation ..."
+    },
+    {
+      "abstract": "Co-authors: Yu Li, Szymon Gizecki, and Chinmaya Dattathri To ensure we have significant flexibility in how our teams collaborate, our trunk-based engineering development workflow manages dependencies on a binary level, instead of source level. This requires very efficient and sophisticated management of the resulting dependency graph, and we discussed our...",
+      "author": "Yu Li",
+      "categories": "Topics:scale, tools",
+      "date": "August 8, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/serving-dependencies-at-scale",
+      "title": "Who Depends On Me? Serving Dependency Queries at Scale"
+    },
+    {
+      "abstract": "Co-authors: Stuart Ambler, Ahsan Chudhary, Mark Dietz, Sahin Cem Geyik, Krishnaram Kenthapadi, Ian Koeppe, Varun Mithal, Guillaume Saint-Jacques, Amir Sepehri, Thanh Tran, and Sriram Vasudevan Editor’s note: A shorter version of this article was originally posted by Krishnaram Kenthapadi on LinkedIn. Introduction How do we take fairness and transparency into...",
+      "author": "Krishnaram Kenthapadi",
+      "categories": "Topics:artificial intelligence, data science, research, Product Design, Data, Security, trust engineering, machine learning",
+      "date": "July 26, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/fairness-privacy-transparency-by-design",
+      "title": "Fairness, Privacy, and Transparency by Design in AI/ML Systems"
+    },
+    {
+      "abstract": "The pursuit of our mission to connect the world’s professionals to make them more productive and successful is deeply dependent on the technology and infrastructure we build and maintain. Ten years ago, we had 50 million members. Fast forward five years and that number jumped to 300 million. Today, we have more than 645 million members, 20 million jobs and...",
+      "author": "Mohak Shroff",
+      "categories": "Topics:scale, infrastructure",
+      "date": "July 23, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/building-next-infra",
+      "title": "Building the next version of our infrastructure"
+    },
+    {
+      "abstract": "Editor's note: This blog has been updated. Brooklin—a distributed service for streaming data in near real-time and at scale—has been...",
+      "author": "Celia Kung",
+      "categories": "Topics:scale, Stream Processing, infrastructure, Kafka, Data, Open Source",
+      "date": "July 16, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/brooklin-open-source",
+      "title": "Open sourcing Brooklin: Near real-time data streaming at..."
+    },
+    {
+      "abstract": "Pinot, a scalable distributed columnar OLAP data store developed at LinkedIn, delivers real-time analytics for site-facing use cases...",
+      "author": "Subbu Subramaniam",
+      "categories": "Topics:scale, Developer Productivity, Pinot, infrastructure, Data",
+      "date": "July 11, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/auto-tuning-pinot",
+      "title": "Auto-tuning Pinot real-time consumption"
+    },
+    {
+      "abstract": "With over 630 million members, the LinkedIn platform delivers thousands of features that individually serve and store large amounts of...",
+      "author": "Kevin Fu",
+      "categories": "Topics:scale, Developer Productivity, infrastructure, Data",
+      "date": "July 9, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/expediting-data-fixes-migrations",
+      "title": "Expediting data fixes and data migrations"
+    },
+    {
+      "abstract": "WomenConnect is a series of events focused on bringing together women in tech to build meaningful relationships. Over the past four years, we’ve shared countless stories, learned a ton of lessons, and made lifelong connections at the 16 WomenConnect events in four different cities. On June 12, our NYC office in the Empire State Building played host to a vibrant...",
+      "author": "Yuliya Averbukh",
+      "categories": "Topics:Women in Tech, culture",
+      "date": "July 2, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/womenconnect-nyc-2019",
+      "title": "Driving change with authenticity and allyship at WomenConnect NYC"
+    },
+    {
+      "abstract": "In this blog post, we’ll share how we migrated Espresso, LinkedIn’s distributed data store, to a new Netty4-based framework and achieved a large performance and capacity gain throughout the Espresso system as a result. In the larger scheme, this is particularly important since Espresso is a primary data hub that serves many important applications across LinkedIn...",
+      "author": "Will Hu",
+      "categories": "Topics:Distributed Systems, ESPRESSO, infrastructure, Data",
+      "date": "June 27, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/espresso-new-netty-framework",
+      "title": "Improving performance and capacity for Espresso with new Netty framework"
+    },
+    {
+      "abstract": "Co-authors: Ali Mohamed and Zheng Li LinkedIn’s feed stands at the center of building global professional knowledge-sharing communities for our members. Members talk about their career stories, job openings, and ideas in a variety of formats, including links, video, text, images, documents, and long-form articles. Members participate in conversations in two...",
+      "author": "Zheng Li",
+      "categories": "Topics:artificial intelligence, Feed Personalization , machine learning, Data",
+      "date": "June 25, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/community-focused-feed-optimization",
+      "title": "Community-focused Feed optimization"
+    },
+    {
+      "abstract": "At LinkedIn, our mission is to connect the world’s professionals to make them more productive and successful. Part of the way we...",
+      "author": "Abdul Al Qawasmeh",
+      "categories": "Topics:artificial intelligence, relevance, Feed Personalization , Data",
+      "date": "June 24, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/building-communities-around-interests",
+      "title": "Communities AI: Building communities around interests on..."
+    },
+    {
+      "abstract": "If Apache Kafka is the lifeblood of all nearline processing at LinkedIn, then Apache Samza is the beating heart pumping that blood...",
+      "author": "Ray Matharu",
+      "categories": "Topics:Stream Processing, Testing, Samza",
+      "date": "June 20, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/using-virtual-private-clusters-for-testing-apache-samza",
+      "title": "Using virtual private clusters for testing Apache Samza"
+    },
+    {
+      "abstract": "Pinot is an open source, scalable distributed OLAP data store that entered the Apache Incubation recently. Developed at LinkedIn, it...",
+      "author": "Xiaotian (Jackie) Jiang",
+      "categories": "Topics:Pinot, Distributed Systems, Data, Open Source",
+      "date": "June 14, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/star-tree-index--powering-fast-aggregations-on-pinot",
+      "title": "Star-tree index: Powering fast aggregations on Pinot"
+    },
+    {
+      "abstract": "“Make LinkedIn feel instantaneous” is a mantra our performance team lives by to deliver the best possible experience to our members. We are constantly on the lookout for ways to improve our site speed and user experience, be it through optimizing our infrastructure and edge, accelerating our web and mobile applications’ performance, or tuning our systems and...",
+      "author": "Prasanna Vijayanathan",
+      "categories": "Topics:Performance, A/B Testing, experimentation, T-REX",
+      "date": "June 10, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/understanding-network-quality--the-rise-of-customized-content-de",
+      "title": "Understanding network quality: The rise of customized content delivery"
+    },
+    {
+      "abstract": "At LinkedIn, most decisions are made using experiments. When we want to decide between two features, we test them against each other in the real world: we give feature A to a random set of members, feature B to another set, and we compare the results. Are users of feature A more engaged? Do they have a better experience with our products? If so, feature A wins....",
+      "author": "Guillaume Saint-Jacques",
+      "categories": "Topics:A/B Testing, Testing, data science, experimentation, T-REX, Data",
+      "date": "June 5, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests",
+      "title": "Detecting interference: An A/B test of A/B tests"
+    },
+    {
+      "abstract": "Earlier this year, we published a blog post sharing details on ThirdEye, LinkedIn’s comprehensive platform for real-time monitoring and root cause analysis. LinkedIn relies on ThirdEye to monitor a wide spectrum of metrics, ranging from product health to high-level business metrics, and also including machine learning model performance. While monitoring is a...",
+      "author": "Xiaohui Sun",
+      "categories": "Topics:monitoring, Pinot, metrics, Data",
+      "date": "June 3, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/06/smart-alerts-in-thirdeye--linkedins-real-time-monitoring-platfor",
+      "title": "Smart alerts in ThirdEye, LinkedIn’s real-time monitoring platform"
+    },
+    {
+      "abstract": "At LinkedIn, we are entrusted with protecting the privacy and data of our members. Storing members’ choices on how they intend their...",
+      "author": "Joanna Wang",
+      "categories": "Topics:infrastructure, scale, trust engineering",
+      "date": "May 29, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/05/building-member-trust-through-a-centralized-and-scalable-setting",
+      "title": "Building member trust through a centralized and scalable..."
+    },
+    {
+      "abstract": "LinkedIn wouldn't be the company it is today without the engineers who built it and the talented individuals in technical roles across...",
+      "author": "Kuo-Ning Huang",
+      "categories": "Topics:data science, culture",
+      "date": "May 24, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/05/getting-to-know-divyakumar-menghani",
+      "title": "Getting to know Divyakumar Menghani"
+    },
+    {
+      "abstract": "Today, more than one billion people have some form of disability—approximately 15% of the world’s population. Here at LinkedIn, we...",
+      "author": "Jennison Asuncion",
+      "categories": "Topics:Accessibility",
+      "date": "May 16, 2019",
+      "image": "https://engineering.linkedin.com//apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/transparent-fillin.png",
+      "link": "https://engineering.linkedin.com//blog/2019/05/scaling-accessibility-through-a11y-champions-program",
+      "title": "Scaling accessibility through LinkedIn's A11y Champions..."
+    }
+  ]
+}

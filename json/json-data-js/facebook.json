@@ -1,0 +1,907 @@
+{
+  "facebook":[
+    {
+      "title": "Infer powering Microsoft’s Infer#, a new static analyzer for C#",
+      "category": "Open Source",
+      "date": "DEC 14, 2020",
+      "link": "https://engineering.fb.com/2020/12/14/open-source/infer/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/OSiB_BlueGray.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "How do you test your tests?",
+      "category": "Developer Tools",
+      "date": "DEC 10, 2020",
+      "link": "https://engineering.fb.com/2020/12/10/developer-tools/probabilistic-flakiness/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/12/Rsys_Hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "How Facebook keeps its large-scale infrastructure hardware up and running",
+      "category": "Data Center Engineering",
+      "date": "DEC 9, 2020",
+      "link": "https://engineering.fb.com/2020/12/09/data-center-engineering/how-facebook-keeps-its-large-scale-infrastructure-hardware-up-and-running/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/12/Prineville_Server-room-dark2-e1607617109406.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "SuperCell: Reaching new heights for wider connectivity",
+      "category": "Connectivity",
+      "date": "DEC 3, 2020",
+      "link": "https://engineering.fb.com/2020/12/03/connectivity/supercell-reaching-new-heights-for-wider-connectivity/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/11/SuperCell_Hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "The economic impact of subsea cables in Africa",
+      "category": "Connectivity",
+      "date": "NOV 19, 2020",
+      "link": "https://engineering.fb.com/2020/11/19/connectivity/subsea-cables/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/05/subsea.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "FioSynth: A representative I/O benchmark and data visualizer for data center workloads",
+      "category": "Data Center Engineering",
+      "date": "NOV 18, 2020",
+      "link": "https://engineering.fb.com/2020/11/18/open-source/fiosynth/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/11/OSiB_CoreRed.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Building a ubiquitous shared infrastructure using Twine",
+      "category": "Data Center Engineering",
+      "date": "NOV 11, 2020",
+      "link": "https://engineering.fb.com/2020/11/11/data-center-engineering/twine-2/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/11/RiB_RichTeal.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "How we scale Live streaming for millions of viewers simultaneously",
+      "category": "Networking & Traffic",
+      "date": "OCT 22, 2020",
+      "link": "https://engineering.fb.com/2020/10/22/video-engineering/live-streaming/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/Video_at_Scale_Hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "PPL Bench: Creating a standard for benchmarking probabilistic programming languages",
+      "category": "Developer Tools",
+      "date": "OCT 22, 2020",
+      "link": "https://ai.facebook.com/blog/ppl-bench-creating-a-standard-for-benchmarking-probabilistic-programming-languages/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/PPL-Bench-Social-Logo.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "How Facebook is bringing QUIC to billions",
+      "category": "Android",
+      "date": "OCT 21, 2020",
+      "link": "https://engineering.fb.com/2020/10/21/networking-traffic/how-facebook-is-bringing-quic-to-billions/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/FBQUIC2.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Introducing resctl-demo: Better resource control with simulation",
+      "category": "Developer Tools",
+      "date": "OCT 14, 2020",
+      "link": "https://engineering.fb.com/2020/10/14/developer-tools/introducing-resctl-demo-better-resource-control-with-simulation/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/OSiB_BlueGray.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Nemo: Data discovery at Facebook",
+      "category": "Data Infrastructure",
+      "date": "OCT 9, 2020",
+      "link": "https://engineering.fb.com/2020/10/09/data-infrastructure/nemo/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/Nemo_hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "CG/SQL: Easy, accurate code generation for SQLite",
+      "category": "Open Source",
+      "date": "OCT 8, 2020",
+      "link": "https://engineering.fb.com/2020/10/08/open-source/cg-sql/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/OSiB_SoftBlue.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Mark Harman elected Fellow of the Royal Academy of Engineering",
+      "category": "Developer Tools",
+      "date": "SEP 21, 2020",
+      "link": "https://engineering.fb.com/2020/09/21/developer-tools/mark-harman-fellow/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/09/RAeng.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "The next decade: How Facebook is stepping up the fight against climate change",
+      "category": "Data Center Engineering",
+      "date": "SEP 14, 2020",
+      "link": "https://engineering.fb.com/2020/09/14/data-center-engineering/net-zero-carbon/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/09/netzero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Throughput autoscaling: Dynamic sizing for Facebook.com",
+      "category": "Networking & Traffic",
+      "date": "SEP 14, 2020",
+      "link": "https://engineering.fb.com/2020/09/14/networking-traffic/throughput-autoscaling/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/09/Autoscaling_hero_v1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Fault tolerance through optimal workload placement",
+      "category": "Data Center Engineering",
+      "date": "SEP 8, 2020",
+      "link": "https://engineering.fb.com/2020/09/08/data-center-engineering/fault-tolerance-through-optimal-workload-placement/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/09/WorkloadPlacement_hero_v1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Results of Oregon project environmental analysis",
+      "category": "Connectivity",
+      "date": "SEP 1, 2020",
+      "link": "https://engineering.fb.com/2020/09/01/connectivity/environmental-impact-report/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/09/jupiterHero2.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Containerizing ZooKeeper with Twine: Powering container orchestration from within",
+      "category": "Developer Tools",
+      "date": "AUG 31, 2020",
+      "link": "https://engineering.fb.com/2020/08/31/developer-tools/zookeeper-twine/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/08/ZK-Hero-Wht-100.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Scaling services with Shard Manager",
+      "category": "Production Engineering",
+      "date": "AUG 24, 2020",
+      "link": "https://engineering.fb.com/2020/08/24/production-engineering/scaling-services-with-shard-manager/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/08/SHARD_manager_hero_01.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Asynchronous computing @Facebook: Driving efficiency and developer productivity at Facebook scale",
+      "category": "Production Engineering",
+      "date": "AUG 17, 2020",
+      "link": "https://engineering.fb.com/2020/08/17/production-engineering/async/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/08/Async-hero-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "DELF: Safeguarding deletion correctness in online social networks",
+      "category": "Security",
+      "date": "AUG 12, 2020",
+      "link": "https://engineering.fb.com/2020/08/12/security/delf/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/08/RIB-green.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Pysa: An open source static analysis tool to detect and prevent security issues in Python code",
+      "category": "Security",
+      "date": "AUG 7, 2020",
+      "link": "https://engineering.fb.com/2020/08/07/security/pysa/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/08/Zoncolon_heroBlueA-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Pcicrawler: A Python-based command-line interface tool to debug PCI issues at scale",
+      "category": "Open Source",
+      "date": "AUG 5, 2020",
+      "link": "https://engineering.fb.com/2020/08/05/open-source/pcicrawler/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/08/ENG-blog-OSiB-dark-blue-hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Making Facebook.com accessible to as many people as possible",
+      "category": "Web",
+      "date": "JUL 30, 2020",
+      "link": "https://engineering.fb.com/2020/07/30/web/facebook-com-accessibility/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/07/Accessibility_hero-copy.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Scalable data classification for security and privacy",
+      "category": "Data Infrastructure",
+      "date": "JUL 21, 2020",
+      "link": "https://engineering.fb.com/2020/07/21/security/data-classification-system/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/07/Blue-image.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Making aerial fiber deployment faster and more efficient",
+      "category": "Connectivity",
+      "date": "JUL 13, 2020",
+      "link": "https://engineering.fb.com/2020/07/13/connectivity/aerial-fiber-deployment/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/05/FiberDeploy_Hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Private matching for compute: New solutions to the problem of enabling compute on private set intersections",
+      "category": "Developer Tools",
+      "date": "JUL 10, 2020",
+      "link": "https://engineering.fb.com/2020/07/10/open-source/private-matching/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/07/privatematch_hero_v1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Introducing our 2019 Sustainability Report",
+      "category": "Data Center Engineering",
+      "date": "JUL 7, 2020",
+      "link": "https://engineering.fb.com/2020/07/07/data-center-engineering/sustainability-report/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/07/Windmill-hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Retrie: Haskell refactoring made easy",
+      "category": "Developer Tools",
+      "date": "JUL 6, 2020",
+      "link": "https://engineering.fb.com/2020/07/06/open-source/retrie/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/10/OSiB_BlueGray.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Building a transformative subsea cable to better connect Africa",
+      "category": "Connectivity",
+      "date": "MAY 13, 2020",
+      "link": "https://engineering.fb.com/2020/05/13/connectivity/2africa/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/05/Ship-Image.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Accelerometer and SoftSKU: Improving hardware platform performance for diverse microservices",
+      "category": "Data Center Engineering",
+      "date": "MAY 11, 2020",
+      "link": "https://engineering.fb.com/2020/05/11/data-center-engineering/accelerometer-and-softsku/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/05/SoftSKU-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Rebuilding our tech stack for the new Facebook.com",
+      "category": "Web",
+      "date": "MAY 8, 2020",
+      "link": "https://engineering.fb.com/2020/05/08/web/facebook-redesign/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/05/Comet_hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Implementing a secure web-based proxy service for Discover",
+      "category": "Connectivity",
+      "date": "MAY 5, 2020",
+      "link": "https://engineering.fb.com/2020/05/05/connectivity/discover/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/05/Discover_hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Turbine: Facebook’s service management platform for stream processing",
+      "category": "Core Data",
+      "date": "APR 21, 2020",
+      "link": "https://engineering.fb.com/2020/04/21/data-infrastructure/turbine/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/04/RiB_blue_green_dark.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Building a more accurate time service at Facebook scale",
+      "category": "Production Engineering",
+      "date": "MAR 18, 2020",
+      "link": "https://engineering.fb.com/2020/03/18/production-engineering/ntp-service/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/03/Time-infra-hero-image.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Preventing performance regressions with Health Compass and Incident Tracker",
+      "category": "Developer Tools",
+      "date": "MAR 5, 2020",
+      "link": "https://engineering.fb.com/2020/03/05/developer-tools/incident-tracker/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/03/Health_Compass_01.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Project LightSpeed: Rewriting the Messenger codebase for a faster, smaller, and simpler messaging app",
+      "category": "Android",
+      "date": "MAR 2, 2020",
+      "link": "https://engineering.fb.com/2020/03/02/data-infrastructure/messenger/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/03/Lightspeed_Hero.jpeg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Accelerating innovations in infrastructure and advancing global connectivity with our partners",
+      "category": "Connectivity",
+      "date": "FEB 25, 2020",
+      "link": "https://engineering.fb.com/2020/02/25/connectivity/mobile-world-congress-2020/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/02/Felipe-cropped.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "ZooKeeper Meetup@Facebook: Advancing the state of distributed coordination",
+      "category": "Developer Tools",
+      "date": "FEB 6, 2020",
+      "link": "https://engineering.fb.com/2020/02/06/open-source/zookeeper-meetup/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/02/zookeeper_hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open source year in review",
+      "category": "Developer Tools",
+      "date": "JAN 13, 2020",
+      "link": "https://engineering.fb.com/2020/01/13/open-source/open-source-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2020/01/OpenSource_yr_in_rvw_final-01.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Systems @Scale Tel Aviv 2019 recap",
+      "category": "Core Data",
+      "date": "DEC 20, 2019",
+      "link": "https://engineering.fb.com/2019/12/20/core-data/systems-scale-tel-aviv-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/12/michal.jpeg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Fighting Abuse @Scale 2019 recap",
+      "category": "ML Applications",
+      "date": "DEC 13, 2019",
+      "link": "https://engineering.fb.com/2019/12/13/security/fighting-abuse-scale-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/12/Resized-FB-FightingAbuse@Scale2019-35.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Data Transfer Project: Enabling portability of photos and videos between services",
+      "category": "Developer Tools",
+      "date": "DEC 2, 2019",
+      "link": "https://engineering.fb.com/2019/12/02/security/data-transfer-project/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/12/ezgif.com-crop-1.gif?w=580&h=326&crop=1"
+    },
+    {
+      "title": "CCSM: Scalable statistical anomaly detection to resolve app crashes faster",
+      "category": "Developer Tools",
+      "date": "NOV 26, 2019",
+      "link": "https://engineering.fb.com/2019/11/26/developer-tools/ccsm/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/11/Debugging-crash-reports-06.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Networking @Scale Boston 2019 recap",
+      "category": "Connectivity",
+      "date": "NOV 25, 2019",
+      "link": "https://engineering.fb.com/2019/11/25/networking-traffic/networking-scale-boston-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/11/najam-hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Groundbreaking event for our newest long-haul fiber route",
+      "category": "Connectivity",
+      "date": "NOV 21, 2019",
+      "link": "https://engineering.fb.com/2019/11/21/connectivity/fiber-route/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/11/WVahero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Evaluating COPA congestion control for improved video performance",
+      "category": "Networking & Traffic",
+      "date": "NOV 17, 2019",
+      "link": "https://engineering.fb.com/2019/11/17/video-engineering/copa/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/11/CopaHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "TIP Summit 2019: Collaborating to advance internet infrastructure",
+      "category": "Connectivity",
+      "date": "NOV 13, 2019",
+      "link": "https://engineering.fb.com/2019/11/13/connectivity/tip-summit-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/11/TIP-Together-We-Build-Updated.jpeg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Fast dimensional analysis for root cause analysis at scale",
+      "category": "Developer Tools",
+      "date": "NOV 8, 2019",
+      "link": "https://engineering.fb.com/2019/11/08/developer-tools/fast-dimensional-analysis/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/11/ENG_blog_RiB_violet.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Delegated credentials: Improving the security of TLS certificates",
+      "category": "Data Infrastructure",
+      "date": "NOV 1, 2019",
+      "link": "https://engineering.fb.com/2019/11/01/security/delegated-credentials/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/DelegatedC.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "2019 @Scale Conference recap",
+      "category": "AI Research",
+      "date": "OCT 25, 2019",
+      "link": "https://engineering.fb.com/2019/10/25/ai-research/2019-scale-conference/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/srinivas-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Simon Marlow, Simon Peyton Jones, and Satnam Singh win Most Influential ICFP Paper Award",
+      "category": "Security",
+      "date": "OCT 24, 2019",
+      "link": "https://engineering.fb.com/2019/10/24/security/simon-marlow/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/Simon3.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Video @Scale 2019 recap",
+      "category": "AI Research",
+      "date": "OCT 17, 2019",
+      "link": "https://engineering.fb.com/2019/10/17/video-engineering/video-scale-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/Video@hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Fighting fraud using partially blind signatures",
+      "category": "Security",
+      "date": "OCT 16, 2019",
+      "link": "https://engineering.fb.com/2019/10/16/security/partially-blind-signatures/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/Anonymous_Logging_Header-02.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Systems @Scale 2019 New York recap",
+      "category": "Core Data",
+      "date": "OCT 15, 2019",
+      "link": "https://engineering.fb.com/2019/10/15/networking-traffic/systems-scale-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/Sys@hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Scribe: Transporting petabytes per hour via a distributed, buffered queueing system",
+      "category": "Core Data",
+      "date": "OCT 7, 2019",
+      "link": "https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/CB19-046_Code_Blog_Scribe_Post_Hero-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Releasing a new benchmark and data set for evaluating neural code search models",
+      "category": "Developer Tools",
+      "date": "OCT 3, 2019",
+      "link": "https://ai.facebook.com/blog/neural-code-search-evaluation-dataset/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/RIBgreenHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Hydra: A framework that simplifies development of complex applications",
+      "category": "AI Research",
+      "date": "OCT 3, 2019",
+      "link": "https://engineering.fb.com/2019/10/03/open-source/hydra/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/10/OSIBBlue.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "MaRS: How Facebook keeps maps current and accurate",
+      "category": "Developer Tools",
+      "date": "SEP 30, 2019",
+      "link": "https://engineering.fb.com/2019/09/30/ml-applications/mars/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/09/mapsatfb_android.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Integrating autoconversion: Facebook’s path from Zawgyi to Unicode",
+      "category": "Android",
+      "date": "SEP 26, 2019",
+      "link": "https://engineering.fb.com/2019/09/26/android/unicode-font-converter/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/09/Unicodehero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Networking @Scale 2019 recap",
+      "category": "Core Data",
+      "date": "SEP 25, 2019",
+      "link": "https://engineering.fb.com/2019/09/25/networking-traffic/networking-scale-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/09/netatscale.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Register now for @Scale 2019!",
+      "category": "AI Research",
+      "date": "SEP 17, 2019",
+      "link": "https://engineering.fb.com/2019/09/17/data-infrastructure/scale-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/09/hero-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Creating a data set and a challenge for deepfakes",
+      "category": "AI Research",
+      "date": "SEP 5, 2019",
+      "link": "https://ai.facebook.com/blog/deepfake-detection-challenge/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/09/hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Powered by AI: Oculus Insight",
+      "category": "Virtual Reality",
+      "date": "AUG 22, 2019",
+      "link": "https://ai.facebook.com/blog/powered-by-ai-oculus-insight/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/08/insight.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Redesigning our systems to provide more control over Off-Facebook activity",
+      "category": "Core Data",
+      "date": "AUG 20, 2019",
+      "link": "https://engineering.fb.com/2019/08/20/data-infrastructure/off-facebook-activity/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/08/hero_blue_2000x1125.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Zoncolan: How Facebook uses static analysis to detect and prevent security issues",
+      "category": "Security",
+      "date": "AUG 15, 2019",
+      "link": "https://engineering.fb.com/2019/08/15/security/zoncolan/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/Zoncolon_hero.001.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "New advances in natural language processing",
+      "category": "AI Research",
+      "date": "AUG 14, 2019",
+      "link": "https://ai.facebook.com/blog/new-advances-in-natural-language-processing-to-better-connect-people/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/08/NLP.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "A new model for word embeddings that are resilient to misspellings",
+      "category": "AI Research",
+      "date": "AUG 9, 2019",
+      "link": "https://ai.facebook.com/blog/-a-new-model-for-word-embeddings-that-are-resilient-to-misspellings-/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/08/ResearchinBriefTemplate_1B-2.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Performance @Scale 2019 recap",
+      "category": "Developer Tools",
+      "date": "AUG 9, 2019",
+      "link": "https://engineering.fb.com/2019/08/09/developer-tools/performance-scale-2019-recap/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/08/perf.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Systems @Scale 2019 recap",
+      "category": "Core Data",
+      "date": "AUG 2, 2019",
+      "link": "https://engineering.fb.com/2019/08/02/core-data/systems-scale/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/08/systems@-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Michael F. Cohen awarded 2019 Steven A. Coons award",
+      "category": "AI Research",
+      "date": "JUL 30, 2019",
+      "link": "https://research.fb.com/blog/2019/07/qa-with-director-of-computational-photography-michael-f-cohen/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/michael.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "EGG: A toolkit for multi-agent language emergence simulations",
+      "category": "AI Research",
+      "date": "JUL 30, 2019",
+      "link": "https://engineering.fb.com/2019/07/30/ai-research/egg-toolkit/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/OSIBgreen.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Mapping roads through deep learning and weakly supervised training",
+      "category": "AI Research",
+      "date": "JUL 24, 2019",
+      "link": "https://ai.facebook.com/blog/mapping-roads-through-deep-learning-and-weakly-supervised-training/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/aimaps.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Hermes: An open source JavaScript engine optimized for mobile apps",
+      "category": "Android",
+      "date": "JUL 12, 2019",
+      "link": "https://engineering.fb.com/2019/07/12/android/hermes/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/HermesOSSChainReact_blog_FIN_1-1.gif?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook, Carnegie Mellon build first AI that beats pros in 6-player poker",
+      "category": "AI Research",
+      "date": "JUL 11, 2019",
+      "link": "https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/poker.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "OIL+VCache: File abstraction for distributed systems",
+      "category": "Video Engineering",
+      "date": "JUL 9, 2019",
+      "link": "https://engineering.fb.com/2019/07/09/video-engineering/oil-vcache/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/03_.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "DLRM: An advanced, open source deep learning recommendation model",
+      "category": "AI Research",
+      "date": "JUL 2, 2019",
+      "link": "https://ai.facebook.com/blog/dlrm-an-advanced-open-source-deep-learning-recommendation-model/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/07/64381282_361807241199110_2579169122998812672_n.gif?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Neural Code Search: Using natural language queries",
+      "category": "Developer Tools",
+      "date": "JUN 24, 2019",
+      "link": "https://ai.facebook.com/blog/neural-code-search-ml-based-code-search-using-natural-language-queries/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/06/62610997_2219045568148581_4541915679158173696_n.gif?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook’s open source browser contributions",
+      "category": "Open Source",
+      "date": "JUN 20, 2019",
+      "link": "https://engineering.fb.com/2019/06/20/web/browser-contributions/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/06/web_browser4.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Aria Presto: Making table scan more efficient",
+      "category": "Data Infrastructure",
+      "date": "JUN 10, 2019",
+      "link": "https://engineering.fb.com/2019/06/10/data-infrastructure/aria-presto/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/06/aria1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Delos: Simple, flexible storage for the Facebook control plane",
+      "category": "Data Center Engineering",
+      "date": "JUN 6, 2019",
+      "link": "https://engineering.fb.com/2019/06/06/data-center-engineering/delos/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/06/Delos001-2.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Efficient, reliable cluster management at scale with Twine",
+      "category": "Data Center Engineering",
+      "date": "JUN 6, 2019",
+      "link": "https://engineering.fb.com/2019/06/06/data-center-engineering/twine/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/06/SystemsHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Building Facebook’s service encryption infrastructure",
+      "category": "Networking & Traffic",
+      "date": "MAY 29, 2019",
+      "link": "https://engineering.fb.com/2019/05/29/security/service-encryption/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/05/SecHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Extending DHCPLB: The path from load balancer to server",
+      "category": "Data Center Engineering",
+      "date": "MAY 28, 2019",
+      "link": "https://engineering.fb.com/2019/05/28/data-infrastructure/dhcplb-server/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/05/DHCP.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Releasing Pythia for vision and language multimodal AI models",
+      "category": "AI Research",
+      "date": "MAY 21, 2019",
+      "link": "https://engineering.fb.com/2019/05/21/ai-research/pythia/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/OSIBBlue1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook joins new Urban Computing Foundation",
+      "category": "Open Source",
+      "date": "MAY 7, 2019",
+      "link": "https://engineering.fb.com/2019/05/07/open-source/ucf/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/01/Grid1.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "F8 2019 Day 2 keynote and session videos",
+      "category": "AI Research",
+      "date": "MAY 1, 2019",
+      "link": "https://engineering.fb.com/2019/05/01/ai-research/f8-2019-day-2/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/schrep.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open source at F8 2019",
+      "category": "AI Research",
+      "date": "MAY 1, 2019",
+      "link": "https://engineering.fb.com/2019/05/01/open-source/f8-open-source/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/OSS-1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "F8 2019 Day 1 keynote and session videos",
+      "category": "AI Research",
+      "date": "APR 30, 2019",
+      "link": "https://engineering.fb.com/2019/04/30/developer-tools/f8-2019-day-1/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/Day1keynote.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open-sourcing F14 for faster, more memory-efficient hash tables",
+      "category": "Developer Tools",
+      "date": "APR 25, 2019",
+      "link": "https://engineering.fb.com/2019/04/25/developer-tools/f14/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/F14_CGraphic_Hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "F8 2019 speakers and sessions now available",
+      "category": "AI Research",
+      "date": "APR 24, 2019",
+      "link": "https://engineering.fb.com/2019/04/24/ai-research/f8-speakers-sessions/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/F8-Code-Blog-Asset.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Faster input events with Facebook’s first browser API contribution",
+      "category": "Developer Tools",
+      "date": "APR 22, 2019",
+      "link": "https://engineering.fb.com/2019/04/22/developer-tools/isinputpending-api/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/isinputpendinghero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Improving scene understanding through panoptic segmentation",
+      "category": "AI Research",
+      "date": "APR 18, 2019",
+      "link": "https://engineering.fb.com/2019/04/18/ai-research/panoptic-segmentation/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/RIBBluegreenHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Aroma: Using ML for code recommendation",
+      "category": "Developer Tools",
+      "date": "APR 12, 2019",
+      "link": "https://engineering.fb.com/2019/04/12/developer-tools/aroma/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/aroma_hero2000x1125-1.png?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook tech news roundup",
+      "category": "AI Research",
+      "date": "APR 10, 2019",
+      "link": "https://engineering.fb.com/2019/04/10/ai-research/tech-news-roundup/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/blood.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook Engineering Fair, London recap",
+      "category": "Android",
+      "date": "APR 5, 2019",
+      "link": "https://engineering.fb.com/2019/04/05/production-engineering/facebook-london-engineering-fair/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/UKEng.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open-sourcing Habana back end for Glow",
+      "category": "ML Applications",
+      "date": "APR 4, 2019",
+      "link": "https://engineering.fb.com/2019/04/04/open-source/glow-habana/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/04/OSIBPurple.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "PyTorch-BigGraph: Faster embeddings of extremely large graphs",
+      "category": "AI Research",
+      "date": "APR 3, 2019",
+      "link": "https://engineering.fb.com/2019/04/03/open-source/pytorch-biggraph/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/OSIBgreen.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Yann LeCun receives Turing Award",
+      "category": "AI Research",
+      "date": "MAR 27, 2019",
+      "link": "https://engineering.fb.com/2019/03/27/ai-research/turing-award/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/Yann1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook’s Mechanism Design for Social Good research winners",
+      "category": "AI Research",
+      "date": "MAR 22, 2019",
+      "link": "https://engineering.fb.com/2019/03/22/ai-research/social-good-research/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/social-good.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open-sourcing Python Test Runner for multiple tests in parallel",
+      "category": "Developer Tools",
+      "date": "MAR 21, 2019",
+      "link": "https://engineering.fb.com/2019/03/21/open-source/python-test-runner/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/OSIBBlue1.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Building lifelike virtual avatars to help people connect in VR",
+      "category": "AI Research",
+      "date": "MAR 18, 2019",
+      "link": "https://engineering.fb.com/2019/03/18/virtual-reality/virtual-avatars/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/avatars.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Facebook announces next-generation Open Rack frame",
+      "category": "Data Center Engineering",
+      "date": "MAR 15, 2019",
+      "link": "https://engineering.fb.com/2019/03/15/data-center-engineering/open-rack/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/OpenRackhero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Reinventing Facebook’s data center network",
+      "category": "Data Center Engineering",
+      "date": "MAR 14, 2019",
+      "link": "https://engineering.fb.com/2019/03/14/data-center-engineering/f16-minipack/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/F161.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Accelerating Facebook’s infrastructure with application-specific hardware",
+      "category": "Data Center Engineering",
+      "date": "MAR 14, 2019",
+      "link": "https://engineering.fb.com/2019/03/14/data-center-engineering/accelerating-infrastructure/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/animation_1920X581_1.gif?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Sharing a common form factor for accelerator modules",
+      "category": "Data Center Engineering",
+      "date": "MAR 14, 2019",
+      "link": "https://engineering.fb.com/2019/03/14/data-center-engineering/accelerator-modules/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/OAMhero2.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "AI blog roundup",
+      "category": "AI Research",
+      "date": "MAR 12, 2019",
+      "link": "https://engineering.fb.com/2019/03/12/ai-research/ai-blog-roundup/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/03/AIroundup_hero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Using aluminum to overcome capacity challenges in submarine cable systems",
+      "category": "Connectivity",
+      "date": "MAR 6, 2019",
+      "link": "https://engineering.fb.com/2019/03/06/connectivity/aluminum-conductor/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/01/RIBgreenHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Building backbone network infrastructure",
+      "category": "Connectivity",
+      "date": "MAR 2, 2019",
+      "link": "https://engineering.fb.com/2019/03/02/connectivity/fiber-optic-cable/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/fiberbuild.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open-sourcing homomorphic hashing to secure update propagation",
+      "category": "Open Source",
+      "date": "MAR 1, 2019",
+      "link": "https://engineering.fb.com/2019/03/01/security/homomorphic-hashing/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/CodeBlog_HomomorphicHashing_01-3.gif?w=580&h=326&crop=1"
+    },
+    {
+      "title": "F8 2019 registration now open",
+      "category": "AI Research",
+      "date": "FEB 28, 2019",
+      "link": "https://engineering.fb.com/2019/02/28/ai-research/f8-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/F8.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Enabling better global connectivity through new partnerships and technologies",
+      "category": "Connectivity",
+      "date": "FEB 25, 2019",
+      "link": "https://engineering.fb.com/2019/02/25/connectivity/mobile-world-congress-2019/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/MWC.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open-sourcing Magma to extend mobile networks",
+      "category": "Developer Tools",
+      "date": "FEB 25, 2019",
+      "link": "https://engineering.fb.com/2019/02/25/open-source/magma/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/OSIBgreen.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Releasing Hooks for React 16.8",
+      "category": "Developer Tools",
+      "date": "FEB 22, 2019",
+      "link": "https://engineering.fb.com/2019/02/22/open-source/react-hooks/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/OSIBPurple.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Open-sourcing SPARTA to make abstract interpretation easy",
+      "category": "Android",
+      "date": "FEB 20, 2019",
+      "link": "https://engineering.fb.com/2019/02/20/open-source/sparta/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/spartalogo.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "FAIR open-sources new ELF OpenGo data set, research, and insights",
+      "category": "AI Research",
+      "date": "FEB 15, 2019",
+      "link": "https://engineering.fb.com/2019/02/15/ai-research/elf-opengo/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/Go.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Engineering manager Mark Harman wins 2019 IEEE Harlan D. Mills award",
+      "category": "Culture",
+      "date": "FEB 13, 2019",
+      "link": "https://engineering.fb.com/2019/02/13/developer-tools/mark-harman-harlan-d-mills-award/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/IEEE.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Team behind Infer wins POPL 2019 Most Influential Paper Award",
+      "category": "Culture",
+      "date": "FEB 8, 2019",
+      "link": "https://engineering.fb.com/2019/02/08/developer-tools/infer-team-award/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/POPL.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Opening our newest data center in Los Lunas, New Mexico",
+      "category": "Data Center Engineering",
+      "date": "FEB 7, 2019",
+      "link": "https://engineering.fb.com/2019/02/07/data-center-engineering/los-lunas-data-center/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/FB_GO_012219_118.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Cross-lingual pretraining sets new state of the art for natural language understanding",
+      "category": "AI Research",
+      "date": "FEB 4, 2019",
+      "link": "https://engineering.fb.com/2019/02/04/ai-research/cross-lingual-pretraining/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/02/RIBBluegreenHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "Teaching AI to learn speech the way children do",
+      "category": "AI Research",
+      "date": "JAN 31, 2019",
+      "link": "https://engineering.fb.com/2019/01/31/ai-research/zerospeech/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/01/RIBPurpleHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "No training required: Exploring random encoders for sentence classification",
+      "category": "AI Research",
+      "date": "JAN 30, 2019",
+      "link": "https://engineering.fb.com/2019/01/30/ml-applications/random-encoders/",
+      "image": "https://engineering.fb.com/wp-content/uploads/2019/01/RIBgreenHero.jpg?w=580&h=326&crop=1"
+    },
+    {
+      "title": "A new predictive model for more accurate electrical grid mapping",
+      "category": "Connectivity",
+      "date": "JAN 25, 2019",
+      "link": "https://engineering.fb.com/2019/01/25/connectivity/electrical-grid-mapping/",
+      "image": ""
+    },
+    {
+      "title": "Zero-shot transfer across 93 languages: Open-sourcing enhanced LASER library",
+      "category": "AI Research",
+      "date": "JAN 22, 2019",
+      "link": "https://engineering.fb.com/2019/01/22/ai-research/laser-multilingual-sentence-embeddings/",
+      "image": ""
+    },
+    {
+      "title": "Facebook open-sources Spectrum 1.0.0 for better mobile image production",
+      "category": "Android",
+      "date": "JAN 17, 2019",
+      "link": "https://engineering.fb.com/2019/01/17/developer-tools/spectrum/",
+      "image": ""
+    },
+    {
+      "title": "Rethinking data center design for Singapore",
+      "category": "Data Center Engineering",
+      "date": "JAN 14, 2019",
+      "link": "https://engineering.fb.com/2019/01/14/data-center-engineering/singapore-data-center/",
+      "image": ""
+    },
+    {
+      "title": "AI year in review",
+      "category": "AI Research",
+      "date": "JAN 8, 2019",
+      "link": "https://engineering.fb.com/2019/01/08/ai-research/ai-2018/",
+      "image": ""
+    },
+    {
+      "title": "Open source year in review",
+      "category": "Open Source",
+      "date": "JAN 2, 2019",
+      "link": "https://engineering.fb.com/2019/01/02/open-source/open-source-2018/",
+      "image": ""
+    }
+  ]
+}
