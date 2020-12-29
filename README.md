@@ -1,2 +1,2 @@
 # WebScrapping
-Code to scrap data from blogs.
+Code to scrape data from blogs.
