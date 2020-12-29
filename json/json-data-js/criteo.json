@@ -1,0 +1,229 @@
+{
+
+	"criteo":[
+	  {
+	    "title": "The Trade-Offs of Large-Scale Machine Learning",
+	    "abstract": "What defines large-scale machine learning? This seemingly innocent question is often answered with petabytes of data and hundreds of GPUs…",
+	    "author": "Olivier Koch",
+	    "date": "Aug 27",
+	    "link": "https://medium.com/criteo-labs/the-trade-offs-of-large-scale-machine-learning-71ad0cf7469f?source=collection_home---4------3-----------------------"
+	  },
+	  {
+	    "title": "From .NET Framework to .NET Core: History of a C# build farm",
+	    "abstract": "… or Criteo’s continuously evolving .NET build system.",
+	    "author": "Emmanuel Guérin",
+	    "date": "Aug 25",
+	    "link": "https://medium.com/criteo-labs/from-net-framework-to-net-core-history-of-a-c-build-farm-6295145a437b?source=collection_home---4------4-----------------------"
+	  },
+	  {
+	    "title": "KDD-2020 Highlights",
+	    "abstract": "Let’s take a look at some of the highlights of this year’s KDD — one of the biggest applied research conferences in Computer Science.",
+	    "author": "Sergei Ivanov",
+	    "date": "Aug 23",
+	    "link": "https://medium.com/criteo-labs/kdd-2020-highlights-f4de20af5d4?source=collection_home---4------5-----------------------"
+	  },
+	  {
+	    "title": "How Much Can Bad Data Cost Us?",
+	    "abstract": "The never-ending fight to cease bad data",
+	    "author": "Nam Nguyen",
+	    "date": "Aug 11",
+	    "link": "https://medium.com/criteo-labs/how-much-can-bad-data-cost-us-9b12a3939170?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "DeepR — Training TensorFlow Models for Production",
+	    "abstract": "Learn how we build complex pipelines using Hadoop, Yarn, and MlFlow.",
+	    "author": "Guillaume Genthial",
+	    "date": "Aug 6",
+	    "link": "https://medium.com/criteo-labs/deepr-training-tensorflow-models-for-production-dda34a914c3b?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "The .NET Core Journey at Criteo",
+	    "abstract": "This post shows the challenges we faced during the migration to .NET Core on containerized Linux for our main application.",
+	    "author": "Christophe Nasarre",
+	    "date": "Jul 31",
+	    "link": "https://medium.com/criteo-labs/the-net-core-journey-at-criteo-1e47ed87adce?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "Migrating Arbitrage to Apache Mesos",
+	    "abstract": "Lessons learned from migrating our largest application to our container platform.",
+	    "author": "Grégoire Seux",
+	    "date": "Jul 28",
+	    "link": "https://medium.com/criteo-labs/migrating-arbitrage-to-apache-mesos-3f474179ec0b?source=collection_home---4------3-----------------------"
+	  },
+	  {
+	    "title": "Moving .NET to Linux at Scale",
+	    "abstract": "The story of a multi-year migration: How we changed Criteo’s whole foundation.",
+	    "author": "Maxime Brugidou",
+	    "date": "Jul 21",
+	    "link": "https://medium.com/criteo-labs/moving-net-to-linux-at-scale-d8ff49b42661?source=collection_home---4------4-----------------------"
+	  },
+	  {
+	    "title": "DataDoc — The  Criteo Data Observability Platform",
+	    "abstract": "How we regained control on  our data ecosystem and tackled governance issues.",
+	    "author": "Maxime Kestemont",
+	    "date": "Jul 2",
+	    "link": "https://medium.com/criteo-labs/datadoc-the-criteo-data-observability-platform-2cd826a9a1af?source=collection_home---4------5-----------------------"
+	  },
+	  {
+	    "title": "Understand why .net core GC keywords are enabled",
+	    "abstract": "… with a debugger",
+	    "author": "LEOCADIE Grégory",
+	    "date": "Jun 24",
+	    "link": "https://medium.com/criteo-labs/understand-why-net-core-gc-keywords-are-enabled-a3bd02d31601?source=collection_home---4------0-----------------------"
+	  },
+	  {
+	    "title": "Criteo papers at ICML 2020. Online learning, Optimization, and Generative models.",
+	    "abstract": "High-level discussion of Criteo papers at ICML: Criteo AI Lab has 9 accepted papers at ICML 2020. This is a new record for us!",
+	    "author": "Sergei Ivanov",
+	    "date": "Jun 23",
+	    "link": "https://medium.com/criteo-labs/criteo-papers-at-icml-2020-online-learning-optimization-and-generative-models-db16221764e7?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "Build your own .NET memory profiler in C# — call stacks (2/2–2)",
+	    "abstract": "In this last episode I detail how to transform addresses from the stack into methods name and signature.",
+	    "author": "Christophe Nasarre",
+	    "date": "Jun 19",
+	    "link": "https://medium.com/criteo-labs/build-your-own-net-memory-profiler-in-c-call-stacks-2-2-2-ec9657eb17f9?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "Open Roles at Criteo R&D",
+	    "abstract": "Interested in becoming part of our tech blog? Apply for a job at Criteo in Paris or Ann Arbor!",
+	    "author": "Criteo Labs",
+	    "date": "Jun 19",
+	    "link": "https://medium.com/criteo-labs/open-roles-at-criteo-r-d-39f6bb0457da?source=collection_home---4------3-----------------------"
+	  },
+	  {
+	    "title": "ICML 2020. Comprehensive analysis of authors, organizations, and countries.",
+	    "abstract": "Who published the most?",
+	    "author": "Sergei Ivanov",
+	    "date": "Jun 16",
+	    "link": "https://medium.com/criteo-labs/icml-2020-comprehensive-analysis-of-authors-organizations-and-countries-c4d1bb847fde?source=collection_home---4------4-----------------------"
+	  },
+	  {
+	    "title": "Introducing ADA: Another Domain Adaptation Library",
+	    "abstract": "TL, DR: Check out our new library on Github, toy around and scale-up domain adaptation algorithms!",
+	    "author": "Anne-Marie",
+	    "date": "Jun 10",
+	    "link": "https://medium.com/criteo-labs/introducing-ada-another-domain-adaptation-library-5df8b79378ee?source=collection_home---4------5-----------------------"
+	  },
+	  {
+	    "title": "Technical Data Roadmap: Why and how to build it using a maturity matrix?",
+	    "abstract": "A technical roadmap is a plan of short-term and long-term goals to support a technical vision. How do you built and organize it?",
+	    "author": "Lucie Bailly",
+	    "date": "Jun 2",
+	    "link": "https://medium.com/criteo-labs/technical-data-roadmap-why-and-how-to-build-it-using-a-maturity-matrix-7fa4acb8cc77?source=collection_home---4------6-----------------------"
+	  },
+	  {
+	    "title": "An Insight into the Criteo AI Lab",
+	    "abstract": "The Criteo AI Lab is pioneering innovations in computational advertising. Take a look inside the teams behind the AI Lab!",
+	    "author": "Criteo Labs",
+	    "date": "May 28",
+	    "link": "https://medium.com/criteo-labs/an-insight-into-the-criteo-ai-lab-ac2496afc37c?source=collection_home---4------7-----------------------"
+	  },
+	  {
+	    "title": "An insight into the Engineering Program Manager team at Criteo",
+	    "abstract": "How do we keep it together against upcoming challenges?",
+	    "author": "Cécile Ritte",
+	    "date": "May 20",
+	    "link": "https://medium.com/criteo-labs/an-insight-into-the-engineering-program-manager-team-at-criteo-3050fe359eb8?source=collection_home---4------8-----------------------"
+	  },
+	  {
+	    "title": "Build your own .NET memory profiler in C# — call stacks (2/2–1)",
+	    "abstract": "This post explains how to get the call stack corresponding to the allocations with CLR events.",
+	    "author": "Christophe Nasarre",
+	    "date": "May 18",
+	    "link": "https://medium.com/criteo-labs/build-your-own-net-memory-profiler-in-c-call-stacks-2-2-1-f67b440a8cc?source=collection_home---4------9-----------------------"
+	  },
+	  {
+	    "title": ".NET ThreadPool starvation, and how queuing makes it worse",
+	    "abstract": "There has been a lot of discussion around ThreadPool starvation. But why? And what it is about? Read on!",
+	    "author": "Kevin Gosse",
+	    "date": "May 12",
+	    "link": "https://medium.com/criteo-labs/net-threadpool-starvation-and-how-queuing-makes-it-worse-512c8d570527?source=collection_home---4------10-----------------------"
+	  },
+	  {
+	    "title": "COVID-19 vs Infrastructure Health",
+	    "abstract": "Adapting to new challenges. Some thoughts on infrastructure health during COVID-19 from our team.",
+	    "author": "Kevin Cawngally",
+	    "date": "Apr 28",
+	    "link": "https://medium.com/criteo-labs/covid-19-vs-infrastructure-health-9955c1abf0ca?source=collection_home---4------11-----------------------"
+	  },
+	  {
+	    "title": "Using namespaces on HAProxy to segregate your traffic",
+	    "abstract": "In this article, we will have a look into how we use HAProxy namespacing to segregate our public traffic.",
+	    "author": "William Dauchy",
+	    "date": "Apr 28",
+	    "link": "https://medium.com/criteo-labs/using-namespaces-on-haproxy-to-segregate-your-traffic-8bcb3effedd7?source=collection_home---4------12-----------------------"
+	  },
+	  {
+	    "title": "Human(e) Management in times of crisis",
+	    "abstract": "Things we’ve done or discovered while managing our teams during the COVID-19 lockdown.",
+	    "author": "Romain Lerallut",
+	    "date": "Apr 24",
+	    "link": "https://medium.com/criteo-labs/human-e-management-in-times-of-crisis-24f4802bf3a8?source=collection_home---4------13-----------------------"
+	  },
+	  {
+	    "title": "Why you don’t need a mono-repo but should just build from source",
+	    "abstract": "About the improper usage of the term “mono-repo” and the real pattern you need: “Build from source”",
+	    "author": "Emmanuel Debanne",
+	    "date": "Mar 24",
+	    "link": "https://medium.com/criteo-labs/why-you-dont-need-a-mono-repo-but-could-just-build-from-source-26bec7502af5?source=collection_home---4------1-----------------------"
+	  },
+	  {
+	    "title": "WSL + Visual Studio = attaching/launching a Linux .NET Core application on my Window 10",
+	    "abstract": "This post shows how to attach to a .NET Core process running on Linux with WSL and also how to start a Linux process with Visual Studio…",
+	    "author": "Christophe Nasarre",
+	    "date": "Nov 21, 2019",
+	    "link": "https://medium.com/criteo-labs/wsl-visual-studio-attaching-launching-a-linux-net-core-application-on-my-window-10-ab21c179702d?source=collection_home---4------2-----------------------"
+	  },
+	  {
+	    "title": "Demystification of TC",
+	    "abstract": "At Criteo we operate containers with Mesos. Containers are sharing the resources of their host. Applications are competing to access these…",
+	    "author": "Frederic Boismenu",
+	    "date": "Nov 22, 2018",
+	    "link": "https://medium.com/criteo-labs/demystification-of-tc-de3dfe4067c2?source=collection_home---4------3-----------------------"
+	  },
+	  {
+	    "title": "[C#] Building your own Java-like GC logs in .NET",
+	    "abstract": "This post of the series focuses on logging each GC details in a file and how to leverage it during investigations.",
+	    "author": "Christophe Nasarre",
+	    "date": "Feb 12, 2019",
+	    "link": "https://medium.com/criteo-labs/c-building-your-own-java-like-gc-logs-in-net-992205fd8d4f?source=collection_home---4------4-----------------------"
+	  },
+	  {
+	    "title": "Discovery with Consul at scale",
+	    "abstract": "This article is the first one talking about our usage around Consul and the work in the Discovery team. We are a team in charge of running…",
+	    "author": "Pierre Souchay",
+	    "date": "Nov 27, 2019",
+	    "link": "https://medium.com/criteo-labs/discovery-with-consul-at-scale-1d6808202d86?source=collection_home---4------5-----------------------"
+	  },
+	  {
+	    "title": "Detecting the unexpected in (Web) UI",
+	    "abstract": "What if my CI changed into my preferred QA? Let’s fuzz UI!",
+	    "author": "Nicolas Dubien",
+	    "date": "Feb 6, 2019",
+	    "link": "https://medium.com/criteo-labs/detecting-the-unexpected-in-web-ui-fuzzing-1f3822c8a3a5?source=collection_home---4------6-----------------------"
+	  },
+	  {
+	    "title": "Spying on .NET Garbage Collector with .NET Core EventPipes",
+	    "abstract": "This post shows how to use .NET Core EventPipes to build Garbage Collector logs. The emitted raw CLR events are described in details.",
+	    "author": "Christophe Nasarre",
+	    "date": "May 28, 2019",
+	    "link": "https://medium.com/criteo-labs/spying-on-net-garbage-collector-with-net-core-eventpipes-9f2a986d5705?source=collection_home---4------7-----------------------"
+	  },
+	  {
+	    "title": "Software Product Management: The Criteo Way",
+	    "abstract": "What is Product Management like at Criteo?",
+	    "author": "Olivier Marcellin",
+	    "date": "Apr 14",
+	    "link": "https://medium.com/criteo-labs/software-product-management-the-criteo-way-42418d00974b?source=collection_home---4------8-----------------------"
+	  },
+	  {
+	    "title": "Switching back to the UI thread in WPF/UWP, in modern C#",
+	    "abstract": "Leveraging the async machinery to transparently switch to the UI thread when needed",
+	    "author": "Kevin Gosse",
+	    "date": "Feb 28",
+	    "link": "https://medium.com/criteo-labs/switching-back-to-the-ui-thread-in-wpf-uwp-in-modern-c-5dc1cc8efa5e?source=collection_home---4------9-----------------------"
+	  }
+	]
+}

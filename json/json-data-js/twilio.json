@@ -1,0 +1,1204 @@
+{
+  "twilio": [
+    {
+      "abstract": "デベロッパーエバンジェリストの池原です。先月11月から新たにスタートした「Twilio Championsインタビュー: Doerに聞く」の2回目を2020年12月8日（火）に配信しました。\nこの取り組みついて、また、Twilio Championsプログラムについては第1回目の記事で取り上げています。そちらもぜひご覧ください。\nTwilio Championsインタビュー: Doerに聞く - 古里武士さん\n今回のゲスト: 合同会社合同屋 八木都志郎さん\n今回のゲストは合同会社合同屋の八木都志郎さんにお越しいただきました。\n\n八木さんは2013年にTwilioのイベントに参加され、そこから長年に渡ってTwilioを活用いただいています。たとえば、ExcelとTwilioを連携させアウトバウンドコールの自動化とコール結果を自動で更新するしくみを以前構築されました。また、データ通信が可能なSIMとTwilio Programmable Voiceを組み合わせ、携帯端末で通常利用する番号とは異なる番号で音声通話が可能になるクライアントも構築されています。\nTwilioで社会とつながる電話\n音声通話クライアントについては「あなたのiPhoneが電話になる」というキャッチフレーズでお話しいただきましたが、このコンセプトが事例として紹介いただいた「つながる電話」で花開いています。\n仕事をして自立をする、家を借りる場合には連絡先番号が必要になりますが、さまざまな事情から「通話可能な電話」を持てない方が増えています。東京アンブレラ基金さまが提供する「つながる電話」はこのような方々を支援す …",
+      "author": "Daizen Ikehara",
+      "date": "2020-12-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/t6o4tWmqEuS3ZlyodfAHurYsvjtokxt6_HSpsm9Ktsl_I7.width-808.jpg",
+      "link": "https://www.twilio.com/blog/twilio-champions-doer-toshiro-yagi",
+      "title": "Twilio Championsインタビュー: Doerに聞く - 八木都志郎さん"
+    },
+    {
+      "abstract": "It’s December and in typical fashion I have left Christmas shopping too late. But as a developer, I can always use my coding powers to build a gift. Using Twilio Verify, I will code a small application that gifts a secret message to a holder of a specific phone number. This secret content could take the form of a message, picture etc. Watch out friends and family, I am going to be using it to gift my favourite holiday GIFs!\nTechnical requirements\n\nA free Twilio account. If you use this link to register, you will receive $10 credit when you upgrade to a paid account\nNode.js and npm installed\n\nUser flow\nOur application will be coded with a specific person in mind. This user will be identified by their telephone number. This user will be able to visit our application, start the verification process and receive a SMS code. …",
+      "author": "Rachel Black",
+      "date": "2020-12-21",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/_UWJueAmUx3-JcFifCKXKjntcKjDSQC5mVq3aY8PYjhVLx.width-808.png",
+      "link": "https://www.twilio.com/blog/secret-gifts-with-verify",
+      "title": "Secret Gifts with Twilio Verify for Gift of Code"
+    },
+    {
+      "abstract": "#GiftOfCode is almost over but it’s never too late to participate!\nYou don’t have to create a heavy app with 2K handwritten lines of code to make someone happy and I’m gonna prove it to you now with a small SMS service for my grandparents.\nMy grandparents often have phone calls from numbers they don’t know and they often call back in the case one of the family members would have changed their phone number and not told them. But sometimes they end up paying extra fees for that.\nMy SMS service will use lookup functionality from Twilio with the Ekata Reverse Phone add-on to tell them if calling back a specific number may endup in extra billing.\nWarning before we go: you can follow this tutorial from anywhere in the world but the Ekata Reverse Phone functionality will work as expected only in the U.S.\nRequirements\nTo …",
+      "author": "Valeriane Venance",
+      "date": "2020-12-18",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Copy_of_Copy_of_Event_Template_G_1200_.width-808_XEUvZvf.png",
+      "link": "https://www.twilio.com/blog/coding-rails-lookup-sms-app-grandparents",
+      "title": "Coding a Rails lookup SMS app for my grandparents"
+    },
+    {
+      "abstract": "この記事は 英語版ブログ記事 の抄訳です。\n\n  読者の皆さんは非営利団体や社会的企業の一員で、社会的に良いサービスを作りたいと思っていますか。Twilio.orgでは、あなたの活動を支援するプログラムをご用意しています。詳しくはこちらをご覧ください。\nあなたが最後に食料品店を訪れ、商品を手に取り、裏返して成分を確認したのはいつでしたか。その時に成分説明を読めなかった場合を想像してみてください。あるいは、自宅で妊娠検査薬を使用したものの、結果を読み取れなかった場合はどうでしょうか。\n日常的な作業から人生の重要な局面まで、視力の存在を多くの人が当然のことだと思っています。しかし、世界中で2億5300万の人々が日常生活に影響を及ぼす視覚障害を抱えています。Be My Eyes（ビー・マイ・アイズ）は、コミュニケーションの力を通じて世界中の視覚障害者や弱視の人々に “見える” を提供したいと考えています。\n視覚障害と個人の自立\n視覚障害・弱視といってもさまざなです。ある人は、食品庫からものを選べても、調理方法を読めません。また、クローゼットの中から洋服の組み合わせを選んだり、シャワー中にシャンプーやリンスのボトルを区別するのに苦労する人もいます。\n視覚障害を乗り越えるために、多くの人が身近な人々に助けを求めますが、これにはそれなりの課題があります。Be My Eyesの最高商業責任者（CCO）であるアレクサンダー・ハウエルズレフ・ジェンセン氏は、「日常の作業を友人や家族に頼ると、人間関係に負担をかけてしまいます。このような依存関係は、視覚障害者が生活の中 …",
+      "author": "Hiroto Masaki",
+      "date": "2020-12-18",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/X1vJk3flHf2bYU2EwbzDXRcNaxTJ5FtE1Ww8LsfGXSWA1g.width-808.png",
+      "link": "https://www.twilio.com/blog/be-my-eyes-programmable-video-jp",
+      "title": "Be My Eyes 様、Programmable Video ソリューションを活用し、視覚障害の方へ視界を届けるサービスを提供"
+    },
+    {
+      "abstract": "Knowledge bases are what drive collaboration and connection in an organization. Enabling your agents to access information efficiently should be a key goal for any company. This series of blog posts aims to help you set up a knowledge base with search and automatic agent assistance within Flex by integrating Wix Answers.\nWe'll set up a Wix Answers integration in three steps:\n\nFirst, in this post we will set up a manual knowledge base search of your Wix Answers knowledgebase within the Flex single page UI.\nAfter that, we will use media streams to fork the audio stream in real time to Google’s Speech to Text API, this will provide us with a real time transcription of the call.\nFinally, we will put both these things together to pick out keywords from the conversation and search for them in our integrated knowledge base.\n\nRequirements\nBefore we begin you’ll need:\n\nA …",
+      "author": "Tammy Ben-David",
+      "date": "2020-12-17",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/wix-answers-kb.width-808.png",
+      "link": "https://www.twilio.com/blog/integrate-wix-answers-knowledge-base-flex",
+      "title": "Integrate a Wix Answers Knowledge Base into Flex"
+    },
+    {
+      "abstract": "Your data is valuable, but maintaining proper control is complex. Regulations vary by region and industry, considerations change based on content, and each company has a slightly different approach. That’s why Twilio focuses on data governance from multiple angles, providing you with configurable settings, free storage options, and data-access capabilities while automating the deletion process.With Twilio, you now have the flexibility needed to quickly access your messaging data, control how you access it, and configure how long it’s stored by Twilio. Let’s take a quick look at data controls within Twilio Messaging.Configurable Data RetentionBy default, Twilio offers unlimited storage for all your message records and media for up to 13 months (400 days). This data can be accessed via the Message Resource (API and Console) within Message Logs.However, if you don’t want your data stored in Message Logs for that long, you now have the control …",
+      "author": "Prateek Jain",
+      "date": "2020-12-17",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Screen_Shot_2020-12-16_at_5.02.03_PM.width-808.png",
+      "link": "https://www.twilio.com/blog/new-data-controls-twilio-messaging",
+      "title": "New Data Controls with Twilio Messaging"
+    },
+    {
+      "abstract": "A mainstay of many popular channels that stream on Twitch.tv is having a bot to engage with viewers in chat to automate things such as tasks for moderators or sharing contextual information with newcomers. OpenAI's API for their new GPT-3 model provides a very versatile, general-purpose “text in, text out” interface, making it applicable to virtually any language task.\nNaturally, this seems like a match made in heaven. So let's walk through how to unleash the powers of GPT-3 with Twitch chat bots on your own channel using Node.js.\nTaking care of dependencies\nBefore writing any code, you will need an up to date version of Node.js and npm installed.\nNavigate to the directory where you want this code to live and run the following command in your terminal to create a package for this project:\n    npm init --yes\n\nThe --yes argument runs through all of the prompts that you …",
+      "author": "Sam Agnew",
+      "date": "2020-12-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_44.width-808.png",
+      "link": "https://www.twilio.com/blog/creating-a-gpt-3-twitch-chatbot-with-node-js",
+      "title": "Creating a GPT-3 Twitch Chatbot with Node.js"
+    },
+    {
+      "abstract": "Photo from freestocks.org used under Creative Commons Zero\nFor #GiftofCode this year I wanted to build something useful for my family. One fun conversation topic that’s kept us close is what we are watching on Netflix and other streaming platforms.\nWhile the in-app experiences of most major streaming apps give recommendations aplenty, making a recommendation bot that someone could text sounded like a fun thing to try.\nI had a few requirements in mind for this one:\n\nPower the bot using Twilio Autopilot\nAsk the texter for the type of media they want to watch and which genre\nUse the Netflix “Viewing Activity” data to determine shows and movies my family has already watched\nUse a publicly available API in case other folks want to build their own\n\nThere are some useful streaming metadata APIs available. A robust paid option that I tried out was Reelgood. I ended up …",
+      "author": "Liz Moy",
+      "date": "2020-12-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/DEE-jKYdHy9hzsIEiROIpUIP16XskiLrUUSTDq4c3SmRHF.width-808.jpg",
+      "link": "https://www.twilio.com/blog/netflix-bot-python-twilio-autopilot-giftofcode",
+      "title": "Building a Netflix Recommendation SMS Bot with Python and Twilio Autopilot for #GiftofCode"
+    },
+    {
+      "abstract": "So you're new to backend development. You set up the Twilio video and have a sweet web page to host the video on with cute overlays, but how can you start using this with friends and making this official?\nFor some developers, the idea of building a backend server might seem daunting especially because there are so many tools to use and different methods of deployment. I get it - it seems a bit overwhelming.\nFortunately, Twilio has a Serverless Toolkit to save the day! In this article, we'll walk you through the wonders of Twilio's Serverless Toolkit so that you can deploy your awesome JavaScript Twilio Video project with no hassle and no stress.\nTutorial Requirements\n\nA free or paid Twilio account. If you are new to Twilio get your free account now. (If you sign up through this link, Twilio will give you $10 credit when …",
+      "author": "Diane Phan",
+      "date": "2020-12-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/H-i8zGyrRhpYn5et-seU7KupGbtdDRkNyTK2WEvWF6nfTE.width-808.png",
+      "link": "https://www.twilio.com/blog/backend-beginners-serverless-twilio-video-javascript",
+      "title": "No Hassle, No Stress, Go Serverless! Backend Development Explained for Beginners!"
+    },
+    {
+      "abstract": "With countries around the world beginning to approve COVID-19 vaccines for public use, we've seen a lot of interest in implementing vaccine notifications and appointment reminders. This tutorial will show you how to set up Twilio SMS notifications with Salesforce’s Automation Flow Builder so that you can remind people to sign up to get both parts 1 and 2 of the vaccine.\nLet’s look at a user journey that we might want to support as a local public health authority. We’ll have patients sign up via a web-to-lead form to be put into our contact database. We might also receive data from health providers.\n\nFor this tutorial, we’re going to focus on the second half of the workflow above: sending SMS reminders. If you’re interested in sending one-off SMS broadcasts, check out our documentation on using the Twilio for Salesforce Campaign Component.\nOnce we’re ready to begin vaccine distribution, we’ll …",
+      "author": "Charlie Weems",
+      "date": "2020-12-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/1_887MfC7.width-808.png",
+      "link": "https://www.twilio.com/blog/send-covid-19-vaccine-appointment-reminders-salesforce-flow-and-twilio",
+      "title": "Send COVID-19 Vaccine Appointment Reminders with Salesforce Flow and Twilio"
+    },
+    {
+      "abstract": "Today we are announcing the General Availability of Twilio Functions invocations.\nTwilio Functions replaces the need to host or stand up your own web server to serve TwiML or any other HTTP responses, underpinned by your own infrastructure and programming logic. Functions gives you the ability to develop programmatic logic to handle the orchestration of discrete tasks with the convenience of pre-built cloud infrastructure.\nWith Twilio Functions invocations moving to General Availability, you now have guaranteed service level agreements for functions and assets that you invoke.\nWhat is a Function invocation?\n\nTwilio Functions are straightforward to use. Indeed, we’re heavy users here at Twilio –  functions underpin Twilio Studio, Twilio Flex Plugins, and many other things.\nTo see functions in action you can quickly deploy pre-written code to your account from Twilio’s CodeExchange for free – it works, and you can modify the code for your purposes. If …",
+      "author": "Paul Heath",
+      "date": "2020-12-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/1HoJpCvdENaHxg0OuAOT6j95RmWrlxsvp3IGBT6DTM2vqY.width-808.png",
+      "link": "https://www.twilio.com/blog/announcing-general-availability-functions-invocations",
+      "title": "Announcing General Availability of Twilio Functions Invocation"
+    },
+    {
+      "abstract": "To create a positive and sustainable society for the future we need to find and empower the leaders of tomorrow from every corner of the world.\nThat’s more easily said than done.\nYoung people, especially those from underserved communities, face huge obstacles to make the same progress as those from more affluent societies, even just finding and communicating with them is fraught with challenges.\nThat’s the challenge that Schmidt Futures, in partnership with The Rhodes Trust, is tackling with the launch of Rise.\n    \n\nRise seeks to identify talented young people, aged 15 to 17, from around the world who show enormous potential and provide them with a lifetime of personalized support —including scholarships, mentorship, career services, and …",
+      "author": "Justin Pirie",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/DEZ78O7UvJl3rPDWblhgjfC7TSirF-znM45-8ThW3uEj1x.width-808.png",
+      "link": "https://www.twilio.com/blog/connecting-to-extraordinary-young-people-everywhere-in-the-world-docx",
+      "title": "Connecting to Extraordinary Young People, Everywhere in the World"
+    },
+    {
+      "abstract": "Now is the time of year where everything around us turns into red and green sparkles meaning the Holiday Season has officially started! This also means that you only have a few remaining days to figure out what to give to your loved ones. If you are like me, this is usually a stressful last-minute rush fueled by adrenaline. Perhap this year, technology can give you a hand to make things a bit more fun and original.Using Javascript, Typeform, Glitch, and Twilio Programmable SMS API, you will be able to build a unique gifting experience! No need to get in line at the store; it’s (almost) all digital!\nTutorial Requirements\n\nA Typeform account, you can create one and get a month trial following this link.\nA free or paid Twilio account. If you are new to Twilio, get your free account now! (If you sign up through …",
+      "author": "Nicolas Grenié",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/V550gDeIbnPSpGc2az_vx2Eb_ot7DG1HvrWzeVkDuaos3o.width-808.png",
+      "link": "https://www.twilio.com/blog/unique-holiday-gift-typeform-javascript-sms-glitch",
+      "title": "Offer a Unique Gift for Christmas with Typeform, Glitch, JavaScript, and Twilio SMS API"
+    },
+    {
+      "abstract": "Modern contact centers depend on a wide variety of solutions, channels, and integrations, to create differentiated experiences that drive customer engagement.\nAt SIGNAL 2020, we launched the Twilio Flex Ecosystem to streamline the discovery, integration, and implementation of partner solutions that enhance the Twilio Flex platform. The Twilio Flex Ecosystem enables customers to implement solutions using validated integrations, that are developed to work like a natural extension of Twilio Flex contact centers.\nEcosystem Partners provide solutions that can benefit the customer journey, across every Twilio Flex channel. We have partnered with a diverse set of technology providers, including: Calabrio One, Acqueon Outbound Campaign Management, Google Cloud AI, and Glance 1-Click Connect, to provide integrations tailored to Twilio Flex.\nThese solutions were developed to work seamlessly across Twilio Flex channels and the programmable agent desktop, to enable customers to customize the functionality of their contact center. Twilio …",
+      "author": "Elliot Goldwater",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/vDaRYLrdN-4GdwAVlk6t1jIr30oh9BgQaH8K5foguPabI5.width-808.png",
+      "link": "https://www.twilio.com/blog/extend-your-contact-center-twilio-flex-ecosystem-partners",
+      "title": "Extend Your Contact Center With Twilio Flex Ecosystem Partners"
+    },
+    {
+      "abstract": "Why conform to the norm when you can build? That question applies to so many aspects of life – even in the contact center industry.\nWe have all seen or experienced the packaged contact center solution. The one that has all the bells and whistles that are seldomly used forcing you to “live with” the existing technology that does not adapt to your business rules, preferred channels, and ability to control your engagement experience. \nHow can businesses not only keep up, but leverage new technologies, channels, and ways of working? The answer is Programmability. This is where Twilio shines. In this blog post, we will talk about how to leverage Twilio Flex plugins and integrations to 3rd party solutions. I’ll show you how to program your contact center around your unique business flows and rules without waiting on a vendor to release the next version.\nFlex Plugins\nWhat do …",
+      "author": "David Worley",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/bHABX2YoDC7PJa55b5-n7O1dxlv2dEY97dJu6yq5Yoq_W4.width-808.png",
+      "link": "https://www.twilio.com/blog/personalize-flex-plugins-integrations",
+      "title": "Twilio Flex: Personalize with Plugins and Integrations"
+    },
+    {
+      "abstract": "En tant que française, je n’ai pas la chance qu’ont mes collègues américains ou anglais de pouvoir prendre un numéro de téléphone en un claquement de doigts et deux clics.\nLe cadre législatif et réglementaire français exige des opérateurs télécoms de collecter les preuves d’identité, d'adresses et autres informations selon le type de numéro de téléphone que l’on souhaite obtenir et c’est facile de s’y perdre.\nHeureusement dans la console Twilio il est possible de créer ce que l’on appelle un Regulatory Bundle, qui est un ensemble de documents électroniques qui nous autorise à prendre un numéro de téléphone facilement.\nUne fois qu’il est créé, il est validé humainement ce qui peut prendre jusqu’à trois jours.\nQuand le processus est terminé on reçoit un email et à partir de ce moment prendre un numéro de téléphone est réellement possible en deux clics.\nJe vous ai donc concocté ce petit guide …",
+      "author": "Valeriane Venance",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/obtenir-numero-telephone-france-regulatory-bun.width-808.png",
+      "link": "https://www.twilio.com/blog/regulatory-bundle-twilio-france",
+      "title": "Le Regulatory Bundle en France"
+    },
+    {
+      "abstract": "As countries race to vaccinate residents for COVID-19, communications will play a critical role in ensuring effective, equitable vaccine dissemination. According to the U.S. Centers for Disease Control and Prevention (CDC), “[r]eaching intended vaccine recipients is essential to achieving desired levels of COVID-19 vaccination coverage.”We’ve identified five key areas where communications and digital engagement can help public agencies, healthcare providers, pharmacies, employers, community organizations, and all public health stakeholders administer vaccine delivery. These areas are: public information and engagement, enrollment and registration, appointment coordination, monitoring vaccine effectiveness, and distribution logistics.In particular, digital communications can promote vaccine effectiveness by helping patients to ensure they receive their second dose.If you’re working on vaccine administration, Twilio is here to help. Together, we can now help ensure that everyone can get access to this vital vaccine.Communication solutions for vaccinesWe want to help you address the overarching challenges in …",
+      "author": "Susan Lucas Collins",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/covid-vaccine-distribution.width-808.png",
+      "link": "https://www.twilio.com/blog/how-use-communications-distribute-covid-19-vaccines-globally",
+      "title": "How to use communications to distribute COVID-19 vaccines globally"
+    },
+    {
+      "abstract": "WePledge has empowered employees at Twilio to radically improve their communities by donating 1% of their time and resources to causes they care about. But being a force for good has looked different this year. 2020 has been challenging for many, making it even harder to fit philanthropy into everyday life.That challenge was front and center for our Employee Impact team as we planned our Global Week of Service — an annual event for Twilions across the world to come together and volunteer in their communities. We knew we’d be contending not only with a global pandemic, but also election anxiety, the challenges caregivers are facing supporting children or loved ones, video conferencing burnout, and general year-end exhaustion. This meant we needed to reimagine the event and how we promoted it entirely.And reimagine it, we did. Twilio volunteers, nearly 1,700 strong, showed us that while volunteering in …",
+      "author": "Natasha Whitledge",
+      "date": "2020-12-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/5_tips_to_make_your_virtual_week_of_service_a_.width-808.png",
+      "link": "https://www.twilio.com/blog/5-tips-make-your-virtual-week-service-success",
+      "title": "5 tips to make your virtual week of service a success"
+    },
+    {
+      "abstract": "From watching people play your favorite games, to seeing awesome things built with code, to cooking up a storm in the kitchen, you can find a huge variety of content being streamed live on Twitch.tv. A mainstay of many Twitch channels is having a bot to engage with viewers in chat to automate things such as tasks for moderators or sharing contextual information with newcomers. Chat bots can even control Pokemon games!\nLet's walk through how to unleash the powers of Twitch chat bots on your own channel with JavaScript using Node.js.\n\nTaking care of dependencies\nBefore writing any code, you will need an up to date version of Node.js and npm installed.\nNavigate to the directory where you want this code to live and run the following command in your terminal to create a package for this project:\n    npm init --yes\n\nThe --yes argument runs through …",
+      "author": "Sam Agnew",
+      "date": "2020-12-14",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_2_xUA7hX3.width-808.png",
+      "link": "https://www.twilio.com/blog/creating-twitch-chat-bots-with-node-js",
+      "title": "Creating Twitch Chat Bots with Node.js"
+    },
+    {
+      "abstract": "This article is going to teach you how to use the Twilio Programmable Video DataTrack API to add shareable holiday themed filters and overlays to your React video chat app. You’ll be provided with some holiday themed overlays as you carry out the tutorial, but you can apply this knowledge to make any type of filter or overlay!\nYou won’t be building a new video chat app from scratch, but adding to a basic video chat app that already exists instead.\nPrerequisites\nBefore moving forward, make sure you have the following accounts and tools:\n\nA free Twilio account\nThe Twilio CLI with the Twilio Serverless Toolkit Plugin \nNode.js v10+\n\nProject set up\nClone the repository\nYour first step is to clone the existing video chat app from GitHub. Alternatively, if you followed along with the Build a Custom Video Chat App article, you can use the code you wrote …",
+      "author": "Ashley Boucher",
+      "date": "2020-12-14",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/holiday.width-808.png",
+      "link": "https://www.twilio.com/blog/add-holiday-filters-overlays-react-video-app-twilio-datatrack-api",
+      "title": "Add Holiday Themed Filters and Overlays to Your React Video Chat App with Twilio's DataTrack API"
+    },
+    {
+      "abstract": "Welcome to the second interview on ‘The Flex Playmaker’ series. In this edition, I interviewed an entire team working on laying the foundation for onboarding a curated and trusted set of integrated partner solutions.\nThis Interview was conducted on December 10th, 2020.\n  Questions (in bold) are from Vishnu Ravi. Other folks who participated are highlighted in headings.\nMeet the Partner Ecosystem Team\nElliot Goldwater\nSenior Director, Business Development & Partnerships\nElliot, let me begin with you. As the DRI for this program, can you give us a 30K-foot view on the charter for this program, how it began and where the team is today?\nThanks, Vish. Our mission is really straightforward; we want to help accelerate time to value for our Flex customers.  \nFrom my perspective, there are two things that really excite me about this effort. The first of which is the team.  We’ve assembled an amazing …",
+      "author": "Vishnu Vardhan Ravi",
+      "date": "2020-12-14",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/ecosystem-partners-team.width-808.png",
+      "link": "https://www.twilio.com/blog/flex-playmaker-interview-ecosystempartners",
+      "title": "The Flex Playmaker Expert Voice #2 – The Partner Ecosystem Team"
+    },
+    {
+      "abstract": "When considering a server push solution for your web application, you will likely evaluate WebSocket, HTTP long-polling, Server-Sent Events and maybe even Socket.IO. In this tutorial I want to introduce you to yet another option that you may not know: Twilio Sync. Sync is a cloud synchronization service that works across browsers and mobile devices and that it is incredibly easy to integrate with your application.\nTo learn how Twilio Sync works, we are going to add server push capability to a small web application that has a React front end and a Python and Flask back end. We’ll get the job done in just five easy steps!\n\nNote that “server push” in this context refers to technologies that allow web servers to initiate an exchange with clients and “push” events, notifications or data to them. Do not confuse this with “HTTP/2 Server Push”, which is …",
+      "author": "Miguel Grinberg",
+      "date": "2020-12-11",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/zv8En1xT8VBWPXaAi5gFEySo_CtTOourlJSZkqEYV9tRFY.width-808.png",
+      "link": "https://www.twilio.com/blog/server-push-five-easy-steps-flask-react-twilio-sync",
+      "title": "Server Push in 5 Easy Steps with Flask, React and Twilio Sync"
+    },
+    {
+      "abstract": "If you have an application that uses multiple Twilio services, you’ve probably used a database to share data from one medium to another. Although this gets the job done, it’s not always scalable, fast, or easy to implement. Twilio Sync is a service that allows data to be easily stored and shared across devices, services, and even other Twilio APIs. This blog post will demonstrate how to use Sync by building a voice memo application that utilizes Autopilot, SMS, and Voice, all from Python. By the end of this project, you’ll know how to make data flow from text to voice and back to text all within milliseconds!\nThe goal of the Voice Memo bot is to allow users to create, record, and retrieve voice memos on their phone. First, the user sends a text to the project’s Twilio number saying that they want to create a …",
+      "author": "Taylor Facen",
+      "date": "2020-12-11",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/fKcIyqCjAnEMXBA6SwR_L4O6bYgZqA4lXdloOoAlAqK5Oy.width-808.png",
+      "link": "https://www.twilio.com/blog/sharing-data-python-twilio-sync",
+      "title": "Sharing Data Between Services Using Python and Twilio Sync"
+    },
+    {
+      "abstract": "Push authentication is one of the most secure and easy to use forms of user authentication. When a company issues an authentication challenge, the user only has to tap allow or deny when they receive the push notification on their phone—much easier than typing in a one-time password (OTP).\n\nUsing push authentication means a company can also add useful context about the authentication event. Think of things like payments: instead of just sending a code, the authentication request can include information about the payment like the amount and recipient. Even better, because it's one of the few forms of authentication that lets the user deny an authentication attempt, companies can take advantage of that information to identify real time phishing attacks or other malicious activity.\nPush authentication also uses public key cryptography under the hood to link a single device (like a user's phone) to their identity. That makes it …",
+      "author": "Kelley Robinson",
+      "date": "2020-12-10",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_4_tDk2gOd.width-808.png",
+      "link": "https://www.twilio.com/blog/understanding-push-authentication",
+      "title": "Understanding push authentication"
+    },
+    {
+      "abstract": "Even though 2020 was one for the books, good things still happened this year. Digital transformation accelerated in nearly every sector, with Twilio being the critical component of digital acceleration for our customers. This is reflected in tremendous growth in the number of employees, new offices, and an impressive stock performance.\nTwilio has virtualized the world's communications infrastructure through voice, text, chat, video, and email APIs that are simple enough for any developer to use yet so robust that they can power the most demanding applications. We're enabling innovators across every industry — from emerging unicorns to established enterprises — to reinvent how they engage with customers. Anytime. Anywhere.\nThat \"anywhere\" is what helps Twilio find the best talent worldwide. With 26 offices in 16 countries, we embrace a global workforce as few companies do. And that's why India simply could not be ignored.\nIndia is now\nAccording to PWC …",
+      "author": "Twilio",
+      "date": "2020-12-10",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/9BnXDJdw-SRzZ_or5puE1JYLvBSFGRYhOe8NAUeMmA30Ca.width-808.png",
+      "link": "https://www.twilio.com/blog/research-and-development-in-bengaluru",
+      "title": "A Major Next Step: End-to-end R&D in Bengaluru"
+    },
+    {
+      "abstract": "SIP Registration allows you to connect your SIP-enabled devices or softphones directly to Twilio, and use the Programmable Voice API to build powerful call-handling logic without standing up complex hardware or physical connections to your network. You can use the Twilio applications you know and love to connect to SIP endpoints the same way you do to the PSTN or WebRTC/Mobile clients. Until now, however, while your registered SIP devices could make and receive calls globally, your endpoints could only register to Twilio via our US-East data center in Ashburn, VA, USA.\nEarlier this year, we announced new Twilio Edge Locations to improve application performance. With this launch, we are building on top of what we delivered to improve the end-user experience.\nToday, we are happy to announce that Twilio SIP Registration is now accessible via our public and private Edge Locations worldwide. Now you can register your SIP device …",
+      "author": "Bill Harrison",
+      "date": "2020-12-10",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Ot2yLTVV6fz4yuJLsyKHR9jTBf2H_p9CTaCfLccvtdCaQU.width-808.png",
+      "link": "https://www.twilio.com/blog/support-regional-sip-registration",
+      "title": "Announcing Support for Regional Twilio SIP Registration"
+    },
+    {
+      "abstract": "In this tutorial, we will implement a collaborative whiteboard that can be edited by multiple users at the same time. To build this project we will use three key components:\n\nFlask, a Python web application framework\nTwilio Sync, a state synchronization service\nCanvas API, a set of functions to draw graphics on a web page using JavaScript and an HTML <canvas> element\n\nThe project will present a whiteboard that you can access from multiple web browsers. When any of the connected users draws on it, the others will immediately display the drawing.\n\nTutorial requirements\nTo follow this tutorial, you will need to have the following requirements:\n\nA computer with Python 3.6 or a newer version installed. If your operating system does not provide a Python package, download an official build from python.org.\nA free Twilio account. If you use this link to register, you will …",
+      "author": "Grey Li",
+      "date": "2020-12-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Gwfh6Cd1hlBwb-AX9CtyCDcFBSDvgV5k61MKu0H2g_IwSj.width-808.png",
+      "link": "https://www.twilio.com/blog/collaborative-whiteboard-python-flask-twilio-sync",
+      "title": "Build a Collaborative Whiteboard with Python, Flask, and Twilio Sync"
+    },
+    {
+      "abstract": "As we continue to grow and develop our Programmable Voice portfolio, we are excited to announce the addition of new capabilities to enhance the overall user experience. These features will enable you to use the applications you have developed for PSTN and Client access interchangeably with your SIP endpoints too.\nSupport for Blind Transfer with addition of inbound SIP REFER to Twilio\nThe SIP REFER method enables moving an active SIP session from one SIP endpoint to another. In other words, REFER is used to implement call transfers on your SIP-connected calls. Until now, Twilio has only supported sending outbound SIP REFER messages to your SIP network, using the TwiML <Refer> verb.\nToday, we are announcing support of inbound SIP REFER messages, meaning you now can send SIP REFER messages from your SIP network to Twilio in order to initiate call handling in your application. Effectively, this means that Twilio …",
+      "author": "Bill Harrison",
+      "date": "2020-12-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/SzOisM5OX-dRXeUbeCaByiZE2ujdttea8FHkruII0_QntB.width-808.png",
+      "link": "https://www.twilio.com/blog/blind-transfer-sip-multidial-programmable-voice",
+      "title": "Two More Reasons to Use Twilio Programmable Voice with Your SIP Network"
+    },
+    {
+      "abstract": "So – you have an idea for building a connected device, which would let you tap into the promises of the Internet of Things. Maybe you’ve worked out a business case, showing how the investment of building the required infrastructure to maintain your device will be counteracted by the benefits expected from being able to collect usage data and control the physical asset. Whatever the case, chances are you’ve underestimated what it takes to build and maintain IoT devices and make everything reliable enough to serve your business properly.\nTwilio’s decades of collective experience helping companies bring IoT products to market unfortunately show us that too many businesses simply fail their business case: it takes them years – not months – to establish reliable connectivity, and many give up before reaching a return on investment or even a functioning deployment.\nIn this post, I’ll explain the challenges of IoT, …",
+      "author": "Tobias Goebel",
+      "date": "2020-12-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/PPLK2Z6Et42izPq-PVf0e2r9QlQVuy2KmBqKXpSqeNrAjg.width-808.png",
+      "link": "https://www.twilio.com/blog/business-case-to-deployed-device-electric-imp",
+      "title": "From Business Case to Deployed IoT Device with Twilio Electric Imp"
+    },
+    {
+      "abstract": "Millions of developers around the world can reach billions of WhatsApp users across the Twilio Customer Engagement Platform.\nFrom the beginning, we’ve focused on democratizing the world of communications, enabling developers to abstract away the complexities of the global telco ecosystem. It started with voice, and quickly expanded to the world of messaging. A simple text message communicates meaning, but for a global audience, a conversation on WhatsApp can mean so much more.\nSince launching the WhatsApp Business API on Twilio, we’ve seen hundreds of thousands of developers start building and deploying applications. As one of the largest partners in the ecosystem, we connect Twilio’s millions of developers to billions of WhatsApp users, with just a few lines of code.\nWe’re just getting started. Today, we’re expanding our partnership with WhatsApp, redoubling our commitment to WhatsApp as a key channel across the Twilio Customer Engagement Platform, whether you are …",
+      "author": "Simon Khalaf",
+      "date": "2020-12-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Expanding_WhatsApp_Partnership_1.width-808.png",
+      "link": "https://www.twilio.com/blog/expanding-our-partnership-whatsapp",
+      "title": "Expanding our Partnership with WhatsApp"
+    },
+    {
+      "abstract": "Introduction\nSay you have a script that you want to run every so often. Maybe you want an hourly SMS about activity on your eBay auctions. Or perhaps you want to get a daily stock market email with the biggest movers of the day, or a daily SMS message with a German vocabulary word. You could just run your script by hand. But if you’re using the script to remind yourself of something, then you’d have to remind yourself to run the script, which is probably not what you had in mind.\nThe good news is that you can schedule a script to run periodically on any platform. In this post, I’m going to use the code described in the basic Twilio SMS Quickstart example for Node.js, but you could use this post to schedule any kind of script, on any kind of schedule. You can find …",
+      "author": "Bonnie Schulkin",
+      "date": "2020-12-08",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/gZxZI88UQpkyYJkTedak1JZh_CHqs8wKTcy0NGxo1q0TH_.width-808.png",
+      "link": "https://www.twilio.com/blog/schedule-a-daily-sms-reminder-on-linux-macos-or-windows",
+      "title": "Schedule a Daily SMS Reminder on Linux, MacOS, or Windows"
+    },
+    {
+      "abstract": "In February, we shared an exciting update when Verizon became the first carrier to launch their A2P 10-digit long code (10DLC) service for SMS & MMS. In that update, we provided a brief history of A2P (application-to-person) messaging and what could be expected moving forward. As we look towards 2021, questions remain around the timing of full ecosystem adoption, what processes and requirements may change, and the impact on deliverability and throughput.It’s best to think of the A2P 10DLC changes in two main categories: (1) Routes, and (2) Registration. However, while these category breakdowns are important (and are discussed in detail below), we advise our customers to look at the A2P 10DLC ecosystem holistically. The fact is that it is impractical to know each end user’s carrier, so it’s impossible to build a strategy around one specific carrier requirement or update. Rather, it’s important to look at each …",
+      "author": "Peter Tan",
+      "date": "2020-12-08",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Screen_Shot_2020-12-08_at_8.54.11_AM.width-808.png",
+      "link": "https://www.twilio.com/blog/whats-new-a2p-10dlc",
+      "title": "What's new with A2P 10DLC?"
+    },
+    {
+      "abstract": "You can do all kinds of weird and wonderful things with Twilio's APIs, and if you could call those APIs from your browser you'd be able to build some awesome apps that you could use from a browser anywhere. This isn't directly possible, because the Twilio API doesn't send any CORS headers (for good reason).\nA better way to use Twilio API from the browser is to implement a custom web app which accesses Twilio API. In this post I'll show how you can build such a custom web app on the Twilio Runtime platform, using Functions and Assets.\nIf you follow along with the code, you'll build a single-page app with a backend that is hosted on Twilio. This will let you call the Lookup API from anywhere in the world. I've chosen the Lookup API because it's relatively simple, but using the same principles you …",
+      "author": "Matthew Gilliard",
+      "date": "2020-12-08",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/qYd_DEDOH12yEHHZyC-Dh-SaOM2_XKm8sXxt077ILcJplD.width-808.png",
+      "link": "https://www.twilio.com/blog/single-page-apps-react-twilio-functions",
+      "title": "Building Single-Page Apps with React and Twilio Functions"
+    },
+    {
+      "abstract": "We’re excited to announce that we’ve extended voice recording capabilities with single party recording to allow developers to programmatically record only one side of a call. Prior to this release, Twilio’s voice recordings captured all audio from a call, regardless if the file contained one or two channels. Using this new feature, you now have the flexibility to record exactly what you want, all while meeting your specific privacy and compliance needs.\nWhether it's recording only what your support agent says to customers, or what your salesperson says to prospects — the choice is now yours.\nThe value of single party recordings\nCall centers look to monitor and improve the performance of their agents using recorded calls as reference for training and to gather insights driven by AI/ML technologies to improve the overall quality of their service. However, due to the global tightening of privacy policies, data collection procedures often …",
+      "author": "Ramón Ulldemolins",
+      "date": "2020-12-08",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/476HCZP6FfbPBKDDjXsdD3YObwfnv_1mQJMsZsJHisTdxW.width-808.png",
+      "link": "https://www.twilio.com/blog/announcing-single-party-call-recordings",
+      "title": "Announcing Single Party Call Recordings"
+    },
+    {
+      "abstract": "In this article you’re going to build a group video chat web app with React and Twilio Programmable Video. Video chat is a great way to keep in touch with your friends, family, and colleagues, and with this post you’ll learn the basics of how to build a custom video chat app that’s perfect for you.\nPrerequisites\n\nA Twilio account\nA Twilio phone number\nA GitHub account if you would like to deploy your React app to GitHub Pages\n\nThe project described in this article has two parts:\n\nA React.js frontend\nA backend written with any language or platform.\n\nThe backend will be used to generate an Access Token which grants authorization to users of the app, while the frontend handles all the video chat logic using Twilio Programmable Video’s JavaScript SDK. Building the backend won’t be covered in this post, but Node.js users can review these thorough instructions …",
+      "author": "Ashley Boucher",
+      "date": "2020-12-07",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/videochat.width-808.png",
+      "link": "https://www.twilio.com/blog/build-a-custom-video-chat-app-with-react-and-twilio-programmable-video",
+      "title": "Build a Custom Video Chat App with React and Twilio Programmable Video"
+    },
+    {
+      "abstract": "For years, illegal and unwanted robocalls have been a fact of life for all of us. The calls range from just being a nuisance to flat-out posing a dangerous threat, putting our financial and private information at peril.\nThroughout the scourge, answers for stopping illegal robocalls have been elusive. It is a tremendously complex problem presenting a complicated challenge to address. As we have discussed in previous blog posts, stopping illegal robocalls is an effort that requires a coordinated effort requiring a combination of law enforcement, public policy and technological innovation.\nThankfully, real progress on all fronts has been made throughout the last couple of years to turn the tide against robocall scams. For starters, on the public policy front, The TRACED Act was recently passed by Congress and signed into law, which gives the FCC and voice providers more ammunition to combat illegal robocalls. On the law enforcement …",
+      "author": "Jesper Joergensen",
+      "date": "2020-12-07",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/3cpLBaud8O5g5PJshJXdxZQoCavUlmO9TVK-R6VKP-ZbCl.width-808.png",
+      "link": "https://www.twilio.com/blog/successful-rcd-test-stir-shaken",
+      "title": "Twilio Participates in First Successful Test of RCD Using STIR/SHAKEN Protocol"
+    },
+    {
+      "abstract": "Twilio FunctionsはNode.jsで動作するサーバレス実行環境です。この環境にはTwilio Node ヘルパーライブラリーがあらかじめて組み込まれているためすぐ利用できます。また、オートスケール機能やセキュリティ機能などプロダクション向けのサーバレスアプリケーションを簡単かつ迅速に構築できます。\n参考: Functionリクエストのフロー\n\nTwilio FunctionsでGETとPOSTを判断する方法\nこのTwilio FunctionsはGET、POST、OPTIONSメソッドに対応しています。ただし、Functionsで呼び出されるハンドラーメソッドではリクエストヘッダにアクセスできないため、どのメソッドか判断できません。そのため、GETとPOSTでハンドルするFunctionを明示的に別にするという運用が考えられます。ただし、外部APIによっては1つのエンドポイントで両方のメソッドに対応しなければいけない場合があります。たとえばTwitch Webhookは1つのエンドポイントに対してイベントの購読確認（Subscription Verify）と通知（Notification）を、それぞれGET、POSTで行います。そのため、1つのエンドポイントで両方に対応しなければなりません。\n将来的には改善されることを期待しますが、現時点ではリクエストで渡されるパラメータから判断し、それぞれに対応した処理を行う方法が考えられます。\nTwitch Webhookの場合\nSubscription Verify (GET)の場合は、hub.challengeという名 …",
+      "author": "Daizen Ikehara",
+      "date": "2020-12-07",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/GET_POST.width-808.jpg",
+      "link": "https://www.twilio.com/blog/twilio-functions-get-post",
+      "title": "Twilio FunctionsでGETおよびPOSTを1つのハンドラーメソッドで処理するには"
+    },
+    {
+      "abstract": "A few weeks ago I needed to build a solution to send alert messages to clients of my company. The core service had access to the database, but this service had many responsibilities already and adding a new feature to send a large number of messages could overload it. So I decided to use a different approach: the core service gets the users that should receive the message from the database and builds the message content, but then sends everything to a separate service that actually sends the messages.\nThis new service that sends SMS messages could be used for many other applications: an alert service to notify clients of promotions, or maybe a reminder service of scheduled appointments. Since it is completely generic, it is easy to reuse it.\nFor this tutorial we are going to build a simple example of two Python services communicating using Redis Pub/Sub. …",
+      "author": "Gabriela Cavalcante",
+      "date": "2020-12-04",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Build_an_SMS_Microservice_using_Python_Twilio_.width-808.png",
+      "link": "https://www.twilio.com/blog/sms-microservice-python-twilio-redis-pub-sub",
+      "title": "Build an SMS Microservice using Python, Twilio and Redis Pub/Sub"
+    },
+    {
+      "abstract": "In this article, you'll make use of Twilio Programmable SMS and TwiML, Twilio’s Markup Language, to build an application that provides current weather information for a given location via an SMS message. The user will be able to provide a zip code or city name by sending a message of the format city: <City Name,Country Code> or zip: <Zip Code>, where it’s optional to include a space or neglect it in the former case.\nAlong the way, with TypeScript, you’ll learn how to interface with external APIs, how to send, receive, and parse messages through Twilio Programmable SMS, how to set up an application configuration via environment variables, how to configure a text message webhook, and finally how to test a deployment of your application via Ngrok.\nTypeScript is an extension of pure JavaScript - a “superset”, if you will - and adds static typing to the language. It …",
+      "author": "Jamie Corkhill",
+      "date": "2020-12-03",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/weathertypescript.width-808.png",
+      "link": "https://www.twilio.com/blog/get-your-local-weather-with-typescript-and-twilio-programmable-sms",
+      "title": "Get Your Local Weather with TypeScript and Twilio Programmable SMS"
+    },
+    {
+      "abstract": "As part of our mission to be the most trusted customer engagement platform on the planet, Twilio has the responsibility to secure customer accounts.\nStarting October 12, 2020, we began enforcing mandatory two-factor authentication (2FA) as an additional layer of login protection for all Twilio customers with paid accounts. The 2FA requirement excludes trial accounts.\nThis post will explain what’s changing, show how it will affect your Twilio account, walk you through how to set up 2FA in your account, and answer the most frequently asked questions about the requirements.\nWhat is 2FA?\nTwo-factor authentication (2FA) is a security feature that requires you to provide two types of authentication – something you know (your password), and something you have (a device receiving one-time verification codes) – in order to access your accounts.\nWhy is Twilio requiring 2FA for paid accounts?\nIdentity theft is the fastest growing crime in the U.S …",
+      "author": "Ankita Bhosle",
+      "date": "2020-12-03",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/I7rcq2avGA542G1p7SVESYx6KZo5PVaApKAHtCk60-yAF_.width-808.png",
+      "link": "https://www.twilio.com/blog/mandatory-2fa-account-login",
+      "title": "Twilio Account Login Change: Mandatory Two-Factor Authentication"
+    },
+    {
+      "abstract": "This post originally appeared on the Twilio SendGrid blog.One of the main methods for businesses and consumers to stay connected during COVID-19 has been through email. So when it came to preparing our communication platform for the holiday season, we took this increased responsibility to heart.For several months before the Black Friday weekend, we tested and tuned our infrastructure. Similar to years past we followed every anomaly, chased down every clue we uncovered to ensure stability, availability, and performance in our platform. We were preparing for holiday traffic that no one could predict with a high degree of certainty. All that preparation paid off—the volume our customers produced over the holiday weekend was unprecedented in the history of Twilio SendGrid.This year we processed:5.8 billion emails in 24 hours on Black Friday41% increase over 20195.7 billion emails in 24 hours on Cyber Monday36% …",
+      "author": "Devon Jones",
+      "date": "2020-12-02",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Photo_blog_Header_3.width-808.png",
+      "link": "https://www.twilio.com/blog/peering-enhances-performance-415-million-emails-hour",
+      "title": "Peering Enhances Performance at 415 Million Emails per Hour"
+    },
+    {
+      "abstract": "We've got a problem. We have amazing developer content everywhere.It’s a good problem, but still a problem.Up until now, if you wanted to find all the latest and greatest content from Twilio, you’d have to visit multiple pages and do some digging.For example, all of this great content lives on its own page or profile somewhere on the Internet:Twilio BlogTwilio TVSendGrid BlogChangelogTwilioQuestSegment BlogDocsCodeExchangeLive EventsFive-Minute ProjectsChampion InterviewsAnd so much more…We built Ahoy to solve that dilemma.Ahoy is our brand-new developer content hub, a one-stop-shop for all the great Twilio content you need to explore innovative use cases, discover new ways to build, get inspired, have fun, and do your job.Thanks to Ahoy, you don't have to bounce between tabs to find the fresh, relevant content you need—it's all nicely curated in one …",
+      "author": "Jesse Sumrak",
+      "date": "2020-12-02",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_1_BJhndtn.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-ahoy-developer-hub",
+      "title": "Introducing Ahoy: The New Hub for Twilio Developer Content"
+    },
+    {
+      "abstract": "Twenty years ago, when SIP trunking and VoIP were introduced on the world stage, we hadn’t yet dreamed of all of the ways that the internet would revolutionize how we connect with each other. Now, using the platform of our preference, unified communication online has become a part of our everyday lives.Phone calls still hold strong as a tried-and-true method of communication in a world that loves text, email, and messaging. Increasingly, businesses are leaning on VoIP and SIP trunking to meet the demand for affordable (and scalable) person-to-person communication.As we increase our reliance on online communication, SIP trunking frequently becomes the subject of conversation regarding digital transitions. Although SIP trunking is a hot topic, it can be easy to gloss over the basics of how it works and why it can be transformative for your business. Never fear, we’ve got you covered! Here’s everything you need …",
+      "author": "Brooke Isaacs",
+      "date": "2020-12-01",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/SIP_Trunking_2.width-808.png",
+      "link": "https://www.twilio.com/blog/sip-trunking-101",
+      "title": "A Crash Course in SIP Trunking"
+    },
+    {
+      "abstract": "Web performance used to be easy. You’d time how long a page takes to load, easy.\nBut the rise of client-side JavaScript has introduced bold new ways for websites to be frustratingly slow. Measuring this new slowness will take new metrics. Google calls them the Core Web Vitals.\nEach of the Core Web Vitals measures a different aspect of how a web application responds. This post will take a look at each of these metrics, what they measure, and how to use them. You’ll also take a look at my Really Slow Webpage™ and implement a basic performance monitoring script to see just how bad it really is. Finally, you’ll see how to interpret performance data to decide what your performance goals should be.\nWhat you’ll learn\nIn this tutorial you’ll learn about:\n\nSome of the different ways modern websites can have poor performance.\nThe new emerging metrics for …",
+      "author": "Todd Gardner",
+      "date": "2020-11-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/core-web-vital-perf.width-808.png",
+      "link": "https://www.twilio.com/blog/monitoring-website-core-web-vital-performance",
+      "title": "Monitoring Your Website's Core Web Vital Performance"
+    },
+    {
+      "abstract": "A research from 2013 shows that games can increase learning outcomes by two grade levels. The effect of games on learning can never be over-emphasized. So wouldn’t it be a good idea to build a word game to learn more about a language? I think it will be fun. Building the game on WhatsApp, an application with over 2 billion users around the globe, makes it even more interesting!\nIn this tutorial, I am going to do a walkthrough on how to build your own word game on WhatsApp. For the purpose of this tutorial, the word game will be centered around synonyms. The game will present you with words, and you will need to enter synonyms. Each time you enter a correct synonym you earn a point. The game continues until you make a mistake, at which you point your score is given to you. A generic approach will …",
+      "author": "Ayoyinka Obisesan",
+      "date": "2020-11-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/iZsziP4r63bNGWBNdbjyTEg17PmjQOqEknwanxKWfrDYbj.width-808.png",
+      "link": "https://www.twilio.com/blog/whatsapp-synonyms-game-bot-python-flask-twilio",
+      "title": "Build a WhatsApp Synonyms Game Bot with Python, Flask and Twilio"
+    },
+    {
+      "abstract": "There are over 4.5 billion text-enabled devices; that’s a huge potential to notify people about upcoming appointments, special events, breaking news, or commercial promotions. Sending SMS messages programmatically enables you to reach many people almost simultaneously. With Twilio Messaging you can create a Deno application that sends many messages and reports when each of them has been delivered, or not.\nTwilio Messaging includes an HTTP REST API that makes it easy to interact with the SMS API. Once an SMS message request is created with the REST API, its status can be retrieved using another endpoint.\nDeno is a new runtime environment for JavaScript that provides the capabilities of Node.js without the heavyweight package deployment and complex package management required for Node.js applications. Deno provides new features to support the wide range of contemporary server-side applications being developed with JavaScript, a range that wasn’t envisioned when Node.js was developed. Deno …",
+      "author": "Maciej Treder",
+      "date": "2020-11-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/deno-twilio-sms.width-808.png",
+      "link": "https://www.twilio.com/blog/sending-sms-messages-deno-typescript-twilio-messaging",
+      "title": "Sending SMS Messages with Deno, TypeScript, and Twilio Messaging"
+    },
+    {
+      "abstract": "I miss using the Purikura machines with my friends in the Japanese inspired arcades because not only were they super fun, but there were a ton of cute and colorful digital stickers that I could throw onto a picture of my friends and I. As someone who loves cute anime characters and pixelated art, I wish all of my selfies or professional video chats could be as cute as the pictures on a Purikura machine.\nThen I realized - I know how to code, so making a pretty overlay for a video IS possible!\nIn this article, we'll use Twilio Video's JavaScript SDK to give us a video that we can \"draw\" over with HTML and CSS. This is an introduction to an app that you can expand on to empower yourself and your friends from home - kind of like a cute mirror you never had!\nTutorial Requirements …",
+      "author": "Diane Phan",
+      "date": "2020-11-29",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/PcM1wWjpl10wNVFuu4rBTdIHTDzJ1fnV3RVRZjOPjAFqYD.width-808.png",
+      "link": "https://www.twilio.com/blog/cute-twilio-video-overlay-javascript-html-css",
+      "title": "How to Make a Cute Virtual Mirror Using Twilio Video, JavaScript, HTML, and CSS"
+    },
+    {
+      "abstract": "Mobile phones are ubiquitous and convenient but there are times when it’s more practical to be able to receive and place phone calls from a computer. If you’ve called customer service about the tickets you ordered, or anything else, it’s likely the rep you spoke to took your call with a mouse click.\nUsing Twilio Voice you can add the ability to make and receive phone calls from your own ASP.NET web applications. Twilio’s helper library for JavaScript makes it easy to integrate client functionality into web front ends built with Blazor WebAssembly, and the Twilio NuGet packages provide you with convenient interfaces to Twilio’s APIs for server-side tasks.\nBlazor WebAssembly lets you build your application front end in C# and Razor, so you can focus the client-side JavaScript on functionality that requires JavaScript for implementation.\nJavaScript interoperability (JS interop) is a feature of Blazor that makes it easy to …",
+      "author": "Niels Swimberghe",
+      "date": "2020-11-27",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/blazor-twilio-voice_1.width-808.png",
+      "link": "https://www.twilio.com/blog/making-phone-calls-from-blazor-webassembly-with-twilio-voice",
+      "title": "Making Phone Calls from Blazor WebAssembly with Twilio Voice"
+    },
+    {
+      "abstract": "This tutorial will teach you how to build a chat app in React using Twilio’s Programmable Chat API. After finishing this tutorial, you will have developed a web app to chat with other participants.\nPrerequisites\n\nNode.js\nA JavaScript package manager of your choice; npm or yarn\n\nGetting started\nReact project setup\nCreate a new directory on your computer called chat-app and change directory into it:\n    mkdir chat-app\ncd chat-app\n\nYour new chat-app directory will house both the backend and frontend components of the app. To create a new React project for the frontend, run the following command in your terminal:\n    npx create-react-app react-chat\n\nChange directory to the newly crea …",
+      "author": "Huzaima Khan",
+      "date": "2020-11-25",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/chatapp.width-808.png",
+      "link": "https://www.twilio.com/blog/build-a-chat-app-with-twilio-programmable-chat-and-react",
+      "title": "Build a Chat App with Twilio Programmable Chat and React.js"
+    },
+    {
+      "abstract": "Quando eu comecei a minha carreira de TI, ser desenvolvedor era como ser uma pequena peça de uma máquina gigante. Naquela época tínhamos \"fábricas de software\" que desenvolviam aplicativos e sistemas de acordo com o projeto e tempo predeterminados.Eu sempre gostei dos filmes do Chaplin e \"Tempos Modernos\" resumia muito o que era desenvolver aplicativos nos anos 2000. Hoje, isso tudo mudou e quero te contar o que aconteceu no meio do caminho...\n  \n  \n    \n    \n  \nExiste uma API para isso\nLá em 2007, quando morava em Belo Horizonte e já era desenvolvedor web, o Twitter estava começando a ser notado no Brasil. Naquele tempo, era moda recebermos convites dos amigos para criar contas em novos serviços e, assim que recebi um convite do Twitter, percebi que o serviço tinha uma \"página de desenvolvedor\". Isso me deixou muito curioso.\nEu já tinha trabalhado com web services antes, mas isso era um pouco …",
+      "author": "Luís Leão",
+      "date": "2020-11-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/M_ru-0D8aI_2IS9PuFrhYfmUQDqVMq-YQ1MQly5-S0-mHZ.width-808.png",
+      "link": "https://www.twilio.com/blog/apresentando-o-developer-evangelist-luis-leao",
+      "title": "Apresentando o Developer Evangelist Luís Leão"
+    },
+    {
+      "abstract": "Ethereum is a blockchain with a cryptocurrency. As with Bitcoin, it costs users to send ethereum transactions, or interact with a smart contract (an on chain programme). The cost of these transactions is called gas, and the price can vary depending on usage. If lots of people are using the network, gas prices can get very high. Read more on gas prices, and how they skyrocketed earlier this summer here. Savvy users wait for lower gas prices to interact with Ethereum smart contracts. Twilio’s SMS API is the perfect tool to keep you updated on prices.  I am going to show you how to write a serverless application to send SMS notifications when gas fees are below a certain level.\nIf you aren’t interested in gas prices, the flow in this tutorial can be used to query and connect any https REST api via Serverless to Twilio’s SMS api. …",
+      "author": "Rachel Black",
+      "date": "2020-11-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Blog_-_SMS_Serverless_gas.width-808.png",
+      "link": "https://www.twilio.com/blog/building-sms-notification-service-serverless",
+      "title": "Building an SMS notification service with Serverless."
+    },
+    {
+      "abstract": "When I started my career in IT, being a developer meant for me to be a small piece of a giant machine. That time we had \"software factories\" who developed apps and systems based on their projects and a predetermined schedule.I always loved Chaplin's movies, and my favorite movie was \"Modern Times\" because it resumes how developers worked back in 2000. Now everything has changed, and I want to tell you what happened on this path...\n  \n  \n    \n    \n  \nThere is an API for that\nBack in 2007 in Minas Gerais, I was already a web developer and Twitter was starting to get noticed in Brazil. That time when friends' invitations to new apps were a thing and I got one to Twitter, I saw the service had a \"developer page\" and I was curious about it.\nI've worked with web services before, but this was different: you could make simple HTTP …",
+      "author": "Luís Leão",
+      "date": "2020-11-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Blog_Header_-_LuisLeao_EN-US.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-developer-evangelist-luis-leao",
+      "title": "Introducing Developer Evangelist Luís Leão"
+    },
+    {
+      "abstract": "What is latency?In the digital world, latency does not describe a skill or desire that has not yet been actualized nor does it describe an inactive pathogen. Instead, it refers to the time it takes for data to transfer. To get more specific, let’s look at the different types of latency.Network latencyNetwork latency is the delay in your action and the Internet’s response to your action. For example, if you click a web page and it takes a while to load, the time it takes to load is the latency (also known as lag).To get a bit more technical, network latency can be described as the time it takes for a data packet to travel roundtrip from the sender to the receiver then back to the sender. This is also called round trip time (RTT). The time is often completed in milliseconds, but those milliseconds can …",
+      "author": "Julie Griffin",
+      "date": "2020-11-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_3_4.width-808.png",
+      "link": "https://www.twilio.com/blog/understanding-latency",
+      "title": "Understanding Latency"
+    },
+    {
+      "abstract": "No, robots aren't taking over the world (not yet anyway). However, thanks to Generative Pre-trained Transformer 3 (GPT-3), they are well on their way to writing digital text as well as humans—and even better, in some cases.Human-equivalent writing sounds like a solid step on the path to a Terminator-like future...but cynicism aside, GPT-3 is establishing new ceilings for what AI and machine learning can accomplish.What is GPT-3?GPT-3, a new language model from the whizzes over at OpenAI, generates AI-written text that has the potential to be practically indistinguishable from human-written sentences, paragraphs, articles, short stories, dialogue, lyrics, and more.OpenAI trained GPT-3 on a massive corpus of text with more than 175 billion (yes, with a \"b\") parameters, making it the largest language model—ever.Lost? In non- technical terms, GPT-3 was shown how millions of people write and taught how to pick up on writing …",
+      "author": "Jesse Sumrak",
+      "date": "2020-11-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Search_-_Canva_1_eLeUaZ5.width-808.png",
+      "link": "https://www.twilio.com/blog/what-is-gpt-3",
+      "title": "What Is GPT-3: How It Works and Why You Should Care"
+    },
+    {
+      "abstract": "This Thanksgiving, you might find yourself in interesting discussions with family members who have differing viewpoints. Read on to see how to determine whether or not something would be divisive to say at Thanksgiving dinner using Zero-Shot Text Classification and Twilio Programmable SMS in Python.\n\n \n  *You should not travel for Thanksgiving due to COVID-19--this post is just for fun. Here's how the CDC recommends celebrating this year.\nPrerequisites\n\nA Twilio account - sign up for a free one here and receive an extra $10 if you upgrade through this link\nA Twilio phone number with SMS capabilities - configure one here\nSet up your Python and Flask developer environment. Make sure yo …",
+      "author": "Lizzie Siegle",
+      "date": "2020-11-23",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/thanksgivingtg_imAyoWt.width-808.png",
+      "link": "https://www.twilio.com/blog/safe-to-say-at-thanksgiving-transfer-learning-sms",
+      "title": "Is it safe to say at Thanksgiving? with Transfer Learning and SMS"
+    },
+    {
+      "abstract": "Today, November 20th, 2020, marks 12 years since Twilio was born. We founded Twilio back in 2008 to provide a bridge between applications and the world of telephony. And we haven’t stood still – we’ve since expanded beyond communications to optimizing customer engagement and providing a unified view of the customer journey.\nAlong the way, we've also had more than a little fun. As we've grown, we've strived to maintain a culture where we can be ourselves, quirks and all – we call it the Twilio Magic. You can see it when we encourage live coding on the New York Stock Exchange floor, teach dogs to take selfies, or help automate weddings.\nBut one of our most hallowed traditions is a birthday tradition: every year on November 20th, we come up with creative ways to deliver confections to faces. Yes, really.\nFollow along, and I'll tell …",
+      "author": "Jeff Lawson",
+      "date": "2020-11-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/x3OIPUwdrdr5u4rbB6WR4MANBBCV3HDXL8GRBLPgZgAohq.width-808.png",
+      "link": "https://www.twilio.com/blog/twilios-12th-anniversary",
+      "title": "Our 12th Twilioversary: Celebrated with a Socially-Distant Trebuchet"
+    },
+    {
+      "abstract": "Every October, Filipino American History Month (FAHM) commemorates the arrival of Filipinos in the US and celebrates their influence, impact, and contributions. Carried by hope for a prosperous future, the first recorded Filipino immigrants to the continental US arrived on the shores of current day Morro, California, on October 18, 1587. The brave souls who came here – and others who followed – multiplied through the generations and now represent roughly 4% of immigrants who make up America’s population. We are proud to have Filipino representation at Twilio, and we took this month to share Filipino history and culture throughout the company.  \nConnecting through community\nEverywhere we go, humans look for connections and affirmations that we belong. Employee Resource Groups (ERGs) unite Twillions around shared identities and foster friendships and social connections by eagerly welcoming and creating space for members and allies to foster connection. They reinforce and express …",
+      "author": "Twilio",
+      "date": "2020-11-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/53EDDB45-39E9-4244-A844-7A27F0B7DD2E.width-808.png",
+      "link": "https://www.twilio.com/blog/filipino-american-heritage-month",
+      "title": "Filipino American Heritage Month: Sharing Culture and Building Connections"
+    },
+    {
+      "abstract": "Just like Memphis Raines figured out how to steal fifty cars in one night, you’re going to learn how to send one WhatsApp message in thirty seconds (using JavaScript!).\nBuckle up, cause here we go.\n\nPrerequisites\n\nA free Twilio account\nNode.js and npm\n\nGet your development environment setup\nCreate a new directory on your computer, change into it, and initialize a new Node.js project:\n    mkdir whatsapp\ncd whatsapp\nnpm init -y\n\nInstall the Twilio Node Helper Library and the dotenv package:\n    npm install twilio dotenv\n\nCreate two new files inside your new whatsapp directory:\n    touch index.js && touch .env\n\nOpen the .env file and add two environment variables to sto …",
+      "author": "Ashley Boucher",
+      "date": "2020-11-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/whatsapp.width-808.png",
+      "link": "https://www.twilio.com/blog/how-to-send-a-whatsapp-message-in-30-seconds-with-javascript",
+      "title": "How to Send a WhatsApp Message in 30 Seconds with JavaScript"
+    },
+    {
+      "abstract": "Twilio Sync provides you with a set of intuitive APIs that allow you to synchronize application state across mobile apps and websites in real-time. Some example use cases where you can make use of Twilio Sync within your application include:\n\nReal-time Dashboard Charts\nBroadcasting notifications to users in real-time\nReal-time Collaboration Software such as Google Docs.\n\nIn this tutorial, we’ll use Python and the Flask framework to build a dashboard that displays SMS messages in real-time as they are sent to your Twilio phone number.\nTechnical requirements\nTo follow along, you’ll need the following:\n\nA free Twilio account and a Twilio phone number. If you use this link to register, you will receive $10 credit when you upgrade to a paid account.\nPython 3.6 or newer\nNgrok. This will make the development version of our application accessible over the Internet.\n\nCreating a Python environment\nLet’s create a directory …",
+      "author": "Dotun Jolaoso",
+      "date": "2020-11-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/0Kee47FRtlg7-t8ylDHO9ErGEM4Lwm--g7jjDSiuJhtdXU.width-808.png",
+      "link": "https://www.twilio.com/blog/real-time-sms-dashboard-python-flask-twilio-sync",
+      "title": "Build a Real-Time SMS Dashboard with Python, Flask and Twilio Sync"
+    },
+    {
+      "abstract": "At Twilio, we celebrate innovating and building. To some, innovating means building a business, which usually begins as a side hustle. According to CNN, more than 44 million Americans have a side hustle. To many Black entrepreneurs, side hustles aren’t just a passion or hobby—they’re a means of survival. Oftentimes Black entrepreneurs have to take on several side hustles, in addition to full-time work, to make ends meet.\nAt Twilio, our goal is to create a space for underrepresented communities by removing barriers to access, going where others don’t, and building bridges to make tech more representative—from hiring employees to building inclusive products that reflect the global population.\nWe’re proud to partner with our BlackTwilions Employee Resource Group and AfroTech—one of the largest global, multicultural organizations in Tech—to bring together Black entrepreneurs from a variety of backgrounds and experiences. The “Turn Your Passion into Profit” event aims to …",
+      "author": "Twilio",
+      "date": "2020-11-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/C7bH9-iALZva-z-Z3gpuN84PyQbpLFoZgAw0gH7XBO7WuF.width-808.png",
+      "link": "https://www.twilio.com/blog/turn-passion-into-profit",
+      "title": "Turn Your Passion into Profit: Elevating Black Entrepreneurs"
+    },
+    {
+      "abstract": "The growing use and applications of cloud services necessitates a more efficient architectural style than the Simple Object Access Protocol (SOAP). REST (REpresentational State Transfer) allows for a light-weight, stateless communication between clients and the Application Programming Interface (API). Because the communication is stateless, access control for Restful APIs is based on tokens which carry enough information to determine whether or not the client is authorized to perform the requested action on the resource.\nIn this tutorial, I will use CodeIgniter to build a RESTful API. CodeIgniter is a powerful PHP framework with a very small footprint which allows developers to build full-scale web applications.\nPrerequisites\nA basic understanding of CodeIgniter will be helpful in this tutorial. However, I will provide explanations and links to official documentation throughout the tutorial. If you’re unclear on any concept, you can review the linked material before continuing with the …",
+      "author": "Oluyemi Olususi",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Create_a_Secured_RESTful_API_with_CodeIgniter.width-808.png",
+      "link": "https://www.twilio.com/blog/create-secured-restful-api-codeigniter-php",
+      "title": "Create a Secured RESTful API with CodeIgniter and JSON Web Tokens"
+    },
+    {
+      "abstract": "Having a clear dichotomy between client-side and server-side applications comes with many advantages such as separation of concerns and loose coupling, which allows teams to work independently. However this might be overkill for smaller teams or projects managed by the same person. In such situations, a better approach might be to have relevant code for both the front-end and back-end reside in the same project. In this tutorial, I’ll show you how to build a web application with React and CodeIgniter.\nAccording to the official documentation, React is a JavaScript library for building user interfaces. My favorite feature of React is that it allows me to structure my web applications by breaking the interface into components and building accordingly. I’ve found this to add reusability and consistency to my applications.\nCodeIgniter, on the other hand, is a lightweight open source PHP framework that allows developers to build web applications …",
+      "author": "Oluyemi Olususi",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/EuwI5xjzo9j9w3Lyy_FJndx5enaiW925I9VlSNIXE2vkY6.width-808.png",
+      "link": "https://www.twilio.com/blog/build-single-page-application-php-codeigniter-react",
+      "title": "Build a Single Page Application in PHP with CodeIgniter and React"
+    },
+    {
+      "abstract": "Twilio offers client-side software development kits (SDKs) for several of its products including Programmable Video, Programmable Voice, Programmable Chat, and Conversations.\nTo make use of these SDKs, you need to generate Access Tokens. As described in the Twilio docs, Access Tokens are short-lived tokens to authenticate Twilio Client SDKs like Voice, Chat and Video. You create them on your server to verify a client's identity and grant access to client API features.\nIn this article you’ll learn how to generate an Access Token using Twilio Functions. You’ll be able to replicate this setup again and again in your future projects, allowing you to save time and focus on the fun stuff!\nPrerequisites\n\nNode.js v10\nnpm or another package manager for Node.js\nThe Twilio Serverless Toolkit plugin for the Twilio CLI\nA Twilio account\n\nInstall dependencies\nYour first goal is to get setup with Twilio Functions. Twilio Functions …",
+      "author": "Ashley Boucher",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/accesstoken.width-808.png",
+      "link": "https://www.twilio.com/blog/generate-access-token-twilio-chat-video-voice-using-twilio-functions",
+      "title": "Generate an Access Token for Twilio Chat, Video, and Voice using Twilio Functions"
+    },
+    {
+      "abstract": "If you’ve been a professional developer for more than a year or two, you’ve probably heard some hipster developer rave about functional programming. Much like how music sounds better on vinyl, programming is just better in functional languages. Your IQ jumps ten points if you can write a Fibonacci generator in Lisp, and it jumps twenty points if you can accurately describe what a monad is.\nJokes aside, like craft beer and artisan bacon, the hipsters have a point. As someone who has kids and hobbies, I can’t help you with monads, but learning about less esoteric functional programming concepts will help you write cleaner code with fewer bugs.\nFunctional programming concepts have been finding their way in our general-purpose programming languages for years, and C# 9 is no exception. In the latest version of C#, Microsoft has introduced some new functional goodies, mostly around immutable programming. In this post, …",
+      "author": "Dustin Ewers",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/csharp-9-records.width-808.png",
+      "link": "https://www.twilio.com/blog/get-in-touch-with-your-inner-hipster-using-c-sharp-9-records",
+      "title": "Get in Touch with Your Inner Hipster Using C# 9.0 Records"
+    },
+    {
+      "abstract": "If you implemented a video calling application using the Twilio Programmable Video API, you may find that during a call you want to share textual information with the other participants. This could be a link to a document, or even a reaction emoji. In this article you are going to learn how to take your video application to the next level by adding a chat room with the Conversations API.\n\nTutorial requirements\nThis is the third article in my series of Programmable Video tutorials, so we are going to take advantage of the video chat application built in the previous two installments and add the chat room feature to it. This application uses a vanilla JavaScript front end and a Python back end. To run this application on your computer you need the following requirements:\n\nPython 3.6 or newer. If your operating system does not provide a Python …",
+      "author": "Miguel Grinberg",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/LnyuVgFIyGQ6XKjaphI5wd_TvHOzZdIP3JEkdkI6PZGWS8.width-808.png",
+      "link": "https://www.twilio.com/blog/text-chat-video-calls-twilio-conversations-api",
+      "title": "Add Text Chat To Your Video Calls With The Twilio Conversations API"
+    },
+    {
+      "abstract": "GitHub Actions help you discover, create, and share actions to perform any job you'd like, such as CI/CD, and combine actions in a completely customized workflow. In this tutorial, I’ll be showing you how to build, test and deploy a Laravel Application using GitHub Actions.\nPrerequisites\nYou will need the following to get started with this\n\nGitHub account\nKnowledge of Laravel\nKnowledge of GitHub\nA live server\n\nGetting started\nLet’s create a new Laravel application:\n    $ laravel new laravel-github-actions\n\nNext, create a repo on GitHub and push the new application to the repo. You can follow the instructions here.\nI went ahead and created a repository on GitHub containing the application, which can be found at https://github.com/ammezie/laravel-github-actions in case you would like to just clone it instead.\nSetting up GitHub Actions\nNow, let’s set up GitHub Actions for the repository. Click on the Actions tab on the repository navigational …",
+      "author": "Chimezie Enyinnaya",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/0anvt6d8Vb9hsDxK9HLUPmAUHEWkvz3OIZkbHSYkFotXzv.width-808.png",
+      "link": "https://www.twilio.com/blog/build-test-deploy-laravel-application-github-actions",
+      "title": "Build, Test, and Deploy Your Laravel Application With GitHub Actions"
+    },
+    {
+      "abstract": "With the United States at a turning point and the entire world watching, it's not surprising that current events involving racial injustice and systemic racism have sparked a global outpouring of grief and activism. In the middle of the coronavirus pandemic, this desire to comfort and console is hindered by regional lockdowns and work-from-home mandates. It's within this turmoil where the benefits of allyship germinate.\nIf the term is new to you, that's OK. Allyship is loosely defined as the process of building relationships with marginalized individuals and groups based on trust, consistency, and accountability. In the workplace, allies listen to those around them, adapting their thinking, adjusting behaviors, and helping difficult dialogs take root.\nIt's not what happens; it's how you respond that matters\nAs Jeff Lawson, our founder and CEO, stated in a recent post, Twilio condemns all forms of racism, bigotry, hate, and violence. “We believe …",
+      "author": "Twilio",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/rN0TBob98Qy7ZW92JxuylwnU-75zipeXslgwapBLeSHZqY.width-808.png",
+      "link": "https://www.twilio.com/blog/allyship-in-practice",
+      "title": "Allyship in Practice: Tea Time for Inclusion"
+    },
+    {
+      "abstract": "The world has changed, thanks to the Internet. We are able to collaborate and build quickly and efficiently. But – this phenomenon has also increased the number of security risks and attempts by hackers to extract valuable information.\nHere at Twilio we use Rest APIs which are secure by default. On top of that, our Elastic SIP Trunks can be secured by simply flipping a switch.\nIf you have not turned on the secure feature for Elastic SIP Trunk, this post will give you the reasons you should do it. We’ll show you how to enable Secure Trunking and walk through configuring a Cisco Unified Border Element (CUBE) with TLS & SRTP.\n\nTLS/SRTP is now included 🎉\nWe are now offering this security feature free – all you need to do is flip the switch! Learn about the TLS specification for secure SIP trunking in our docs.\nWe have already …",
+      "author": "Brad McAllister",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/2pmtO66S041triXeZc7fJFZJO5_AvQw3MjcZ1U2FMwDfwz.width-808.png",
+      "link": "https://www.twilio.com/blog/secure-elastic-sip-trunks",
+      "title": "How to Secure Your SIP Trunks with Twilio"
+    },
+    {
+      "abstract": "Web applications are powerful tools of communication for everyday life. However, due to their ubiquity, the average user underestimates what it takes to actually build them. As a result, the human interfacing with the app just expects it to work, always.\nWhile building an application is easier in 2020 than years prior, its success is often dependent upon the use and  integration of external services to provide additional functionality.\nCompanies such as Twilio and Stripe offer these services (called APIs) that enable developers to quickly implement functionality that would otherwise be impractical to build independently. Because APIs tend to focus so much on installation, their “Getting Started” guides often guide the developer past the biggest part of their application outside of testing; security.\nIn this tutorial, we’ll do the opposite and take a look at security by verifying Twilio API requests in Symfony. To start, we’ll create a basic Symfony …",
+      "author": "Alex Dunne",
+      "date": "2020-11-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/6EGUZf7mx94B4Mwb_OR3bISnSBn_6zqMvFYYjptUIeQG9t.width-808.png",
+      "link": "https://www.twilio.com/blog/verifying-twilio-api-requests-php-symfony-5",
+      "title": "Verifying Twilio API Requests in Symfony 5"
+    },
+    {
+      "abstract": "In modern day web applications, real-time notifications are very common as service providers want to keep users informed and engaged about events happening on their platforms. Notifications are a great way to build incentive for users to come back to the platform.\nIn this tutorial, we will be implementing a real-time application with desktop notifications by utilizing your browser’s Notification API, Laravel, Pusher, and notifications via Twilio Programmable Messaging.\nPrerequisites\nTo follow along in this tutorial, here are the essentials to get started:\n\nPHP and Laravel 8 installed on your machine.\nWorking knowledge of PHP and JavaScript.\nA Twilio Account\n\nSet up a Laravel Application\nThis tutorial assumes that you are somewhat familiar with PHP and the Laravel Framework. Hence, we will quickly go through the installation process of Laravel and the procedures needed to create a brand new Laravel 8 Application.\nCreate a Laravel Application …",
+      "author": "Ogbonna Vitalis",
+      "date": "2020-11-18",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/W3FOQK3CvqbzDs2zhGBymWhD2qoB0yrR-O4xcFXWLR9hJ3.width-808.png",
+      "link": "https://www.twilio.com/blog/build-chrome-desktop-notifications-php-laravel-8-pusher-twilio-sms",
+      "title": "Build Chrome Desktop Notifications in PHP with Laravel 8, Pusher, and Twilio SMS"
+    },
+    {
+      "abstract": "Bonjour tout le monde ! La semaine dernière j’ai eu la chance de discuter avec Grégoire Hertault, créateur du module React Native Twilio Phone, un module pour gérer la VoIP sur mobile. Il m’en a dit plus sur ce projet à travers un échange que je vous retranscris ici.\nPrésentation\nValériane: Bonjour, peux-tu te présenter pour nos lecteurs ?\nGrégoire: Je suis Grégoire Hertault, développeur depuis 2010, fullstack depuis 4 ans. Par fullstack j’entends: backend, frontend, cloud et ops.\nJe suis aussi freelance depuis 4 ans, et en temps normal j’interviens chez des clients pour des missions de prestation.\nMais cette année j’ai décidé de faire un break et de créer ma propre application. Je suis dessus depuis janvier, c’est un projet personnel, indépendant de la situation sanitaire. C’est une application qui permet de contacter des services clients.\nC’est justement en la développant que …",
+      "author": "Valeriane Venance",
+      "date": "2020-11-18",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/sfNRGXQy8QJL1txx-i5HgzbSSShGZZKUG86Oxn253tbxSm.width-808.png",
+      "link": "https://www.twilio.com/blog/creer-un-module-react-native-gregoire-hertault",
+      "title": "Créer un Module React Native, Discussion avec Grégoire Hertault"
+    },
+    {
+      "abstract": "Hello everyone! Last week I had the chance to chat with Grégoire Hertault, French developer and creator of the React Native Twilio Phone module, a module for managing VoIP on mobile. He told me more about this project through an exchange that I am sharing with you here.\nWho are you, Grégoire?\nValériane: Hello, can you introduce yourself for our readers?\nGrégoire: I am Grégoire Hertault, developer since 2010, fullstack for 4 years. By fullstack I mean: backend, frontend, cloud and ops.\nI have also been a freelance for 4 years, and normally I work with clients for service assignments.\nBut this year I decided to take a break and create my own app. I've been on it since January, it's a personal project, independent of the current health situation. It is an application for contacting customer services.\nIt was while developing it that I …",
+      "author": "Valeriane Venance",
+      "date": "2020-11-18",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Q_C9T6wPaTJIcwmxXChKJRRwazvLZMmzuLQB-ScQX7edii.width-808.png",
+      "link": "https://www.twilio.com/blog/create-a-react-native-module-gregoire-hertault",
+      "title": "Create a React Native Module, Discussion with Grégoire Hertault"
+    },
+    {
+      "abstract": "デベロッパーエバンジェリストの池原です。今年の4月から定期的にTwitchでストリーミングをしています。ストリーミングではTwilioQuestや、自分自身が興味のあるプロダクトやサービスを試している日々です。\nそのストリーミングチャンネルで2020年11月11日（水）にTwilio Championsのお一人である古里武士（ふるさと たけし）さんをお招きしお話を伺いました。ここに至るまでの背景も含め、今回のインタビューを振り返ります。\nTwilioと開発者\nTwilioと開発者は切っても切れない関係です。我々はSMS、音声通話、Email、ビデオなど多種多様なコミュニケーションチャネルを利用できるAPIを提供しています。APIの使用量に応じて課金される「Pay as you go（従量課金）」モデルを採用しているため、開発者に利用いただくことがビジネスの拡大にとって重要な要素になります。\nそのため私が所属するDeveloper Networkでは開発者向けドキュメントの拡充に加えTwilioQuestの提供やハンズオン、ミートアップの支援など、開発者リレーション活動を展開しています。自分自身も日本やアジア・パシフィック地域において開発者のみなさんをご支援できる活動は何かということを日々考えるようにしています。\nTwilio Championsプログラム\nこのようにTwilioは開発者と密接な関係を築いてきました。そして、この開発者リレーションの一環として世界各地で開発者コミュニティを牽引し、Twilioの認知向上をご支援いただいている皆様をTwilio Champions …",
+      "author": "Daizen Ikehara",
+      "date": "2020-11-18",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/bWg56paRQParDBjYIc5dwgNI1YLyKDK9zLYhssbcx6rvUP.width-808.jpg",
+      "link": "https://www.twilio.com/blog/twilio-champions-interview-takeshi-furusato",
+      "title": "Twilio Championsインタビュー: Doerに聞く - 古里武士さん"
+    },
+    {
+      "abstract": "It was your colleague’s, relative’s, or friend’s birthday, but in between all your busy day-to-day operations you missed an opportunity to send them a heartwarming message? You want to automatically send birthday messages to all your regular customers, but you don’t know how to?\nWhy not hand over this task to an n8n (pronounced “n-eight-n”) workflow? n8n provides extendable workflow automation that integrates with over 90 different apps, including Twilio Messaging.\nIn this post you’ll learn how to automate sending personalized congratulations and never forget a birthday and anniversary again. You won’t need to do any programming to build the solution: n8n provides a visual workflow designer and Twilio Messaging can be set up from the Twilio user interface.\nYou’ll enter your contact list for congratulation messages in Google Sheets to keep the maximum flexibility. As your list of contacts grows and the variety of messages you send increases …",
+      "author": "Isabel Hildebrand",
+      "date": "2020-11-17",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/n8n-congrats_1.width-808.png",
+      "link": "https://www.twilio.com/blog/sending-automated-congratulations-with-google-sheets-twilio-and-n8n",
+      "title": "Sending Automated Congratulations with Google Sheets, Twilio, and n8n"
+    },
+    {
+      "abstract": "The Twilio Conversations API is a great way to build a unified messaging solution that works across SMS, MMS, WhatsApp, web and mobile chat. In this tutorial you will learn the basics of the Conversations API by creating a web chat application with support for multiple chat rooms.\n\nThe main features of the application we will build are:\n\nA Flask backend that logs users in.\nA command-line interface to manage your chat rooms.\nA Rect front end that allows your users to chat on the different chat rooms.\n\nRequirements\nTo follow this tutorial you need the following components:\n\nPython 3.6 or newer. If your operating system does not provide a Python interpreter, you can go to python.org to download an installer.\nNode.js 14 or newer. Review the installation instructions for your operating system.\nThe Yarn package manager for Node.js. Review the installation instructions for your operating system.\nA Twilio account. …",
+      "author": "Miguel Grinberg",
+      "date": "2020-11-17",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/zCjhMYFnxvrcxrdn-mqPqpJfR7p46ICXii8rfvE7GAwIld.width-808.png",
+      "link": "https://www.twilio.com/blog/multi-room-web-chat-flask-react-twilio-conversations",
+      "title": "Build a Multi-Room Web Chat Application with Flask, React and Twilio Conversations"
+    },
+    {
+      "abstract": "The camera eats first - it's the motto that fuels a lifestyle for some people, especially those on Instagram. Nowadays, people make separate social media accounts dedicated to the food they eat - whether it's homemade, fine dining, or simply snacking. Many people often seek a huge following on their food-dedicated Instagram accounts too because that gives them the opportunity to gain potential sponsorships, shoutouts, and just the satisfaction of knowing that people are interested in sharing the love for food.\nHowever, there's often pressure of crafting the perfect post. Social media influencers go through great lengths to capture the most appealing photo or to come up the wittiest and most eye-catching caption to go with the photo. There's a lot of creative effort that goes into maintaining a social media presence. Wouldn't it be nice if you had someone else write the captions for you so that you can …",
+      "author": "Diane Phan",
+      "date": "2020-11-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/MjVStl-h-Ewh2qeqSyJLMPk9UitCFgwSEaFgeVK-W-NQHv.width-808.png",
+      "link": "https://www.twilio.com/blog/instagram-food-whatsapp-python-openai-gpt3-clarifai",
+      "title": "How to Start an Instagram Food Account Using Twilio WhatsApp API, OpenAI's GPT-3 Engine, and Clarifai API"
+    },
+    {
+      "abstract": "Feeling known and celebrated for who you are establishes connections with others and creates the foundation for community. That’s the heart of our Employee Resource Groups (ERGs) at Twilio. We believe that a variety of viewpoints and voices fuel success, so we made it a value – Be Inclusive. Diversity, representation, and inclusion matter here. You may know we value these, but seeing is believing. That’s why we recently celebrated Latinx Heritage Month globally with a variety of activities and events intended to support, share, and promote our Latinx Twilions in the US and abroad.  \nLatinx Heritage Month (September 15 to October 15) celebrates the rich history, culture, presence, and influence of Hispanic and Latin Americans in the United States. It coincides with independence day for eight Latin countries – five of them on September 15. For 20 years, it was a one-week event. However, in 1988, the US began …",
+      "author": "Twilio",
+      "date": "2020-11-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/3z-eh0txSkexojLIoDXjbXUuWMpRDWKeP6DglmA3Ob1Wmw.width-808.png",
+      "link": "https://www.twilio.com/blog/latinx-heritage-month",
+      "title": "Celebrating Latinx Heritage Month at Twilio"
+    },
+    {
+      "abstract": "Slack - (almost) the defacto team collaboration software, Visual Studio Code - one of the most popular code editors on the market at the time of writing, and the desktop version of WhatsApp all have one thing in common: they were all built with Electron.js. With these powerful companies adopting Electron.js over native desktop software development methods, Electron.js has established itself as a trustworthy framework for developing desktop applications.\nIn this tutorial, you will learn what Electron.js is all about and how you can use it to power your next amazing idea.\nAt the end of this tutorial, you will have developed a desktop application that:\n\nIs built from the ground up with web technologies\nCommunicates between the Main and the Renderer processes\nMakes use of Electron.js APIs to access features that are not available in the browser API\nDisplays desktop notifications\n\nProject Requirements\nGet to Know Electron.js\nSimply …",
+      "author": "Fikayo Adepoju",
+      "date": "2020-11-13",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_2_2_6JhGnn7.width-808.png",
+      "link": "https://www.twilio.com/blog/an-introduction-to-building-desktop-applications-with-electron",
+      "title": "An Introduction to Building Desktop Applications with Electron"
+    },
+    {
+      "abstract": "Welcome to the first interview on ‘The Flex Playmaker’ series. When planning for these series of interviews with leaders championing Flex, I had only one person in mind to start the series - Tony Lama.\nTony Lama is a contact center technology veteran with over 22 years of experience and proven successes in the development and execution of global go to market strategies. Tony joined Twilio in 2019 to lead Twilio's Contact Center Sales and GTM.  \nTony's unique set of experiences having trained, tested, deployed, supported, architected, evangelized, and sold contact center technology make him a unique Sales/GTM leader. Tony has helped successfully launch and support numerous contact center offerings at both Aspect and Amazon Web Services prior to joining Twilio.\nGet to know Tony\nTony was born and raised in Hialeah, Florida, which was once the city with the most foreign born American citizens in the country. He is …",
+      "author": "Vishnu Vardhan Ravi",
+      "date": "2020-11-13",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/flex-playmakers-1-tony-lama_dnXIwig.width-808.png",
+      "link": "https://www.twilio.com/blog/flex-playmaker-interview-tony-lama",
+      "title": "The Flex Playmaker Expert Voice #1 – Tony Lama"
+    },
+    {
+      "abstract": "With the recent announcement of Twilio API for WhatsApp and ongoing excitement around Twilio Flex, I thought it might be fun to bring WhatsApp into the contact center space. With just a few minutes of setup, customers can reach your business through an entirely different channel. Let’s take a look at how the hottest new things at Twilio work seamlessly together!\nRequirements\nIf you'd like to follow along and bring WhatsApp into Flex, you’ll need:\n\nA Twilio account (sign up for a free Twilio account here)\nA project with Twilio Flex (get started here)\nThe WhatsApp Sandbox Channel. Follow these instructions to install the WhatsApp Sandbox Channel in your account. You will also need to connect your own WhatsApp account with the sandbox\n\nLet’s get started!\nStart with Flex\nIf you’ve already set up your Flex instance, you can skip ahead to the …",
+      "author": "Jennifer Aprahamian",
+      "date": "2020-11-12",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/flex_whatsapp_generic_blog_header_4-5.original.width-808.png",
+      "link": "https://www.twilio.com/blog/whatsapp-and-flex-in-minutes",
+      "title": "Twilio WhatsApp API and Flex in Minutes"
+    },
+    {
+      "abstract": "IntroIn this article we will see how to automate testing of your Flex plugin. Manual frontend testing is very tedious, error prone and an outdated approach. It can seriously impact your development process. In the spirit of good modern software development practice, the more you automate your frontend testing, the better. This article will cover both snapshot testing (to check your component renders correctly) and end-to-end browser testing (to check that your component responds correctly to user interactions).This article aims to be an introduction to this very complex topic and provide you the tools to get started.RequirementsTo follow along with this blogpost you need the following:A Twilio Flex project. You can get a free one hereThe Twilio CLI. You can install it using the instructions hereThe Flex Plugin CLI: you can install it using the instructions here. Make sure you have at …",
+      "author": "Giuseppe Verni",
+      "date": "2020-11-12",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/flex-jest_1.width-808.png",
+      "link": "https://www.twilio.com/blog/flex-plugins-automated-tests",
+      "title": "Automated tests for your Flex plugins using Jest and Puppeteer"
+    },
+    {
+      "abstract": "Java 8 was released in 2014, and introduced a raft of new language features such as Lambdas and the Streams API. A lot has happened since 2014 - Java is now at version 15, but industry surveys consistently report 8 as the most widely-used version, with very few developers using 7 or lower.\nIn October this year, the Twilio Java Helper Library was updated to use Java 8 features in release 8.0.0. This new major version reflects the fact that the library no longer supports Java 7.\nOne Java 8 API which sometimes gets overlooked is the CompletionStage API, usually accessed through the CompletableFuture class. The CompletionStage API lets programmers define pipelines of asynchronous operations for data, and handles the asynchronous behaviour for you. You define what you want to happen, and Java takes care of when it can happen.\nIn this post I'll show how you …",
+      "author": "Matthew Gilliard",
+      "date": "2020-11-12",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/gdfF1JFrAZu__7I5G5SEsuxNeCABx9LeXCDtXWwEkbnuEa.width-808.png",
+      "link": "https://www.twilio.com/blog/asynchronous-api-requests-java-completablefutures",
+      "title": "How to make asynchronous API requests in Java using CompletableFutures"
+    },
+    {
+      "abstract": "November 20: World Children’s Day“Around the world, children are showing us their strength and leadership advocating for a more sustainable world for all. Let’s build on advances and re-commit to putting children first. For every child, every right.” -UN Secretary-General António GuterresLast month, Twilio open-sourced our WePledge program to empower individuals and company employees to build positive change globally by committing 1% of their personal time or resources to do good. To accelerate the WePledge community’s impact, Twilio is donating $1 million USD from our donor advised fund to global nonprofit organizations. If you haven’t yet, join our WePledge movement and select one of ten nonprofits to receive a $100 donation from Twilio.This November, the WePledge community is supporting children globallyTo help you live your Pledge, we provide monthly inspiration and tips for doing good in support of the UN Sustainable Development goals. This November, …",
+      "author": "Christina Frantz",
+      "date": "2020-11-11",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/WePledge_Blog_800x400-OPTD.width-808.png",
+      "link": "https://www.twilio.com/blog/wepledge-november-cause-month-children",
+      "title": "WePledge November Cause of the Month: Children"
+    },
+    {
+      "abstract": "An opportunity to say thank youWith 2020 bringing a host of challenges to us all, World Teacher Day presented itself as an opportunity to pause and celebrate the hard work of Computer Science teachers around the world. Not only have they had to continue finding engaging ways to teach their students, but in a world where everything is done virtually, some extra creativity was required.The challengeWe asked teachers at all levels of education to submit their most creative lesson plans for computer science. The key criteria we looked at was:Distance Learning: lesson is compatible with distance learningAccessibility: lesson plan was created to be inclusive and equitable for all students.Fun / Engagement Factor: We want to hear why this lesson is particularly fun for students!The resultsWe were blown away by the creativity displayed by the educators in bringing Computer Science to life! From …",
+      "author": "Chiara Massironi",
+      "date": "2020-11-11",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/World_Teacher_Day_Blog_2.width-808.png",
+      "link": "https://www.twilio.com/blog/computer-science-lessons-around-world",
+      "title": "Computer Science lessons from around the world"
+    },
+    {
+      "abstract": "We’re excited to announce three new Twilio Editions that expand the availability of our enterprise-scale features to more customers: Security Edition, Data Edition, and Administration Edition.\nThese new Editions offer tailored feature subsets that address key enterprise requirements for scale, like user administration, data and analytics controls, and security and compliance.\nSince we launched Editions in 2016, customers have loved the advanced features that enable increased visibility and control over their Twilio account. As part of Twilio’s mission to fuel the future of communications, we know some businesses need specific controls to satisfy complex requirements. These new Editions solve those needs.\nThe new Editions are the following:\nSecurity Edition\n\nAdditional security controls to meet your regulatory and compliance requirements, including:\n\nMessage Redaction\n\nRemove the message body or the last four digits of a contact phone number from Twilio logs.\n\n\nAudit Events\n\nCreate alerts of changes to your …",
+      "author": "Ben Blackmer",
+      "date": "2020-11-11",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/a2uHQjwWj70P0ppWc7AcNaWUqOKUsJRqbT7HgVJAw8ldA1.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-new-twilio-editions-packages-companies-scale",
+      "title": "Introducing New Twilio Editions Packages For Companies At Scale"
+    },
+    {
+      "abstract": "Last month, we hosted the first ever TQ Tumult contest for student developers. This March Madness-like event took place over the span of two weeks and featured 101 students from 24 different schools completing missions and objectives in TwilioQuest, a PC role-playing game inspired by classics of the 16-bit era where players helped defeat the evil Legacy Systems while learning skills related to Twilio and general programming.\n\n775,750 experience points (XP) was completed by the end, making it the second highest achieving TwilioQuest event after Virtual Superclass at SIGNAL 2020.\nToday, we’re happy to announce the winners of the contest who will receive personal streaming setups and school honor. Here are the winners:\nTQ Tumult Winning Teams\n\nTaking first place was team rip mixer, a team of five Harvard juniors that together earned 137,500 XP! They took a lead early on, starting to complete missions and earn XP …",
+      "author": "Lizzie Siegle",
+      "date": "2020-11-10",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/tqtumultwinners.width-808.png",
+      "link": "https://www.twilio.com/blog/announcing-tq-tumult-winners",
+      "title": "Announcing the TQ Tumult Winners!"
+    },
+    {
+      "abstract": "The tension of blogging really begins after publishing. Who read it? How do they feel? There are numerous questions that flood the mind of any author, but more importantly, most authors just want their content read.  \nSending bulk SMS is a great tool to have in your toolbelt to encourage traffic to your WordPress blog. Imagine being able to send an SMS to every subscriber to your blog.\nLet’s build a WordPress plugin in PHP using Twilio Programmable SMS and send text messages to readers about topics they care about.\nPrepare WordPress for the Plugin\nPlugins let you extend and add functionality to your WordPress site. Since we are adding an entirely new function to WordPress, we have to use a plugin to achieve this.\nIf you haven’t already installed WordPress, you can download and install a copy by following the installation instructions here. I have my WordPress installation …",
+      "author": "Onwuka Gideon",
+      "date": "2020-11-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/8ud4ml_u7hZPVHJ8_lb2QOuj9LvcJh6rm8C5fRTqCkEReO.width-808.png",
+      "link": "https://www.twilio.com/blog/build-custom-wordpress-plugin-send-sms-twilio-programmable-messaging",
+      "title": "Build a Custom WordPress Plugin to Send SMS with Twilio Programmable Messaging"
+    },
+    {
+      "abstract": "お知らせ：SendGridの認証方法の変更が行われます。フリーアカウントをお持ちのお客様の場合は、11月18日(米国時間)。有償アカウントをお持ちのお客様の場合、12月9日(米国時間)に以下の変更が行われます。\n\n\nBasic認証からAPIキーを使った認証へ変更（APIキーを使った認証方法については、こちらのドキュメントを参照ください）\n\n\n2 Factor Authenticationが必須化（2FAの有効化については、こちらのドキュメントを参照ください）\n\n\nアカウントのセキュリティを理解する\nすべてのセキュリティソリューションには、使いやすさと摩擦の適切なバランスを見つけることが必要です。私たちは、攻撃者にとっては侵入し難く、本来アクセス可能なユーザーにとっては安全かつ簡単にアクセスができるようにしたいと考えております。適切なバランスを見極めるためには、何を保護しているかに依存します。自分の家のドアに鍵をかけることは難しくないと思いますが、Appleストア店舗の場合、警告システムを設置し、さらに警備員を雇う必要があるでしょう。\nオンラインでより多くのアカウントを保護する場合、適切なレベルのセキュリティを適用することを考慮する必要があります。地元の花屋のウェブサイトであればアカウントとパスワードだけで十分な可能性はありますが、銀行口座やメールアプリケーションには追加の保護が必要です。\n認証に失敗した場合、アカウントの乗っ取り（Account Take Over=ATO）につながる可能性があります。これはお客様からの信頼を失うだけでなく、ATOは詐欺的な取引で実費を会社が …",
+      "author": "Mitsuo Nagano",
+      "date": "2020-11-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/SendGrid2FA.width-808.jpg",
+      "link": "https://www.twilio.com/blog/sendgrid-2fa",
+      "title": "二要素認証の価値"
+    },
+    {
+      "abstract": "Twilio and Segment have come together to tear down the data silos that prevent developers from creating amazing customer engagement experiences. The combination of Twilio's developer-first communications platform and the Segment Customer Data Platform makes it much simpler to build those experiences for your customers. And we're ready to prove it to you.\nOne of Twilio's traditions is to reward new employees who demo and build their first Twilio app with a signature red track jacket. For my track jacket app, I wanted to begin to show you the power of Segment and Twilio together. I quickly put together a frustrated customer notification app – combining Segment's analytics and audience identification with Twilio's communications channels.\nThis application will show how to send Voice, SMS, and WhatsApp notifications via Twilio when one of your customers triggers an event on your website – whether that's an abandoned shopping cart, …",
+      "author": "Tido Carriero",
+      "date": "2020-11-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/FxuKJEaTGw24wESgCNOz05zxWdfRLDyxNi9-xPISu8aXdA.width-808.png",
+      "link": "https://www.twilio.com/blog/frustrated-customer-notifications-segment",
+      "title": "Twilio Segment Day One: Serving Customers with my Track Jacket App"
+    },
+    {
+      "abstract": "Xiang Xu from VOYCE joins us today for this guest post on how to add VOYCE’s interpreter capabilities to a telemedicine waiting room and video chat app.\nVOYCE provides remote video interpretation services to the health care, legal, and business communities. Our professional, qualified, and medically trained interpreters service 220+ languages and dialects. Our platform can tightly integrate with Twilio Programmable Video and Programmable Voice.\nThis post will show you how to add VOYCE’s interpretation services to a Twilio Programmable Video telemedicine room. A medical provider can add an interpreter to the room with a single click of a button.\nAt a high level, here are the steps we’ll be following:\n\nGenerate a Twilio Video token for a VOYCE interpreter\nSet up a basic front end user interface for the VOYCE service\nBuild an integration with the VOYCE service related core APIs\n\nIf you’d like to skip straight to the …",
+      "author": "Xiang Xu",
+      "date": "2020-11-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/AjwGYsScRaXcA4BjQjrO0Vk3Icfw5h3BUpSLkL_RB8gQsE.width-808.png",
+      "link": "https://www.twilio.com/blog/telemedicine-video-interpreter-voyce",
+      "title": "Add an Interpreter to a Telehealth App with VOYCE and Twilio Programmable Video"
+    },
+    {
+      "abstract": "AMP for email is a way to build emails that allow users to interact dynamically with the content of the message. AMP emails can load up-to-date data, handle form submissions inline, provide interactive components like carousels and accordions, and even use modern CSS.\nAMP for email is a combination of a whitelisting process and a subset of the open source AMP HTML web component library that together allows you to build and send dynamic emails. You may have seen examples of this in your inbox before — my favourite is this experience when commenting on a Google Doc.\n\nYou too can create email experiences like this. In this article we're going to send a basic AMP Email using Twilio SendGrid.\nWhat you'll need\nTo build your first AMP Email and send it with SendGrid you will need:\n\nA SendGrid account with a dedicated IP address (this requires at least …",
+      "author": "Phil Nash",
+      "date": "2020-11-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/1-3B4YRfy1_1izzXfgJk3uk-TggOuRPtWn2livv_6M_bP7.width-808.png",
+      "link": "https://www.twilio.com/blog/send-interactive-amp-email-twilio-sendgrid",
+      "title": "Send your first interactive AMP Email with Twilio SendGrid"
+    },
+    {
+      "abstract": "November and December can be a fun time, especially when it comes to giving thanks and giving to others. If you are an Instagram influencer or follow someone that has a big brand name and social media presence, then you'll know that people will often try to interact with their audience or gain more followers by hosting a giveaway. This is often a great tactic to gaining sponsorships from other brands through promoting giveaways.\nNow I don't know what it's like to host a giveaway to thousands of people, make sure that each person is qualified to enter, and then select a winner, because that's too much for one person to handle. So I thought, what if Twilio can help get the job done?\nIn this tutorial, you will learn how to host a social media giveaway and generate a winner within one second with the help of Python, SQLite3, …",
+      "author": "Diane Phan",
+      "date": "2020-11-06",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/wrixGZQL85Fhprw--fGH_kNKZZWVigbWEXu25MHzd0Qis2.width-808.png",
+      "link": "https://www.twilio.com/blog/social-media-giveaway-twilio-whatsapp-python-sqlite3",
+      "title": "How to Host a Social Media Giveaway Using Twilio WhatsApp API, Python, and SQLite3"
+    },
+    {
+      "abstract": "“There are only two hard problems in computer science: cache invalidation, naming things, and off-by-one errors.” — Riff on a joke by Phil Karlton\nAfter this post, one of these problems will become a little easier for you to solve: you’re going to learn about indices and ranges. While nearly everyone programming in C# uses standard indexes on a regular basis, there are some new ways of accessing arrays and lists that can make your development life a little bit easier. In a few minutes you’ll be up to speed on this C# 8.0 feature and more prepared to take on the C# 9.0 release.\nReview\nOne of the first things you learn as a beginning programmer in any language is how to access an array. Most languages use a 0-based index. Some languages use 1-based array indexes (and are wrong), but the basic syntax is similar. Here are a …",
+      "author": "Dustin Ewers",
+      "date": "2020-11-06",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/csharp-8-indexes.width-808.png",
+      "link": "https://www.twilio.com/blog/c-sharp-8-excelling-at-indexes",
+      "title": "C# 8 – Excelling at Indexes"
+    },
+    {
+      "abstract": "Today's business communications are constantly changing. Years ago, it simply involved voice calls. Now, businesses use calls, messaging, email, mobile apps, chat, and video conferencing to communicate internally and externally on any given day.This evolution in communications not only changes employee and customer behavior—but it also changes the hardware and software required to make it happen. That's where VoIP (Voice Over Internet Protocol) comes in. VoIP empowers businesses to replace their outdated, traditional telephones with a complete communications package that happens all on the internet.Chances are you've used more than one VoIP-powered app already today. Examples include:SkypeGoogle HangoutsZoomWhatsAppFacebook MessengerVoIP is changing the world of communications. With easy setup, low costs, and greater functionality, it's a technology that the future is embracing.Below, we'll deep dive into the nitty-gritty details of VoIP, including what it is, how it works, and why …",
+      "author": "Jesse Sumrak",
+      "date": "2020-11-06",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Search_-_Canva_IelsJgI.width-808.png",
+      "link": "https://www.twilio.com/blog/fundamentals-of-voip",
+      "title": "The Fundamentals of VoIP (Voice Over Internet Protocol)"
+    },
+    {
+      "abstract": "Sometimes, when cost, resources, and time-to-market are factors, it can be worth considering going the serverless route. And, if a development team has decided upon a Node.js stack for the back-end, the benefits of TypeScript are enormous for safety, developer productivity, and new developer onboarding.\nTypeScript is an extension of pure JavaScript - a “superset”, if you will - and adds static typing to the language. It enforces type safety, makes code easier to reason about, and permits the implementation of classic patterns in a more “traditional” manner. As a language extension, all JavaScript is valid TypeScript, and TypeScript is compiled down to JavaScript.\nWith Twilio Functions, you can easily create “serverless” applications that are natively integrated with the Twilio ecosystem. That means support for SMS messages, for example, is first-class. You won’t have to manage infrastructure or provision servers, and you can very quickly move from development to production. …",
+      "author": "Jamie Corkhill",
+      "date": "2020-11-05",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/typescript.width-808.png",
+      "link": "https://www.twilio.com/blog/integrate-typescript-with-twilio-functions-and-programmable-sms",
+      "title": "Integrate TypeScript with Twilio Functions and Twilio Programmable SMS"
+    },
+    {
+      "abstract": "OpenAI's API for their new GPT-3 model provides a very versatile, general-purpose “text in, text out” interface, making it applicable to virtually any language task. This is different from most other language APIs, which are designed for a single task, such as sentiment classification or named entity recognition.\nLet's walk through how to unlock the capabilities of this API with Node.js.\nTaking care of dependencies\nBefore moving on, you will need an up to date version of Node.js and npm installed.\nNavigate to the directory where you want this code to live and run the following command in your terminal to create a package for this project:\n    npm init --yes\n\nThe --yes argument runs through all of the prompts that you would otherwise have to fill out or skip. Now that we have a package.json for our app, run this command in the same directory to install the Got …",
+      "author": "Sam Agnew",
+      "date": "2020-11-03",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_33.width-808.png",
+      "link": "https://www.twilio.com/blog/getting-started-with-openai-s-gpt-3-in-node-js",
+      "title": "Getting Started with OpenAI's GPT-3 in Node.js"
+    },
+    {
+      "abstract": "The vast majority of SMS messages are sent and received from person to person on mobile phones. But there are also times it’s helpful to be able to send and receive SMS messages from a custom application running on a desktop or laptop computer.\nIf you’ve built an application with Windows Presentation Foundation (WPF) you can integrate bidirectional SMS capabilities into your custom user interface with Twilio Messaging. Twilio’s SMS service enables you to send and receive SMS messages programmatically through a Twilio phone number.\nIn this tutorial you’ll learn how to set up a Twilio phone number to send and receive SMS messages and how to interact with the Twilio APIs to use the Twilio phone number to send and receive SMS messages from a WPF application. You’ll see how a WPF user interface can be automatically updated when new messages arrive and you’ll learn how to group messages …",
+      "author": "Jeff Rosenthal",
+      "date": "2020-11-02",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/wpf-twilio-sms_4eHXmca.width-808.png",
+      "link": "https://www.twilio.com/blog/sending-receiving-sms-messages-in-wpf-with-twilio",
+      "title": "Sending and Receiving SMS Messages In Windows Presentation Foundation Apps with Twilio Messaging"
+    },
+    {
+      "abstract": "We're excited to announce the close of Twilio's acquisition of Segment. You can read more about the details in our press release.\nUnderstanding your customers is critical to a successful customer engagement strategy, but information about customers – what they bought, when they needed help, how they use your apps and websites, and more – is probably siloed across dozens of software systems inside your company. These data silos frustrate developers and companies as they try to build a single view of their customer so they can engage in a meaningful, relevant way.\nThese data silos are the enemies. They destroy customer relationships by driving awful service experiences and irrelevant marketing messaging. I faced this challenge at each of the four companies I founded, and, as a software developer, I constantly battled to wrangle data in a way that would allow us to better serve our customers.\nSegment …",
+      "author": "Jeff Lawson",
+      "date": "2020-11-02",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/gSpLupSZNQicmRRbTo8VaKs27OMsJZ--mA6RxwmydPR5b1.width-808.png",
+      "link": "https://www.twilio.com/blog/twilio-acquires-segment",
+      "title": "Twilio Acquires Segment, the Market-leading Customer Data Platform"
+    },
+    {
+      "abstract": "In this tutorial you’ll learn how to implement in-browser calling in a form reminiscent of a walkie talkie. It's a unique way to connect with other people in real time and bring back some childhood fun! The lessons learned in this post can also be applied to any number of browser-based calling applications.\nTo complete this tutorial, you’ll need the following:\n\nThe Twilio Serverless Toolkit plugin for the Twilio CLI\nA Twilio account\nA GitHub account if you’d like to deploy your app to GitHub Pages\n\nThis app has three parts:\n\nA React.js frontend\nA Node.js backend running on Twilio Functions\nA TwiML application created through the Twilio Console\n\nThe TwiML application is the bridge between the frontend and backend. Because this app involves browser-to-browser calling instead of phone-to-phone calling, you’ll learn how to create a virtual Twilio Device that connects to your TwiML application. This Twilio Device is a …",
+      "author": "Ashley Boucher",
+      "date": "2020-10-28",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/walkietalkie.width-808.png",
+      "link": "https://www.twilio.com/blog/build-a-browser-based-walkie-talkie-react-twilio-programmable-voice-functions",
+      "title": "Build a Browser-Based Walkie Talkie with React, Twilio Programmable Voice, and Twilio Functions"
+    },
+    {
+      "abstract": "This post is a part of a two-part series on integrating Twilio and SendGrid services into your Wix site using Corvid.\nI hope you had a chance to read the great post by my colleague Meredith, diving into how you can use Corvid to integrate Twilio into your Wix site. In the following post, I’m going to run through the process of integrating SendGrid to create email notifications, also known as transactional emails.\nIf you aren’t familiar, Corvid helps developers build web applications as quickly as possible. It provides a complete solution that combines the Wix visual builder with a built-in, online IDE.\nThe Corvid team has also put significant effort into streamlining the process of integrating 3rd-party services such as SendGrid. While SMS is a critical tool for communicating with users, it isn’t the only one. Email remains one of the most important tools available to reach …",
+      "author": "Joshua Alphonse",
+      "date": "2020-10-28",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Add_Transactional_Email_to_your_Wix_Site_using.width-808.png",
+      "link": "https://www.twilio.com/blog/add-transactional-email-notifications-wix-site-twilio-sendgrid-corvid-ide",
+      "title": "Add Transactional Email to your Wix Site using Twilio SendGrid and Corvid IDE"
+    },
+    {
+      "abstract": "In recent years, SMS has been widely used as one of the cost-effective and seamless means of disseminating information in the form of a survey. This allows survey creators to reach a larger audience and facilitate gathering data more efficiently.\nIn this tutorial, we will build an automated customer survey application to receive customer feedback for a fictional company through SMS. In leveraging Twilio Programmable SMS, we will connect a Twilio phone number to a Laravel application to build the business logic that will determine when to begin the survey, the questions to ask, and a persistent layer to save the users’ responses. Each participant will send an SMS response to the Twilio number until the survey is completed.\nLet's begin building an automated survey that can be answered via SMS!\nPrerequisites\nYou will need the following to complete this project:\n\nKnowledge of building applications withLaravel\nA Twilio Account …",
+      "author": "Oluyemi Olususi",
+      "date": "2020-10-27",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/gOxiVFZ9XBKbBqXxNhYogH8r2xhP7kzg6HyocTal3zKEQp.width-808.png",
+      "link": "https://www.twilio.com/blog/build-automated-sms-survey-laravel-php-twilio-programmable-sms",
+      "title": "Build an Automated SMS Survey with Laravel, PHP, and Twilio Programmable SMS"
+    },
+    {
+      "abstract": "You may be a person who uses WhatsApp in your daily life. You may have come across some difficulties while chatting with a person who doesn’t speak your language. And you may be tired of having to quit WhatsApp to open a translator app to get your text messages translated! If so, you’re in the right place!\nI will guide you through the following steps in order to get your WhatsApp translator up and running!\nTutorial Requirements\n\nPython 3.7 or newer.\nFlask. We will create a web application that responds to incoming WhatsApp messages with it.\nngrok. We will use this localhost tunneling tool to connect the Flask application running on your system to a public URL that Twilio can connect to. If you don’t have ngrok installed, you can download a copy for Windows, MacOS or Linux.\nA smartphone with an active phone number and WhatsApp installed. …",
+      "author": "Carla Morral Martín",
+      "date": "2020-10-26",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/J7xlyqe7_NK8f-7BOchvvoyPzoI0z3W2oL3YVKBRMA6d2T.width-808.png",
+      "link": "https://www.twilio.com/blog/python-flask-microsoft-azure-whatsapp-translator",
+      "title": "How to Build a WhatsApp Translator with Twilio, Python, Flask and Microsoft Azure"
+    },
+    {
+      "abstract": "Delight your Trick-or-Treaters with a remote-operated candy machine that talks or texts back\nFor neighborhoods welcoming Trick-or-Treaters, Halloween is hitting a little different this year. Not only do we need to create a spooktacular candy distribution experience, but we need to do so while still standing 6+ feet away.\n\nIf you're looking for a higher tech solution than throwing candy at your neighbors, you could try Candybot: a voice-interactive, remote-operated, candy-dispensing robot. Candybot auto-vomits candy on command or in response to the words \"Trick or Treat.\"\n\nCandybot can work via sound or text. It can relay the sound of the Trick-or-Treaters to an operator insi …",
+      "author": "Christine Sunu",
+      "date": "2020-10-26",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Photo_blog_Header_1_2_TBeNEF3.width-808.png",
+      "link": "https://www.twilio.com/blog/candybot-social-distance-candy-dispenser",
+      "title": "Candybot: A Socially Distant Talking Halloween Candy Dispenser"
+    },
+    {
+      "abstract": "The Internet of Treats\nFor the 2020 Twilio internal Solutions Engineering Hackathon, our team set out to do the impossible (at least, by 2020 standards): save Halloween. We combined Twilio’s programmable communication channels with Electric Imp, our platform for internet connected devices, to create the ultimate candy dispensing robot.\nWe set out with three goals:\n\nThe robot needed to release candy without physical human interaction.\nThe robot had to be modular so we could trigger it in many ways.\nAnd finally, it had to be doable! None of us are IoT experts, so we needed to keep it simple.\n\nThe final product:\n\nCandybot dressed up for Halloween\n \n\nCandybot’s remote operator board, with videos of how it works\n \nIn this blog post, we’ll cover the technologies used to create our robot as well as share some tips on how to make your own. We’ll start with the dispenser and …",
+      "author": "Ankur Kumar",
+      "date": "2020-10-26",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Photo_blog_Header_1_4_gg0p0y6.width-808.png",
+      "link": "https://www.twilio.com/blog/build-social-distance-candy-dispenser",
+      "title": "How to build a socially distant Halloween candy dispenser"
+    },
+    {
+      "abstract": "My name is Valériane, and when I was little I was a teddy bear. Life was carefree and mellow. Then one morning, like all teddy bears, I had to grow up and go to school. And it never was my thing. The growing bear was not getting on with the learning methods offered by school.\n\nFrom school to swimming pool\nI loved to learn, but not the way we had to do it. I had to find a way to escape the five boring days a week I was spending behind closed walls. No surprise that at 16 years old I was selling croissants in a bakery three days a week. I had found my way to diminish interactions with school while still learning, in a more tangible way this time. I kept on that path for a while, until a morning, a little before my twenties. …",
+      "author": "Valeriane Venance",
+      "date": "2020-10-26",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/T7WaatZU5jqDoRdu5YmnOngs2411Blv8WTYh1c3Y8v8_8d.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-developer-evangelist-valeriane-venance",
+      "title": "Introducing Developer Evangelist Valériane Venance"
+    },
+    {
+      "abstract": "Build and Deploy with Liz Moy is a curiosity-driven podcast that explores the lives of people who create things with code. In this episode we dive into a conversation with a creative who makes things with code, hardware, soldering irons, and even, on occasion, faux fur.\nChristine Sunu is a maker who designs and builds technology with emotive, human-centered interfaces. (She also happens to be IoT developer engagement manager at Twilio). We talked about Sourd.io, an IoT Sourdough Starter Monitor, which monitors your bread’s temperature, humidity, and rise, so you know how it’s growing and when it needs to be fed.\nHer project was featured on The Verge and Mashable, uses Twilio Narrowband and can be easily attached to the top of a washable canning jar. We also talked about ways people can get started with their own IoT projects and you can get some more ideas from …",
+      "author": "Liz Moy",
+      "date": "2020-10-26",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/-llX8nV0ZpZH5wZ4XQ2vOAjRzE53kU40Ps02iTWwDXnU8J.width-808.png",
+      "link": "https://www.twilio.com/blog/build-and-deploy-liz-moy-christine-sunu-iot",
+      "title": "Build and Deploy Episode 2: Creepy and Cute IoT with Christine Sunu"
+    },
+    {
+      "abstract": "You have probably come across the term GraphQL but do you know what is it? Rest easy (pun not intended), as you will learn about it shortly.\nGraphQL is a query language for APIs and a server-side runtime that allows clients to request only the data that they need from APIs. GraphQL is meant to be a more efficient and flexible  alternative to REST.\nGraphQL was developed and used internally at Facebook and was open-sourced in 2015. It has since gained popularity with more and more developers and companies jumping on the GraphQL bandwagon, building supporting tools and GraphQL APIs. One of the most popular is the Github GraphQL API. GraphQL is language agnostic which means that we can build GraphQL APIs in Python, JavaScript, Java, Scala and many more programming languages.\nGraphQL vs. REST\nWith REST, we model our API as resources, provide endpoints to access particular …",
+      "author": "Alex Kiura",
+      "date": "2020-10-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/rjipQpwVK-XoL67Elc4HtOuuCX5bSvfiarVvQawxFB4kiJ.width-808.png",
+      "link": "https://www.twilio.com/blog/graphql-api-python-flask-ariadne",
+      "title": "Build a GraphQL API with Python, Flask and Ariadne"
+    },
+    {
+      "abstract": "Gumroad is a simple ecommerce tool that allows creators to sell digital products such as films, courses, e-books etc. Gumroad provides Ping, which is an alert in the form of an HTTP POST request that notifies you in real time whenever a product has been purchased.\nIn this tutorial we’ll build a Flask application that automatically sends you SMS notifications whenever there is a sale of one of your products on Gumroad.\nTechnical requirements\nTo follow along, you’ll need the following:\n\nA free Twilio account and a Twilio phone number. If you use this link to register, you will receive $10 credit when you upgrade to a paid account.\nPython 3.6 or newer\nNgrok. This will make the development version of our application accessible over the Internet.\nA Gumroad Account.\nA Heroku Account\nA mobile phone with SMS support\n\nCreating a Python environment\nLet’s create a …",
+      "author": "Dotun Jolaoso",
+      "date": "2020-10-24",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/m9mjCrSr2whsp0p413uzQzmIJ6KFVcgeMoM8a9tGvyCjIf.width-808.png",
+      "link": "https://www.twilio.com/blog/sms-notifications-gumroad-orders-python-twilio",
+      "title": "Send SMS Notifications for Gumroad Orders with Python and Twilio"
+    },
+    {
+      "abstract": "Je m’appelle Valériane, et quand j’étais petite, j’étais un ourson. La vie était insouciante et moelleuse. Et puis un matin, comme tous les oursons, j’ai dû grandir. J’ai appris à faire mes boucles de lacets seule et j’ai commencé à aller à l’école.\n \n\n \nC’était là la fin de ma tranquillité.\nAutant parce que je nouais parfois mes deux chaussures ensemble que parce que le rythme et les méthodes d’apprentissage proposés par l’éducation nationale ne me correspondaient pas.\nDéboires scolaires\nJ’ai corrigé ma façon de nouer mes lacets mais rien n’y fit pour l’école. J’aimais apprendre, mais pas la façon imposée de le faire. Pas étonant donc qu’a mes 16 ans je me retrouvai à vendre des croissants dans une boulangerie 3 jours par semaine. J’avais ainsi trouvé le moyen de diminuer les interactions avec l’école tout en continuant à apprendre des choses, plus concrètement cette fois. …",
+      "author": "Valeriane Venance",
+      "date": "2020-10-23",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Copy_of_Event_Template_G_1200_x_628_5S.width-808.png",
+      "link": "https://www.twilio.com/blog/developer-evangelist-presentation-valeriane-venance",
+      "title": "Developer Evangelist présentation, Valériane Venance"
+    },
+    {
+      "abstract": "2020 has brought unprecedented changes in the way businesses interact with their consumers. These changes forced businesses to stand up new use cases seemingly overnight, leading to a significant rise in digital communications. As we head into the end of the year, events like the U.S. Elections, Black Friday, and Cyber Monday make it more important than ever to deliver messages to end users at scale.While Twilio allows customers to deliver messages globally at massive scale, the telecommunications world still has its finite limitations. Our focus continues to be removing those complexities while providing the right level of transparency so our customers can focus on creating truly differentiated experiences. So, we allow you to send as many message requests to Twilio as you’d like. When you send messages faster than your Twilio sender(s) can deliver them, those messages are queued on our platform, and delivered in order. But how …",
+      "author": "Prateek Jain",
+      "date": "2020-10-22",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Screen_Shot_2020-10-22_at_8.45.01_AM.width-808.png",
+      "link": "https://www.twilio.com/blog/new-latency-report-messaging-insights",
+      "title": "The New Latency Report in Messaging Insights"
+    },
+    {
+      "abstract": "Job search is a tedious and time-consuming task. Last year, when I was on a job hunt, I looked for opportunities everywhere - LinkedIn, Facebook groups, Slack channels, Twitter, Indeed, Glassdoor, and sometimes Instagram.\nGiven that there's a huge tech community on Twitter, I found it easier to look for jobs there. To reach out directly to the people who posted the job and get a response from them, positive or negative, made the job search less tiresome. There was no cold messaging, awkward introductions, or long wait as to whether a real person had read my resume or not.\nI'd search on Twitter for keywords like looking for frontend and hiring frontend. I'd scroll through all the results and open the compelling opportunities in new tabs. And before I knew it, I had several tabs open for review.\nCombing through Twitter became a daily practice, and then, one …",
+      "author": "Shajia Abidi",
+      "date": "2020-10-22",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_3_OhakM87.width-808.png",
+      "link": "https://www.twilio.com/blog/automate-your-job-search-with-twitter-and-twilio-programmable-sms",
+      "title": "Automate Your Job Search with Twitter and Twilio Programmable SMS"
+    },
+    {
+      "abstract": "It takes time and a lot of effort to establish your identity at work before you feel comfortable and confident, especially if you’re a member of underrepresented groups. Black and Latinx professionals face a unique set of challenges and obstacles in navigating the workplace. Oftentimes, it can be difficult for these underrepresented groups to picture themselves in positions of power or to identify mentors, sponsors, and allies who understand their experiences. That’s because less than 5% of Fortune 500 company CEOs are Black and Latinx.\nTo help commonly underrepresented groups in the tech community overcome these challenges, Twilio proudly hosted the Navigating Corporate Spaces virtual event, moderated by Growth Account Executive Mónica Cottrell. In this Twilio After Hours event, we brought together two Black and Latinx professionals to share practical tips for thriving in the workplace.\nIdentifying and overcoming imposter syndrome\nFeatured guest Tammy Ramos, J.D., director of coaching services …",
+      "author": "Twilio",
+      "date": "2020-10-22",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/6Z29CjbWhb3Mhk1qWr0ovhbE-orbLRgEq1FYrUNFqv4rKa.width-808.png",
+      "link": "https://www.twilio.com/blog/advocate-yourself-your-work",
+      "title": "How To Advocate For Yourself and Your Work"
+    },
+    {
+      "abstract": "Updated November 4, 20202020 has undoubtedly brought upon massive change in consumer digital spending habits. B2C companies across the board have quickly evolved their strategies to adapt to the new normal, implementing digital communications at different touchpoints in the customer journey. Whether it’s contactless delivery or channel expansion, companies have innovated to continue creating differentiated experiences for their customers.As we head into the holiday season, and specifically Black Friday and Cyber Monday, digital communications will play as critical of a role as ever. Retailers will no longer be able to have people packed into lines or stores. Shopping will be predominantly, if not completely, digital. While it will look different this year, the season is far from cancelled. In fact, we anticipate digital communications to be significantly leveraged so companies can provide their customers with the products and information they need.Leading up to and during Black Friday …",
+      "author": "Twilio",
+      "date": "2020-10-21",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Twilio_logo_D8D2oky.width-808.png",
+      "link": "https://www.twilio.com/blog/twilio-us-sms-mms-short-code-heightened-awareness-period-black-friday-cyber-monday",
+      "title": "Twilio U.S. SMS & MMS Short Code Heightened Awareness Period for Black Friday & Cyber Monday"
+    },
+    {
+      "abstract": "For even the most seasoned Twilio developer, the ability to reach more than 2B monthly active users on WhatsApp, with just a few lines of code, is close to magic. Today, we’re thrilled to share that support for the WhatsApp Business API is now Generally Available whether in Twilio Flex, the Twilio Conversations API, Twilio Programmable Messaging, or when using Twilio Runtime tools like Studio or the CLI.\nSince launching support for WhatsApp on the Programmable Messaging API, more than 200,000 developers have started building on the platform. From customer support, to sales outreach, to supporting refugees, countless businesses and organizations have expanded to the WhatsApp Business API to take advantage of the higher consumer reach, deliverability, engagement rate, and rich messaging features.\nThere have also been a fair share of developer side projects like a WhatsApp-based digital jukebox, a bitcoin currency conversion bot, and …",
+      "author": "Otavio Dalarossa",
+      "date": "2020-10-21",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/OCvVy1gI5ov-jHbJSE-5Gb19efw_KXNKkTD_QCnd1PEiBX.width-808.png",
+      "link": "https://www.twilio.com/blog/whatsapp-api-generally-available",
+      "title": "200,000 developers and counting: the WhatsApp Business API on Twilio is now Generally Available"
+    },
+    {
+      "abstract": "Without downplaying our current situation, we can all admit that COVID-19 phrases are overused. You’ve likely heard these sayings over and over again: “Times are changing,” “During these unprecedented times,” “Our new normal,” or “Where’s all the toilet paper?” But what do these phrases really mean?Aside from the toilet paper (just making sure you’re paying attention!), it’s clear that COVID-19 has transformed our everyday communications. As consumers turn to contact-less interactions, companies from all industries are leaning on developers to re-architect their communications to reflect this changing landscape.Thankfully, you have email to serve as your foundation for a plethora of communications this holiday season. You’re the architect, but we’ll provide the building blocks you need to grow your email program and make it to the inbox...Log In to Lay the Groundwork for Holiday SendingOrSignup for a Free Twilio SendGrid AccountToolbox tips for a well-grounded …",
+      "author": "Koryn DelPrince",
+      "date": "2020-10-21",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/2020_Q4_Campaign_-_Blog_Post_1_-_Twilio_Blog.width-808.png",
+      "link": "https://www.twilio.com/blog/architect-your-email-program-success-black-friday",
+      "title": "Architect Your Email Program for Success This Black Friday"
+    },
+    {
+      "abstract": "Make the next big Internet of Things... thing.\nSIGNAL 2020 was a big one for Twilio IoT. In the keynote, CEO Jeff Lawson talked about Microvisor: Twilio IoT’s new device builder platform for embedded developers. Microvisor is currently in a closed private beta, so we can’t play with it yet. However, we also got to see Twilio IoT’s more widely available offerings via demos, talks, and games.\n\nSIGNAL TV’s live IoT robot battles, powered by Electric Imp. See the full segment here.\nIf you’re itching to hear more about the Microvisor, stay tuned or check out the Twilio IoT live video session coming out on November 5th. And for those of you who want to start building right now, here’s some currently available Twilio IoT tools that you can use today.\n \n1. Electric Imp\nSometimes, we want to build for the Internet of Things, but we don’t want …",
+      "author": "Christine Sunu",
+      "date": "2020-10-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/4DFyTKPVlnvnE-Pqp7AiG1zdEbaE3GqHvclWnSeZK2vMaF.width-808.png",
+      "link": "https://www.twilio.com/blog/5-easy-ways-to-build-with-twilio-iot",
+      "title": "5 easy ways to build with Twilio IoT"
+    },
+    {
+      "abstract": "Halloween is just around the corner, and not only is it the prime time for tricks and treats, but it's also fun for those of you who love a thrill in storytelling. If you love writing – or simply want to get spooked out by what a computer can generate – then this will be a fun project for you to check out.\nIn this tutorial we will implement a task queue in Python to make multiple calls to OpenAI's GPT-3 engine to generate fictional text. Plus, you'll have a neat program to leave on your computer and trick people who look at your screen into thinking that an actual ghost is writing a story!\nTutorial Requirements\n\nPython 3.6 or newer. If your operating system does not provide a Python interpreter, you can go to python.org to download an installer.\nAn OpenAI API key. Request beta access here.\nA …",
+      "author": "Diane Phan",
+      "date": "2020-10-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/O8DsZb_JRJQRxXnL2Kinzl8NaDCWnCLk0rLfW1hgvwV3Ul.width-808.png",
+      "link": "https://www.twilio.com/blog/ghost-writer-spooky-task-queues-python-openai-gpt3",
+      "title": "Build a Ghostwriting App for Scary Halloween Stories with OpenAI's GPT-3 Engine and Task Queues in Python"
+    },
+    {
+      "abstract": "Deno is a new runtime environment for JavaScript and TypeScript. Deno founder Ryan Dahl, who was also the founding developer of Node.js, says Deno is intended to be a more modern version of Node.js.\nWhen Node.js was first released, in 2009, JavaScript didn’t have the async-await mechanism, typed arrays, or the ECMAScript module system. At the time, Dahl recognized that an event loop would be an essential resource for server-side JavaScript and set to work on creating a runtime environment that included one.\nBy 2012, Dahl felt the primary goal of creating a user-friendly non-blocking framework had been achieved, with Node.js having support for multiple protocols, cross-platform support, a relatively stable API, and a growing ecosystem of external modules distributed through npm.\nBut over time it became apparent to Dahl that a number of design decisions, like the early removal of Promises, caused problems. Security, the GYP build system, and …",
+      "author": "Maciej Treder",
+      "date": "2020-10-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/hello-deno.width-808.png",
+      "link": "https://www.twilio.com/blog/hello-deno",
+      "title": "Hello Deno"
+    },
+    {
+      "abstract": "A unified Console experience to access trust products across channels\nAvailable now in Beta\nGet started with Trust Hub today\n\nWhile relationships between businesses and customers constantly evolve, trust remains a critical part of successful customer engagement. If customers don’t trust the communication coming from a business, they won’t engage with it, regardless of the channel. Did you know that over 75% of unidentified calls go unanswered?\nBeing in the customer engagement space for over the last 12 years, we've learned that businesses face challenges keeping up with the increasing regulatory demands and changes in carrier networks to reduce unwanted communications — keeping up with fragmented verification processes across every channel and even within each channel is complex and time-consuming.\nOur goal at Twilio is to fuel the future of communications. As our customers continue to scale globally and adopt new channels, we are committed to helping them create …",
+      "author": "Nupur Vilas Bhade",
+      "date": "2020-10-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Product_Template_-_WhatsApp_2.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-trust-hub-now-in-beta",
+      "title": "Introducing Trust Hub — now in Beta"
+    },
+    {
+      "abstract": "In this tutorial, we are going to build a WhatsApp bot that allows you to manage your Zoom meetings. Some of the functions include creating or deleting a meeting and listing all upcoming meetings. The bot will be built using Twilio API for WhatsApp, Zoom API and the Flask framework for Python.\nTutorial requirements\nYou need the following to follow along in this tutorial;\n\nA Twilio Account: You need to create a free Twilio account to gain access to the WhatsApp sandbox environment. This will allow you to interact securely with the Twilio number assigned to you on your WhatsApp application. A free twilio account comes with certain features and limitations.\nA Zoom Account: You need to create a free Zoom account if you do not already have one. With a zoom account, you can create a zoom app which comes with access to their API.\nPython 3.6 …",
+      "author": "Odunayo Ogundepo",
+      "date": "2020-10-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/d8RuEXWbtvAH6ifR92xJVYXwyzKc1xiGbE34TutUzNN3UG.width-808.png",
+      "link": "https://www.twilio.com/blog/manage-zoom-meetings-whatsapp-python-twilio",
+      "title": "Manage your Zoom Meetings on WhatsApp with Python and Twilio"
+    },
+    {
+      "abstract": "Earlier this year, we introduced Twilio CodeExchange, a searchable directory of customizable code samples to help developers rapidly prototype. Today, we’re excited to share a new CodeExchange feature called Quick Deploy, now in beta, which will enable builders of all kinds to launch these Twilio apps with no code required.\nSimply select the use case you’d like to deploy from our list of Quick Deploy supported apps, fill out a few form fields or get a phone number to customize your app, and hit “deploy” to launch an instantly working Twilio app.\nWhat’s available today with Quick Deploy?\nToday, Quick Deploy is supported across several CodeExchange apps that use our popular products.\nYou can create instantly working prototypes across our products such as SMS, Voice, Video, Email, and Verify. It’s a great way to experiment with what is possible with Twilio, especially …",
+      "author": "Laura Schaffer",
+      "date": "2020-10-20",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/quick-deploy-beta.width-808.png",
+      "link": "https://www.twilio.com/blog/announcing-quick-deploy",
+      "title": "Announcing Quick Deploy, Now in Beta: Launch Twilio Apps Without Code"
+    },
+    {
+      "abstract": "Qunomedical is a medical treatment marketplace, connecting patients to doctors for in-person treatments, regardless of location. It provides patients access to high-quality healthcare from over 1000 doctors, both at home and abroad, facilitating over 10,000 procedures each month.\nChannel Challenges\nBeing highly distributed, great communication is essential. Unfortunately, Qunomedical’s previous system didn’t cater to their exact needs, a story that’s familiar to many companies. They rely on WhatsApp, Facebook Messenger and voice calls to communicate with their customers yet their systems didn’t talk to each other meaning they couldn’t centralize data about customers. Their VoIP system was brittle and undocumented meaning they couldn’t update features or call plans.\nWhatsApp is incredibly important in Europe for cross country communication and they had resorted to using multiple phone numbers and the web interface as a workaround, which resulted in very poor documentation of the customer conversation because their system didn’t have a …",
+      "author": "Justin Pirie",
+      "date": "2020-10-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/dmn6XGPXADFe8JUTe3AfuI_sjckad4KOY9wrXau6iL7UKa.width-808.png",
+      "link": "https://www.twilio.com/blog/qunomedical-medical-marketplace-uses-twilio-flex-to-innovate-with-c20y",
+      "title": "Qunomedical Medical Marketplace uses Twilio Flex to Innovate with C20Y"
+    },
+    {
+      "abstract": "Você acabou de configurar o Flex e deve estar se perguntando: Mas e agora?\nAgora você deve estar pensando sobre sua estratégia de roteamento e filas, certo? Nesta postagem vamos cobrir algumas opções básicas para enfileiramento baseado em \"skills\" (habilidades), já que isso vai definir os alicerces para seus relatórios do Contact Center.\nVamos começar!\nO que vamos construir hoje\nO Flex permite explorar todo o poder do Twilio TaskRouter, que é um sistema poderoso de roteamento baseado em atributos, e o coração do contact center. Ele também é totalmente programável, permitindo controlar o seu contact center utilizando código. Vamos falar sobre um caso de uso simples hoje: \"Como configurar um contact center para suportar meus clientes e funcionários utilizando o Flex?\"\nPara fazer isso, vamos construir duas novas filas de tarefas (Task Queues): \"Customer Service\" e \"Employee Service\". Estas filas vão permitir segmentar nosso tráfego de clientes e …",
+      "author": "Chas Bowman",
+      "date": "2020-10-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/WzW5bgZ7bMihOe9ISJCezZfRZhZtasYefIRcI828NI-9R8.width-808.png",
+      "link": "https://www.twilio.com/blog/criando-filas-e-skills-para-um-contact-center-flex",
+      "title": "Criando Filas e Skills para um Contact Center Flex"
+    },
+    {
+      "abstract": "I always struggle to take my dogs to the groomer because scheduling an appointment is a bit tedious and complicated. I always have to call directly to the store, hoping someone is available to pick up the phone, then wait for them to check on their calendars to see if there is a spot available for them and confirm it.\nTechnology is all about automation and making people’s lives easier so I thought it would be a good idea to come up with a scheduler bot that would do all that work for us, taking advantage of a great AI platform from Twilio called Autopilot and a bit of logic with Python on the backend to connect to a Google Calendar.\n\nThe interaction flow would be something like this:\n\n\nThe user starts the conversation by sending a message to the bot on WhatsApp\nWhatsApp redirects the request to Autopilot for …",
+      "author": "Miguel Ángel Ramírez",
+      "date": "2020-10-19",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/ebjOXuaQ_wSIGVE4mOg87_wtWTYNHG3p9EFRgkTYe_TDbc.width-808.png",
+      "link": "https://www.twilio.com/blog/appointment-booking-bot-whatsapp-python-google-calendar-twilio-autopilot",
+      "title": "Create an Appointment Booking Bot for WhatsApp using Python, Google Calendar and Twilio Autopilot"
+    },
+    {
+      "abstract": "Blazor is a framework for building interactive client-side user interfaces for web applications using .NET. Using Blazor, .NET developers can build stylish and performant web interfaces using C# and ASP.NET Core instead of JavaScript. [Pause for applause.]\nBlazor Server provides support for hosting Razor components on a server in an ASP.NET Core app. At runtime, the Blazor Server app sends UI events from the browser to the server and applies UI updates sent from the server to the rendered component.\nBlazor Server is built on SignalR, which is built on websockets. Among things, websockets enable Blazor Server to push changes from the server to the browser at any time. You can build real time UIs when you combine this with a real-time database such as Google Firestore.\nFirestore is Google Firebase's real-time database offering on the Google Cloud Platform (GCP). Google provides .NET libraries for interacting with …",
+      "author": "Niels Swimberghe",
+      "date": "2020-10-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/blazor-server-firestore.width-808.png",
+      "link": "https://www.twilio.com/blog/building-real-time-applications-with-blazor-server-and-firestore",
+      "title": "Building Real-Time Applications with Blazor Server and Firestore"
+    },
+    {
+      "abstract": "With concerts canceled and many artists being unable to release new music, people around the world are missing their favorite bands. What if you could fill that void by bringing any band or artist's lyrical style home with Python code to generate new songs?\nTry texting the name of your favorite artist to +1 (315) 65-LYRICS (+1 315 659-7427) or +44 7401 193427 if you're in the UK to get lyrics in their style, and continue reading to find out how to program this yourself!\n\nOpenAI's new GPT-3 (Generative Pre-trained Transformer 3) model was trained on a massive corpus of text making it incredibly powerful. This can be used to generate song lyrics in the style of any artist with surprisingly little input text given to it as a prompt.\nLet's walk through how to create a text-message powered bot to generate song lyrics in Python using Twilio Programmable …",
+      "author": "Sam Agnew",
+      "date": "2020-10-16",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_43.width-808.png",
+      "link": "https://www.twilio.com/blog/generating-lyrics-in-the-style-of-your-favorite-artist-with-python-openai-s-gpt-3-and-twilio-sms",
+      "title": "Generating Lyrics in the Style of your Favorite Artist with Python, OpenAI's GPT-3 and Twilio SMS"
+    },
+    {
+      "abstract": "Ever wondered how platforms like Binance set price watchlists for different Bitcoin price alerts? If so, imagine getting a daily SMS alert whenever the price of Bitcoin changes.\nThis tutorial will teach you how to use Twilio Programmable SMS to send out live Bitcoin rates every day using your Laravel app. After we’re finished, you will be able to automatically send an SMS containing the conversion rate of Bitcoin to USD to your phone number, daily.\nInstallation Requirements\nWe will begin with a new Laravel project. Additionally, the following modules are required for proper functionality. These modules are:\n\nPHP 7.2+\nComposer\nLaravel\nGuzzle (Comes pre-installed with Laravel)\nA Twilio account\nCEX.io API\n\nHaving installed Laravel on your machine, proceed to create a new project using the Laravel CLI:\n    $ laravel new bitcoin_watcher\n\nOr using the Composer create-project command:\n    $ composer create-project --prefer-dist laravel/laravel bitcoin_watcher\n\nNext, install Twilio’s PHP SDK to …",
+      "author": "Precious Opusunju",
+      "date": "2020-10-15",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Retrieve_and_Send_Live_Bitcoin_Rates_Every_Day.width-808.png",
+      "link": "https://www.twilio.com/blog/retrieve-send-live-bitcoin-rates-every-day-cex-io-twilio-programmable-sms-php-laravel",
+      "title": "Retrieve and Send Live Bitcoin Rates Every Day Using CEX.io, Twilio SMS, and PHP"
+    },
+    {
+      "abstract": "Hey, this is Steve at Dabble Lab. In this tutorial we’re going to explore using GitHub Actions to automate the deployment of Twilio Functions.\nFor most of my projects that use Twilio Functions, I use the Twilio Console to create and manage my code and assets. But as much as I love the ease of working in the web console, it’s not always the best option. For example, when working on mission-critical apps, complex or frequently updated apps, and when collaborating with other developers, I always want to have continuous integration and continuous delivery processes in place. But at the moment, continuous integration and continuous delivery functionality is not provided by the Twilio Console. The good news is setting up CI/CD workflows for your Twilio Functions is relatively simple using GitHub Actions.\nGitHub Actions\nGitHub Actions allow you to automate, customize, and execute software development workflows from within …",
+      "author": "Steve Tingiris",
+      "date": "2020-10-14",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_2_1_MadJ8ht.width-808.png",
+      "link": "https://www.twilio.com/blog/an-introduction-to-ci-cd-for-twilio-functions-using-github-actions",
+      "title": "An Introduction to CI/CD for Twilio Functions Using GitHub Actions"
+    },
+    {
+      "abstract": "When it comes to web pages, HTML is the tool to present the elements and CSS to provide the styling. Sure, there are exceptions and embellishments but, in short, that is how it boils down. If you want to implement some sort of animation or have something move, and it’s more complex than the simple animations supported by CSS, you generally have to fall back on JavaScript. In contrast, these aspects of presentation, styling, and animation are all an integral part of the Windows Presentation Foundation XAML.\nXAML stands for Extensible Application Markup Language, and it is a declarative language that describes WPF’s elements, relationships, and behaviors. XAML elements map directly to Common Language Runtime (CLR) object instances and XAML attributes correspond to the properties and events of CLR objects.\nIn this tutorial, you will explore the various ways to animate visual elements in …",
+      "author": "Jeff Rosenthal",
+      "date": "2020-10-14",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/wpf-animations.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-windows-presentation-foundation-wpf-animations",
+      "title": "Introducing Windows Presentation Foundation (WPF) Animations"
+    },
+    {
+      "abstract": "In the midst of pandemic-related lockdowns, many people around the world miss seeing their favorite bands. What if you could bring the anti-authoritarian, do-it-yourself ethos of punk rock home in the form of new song lyrics created by your Python code?\nOpenAI's new GPT-3 (Generative Pre-trained Transformer 3) model was trained on a massive corpus of text making it incredibly powerful. This can be used to generate song lyrics with surprisingly little input text given to it as a prompt.\nLet's walk through how to create a text-message powered bot to write Punk songs in Python using Twilio Programmable Messaging and OpenAI's API for GPT-3.\n\nBefore moving on, you'll need the following:\n\nPython 3.6 or newer. If your operating system does not provide a Python interpreter, you can go to python.org to download an installer.\nA virtual environment enabled before installing any Python libraries.\nA Twilio account and a …",
+      "author": "Sam Agnew",
+      "date": "2020-10-14",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Generic_Blog_Header_12.width-808.png",
+      "link": "https://www.twilio.com/blog/building-a-punk-lyrics-bot-in-python-with-openai-s-gpt-3-and-twilio-sms",
+      "title": "Building a Punk Lyrics Bot in Python with OpenAI's GPT-3 and Twilio SMS"
+    },
+    {
+      "abstract": "October is a pretty cool month because not only do the days get dark faster, but Halloween is just around the corner. If you enjoy finding new ways to trick your friends or spook someone out, this article has a fun and unique idea for you! Whether you're already tech savvy or a beginner at coding, you might find it enjoyable to build an app to spook someone out this year!\nUsing Python, GPT-3, and Twilio WhatsApp API, you have the chance to control a ghost writer and have them write a story directly onto your computer screen. No witch magic involved, just Twilio magic!\nTutorial Requirements\n\nPython 3.6 or newer. If your operating system does not provide a Python interpreter, you can go to python.org to download an installer.\nAn OpenAI API key. Request beta access here.\nA free or paid Twilio account. If you are new …",
+      "author": "Diane Phan",
+      "date": "2020-10-13",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/oVBqAcwluH-rFOSqGvN3bjiisJ7Pr6Gwf3XSuFLijn93mh.width-808.png",
+      "link": "https://www.twilio.com/blog/ghost-writer-spooky-openai-gpt3-python-whatsapp",
+      "title": "Control a Spooky Ghost Writer for Halloween with OpenAI's GPT-3 Engine, Python, and Twilio WhatsApp API"
+    },
+    {
+      "abstract": "Twilio Verify offers built in rate limits to help protect your business and its customers from account takeover and toll fraud attacks to your verification flows. This is helpful once you're in production, but can be frustrating during development and testing.Unfortunately, we do not offer a free testing sandbox since we have to pay underlying carrier fees for every message sent on our platform and Twilio's test credentials are not compatible with the Verify API.You still need to test your project though, so this guide will cover:Common issues like rate limits and expired verificationsBest practices for verification testingHow to quickly spin up a testing interface during developmentCommon Verify API errors during testingError 60203: Max send attempts reachedFor more details, check out the official Twilio docs for Error 60203.The API triggers this rate limit after starting 5 verification attempts to the …",
+      "author": "Kelley Robinson",
+      "date": "2020-10-13",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Photo_blog_Header_3_1_3S5yIPT.width-808.png",
+      "link": "https://www.twilio.com/blog/test-verify-no-rate-limits",
+      "title": "How to test Twilio Verify without getting rate limited"
+    },
+    {
+      "abstract": "Suppose you have a Flask application handling a Twilio webhook of yours. For instance, one which saves an SMS or a recording of a Twilio phone call to some cloud storage or a database.  For a production deployment of your webhook you would likely want to spin up a virtual machine instance in a cloud server provider, such as EC2 on AWS. But that can quickly become too cumbersome and error-prone to handle manually, especially when upgrading the application, or if you want to do some complex cloud storage schema.\nIn this tutorial, we will demonstrate how to use Ansible, an open-source orchestration tool, to deploy a Twilio webhook on EC2 in a maintainable and extendable manner. First we will go through core Ansible concepts, then we will write a simple Flask application (our webhook) and explain how to serve it, then we will cover provisioning an EC2 instance …",
+      "author": "Leonard Volarić Horvat",
+      "date": "2020-10-13",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/uyp-pKNhWfK-gj10131klxe5m-L-ohcY5Q8ZgILTYnUzhX.width-808.png",
+      "link": "https://www.twilio.com/blog/orchestrate-twilio-webhook-deployment-aws-ec2-ansible",
+      "title": "Orchestrate a Twilio Webhook Deployment to AWS EC2 Using Ansible"
+    },
+    {
+      "abstract": "Build and Deploy with Liz Moy is a curiosity-driven podcast that explores the lives of people who create things with code. Some might describe themselves as creatives, programmers, musicians, artists, or even fashion designers. But the truth is that no matter what their title, they’re all developers.\nOur first episode is with Nicole He, a creative technologist and game developer who made sms-bot.info, a resource that empowers anyone to build a SMS bot using Twilio and Google Sheets. We talked about the first game she ever built, the motivation behind building the tutorial, and possibilities of new features, like extending it for WhatsApp.\nSubscribe and Listen on: APPLE PODCASTS | RSS | OVE …",
+      "author": "Liz Moy",
+      "date": "2020-10-13",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Nicole_He_SMS_Bot_Twilio_Build_and_Deploy_with.width-808.jpg",
+      "link": "https://www.twilio.com/blog/build-and-deploy-liz-moy-nicole-he-sms-bots",
+      "title": "Build and Deploy Episode 1: Weird and Wonderful Bots with Nicole He"
+    },
+    {
+      "abstract": "If the news and current statistics about remote work are any indicator of the future, it’s obvious that working from home is gradually becoming the new normal for employees all over the world, including numerous tech companies. While effective communication may be defined differently for various companies, one of the most promising ways to improve productivity and keep your team together involves using video conferencing or chat.\nThis tutorial will guide you on how to create a video conferencing chat application using Symfony, React.js, and Twilio Programmable Video. The video chat application will allow users to connect and participate in a predefined chat room.\nPrerequisites\nTo participate in this tutorial, you will need the following:\n\nA Twilio Account\nComposer globally installed on your computer to manage dependencies\nPreferred basic knowledge of building applications with React and Symfony\nNode.js and Yarn package manager installed on your computer\nSymfony …",
+      "author": "Oluyemi Olususi",
+      "date": "2020-10-12",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/I-hQQ6-r6bbWW7nKkGFNssPzPKFxM5SsMT_GoPp92RHRcI.width-808.png",
+      "link": "https://www.twilio.com/blog/create-group-video-chat-app-symfony-php-twilio-react",
+      "title": "How to Create a Group Video Chat App with Symfony, PHP, Twilio, and React.js"
+    },
+    {
+      "abstract": "[Header image adapted from this image, CC BY 2.0 from Microsoft NYC]\nWhen building a Java application that uses Twilio's API most developers will have code that runs at startup, initializing the Twilio helper library like this:\n    Twilio.init(\n    TWILIO_ACCOUNT_SID,\n    TWILIO_AUTH_TOKEN);\n\nThis sets the account credentials as static fields in the Twilio class. Effectively they are now global settings for the application, and when your code calls the API these will be used automatically, and the helper library creates an HTTP client for you. This means that you don't have to repeat your credentials every time you call a method that uses the Twilio API:\n    Message.creator(TO_NUMBER, FROM_NUMBER, \"Hello 👋\").create();\n\nThis is convenient, however there are cases where you want more control over the HTTP client. This might be to configure an HTTP proxy, or to provide custom credentials if you are using multiple Twilio accounts or Projects in the same …",
+      "author": "Matthew Gilliard",
+      "date": "2020-10-12",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/uDEpwdrORkENjVK239noCY9Lm0nWvzFD2s8EUwNIFiMl3U.width-808.png",
+      "link": "https://www.twilio.com/blog/how-to-use-custom-http-clients-with-twilio-in-java",
+      "title": "How to use custom HTTP clients with Twilio in Java"
+    },
+    {
+      "abstract": "With C# 9 just around the corner, it’s a good time to look back at some of the goodness in C# 8. This post will take a look at a little syntactic sugar known as using declarations.\nSince time immemorial, C# programmers have been using the using statement to implement disposable classes safely. File I/O, databases, and web services all benefit from the using statement.\nThe only downside is that adding a using statement to your code introduces a new scope block and indentation level. C# 8 using declarations eliminate that requirement.\nReview: the using keyword\nIn C#, the using keyword has two purposes: The first is the using directive, which is used to import namespaces at the top of a code file. The second is the using statement. C# 8 using statements ensure that classes that implement the IDisposable interface call their dispose method. It guarantees …",
+      "author": "Dustin Ewers",
+      "date": "2020-10-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/csharp-8-using-statements.width-808.png",
+      "link": "https://www.twilio.com/blog/c-8-making-use-of-using-declarations",
+      "title": "C# 8 – Making Use of Using Declarations"
+    },
+    {
+      "abstract": "It’s never been so easy to set up your own call center and be in touch with your customers. With Twilio you can manage queues, assign agents and even get metrics about how the queues are working. All of it with little amount of code. In this tutorial we will show you how to accept incoming calls, place them into a queue, and then connect live agents to these callers, using Twilio Voice API, and the Flask framework for Python.\nTutorial requirements\nTo follow this tutorial you need the following components:\n\nPython 3.6 or newer. If your operating system does not provide a Python interpreter, you can go to python.org to download an installer.\nngrok. We will use this handy utility to connect the Flask application running on your system to a public URL that Twilio can connect to. This is necessary for the development version of the …",
+      "author": "Ana Paula Gomes",
+      "date": "2020-10-09",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/E8vjcZo2nzkiNcBsKD-cEBn3jpUOFgCtLe6RbBLn3Y_PB1.width-808.png",
+      "link": "https://www.twilio.com/blog/support-helpline-queuing-python-twilio",
+      "title": "Implement a Support Helpline with Queuing using Python and Twilio"
+    },
+    {
+      "abstract": "Having an interest in communicating with a distant cousin in Germany, whose native language I don’t share, I decided to build a real-time SMS translation app so that we could text each other.\nThanks to Twilio Functions, Twilio Programmable SMS, and the Google Cloud Translate API, this app was easy to build, and it’s super fun to use!\nHere’s the gist: I send a text to my Twilio phone number. A webhook captures this message and makes a POST request with the message details to my Twilio Function. Inside the function, the message body is translated, and the translation is forwarded to my recipient’s phone number. When they reply, this same process happens in reverse.\nRequirements\nI needed the following things before getting started:\n\nA Twilio account and phone number\nThe Twilio CLI\nThe Twilio Serverless Toolkit plugin\n\nUsing the Serverless Toolkit\nFor this project, I relied …",
+      "author": "Ashley Boucher",
+      "date": "2020-10-08",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/Copy_of_Photo_blog_Header_3_rM5p9I8.width-808.png",
+      "link": "https://www.twilio.com/blog/how-i-built-a-real-time-sms-translation-app-without-setting-up-a-backend-server",
+      "title": "How I Built a Real-Time SMS Translation App (without Setting Up a Backend Server)"
+    },
+    {
+      "abstract": "Windows Presentation Foundation (WPF) framework provides a rich graphical user interface for desktop applications. Charts are a familiar component in many applications, providing users with a visual way to consume data, observe trends and patterns, and provide a more attractive and engaging application.\nMany libraries provide various charting capabilities. In selecting a library to use, you should consider many factors. Foremost is compliance and compatibility with the framework used to implement the project.\nIf you’re building a new .NET project these days, it’s likely you’ll be using .NET Core, so the charting library you select has to be compatible. Since .NET Core is relatively new, compared to the .NET Framework, there are fewer libraries available. \nSome charting packages are big, feature-rich, time-consuming to learn to use, and expensive. In many large applications, these tools provide continuity between components while also providing a high degree of styling, which is very desirable. …",
+      "author": "Jeff Rosenthal",
+      "date": "2020-10-08",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/wpf-scottplot_1.width-808.png",
+      "link": "https://www.twilio.com/blog/monitoring-web-server-performance-with-windows-presentation-foundation-and-scottplot",
+      "title": "Monitoring Web Server Performance with Windows Presentation Foundation and ScottPlot"
+    },
+    {
+      "abstract": "Keeping your customers updated is one of the key ingredients of a successful business. This can be done in various ways; one of the most popular is through SMS messages.\nIt’s often thought that there is no easy way to quickly send SMS messages to thousands of your users without writing code if their information is stored in a database like MongoDB, Postgres, or even Airtable.\nBut what if there is a solution that makes the process very easy? Even if you’re not a developer you can quickly get started with this solution with just a few clicks!\nLow code, no-code platforms are changing the way we are building software. They are making it easy to quickly build apps faster. With n8n you can build any automated workflow for your use case.  \nn8n is a fair-code licensed tool that helps you automate tasks, sync data between various sources, and react …",
+      "author": "Harshil Agrawal",
+      "date": "2020-10-07",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/n8n-airtable-twilio-sms.width-808.png",
+      "link": "https://www.twilio.com/blog/sending-sms-the-low-code-way-with-airtable-twilio-and-n8n",
+      "title": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and n8n"
+    },
+    {
+      "abstract": "Twilioではセキュリティを最重要事項としており、2020年10月13日から、有料アカウントを使用するすべてのTwilioのお客様のアカウントに追加の保護レイヤーとして、2要素認証（2FA）が必須になります。\n2要素認証（2FA）とは、ユーザーが自分のプロジェクトにアクセスする際、2種類のIDの入力を求められるセキュリティ機能です。 \n標準のログイン認証情報（メールアドレスとパスワード）に加えて、（通話、SMSメッセージ、またはAuthyなどの認証アプリを介して）電話に送信される2FA確認コードが必要になります。\nトライアルアカウントは2FA義務化の対象外です。\nどのように2FAを有効にしますか\n2要素認証導入によるロックアウトを回避するため、以下の手順で2FAを有効にしてください。\n\nTwilio Consoleにログインします。 \nConsoleの［User Settings］（ユーザー設定）ページに移動します（右上隅の自分の名前の下）。\n［Enable Two-Factor Authentication (2FA)］（2要素認証（2FA）を有効にする）セクションで、目的の2FAレベルを選択し、［Update 2FA Settings］（2FA設定の更新）をクリックして選択を保存します。\n［Two-Factor Authentication (2FA) Methods］（2要素認証（2FA）方式）セクションで、目的の2FA方式を選択し、［Update 2FA Method］（2FA方式の更新）をクリックして選択を保存します。\n2FAを初めて有効にするユーザーは、選択した新しい2FA方式を使用して、ワンタイムログインおよび確認プロセスを経る必要があります。\n\n詳細については、2要素認証のサポートページ(日本語)を参照してください。\n2020年10月13日以降は、Twilioアカウントの2FAを無効にすることはできなくなります。2FAの方式は、［User Settings］（ユーザー設定）からいつでも変更できます。\nいつまでに設定する必要がありますか\n2020年10月12日までに、前述のように2FAを設定する必要があります。この日までに2FAが設定されていない場合は、次回Twilioの有料アカウントへログインした際に2FAの設定が求められます。アクセス不可の際に迅速に対応するため、すみやかに2FAの設定をお願いします。\nサポートを受ける場合\nサポートケース作成・申請方法をご参考いただき、弊社サポートにご連絡ください。\nパートナー様アカウントに関してはパートナー様のサポートにご連絡をお願いいたします。",
+      "author": "Kazuo Sugiyama",
+      "date": "2020-10-07",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/FaINGuRqR1S-UQto96AQAezPKzVD4ZAZKBod-QnmrzE-Mr.width-808.png",
+      "link": "https://www.twilio.com/blog/console-2fa-ja",
+      "title": "コンソールログイン二要素認証義務化のお知らせ"
+    },
+    {
+      "abstract": "Chalice is a Python Framework for writing, building and deploying serverless applications. It was built and is currently maintained by the team at AWS. Using familiar decorator-based syntax that is common within popular Python frameworks such as Flask, FastAPI, etc, Chalice is easy to get started with. In this tutorial, we’ll see how to deploy a Chalice application that integrates with the Twilio Verify Service to AWS Lambda.\nThe application that we’ll build exposes a set of API endpoints to send verification codes to phone numbers via SMS, and then verifying them once the user receives them and sends them back. This is useful in scenarios where you would like to add phone number verification or two-factor authentication to your application.\nTechnical requirements\nTo follow along, you’ll need the following:\n\nAn AWS account. If you don’t have one, you can sign up here to enjoy a generous allowance during …",
+      "author": "Dotun Jolaoso",
+      "date": "2020-10-06",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/mGeeqjrG6eVvdiT6SAgMf1SLoevA_mLOtrPkU-H50RzYpT.width-808.png",
+      "link": "https://www.twilio.com/blog/serverless-user-verification-service-python-twilio-verify-chalice",
+      "title": "Build a Serverless User Verification Service with Python, Twilio Verify and the Chalice Framework"
+    },
+    {
+      "abstract": "We're excited to announce that we have expanded our Verify solution to include a Push channel. Built using trusted Public Key Cryptography, Verify Push enables customers to validate users during sign up, login, and transactions without the risks, hassles or costs of One-Time Passcodes (OTPs). This end-to-end API service allows customers to add a low-friction, secure, cost-effective, “push verification” factor into their application flows.\nVerification simplified\nCompanies use a One-Time Passcode (OTP) sent via SMS or Voice to confirm possession of a phone. With widespread prevalence of mobile phones capable of receiving an SMS or voice call, companies have for many years used these channels as primary options for a second factor in verifying user identity. Email is another great option for verifying users. With almost universal reach, it can supplement SMS and Voice as a verification channel.\nSince its inception in 2015, Twilio Verify has been working with companies …",
+      "author": "Nabeel Saeed",
+      "date": "2020-10-01",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/SIGNAL_blog_Verify_Push_1200x628_A.width-808.png",
+      "link": "https://www.twilio.com/blog/introducing-verify-push-beta",
+      "title": "Introducing Verify Push beta"
+    },
+    {
+      "abstract": "Text message marketing is the latest craze these days for ecommerce stores. Having the ability to communicate real-time updates to customers via SMS is not only priceless, it’s a guarantee that 98% of your notifications will actually be read. In 2020, it’s hard to imagine a few use cases where your store couldn’t benefit from sending SMS!\nNow, with the rise of npm modules and APIs such as Twilio Programmable Messaging, adding text messaging to your website doesn’t have to be a hassle. More importantly, with these tools you can easily incorporate SMS responses to your Wix site with Corvid.\nNew to Wix or Corvid?\nFor developers looking to build web applications quickly, Corvid provides a simple but robust solution. It combines the Wix visual builder with an integrated online IDE, providing users with a flexible solution for rapid development. Beyond that, it makes it much easier …",
+      "author": "Meredith Hassett",
+      "date": "2020-10-01",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/iEVakN6NylgL0jE0hRxdC5xbZTnPh_UNrEsrCpWhqiUfLv.width-808.png",
+      "link": "https://www.twilio.com/blog/integrate-sms-wix-site-twilio-programmable-messaging-corvid-ide",
+      "title": "Integrate SMS into your Wix Site using Twilio Programmable Messaging and Corvid IDE"
+    },
+    {
+      "abstract": "There are a number of asynchronous tools in JavaScript, and there are also asynchronous tools in popular libraries that extend JavaScript. And there are many uses for these technologies.\nYou can learn about the fundamental asynchronous JavaScript tools in posts here on the Twilio blog: There is a post devoted to each technology, and they’re summarized in the post:\nAsynchronous JavaScript: A Comprehensive Guide\nWhen you’re learning any new programming tool or technique it’s helpful to have examples of how to use the code in realistic situations, so in addition to covering the fundamentals we have a series of posts showing practical demonstrations of how to use asynchronous code.\nConfirming SMS Message Delivery with RxJS Observables, Node.js, and Twilio Programmable SMS\nYou’ll learn a couple of important things from this post: 1) how to create an Observable wrapper around an API request so your code gets a notification when the …",
+      "author": "AJ Saulsberry",
+      "date": "2020-09-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/async-js-tools.width-808.png",
+      "link": "https://www.twilio.com/blog/asynchronous-javascript-tools-techniques-and-case-studies",
+      "title": "Asynchronous JavaScript: Tools, Techniques, and Case Studies"
+    },
+    {
+      "abstract": "Are you tired of entering receipts and bills manually for household expenses, reimbursements, and tax returns? BillBot is here to make your life easier.\nTake a picture of your receipts with Telegram, and details like amount, date, and category will be automatically added to Google Sheets. Your spouse or your accountant will also receive an SMS notification using a Twilio account. \nIn this tutorial you’ll learn how to escape the paper jungle and simplify your digitization process.\n\nCompleted n8n workflow for the BillBot application\nYou’ll use your Telegram account to create a BillBot to upload your receipts and get a confirmation of the added data right away.\nThe Mindee API for receipts automatically parses the information out of the images. The Google Sheets node acts as your expense record keeper. The automation is made possible by a workflow in n8n (pronounced “n-eight-n”).\nThe service provided by Twilio Programmable …",
+      "author": "Isabel Hildebrand",
+      "date": "2020-09-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/n8n-expense-reports.width-808.png",
+      "link": "https://www.twilio.com/blog/automatically-adding-expenses-to-google-sheets-with-telegram-mindee-twilio-n8n",
+      "title": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and n8n"
+    },
+    {
+      "abstract": "In March, Twilio released quick deploy video apps for three different platforms - React.js, iOS, and Android. These apps are fully functioning video collaboration apps that can be deployed to the cloud in minutes. They serve as a canonical reference for developers building out their communication solutions by showcasing the features and capabilities of Programmable Video.\nWhen you build a video app, you can get pretty far with just audio and video. But what if you want to go above and beyond audio and video to build more engaging video experiences by adding hand-raising, annotations, whiteboarding, and more?\nThe answer is DataTracks. With Twilio Video, you can use DataTracks to send real-time ephemeral data such as text, JSON, or binary data to other participants in a video call. We say the data is ‘ephemeral’ because it isn’t persisted anywhere. If you aren’t in a room when …",
+      "author": "Tim Mendoza",
+      "date": "2020-09-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/bbjlq__N3Mhk57i3CLTqt6J7LSasNQPJJYgIsKSZ4zrqrF.width-808.png",
+      "link": "https://www.twilio.com/blog/open-source-video-app-reactjs-datatrack-snack-chat",
+      "title": "Extend the React Quick Deploy Video App with DataTracks"
+    },
+    {
+      "abstract": "Just as COVID-19 has accelerated digital engagement, the pandemic has accelerated our responsibility to help others as companies and individuals. From helping a neighbor who is sick, to calling someone who is lonely, to giving what we can toward social causes, the pandemic has highlighted the many ways we depend on each other, both within our companies and across the communities we call home.Twilio founded WePledge last year to support employees in making a positive impact. Through WePledge, Twilions give 1 percent of their time and resources to do good, and we support them by providing volunteer time off, accessible volunteer opportunities, and matching gifts. It’s a model that has proven to drive impact at scale. Over 1,000 Twilions have donated $1 million dollars and contributed 6,000 hours of service to social good.A new global partnership for social impactNow, we’re calling on you to join us. Starting …",
+      "author": "Christina Frantz",
+      "date": "2020-09-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/wepledge-blog-header.width-808.png",
+      "link": "https://www.twilio.com/blog/join-the-wepledge-movement",
+      "title": "Join the global movement for good with Twilio, Zoom, Atlassian, and Okta"
+    },
+    {
+      "abstract": "Overnight, the way every business operates changed.\nFrom video-based meetings to virtual waiting lists and contactless deliveries, our world has transitioned to being virtual-first interactions. At the front lines of every interaction are deskless workers – from drivers to store workers to relationship managers – employees who spend the majority of their day away from a computer and serving customers.\nThat’s why we built Twilio Frontline, a mobile app for customer-to-employee engagement. The application is now available in a limited Private Beta. Twilio Frontline can be used by a team of store employees to serve customers looking to make a sale or ask a question, or by relationship managers via a dedicated phone number.\nTake a look at Twilio Frontline in action:\n    \nA mobile-first experience for a mobile workforce\nIndustry experts report as many as 2.7B people (that’s around 80% of the global working population) are deskless; this includes …",
+      "author": "Andres Jaan Tack",
+      "date": "2020-09-30",
+      "image": "https://twilio-cms-prod.s3.amazonaws.com/images/SIGNAL_blog_template_1200x628_A.width-808.png",
+      "link": "https://www.twilio.com/blog/twilio-frontline-private-beta",
+      "title": "Introducing Twilio Frontline: A Digital Relationship Builder for Every Employee"
+    }
+  ]
+}
