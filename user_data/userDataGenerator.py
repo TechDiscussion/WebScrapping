@@ -29,4 +29,7 @@ for i in range(N):
     )
 
 with open('user_data.json', 'w') as outfile:
-    json.dump(userData, outfile)
+    outfile.write("{\n")
+    outfile.write("  \"user_data\":")
+    json.dump(userData, outfile, indent=2)
+    outfile.write("}")
