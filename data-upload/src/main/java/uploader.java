@@ -12,16 +12,16 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.File;
 import java.io.FileReader;
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 
 public class uploader {
     public static final String DBNAME = "techVault";
     public static final ImmutableList<String> COMPANIES =
-            ImmutableList.of("Linkedin", "Yelp", "Yahoo", "Twilio", "Stack", "AWS");
+            ImmutableList.of("airbnb", "aws", "babble", "confluent", "criteo", "deepmind", "ebay", "facebook", "linkedin", "medium", "netflix", "nvidia", "quora", "slack", "stackoverflow", "twilio", "uber", "yahoo", "yelp");
 
     private static List<String> readFileToJsonString(File file) {
         JSONParser parser = new JSONParser();
@@ -29,10 +29,18 @@ public class uploader {
         try {
             Object obj = parser.parse(new FileReader(file));
             JSONObject jsonObject = (JSONObject) obj;
-            JSONArray blogs = (JSONArray) jsonObject.get("Linkedin");
-            for(Object blog: blogs.toArray()){
-                JSONObject jsonObj = (JSONObject)blog;
-                list.add(jsonObj.toJSONString());
+            for(String s : COMPANIES) {
+                if(jsonObject.containsKey(s)) {
+                    JSONArray blogs = (JSONArray) jsonObject.get(s);
+                    for (Object blog : blogs.toArray()) {
+                        JSONObject jsonObj = (JSONObject) blog;
+                        jsonObj.put("company", s);
+                        final String uuid = UUID.randomUUID().toString().replace("-", "");
+                        jsonObj.put("uuid", uuid);
+                        list.add(jsonObj.toJSONString());
+                    }
+                    break;
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -43,21 +51,17 @@ public class uploader {
 
     public static void main(String[] args) {
         Options options = new Options();
-        Option f = new Option("f", "file", true, "input file path");
-        f.setRequired(true);
-        options.addOption(f);
+        Option directoryOption = new Option("d", "directory", true, "json file directory");
+        directoryOption.setRequired(true);
+        options.addOption(directoryOption);
 
-        Option u = new Option("u", "user", true, "user name for mongodb");
-        u.setRequired(true);
-        options.addOption(u);
-
-        Option p = new Option("p", "password", true, "password");
-        p.setRequired(true);
-        options.addOption(p);
+        Option endpointOption = new Option("e", "endpoint", true, "mongoDB endpoint, e.g., mongodb+srv://<user>:<password>@cluster0.0eph1.mongodb.net/<DB name>?retryWrites=true&w=majority");
+        endpointOption.setRequired(true);
+        options.addOption(endpointOption);
 
         CommandLineParser parser = new DefaultParser();
         HelpFormatter formatter = new HelpFormatter();
-        CommandLine cmd;
+        CommandLine cmd = null;
 
         try {
             cmd = parser.parse(options, args);
@@ -68,20 +72,18 @@ public class uploader {
         }
         Preconditions.checkNotNull(cmd);
 
-        String folderName = cmd.getOptionValue("folder");
-        String username = cmd.getOptionValue("user");
-        String password = cmd.getOptionValue("password");
+        String directory = cmd.getOptionValue("directory");
+        String endpoint = cmd.getOptionValue("endpoint");
 
-        File folder = new File(folderName);
+        File folder = new File(directory);
         File[] listOfFiles = folder.listFiles();
         Preconditions.checkNotNull(listOfFiles);
 
-        String endpoint = String.format("mongodb+srv://%s:%s@cluster0.0eph1.mongodb.net/%s?retryWrites=true&w=majority", username, password, DBNAME);
         MongoClient mongoClient = MongoClients.create(endpoint);
         MongoDatabase database = mongoClient.getDatabase(DBNAME);
-        MongoCollection<Document> collection = database.getCollection("collection");
+        MongoCollection<Document> collection = database.getCollection("blogs");
 
-        for(File file : listOfFiles) {
+        for (File file : listOfFiles) {
             List<Document> docs = readFileToJsonString(file).stream().map(Document::parse).collect(Collectors.toList());
             collection.insertMany(docs);
         }
