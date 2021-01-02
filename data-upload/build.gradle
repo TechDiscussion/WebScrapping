@@ -1,9 +1,14 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group 'org.techVault.webScrapping'
+version '0.0.1-SNAPSHOT'
+
+application {
+    mainClass = 'uploader'
+}
 
 repositories {
     mavenCentral()
