@@ -13,15 +13,30 @@ import org.json.simple.parser.JSONParser;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
 
 public class uploader {
-    public static final String DBNAME = "techVault";
+    public static final String DBNAME = "TechVault";
     public static final ImmutableList<String> COMPANIES =
             ImmutableList.of("airbnb", "aws", "babble", "confluent", "criteo", "deepmind", "ebay", "facebook", "linkedin", "medium", "netflix", "nvidia", "quora", "slack", "stackoverflow", "twilio", "uber", "yahoo", "yelp");
+
+    public static List<String> parse(String s) {
+        List<String> parsed = Arrays.asList(s.split("[\\s,]+"));
+        Iterator<String> it = parsed.iterator();
+        while(it.hasNext()) {
+            String val = it.next();
+            if(val.length() <= 1) {
+                it.remove();
+            }
+        }
+        return parsed;
+    }
 
     private static List<String> readFileToJsonString(File file) {
         JSONParser parser = new JSONParser();
@@ -34,9 +49,15 @@ public class uploader {
                     JSONArray blogs = (JSONArray) jsonObject.get(s);
                     for (Object blog : blogs.toArray()) {
                         JSONObject jsonObj = (JSONObject) blog;
-                        jsonObj.put("company", s);
+                        jsonObj.put("source", s);
                         final String uuid = UUID.randomUUID().toString().replace("-", "");
-                        jsonObj.put("uuid", uuid);
+                        jsonObj.put("contentId", uuid);
+                        String categoriesString = (String) jsonObj.get("categories");
+                        jsonObj.remove("categories");
+                        List<String> tagsList = parse(categoriesString);
+                        jsonObj.put("tags", tagsList);
+                        String date = (String) jsonObj.get("date");
+
                         list.add(jsonObj.toJSONString());
                     }
                     break;
