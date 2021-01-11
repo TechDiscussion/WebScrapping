@@ -1,0 +1,368 @@
+{
+    "canva": [
+        {
+            "title": "8 simple yet powerful steps to maximise your digital marketing",
+            "date": "9:05:2019",
+            "abstract": "\nDid you know that we are bombarded with around 10,000 ads per day? Out of all those ads, how many of them did you remember? How many did you take action on? Today\u2019s marketer has to compete with so many messages, and to add to the challenge, the landscape is constantly changing. As the lead of Canva\u2019s mobile performance marketing team, Irene Lee unveils her strategy for how to get the most out of your digital marketing. Read more...\n",
+            "link": "https://product.canva.com/maximise-your-digital-marketing/",
+            "author": "\nIrene Lee"
+        },
+        {
+            "title": "Building a Data-Driven Autocorrection System",
+            "date": "7:19:2019",
+            "abstract": "\nIn the Search team at Canva, we\u2019re passionate about providing a fantastic search experience for our users. A challenge we\u2019re constantly tackling is how to provide the content that our users are looking for, faster. We try to achieve this in many ways, be it our data-driven search relevance algorithms, our \u201crelated searches\u201d pills or our trending searches. These awesome products help users quickly create fabulous designs that they can use to achieve their goals. Read more...\n",
+            "link": "https://product.canva.com/building-a-data-driven-autocorrection-system/",
+            "author": "\nAshwanth Fernando"
+        },
+        {
+            "title": "My internship experience at Canva",
+            "date": "4:04:2019",
+            "abstract": "\nHailing from Russia, Lara Matyushenko never thought she\u2019d move from an advertising firm in Moscow into a tech intern role in Sydney, Australia. In this blog, she shares her journey as a member of Canva\u2019s 2019 internship cohort, and her tips on how to get the most out of the experience. Read more...\n",
+            "link": "https://product.canva.com/my-internship-experience-at-canva/",
+            "author": "\nLara Matyushenko"
+        },
+        {
+            "title": "How we\u2019re making your Canva Prints environmentally-friendly \ud83d\udc9a",
+            "date": "3:25:2019",
+            "abstract": "\nWith over 20 years\u2019 experience in the print industry covering paper, textile and apparel, Jim Towle has seen it all. As head of print operations at Canva, one of Jim\u2019s key responsibilities is to find greener ways to run Canva\u2019s growing print operations. In this blog, Jim shares how Canva is empowering everyone to publish their beautiful creations on paper and apparel\u2014while staying true to Canva\u2019s goal of being a force for good in the world. Read more...\n",
+            "link": "https://product.canva.com/print-sustainability/",
+            "author": "\nJim Towle"
+        },
+        {
+            "title": "Why Canva is challenging its HQ privilege, and how you can too",
+            "date": "3:13:2019",
+            "abstract": "\nThis week we renamed Canva\u2019s largest Slack channels. Up until last week, Canva employees around the world missed out on valuable company-wide announcements that were inadvertently posted to #hq. Now that channel is called #sydney. Naming changes like this might not look like a big deal, but they're part of a wider push at Canva: we\u2019re moving towards a distributed team culture that makes our global team feel more included. Read more...\n",
+            "link": "https://product.canva.com/challenging-hq-privilege/",
+            "author": "\nAdam Schuck"
+        },
+        {
+            "title": "Creating a goal-driven culture at Canva",
+            "date": "3:03:2019",
+            "abstract": "\nHow do you get a 5 year old startup with over 500 team members to align on the same vision and achieve rocket speed growth? According to Canva co-founder and CEO Melanie Perkins, creating a goal-driven culture within the company starts with throwing out the handbook on team bonding, and looking at quirky ways to motivate your team to set crazy big goals and make them happen. Read more...\n",
+            "link": "https://product.canva.com/creating-a-goal-driven-culture-at-canva/",
+            "author": "\nMelanie Perkins"
+        },
+        {
+            "title": "Embracing the startup mindset",
+            "date": "2:17:2019",
+            "abstract": "\nIt\u2019s pretty safe to say Canva\u2019s Chief Evangelist Guy Kawasaki has seen it all. From working with Steve Jobs as a software evangelist in Apple\u2019s Macintosh Division to chief of evangelist of all of Apple and then resurrecting the title for Canva, Guy reflects on his journey and shares his tips on how to best make the jump from a traditional corporate environment to that of a startup\u2014and it all starts with changing the way you think. Read more...\n",
+            "link": "https://product.canva.com/embracing-the-startup-mindset/",
+            "author": "\nGuy Kawasaki"
+        },
+        {
+            "title": "What Marie Kondo can teach us about prioritizing the right work, and what to give away",
+            "date": "1:24:2019",
+            "abstract": "\nAll the responsibilities that pile up in a fast growing startup are a bit like possessions at home. Some of them are super important and bring you joy, others just aren\u2019t providing value any more or could be gifted to someone else. In this article, Liz McKenzie tells the story of how she learnt to \u2018give away her lego\u2019 and trust others to deliver, forget the make-busy work, and find the \u2018spark joy\u2019 at work. Read more...\n",
+            "link": "https://product.canva.com/what-marie-kondo-can-teach-us-about-work/",
+            "author": "\nLiz McKenzie"
+        },
+        {
+            "title": "How Canva is building a (+) feedback culture",
+            "date": "1:09:2019",
+            "abstract": "\nAs a coach with over 15 years\u2019 experience, Canva\u2019s Sarah Nanclares knows how a positive feedback culture can create a harmonious working environment, where everyone is thriving and reaping the rewards that come from having a tight-knit, empowered team. In this blog, she explains how you, too, can build a positive feedback culture in your organization. Read more...\n",
+            "link": "https://product.canva.com/positive-feedback-culture/",
+            "author": "\nSarah Nanclares"
+        },
+        {
+            "title": "Why we left manual UI testing behind",
+            "date": "12:12:2018",
+            "abstract": "\nVisual regression testing can either make a developer\u2019s eyes sparkle with joy or darken with rage. The difference usually comes down to how the process is set up within your company. Automated visual regression testing is a new and exciting field, but that means that there's no industry standard, and most other companies have their own makeshift processes. In this post, Joscha Feth describes how Canva has rolled out visual regression testing, and how it's helped us. Read more...\n",
+            "link": "https://product.canva.com/automated-visual-testing-at-canva/",
+            "author": "\nJoscha Feth"
+        },
+        {
+            "title": "Mission possible: how Canva engineering works across borders",
+            "date": "12:07:2018",
+            "abstract": "\nWith cross-country communication and virtual correspondence, things can easily go wrong \u2013 unstable internet connections, misinterpretation of messages, and the difficulty of finding a common time where everyone is free for calls, among others. What I knew of cross-country collaboration, however, was challenged when I started working in Canva. Read more...\n",
+            "link": "https://product.canva.com/engineering-across-borders/",
+            "author": "\nBen Sebastian"
+        },
+        {
+            "title": "How Canva is changing the way women are represented in the media",
+            "date": "11:29:2018",
+            "abstract": "\nAs Canva\u2019s reach continues to grow, the need to create a diverse and inclusive image library becomes more important than ever. In response, Canva\u2019s Marketplace team lead by Elle Hughes has created the Natural Women Collection. In this article, Elle talks about what the initiative aims to achieve, how it came to be, and how they made it happen. Read more...\n",
+            "link": "https://product.canva.com/natural_women_collection/",
+            "author": "\nElle Hughes"
+        },
+        {
+            "title": "The role of localization quality in driving Canva\u2019s exponential international growth",
+            "date": "11:22:2018",
+            "abstract": "\nHave you ever opened up an exciting new app, but instead of being asked to \u201cSign up\u201d you saw \u201c\u10e0\u10d4\u10d2\u10d8\u10e1\u10e2\u10e0\u10d0\u10ea\u10d8\u10d0\u201d? Maybe you\u2019ve received a confirmation email saying \u201cTh\u25a1nks you for you reg\u25a1ster. Conf\u25a1rm\u25a1ng here ple\u25a1se\u201d? Or perhaps you attempted to enter your name into a text field, only to be told it contained invalid characters? English speakers have the luxury of rarely encountering any of these errors. Read more...\n",
+            "link": "https://product.canva.com/the-role-of-localization-quality/",
+            "author": "\nJesse Walker"
+        },
+        {
+            "title": "5 things no one tells you about being a working parent",
+            "date": "11:15:2018",
+            "abstract": "\nSome personal topics are deemed appropriate for the workplace, but somehow, pumping milk for your baby is more often than not considered taboo. Canva Product Designer Hannah Heffernan explains why there is still room for improvement in making out workplaces more inclusive for parents. Read more...\n",
+            "link": "https://product.canva.com/things-no-one-tells-you-about-being-a-working-parent/",
+            "author": "\nHannah Heffernan"
+        },
+        {
+            "title": "A look behind Canva's 2020 sustainability goal",
+            "date": "11:07:2018",
+            "abstract": "\nWhen a company experiences strong business momentum, it\u2019s not just about the impact we make on our business metrics - it\u2019s also about the impact we\u2019re making on the environment we work in. In this blog, head of Canva\u2019s Vibe team, Christopher Low, shares his thoughts on why paying attention to the impact we\u2019re making on our environment is just as important as growing our business. Read more...\n",
+            "link": "https://product.canva.com/2020-sustainability-goals/",
+            "author": "\nChristopher Low"
+        },
+        {
+            "title": "Are startups right for you?",
+            "date": "11:02:2018",
+            "abstract": "\nIn almost every business magazine, you\u2019ll come across terms like startup, innovation and entrepreneurship. But what does it really mean for someone to work at a startup? In this blog, Canva product manager Mike Williams shares this thoughts about what you need to consider before embarking on your very own startup journey. Read more...\n",
+            "link": "https://product.canva.com/are-startups-right-for-you/",
+            "author": "\nMike Williams"
+        },
+        {
+            "title": "Copy that means business: how Canva aligns content with business metrics",
+            "date": "10:25:2018",
+            "abstract": "\nWe\u2019ve all heard it before\u2014content is king, especially when it comes to growing your business. But how do you ensure the content you put out there will actually achieve your goals? In this blog post, Canva\u2019s resident content expert Amelia Marshall shares how we used the power of words to grow our user base, and reveals her tips on how to create content that is not only engaging and valuable, but also holds up against your business metrics. Read more...\n",
+            "link": "https://product.canva.com/copy-that-means-business/",
+            "author": "\nAmelia Marshall"
+        },
+        {
+            "title": "The culture myth",
+            "date": "10:19:2018",
+            "abstract": "\nZach Kitschke, Head of People at Canva, explains why you shouldn\u2019t try to copy and paste culture that you see elsewhere. Instead, the key to creating a great culture is focusing your efforts on building a \u201cPeople System\u201d based on strong values. Building a winning culture really requires understanding what type of company you want to build, and tailoring everything back to that. We\u2019re not and will never be a Blackwater Capital, a Google, or a Bain & Co. We\u2019re Canva, and we want to own that. Read more...\n",
+            "link": "https://product.canva.com/the-culture-myth/",
+            "author": "\nZach Kitschke"
+        },
+        {
+            "title": "Our tried and tested way to scale design with systems",
+            "date": "10:12:2018",
+            "abstract": "\nOne of the great benefits of Canva is the ability to publish your design in many different ways, from printing to Pinterest. On our Product Design team, we call these \u201cpublish endpoints\u201d - the potentially limitless ways to take your design from the Canva editor out into the world. As the demand for more publish endpoints continues to grow, Canva product designer Iain Dowling shares how we use a systems-first approach to tackle design challenges in product delivery. Read more...\n",
+            "link": "https://product.canva.com/scaling-design-with-systems/",
+            "author": "\nIain Dowling"
+        },
+        {
+            "title": "Why we\u2019ll always be exploring new programming languages at Canva",
+            "date": "10:05:2018",
+            "abstract": "\nOur choice of programming language has the ability to change the way we view a problem and how we interact with it. In this blog, Canva engineer Josh Leeb-du Toit explains why he\u2019s looking into Rust, and how exploring new languages can benefit you in the long run. Read more...\n",
+            "link": "https://product.canva.com/exploring-new-programming-languages/",
+            "author": "\nJosh Leeb-du Toit"
+        },
+        {
+            "title": "The one thing every designer must consider",
+            "date": "9:28:2018",
+            "abstract": "\nJob Buenazedacruz got her start on inclusive design with her Industrial Design thesis, the UNA Blind-friendly Toy Kitchen \u2014 a toy that can be enjoyed not just by sighted children but also by those who are blind. As one of the drivers of Canva\u2019s accessibility projects, Job tells us how her personal and professional journey with inclusive design inspired her to incorporate the same principles at Canva. Read more...\n",
+            "link": "https://product.canva.com/one-thing-every-designer-must-consider/",
+            "author": "\nJob Buenazedacruz"
+        },
+        {
+            "title": "A message for those who feel like they are on the outside",
+            "date": "9:19:2018",
+            "abstract": "\nFollowing your dreams can be difficult on its own, and even harder when you\u2019re faced with people constantly telling you \u2018no\u2019. With so many reasons to quit, sometimes throwing in the towel seems like the only way out. In this blog post, Canva CEO and co-founder Melanie Perkins shares her thoughts on how she overcame negativity on her way to building one of the world\u2019s most successful companies. Read more...\n",
+            "link": "https://product.canva.com/feeling-like-you-are-on-the-outside/",
+            "author": "\nMelanie Perkins"
+        },
+        {
+            "title": "The difference between being a good product manager and a great one",
+            "date": "9:12:2018",
+            "abstract": "\nBeing a product manager at Canva has taught me to move fast and make high impact decisions that move the needle, even when there\u2019s uncertainty. As we grow, it is important to remain agile and flexible with our approach - but it\u2019s not always easy to keep growing while maintaining the best of our startup DNA! Read more...\n",
+            "link": "https://product.canva.com/startup-product-management/",
+            "author": "\nShipra Mahindra"
+        },
+        {
+            "title": "How we doubled Canva\u2019s engineering growth rate in 6 months",
+            "date": "9:06:2018",
+            "abstract": "\nA company\u2019s ability to ship product ultimately lies in the ability of the recruitment function to support the team with new engineering talent. But what do you do when you\u2019re faced with a talent shortage, and a company that has an ambitious product roadmap? Read more...\n",
+            "link": "https://product.canva.com/doubling-engineering-growth/",
+            "author": "\nRick Goodfellow"
+        },
+        {
+            "title": "Rethinking our mobile growth strategies",
+            "date": "6:29:2018",
+            "abstract": "\nWe\u2019re getting to the stage where mobile internet usage is set to overtake desktop. In some parts of the world people\u2019s first experience of the internet is through their low-cost smartphone. This new way of consuming content is seeing a shift in the way in which companies like Canva work and the ways in which we seek to reach millions of users across the globe.\nRead more...\n",
+            "link": "https://product.canva.com/mobile-growth-strategies/",
+            "author": "\nRenee Psomadelis\n"
+        },
+        {
+            "title": "What I learned from Google and Lyft to scale our engineering culture at Canva",
+            "date": "6:20:2018",
+            "abstract": "\n\"It\u2019s not just about scaling from 50 to 100 engineers. It\u2019s not even about scaling to 200. I\u2019m thinking about how we can scale to 1000 people and beyond\". This was the mission Cliff Obrecht (Canva co-founder and COO) set for me when I first sat down with him. Read more...\n",
+            "link": "https://product.canva.com/scaling-engineering-at-canva/",
+            "author": "\nJoel Hynoski"
+        },
+        {
+            "title": "Beyond the dotted line: Onboarding new hires to set them up for success",
+            "date": "6:14:2018",
+            "abstract": "\nFree meals. Complimentary yoga and gym passes. Flexible working hours. Huge training budgets. Despite the seemingly endless perks of most companies in the tech sector today, it takes more than just fringe benefits to attract and retain the best talent. Read more...\n",
+            "link": "https://product.canva.com/onboarding-new-hires/",
+            "author": "\nChristina Lai\n"
+        },
+        {
+            "title": "The designer's dilemma: Tips from Canva\u2019s CPO on mastering focus and intentional work",
+            "date": "5:31:2018",
+            "abstract": "\nAs designers we are constantly being reminded that we need to be inclusive in our processes, that we should be earning a seat at the table, building out our design system, making best friends with engineers, delving into data, sprinting, sketching, prototyping, coding (not coding), testing, researching and writing. Then taking some \u2018me\u2019 time for inspiration and side projects too. Phew!\nRead more...\n",
+            "link": "https://product.canva.com/focus-and-intentional-work/",
+            "author": "\nCameron Adams\n"
+        },
+        {
+            "title": "Global teams working across offices, cultures, and languages",
+            "date": "5:14:2018",
+            "abstract": "\nAt its heart, Canva\u2019s mission is to be a truly global company; empowering anyone to design anything and publish anywhere. From our humble beginnings launching from a small office in Sydney Australia, today Canva is available across 190 countries in 100 languages\u2014and we\u2019re only 1% of the way through what we want to accomplish.\nRead more...\n",
+            "link": "https://product.canva.com/working-with-global-teams/",
+            "author": "\nGeorgia Vidler\n"
+        },
+        {
+            "title": "How and why we do Team Health Checks at Canva",
+            "date": "5:14:2018",
+            "abstract": "\nThere is little in this world that is achieved through the greatness of one single individual\u2014putting man on the moon was a team effort, building the Burj Khalifa was a team effort, winning the world cup is a team effort. Scaling a successful startup like Canva is no different. Luckily we were able to discover the secret sauce to our success early on\u2014the incredibly passionate and talented team that makes up Canva.\nRead more...\n",
+            "link": "https://product.canva.com/team-health-checks-model/",
+            "author": "\nYani Hornilla\n"
+        },
+        {
+            "title": "5 ways having a shared design system has helped us ship our designs faster",
+            "date": "5:11:2018",
+            "abstract": "\nAs a product designer, have you ever been frustrated trying to find the correct asset to use? Or spent hours debating which color green to use with a colleague? Or needed to re-design a button to suit a specific need?\nRead more...\n",
+            "link": "https://product.canva.com/building-a-design-system/",
+            "author": "\nMatt Anderson"
+        },
+        {
+            "title": "Alpha Blending and WebGL",
+            "date": "12:04:2017",
+            "abstract": "\nThis article introduces alpha blending and some tips relating to the alpha channel in WebGL development, including a WebGL alpha blending bug in Chrome. At Canva we use WebGL to provide image filters similar to Instagram filters. Read more...\n",
+            "link": "https://product.canva.com/WebGL-David-Guan/",
+            "author": "\nDavid Guan"
+        },
+        {
+            "title": "Frontend Engineering Sydney talks: You don't know functional",
+            "date": "11:29:2017",
+            "abstract": "\nCanva was proud to host Frontend Engineering Sydney for the third time earlier this month. Kyle Simpson, open web evangelist and author of \"You Don't Know JS\", Cathy Lill of Data61 and Canva's own Damon Oehlman spoke about different aspects of functional programming for frontend development. Read more...\n",
+            "link": "https://product.canva.com/frontend-engineering-video-functional/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "What do computer science students learn on a tour of Canva?",
+            "date": "9:29:2017",
+            "abstract": "\nWhat advice do Canva engineers give to aspiring computer science graduates? What do thirty students learn on a tour of Canva? This week we received a visit from UNSW CSE Society, who heard talks by Canva speakers, did an office tour, asked questions and enjoyed some of Canva's famous fried chicken. Read more...\n",
+            "link": "https://product.canva.com/csesoc-site-visit/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "My first month at Canva",
+            "date": "9:27:2017",
+            "abstract": "\nIt\u2019s been one month since I left China for the first time in my life. Back in Shanghai, I had been a long-time follower of former Apple Chief Evangelist Guy Kawasaki\u2019s talks online. Then one day I heard he had joined a new startup called Canva. Read more...\n",
+            "link": "https://product.canva.com/first-month-at-Canva-David-Guan/",
+            "author": "\nDavid Guan"
+        },
+        {
+            "title": "The turnaround of Canva\u2019s iOS team",
+            "date": "8:22:2017",
+            "abstract": "\nIt became very clear to me after I hired the iOS team's first female engineer that we needed to focus on bringing in people with different perspectives and backgrounds, given the impact this has on our users and the success of the company. Read more...\n",
+            "link": "https://product.canva.com/ios-team-diversity/",
+            "author": "\nDiana Mesanovic"
+        },
+        {
+            "title": "TypeScript and typed JavaScript at Frontend Engineering Sydney",
+            "date": "6:06:2017",
+            "abstract": "\nCanva flew Ryan Cavanaugh out from Seattle to talk about TypeScript at our second Frontend Engineering Sydney event, held at the Canva office on May 31. He was joined by Sharon Kuo and Marc Fallows of Canva, as well as Chloe Chen of Data 61 (CSIRO), who all shared their experiences with typed JavaScript technologies. Read more...\n",
+            "link": "https://product.canva.com/frontend-engineering-video-typed-javascript/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "Ryan Cavanaugh: The design of typescript",
+            "date": "5:23:2017",
+            "abstract": "\nCanva is proud to be hosting a second Frontend Engineering Sydney event on May 31. Our main speaker will be Ryan Cavanaugh, one of the core contributors to TypeScript at Microsoft. Read more...\n",
+            "link": "https://product.canva.com/frontend-engineering-speaker-Ryan-Cavanaugh/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "How Canva makes content embeddable (and why you should too)",
+            "date": "4:28:2017",
+            "abstract": "\n\n\nRead more...\n",
+            "link": "https://product.canva.com/how-canva-made-designs-embeddable-and-how-you-can-make-your-own/",
+            "author": "\nPaul Knittel"
+        },
+        {
+            "title": "Apples falling from Bodhi trees: Dave Hearnden at Frontend Engineering Sydney",
+            "date": "3:31:2017",
+            "abstract": "\nCan we grasp the latest concepts in frontend engineering by dusting off some computing ideas from the past? That\u2019s what Canva CTO Dave Hearnden says.\n\nRead more...\n",
+            "link": "https://product.canva.com/frontend-engineering-video-dave-hearnden/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "From frontend to full-stack: Adam Schuck at Frontend Engineering Sydney",
+            "date": "3:31:2017",
+            "abstract": "\nWhy should you learn the full stack? Isn\u2019t it more efficient when everyone is highly specialised in frontend, backend, or whatever they do best? Read more...\n",
+            "link": "https://product.canva.com/frontend-engineering-video-adam-schuck/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "Adam Schuck: From frontend to full-stack",
+            "date": "3:20:2017",
+            "abstract": "\nOn the eve of our first frontend engineering event in Sydney, we talked with speaker Adam Schuck about his eventful career journey and moving from frontend to full-stack.\nRead more...\n",
+            "link": "https://product.canva.com/frontend-engineering-speaker-adam-schuck/",
+            "author": "\nDan Kennedy"
+        },
+        {
+            "title": "5 visual effects Canva uses to thrill users",
+            "date": "5:16:2016",
+            "abstract": "\nCanva is a graphic design tool built with the goal of helping everyone in the world create beautiful designs. That\u2019s a pretty ambitious goal because there\u2019s a huge number of people in the world and they all have varying levels of design experience\u200a\u2014\u200afrom professional designers to people who haven\u2019t used computers much before. To help all of them, Canva must be simple.\nRead more...\n",
+            "link": "https://product.canva.com/five-visual-effects/",
+            "author": "\nChris Doble\n"
+        },
+        {
+            "title": "Human software testing",
+            "date": "11:16:2015",
+            "abstract": "\nCanva iOS developer Nic Wittison spoke at /dev/world/2015 in Melbourne on August 31, 2015.\nRead more...\n",
+            "link": "https://product.canva.com/human-software-testing/",
+            "author": "\nNic Wittison"
+        },
+        {
+            "title": "Startup engineering at Canva: Front-end",
+            "date": "10:01:2015",
+            "abstract": "\nBack in May, Canva kicked off a series of quarterly tech events with an evening of talks on performance and scaling. For our second event in August, we decided to focus on everything front-end.\nRead more...\n",
+            "link": "https://product.canva.com/tech-talks-august-2015/",
+            "author": "\nKris Howard\n"
+        },
+        {
+            "title": "Canva's compute backend",
+            "date": "9:15:2015",
+            "abstract": "\nA great engineer once told me that it doesn\u2019t matter how big your organisation is, you\u2019ll always experience growing pains. Canva is far from immune to these pains, and we\u2019re constantly reevaluating our infrastructure to ensure that systems designed for Canva of old are still up to scratch for Canva of the present, and will be in good stead to support the Canva of the future.\nRead more...\n",
+            "link": "https://product.canva.com/canvas-compute-backend/",
+            "author": "\nSam Killin"
+        },
+        {
+            "title": "Startup engineering at Canva: Building scalable startup technology",
+            "date": "8:25:2015",
+            "abstract": "\nOn May 6th, 2015, Canva hosted the first of a series of quarterly tech talks. Our goal is to bring together like-minded software craftspeople to share knowledge and experiences. The Sydney tech community already has an excellent range of recurring events (such as SydJS, Women Who Code, and Web Directions), but we\u2019ve decided to maintain focus on topics particularly relevant to starups with this new event series. We aim to showcase speakers from both inside and outside Canva. Our first night of talks was on the topic of scalable startup technology.\nRead more...\n",
+            "link": "https://product.canva.com/tech-talks-may-2015/",
+            "author": "\nKris Howard\n"
+        },
+        {
+            "title": "How we get things done",
+            "date": "8:25:2015",
+            "abstract": "\nAs the Canva engineering team continues to grow, we\u2019ve started to codify some of the \u201ctribal knowledge\u201d that previously went unspoken. This post is our attempt to describe the practices we\u2019ve found help us work more efficiently as a team. It\u2019s been really useful so far as a survival guide for new engineers, so we thought we\u2019d share it. This isn\u2019t meant to be a prescription for every team; it\u2019s just what works for us.\nRead more...\n",
+            "link": "https://product.canva.com/how-we-get-things-done/",
+            "author": "\nDavid Hearnden\n"
+        },
+        {
+            "title": "Knowing when to back off",
+            "date": "5:28:2015",
+            "abstract": "\nCanva\u2019s design editor features an auto-save function. While you\u2019re working on a design we periodically send differences to our server. This means you don\u2019t lose too much work if your computer crashes or you accidentally close your browser tab. During periods of heavy use, we needed a mechanism to ask the browser and iOS applications to back off and reduce the frequency of auto-saves.\nRead more...\n",
+            "link": "https://product.canva.com/backing-off/",
+            "author": "\nBrendan Humphreys"
+        },
+        {
+            "title": "Standardizing the development environment",
+            "date": "4:21:2015",
+            "abstract": "\nAs an engineering team grows (along with functionality and number of users), the need for consistency in some areas increases dramatically. You quickly notice problems if the technology with which the software is developed differs from the technology on which it is deployed, and if developers have local environments that differ because their machines are self-managed. It also makes for an increasingly challenging exercise for new starters to become effective quickly. We\u2019ve decided to build a Standard Development Environment (SDE) to address these issues.\nRead more...\n",
+            "link": "https://product.canva.com/sde/",
+            "author": "\nJosh Graham\n"
+        },
+        {
+            "title": "Functional completeness and local hermeticity",
+            "date": "3:25:2015",
+            "abstract": "\nToday, I\u2019m testing new features of Canva\u2019s dynamic flag system. Next to me, a fellow engineer is working on the pipeline that updates design images in response to design edits. These are separate features, and both have broad reach through components that make up Canva. As we iterate, each of us is running an isolated, functionally-complete Canva universe, of between 16 and 32 separate components (depending on how you count). We can exercise Canva\u2019s full suite of features: creating and publishing designs, searching images, purchasing and downloading prints, browsing the social graph, interacting with designs in the stream, and so on. We\u2019re not doing this using a vast network of distributed machines; we\u2019re doing this entirely within the confines of our laptops, without even needing network.\nRead more...\n",
+            "link": "https://product.canva.com/hermeticity/",
+            "author": "\nDavid Hearnden\n"
+        },
+        {
+            "title": "This is Engineering at Canva",
+            "date": "3:24:2015",
+            "abstract": "\nWhen I think about world-class software development teams, I think about shipping, surety, and scale. Approaching software as a craft enables developers to build something that delivers value, has a sense of quality and is aesthetically pleasing (both on the surface and in the code itself), and is able to adapt to the success of the business.\nRead more...\n",
+            "link": "https://product.canva.com/welcome/",
+            "author": "\nJosh Graham\n"
+        }
+    ]
+}

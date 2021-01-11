@@ -1,0 +1,124 @@
+{
+    "mozilla_hacks": [
+        {
+            "title": "\nImproving Cross-Browser Testing, Part 1: Web Application Testing Today\n",
+            "date": "12:17:2020",
+            "abstract": "Testing web applications can be a challenge. At Mozilla, we see that as a call to action. With our commitment to building a better Internet, we want to provide web developers with the tools they need to build great web experiences \u2013 including great tools for testing.\r\n\r\nIn this series of posts, we will explore the current web-application testing landscape and explain what Firefox is doing today to allow developers to run more kinds of tests in Firefox.",
+            "link": "https://hacks.mozilla.org/2020/12/cross-browser-testing-part-1-web-app-testing-today/"
+        },
+        {
+            "title": "\n2020 MDN Web Developer Needs Assessment now available\n",
+            "date": "12:16:2020",
+            "abstract": "The 2020 MDN Web Developer Needs Assessment (DNA) report is now available! This post takes you through what we\u2019ve accomplished in 2020 based on the findings in the inaugural report, key takeaways of the 2020 survey, and what our next steps are as a result.",
+            "link": "https://hacks.mozilla.org/2020/12/2020-mdn-web-developer-needs-assessment-now-available/"
+        },
+        {
+            "title": "\nAnd now for \u2026 Firefox 84\n",
+            "date": "12:15:2020",
+            "abstract": "As December ushers in the final curtain for this rather eventful year, there is time left for one more Firefox version to be given its wings. Firefox 84 includes some interesting new features including tab order inspection, complex selector support in :not(), the PerformancePaintTiming API, and more!",
+            "link": "https://hacks.mozilla.org/2020/12/and-now-for-firefox-84/"
+        },
+        {
+            "title": "\nWelcome Yari: MDN Web Docs has a new platform\n",
+            "date": "12:14:2020",
+            "abstract": "After several intense months of work on such a significant change, the day is finally upon us: MDN Web Docs\u2019 new platform (codenamed Yari) is finally launched!",
+            "link": "https://hacks.mozilla.org/2020/12/welcome-yari-mdn-web-docs-has-a-new-platform/"
+        },
+        {
+            "title": "\nAn update on MDN Web Docs\u2019 localization strategy\n",
+            "date": "12:8:2020",
+            "abstract": "In our previous post \u2014 MDN Web Docs evolves! Lowdown on the upcoming new platform \u2014 we talked about many aspects of the new MDN Web Docs platform that we\u2019re launching on December 14th. In this post, we\u2019ll look at one aspect in more detail \u2014 how we are handling localization going forward. We\u2019ll talk about how our thinking has changed since our previous post, and detail our updated course of action.",
+            "link": "https://hacks.mozilla.org/2020/12/an-update-on-mdn-web-docs-localization-strategy/"
+        },
+        {
+            "title": "\nFlying the Nest: WebThings Gateway 1.0\n",
+            "date": "12:3:2020",
+            "abstract": "After four years of incubation at Mozilla, we are excited to announce the release of WebThings Gateway 1.0 and a new home for the WebThings platform. This blog post will explain what to expect from the 1.0 release, the action you need to take if you want to transition your existing WebThings Gateway to new community-run infrastructure, and what to expect from the WebThings project going forward.",
+            "link": "https://hacks.mozilla.org/2020/12/flying-the-nest-webthings-gateway-1-0/"
+        },
+        {
+            "title": "\nFoundations for the Future\n",
+            "date": "11:17:2020",
+            "abstract": "This week the Servo project took a significant next step in bringing community-led transformative innovations to the web by announcing it will be hosted by the Linux Foundation.\u00a0 Mozilla is pleased to see Servo, which began as a research effort in 2012, open new doors that can lead it to ever broader benefits for users and the web. Working together, the Servo project and Linux Foundation are a natural fit for nurturing continued growth of the Servo community, encouraging investment in development, and expanding availability and adoption.\u00a0\u00a0",
+            "link": "https://hacks.mozilla.org/2020/11/foundations-for-the-future/"
+        },
+        {
+            "title": "\nFirefox 83 is upon us\n",
+            "date": "11:17:2020",
+            "abstract": "Did November spawn a monster this year? In truth, November has given us a few snippets of good news, far from the least of which is the launch of Firefox 83! In this release we\u2019ve got a few nice additions, including Conical CSS gradients, overflow debugging in the Developer Tools, enabling of WebRender across more platforms, and more besides.",
+            "link": "https://hacks.mozilla.org/2020/11/firefox-83-is-upon-us/"
+        },
+        {
+            "title": "\nWarp: Improved JS performance in Firefox 83\n",
+            "date": "11:13:2020",
+            "abstract": "With Warp (also called WarpBuilder) we\u2019re making big changes to our JIT (just-in-time) compilers, resulting in improved responsiveness, faster page loads and better memory usage. The new architecture is also more maintainable and unlocks additional SpiderMonkey improvements.\r\n\r\nThis post explains how Warp works and how it made SpiderMonkey faster.",
+            "link": "https://hacks.mozilla.org/2020/11/warp-improved-js-performance-in-firefox-83/"
+        },
+        {
+            "title": "\nMDN Web Docs evolves! Lowdown on the upcoming new platform\n",
+            "date": "10:29:2020",
+            "abstract": "The time has come for Kuma \u2014 the platform that powers MDN Web Docs \u2014 to evolve. For quite some time now, the MDN developer team has been planning a radical platform change, and we are ready to start sharing the details of it. The question on your lips might be \u201cWhat does a Kuma evolve into? A KumaMaMa?\u201d\r\n\r\n",
+            "link": "https://hacks.mozilla.org/2020/10/mdn-web-docs-evolves-lowdown-on-the-upcoming-new-platform/"
+        },
+        {
+            "title": "\nMDN Web Docs: Editorial strategy and community participation\n",
+            "date": "10:22:2020",
+            "abstract": "We\u2019ve made a lot of progress on moving forward with MDN Web Docs in the last couple of months, and we wanted to share where we are headed in the short- to mid-term, starting with our editorial strategy and renewed efforts around community participation.\r\n",
+            "link": "https://hacks.mozilla.org/2020/10/mdn-web-docs-editorial-strategy-and-community-participation/"
+        },
+        {
+            "title": "\nComing through with Firefox 82\n",
+            "date": "10:20:2020",
+            "abstract": "As October ushers in the tail-end of the year, we are pushing Firefox 82 out the door. This time around we finally enable support for the Media Session API, provide some new CSS pseudo-selector behaviours, close some security loopholes involving the Window.name property, and provide inspection for server-sent events in our developer tools.\r\n",
+            "link": "https://hacks.mozilla.org/2020/10/coming-through-with-firefox-82/"
+        },
+        {
+            "title": "\nA New Backend for Cranelift, Part 1: Instruction Selection\n",
+            "date": "10:9:2020",
+            "abstract": "This post will describe my recent work on Cranelift as part of my day job at Mozilla. In this post, I will set some context and describe the instruction selection problem. In particular, I\u2019ll talk about a revamp to the instruction selector and backend framework in general that we\u2019ve been working on.",
+            "link": "https://hacks.mozilla.org/2020/10/a-new-backend-for-cranelift-part-1-instruction-selection/"
+        },
+        {
+            "title": "\nTo Eleventy and Beyond\n",
+            "date": "10:1:2020",
+            "abstract": "Porting an established static website from one generator to another can be daunting. In this post, Add-ons Engineering Manager Stuart Colville recounts the experience of migrating Firefox Extension Workshop, Mozilla\u2019s site for Firefox-specific extension development resources, from the Ruby-based site generator Jekyll to JavaScript-based Eleventy. ",
+            "link": "https://hacks.mozilla.org/2020/10/to-eleventy-and-beyond/"
+        },
+        {
+            "title": "\nAn Update on MDN Web Docs\n",
+            "date": "8:21:2020",
+            "abstract": "Mozilla announced some general changes in our investments and we would like to outline how they will impact our MDN platform efforts moving forward. It hurts to make these cuts, and it\u2019s important that we be candid on what\u2019s changing and why. ",
+            "link": "https://hacks.mozilla.org/2020/08/an-update-on-mdn-web-docs/"
+        },
+        {
+            "title": "\njs13kGames 2020: A lean coding challenge with WebXR and Web Monetization\n",
+            "date": "8:12:2020",
+            "abstract": "Announcing the return of the annual month-long competition for HTML5 game developers.  For  js13kGames contestants, the file size limit for all entries is set to 13 kilobytes of code. That's what makes this a code golf challenge. In addition to great prizes across a host of categories, including WebXR and Web Monetization, expert game reviewers provide valuable feedback on all submissions. ",
+            "link": "https://hacks.mozilla.org/2020/08/js13kgames-2020-a-lean-coding-challenge/"
+        },
+        {
+            "title": "\nChanges to SameSite Cookie Behavior \u2013 A Call to Action for Web Developers\n",
+            "date": "8:4:2020",
+            "abstract": "Browsers are changing the default value of the SameSite attribute for cookies from None to Lax. This will greatly improve security for users. However, some web sites may depend (even unknowingly) on the old default, potentially resulting in site breakage. At Mozilla, we are slowly introducing this change. And we urge web developers to test their sites with the new default.",
+            "link": "https://hacks.mozilla.org/2020/08/changes-to-samesite-cookie-behavior/"
+        },
+        {
+            "title": "\nFirefox 79: The safe return of shared memory, new tooling, and platform updates\n",
+            "date": "7:28:2020",
+            "abstract": "Firefox 79 offers a new Promise method, more secure target=_blank links, logical assignment operators, tooling improvements for better JavaScript debugging, and many other updates of interest to web developers. In addition, shared memory is back at last, with a safer implementation. ",
+            "link": "https://hacks.mozilla.org/2020/07/firefox-79/"
+        },
+        {
+            "title": "\nMDN Web Docs: 15 years young\n",
+            "date": "7:23:2020",
+            "abstract": "MDN Web Docs turns 15 years old! This celebratory article highlights fifteen big wins of the last five years.  With initiatives like the browser compatibility data project, learning areas and new pathways for beginning devs, interactive examples, as well as the Product Advisory Board, the Web DNA Report, and the MDN Swag Store, the MDN community has been busy sharing knowledge with the people who build the web.",
+            "link": "https://hacks.mozilla.org/2020/07/mdn-web-docs-15-years-young/"
+        },
+        {
+            "title": "\nSafely reviving shared memory\n",
+            "date": "7:21:2020",
+            "abstract": "At Mozilla, we want the web to be capable of running high-performance applications so that users and content authors can choose the safety, agency, and openness of the web platform. Shared-memory multi-threading is an essential low-level building block for high-performance applications. However, keeping users safe is paramount, which is why shared memory and high-resolution timers were effectively disabled at the start of 2018, in light of Spectre.  Until now... ",
+            "link": "https://hacks.mozilla.org/2020/07/safely-reviving-shared-memory/"
+        }
+    ]
+}

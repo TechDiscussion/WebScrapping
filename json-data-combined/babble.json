@@ -1,0 +1,70 @@
+{
+    "babble":[
+    {
+      "title": "Integrating React Native with Babbel’s native mobile apps",
+      "author": " Alvaro Castaneda",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/integrating-react-native-with-babbels-native-mobile-apps",
+      "image": "https://i0.wp.com/cms.babbel.news/wp-content/uploads/2020/07/yura-fresh-xezXEh_fIeU-unsplash-scaled-e1602690758310.jpg?resize=270%2C152"
+    },
+    {
+      "title": "Challenge your initial ideas",
+      "author": " Alexander Sulim",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/challenge-your-initial-ideas",
+      "image": "https://i2.wp.com/cms.babbel.news/wp-content/uploads/2020/10/kristopher-roller-rgrZVTjuuPw-unsplash-scaled-e1602688711398.jpg?resize=270%2C152"
+    },
+    {
+      "title": "Tech Stack of Babbel",
+      "author": " M. Serhat Dündar",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/tech-stack-of-babbel",
+      "image": "https://i2.wp.com/cms.babbel.news/wp-content/uploads/2020/06/tech-radar.png?resize=270%2C152"
+    },
+    {
+      "title": "How to do more with fewer servers",
+      "author": " Leszek Zalewski",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/how-to-do-more-with-fewer-servers",
+      "image": "https://i1.wp.com/cms.babbel.news/wp-content/uploads/2020/05/neonbrand-KYxXMTpTzek-unsplash-scaled-e1602685955794.jpg?resize=270%2C152"
+    },
+    {
+      "title": "Juniors’ Guide to Pull Requests",
+      "author": " Aimee Nortje",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/juniors-guide-to-pull-requests",
+      "image": "https://i1.wp.com/cms.babbel.news/wp-content/uploads/2020/03/eduardo-balderas-UVxd5b-_tw8-unsplash-scaled-e1602684665998.jpg?resize=270%2C152"
+    },
+    {
+      "title": "Becoming a Femgineer at Babbel and relocating to Germany",
+      "author": " Rachel Toner",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/becoming-a-femgineer-at-babbel-and-relocating-to-germany",
+      "image": "https://i2.wp.com/cms.babbel.news/wp-content/uploads/2020/02/becoming-a-femgineer-at-babbel-and-relocating-to-germany-scaled-e1602683791544.jpg?resize=270%2C152"
+    },
+    {
+      "title": "A Look Back at Hack Day #9",
+      "author": " Ewa Cabaj",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/a-look-back-at-hack-day-9-2",
+      "image": "https://i1.wp.com/cms.babbel.news/wp-content/uploads/2020/10/9th_hackday_team-e1602682931475.jpg?resize=270%2C152"
+    },
+    {
+      "title": "AWS Fargate for Data Engineering",
+      "author": " Riccardo Bassetto",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/aws-fargate-for-data-engineering",
+      "image": "https://i0.wp.com/cms.babbel.news/wp-content/uploads/2020/10/1_kwRNj9563YDx25y2HcM0qg-e1602761926570.jpeg?resize=270%2C152"
+    },
+    {
+      "title": "The making of Replicator",
+      "author": " Alexander Sulim",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/the-making-of-replicator",
+      "image": "https://i0.wp.com/cms.babbel.news/wp-content/uploads/2019/11/altumcode-fPPwHFn6Eis-unsplash-scaled-e1602682095981.jpg?resize=270%2C152"
+    },
+    {
+      "title": "Babbel Neos: The first year of a junior developer",
+      "author": " Gábor Török",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/babbel-neos-the-first-year-of-a-junior-developer",
+      "image": "https://i1.wp.com/cms.babbel.news/wp-content/uploads/2019/11/neos-year-one-e1602680718556.jpg?resize=270%2C152"
+    },
+    {
+      "title": "Movin’ on up: A femgineer’s journey at Babbel",
+      "author": " Tamara Menendez",
+      "link": "https://www.babbel.comhttps://www.babbel.com/en/magazine/movin-on-up-a-femgineers-journey-at-babbel",
+      "image": "https://i0.wp.com/cms.babbel.news/wp-content/uploads/2019/10/movin-on-up-a-femgineer-journey-at-babbel-img-e1602679310749.jpg?resize=270%2C152"
+    }
+  ]
+}

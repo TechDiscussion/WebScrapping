@@ -1,0 +1,207 @@
+{
+    "ebay": [
+        {
+            "title": "eBay\u2019s Offers to Buyers Feature Hits $1B GMV",
+            "abstract": "Offers to Buyers reaches new milestone this month.",
+            "author": "By: Harry Temkin and Parin Jogani",
+            "date": "12:2:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebays-offers-to-buyers-feature-hits-1b-gmv/"
+        },
+        {
+            "title": "Introducing QR Codes for eBay Shipping Labels",
+            "abstract": "With our new QR codes feature, sellers will no longer need a printer to use eBay shipping labels. ",
+            "author": "By: Manuela Misani and Stephan Kraus",
+            "date": "11:30:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/introducing-qr-codes-for-ebay-shipping-labelsnew-blog-post/"
+        },
+        {
+            "title": "Expanding the eBay Stores Experience to Our Mobile App",
+            "abstract": "The eBay Stores experience is now available on our mobile app for Android and iOS.",
+            "author": "By: Minh Tran-Lee",
+            "date": "11:23:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/expanding-the-ebay-stores-experience-to-our-mobile-app/"
+        },
+        {
+            "title": "An Introduction to Apache Flink",
+            "abstract": "How we\u2019re using Apache Flink to handle big data streaming in real-time.",
+            "author": "By: Chenru Lyu",
+            "date": "11:20:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/an-introduction-to-apache-flink/"
+        },
+        {
+            "title": "eBay\u2019s Technology Transformation is Made for Evolving Customer Needs ",
+            "abstract": "How our advances in edge computing are empowering both buyers and sellers in times of great demand with ease and agility.",
+            "author": "By: Mazen Rawashdeh",
+            "date": "11:17:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/ebays-technology-transformation-is-made-for-evolving-customer-needs/"
+        },
+        {
+            "title": "Introducing eBay\u2019s New Time Away Feature to Help Sellers Manage Selling on eBay While on a Break",
+            "abstract": "Time Away is now available to all Sellers and automatically updates the shipping date to make the experience more seamless. ",
+            "author": "By: Vikram Shandilya",
+            "date": "10:16:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/introducing-ebays-new-time-away-feature-to-help-sellers-manage-selling-on-ebay-while-on-a-break/"
+        },
+        {
+            "title": "eBay Partners with Google Assistant to Bring Voice Control to eBay\u2019s Android App ",
+            "abstract": "A new partnership launches voice control capabilities on our marketplace to meet the needs of our customers by creating a more seamless, modern experience. ",
+            "author": "By: Evan Thomas",
+            "date": "10:9:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-partners-with-google-assistant-to-bring-voice-control-to-ebays-android-app/"
+        },
+        {
+            "title": "An Automatic Mirror Testing Solution for Messaging Systems in eBay",
+            "abstract": "A look at how we developed a solution for automatic mirror testing to overcome the challenges of migrating eBay\u2019s proprietary messaging applications to a more modern technical stack.",
+            "author": "By: Tao Jin and Vivek Gadiyar",
+            "date": "9:24:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/an-automatic-mirror-testing-solution-for-messaging-systems-in-ebay/"
+        },
+        {
+            "title": "Our Online Analytical Processing Journey with ClickHouse on Kubernetes",
+            "abstract": "Learn about the latest evolution of online analytical processing (OLAP) data, now with ClickHouse on Kubernetes.",
+            "author": "By: Sudeep Kumar, Mohan Garadi, Xiancheng Li, Amber Vaidya and Liangfei Su",
+            "date": "9:22:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/ou-online-analytical-processing/"
+        },
+        {
+            "title": "Software Quality: Elevating the Game",
+            "abstract": "Learn how software product quality goes well beyond simply avoiding bugs.",
+            "author": "By: Lakshimi Duraivenkatesh",
+            "date": "9:14:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/software-quality-elevating-the-game/"
+        },
+        {
+            "title": "eBay Helps Buyers More Easily Discover Competitively Priced Items",
+            "abstract": "eBay recently launched a new feature that helps buyers find things easily on the Search page by highlighting competitively priced items from trusted sellers.",
+            "author": "By: Prerna Dubey and Manoj  Kannadasan",
+            "date": "9:11:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-helps-buyers-more-easily-discover-competitively-priced-items/"
+        },
+        {
+            "title": "eBay Motors: Accelerating With Flutter\u2122",
+            "abstract": "The UI software development kit enables a consistent user experience across iOS and Android.",
+            "author": "By: Corey Sprague and Larry McKenzie",
+            "date": "9:8:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-motors-accelerating-with-fluttertm/"
+        },
+        {
+            "title": "eBay Virtual Tracking Number Now Live in the UK and Australia",
+            "abstract": "eBay\u2019s unique code flows through Royal Mail and Australia Post networks, automating provision of eligible tracking and event data for buyers and sellers.",
+            "author": "By: Brian Pao, Shuja  Rahman and Irene Keay",
+            "date": "9:3:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-virtual-tracking-number-now-live-in-the-u-k-and-australia/"
+        },
+        {
+            "title": "Building a Product Catalog: eBay's 2nd Annual University Machine Learning Competition",
+            "abstract": "Participating universities will structure listing data to help solve a real-world ecommerce challenge. ",
+            "author": "By: Senthil Padmanabhan",
+            "date": "8:25:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/research/building-a-product-catalog-ebays-2nd-annual-university-machine-learning-competition/"
+        },
+        {
+            "title": "An eBay Charity Perspective for Developers",
+            "abstract": "This article explores charity support in Public APIs and hypothetical integration scenario walkthroughs for developers who wish to integrate with eBay for Charity in their eBay-powered experiences.",
+            "author": "By: Shekhar Banerjee and Diana Dukart",
+            "date": "8:17:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/an-ebay-charity-perspective-for-developers/"
+        },
+        {
+            "title": "The Journey to Integrating Android App Bundles",
+            "abstract": "Over the last few years, our Native Mobile Architecture team has been reshaping our native app experience to better align with evolving mobile standards.",
+            "author": "By: Christopher Bowling",
+            "date": "8:11:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/the-journey-to-integrating-android-app-bundles/"
+        },
+        {
+            "title": "Terapeak Research 2.0 - Making the Data Processing Pipeline Robust",
+            "abstract": "How the data processing pipeline functions in Terapeak and what factors make it fault tolerant, robust and highly available.",
+            "author": "By: Kashif Usmani, Yury Elizarov and Khachatur  Kocharyan",
+            "date": "8:6:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/terapeak-research-2-0-making-the-data-processing-pipeline-robust/"
+        },
+        {
+            "title": "Kubernetes Secrets: A Secure Credential Store for Jenkins",
+            "abstract": "At eBay, we containerized Jenkins to provide a continuous build infrastructure on Kubernetes Clusters to power the ecommerce marketplace experience. Our goal was to leverage the capability of Kubernetes secrets, for managing the Jenkins credentials. ",
+            "author": "By: Vasumathy  Seenuvasan and Ravi Bukka",
+            "date": "7:27:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/research/kubernetes-secrets-a-secure-credential-store-for-jenkins/"
+        },
+        {
+            "title": "eBay\u2019s Image Clean-Up Feature Brings the Power of Image Processing Algorithms to Android",
+            "abstract": "This feature enables our sellers to create cleaner listings.",
+            "author": "By: Dzmitry  Lebedzeu",
+            "date": "7:21:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebays-image-clean-up-feature-brings-the-power-of-image-processing-algorithms-to-android/"
+        },
+        {
+            "title": "eBay Makes Promoted Listings in Search Results More Relevant and Dynamic",
+            "abstract": "The Promoted Listing algorithm continues to build revenue for the marketplace and makes sellers happy.",
+            "author": "By: Shreya Raval, Yi Liu and Gajanan  Adalinge",
+            "date": "7:16:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-makes-promoted-listings-in-search-results-more-relevant-and-dynamic/"
+        },
+        {
+            "title": "Celebrating 20 Years: eBay\u2019s New APIs Enable Developers to Create Modern Buying and Selling Experiences ",
+            "abstract": "eBay launches APIs for Managed Payments, Seller Initiated Offers, Charity and more for developers to help their businesses thrive.",
+            "author": "By: Tanya Vlahovic",
+            "date": "7:13:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/celebrating-20-years-ebays-new-apis-enable-developers-to-create-modern-buying-and-selling-experiences/"
+        },
+        {
+            "title": "How We Used Our Buy APIs, Catch Platform to Build a New Portal for the NHS",
+            "abstract": "In partnership with the U.K. National Health Services, we leveraged our Buy APIs and Catch platform to build a new portal to deliver personal protective equipment to frontline health care workers. ",
+            "author": "By: Tanya Vlahovic",
+            "date": "7:9:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/how-we-used-our-buy-apis-catch-platform-to-build-a-new-portal-for-the-nhs/"
+        },
+        {
+            "title": "eBay Launches Secure Local Pickup To Simplify The Shipping Experience",
+            "abstract": "The enhanced feature enables buyers to purchase items online and pick up directly from sellers in their vicinity.",
+            "author": "By: Shuja  Rahman",
+            "date": "7:6:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-launches-secure-local-pickup-to-simplify-the-shipping-experience/"
+        },
+        {
+            "title": "eBay Makes Search More Efficient Through Personalization",
+            "abstract": "eBay introduces Best Match to personalize buyers\u2019 search feeds.",
+            "author": "By: Shreya Raval",
+            "date": "6:23:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-makes-search-more-efficient-through-personalization/"
+        },
+        {
+            "title": "Dark Mode Now Live on eBay Native Apps",
+            "abstract": "eBay becomes one of the first ecommerce companies to launch Dark Mode on iOS and Dark Theme on Android.",
+            "author": "By: Bradford Shellhammer",
+            "date": "6:8:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/dark-mode-now-live-on-ebay-native-apps/"
+        },
+        {
+            "title": "Streamlining Language Technology from Idea to Deployment",
+            "abstract": "In recent eBay Tech Blog articles, we presented the Unified AI platform called Krylov and our pythonic tool to interact with the platform, PyKrylov. In this article, we introduce our Natural Language Processing framework built on top of the AI platform.",
+            "author": "By: Daniel Stein, Gregor Leusch, Praseeda Sathaye and Selcuk Kopru",
+            "date": "5:26:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/engineering/streamlining-language-technology-from-idea-to-deployment/"
+        },
+        {
+            "title": "eBay Integrates Video into the eBay Motors App",
+            "abstract": "The eBay Video Platform will allow sellers to add in videos of the cars they are selling on the eBay Motors App.",
+            "author": "By: Geetanjali Gupta and Gilbert Bouzeid",
+            "date": "5:20:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/ebay-integrates-video-into-the-ebay-motors-app/"
+        },
+        {
+            "title": "Building a Product Catalog: What we Learned from our University Machine Learning Competition",
+            "abstract": "We challenged more than 100 college students at seven universities to structure listing data using AI and machine learning. ",
+            "author": "By: Senthil Padmanabhan",
+            "date": "5:18:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/product/building-a-product-catalog-what-we-learned-from-our-university-machine-learning-competition/"
+        },
+        {
+            "title": "Relation Embedding with Dihedral Group in Knowledge Graph",
+            "abstract": "eBay researchers recently published a paper about a method for KG relation embedding using dihedral group. Experimental results on benchmark KGs show that the model outperforms existing bilinear form models and even deep learning methods.",
+            "author": "By: Canran Xu and Ruijiang Li",
+            "date": "5:14:2020",
+            "link": "https://tech.ebayinc.comhttps://tech.ebayinc.com/research/relation-embedding-with-dihedral-group-in-knowledge-graph/"
+        }
+    ]
+}
