@@ -1,380 +1,382 @@
-[
-  {
-    "title": "\n        Bookkeeping\n      ",
-    "date": "\n        March 01, 2020\n      ",
-    "abstract": "Translating hundreds-of-years-old ideas in code",
-    "link": "https://getaround.tech/double-entry-bookkeeping/"
-  },
-  {
-    "title": "\n        Writing JavaScript like it's 2020\n      ",
-    "date": "\n        January 08, 2020\n      ",
-    "abstract": "() => 'The future looks good!'",
-    "link": "https://getaround.tech/writing-js-like-its-2020/"
-  },
-  {
-    "title": "\n        Migrating a Live IoT Telemetry Backend\n      ",
-    "date": "\n        December 10, 2019\n      ",
-    "abstract": "Explore the process behind choosing and migrating IoT infrastructure",
-    "link": "https://getaround.tech/migrating-a-live-iot-telemetry-backend/"
-  },
-  {
-    "title": "\n        Improving Performance with Flame Graphs\n      ",
-    "date": "\n        October 29, 2019\n      ",
-    "abstract": "A quick overview of how we dig into the performance of specific parts of our app.",
-    "link": "https://getaround.tech/improving-performance-with-flame-graphs/"
-  },
-  {
-    "title": "\n        What is my job like at Getaround EU\n      ",
-    "date": "\n        October 29, 2019\n      ",
-    "abstract": "Get an overview of what a backend developer could do at Getaround EU",
-    "link": "https://getaround.tech/what-is-my-job-like-as-backend-dev-in-the-finance-squad/"
-  },
-  {
-    "title": "\n        More tips and tricks for junior developers\n      ",
-    "date": "\n        September 18, 2019\n      ",
-    "abstract": "Some more tips with examples for junior devs looking to improve their code",
-    "link": "https://getaround.tech/more-junior-tricks/"
-  },
-  {
-    "title": "\n        A basic decision tree in Ruby\n      ",
-    "date": "\n        August 23, 2019\n      ",
-    "abstract": "Build a simple decision tree for a multi-steps flow",
-    "link": "https://getaround.tech/basic-decision-tree-in-ruby/"
-  },
-  {
-    "title": "\n        Sharing React components with rollup.js\n      ",
-    "date": "\n        July 24, 2019\n      ",
-    "abstract": "Bundle and publish a React component project to share it across our projects as a node module",
-    "link": "https://getaround.tech/sharing-react-components-with-rollupjs/"
-  },
-  {
-    "title": "\n        How Kotlin's Coroutines help us to deal with Bluetooth\n      ",
-    "date": "\n        July 16, 2019\n      ",
-    "abstract": "At Drivy, we want to enable users to open the car even if it's on the bottom floor of the deepest, underground parking. Since we can't rely on a GSM connection when so deep underground, we need to use a Bluetooth connection. But communicating with a Bluetooth device is easier said than done, due to the fact that it's low-level and requires many asynchronous calls. Let's see how we can improve this.",
-    "link": "https://getaround.tech/bluetooth-and-coroutines/"
-  },
-  {
-    "title": "\n        Things to consider when choosing a third-party API\n      ",
-    "date": "\n        July 02, 2019\n      ",
-    "abstract": "There are a lot of third-party-services APIs, but not all are created equally. In this article, we'll list the different points you should consider before you take a decision: documentation, libraries, SDKs, support, pricing, data privacy, and maintenance",
-    "link": "https://getaround.tech/things-to-consider-when-choosing-a-third-party-api/"
-  },
-  {
-    "title": "\n        Design system and API-Driven UI\n      ",
-    "date": "\n        June 05, 2019\n      ",
-    "abstract": "Our iOS and Android apps require API calls to fetch fresh content and build screens. We combined this requirement with the power of a design system to go even further in our ability to have flexible apps.",
-    "link": "https://getaround.tech/mobile-api-driven/"
-  },
-  {
-    "title": "\n        Embracing or banishing randomness\n      ",
-    "date": "\n        May 15, 2019\n      ",
-    "abstract": "How could using random values within your specs lead to better documentation and greater confidence? This post will use Ruby and RSpec to introduce some concepts from property based testing.",
-    "link": "https://getaround.tech/non-deterministic-testing/"
-  },
-  {
-    "title": "\n        Your JavaScript can reveal your secrets\n      ",
-    "date": "\n        May 02, 2019\n      ",
-    "abstract": "In backend security, JavaScript files are often underlooked but can tell a great deal about you.",
-    "link": "https://getaround.tech/javascript-security/"
-  },
-  {
-    "title": "\n        Sorbet: A Ruby type checker\n      ",
-    "date": "\n        April 19, 2019\n      ",
-    "abstract": "Sorbet is a Ruby type checker developed by Stripe. What's a type checker? What kind of type checker is Sorbet? Should you use it?",
-    "link": "https://getaround.tech/sorbet-a-ruby-type-checker/"
-  },
-  {
-    "title": "\n        From translator to developer\n      ",
-    "date": "\n        February 19, 2019\n      ",
-    "abstract": "An interview with a Full-Stack Engineer on how she started coding and what it\u00e2\u0080\u0099s like to work at Drivy",
-    "link": "https://getaround.tech/from-translator-to-developer/"
-  },
-  {
-    "title": "\n        Rails 6 unnoticed features\n      ",
-    "date": "\n        February 15, 2019\n      ",
-    "abstract": "The features you may have missed.",
-    "link": "https://getaround.tech/rails-6-unnoticed-features/"
-  },
-  {
-    "title": "\n        Handle disabled mobile data setting on iOS\n      ",
-    "date": "\n        February 13, 2019\n      ",
-    "abstract": "How to reimplement iOS's alert for cellular data error",
-    "link": "https://getaround.tech/handle-disabled-mobile-data-setting-on-ios/"
-  },
-  {
-    "title": "\n        Ruby tricks for junior developers\n      ",
-    "date": "\n        January 22, 2019\n      ",
-    "abstract": "Some small tricks and examples to improve your code",
-    "link": "https://getaround.tech/ruby-tricks-for-junior-devs/"
-  },
-  {
-    "title": "\n        Lambda composition in ruby 2.6\n      ",
-    "date": "\n        January 15, 2019\n      ",
-    "abstract": "The new proc composition operators: << and >> - a small feature that can easily be overlooked.",
-    "link": "https://getaround.tech/ruby-lambda-composition/"
-  },
-  {
-    "title": "\n        Why we've chosen Snowflake \u00e2\u009d\u0084\u00ef\u00b8\u008f as our Data Warehouse\n      ",
-    "date": "\n        January 07, 2019\n      ",
-    "abstract": "We will share with you the reasons why we've changed our Data Warehouse technology from Redshift to Snowflake.",
-    "link": "https://getaround.tech/snowflake-migration/"
-  },
-  {
-    "title": "\n        Airflow Architecture at Drivy\n      ",
-    "date": "\n        November 21, 2018\n      ",
-    "abstract": "Airflow Architecture at Drivy: a quick overview of Airflow architecture at Drivy",
-    "link": "https://getaround.tech/airflow-architecture/"
-  },
-  {
-    "title": "\n        Open-sourcing checker jobs\n      ",
-    "date": "\n        September 24, 2018\n      ",
-    "abstract": "A Ruby gem to run regression tests on your data using a convenient DSL.",
-    "link": "https://getaround.tech/checker-jobs/"
-  },
-  {
-    "title": "\n        Exporting significant SQL reports with ActiveRecord\n      ",
-    "date": "\n        August 29, 2018\n      ",
-    "abstract": "Avoid blowing up your memory while running big SQL queries",
-    "link": "https://getaround.tech/streaming-raw-sql-results-with-active-record/"
-  },
-  {
-    "title": "\n        Security tips for rails apps\n      ",
-    "date": "\n        August 27, 2018\n      ",
-    "abstract": "A few tips and examples to avoid basic security issues in a rails application",
-    "link": "https://getaround.tech/security-tips-for-rails-apps/"
-  },
-  {
-    "title": "\n        Implementing Up Navigation on Android\n      ",
-    "date": "\n        August 03, 2018\n      ",
-    "abstract": "Parent Navigation has always been a tough topic on Android. There are not a lot of apps that implement the guidelines correctly, maybe because they are hard to understand or complicated to implement. ",
-    "link": "https://getaround.tech/android-parent-navigation/"
-  },
-  {
-    "title": "\n        Quick wins to deal with users' broken email addresses\n      ",
-    "date": "\n        July 05, 2018\n      ",
-    "abstract": "Transactional emails are very important for a successful experience. So, how are we dealing with broken email addresses?",
-    "link": "https://getaround.tech/dealing-with-users-broken-email-addresses/"
-  },
-  {
-    "title": "\n        Usage of Sidekiq middleware\n      ",
-    "date": "\n        May 31, 2018\n      ",
-    "abstract": "Use Sidekiq middleware to propagate information to jobs.",
-    "link": "https://getaround.tech/use-sidekiq-middleware/"
-  },
-  {
-    "title": "\n        Rails 5.2: ActiveStorage highlight\n      ",
-    "date": "\n        May 17, 2018\n      ",
-    "abstract": "Rails 5.2 comes with awesome features: here we'll talk about ActiveStorage",
-    "link": "https://getaround.tech/rails-5.2-active-storage-highlight/"
-  },
-  {
-    "title": "\n        Android Makers 2018 Key takeaways\n      ",
-    "date": "\n        May 17, 2018\n      ",
-    "abstract": "Modern Android development, From Java to Kotlin, Design Tools, ADB, Typesetting and more: key takeaways from this 2018 edition.",
-    "link": "https://getaround.tech/android-makers-2018/"
-  },
-  {
-    "title": "\n        Ensuring consistent spacing in your UI\n      ",
-    "date": "\n        April 19, 2018\n      ",
-    "abstract": "Ensuring visual consistency across an application can be tricky: a few tips about how we do it at Drivy.",
-    "link": "https://getaround.tech/design-system-spacings/"
-  },
-  {
-    "title": "\n        Running Our First Internal Hack Day\n      ",
-    "date": "\n        April 03, 2018\n      ",
-    "abstract": "We started doing hack days to work together on new ideas. It was a lot of fun, so we decided to share how we did it and some of the results we saw.",
-    "link": "https://getaround.tech/drivy-hack-day/"
-  },
-  {
-    "title": "\n        Redshift tips and tricks - part 1\n      ",
-    "date": "\n        March 21, 2018\n      ",
-    "abstract": "We will share with you some insights, tips and tricks on how we managed to increase performance, robustness and reliability of Redshift as our usages changed over time.",
-    "link": "https://getaround.tech/redshift_tips_ticks_part_1/"
-  },
-  {
-    "title": "\n        Rails 5.1 Change Tracking in Callbacks\n      ",
-    "date": "\n        February 12, 2018\n      ",
-    "abstract": "Illustration of a subtle change to the way that Rails 5.1 tracks model changes in callbacks",
-    "link": "https://getaround.tech/rails-5.1-change-tracking/"
-  },
-  {
-    "title": "\n        How we documented our API using unit testing\n      ",
-    "date": "\n        January 23, 2018\n      ",
-    "abstract": "One of the most known pain point in API development is keeping up-to-date documentation. Let's see how we managed to do it using unit testing.",
-    "link": "https://getaround.tech/api-documentation/"
-  },
-  {
-    "title": "\n        Pro tips for productivity\n      ",
-    "date": "\n        January 16, 2018\n      ",
-    "abstract": "A summary of pro tips for enhanced productivity, recently shared by the dev team during a Tech Talk",
-    "link": "https://getaround.tech/productivity-pro-tips-highlights/"
-  },
-  {
-    "title": "\n        Highlights from the 2017 dotJS\n      ",
-    "date": "\n        January 11, 2018\n      ",
-    "abstract": "A handpicked selection of the dotJS talks you should watch first.",
-    "link": "https://getaround.tech/highlights-from-dotjs/"
-  },
-  {
-    "title": "\n        dotCSS 2017 hightlights\n      ",
-    "date": "\n        December 21, 2017\n      ",
-    "abstract": "The Drivy team was at the 2017 DotCSS conference. Here is a digest of the talks we found the most interesting, including a search engine build in CSS or what can be done with the grid property.",
-    "link": "https://getaround.tech/dot-css-conference-highlights/"
-  },
-  {
-    "title": "\n        Embulk: move easily data across datasources\n      ",
-    "date": "\n        December 11, 2017\n      ",
-    "abstract": "We present how we use Embulk to move data across multiple datasources thousand times a day at Drivy",
-    "link": "https://getaround.tech/embulk-data-transfer/"
-  },
-  {
-    "title": "\n        Sending an e-mail to millions of users\n      ",
-    "date": "\n        November 20, 2017\n      ",
-    "abstract": "Sometimes you just need to send a lot of emails, and services that make it really simple can get too expensive. Here is how we sent an e-mail to all our users and what we learnt.",
-    "link": "https://getaround.tech/sending-mass-emails/"
-  },
-  {
-    "title": "\n        Multi-currency support in Java\n      ",
-    "date": "\n        November 20, 2017\n      ",
-    "abstract": "For a few weeks, Drivy has been available in the United-Kingdom. Unlike the others Europeans countries where Drivy operates, the United-Kingdom use a different currency: we had to make some changes in our Android apps to support this. ",
-    "link": "https://getaround.tech/multi-currency-java/"
-  },
-  {
-    "title": "\n        Data quality checkers\n      ",
-    "date": "\n        November 09, 2017\n      ",
-    "abstract": "Making sure that the data we use is of good enough quality is very important. Here is how we ensure that the data we collect, store and process is meeting our quality requirements.",
-    "link": "https://getaround.tech/data-quality/"
-  },
-  {
-    "title": "\n        Sanitize your attributes through your form object\n      ",
-    "date": "\n        October 17, 2017\n      ",
-    "abstract": "A simple way to sanitize the user's form inputs using the Virtus custom coercion.",
-    "link": "https://getaround.tech/sanitize-your-attributes/"
-  },
-  {
-    "title": "\n        Evolution Of Our Continuous Delivery Process\n      ",
-    "date": "\n        September 27, 2017\n      ",
-    "abstract": "To stay agile and reduce risks related to large releases, it's important to be able to ship code fast. In this article we showcase chronologically all the iterations which have lead to what we currently do at Drivy for quick and efficient releases.",
-    "link": "https://getaround.tech/continuous-integration/"
-  },
-  {
-    "title": "\n        Setting up Vim for React development\n      ",
-    "date": "\n        September 12, 2017\n      ",
-    "abstract": "A list of plugins and config tricks for maximum productivity with React in Vim",
-    "link": "https://getaround.tech/setting-up-vim-for-react/"
-  },
-  {
-    "title": "\n        Code simplicity - Reading levels\n      ",
-    "date": "\n        September 01, 2017\n      ",
-    "abstract": "By telling stories in you code, you can offer various levels of details to make the reader's life easier. In this article we go through a refactoring of that kind.",
-    "link": "https://getaround.tech/code_simplicity_reading_levels/"
-  },
-  {
-    "title": "\n        Code simplicity - Command pattern\n      ",
-    "date": "\n        September 01, 2017\n      ",
-    "abstract": "Targeting junior developers, this article shows a simple technique to declutter controllers through the addition of a simple object.",
-    "link": "https://getaround.tech/code_simplicity_command_pattern/"
-  },
-  {
-    "title": "\n        Best Practices for Large Features\n      ",
-    "date": "\n        July 31, 2017\n      ",
-    "abstract": "A collection of tips and practices we find useful at Drivy for taking large features from planning to production.",
-    "link": "https://getaround.tech/best-practices-for-large-features/"
-  },
-  {
-    "title": "\n        How we are using member voice to improve UX\n      ",
-    "date": "\n        July 17, 2017\n      ",
-    "abstract": "Answering customers' questions is good but fixing the original problem is even better! Here we describe the various steps we took to leverage our users' feedback and questions to improve the overall user experience on our platform.",
-    "link": "https://getaround.tech/from-member-voice-to-ux/"
-  },
-  {
-    "title": "\n        Running feature specs with Capybara and Chrome headless\n      ",
-    "date": "\n        July 05, 2017\n      ",
-    "abstract": "How to use the new headless version of Chrome to replace PhantomJS and test a Rails application.",
-    "link": "https://getaround.tech/running-capybara-headless-chrome/"
-  },
-  {
-    "title": "\n        The Tech Recruitment Process At Drivy\n      ",
-    "date": "\n        July 03, 2017\n      ",
-    "abstract": "How we work to avoid the usual pitfalls of software recruitment: whiteboard coding, trivia questions... instead we look at code the candidate wrote before and discuss real problems encountered at Drivy.",
-    "link": "https://getaround.tech/tech-recruitment-process/"
-  },
-  {
-    "title": "\n        Designing state machines\n      ",
-    "date": "\n        June 26, 2017\n      ",
-    "abstract": "Different tips to design a state machine that improves your codebase quality and eases communication within your team",
-    "link": "https://getaround.tech/designing-state-machines/"
-  },
-  {
-    "title": "\n        Android Makers 2017 Highlights\n      ",
-    "date": "\n        May 23, 2017\n      ",
-    "abstract": "Android Makers 2017: a quick overview of the conferences we found the most interesting",
-    "link": "https://getaround.tech/android-makers/"
-  },
-  {
-    "title": "\n        Story of a junior developer at Drivy\n      ",
-    "date": "\n        May 18, 2017\n      ",
-    "abstract": "Feedback from a Junior Full Stack developer at Drivy since six months after graduating from a two-month bootcamp at Le Wagon.",
-    "link": "https://getaround.tech/story-of-a-junior-developer-at-drivy/"
-  },
-  {
-    "title": "\n        Code Simplicity - Value Objects\n      ",
-    "date": "\n        May 09, 2017\n      ",
-    "abstract": "Give more depth to your application's state using value objects.\nIn this article I show one use of a common pattern in order to\nhelp you reduce the cognitive load carried by implicit assumptions.\n",
-    "link": "https://getaround.tech/code_simplicity_value_objects/"
-  },
-  {
-    "title": "\n        Code Simplicity - Introduction\n      ",
-    "date": "\n        May 08, 2017\n      ",
-    "abstract": "A guided tour through covering common software practices enhancing simplicity.\nIn this article I share my vision of code simplicity is by giving some context\nabout software and code.\n",
-    "link": "https://getaround.tech/code_simplicity_introduction/"
-  },
-  {
-    "title": "\n        MySQL Evolution - From 5.6 to 8.0\n      ",
-    "date": "\n        May 02, 2017\n      ",
-    "abstract": "These are the slides of a presentation I gave at ParisRB. They present the new developer features of 5.6, 5.7 and what's coming in 8. It also shows how to use some of these features with Rails.",
-    "link": "https://getaround.tech/mysql-evolution/"
-  },
-  {
-    "title": "\n        Editing your git history with rebase for cleaner pull requests\n      ",
-    "date": "\n        April 26, 2017\n      ",
-    "abstract": "Having a clean git history is really useful for big pull requests. In this article we'll see how to edit previous commits to avoid clutter.",
-    "link": "https://getaround.tech/git-rebase-edit-history/"
-  },
-  {
-    "title": "\n        Instrumenting Sidekiq\n      ",
-    "date": "\n        April 20, 2017\n      ",
-    "abstract": "Monitoring your taskqueue to get deeper visibility on usage trends, find out slow jobs or queue congestion. Here's how we do it with a Sidekiq middleware, InfluxDB and Grafana.",
-    "link": "https://getaround.tech/sidekiq-instrumentation/"
-  },
-  {
-    "title": "\n        API Driven Apps\n      ",
-    "date": "\n        April 18, 2017\n      ",
-    "abstract": "Being agile on mobile apps has always been a challenge. You have to deal with users that don't update their apps and with the validation time on iOS. Let's see how to update your app without submitting a new version to the Play Store / App Store.",
-    "link": "https://getaround.tech/api-driven-apps/"
-  },
-  {
-    "title": "\n        Send Rails console commands to Slack\n      ",
-    "date": "\n        March 16, 2017\n      ",
-    "abstract": "We sometimes use the Rails console in staging or production to fix rare issues and we've built a tool to have a better visibility and control of commands executed in the console. This article explains why we decided to build this and how we did it.",
-    "link": "https://getaround.tech/rails-console-spy/"
-  },
-  {
-    "title": "\n        Use Android's FileProvider to get rid of the Storage Permission\n      ",
-    "date": "\n        March 14, 2017\n      ",
-    "abstract": "In order to share a file with other apps, the simplest way seems to be using the external storage as a temporary place to keep your file. However it has many drawbacks: more permissions are needed, you have less control and you leave more mess. Here is a solution to avoid this!",
-    "link": "https://getaround.tech/android-fileprovider/"
-  },
-  {
-    "title": "\n        Taskqueues tips\n      ",
-    "date": "\n        March 13, 2017\n      ",
-    "abstract": "Taskqueues are used to asynchronously run tasks. They are very useful and very easy to get wrong, so in this article I'll share 12 tips to make sure it goes smoothly.",
-    "link": "https://getaround.tech/taskqueues-tips/"
-  },
-  {
-    "title": "\n        Managing Bugs at Drivy\n      ",
-    "date": "\n        March 09, 2017\n      ",
-    "abstract": "It is crucial to have a minimal number of bugs in production. In this article we'll discuss the different ways we use to make sure everything goes smoothly for our users.",
-    "link": "https://getaround.tech/bug-management/"
-  }
-]
+{
+    "getaround": [
+        {
+            "title": "\n        Bookkeeping\n      ",
+            "date": "2020-03-01",
+            "abstract": "Translating hundreds-of-years-old ideas in code",
+            "link": "https://getaround.tech/double-entry-bookkeeping/"
+        },
+        {
+            "title": "\n        Writing JavaScript like it's 2020\n      ",
+            "date": "2020-01-08",
+            "abstract": "() => 'The future looks good!'",
+            "link": "https://getaround.tech/writing-js-like-its-2020/"
+        },
+        {
+            "title": "\n        Migrating a Live IoT Telemetry Backend\n      ",
+            "date": "2019-12-10",
+            "abstract": "Explore the process behind choosing and migrating IoT infrastructure",
+            "link": "https://getaround.tech/migrating-a-live-iot-telemetry-backend/"
+        },
+        {
+            "title": "\n        Improving Performance with Flame Graphs\n      ",
+            "date": "2019-10-29",
+            "abstract": "A quick overview of how we dig into the performance of specific parts of our app.",
+            "link": "https://getaround.tech/improving-performance-with-flame-graphs/"
+        },
+        {
+            "title": "\n        What is my job like at Getaround EU\n      ",
+            "date": "2019-10-29",
+            "abstract": "Get an overview of what a backend developer could do at Getaround EU",
+            "link": "https://getaround.tech/what-is-my-job-like-as-backend-dev-in-the-finance-squad/"
+        },
+        {
+            "title": "\n        More tips and tricks for junior developers\n      ",
+            "date": "2019-09-18",
+            "abstract": "Some more tips with examples for junior devs looking to improve their code",
+            "link": "https://getaround.tech/more-junior-tricks/"
+        },
+        {
+            "title": "\n        A basic decision tree in Ruby\n      ",
+            "date": "2019-08-23",
+            "abstract": "Build a simple decision tree for a multi-steps flow",
+            "link": "https://getaround.tech/basic-decision-tree-in-ruby/"
+        },
+        {
+            "title": "\n        Sharing React components with rollup.js\n      ",
+            "date": "2019-07-24",
+            "abstract": "Bundle and publish a React component project to share it across our projects as a node module",
+            "link": "https://getaround.tech/sharing-react-components-with-rollupjs/"
+        },
+        {
+            "title": "\n        How Kotlin's Coroutines help us to deal with Bluetooth\n      ",
+            "date": "2019-07-16",
+            "abstract": "At Drivy, we want to enable users to open the car even if it's on the bottom floor of the deepest, underground parking. Since we can't rely on a GSM connection when so deep underground, we need to use a Bluetooth connection. But communicating with a Bluetooth device is easier said than done, due to the fact that it's low-level and requires many asynchronous calls. Let's see how we can improve this.",
+            "link": "https://getaround.tech/bluetooth-and-coroutines/"
+        },
+        {
+            "title": "\n        Things to consider when choosing a third-party API\n      ",
+            "date": "2019-07-02",
+            "abstract": "There are a lot of third-party-services APIs, but not all are created equally. In this article, we'll list the different points you should consider before you take a decision: documentation, libraries, SDKs, support, pricing, data privacy, and maintenance",
+            "link": "https://getaround.tech/things-to-consider-when-choosing-a-third-party-api/"
+        },
+        {
+            "title": "\n        Design system and API-Driven UI\n      ",
+            "date": "2019-06-05",
+            "abstract": "Our iOS and Android apps require API calls to fetch fresh content and build screens. We combined this requirement with the power of a design system to go even further in our ability to have flexible apps.",
+            "link": "https://getaround.tech/mobile-api-driven/"
+        },
+        {
+            "title": "\n        Embracing or banishing randomness\n      ",
+            "date": "2019-05-15",
+            "abstract": "How could using random values within your specs lead to better documentation and greater confidence? This post will use Ruby and RSpec to introduce some concepts from property based testing.",
+            "link": "https://getaround.tech/non-deterministic-testing/"
+        },
+        {
+            "title": "\n        Your JavaScript can reveal your secrets\n      ",
+            "date": "2019-05-02",
+            "abstract": "In backend security, JavaScript files are often underlooked but can tell a great deal about you.",
+            "link": "https://getaround.tech/javascript-security/"
+        },
+        {
+            "title": "\n        Sorbet: A Ruby type checker\n      ",
+            "date": "2019-04-19",
+            "abstract": "Sorbet is a Ruby type checker developed by Stripe. What's a type checker? What kind of type checker is Sorbet? Should you use it?",
+            "link": "https://getaround.tech/sorbet-a-ruby-type-checker/"
+        },
+        {
+            "title": "\n        From translator to developer\n      ",
+            "date": "2019-02-19",
+            "abstract": "An interview with a Full-Stack Engineer on how she started coding and what it\u00e2\u0080\u0099s like to work at Drivy",
+            "link": "https://getaround.tech/from-translator-to-developer/"
+        },
+        {
+            "title": "\n        Rails 6 unnoticed features\n      ",
+            "date": "2019-02-15",
+            "abstract": "The features you may have missed.",
+            "link": "https://getaround.tech/rails-6-unnoticed-features/"
+        },
+        {
+            "title": "\n        Handle disabled mobile data setting on iOS\n      ",
+            "date": "2019-02-13",
+            "abstract": "How to reimplement iOS's alert for cellular data error",
+            "link": "https://getaround.tech/handle-disabled-mobile-data-setting-on-ios/"
+        },
+        {
+            "title": "\n        Ruby tricks for junior developers\n      ",
+            "date": "2019-01-22",
+            "abstract": "Some small tricks and examples to improve your code",
+            "link": "https://getaround.tech/ruby-tricks-for-junior-devs/"
+        },
+        {
+            "title": "\n        Lambda composition in ruby 2.6\n      ",
+            "date": "2019-01-15",
+            "abstract": "The new proc composition operators: << and >> - a small feature that can easily be overlooked.",
+            "link": "https://getaround.tech/ruby-lambda-composition/"
+        },
+        {
+            "title": "\n        Why we've chosen Snowflake \u00e2\u009d\u0084\u00ef\u00b8\u008f as our Data Warehouse\n      ",
+            "date": "2019-01-07",
+            "abstract": "We will share with you the reasons why we've changed our Data Warehouse technology from Redshift to Snowflake.",
+            "link": "https://getaround.tech/snowflake-migration/"
+        },
+        {
+            "title": "\n        Airflow Architecture at Drivy\n      ",
+            "date": "2018-11-21",
+            "abstract": "Airflow Architecture at Drivy: a quick overview of Airflow architecture at Drivy",
+            "link": "https://getaround.tech/airflow-architecture/"
+        },
+        {
+            "title": "\n        Open-sourcing checker jobs\n      ",
+            "date": "2018-09-24",
+            "abstract": "A Ruby gem to run regression tests on your data using a convenient DSL.",
+            "link": "https://getaround.tech/checker-jobs/"
+        },
+        {
+            "title": "\n        Exporting significant SQL reports with ActiveRecord\n      ",
+            "date": "2018-08-29",
+            "abstract": "Avoid blowing up your memory while running big SQL queries",
+            "link": "https://getaround.tech/streaming-raw-sql-results-with-active-record/"
+        },
+        {
+            "title": "\n        Security tips for rails apps\n      ",
+            "date": "2018-08-27",
+            "abstract": "A few tips and examples to avoid basic security issues in a rails application",
+            "link": "https://getaround.tech/security-tips-for-rails-apps/"
+        },
+        {
+            "title": "\n        Implementing Up Navigation on Android\n      ",
+            "date": "2018-08-03",
+            "abstract": "Parent Navigation has always been a tough topic on Android. There are not a lot of apps that implement the guidelines correctly, maybe because they are hard to understand or complicated to implement. ",
+            "link": "https://getaround.tech/android-parent-navigation/"
+        },
+        {
+            "title": "\n        Quick wins to deal with users' broken email addresses\n      ",
+            "date": "2018-07-05",
+            "abstract": "Transactional emails are very important for a successful experience. So, how are we dealing with broken email addresses?",
+            "link": "https://getaround.tech/dealing-with-users-broken-email-addresses/"
+        },
+        {
+            "title": "\n        Usage of Sidekiq middleware\n      ",
+            "date": "2018-05-31",
+            "abstract": "Use Sidekiq middleware to propagate information to jobs.",
+            "link": "https://getaround.tech/use-sidekiq-middleware/"
+        },
+        {
+            "title": "\n        Rails 5.2: ActiveStorage highlight\n      ",
+            "date": "2018-05-17",
+            "abstract": "Rails 5.2 comes with awesome features: here we'll talk about ActiveStorage",
+            "link": "https://getaround.tech/rails-5.2-active-storage-highlight/"
+        },
+        {
+            "title": "\n        Android Makers 2018 Key takeaways\n      ",
+            "date": "2018-05-17",
+            "abstract": "Modern Android development, From Java to Kotlin, Design Tools, ADB, Typesetting and more: key takeaways from this 2018 edition.",
+            "link": "https://getaround.tech/android-makers-2018/"
+        },
+        {
+            "title": "\n        Ensuring consistent spacing in your UI\n      ",
+            "date": "2018-04-19",
+            "abstract": "Ensuring visual consistency across an application can be tricky: a few tips about how we do it at Drivy.",
+            "link": "https://getaround.tech/design-system-spacings/"
+        },
+        {
+            "title": "\n        Running Our First Internal Hack Day\n      ",
+            "date": "2018-04-03",
+            "abstract": "We started doing hack days to work together on new ideas. It was a lot of fun, so we decided to share how we did it and some of the results we saw.",
+            "link": "https://getaround.tech/drivy-hack-day/"
+        },
+        {
+            "title": "\n        Redshift tips and tricks - part 1\n      ",
+            "date": "2018-03-21",
+            "abstract": "We will share with you some insights, tips and tricks on how we managed to increase performance, robustness and reliability of Redshift as our usages changed over time.",
+            "link": "https://getaround.tech/redshift_tips_ticks_part_1/"
+        },
+        {
+            "title": "\n        Rails 5.1 Change Tracking in Callbacks\n      ",
+            "date": "2018-02-12",
+            "abstract": "Illustration of a subtle change to the way that Rails 5.1 tracks model changes in callbacks",
+            "link": "https://getaround.tech/rails-5.1-change-tracking/"
+        },
+        {
+            "title": "\n        How we documented our API using unit testing\n      ",
+            "date": "2018-01-23",
+            "abstract": "One of the most known pain point in API development is keeping up-to-date documentation. Let's see how we managed to do it using unit testing.",
+            "link": "https://getaround.tech/api-documentation/"
+        },
+        {
+            "title": "\n        Pro tips for productivity\n      ",
+            "date": "2018-01-16",
+            "abstract": "A summary of pro tips for enhanced productivity, recently shared by the dev team during a Tech Talk",
+            "link": "https://getaround.tech/productivity-pro-tips-highlights/"
+        },
+        {
+            "title": "\n        Highlights from the 2017 dotJS\n      ",
+            "date": "2018-01-11",
+            "abstract": "A handpicked selection of the dotJS talks you should watch first.",
+            "link": "https://getaround.tech/highlights-from-dotjs/"
+        },
+        {
+            "title": "\n        dotCSS 2017 hightlights\n      ",
+            "date": "2017-12-21",
+            "abstract": "The Drivy team was at the 2017 DotCSS conference. Here is a digest of the talks we found the most interesting, including a search engine build in CSS or what can be done with the grid property.",
+            "link": "https://getaround.tech/dot-css-conference-highlights/"
+        },
+        {
+            "title": "\n        Embulk: move easily data across datasources\n      ",
+            "date": "2017-12-11",
+            "abstract": "We present how we use Embulk to move data across multiple datasources thousand times a day at Drivy",
+            "link": "https://getaround.tech/embulk-data-transfer/"
+        },
+        {
+            "title": "\n        Sending an e-mail to millions of users\n      ",
+            "date": "2017-11-20",
+            "abstract": "Sometimes you just need to send a lot of emails, and services that make it really simple can get too expensive. Here is how we sent an e-mail to all our users and what we learnt.",
+            "link": "https://getaround.tech/sending-mass-emails/"
+        },
+        {
+            "title": "\n        Multi-currency support in Java\n      ",
+            "date": "2017-11-20",
+            "abstract": "For a few weeks, Drivy has been available in the United-Kingdom. Unlike the others Europeans countries where Drivy operates, the United-Kingdom use a different currency: we had to make some changes in our Android apps to support this. ",
+            "link": "https://getaround.tech/multi-currency-java/"
+        },
+        {
+            "title": "\n        Data quality checkers\n      ",
+            "date": "2017-11-09",
+            "abstract": "Making sure that the data we use is of good enough quality is very important. Here is how we ensure that the data we collect, store and process is meeting our quality requirements.",
+            "link": "https://getaround.tech/data-quality/"
+        },
+        {
+            "title": "\n        Sanitize your attributes through your form object\n      ",
+            "date": "2017-10-17",
+            "abstract": "A simple way to sanitize the user's form inputs using the Virtus custom coercion.",
+            "link": "https://getaround.tech/sanitize-your-attributes/"
+        },
+        {
+            "title": "\n        Evolution Of Our Continuous Delivery Process\n      ",
+            "date": "2017-09-27",
+            "abstract": "To stay agile and reduce risks related to large releases, it's important to be able to ship code fast. In this article we showcase chronologically all the iterations which have lead to what we currently do at Drivy for quick and efficient releases.",
+            "link": "https://getaround.tech/continuous-integration/"
+        },
+        {
+            "title": "\n        Setting up Vim for React development\n      ",
+            "date": "2017-09-12",
+            "abstract": "A list of plugins and config tricks for maximum productivity with React in Vim",
+            "link": "https://getaround.tech/setting-up-vim-for-react/"
+        },
+        {
+            "title": "\n        Code simplicity - Reading levels\n      ",
+            "date": "2017-09-01",
+            "abstract": "By telling stories in you code, you can offer various levels of details to make the reader's life easier. In this article we go through a refactoring of that kind.",
+            "link": "https://getaround.tech/code_simplicity_reading_levels/"
+        },
+        {
+            "title": "\n        Code simplicity - Command pattern\n      ",
+            "date": "2017-09-01",
+            "abstract": "Targeting junior developers, this article shows a simple technique to declutter controllers through the addition of a simple object.",
+            "link": "https://getaround.tech/code_simplicity_command_pattern/"
+        },
+        {
+            "title": "\n        Best Practices for Large Features\n      ",
+            "date": "2017-07-31",
+            "abstract": "A collection of tips and practices we find useful at Drivy for taking large features from planning to production.",
+            "link": "https://getaround.tech/best-practices-for-large-features/"
+        },
+        {
+            "title": "\n        How we are using member voice to improve UX\n      ",
+            "date": "2017-07-17",
+            "abstract": "Answering customers' questions is good but fixing the original problem is even better! Here we describe the various steps we took to leverage our users' feedback and questions to improve the overall user experience on our platform.",
+            "link": "https://getaround.tech/from-member-voice-to-ux/"
+        },
+        {
+            "title": "\n        Running feature specs with Capybara and Chrome headless\n      ",
+            "date": "2017-07-05",
+            "abstract": "How to use the new headless version of Chrome to replace PhantomJS and test a Rails application.",
+            "link": "https://getaround.tech/running-capybara-headless-chrome/"
+        },
+        {
+            "title": "\n        The Tech Recruitment Process At Drivy\n      ",
+            "date": "2017-07-03",
+            "abstract": "How we work to avoid the usual pitfalls of software recruitment: whiteboard coding, trivia questions... instead we look at code the candidate wrote before and discuss real problems encountered at Drivy.",
+            "link": "https://getaround.tech/tech-recruitment-process/"
+        },
+        {
+            "title": "\n        Designing state machines\n      ",
+            "date": "2017-06-26",
+            "abstract": "Different tips to design a state machine that improves your codebase quality and eases communication within your team",
+            "link": "https://getaround.tech/designing-state-machines/"
+        },
+        {
+            "title": "\n        Android Makers 2017 Highlights\n      ",
+            "date": "2017-05-23",
+            "abstract": "Android Makers 2017: a quick overview of the conferences we found the most interesting",
+            "link": "https://getaround.tech/android-makers/"
+        },
+        {
+            "title": "\n        Story of a junior developer at Drivy\n      ",
+            "date": "2017-05-18",
+            "abstract": "Feedback from a Junior Full Stack developer at Drivy since six months after graduating from a two-month bootcamp at Le Wagon.",
+            "link": "https://getaround.tech/story-of-a-junior-developer-at-drivy/"
+        },
+        {
+            "title": "\n        Code Simplicity - Value Objects\n      ",
+            "date": "2017-05-09",
+            "abstract": "Give more depth to your application's state using value objects.\nIn this article I show one use of a common pattern in order to\nhelp you reduce the cognitive load carried by implicit assumptions.\n",
+            "link": "https://getaround.tech/code_simplicity_value_objects/"
+        },
+        {
+            "title": "\n        Code Simplicity - Introduction\n      ",
+            "date": "2017-05-08",
+            "abstract": "A guided tour through covering common software practices enhancing simplicity.\nIn this article I share my vision of code simplicity is by giving some context\nabout software and code.\n",
+            "link": "https://getaround.tech/code_simplicity_introduction/"
+        },
+        {
+            "title": "\n        MySQL Evolution - From 5.6 to 8.0\n      ",
+            "date": "2017-05-02",
+            "abstract": "These are the slides of a presentation I gave at ParisRB. They present the new developer features of 5.6, 5.7 and what's coming in 8. It also shows how to use some of these features with Rails.",
+            "link": "https://getaround.tech/mysql-evolution/"
+        },
+        {
+            "title": "\n        Editing your git history with rebase for cleaner pull requests\n      ",
+            "date": "2017-04-26",
+            "abstract": "Having a clean git history is really useful for big pull requests. In this article we'll see how to edit previous commits to avoid clutter.",
+            "link": "https://getaround.tech/git-rebase-edit-history/"
+        },
+        {
+            "title": "\n        Instrumenting Sidekiq\n      ",
+            "date": "2017-04-20",
+            "abstract": "Monitoring your taskqueue to get deeper visibility on usage trends, find out slow jobs or queue congestion. Here's how we do it with a Sidekiq middleware, InfluxDB and Grafana.",
+            "link": "https://getaround.tech/sidekiq-instrumentation/"
+        },
+        {
+            "title": "\n        API Driven Apps\n      ",
+            "date": "2017-04-18",
+            "abstract": "Being agile on mobile apps has always been a challenge. You have to deal with users that don't update their apps and with the validation time on iOS. Let's see how to update your app without submitting a new version to the Play Store / App Store.",
+            "link": "https://getaround.tech/api-driven-apps/"
+        },
+        {
+            "title": "\n        Send Rails console commands to Slack\n      ",
+            "date": "2017-03-16",
+            "abstract": "We sometimes use the Rails console in staging or production to fix rare issues and we've built a tool to have a better visibility and control of commands executed in the console. This article explains why we decided to build this and how we did it.",
+            "link": "https://getaround.tech/rails-console-spy/"
+        },
+        {
+            "title": "\n        Use Android's FileProvider to get rid of the Storage Permission\n      ",
+            "date": "2017-03-14",
+            "abstract": "In order to share a file with other apps, the simplest way seems to be using the external storage as a temporary place to keep your file. However it has many drawbacks: more permissions are needed, you have less control and you leave more mess. Here is a solution to avoid this!",
+            "link": "https://getaround.tech/android-fileprovider/"
+        },
+        {
+            "title": "\n        Taskqueues tips\n      ",
+            "date": "2017-03-13",
+            "abstract": "Taskqueues are used to asynchronously run tasks. They are very useful and very easy to get wrong, so in this article I'll share 12 tips to make sure it goes smoothly.",
+            "link": "https://getaround.tech/taskqueues-tips/"
+        },
+        {
+            "title": "\n        Managing Bugs at Drivy\n      ",
+            "date": "2017-03-09",
+            "abstract": "It is crucial to have a minimal number of bugs in production. In this article we'll discuss the different ways we use to make sure everything goes smoothly for our users.",
+            "link": "https://getaround.tech/bug-management/"
+        }
+    ]
+}
