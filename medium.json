@@ -2,490 +2,490 @@
     "medium": [
         {
             "title": "Counting your followers",
-            "date": "11:25:2020",
+            "date": "2020-11-25",
             "abstract": "A recent wave of users have questioned the validity of the displayed number of followers on their profiles. At one point, their follower number increased, some even by the thousands, but then a few weeks later went back down to around where the user originally remembered. Some users were concerned: Were their profiles hacked? Did a wave of users suddenly follow and then unfollow them? The answer is no\u2014it was a data problem.",
             "link": "https://medium.engineering/counting-your-followers-facbfafe45d9?source=collection_home---------1----------------------------",
             "author": "An Vu"
         },
         {
             "title": "Engineering Onboarding Processes at Medium",
-            "date": "10:20:2020",
+            "date": "2020-10-20",
             "abstract": "A couple months into Medium working fully remote, I started thinking about our engineering onboarding processes and looking for any holes that we needed to fill, especially now that we were all off-site. There were some things that, as an organization, we were adjusting to\u2014pairing through Zoom, for instance, or using online tools like Miro for retros\u2014and onboarding seemed like it could use some attention. With the help of Shruthi Adappa, I got to work on what needed to be changed or improved and what else we needed to include.",
             "link": "https://medium.engineering/engineering-onboarding-processes-at-medium-368095116ac3?source=collection_home---------2----------------------------",
             "author": "Laura Godinez"
         },
         {
             "title": "Scaling Email Infrastructure for Medium Digest",
-            "date": "9:30:2020",
+            "date": "2020-09-30",
             "abstract": "The Medium digest is a daily email containing a personalized list of stories that\u2019s scheduled to arrive between 8 a.m. and 9 a.m. user\u2019s local time. Timely delivery is important to us because we want our readers to start their days with the digest. Kind of like your morning newspaper!",
             "link": "https://medium.engineering/scaling-email-infrastructure-for-medium-digest-254223c883b8?source=collection_home---------3----------------------------",
             "author": "Penny Shen"
         },
         {
             "title": "CODE2040 2019 Offsite",
-            "date": "8:27:2019",
+            "date": "2019-08-27",
             "abstract": "It was a BIG day. Our CODE2040 crew left the office for a day of adventure! Only one of us had ever truly experienced a segway before. Some of us excelled, some of us were terrified, and all of us bonded.",
             "link": "https://medium.engineering/code2040-2019-offsite-236768037357?source=collection_home---------4----------------------------",
             "author": "Miranda Durham"
         },
         {
             "title": "Code Reviews at Medium",
-            "date": "7:13:2019",
+            "date": "2019-07-13",
             "abstract": "Engineering teams have different norms and policies when it comes to code reviews. It can be frustrating to join a team and not know what is expected, or to operate with old assumptions and discover that they are at odds with a new team. In an effort to make it easier for engineers who come from different companies, we wrote down some of the features of our code review culture.",
             "link": "https://medium.engineering/code-reviews-at-medium-bed2c0dce13a?source=collection_home---------5----------------------------",
             "author": "Christine Donovan"
         },
         {
             "title": "Engineering growth at Medium",
-            "date": "7:1:2019",
+            "date": "2019-07-01",
             "abstract": "Over the years, Medium Engineering (in partnership with our People Operations team) worked to improve the process to evaluate our engineers growth and their impact on the organization. We\u2019ve shared some of our thinking and approach to this process in the past, and are happy to hear that other companies are using their own adaptations of this model!",
             "link": "https://medium.engineering/engineering-growth-at-medium-4935b3234d25?source=collection_home---------6----------------------------",
             "author": "Medium Engineering"
         },
         {
             "title": "The Ghost in the Hashes",
-            "date": "6:30:2019",
+            "date": "2019-06-30",
             "abstract": "This was originally published on Medium\u2019s internal instance, to explain a persistent bug to other engineers.",
             "link": "https://medium.engineering/the-ghost-in-the-hashes-55ef1e3a86ef?source=collection_home---------7----------------------------",
             "author": "Heather Arthur"
         },
         {
             "title": "GraphQL Server Design @ Medium",
-            "date": "11:3:2018",
+            "date": "2018-11-03",
             "abstract": "A while ago, we told the story of how we are migrating to React.js and a service oriented architecture with the help of GraphQL. Now, we want to tell the story of how the structure of our GraphQL server helped make our migration much smoother.",
             "link": "https://medium.engineering/graphql-server-design-medium-34862677b4b8?source=collection_home---------8----------------------------",
             "author": "Sasha Solomon"
         },
         {
             "title": "GraphQL @ Medium Tech Talk Videos",
-            "date": "10:31:2018",
+            "date": "2018-10-31",
             "abstract": "Last week, Medium hosted our first ever GraphQL Tech Talks! Thank you to everyone who attended! It was great being about to share what we\u2019ve learned and chat with the GraphQL community. \ud83c\udf89",
             "link": "https://medium.engineering/graphql-medium-tech-talk-videos-a4812932abf3?source=collection_home---------9----------------------------",
             "author": "Sasha Solomon"
         },
         {
             "title": "Code2040 2018 Boat Trip",
-            "date": "10:26:2018",
+            "date": "2018-10-26",
             "abstract": "This summer we got to host several amazing interns from Code 2040: Alexis, Christina, Dmitri, Michael, and Nichelle. Heading into the final month of the internship we decided it was time to get on a boat. We car-pooled from the bay up to Lake Berryessa and spent a day grilling, laughing, jet-skiing and being merry on a 14 person pontoon.",
             "link": "https://medium.engineering/code2040-2018-boat-trip-ef9b86faec23?source=collection_home---------10----------------------------",
             "author": "Mike McGhie"
         },
         {
             "title": "GraphQL @ Medium Tech Talks",
-            "date": "10:19:2018",
+            "date": "2018-10-19",
             "abstract": "Medium has been working with GraphQL for over a year now! We\u2019ve built out our GraphQL server on top of our existing backend in such a way that, with the help of Protocol Buffers, we have been able to make progress migrating to React.js and a service oriented architecture without hindering product development!",
             "link": "https://medium.engineering/graphql-medium-tech-talks-f1d1b34399da?source=collection_home---------11----------------------------",
             "author": "Sasha Solomon"
         },
         {
             "title": "Microservice Architecture at Medium",
-            "date": "10:18:2018",
+            "date": "2018-10-18",
             "abstract": "The goal of microservice\u00b9 architecture is to help engineering teams ship products faster, safer, and with higher quality. Decoupled services allow teams to iterate quickly and with minimal impact to the rest of the system.",
             "link": "https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f?source=collection_home---------12----------------------------",
             "author": "Xiao Ma"
         },
         {
             "title": "Fred and Rabbit: A cautionary tale about passwords",
-            "date": "4:11:2018",
+            "date": "2018-04-11",
             "abstract": "A post for engineers and the technically astute to share with less technical friends and family, brought to you by the Department of Technical Comfort & Security at Medium (previously known as IT).",
             "link": "https://medium.engineering/fred-and-rabbit-a-cautionary-tale-about-passwords-51429157117d?source=collection_home---------14----------------------------",
             "author": "Julie Russell"
         },
         {
             "title": "2 Fast 2 Furious: migrating Medium\u2019s codebase without slowing down",
-            "date": "3:22:2018",
+            "date": "2018-03-22",
             "abstract": "Five years ago, Medium was built using the latest tools and frameworks by people who had experience with those tools. It\u2019s time that we update these tools and frameworks.",
             "link": "https://medium.engineering/2-fast-2-furious-migrating-mediums-codebase-without-slowing-down-84b1e33d81f4?source=collection_home---------15----------------------------",
             "author": "Sasha Solomon"
         },
         {
             "title": "Building Series for web",
-            "date": "2:10:2018",
+            "date": "2018-02-10",
             "abstract": "The first week of January this year Engineering was left to its own devices for the time honored tradition of following your own heart, and developing features for Medium that personally interest you \u2014 hackweek!.",
             "link": "https://medium.engineering/building-series-for-web-319925de3665?source=collection_home---------16----------------------------",
             "author": "Alex Kimi Wolfe"
         },
         {
             "title": "Mapping Medium\u2019s Tags",
-            "date": "1:24:2018",
+            "date": "2018-01-24",
             "abstract": "This was originally published Jan 18, 2018 on Hatch, Medium\u2019s internal instance, to explain a hack week project to the company.",
             "link": "https://medium.engineering/mapping-mediums-tags-1b9a78d77cf0?source=collection_home---------17----------------------------",
             "author": "Heather Arthur"
         },
         {
             "title": "Continuous Improvement",
-            "date": "12:21:2017",
+            "date": "2017-12-21",
             "abstract": "Continuous improvement is a core value of our culture here at Medium. Recently, we introduced a new RCA process to help us better understand why things go wrong and how we can improve our service and processes.",
             "link": "https://medium.engineering/continuous-improvement-f8f9fabd67dd?source=collection_home---------18----------------------------",
             "author": "Brian Zotter"
         },
         {
             "title": "Starting FARGATE",
-            "date": "12:4:2017",
+            "date": "2017-12-04",
             "abstract": "For the past year at Medium we\u2019ve been using ECS to deploy containers to AWS. When Amazon announced FARGATE earlier this week, we were really excited. It promises to solve a bunch of issues we experience with the current stack. This is the story of getting a FARGATE service up and running using our internal deployment system, BBFD. BBFD is an internal CLI and continuous deployment tool that we use to build, package, test and deploy our Docker services. Hopefully this post can save anyone else trying to retrofit FARGATE some time and headache.",
             "link": "https://medium.engineering/starting-fargate-c11abd6aa532?source=collection_home---------19----------------------------",
             "author": "Bob Corsaro"
         },
         {
             "title": "Use a .dev domain? Not anymore.",
-            "date": "11:29:2017",
+            "date": "2017-11-29",
             "abstract": "In the course of my work I sometimes test features on unreleased, upcoming versions of browsers. Earlier this week I opened up the upcoming version of Chrome only to find that the Medium\u2019s development environment \u2014 the system we use to build Medium every day \u2014 wouldn\u2019t load. Instead, all I saw was this error:",
             "link": "https://medium.engineering/use-a-dev-domain-not-anymore-95219778e6fd?source=collection_home---------20----------------------------",
             "author": "Daryl Koopersmith"
         },
         {
             "title": "\ud83c\udf83 An engineering spooky story \ud83c\udf83",
-            "date": "10:31:2017",
+            "date": "2017-10-31",
             "abstract": "You may have already heard the saying \u201cYou don\u2019t have a backup until you tested that you can restore it.\u201d As it turns out, that saying is true but not enough\u2026",
             "link": "https://medium.engineering/an-engineering-spooky-story-9b1d7c1dedb2?source=collection_home---------21----------------------------",
             "author": "Nathaniel Felsen"
         },
         {
             "title": "How do you like them Apples?",
-            "date": "10:14:2017",
+            "date": "2017-10-14",
             "abstract": "I kicked off my career at Medium as an iOS software engineer. This has come as a surprise to many of my friends, who know how much I love playing with Python and that I\u2019ve exclusively written HTML, CSS, and JavaScript in my internships and open source contributions.",
             "link": "https://medium.engineering/how-do-you-like-them-apples-bcf70b8a38d6?source=collection_home---------22----------------------------",
             "author": "Alaina Kafkes"
         },
         {
             "title": "iOS technical deep dive",
-            "date": "10:6:2017",
+            "date": "2017-10-06",
             "abstract": "On Tuesday, September 20, the mobile team released version 3.3 of the Medium iOS app to the App Store. That same day, Apple released the official version of iOS 11 to the world. Through an unfortunate combination of factors, the app started crashing on launch for users running iOS 11. The official postmortem for that crash can be found here. The goal of this post is to dive deeper into the technical details of what caused the crash.",
             "link": "https://medium.engineering/ios-technical-deep-dive-2bfaaea75bfe?source=collection_home---------23----------------------------",
             "author": "Eugenia Dellapenna"
         },
         {
             "title": "\ud83d\udc9a \u2192 \ud83d\udc4f \ud83d\udc4f \ud83d\udc4f",
-            "date": "8:22:2017",
+            "date": "2017-08-22",
             "abstract": "Back in the heady days of early July 2017, I was tasked with adapting the Medium \ud83d\udc9a system into something that allowed variable input. With the binary \ud83d\udc9a button, users could tell us when they liked a story, but we wanted to know how much they liked it, in comparison with other stories.",
             "link": "https://medium.engineering/-b10bec20de1d?source=collection_home---------24----------------------------",
             "author": "Emma Zhou"
         },
         {
             "title": "Emoji in the editor! \ud83c\udf7e \ud83d\ude4c \ud83c\udf89",
-            "date": "6:20:2017",
+            "date": "2017-06-20",
             "abstract": "Last week I was blocked on product development, so I added an :emoji: typeahead to the Medium editor, because I was tired of ^\u2318[space]ing. \ud83d\ude45\ud83d\udd52",
             "link": "https://medium.engineering/emoji-in-the-editor-806d6e026258?source=collection_home---------25----------------------------",
             "author": "Emma Zhou"
         },
         {
             "title": "Some things I value in engineering teams",
-            "date": "2:20:2017",
+            "date": "2017-02-20",
             "abstract": "Note \u2014 this was originally published internally to medium engineering",
             "link": "https://medium.engineering/some-things-i-value-in-engineering-teams-bd851e877ada?source=collection_home---------26----------------------------",
             "author": "Chris Fry"
         },
         {
             "title": "A new chapter\u2026",
-            "date": "2:1:2017",
+            "date": "2017-02-01",
             "abstract": "After two years of investing, advising, and traveling I\u2019m excited to get back to work. Today I start at Medium as head of engineering. This is a challenging job in many ways, not the least of which is by nature I\u2019m not a writer and I like to communicate in short, clipped sentences \u2014 more Steinbeck than Joyce.",
             "link": "https://medium.engineering/a-new-chapter-ed05f344bc4a?source=collection_home---------27----------------------------",
             "author": "Chris Fry"
         },
         {
             "title": "The Inexorable March of Tech",
-            "date": "1:7:2017",
+            "date": "2017-01-07",
             "abstract": "When I talk about building software, I like to use the metaphor of a garden. You put a bunch of energy into architecting, planning and building your garden, then one day it\u2019s finished! And then from that day forward, you need to continually work on it; weeding, cutting, turning the soil, preparing for changes in season, sweeping, everything one does to keep a garden in good shape.",
             "link": "https://medium.engineering/the-inexorable-march-of-tech-34f2c5e87dff?source=collection_home---------28----------------------------",
             "author": "Colin Vernon"
         },
         {
             "title": "Inline code!",
-            "date": "11:2:2016",
+            "date": "2016-11-02",
             "abstract": "I wrote this on Hatch on Sept. 22, 2016. Presented here with minor edits for clarity. See Hatching Inside Medium for more context.",
             "link": "https://medium.engineering/inline-code-cc32ff2d463?source=collection_home---------29----------------------------",
             "author": "Emma Zhou"
         },
         {
             "title": "Medium\u2019s DynamoDB Data Source for Apache Spark",
-            "date": "10:7:2016",
+            "date": "2016-10-07",
             "abstract": "Medium\u2019s tech stack includes DynamoDB for our production data, and Apache Spark for backend data processing. We need a fast and reliable integration between these systems to support our data warehouse. Talking with data engineers at other companies, this is a common pairing and we all have somewhat similar internal tools making these systems play well together.",
             "link": "https://medium.engineering/mediums-dynamodb-data-source-for-apache-spark-62c6599a6dfd?source=collection_home---------30----------------------------",
             "author": "Travis Crawford"
         },
         {
             "title": "Simple Style Sheets",
-            "date": "9:29:2016",
+            "date": "2016-09-29",
             "abstract": "What happens when you drop the \u201cC\u201d from CSS? At Medium, we\u2019ve been experimenting with a new way of using CSS to style our user interface components: a few months ago we started using small, atomic, and non-cascading classes instead of the usual BEM modifiers. The result is that we have a slightly more awkward but much more robust system of styling visual components.",
             "link": "https://medium.engineering/simple-style-sheets-c3b588867899?source=collection_home---------31----------------------------",
             "author": "Anton"
         },
         {
             "title": "In which CODE2040 and Medium hold a writing workshop for software engineers",
-            "date": "9:22:2016",
+            "date": "2016-09-22",
             "abstract": "After work on August 8 2016, a Tuesday evening, a little more than 60 people gathered at the Medium offices for an unusual event: a writing workshop.",
             "link": "https://medium.engineering/in-which-code2040-and-medium-hold-a-writing-workshop-for-software-engineers-cdce08c051ac?source=collection_home---------32----------------------------",
             "author": "Joy Chen"
         },
         {
             "title": "Typography is impossible",
-            "date": "8:25:2016",
+            "date": "2016-08-25",
             "abstract": "You\u2019re a front-end engineer, building boxes and putting text inside them. A lot of websites, and a lot of native apps, are basically that \u2014 text flowing into boxes. It\u2019s a testament to typography that hundreds of years since Gutenberg, letters and boxes keep reinventing themselves and finding new jobs to do, in materials and technologies that were once future\u2019s future.",
             "link": "https://medium.engineering/typography-is-impossible-5872b0c7f891?source=collection_home---------33----------------------------",
             "author": "Marcin Wichary"
         },
         {
             "title": "Medium\u2019s engineering interview process",
-            "date": "6:9:2016",
+            "date": "2016-06-09",
             "abstract": "For a growing company, interviewing is one of the most important tasks employees are asked to do, but one challenge is that interviewers don\u2019t always feel adequately qualified to assess candidates. Lacking shared standards, it\u2019s easy to rely on gut feeling and subjective impressions, which can depend on mood and incorporate many forms of potential bias. Many agree that the technical interview process is broken.",
             "link": "https://medium.engineering/mediums-engineering-interview-process-b8d6b67927c4?source=collection_home---------34----------------------------",
             "author": "Jamie Talbot"
         },
         {
             "title": "8 Lessons from NSNorth 2016",
-            "date": "6:9:2016",
+            "date": "2016-06-09",
             "abstract": "A few weeks ago I attended NSNorth, a small, single track, iOS developer conference in Toronto. The talks were mostly non-technical and focused on subjects related to developing great apps. Topics ranged from how designers and developers can work more effectively together to which features were added to UIKit in iOS 9. Here are the top lessons that I learned while at the conference (in the form of a listicle!):",
             "link": "https://medium.engineering/8-lessons-from-nsnorth-2016-643161507f36?source=collection_home---------39----------------------------",
             "author": "Eugenia Dellapenna"
         },
         {
             "title": "Advice to our high school selves",
-            "date": "4:22:2016",
+            "date": "2016-04-22",
             "abstract": "Today, a few of us here at Medium hosted a Girls Who Code field trip for a group of high school girls \u2014 they spent their afternoon touring the Medium office and then chatting with us about our work and lives. To conclude the field trip, the question came up: \u201cWhat advice would you give your 15\u201317 year-old selves?\u201d",
             "link": "https://medium.engineering/advice-to-our-high-school-selves-a181f2c3eeaf?source=collection_home---------40----------------------------",
             "author": "Jean Hsu"
         },
         {
             "title": "Good debugging is putting yourself in your user\u2019s shoes",
-            "date": "4:9:2016",
+            "date": "2016-04-09",
             "abstract": "I woke up one morning to a notification on Slack saying \u201c@here iOS feedback:\u201d with a link to an article by H. Nemesis Nyx.",
             "link": "https://medium.engineering/good-debugging-is-putting-yourself-in-your-user-s-shoes-d638f0745a78?source=collection_home---------41----------------------------",
             "author": "Tyler Hedrick"
         },
         {
             "title": "If Dr House did DevOps",
-            "date": "3:17:2016",
+            "date": "2016-03-17",
             "abstract": "In the TV series House, a diagnostician and his team tackle medical mysteries. Every episode a patient presents with serious symptoms of unknown cause. The race is on to find a cure.",
             "link": "https://medium.engineering/if-dr-house-did-devops-77322a7baf09?source=collection_home---------42----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "A guide to technical interviews at Medium",
-            "date": "3:2:2016",
+            "date": "2016-03-02",
             "abstract": "Here at Medium, we realize that being asked to solve an unfamiliar problem on a whiteboard, is not the same as coding in your favorite IDE while listening to your favorite tunes. The goal of our interview process is to predict how you\u2019ll perform once you join our team. Since interviewing ability has almost no correlation with employee effectiveness, we do our best to adjust our expectations.",
             "link": "https://medium.engineering/a-guide-to-your-technical-interview-at-medium-76d91942c737?source=collection_home---------43----------------------------",
             "author": "Jeff Lu"
         },
         {
             "title": "Medium Engineering Job Openings",
-            "date": "2:2:2016",
+            "date": "2016-02-02",
             "abstract": "We hire people with the expectation they may play many roles once they are here, but we source people for specific skills and interview them on their strengths. This list highlights the particular skill areas we are currently on the look out for.",
             "link": "https://medium.engineering/medium-engineering-job-openings-500e4a97e5e?source=collection_home---------44----------------------------",
             "author": "Medium Engineering"
         },
         {
             "title": "The Unluckiest Paragraphs",
-            "date": "12:5:2015",
+            "date": "2015-12-05",
             "abstract": "Yes, this is the kind of story that starts by quoting the W3C\u2019s CSS 2.1 Specification on how to apply style rules to web pages.",
             "link": "https://medium.engineering/the-unluckiest-paragraphs-751dd36d2d30?source=collection_home---------46----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "The Stack That Helped Medium Drive 2.6 Millennia of Reading Time",
-            "date": "10:24:2015",
+            "date": "2015-10-24",
             "abstract": "Medium is a network. It\u2019s a place to share stories and ideas that matter \u2014 it\u2019s where you move thinking forward, and people have spent 1.4 billion minutes \u2014 or 2.6 millennia \u2014 reading on Medium.",
             "link": "https://medium.engineering/the-stack-that-helped-medium-drive-2-6-millennia-of-reading-time-e56801f7c492?source=collection_home---------47----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "How Medium Detects Hotspots in DynamoDB using ElasticSearch, Logstash and Kibana",
-            "date": "9:8:2015",
+            "date": "2015-09-08",
             "abstract": "One of the most common issues you face when using DynamoDB, or any similar \u201cBig Data\u201d type database, is that it doesn\u2019t access your data in a very uniform pattern. It\u2019s a kind of issue commonly known as a hotspot or a hotkey.",
             "link": "https://medium.engineering/how-medium-detects-hotspots-in-dynamodb-using-elasticsearch-logstash-and-kibana-aaa3d6632cfd?source=collection_home---------48----------------------------",
             "author": "Nathaniel Felsen"
         },
         {
             "title": "The time we took the interns to Pirate\u2019s Cove",
-            "date": "8:20:2015",
+            "date": "2015-08-20",
             "abstract": "This summer it\u2019s been our pleasure to host three of the amazing fellows from Code2040's class of 2015. With less than a month left in their internships, the interns, the hosts, and I headed across the Golden Gate Bridge for a coastal hike from Muir Beach to Pirate\u2019s Cove. Our little jaunt covered 5 miles and around 1500 feet of elevation.",
             "link": "https://medium.engineering/the-time-we-took-the-interns-to-pirate-s-cove-76faea5c3ee3?source=collection_home---------49----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "The Browser that Fixed the Bug",
-            "date": "6:30:2015",
+            "date": "2015-06-30",
             "abstract": "\u201cIt seems we\u2019re back at square one.\u201d This was the conclusion of my project to enable editing for Microsoft Internet Explorer 11 users.",
             "link": "https://medium.engineering/the-browser-that-fixed-the-bug-a4b7816c9880?source=collection_home---------52----------------------------",
             "author": "Anton"
         },
         {
             "title": "Five Goofy Things Medium DidThat Break Accessibility",
-            "date": "6:30:2015",
+            "date": "2015-06-30",
             "abstract": "Medium Engineering recently had an accessibility fixit. We found some goofy things! But we\u2019re trying to do better. We wanted to share some of what we found.",
             "link": "https://medium.engineering/five-goofy-things-medium-did-that-break-accessibility-3bc804ae818d?source=collection_home---------54----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "Medium Android Tools",
-            "date": "6:25:2015",
+            "date": "2015-06-25",
             "abstract": "Our new Medium Android app is now released in the wild. We\u2019re proud of it. But we owe a deep debt to the communities that fashioned the tools that made it possible:",
             "link": "https://medium.engineering/medium-android-tools-f827bb96b8e4?source=collection_home---------55----------------------------",
             "author": "Daniel McCartney"
         },
         {
             "title": "The journey",
-            "date": "6:5:2015",
+            "date": "2015-06-05",
             "abstract": "This is a recap of my talk from February 2015 Engineering All-Hands",
             "link": "https://medium.engineering/the-journey-25043c59ca7f?source=collection_home---------56----------------------------",
             "author": "Stephanie Yeung"
         },
         {
             "title": "The Helping Mindset",
-            "date": "5:21:2015",
+            "date": "2015-05-21",
             "abstract": "One of a tech lead\u2019s accountabilities is to help the team make technical decisions, but \u201chelping\u201d can be done in very different ways that lead to very different consequences.",
             "link": "https://medium.engineering/the-helping-mindset-9b0f08049ee2?source=collection_home---------57----------------------------",
             "author": "Xiao Ma"
         },
         {
             "title": "Facelifting Medium\u2019s Profile Page",
-            "date": "4:14:2015",
+            "date": "2015-04-14",
             "abstract": "At the beginning of the year, we decided we were going to make Medium a more casual place for reading and writing. What did that mean in practice? That we were going to change the fundamental building blocks of the Medium experience. The dual mission of the project was to change the way stories were listed on the homepage \u2014 turning them into real previews \u2014 and to have the editor leave its comfortable home on the full screen, and bring it onto the homepage itself.",
             "link": "https://medium.engineering/facelifting-medium-s-profile-page-101044ffccd8?source=collection_home---------58----------------------------",
             "author": "Joy Chen"
         },
         {
             "title": "The 3rd Medium Engineering Summit",
-            "date": "4:14:2015",
+            "date": "2015-04-14",
             "abstract": "Twice a year the Medium engineering team gets together for an all-day summit. As well as being a good opportunity to interact with people on the broader team, it\u2019s a time to reflect on how we work and the challenges we face. This time we talked about prototyping.",
             "link": "https://medium.engineering/the-3rd-medium-engineering-summit-d8d0284a1370?source=collection_home---------59----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "Watching Medium",
-            "date": "3:31:2015",
+            "date": "2015-03-31",
             "abstract": "At Medium, how we work is just as important as the product we work on, and growing as an individual is just as important as contributing to the organization. We constantly look for new ways to better ourselves. In our engineering team, these values are reflected in Guilds, which foster domain-specific knowledge, and Group Leads, who help other engineers develop professionally.",
             "link": "https://medium.engineering/watching-medium-a7dde501a22d?source=collection_home---------60----------------------------",
             "author": "gianni"
         },
         {
             "title": "Textshots Central",
-            "date": "2:26:2015",
+            "date": "2015-02-26",
             "abstract": "I posted this internally to Medium engineers on February 10, 2015 to get feedback on positioning algorithms. See Hatching Inside Medium for more context.",
             "link": "https://medium.engineering/textshots-central-7034e497ecc5?source=collection_home---------62----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "The Bug that Blocked the Browser",
-            "date": "2:3:2015",
+            "date": "2015-02-03",
             "abstract": "Modern IE is a solid browser. Its standard compliance is on par with other major players and its developer tools are as good and sometimes even better than their counterparts in Firefox, Chrome, and Safari. And yet, if you try to write a Medium story in IE, you will be greeted with a dialog asking you to use any other major browser instead. Why?",
             "link": "https://medium.engineering/the-bug-that-blocked-the-browser-e28b64a3c0cc?source=collection_home---------64----------------------------",
             "author": "Anton"
         },
         {
             "title": "The curious case of the disappearing Polish S",
-            "date": "2:3:2015",
+            "date": "2015-02-03",
             "abstract": "A few weeks ago, someone reported this to us at Medium:",
             "link": "https://medium.engineering/the-curious-case-of-disappearing-polish-s-fa398313d4df?source=collection_home---------65----------------------------",
             "author": "Marcin Wichary"
         },
         {
             "title": "Wait, Don\u2019t Touch That!",
-            "date": "1:17:2015",
+            "date": "2015-01-17",
             "abstract": "Everyone knows that JavaScript runtimes are single-threaded.",
             "link": "https://medium.engineering/wait-dont-touch-that-a211832adc3a?source=collection_home---------66----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "Running concurrent queries in GoSocial",
-            "date": "11:21:2014",
+            "date": "2014-11-21",
             "abstract": "GoSocial is Medium\u2019s service (written in Go and backed by a Neo4j database) which manages all of our social data. For more on GoSocial, check out this post.",
             "link": "https://medium.engineering/running-concurrent-queries-in-gosocial-28e5841b05b5?source=collection_home---------67----------------------------",
             "author": "Tess Rinearson"
         },
         {
             "title": "How Medium Goes Social",
-            "date": "11:21:2014",
+            "date": "2014-11-21",
             "abstract": "Have any of my friends liked this post?",
             "link": "https://medium.engineering/how-medium-goes-social-b7dbefa6d413?source=collection_home---------68----------------------------",
             "author": "Tess Rinearson"
         },
         {
             "title": "Bug Priorities",
-            "date": "11:5:2014",
+            "date": "2014-11-05",
             "abstract": "This was originally published to Hatch on 12 August 2014 after a lot of arguments about bug priorities. Read Ev\u2019s story on Hatching Inside Medium to find out more.",
             "link": "https://medium.engineering/bug-priorities-68b2af457bf9?source=collection_home---------71----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "Getting a running start",
-            "date": "11:4:2014",
+            "date": "2014-11-04",
             "abstract": "This was originally published to Hatch on 10 october 2013 following a lunch discussion. Read Ev\u2019s story on Hatching Inside Medium to find out more.",
             "link": "https://medium.engineering/getting-a-running-start-dd6b375bbdcc?source=collection_home---------72----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "The UI Component That Did Too Much",
-            "date": "10:24:2014",
+            "date": "2014-10-24",
             "abstract": "The Tragic Tale of obv.ui.Popover",
             "link": "https://medium.engineering/the-ui-component-that-did-too-much-c4fb2a7666ec?source=collection_home---------73----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "Revert Paths",
-            "date": "10:21:2014",
+            "date": "2014-10-21",
             "abstract": "Jenny has been working on a pretty massive refactoring for about a week. She\u2019s up to about 2,000 lines of code sprinkled across 28 files. Part of the refactoring updates how posts get stored, but she\u2019s written a bunch of tests, manually tested it, and plans to let it bake on staging for the weekend. She\u2019s really confident in her work and excited to see the change go out on Monday.",
             "link": "https://medium.engineering/revert-paths-50d2fc9452c8?source=collection_home---------74----------------------------",
             "author": "Dan Pupius"
         },
         {
             "title": "fromJson Ruins Everything",
-            "date": "10:18:2014",
+            "date": "2014-10-18",
             "abstract": "This was published on October 1, 2014 on Hatch, as an API change proposal. See Hatching Inside Medium for context on this collection.",
             "link": "https://medium.engineering/fromjson-ruins-everything-678716bc0b5d?source=collection_home---------75----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "Medium and Content Security Policy",
-            "date": "10:17:2014",
+            "date": "2014-10-17",
             "abstract": "Content Security Policy (CSP) is a way to provide Medium users an added layer of security against Cross Site Scripting (XSS) attacks.",
             "link": "https://medium.engineering/medium-and-content-security-policy-53d5dd28c92a?source=collection_home---------76----------------------------",
             "author": "Rudy Winnacker"
         },
         {
             "title": "It Takes a Village To Read an RSS Feed",
-            "date": "9:29:2014",
+            "date": "2014-09-29",
             "abstract": "This Sunday morning, I was sitting at home, sipping my coffee, and browsing the feeds of my favorite Medium collections with Feedly. My friend Dan shared a post \u201c@medium your rss feeds are @ mess.\u201d In the post, Alan Levine explains that Medium RSS feeds are broken in all sorts of ways. This surprised me.",
             "link": "https://medium.engineering/it-takes-a-village-to-read-an-rss-feed-84e63a3c9094?source=collection_home---------77----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "The Code Review Mindset",
-            "date": "9:4:2014",
+            "date": "2014-09-04",
             "abstract": "Code review is an important and widely adopted practice, and there are numerous how-to guides that teach best practices. They\u2019re all valuable, but what\u2019s most important, I think, is the mindset. If a team shares a positive approach to code reviews, a lot of the benefits of best practice automatically apply. It fundamentally changes how you experience code review, and its effectiveness.",
             "link": "https://medium.engineering/the-code-review-mindset-3280a4af0a89?source=collection_home---------78----------------------------",
             "author": "Xiao Ma"
         },
         {
             "title": "How I rewrote \u2018Yo\u2019 in 4 hours",
-            "date": "7:8:2014",
+            "date": "2014-07-08",
             "abstract": "It was just another day at the Medium office, or at least it started out that way. I was working on a project when, a few desks over, there was a sound\u2014\u201cHodor!\u201d\u2014followed by an eruption of laughter. And it came again. \u201cHodor! Hodor! Hodor!\u201d More laughter. Suddenly \u201cHodor!\u201d was everywhere.",
             "link": "https://medium.engineering/how-i-rewrote-yo-in-4-hours-9291d92606a7?source=collection_home---------79----------------------------",
             "author": "Tyler Hedrick"
         },
         {
             "title": "Why ContentEditable is Terrible",
-            "date": "5:14:2014",
+            "date": "2014-05-14",
             "abstract": "The first time I sat across a table from Jacob (@fat), he asked bluntly, \u201cHow do you write a text editor?\u201d",
             "link": "https://medium.engineering/why-contenteditable-is-terrible-122d8a40e480?source=collection_home---------80----------------------------",
             "author": "Nick Santos"
         },
         {
             "title": "The Way We Work: Dan Pupius",
-            "date": "5:14:2014",
+            "date": "2014-05-14",
             "abstract": "Dan Pupius is Engineering lead at Medium, working with a team of 27 engineers and the product development team to build the product you\u2019re reading right now. As well as identifying engineering projects and allocating resources, he also fulfills a range of roles as an engineer, working across front and back ends, writing Medium\u2019s image processing pipeline and contributing to our iPhone app.",
             "link": "https://medium.engineering/the-way-we-work-dan-pupius-2aa147c1bae3?source=collection_home---------81----------------------------",
             "author": "Medium Engineering"
         },
         {
             "title": "How We Modularized Medium\u2019s iOS codebase",
-            "date": "5:14:2014",
+            "date": "2014-05-14",
             "abstract": "After we launched the Medium iOS app, we wanted to make it easy for any engineer in the company to quickly experiment with, and contribute to, the codebase. Having a more modular codebase enables us to experiment more: for example, we could spin up a prototype that has the same core components for authentication and downloading posts, but explores different navigation or post displays.",
             "link": "https://medium.engineering/how-we-modularized-mediums-ios-codebase-8f8f26965c76?source=collection_home---------82----------------------------",
             "author": "Vin\u00edcius Baggio Fuentes"
         },
         {
             "title": "Fast upload previews",
-            "date": "4:11:2013",
+            "date": "2013-04-11",
             "abstract": "So you have a cool web app that allows people to upload photos.",
             "link": "https://medium.engineering/fast-upload-previews-4865c8e26810?source=collection_home---------83----------------------------",
             "author": "Dan Pupius"
