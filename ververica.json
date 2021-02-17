@@ -1,1215 +1,1217 @@
-[
-  {
-    "title": "Apache Flink's stream-batch unification powers Alibaba's 11.11 in 2020",
-    "date": " December 21, 2020",
-    "author": "by Feng Wang",
-    "abstract": "\nApache Flink, Ververica Platform and Alibaba Cloud's RealTime Compute technology stack processes record breaking real time data during this year's Double 11! Wondering how Apache Flink, Ververica...\n",
-    "link": "https://www.ververica.com/blog/apache-flinks-stream-batch-unification-powers-alibabas-11.11-in-2020",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/dd918d0a83e187ecd811ffd46c648dadf86a8fa6.png"
-  },
-  {
-    "title": "Flink-powered model serving & real-time feature generation at Razorpay",
-    "date": " December 15, 2020",
-    "author": "by Shashank Agarwal",
-    "abstract": "\nDuring Flink Forward Global 2020 the team from Razorpay showcased how Apache Flink is being utilized in it\u2019s \u2018Mitra\u2019 Data Platform as a way to overcome challenges around feature generation and...\n",
-    "link": "https://www.ververica.com/blog/flink-powered-model-serving-real-time-feature-generation-at-razorpay",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/image2-Dec-14-2020-08-42-36-02-AM.png"
-  },
-  {
-    "title": "Real-Time Performance Monitoring with Flink SQL: AdTech Use Case",
-    "date": " November 27, 2020",
-    "author": "by Alexander Fedulov",
-    "abstract": "\nBackground Advertising Technologies (Ad Tech) is a collective name that describes systems and tools for managing and analyzing programmatic advertising campaigns. The goal of digital advertising...\n",
-    "link": "https://www.ververica.com/blog/real-time-performance-monitoring-with-flink-sql-ad-tech-use-case",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/CTR%20results%20presented%20in%20Apache%20Superset.png"
-  },
-  {
-    "title": "Data Pipelines with Flink SQL on Ververica Platform",
-    "date": " November 18, 2020",
-    "author": "by Seth Wiesman",
-    "abstract": "\nModern data pipelines require working with data across a number of external systems. Sometimes data lives in a message queue like Apache Kafka, AWS Kinesis, or Apache Pulsar but other times it\u2019s...\n",
-    "link": "https://www.ververica.com/blog/data-pipelines-with-flink-sql-on-ververica-platform",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Available%20Connectors%20&%20Formats-thumb.png"
-  },
-  {
-    "title": "Flink Forward Global 2020 Recap",
-    "date": " November 11, 2020",
-    "author": "by Seth Wiesman",
-    "abstract": "\nOn October 19-22, 2020 we virtually welcomed more than 1,500 members of the Apache Flink\u00ae community at Flink Forward Global 2020. The second virtual Flink Forward featured several exciting keynote...\n",
-    "link": "https://www.ververica.com/blog/flink-forward-global-2020-recap",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Flink%20Forward%20Global%202020%20Infographic-thumb.png"
-  },
-  {
-    "title": "Ververica Platform 2.3: Getting Started with Flink SQL on Ververica Platform",
-    "date": " November 09, 2020",
-    "author": "by Konstantin Knauf",
-    "abstract": "\nFlink SQL is one of the three main programming interfaces of Apache Flink.\u00a0 It is declarative and, because the community kept the syntax inline with the SQL standard, anyone who knows traditional...\n",
-    "link": "https://www.ververica.com/blog/ververica-platform-2.3-getting-started-with-flink-sql-on-ververica-platform",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Executing%20%28%E2%80%9CRun%20Selection%E2%80%9D%29%20the%20CREATE%20TABLE%20statement%20for%20the%20result%20table%20average_temperatures.png"
-  },
-  {
-    "title": "How mitigating event-time skewness can reduce checkpoint failures and task manager crashes",
-    "date": " November 04, 2020",
-    "author": "by Fred Teunissen & Erik de Nooij",
-    "abstract": "\nIntroduction Support for event time and stateful event processing are some of the features that make Apache Flink stand out compared to other stream processors. However, using event time may cause...\n",
-    "link": "https://www.ververica.com/blog/how-mitigating-event-time-skewness-can-reduce-checkpoint-failures-and-task-manager-crashes",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/ING-blog-post-figure-1.png"
-  },
-  {
-    "title": "Ververica Platform 2.3: An End-To-End Platform for Flink SQL",
-    "date": " October 21, 2020",
-    "author": "by Konstantin Knauf",
-    "abstract": "\nVerverica Platform becomes an integrated platform for the development and operations of Flink SQL\n",
-    "link": "https://www.ververica.com/blog/ververica-platform-2.3-an-end-to-end-platform-for-flink-sql",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/SQL-Editor-VVP-Thumbnail.png"
-  },
-  {
-    "title": "Ververica Stream Alliance: Introducing New Business Partner Category",
-    "date": " October 15, 2020",
-    "author": "by Ververica Press Office",
-    "abstract": "\nAfter the successful introduction of Ververica\u2019s Stream Alliance Program, Ververica today announces an update to the program scheme and the addition of a new partner category, the Ververica...\n",
-    "link": "https://www.ververica.com/blog/ververica-stream-alliance-introducing-new-business-partner-category",
-    "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Stream%20Alliance-Business%20Partner-THUMB.png"
-  },
-  {
-    "title": "Intel\u2019s distributed Model Inference platform presented at Flink Forward",
-    "date": " September 21, 2020",
-    "abstract": "\nFlink Forward Global Virtual Conference 2020 is kicking off next month and the Flink community is getting ready to discuss the future of stream processing, and Apache Flink. This time, the...\n",
-    "author": "by Dongjie Shi & Jiaming Song",
-    "link": "https://www.ververica.com/blog/intel-distributed-model-inference-platform-presented-at-flink-forward"
-  },
-  {
-    "title": "A deep dive on Change Data Capture with Flink SQL during Flink Forward",
-    "date": " September 10, 2020",
-    "abstract": "\nCan you believe that Flink Forward Global Virtual Conference 2020 is only a few weeks away?\u00a0\n",
-    "author": "by Jark Wu & Qingsheng Ren",
-    "link": "https://www.ververica.com/blog/a-deep-dive-on-change-data-capture-with-flink-sql-during-flink-forward"
-  },
-  {
-    "title": "Introducing Ververica Platform 2.2 with Autoscaling for Apache Flink",
-    "date": " August 04, 2020",
-    "abstract": "\nThe latest release of Ververica Platform introduces autoscaling for Apache Flink and support for Apache Flink 1.11\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/introducing-ververica-platform-2.2-with-autoscaling-for-apache-flink"
-  },
-  {
-    "title": "Presenting our Streaming Concepts & Introduction to Flink Video Series",
-    "date": " July 09, 2020",
-    "abstract": "\nTransitioning from the batch data processing world into the world of stream processing and real time analytics can be challenging. Throughout this process, there are many new concepts you need to...\n",
-    "author": "by Alexander Fedulov",
-    "link": "https://www.ververica.com/blog/presenting-our-streaming-concepts-introduction-to-flink-video-series"
-  },
-  {
-    "title": "Announcing Early Access Program for Flink SQL in Ververica Platform",
-    "date": " July 06, 2020",
-    "abstract": "\nBeen wondering what's next for Ververica Platform? Maybe you've already guessed: Flink SQL is coming to Ververica Platform later this year! Today we are excited to announce our Early Access Program\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/announcing-early-access-program-for-flink-sql-in-ververica-platform"
-  },
-  {
-    "title": "Data-driven Matchmaking at Azar with Apache Flink",
-    "date": " June 23, 2020",
-    "abstract": "\nThe Hyperconnect team attended Flink Forward for the first time a couple of months back and presented how we utilize Apache Flink to perform real time matchmaking for the video-based social...\n",
-    "author": "by Jaehyeuk Oh & Gihoon Yeom",
-    "link": "https://www.ververica.com/blog/data-driven-matchmaking-at-azar-with-apache-flink"
-  },
-  {
-    "title": "Advanced Configurations with Ververica Platform Community Edition",
-    "date": " June 22, 2020",
-    "abstract": "\nWelcome to the third post in our Ververica Platform Community Edition series. The first two posts covered installation and common operational activities. If you missed the first part and want to...\n",
-    "author": "by Seth Wiesman",
-    "link": "https://www.ververica.com/blog/advanced-configurations-with-ververica-platform-community-edition"
-  },
-  {
-    "title": "Flink for online Machine Learning and real-time processing at Weibo",
-    "date": " June 15, 2020",
-    "abstract": "\nThe Flink Forward event gave me an amazing opportunity to present to the global Apache Flink community how Weibo uses Apache Flink to run real time data processing and Machine Learning on our...\n",
-    "author": "by Yu Qian",
-    "link": "https://www.ververica.com/blog/flink-for-online-machine-learning-and-real-time-processing-at-weibo"
-  },
-  {
-    "title": "Upgrade Strategies & High Availability with Ververica Platform Community Edition",
-    "date": " June 11, 2020",
-    "abstract": "\nWelcome to the second part in a series of blog posts on the Ververica Platform. The first post covered the installation of the platform and the deployment of a simple job. If you missed the first...\n",
-    "author": "by Seth Wiesman",
-    "link": "https://www.ververica.com/blog/upgrade-strategies-high-availability-ververica-platform-community-edition"
-  },
-  {
-    "title": "Analyzing GitHub Activity with Ververica Platform Community Edition\u00a0 \u00a0- Part 1: Getting Started",
-    "date": " May 28, 2020",
-    "abstract": "\nVerverica Platform provides a turnkey solution for running Apache Flink in production. The Community Edition of Ververica Platform, is a free-to-use package that offers the core operational...\n",
-    "author": "by Seth Wiesman",
-    "link": "https://www.ververica.com/blog/analyzing-github-activity-with-ververica-platform-community-edition"
-  },
-  {
-    "title": "How GoDaddy uses Flink to run real time streaming pipelines",
-    "date": " May 19, 2020",
-    "abstract": "\nDuring Flink Forward Virtual 2020, GoDaddy demonstrated to the Flink community how our Data Platform Team uses Apache Flink for running real time streaming pipelines. In this post, I will describe...\n",
-    "author": "by Ankit Jhalaria",
-    "link": "https://www.ververica.com/blog/how-godaddy-uses-flink-to-run-real-time-streaming-pipelines"
-  },
-  {
-    "title": "Setting up Role-based Access Control (RBAC) with UAA & LDAP in Ververica Platform",
-    "date": " May 13, 2020",
-    "abstract": "\nUser Account and Authentication (UAA) from Cloud Foundry is a free, open source, and enterprise scale identity management and authorization service. Its primary role is as an OAuth2 provider,...\n",
-    "author": "by Jun Qin",
-    "link": "https://www.ververica.com/blog/role-based-access-control-rbac-uaa-ldap-in-ververica-platform"
-  },
-  {
-    "title": "Flink Forward Virtual 2020 Recap",
-    "date": " April 30, 2020",
-    "abstract": "\nLast week, more than 1,400 members of the Apache Flink community signed up for the first-ever Flink Forward Virtual conference. If you missed the opportunity to join the conference, you can find...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/flink-forward-virtual-2020-recap"
-  },
-  {
-    "title": "Dell Technologies and Ververica: Analyzing Continuous Data Streams Across Industries",
-    "date": " April 23, 2020",
-    "abstract": "\nThis post originally appeared on the Dell EMC blog. It was reproduced on the Ververica blog with permission from its author. Every single entity in the digital world, be it an end user or a...\n",
-    "author": "by Flavio Junqueira",
-    "link": "https://www.ververica.com/blog/dell-ververica-analyzing-continuous-data-streams-across-industries"
-  },
-  {
-    "title": "Session Preview: Stateful Functions for Stateful Serverless Applications",
-    "date": " April 21, 2020",
-    "abstract": "\nStateful Functions, Flink\u2019s newest API and runtime, attempts to solve the problem of building rapidly scalable and resilient distributed stateful applications. Users implement polyglot...\n",
-    "author": "by Tzu-Li (Gordon) Tai",
-    "link": "https://www.ververica.com/blog/session-preview-stateful-functions-for-stateful-serverless-applications"
-  },
-  {
-    "title": "Session preview:\u00a0Adobe's realtime identity graph with Flink",
-    "date": " April 20, 2020",
-    "abstract": "\nAre you ready for the Virtual Flink Forward this week? As a first time speaker, I am very excited to meet the Apache Flink community and share our experience using Flink at Adobe! This blog post...\n",
-    "author": "by Fakrudeen Ali Ahmed",
-    "link": "https://www.ververica.com/blog/adobe-realtime-identity-graph-with-flink"
-  },
-  {
-    "title": "Session preview:\u00a0Building Stateful Streaming Pipelines at Godaddy with Flink",
-    "date": " April 02, 2020",
-    "abstract": "\nAre you thinking of joining the Virtual Flink Forward on April 22 - 24? It\u2019s the first time the Godaddy team will present at a Flink Forward event and we are beyond excited to share our experience...\n",
-    "author": "by Ankit Jhalaria",
-    "link": "https://www.ververica.com/blog/session-preview-building-stateful-streaming-pipelines-at-godaddy-with-flink-1"
-  },
-  {
-    "title": "Announcing Ververica Platform Community Edition",
-    "date": " March 31, 2020",
-    "abstract": "\nWe are excited to announce the release of Ververica Platform Community Edition \u2014 the easiest way to get started with Apache Flink! With the Community Edition of Ververica Platform, we are making...\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/announcing-ververica-platform-community-edition"
-  },
-  {
-    "title": "How\u00a0OpenSSL in Ververica Platform 2.1 improves your Flink performance",
-    "date": " March 17, 2020",
-    "abstract": "\nWith Ververica Platform, we are always striving to provide our users the best Flink experience they can get. Our newest release, version 2.1, includes a very nice performance improvement that does...\n",
-    "author": "by Nico Kruber",
-    "link": "https://www.ververica.com/blog/how-openssl-in-ververica-platform-improves-your-flink-job-performance"
-  },
-  {
-    "title": "Integrate Microsoft Azure Pipelines with Ververica Platform",
-    "date": " March 12, 2020",
-    "abstract": "\nMicrosoft Azure Pipelines is one of the most popular Continuous Integration (CI)/Continuous Delivery(CD) platforms. In this article, we will walk you through the steps to integrate Microsoft Azure...\n",
-    "author": "by Jun Qin",
-    "link": "https://www.ververica.com/blog/integrate-microsoft-azure-pipelines-with-ververica-platform"
-  },
-  {
-    "title": "Introducing Ververica Platform 2.1",
-    "date": " March 09, 2020",
-    "abstract": "\nThe latest release includes Apache Flink\u24c7 1.10 and significantly enhances the platform\u2019s capabilities around multi-tenancy and disaster recovery We are very excited to announce the release of...\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/introducing-ververica-platform-2.1"
-  },
-  {
-    "title": "A Journey to Beating Flink's SQL Performance",
-    "date": " February 27, 2020",
-    "abstract": "\nRecently, we were doing some experiments with a SQL query that joins a few dimensional tables to enrich incoming records. While doing so, we were thinking of whether an implementation of the same...\n",
-    "author": "by Nico Kruber",
-    "link": "https://www.ververica.com/blog/a-journey-to-beating-flinks-sql-performance"
-  },
-  {
-    "title": "How to manage your RocksDB memory size in Apache Flink",
-    "date": " February 26, 2020",
-    "abstract": "\nThis blog post describes some configuration options that will help you to efficiently manage the memory size of the RocksDB state backend in Apache Flink. In an earlier post, we described the...\n",
-    "author": "by Stefan Richter",
-    "link": "https://www.ververica.com/blog/manage-rocksdb-memory-size-apache-flink"
-  },
-  {
-    "title": "Ververica Platform Multitenancy: deployment isolation on OpenShift",
-    "date": " February 17, 2020",
-    "abstract": "\nOrganizational decisions to adopt Apache Flink by our customers are oftentimes taken on a global level,\u00a0 designed to allow independent teams to start working with streaming technology without the...\n",
-    "author": "by Alexander Fedulov",
-    "link": "https://www.ververica.com/blog/ververica-platform-multitenancy-deployment-isolation-on-openshift"
-  },
-  {
-    "title": "Application Log Intelligence & Performance Insight at Salesforce using Flink",
-    "date": " February 13, 2020",
-    "abstract": "\nWhile many fast-paced, hyper-growth tech companies such as Salesforce expand exponentially, oftentimes their application log infrastructure is evolving organically, trailing behind the operational...\n",
-    "author": "by Andrew Torson",
-    "link": "https://www.ververica.com/blog/application-log-intelligence-performance-insights-salesforce-flink"
-  },
-  {
-    "title": "Getting Started with Ververica Platform on Microsoft Azure, part 2",
-    "date": " January 23, 2020",
-    "abstract": "\nIt has been a while since our last blog post about how to set up Ververica Platform (vvP) on Microsoft Azure and a few things have improved since then. Time for an update and an extension on...\n",
-    "author": "by Nico Kruber",
-    "link": "https://www.ververica.com/blog/getting-started-with-ververica-platform-on-microsoft-azure-part-2"
-  },
-  {
-    "title": "How SK telecom democratizes streaming data with FLOW and Flink",
-    "date": " January 20, 2020",
-    "abstract": "\nData Labs from SK telecom was at FlinkForward Berlin 2017 and 2018, to present how SK telecom uses Apache Flink for different scenarios in the company. Last year at FlinkForward Europe 2019, we...\n",
-    "author": "by Dongwon Kim & Markos Sfikas",
-    "link": "https://www.ververica.com/blog/how-sk-telecom-democratizes-streaming-data-with-flow-and-flink"
-  },
-  {
-    "title": "Replayable Process Functions: Time, Ordering, and Timers",
-    "date": " December 17, 2019",
-    "abstract": "\nThis post originally appeared on the Bird Engineering account on Medium. It was reproduced here with permission from the author. \u00a0 Detecting Offline Scooters with Stream Processing Some of the...\n",
-    "author": "by Philip Wilcox",
-    "link": "https://www.ververica.com/blog/replayable-process-functions-time-ordering-and-timers"
-  },
-  {
-    "title": "Key Highlights from Flink Forward Beijing 2019",
-    "date": " December 05, 2019",
-    "abstract": "\nOn November 28-30, Beijing welcomed the 2019 Flink Forward conference for the second time. This year\u2019s attendance number exceeded 2,000 people, an increase of nearly 100% year-on-year. In addition...\n",
-    "author": "by Yuan Mei & Markos Sfikas",
-    "link": "https://www.ververica.com/blog/flink-forward-asia-2019-summary"
-  },
-  {
-    "title": "Announcing Flink Community Packages",
-    "date": " November 18, 2019",
-    "abstract": "\nToday, we are excited to announce the launch of Flink Community Packages \u2014 a website that showcases the work of the community to push forward the ecosystem surrounding Apache Flink\u00ae. Users can...\n",
-    "author": "by Robert Metzger",
-    "link": "https://www.ververica.com/blog/announcing-flink-community-packages"
-  },
-  {
-    "title": "Introducing the Ververica Development and Startup License Programs",
-    "date": " November 14, 2019",
-    "abstract": "\nSince its inception, Ververica Platform has focused on enabling and supporting the modern enterprise in its adoption of state-of-the-art data processing powered by real-time data. Oftentimes,...\n",
-    "author": "by Holger Temme & Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/introducing-the-ververica-developer-and-startup-license-programs"
-  },
-  {
-    "title": "Real-time Experiment Analytics at Pinterest using Apache Flink",
-    "date": " November 11, 2019",
-    "abstract": "\nThis post originally appeared on the\u00a0Pinterest Engineering Blog on Medium. It was reproduced here with permission from the authors. \u00a0 At Pinterest, we run thousands of experiments every day. We...\n",
-    "author": "by Parag Kesar & Ben Liu",
-    "link": "https://www.ververica.com/blog/real-time-experiment-analytics-at-pinterest-using-apache-flink"
-  },
-  {
-    "title": "Flink Forward Europe 2019 Recap",
-    "date": " November 01, 2019",
-    "abstract": "\nA couple of weeks back more than 400 members of the Apache Flink and stream processing communities gathered in Berlin for the 5th edition of Flink Forward Europe. If you haven\u2019t had the chance to...\n",
-    "author": "by Fabian Hueske & Robert Metzger",
-    "link": "https://www.ververica.com/blog/flink-forward-europe-2019-recap"
-  },
-  {
-    "title": "Introducing Ververica Platform 2.0",
-    "date": " October 15, 2019",
-    "abstract": "\nVerverica Platform 2.0 brings long term enterprise support for Apache Flink 1.9.0, Kubernetes-based Flink Master Failover, artifact management, and a simplified approach to role-based access...\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/introducing-ververica-platform-2.0"
-  },
-  {
-    "title": "Announcing Stateful Functions: Distributed State, Uncomplicated",
-    "date": " October 08, 2019",
-    "abstract": "\nWe are thrilled to announce the launch of Stateful Functions (statefun.io), an open source framework that reduces the complexity of building and orchestrating distributed stateful applications at...\n",
-    "author": "by Stephan Ewen & Marta Paes",
-    "link": "https://www.ververica.com/blog/announcing-stateful-functions-distributed-state-uncomplicated"
-  },
-  {
-    "title": "Google Cloud Platform's Flink Operator for Kubernetes is here!",
-    "date": " October 03, 2019",
-    "abstract": "\nAt Flink Forward Europe 2019, the Google team will be presenting a keynote about \u201cBuilding and operating a serverless streaming runtime for Apache Beam in the Google Cloud\u201d. This comes along with...\n",
-    "author": "by Christopher Crosbie",
-    "link": "https://www.ververica.com/blog/google-cloud-platforms-flink-operator-for-kubernetes"
-  },
-  {
-    "title": "Announcing the Ververica Stream Alliance Program",
-    "date": " September 18, 2019",
-    "abstract": "\nEarlier this year we announced the pre-registration to our Ververica Partner Program. After an overwhelming number of organizations expressed their interest to join Ververica\u2019s partner ecosystem,...\n",
-    "author": "by Ververica Press Office",
-    "link": "https://www.ververica.com/blog/announcing-the-ververica-stream-alliance-program"
-  },
-  {
-    "title": "Flink Forward Session Preview: Real-time Experiment Analytics at Pinterest with Apache Flink",
-    "date": " September 17, 2019",
-    "abstract": "\nFlink Forward Europe 2019 is fast approaching and we would like to share with the Apache Flink community some more information about the talk that we will be presenting at the conference in...\n",
-    "author": "by Parag Kesar & Ben Liu",
-    "link": "https://www.ververica.com/blog/flink-forward-preview-real-time-experiment-analytics-pinterest-apache-flink"
-  },
-  {
-    "title": "Flink Forward Session Preview:\u00a0Not So Big - Flink as a true Application Framework",
-    "date": " September 11, 2019",
-    "abstract": "\nHow does an engineering team start thinking of\u00a0 Apache Flink more like an \u201capplication framework\u201d instead of a \u201cstream processor\u201d? This will be one of the discussion items in our Flink Forward...\n",
-    "author": "by Oytun Tez",
-    "link": "https://www.ververica.com/blog/flink-forward-session-preview-not-so-big-flink-as-a-true-application-framework"
-  },
-  {
-    "title": "Introducing Ververica's redesigned training",
-    "date": " September 05, 2019",
-    "abstract": "\nWe are excited to present our re-designed public training offering effective September 2019. The all-new training experience has been re-designed from the ground-up to meet the requirements of a...\n",
-    "author": "by David Anderson",
-    "link": "https://www.ververica.com/blog/introducing-ververicas-redesigned-training-experience"
-  },
-  {
-    "title": "Flink Forward Session Preview: Streaming Event-Time Partitioning With Apache Flink and Apache Iceberg at Netflix",
-    "date": " August 29, 2019",
-    "abstract": "\nAre you thinking of joining Flink Forward Europe 2019? As a first-time speaker at the event, I am excited to meet the Apache Flink community and share how we leveraged Apache Flink and Apache...\n",
-    "author": "by Julia Bennett",
-    "link": "https://www.ververica.com/blog/flink-forward-preview-event-time-partitioning-with-apache-flink-apache-iceberg-netflix"
-  },
-  {
-    "title": "How Yelp uses Flink for predicting store visits in real time",
-    "date": " August 26, 2019",
-    "abstract": "\nI recently presented at Flink Forward San Francisco 2019 and showcased how the User Location Intelligence team at Yelp uses Apache Flink for predicting real-time store visits. In the following...\n",
-    "author": "by Luca Giovagnoli",
-    "link": "https://www.ververica.com/blog/how-yelp-uses-flink-for-predicting-store-visits-in-real-time"
-  },
-  {
-    "title": "Flink Forward Europe 2019 - Program Announced",
-    "date": " August 01, 2019",
-    "abstract": "\nThe 5th annual conference features 70+ sessions with speakers from Airbus, Goldman Sachs, Emirates NBD, Pinterest, Stripe and more \u00a0\n",
-    "author": "by Ververica Press Office",
-    "link": "https://www.ververica.com/blog/flink-forward-europe-2019-program-announced"
-  },
-  {
-    "title": "Stream processing with High Cardinality and Large State at Klaviyo",
-    "date": " June 04, 2019",
-    "abstract": "\nWe recently presented Klaviyo\u2019s use case at Flink Forward San Francisco 2019 and\u00a0showcased how our engineering team leverages Apache Flink to scale the company\u2019s real-time analytics system that...\n",
-    "author": "by Ning Shi & Seed Zeng",
-    "link": "https://www.ververica.com/blog/stream-processing-with-high-cardinality-and-large-state-at-klaviyo"
-  },
-  {
-    "title": "Announcing Ververica Platform 1.4.0",
-    "date": " May 21, 2019",
-    "abstract": "\nWe are pleased to announce the general availability of Ververica Platform 1.4.0! This last platform release introduces improvements to existing components and some useful new features, from native...\n",
-    "author": "by Ufuk Celebi & Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/announcing-ververica-platform-1.4.0"
-  },
-  {
-    "title": "Getting Started with Ververica Platform on Alibaba Cloud",
-    "date": " May 17, 2019",
-    "abstract": "\nIn previous posts, we walked you through how to get Ververica Platform up and running in different public cloud providers such as \u00a0Google Cloud Platform, Amazon Web Services and Microsoft Azure....\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/getting-started-ververica-platform-on-alibaba-cloud"
-  },
-  {
-    "title": "Flux capacitor, huh? Temporal Tables and Joins in Streaming SQL",
-    "date": " May 08, 2019",
-    "abstract": "\nFiguring out how to manage and model temporal data for effective point-in-time analysis was a longstanding battle, dating as far back as the early 80\u2019s, that culminated with the introduction of...\n",
-    "author": "by Marta Paes",
-    "link": "https://www.ververica.com/blog/flux-capacitor-huh-temporal-tables-and-joins-in-streaming-sql"
-  },
-  {
-    "title": "Key\u00a0Takeaways from Flink Forward San Francisco 2019",
-    "date": " April 29, 2019",
-    "abstract": "\nA few weeks back, I attended Flink Forward in San Francisco. This was my\u00a0first time at the conference and I was very excited to see that the Apache Flink Community is alive and well in 2019! As a...\n",
-    "author": "by Austin Cawley-Edwards",
-    "link": "https://www.ververica.com/blog/key-takeaways-from-flink-forward-san-francisco-2019"
-  },
-  {
-    "title": "Flink Forward San Francisco 2019 welcomes an ever-growing community",
-    "date": " April 16, 2019",
-    "abstract": "\nBERLIN, Apr 16, 2019\u00a0\u2014 Flink Forward, the premier event for Apache Flink\u00ae and the open source stream processing community, took stage in San Francisco, April 1-2 for its largest ever conference in...\n",
-    "author": "by Ververica Press Office",
-    "link": "https://www.ververica.com/blog/flink-forward-san-francisco-2019-welcomes-a-growing-flink-community"
-  },
-  {
-    "title": "What's new in Flink 1.8.0?",
-    "date": " April 11, 2019",
-    "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0. The Apache Flink community is pleased to announce Apache Flink 1.8.0. The...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/whats-new-in-flink-1.8"
-  },
-  {
-    "title": "Using Apache Flink for Smart Cities: the case of Warsaw",
-    "date": " April 10, 2019",
-    "abstract": "\nAuthors: Piotr Wawrzyniak &\u00a0Jaros\u0142aw Legierski This blog post describes how we used Apache Flink as the primary stream processing framework for a Smart City project in the city of Warsaw in...\n",
-    "author": "by Piotr Wawrzyniak",
-    "link": "https://www.ververica.com/blog/using-apache-flink-for-smart-cities-the-case-of-warsaw"
-  },
-  {
-    "title": "Flink Forward San Francisco Session Preview: Scaling a real-time streaming warehouse with Apache Flink, Parquet and Kubernetes",
-    "date": " March 30, 2019",
-    "abstract": "\nAuthors:\u00a0Ramesh Shanmugam & Aditi Verma Flink Forward San Francisco is a couple of days away! In case you haven\u2019t booked your tickets yet, here\u2019s a sneak preview of our session Scaling a real-time...\n",
-    "author": "by Ramesh Shanmugam",
-    "link": "https://www.ververica.com/blog/flink-forward-session-preview-scaling-a-real-time-streaming-warehouse-flink-parquet-kubernetes"
-  },
-  {
-    "title": "Flink Forward San Francisco Session Preview: Massive Scale Data Processing at Netflix using Flink",
-    "date": " March 14, 2019",
-    "abstract": "\nAuthors:\u00a0Pallavi Phadnis\u00a0& Snehal Nagmote\u00a0\n",
-    "author": "by Pallavi Phadnis",
-    "link": "https://www.ververica.com/blog/flink-forward-session-preview-massive-scale-data-processing-at-netflix"
-  },
-  {
-    "title": "Flink and Prometheus: Cloud-native monitoring of streaming applications",
-    "date": " March 13, 2019",
-    "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0. This blog post describes how developers can leverage Apache Flink\u2019s built-in ...\n",
-    "author": "by Maximilian Bode",
-    "link": "https://www.ververica.com/blog/apache-flink-and-prometheus-monitoring-streaming-applications"
-  },
-  {
-    "title": "What are the benefits of stream processing with Apache Flink for modern application development?",
-    "date": " March 05, 2019",
-    "abstract": "\nThis blog post is a Q&A session with Vino Yang, Senior Engineer at Tencent\u2019s Big Data team. Below, we discuss the benefits of adopting stream processing and Apache Flink for modern application...\n",
-    "author": "by Vino Yang",
-    "link": "https://www.ververica.com/blog/benefits-stream-processing-flink-application-development"
-  },
-  {
-    "title": "Flink Forward Session Preview: Elastic Data Processing with Apache Flink and Apache Pulsar",
-    "date": " February 28, 2019",
-    "abstract": "\nExcited for Flink Forward San Francisco 2019? As one of the 30+ conference speakers, I want to give a sneak preview of my upcoming Flink Forward talk: Elastic Data Processing with Apache Flink and...\n",
-    "author": "by Sijie Guo",
-    "link": "https://www.ververica.com/blog/flink-forward-preview-elastic-data-processing-with-apache-flink-and-apache-pulsar"
-  },
-  {
-    "title": "Monitoring Apache Flink Applications 101",
-    "date": " February 27, 2019",
-    "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0.\n",
-    "author": "by Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/monitoring-apache-flink-applications-101"
-  },
-  {
-    "title": "Batch as a Special Case of Streaming and Alibaba's contribution of Blink",
-    "date": " February 19, 2019",
-    "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0. Last week, we broke the news that Alibaba decided to contribute its...\n",
-    "author": "by Stephan Ewen, Fabian Hueske & Xiaowei Jiang",
-    "link": "https://www.ververica.com/blog/batch-as-a-special-case-of-streaming-and-alibabas-contribution-of-blink"
-  },
-  {
-    "title": "3 important performance factors for stateful functions and operators in Flink",
-    "date": " February 15, 2019",
-    "abstract": "\nThis post focuses on the 3 factors developers should keep in mind when assessing the performance of a function or operator that uses Flink\u2019s Keyed State in a stateful streaming application.\n",
-    "author": "by Tzu-Li (Gordon) Tai",
-    "link": "https://www.ververica.com/blog/performance-factors-stateful-functions-operators-flink"
-  },
-  {
-    "title": "Smart Systems IoT Use Case with open source Kafka, Flink & CrateDB",
-    "date": " February 12, 2019",
-    "abstract": "\nThe Smart Systems IoT Use Case IoT systems use data and artificial intelligence (AI) to monitor, control, or predict the behavior of internet-connected devices. They are the basis for new smart...\n",
-    "author": "by Markos Sfikas",
-    "link": "https://www.ververica.com/blog/smart-systems-iot-use-case-open-source-kafka-flink-cratedb"
-  },
-  {
-    "title": "Introducing our new name!",
-    "date": " February 08, 2019",
-    "abstract": "\nToday, we\u2019re excited to share the next phase of our journey - introducing our new name!\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/introducing-our-new-name"
-  },
-  {
-    "title": "MATCH_RECOGNIZE: where Flink SQL and Complex Event Processing meet.",
-    "date": " January 29, 2019",
-    "abstract": "\nWith the unavoidable and ever-growing presence of sensors and smart devices, Complex Event Processing (CEP) is fast becoming a critical paradigm for enterprises to keep ahead of the curve and turn...\n",
-    "author": "by Marta Paes",
-    "link": "https://www.ververica.com/blog/match_recognize-where-flink-sql-and-complex-event-processing-meet"
-  },
-  {
-    "title": "Oceanus: A one-stop platform for real time stream processing powered by Apache Flink",
-    "date": " January 25, 2019",
-    "abstract": "\nIn recent years, the increasing need for timeliness, together with advances in software and hardware technologies, drive the emergence of real-time stream processing. Real-time stream processing...\n",
-    "author": "by The Big Data Team at Tencent",
-    "link": "https://www.ververica.com/blog/oceanus-platform-powered-by-apache-flink"
-  },
-  {
-    "title": "How Trackunit leverages Flink to process real-time data from industrial IoT devices",
-    "date": " January 22, 2019",
-    "abstract": "\nRecently there has been significant discussion about edge computing as a major technology trend in 2019. Edge computing brings computing capabilities away from the cloud, and rather close to the...\n",
-    "author": "by Lasse Nedergaard",
-    "link": "https://www.ververica.com/blog/trackunit-leverages-flink-industrial-iot"
-  },
-  {
-    "title": "4 characteristics of Timers in Apache Flink to keep in mind",
-    "date": " January 18, 2019",
-    "abstract": "\nThis blog post describes some basic concepts and considerations for the use of Timers in Apache Flink. Developers can register their own Timers with Flink\u2019s ProcessFunction operator that gives...\n",
-    "author": "by Tzu-Li (Gordon) Tai",
-    "link": "https://www.ververica.com/blog/4-characteristics-of-timers-in-apache-flink"
-  },
-  {
-    "title": "The transformation of (open source) data processing",
-    "date": " January 15, 2019",
-    "abstract": "\nThis blog post is based on a talk I gave at the Big Data Spain Conference 2018\u00a0in Madrid. The post goes through how [open source] data processing has evolved and covers the different...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/the-evolution-of-open-source-data-processing"
-  },
-  {
-    "title": "data Artisans + Alibaba: A new chapter for Open Source Big Data",
-    "date": " January 08, 2019",
-    "abstract": "\nAuthors: Kostas Tzoumas and Stephan Ewen\u00a0\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/data-artisans-alibaba-new-chapter-for-open-source-big-data"
-  },
-  {
-    "title": "Announcing data Artisans Platform 1.3: all power to the user!",
-    "date": " December 18, 2018",
-    "abstract": "\nWe are pleased to announce the general availability of Ververica Platform 1.3 as of today! This release is packed with features that strengthen enterprise security and application management, as...\n",
-    "author": "by Marta Paes",
-    "link": "https://www.ververica.com/blog/announcing-data-artisans-platform-1.3"
-  },
-  {
-    "title": "5 \u201cbaby\u201d steps to develop a Flink application",
-    "date": " December 17, 2018",
-    "abstract": "\nGetting up and running with Flink is easy as ABC. In this post, we go over 5 \u201cbaby\u201d steps to guide you through setting up your first running Flink application locally. We discuss the software...\n",
-    "author": "by Marta Paes",
-    "link": "https://www.ververica.com/blog/5-steps-flink-application-development"
-  },
-  {
-    "title": "How can companies benefit from data-driven applications and open-source software?",
-    "date": " December 17, 2018",
-    "abstract": "\nThis blog post is a Q&A session with Jakub Piasecki, Director of Technology at Freeport Metrics, about the benefits of real-time, data-driven applications and open-source software.\n",
-    "author": "by Jakub Piasecki",
-    "link": "https://www.ververica.com/blog/flink-user-qa-benefits-data-driven-applications"
-  },
-  {
-    "title": "What\u2019s new in the latest Apache Flink 1.7.0 release",
-    "date": " December 17, 2018",
-    "abstract": "\nThe Apache Flink community is pleased to announce Apache Flink 1.7.0. The latest release includes more than 420 resolved issues and some exciting additions to Flink that we describe in the...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/apache-flink-1-7-0-release"
-  },
-  {
-    "title": "Getting Started with Ververica Platform on Azure Kubernetes Service",
-    "date": " November 26, 2018",
-    "abstract": "\nIn previous posts, we walked you through how to get Ververica Platform up and running in Google Cloud Platform and Amazon Web Services. This time, we are focusing on Microsoft Azure and its hosted...\n",
-    "author": "by Marta Paes & Konstantin Knauf",
-    "link": "https://www.ververica.com/blog/getting-started-data-artisans-platform-azure-kubernetes-service"
-  },
-  {
-    "title": "4 steps to get your Flink application ready for production",
-    "date": " November 23, 2018",
-    "abstract": "\nThis post explains the necessary configuration steps that will get your Flink application ready for production. In the following sections, we give an overview of important configuration parameters...\n",
-    "author": "by Nico Kruber",
-    "link": "https://www.ververica.com/blog/4-steps-flink-application-production-ready"
-  },
-  {
-    "title": "Singles Day 2018: data in a Flink of an eye",
-    "date": " November 22, 2018",
-    "abstract": "\nSunday 11 November 2018 marked Alibaba\u2019s 10th annual shopping festival Singles Day, which saw a record Gross Merchandise Value (GMV) of $30.8 billion in sales and set a new record for the Chinese...\n",
-    "author": "by Marta Paes",
-    "link": "https://www.ververica.com/blog/singles-day-2018-data-in-a-flink-of-an-eye"
-  },
-  {
-    "title": "Stream processing: An Introduction to Event Time in Apache Flink",
-    "date": " November 16, 2018",
-    "abstract": "\nApache Flink supports multiple notions of time for stateful stream processing. This post focuses on event time support in Apache Flink. In the following sections we define what event time is with ...\n",
-    "author": "by Markos Sfikas",
-    "link": "https://www.ververica.com/blog/stream-processing-introduction-event-time-apache-flink"
-  },
-  {
-    "title": "Years in Big Data. Months with Apache Flink. 5 Early Observations With Stream Processing",
-    "date": " November 14, 2018",
-    "abstract": "\nThis Fall I became more active with the Apache Flink community in my role as Technical Evangelist at data Artisans, after almost 8 years in Big Data. At October\u2019s Bay Area Flink Meetup, I...\n",
-    "author": "by Jeff Bean",
-    "link": "https://www.ververica.com/blog/early-observations-apache-flink"
-  },
-  {
-    "title": "Broadcast State Pattern in Apache Flink: 4 important considerations",
-    "date": " November 09, 2018",
-    "abstract": "\nThis post explores the Broadcast State pattern that was introduced in Apache Flink 1.5.0. In the following sections, we describe what is a Broadcast State Pattern, how Broadcast State differs from...\n",
-    "author": "by Markos Sfikas",
-    "link": "https://www.ververica.com/blog/broadcast-state-pattern-flink-considerations"
-  },
-  {
-    "title": "Flink SQL for powerful querying of data streams and data at rest",
-    "date": " November 06, 2018",
-    "abstract": "\nWhile Flink SQL was initially released with Flink 1.1.0 back in August 2016, recent Flink releases have added quite a bit of functionality that makes Flink SQL easier to use by eliminating the...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/flink-sql-powerful-querying-of-data-streams"
-  },
-  {
-    "title": "3 differences between Savepoints and Checkpoints in Apache Flink",
-    "date": " November 02, 2018",
-    "abstract": "\nThis episode of our Flink Friday Tip explains what Savepoints and Checkpoints are and examines the main differences between them in Apache Flink. In the following paragraphs, we explain what...\n",
-    "author": "by Stefan Richter",
-    "link": "https://www.ververica.com/blog/differences-between-savepoints-and-checkpoints-in-flink"
-  },
-  {
-    "title": "Stateful Stream Processing: Apache Flink State Backends",
-    "date": " October 26, 2018",
-    "abstract": "\nThis episode of our Flink Friday Tip explores stateful stream processing and more precisely the different state backends available in Apache Flink. In the following sections, we present the 3...\n",
-    "author": "by Seth Wiesman",
-    "link": "https://www.ververica.com/blog/stateful-stream-processing-apache-flink-state-backends"
-  },
-  {
-    "title": "How to get started with Ververica Platform on AWS EKS",
-    "date": " October 25, 2018",
-    "abstract": "\nIn this article, we describe the setup of Ververica Platform using Amazon Web Services Elastic Container Service for Kubernetes (AWS EKS). Ververica Platform is built on Kubernetes as the...\n",
-    "author": "by Seth Wiesman",
-    "link": "https://www.ververica.com/blog/how-to-get-started-with-data-artisans-platform-on-aws-eks"
-  },
-  {
-    "title": "Community Update: October 2018 Apache Flink Bay Area Meetup",
-    "date": " October 22, 2018",
-    "abstract": "\nOn October 11 MapR and data Artisans held their first mutual Apache Flink Meetup in the Bay Area with more than 40 attendees. The Flink community enjoyed a packed agenda with detailed talks and...\n",
-    "author": "by Markos Sfikas",
-    "link": "https://www.ververica.com/blog/community-update-october-2018-apache-flink-bay-area-meetup"
-  },
-  {
-    "title": "Watermarks in Apache Flink Made Easy",
-    "date": " October 19, 2018",
-    "abstract": "\nAs folks first begin to work with Flink, watermarks can be a source of confusion. But this topic doesn't have to be complicated. Let's work through a simple example that will show why we need...\n",
-    "author": "by David Anderson",
-    "link": "https://www.ververica.com/blog/watermarks-in-apache-flink-made-easy"
-  },
-  {
-    "title": "How Apache Flink manages Kafka consumer offsets",
-    "date": " October 12, 2018",
-    "abstract": "\nIn this blog post, we explain how Apache Flink works with Apache Kafka to ensure that records from Kafka topics are processed with exactly-once guarantees, using\u00a0a step-by-step example. ...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/how-apache-flink-manages-kafka-consumer-offsets"
-  },
-  {
-    "title": "An introduction to ACID guarantees and transaction processing",
-    "date": " October 09, 2018",
-    "abstract": "\nLast month we introduced Ververica Streaming Ledger, our new technology that brings serializable, distributed ACID transactions directly on data streams. In this blog post, we take a step back to...\n",
-    "author": "by Markos Sfikas",
-    "link": "https://www.ververica.com/blog/an-introduction-to-acid-guarantees-and-transaction-processing"
-  },
-  {
-    "title": "6 things to consider when defining your Apache Flink cluster size",
-    "date": " October 05, 2018",
-    "abstract": "\nThis is the first episode of a blog series provide some easy-to-digest best practices and advice on how to leverage the power of Apache Flink and make the best use of the different Flink features....\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/6-things-to-consider-when-defining-your-apache-flink-cluster-size"
-  },
-  {
-    "title": "Meet the Engineer: Ufuk Celebi",
-    "date": " October 04, 2018",
-    "abstract": "\nIn this section of our \u201cMeet the Engineer\u201d series, I\u2019d like to introduce my data Artisans colleague Ufuk Celebi. Ufuk is one of the co-founders of the team and one of the very few Berliners in the...\n",
-    "author": "by Dawid Wysakowicz",
-    "link": "https://www.ververica.com/blog/meet-the-engineer-ufuk-celebi"
-  },
-  {
-    "title": "State TTL for Apache Flink: How to Limit the Lifetime of State",
-    "date": " September 25, 2018",
-    "abstract": "\nA common requirement for many stateful streaming applications is the ability to control how long application state can be accessed (e.g., due to legal regulations like GDPR) and when to discard...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/state-ttl-for-apache-flink-how-to-limit-the-lifetime-of-state"
-  },
-  {
-    "title": "Latest improvements for Apache Flink with the release of Flink 1.5.4 and 1.6.1",
-    "date": " September 21, 2018",
-    "abstract": "\nThe Apache Flink\u00ae community just released two bugfix versions, Apache Flink 1.5.4 and Apache Flink 1.6.1 including many resolved issues and improvements.\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/latest-improvements-for-apache-flink-with-the-release-of-flink-1-5-4-and-1-6-1"
-  },
-  {
-    "title": "Announcing Data Artisans Platform 1.2 with major new Enterprise Security features",
-    "date": " September 05, 2018",
-    "abstract": "\nToday, data Artisans is announcing the availability of data Artisans Platform 1.2,\u00a0with major new Enterprise Security features.Alongside this new release, data Artisans is also announcing the...\n",
-    "author": "by Robert Metzger",
-    "link": "https://www.ververica.com/blog/announcing-data-artisans-platform-1-2-with-major-new-enterprise-security-features"
-  },
-  {
-    "title": "Serializable ACID Transactions on Streaming Data",
-    "date": " September 04, 2018",
-    "abstract": "\nWe are excited to announce the general availability of data Artisans Streaming Ledger, an exciting new technology that brings serializable ACID transactions to applications built on a streaming...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/serializable-acid-transactions-on-streaming-data"
-  },
-  {
-    "title": "Meet the Engineer: Dawid Wysakowicz",
-    "date": " August 15, 2018",
-    "abstract": "\nIn this edition of our \u201cMeet the Engineer\u201d series, I\u2019d like to present my data Artisans colleague Dawid Wysakowicz. Dawid is an Apache Flink committer and an avid Liverpool FC fan who made the...\n",
-    "author": "by Cameron Wood",
-    "link": "https://www.ververica.com/blog/meet-the-engineer-dawid-wysakowicz"
-  },
-  {
-    "title": "Apache Flink 1.6.0: What\u2019s new in the latest Apache Flink release",
-    "date": " August 09, 2018",
-    "abstract": "\nThe Apache Flink\u00ae community has just release v. 1.6.0 with major improvements and additions to the technology. The community worked hard in the last 2+ months to resolve more than 360 issues and...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/apache-flink-1-6-0-whats-new-in-the-latest-apache-flink-release"
-  },
-  {
-    "title": "A Practical Guide to Broadcast State in Apache Flink",
-    "date": " August 02, 2018",
-    "abstract": "\nSince version 1.5.0, Apache Flink\u24c7 features a new type of state which is called Broadcast State. In this post, we explain what Broadcast State is, and show an example of how it can be applied to...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/a-practical-guide-to-broadcast-state-in-apache-flink"
-  },
-  {
-    "title": "How Kcell and GetInData built a stream analytics platform using Apache Flink\u00ae as a core component.",
-    "date": " July 24, 2018",
-    "abstract": "\nTelecommunications companies, such as Kcell, hold vast amounts of data at their disposal. Whether arriving from billing, data usage, roaming, or location events, being able to access and react...\n",
-    "author": "by Dawid Wysakowicz",
-    "link": "https://www.ververica.com/blog/how-kcell-and-getindata-built-a-stream-analytics-platform-using-apache-flink-as-a-core-component"
-  },
-  {
-    "title": "Apache Flink\u00ae Master Branch Monthly: New in Flink in June 2018",
-    "date": " July 10, 2018",
-    "abstract": "\nThanks to Dawid Wysakowicz, Piotr Nowojski, and Stefan Richter for their contributions and support in this blog post. At the beginning of the year, we introduced the\u00a0Flink Master Monthly blog post...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/apache-flink-master-branch-monthly-new-in-flink-in-june-2018"
-  },
-  {
-    "title": "How Germany can benefit from Machine Learning and Artificial Intelligence: A Discussion with Chancellor Angela Merkel.",
-    "date": " July 05, 2018",
-    "abstract": "\nMachine learning and artificial intelligence are at the forefront of enabling many technological advances. It\u2019s not only technology companies involved in these areas but also governments are...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/how-germany-can-benefit-from-machine-learning-and-artificial-intelligence-a-discussion-with-chancellor-angela-merkel"
-  },
-  {
-    "title": "Getting Started with Ververica Platform on Google Kubernetes Engine",
-    "date": " June 18, 2018",
-    "abstract": "\nOverview Ververica Platform is a production-ready platform for stream processing with Apache Flink\u00ae. The Platform includes open source Apache Flink, a stateful stream processing and event-driven...\n",
-    "author": "by Robert Metzger",
-    "link": "https://www.ververica.com/blog/getting-started-with-da-platform-on-google-kubernetes-engine"
-  },
-  {
-    "title": "Apache Flink 1.5.0 Release Announcement",
-    "date": " May 25, 2018",
-    "abstract": "\nThis post originally appeared\u00a0on the Apache Flink blog.\u00a0It was reproduced here under the Apache License, Version 2.0.\u00a0The Apache Flink community is thrilled to announce the 1.5.0 release. Over the...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/apache-flink-1-5-0-release-announcement"
-  },
-  {
-    "title": "Full Stream Ahead! dA Platform is Generally Available and Ready for Download",
-    "date": " March 28, 2018",
-    "abstract": "\nToday, we\u2019re excited to announce that dA Platform, a production-ready stream processing infrastructure with open-source Apache Flink\u00ae, is generally available!We\u00a0first unveiled dA Platform at Flink...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/da-platform-with-apache-flink-general-availability"
-  },
-  {
-    "title": "Apache Flink\u00ae Master Branch Monthly: New in Flink in February 2018",
-    "date": " March 15, 2018",
-    "abstract": "\nThanks to Stefan Richter, Kostas Kloudas, and Chesnay Schepler for their contributions to this post. Last month, we introduced our first ever Flink Master Monthly blog post so we could highlight...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/apache-flink-master-branch-monthly-whats-new-flink-february-2018"
-  },
-  {
-    "title": "Meet the Engineer: Timo Walther",
-    "date": " February 27, 2018",
-    "abstract": "\nTimo is one of the driving forces behind the SQL efforts in Apache Flink and has been working on Flink since its creation at TU Berlin (even before it became Flink) where he was instrumental in...\n",
-    "author": "by Kostas Kloudas",
-    "link": "https://www.ververica.com/blog/meet-engineer-timo-walther"
-  },
-  {
-    "title": "An Overview of End-to-End Exactly-Once Processing in Apache Flink\u00ae (with Apache Kafka, too!)",
-    "date": " February 15, 2018",
-    "abstract": "\nThis post is an adaptation of Piotr Nowojski\u2019s presentation from Flink Forward Berlin 2017. You can find the slides and a recording of the presentation on the Flink Forward Berlin website.Apache...\n",
-    "author": "by Piotr Nowojski",
-    "link": "https://www.ververica.com/blog/end-to-end-exactly-once-processing-apache-flink-apache-kafka"
-  },
-  {
-    "title": "Apache Flink\u00ae Master Branch Monthly: New in Flink in January 2018",
-    "date": " February 09, 2018",
-    "abstract": "\nFlink\u2019s major version releases occur every few months, and there\u2019s a constant stream of activity as new features are merged to the Flink master branch in between releases. Keeping an eye on what\u2019s...\n",
-    "author": "by Timo Walther",
-    "link": "https://www.ververica.com/blog/apache-flink-master-branch-monthly-whats-new-flink-january-2018"
-  },
-  {
-    "title": "Streaming Data in the Enterprise Hits a Tipping Point: Our 2018 Predictions",
-    "date": " January 26, 2018",
-    "abstract": "\nOn January 18, 2018 Information Management published an article that we contributed about some of our predictions for this year in the big data and analytics space.The key takeaway is that stream...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/streaming-data-in-the-enterprise-hits-a-tipping-point"
-  },
-  {
-    "title": "Managing Large State in Apache Flink\u00ae: An Intro to Incremental Checkpointing",
-    "date": " January 23, 2018",
-    "abstract": "\nApache Flink was purpose-built for stateful stream processing. Let's quickly review: what is state in a stream processing application? I defined state and stateful stream processing in a previous...\n",
-    "author": "by Stefan Richter",
-    "link": "https://www.ververica.com/blog/managing-large-state-apache-flink-incremental-checkpointing-overview"
-  },
-  {
-    "title": "Apache Flink\u00ae\u00a0User Survey 2017: A Brief Summary",
-    "date": " January 17, 2018",
-    "abstract": "\nIn November 2017, data Artisans conducted a second-annual Apache Flink user survey. There were a total of 217 responses, and the survey provided of lots of useful insights and feedback about Flink.\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/apache-flink-user-survey-2017-recap"
-  },
-  {
-    "title": "How To Size Your Apache Flink\u00ae Cluster: A Back-of-the-Envelope Calculation",
-    "date": " January 11, 2018",
-    "abstract": "\nA favorite session from Flink Forward Berlin 2017 was Robert Metzger's \"Keep It Going: How to Reliably and Efficiently Operate Apache Flink\". One of the topics that Robert touches on is how to\u00a0...\n",
-    "author": "by Robert Metzger",
-    "link": "https://www.ververica.com/blog/how-to-size-your-apache-flink-cluster-general-guidelines"
-  },
-  {
-    "title": "Apache Flink in 2017: Year in Review",
-    "date": " January 04, 2018",
-    "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0.\u00a0\n",
-    "author": "by Chris Ward",
-    "link": "https://www.ververica.com/blog/apache-flink-in-2017-year-in-review"
-  },
-  {
-    "title": "Meet the Engineer: Konstantinos Kloudas",
-    "date": " December 20, 2017",
-    "abstract": "\nThis blog post features my colleague, Konstantinos Kloudas, who is a committer on Apache Flink and works in the Berlin office. He usually goes by Kostas, but we call him Klou, because we have a...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/meet-engineer-konstantinos-kloudas"
-  },
-  {
-    "title": "The Curious Case of the Broken Benchmark: Revisiting Apache Flink\u00ae vs. Databricks Runtime",
-    "date": " December 15, 2017",
-    "abstract": "\nTl;dr For the past few months, Databricks has been promoting an Apache Spark vs. Apache Flink vs. Apache Kafka Streams benchmark result that shows Spark significantly outperforming the other...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/curious-case-broken-benchmark-revisiting-apache-flink-vs-databricks-runtime"
-  },
-  {
-    "title": "Announcing the Apache Flink 1.4.0 Release",
-    "date": " December 12, 2017",
-    "abstract": "\nThis post originally appeared on the Apache Flink blog.\u00a0It was reproduced here under the\u00a0Apache License, Version 2.0.\u00a0The Apache Flink community is pleased to announce the 1.4.0 release. Over the...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/announcing-the-apache-flink-1-4-0-release"
-  },
-  {
-    "title": "Complex Event Processing with Flink: An Update on the State of Flink CEP",
-    "date": " November 08, 2017",
-    "abstract": "\nModern organizations rely on the timely and efficient processing of their data to make decisions that have a direct impact on the quality of their services and products. Based on user...\n",
-    "author": "by Kostas Kloudas",
-    "link": "https://www.ververica.com/blog/complex-event-processing-flink-cep-update"
-  },
-  {
-    "title": "Meet the Engineer: Till Rohrmann",
-    "date": " November 02, 2017",
-    "abstract": "\nThis blog post features my colleague, Till Rohrmann, who works at the data Artisans headquarters in Berlin. He is an early member of the data Artisans team and leads the team working on Flink\u2019s...\n",
-    "author": "by Tzu-Li (Gordon) Tai",
-    "link": "https://www.ververica.com/blog/meet-engineer-till-rohrmann-data-artisans"
-  },
-  {
-    "title": "StreamING Machine Learning Models: How ING Adds Fraud Detection Models at Runtime with Apache Flink\u00ae",
-    "date": " October 25, 2017",
-    "abstract": "\nToday\u2019s guest author, Erik de Nooij, is an IT Chapter Lead at ING Bank, headquartered in The Netherlands.\n",
-    "author": "by Erik de Nooij",
-    "link": "https://www.ververica.com/blog/real-time-fraud-detection-ing-bank-apache-flink"
-  },
-  {
-    "title": "Uber Introduces Open Source AthenaX, A Streaming SQL Platform Powered By Apache Flink\u00ae",
-    "date": " October 10, 2017",
-    "abstract": "\nYesterday, the Uber engineering team introduced its open source AthenaX, a SQL-based and Apache Flink-powered streaming analytics platform. There\u2019s a detailed announcement on the Uber engineering...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/uber-introduces-open-source-athenax-streaming-sql-platform-apache-flink"
-  },
-  {
-    "title": "Introducing dA Platform: Stateful Stream Processing Powered by Apache Flink\u00ae Made Easier for Everyone",
-    "date": " September 11, 2017",
-    "abstract": "\nFor more than three years, data Artisans has been working closely with the teams who manage some of the largest stream processing deployments in the world, including Apache Flink\u00ae deployments at...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/da-platform-stateful-stream-processing-with-apache-flink-made-easier"
-  },
-  {
-    "title": "Streaming SQL in Apache Flink, KSQL, and Stream Processing for Everyone",
-    "date": " September 01, 2017",
-    "abstract": "\nIf you read our blog, you\u2019ve likely seen this week\u2019s news that Confluent shared an early version of its new offering KSQL, streaming SQL for Apache Kafka.The data Artisans team and Apache Flink...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/flink-streaming-sql-ksql-stream-processing"
-  },
-  {
-    "title": "Meet the Engineer: Tzu-Li (Gordon) Tai",
-    "date": " August 29, 2017",
-    "abstract": "\nIn this this edition of our \"Meet the Engineer\" series, I\u2019d like to introduce my colleague Gordon Tai. He works remotely from Taipei, Taiwan, and he is the only member of the data Artisans team in...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/meet-engineer-tzu-li-gordon-tai-data-artisans"
-  },
-  {
-    "title": "On Designing a Stream Processing Benchmark",
-    "date": " July 27, 2017",
-    "abstract": "\nUpdate December 18, 2017: We wrote a follow-up blog post about stream processing benchmarks that goes into more detail about the issues we see with common benchmarking methods. It serves as a...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/on-designing-a-stream-processing-benchmark"
-  },
-  {
-    "title": "Complex Event Generation for Business Process Monitoring using Apache Flink\u00ae",
-    "date": " July 13, 2017",
-    "abstract": "\nThis is a guest post by\u00a0Hung Chang & Mihail Vieru of Zalando. It originally appeared on the Zalando Technology Blog and was reposted here with permission.\u00a0While developing Zalando\u2019s real-time...\n",
-    "author": "by Mihail Vieru",
-    "link": "https://www.ververica.com/blog/complex-event-generation-business-process-monitoring-using-apache-flink"
-  },
-  {
-    "title": "Meet the Engineer: Aljoscha Krettek",
-    "date": " July 13, 2017",
-    "abstract": "\nWelcome to the inaugural post in our \u201cMeet the Engineer\u201d series, where we\u2019ll introduce a member of the data Artisans team.\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/meet-engineer-aljoscha-krettek"
-  },
-  {
-    "title": "Dynamically Configured Stream Processing: How BetterCloud Built an Alerting System with Apache Flink\u00ae",
-    "date": " June 29, 2017",
-    "abstract": "\nMany Apache Flink\u00ae users are building applications for alerting or anomaly detection, and ING and Mux are two such examples from the most recent Flink Forward conference.\n",
-    "author": "by David Hardwick",
-    "link": "https://www.ververica.com/blog/bettercloud-dynamic-alerting-apache-flink"
-  },
-  {
-    "title": "Apache Flink\u00ae at MediaMath: Rescaling Stateful Applications in Production",
-    "date": " June 12, 2017",
-    "abstract": "\nThis post also appeared on the MediaMath Developer Blog.\u00a0\n",
-    "author": "by Stefan Richter",
-    "link": "https://www.ververica.com/blog/apache-flink-at-mediamath-rescaling-stateful-applications"
-  },
-  {
-    "title": "Apache Flink\u00ae\u00a01.3.0 and the Evolution of Stream Processing with Flink",
-    "date": " June 01, 2017",
-    "abstract": "\nIt\u2019s official: on June 1, the Apache Flink\u00ae community announced the release of Flink\u00ae 1.3.0. The announcement on the project site and the changelog provide detail on what\u2019s included in the...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/apache-flink-1-3-0-evolution-stream-processing"
-  },
-  {
-    "title": "A Year of Blink at Alibaba: Apache Flink\u00ae in Large Scale Production",
-    "date": " May 30, 2017",
-    "abstract": "\nEarlier this month, Dataversity published a follow-up post from Xiaowei\u00a0Jiang, a Senior Director on Alibaba's search infrastructure team, where he gave an update on his team's progress both with...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/year-blink-flink-alibaba-update"
-  },
-  {
-    "title": "Introducing Official Docker Images for Apache Flink\u00ae",
-    "date": " May 16, 2017",
-    "abstract": "\nPatrick Lucas\u00a0is a Senior Data Engineer at data Artisans, and Isma\u00ebl Mej\u00eda (@iemejia)\u00a0is a software engineer at Talend. The\u00a0post originally appeared on the Apache Flink blog. It was reproduced...\n",
-    "author": "by Patrick Lucas",
-    "link": "https://www.ververica.com/blog/official-docker-images-apache-flink"
-  },
-  {
-    "title": "Continuous Queries on Dynamic Tables: Analyzing Data Streams with Streaming SQL",
-    "date": " April 11, 2017",
-    "abstract": "\nXiaowei Jiang is a Senior Director in Alibaba\u2019s Search Infrastructure\u00a0division, and Shaoxuan Wang\u00a0is\u00a0a Senior Manager in Alibaba's Search Infrastructure division.\u00a0Fabian Hueske\u00a0(@fhueske) is a...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/continuous-queries-on-dynamic-tables-analyzing-data-streams-with-sql"
-  },
-  {
-    "title": "From Streams to Tables and Back Again: An Update on Apache Flink's Table & Streaming SQL API",
-    "date": " April 03, 2017",
-    "abstract": "\nTimo Walther (@twalthr) is a software engineer at data Artisans and an Apache Flink\u00ae committer and PMC member.\u00a0This post originally appeared on the Apache Flink blog. It was reproduced here under...\n",
-    "author": "by Timo Walther",
-    "link": "https://www.ververica.com/blog/flink-table-sql-api-update"
-  },
-  {
-    "title": "Queryable State or How to Build a Billing System Without a Database",
-    "date": " March 24, 2017",
-    "abstract": "\nKonstantin Knauf and Maximilian Bode of Munich-based TNG Technology Consulting\u00a0are no strangers to stateful stream processing. They've been working closely with Apache Flink\u00ae for well over a year...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/flink-forward-sf-preview-queryable-state-tng"
-  },
-  {
-    "title": "Queryable State in Apache Flink\u00ae 1.2.0: An Overview & Demo",
-    "date": " March 24, 2017",
-    "abstract": "\nUfuk Celebi (@iamuce) is a co-founder and software engineer at data Artisans.\u00a0 2016 was the year that stateful, event-time, and event-at-a-time stream processing arrived as the paradigm for...\n",
-    "author": "by Ufuk Celebi",
-    "link": "https://www.ververica.com/blog/queryable-state-use-case-demo"
-  },
-  {
-    "title": "Drivetribe's Modern Take On CQRS With Apache Flink\u00ae",
-    "date": " March 09, 2017",
-    "abstract": "\nThis is a guest post from Aris Koliopoulos, a senior software engineer at London-based Drivetribe. Drivetribe is the world\u2019s digital hub for motoring. The platform was created by former Top Gear...\n",
-    "author": "by Aris Koliopoulos",
-    "link": "https://www.ververica.com/blog/drivetribe-cqrs-apache-flink"
-  },
-  {
-    "title": "Flink Forward San Francisco Preview: Real-time Anomaly Detection with Mux",
-    "date": " March 02, 2017",
-    "abstract": "\nLast month, software engineer Scott Kidder (@hexdumpster) of Mux published a popular post on his\u00a0company's blog titled \"Discovering Anomalies in Real-Time with Apache Flink\".\u00a0The post...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/flink-forward-sf-preview-anomaly-detection-mux"
-  },
-  {
-    "title": "Running Apache Flink\u00ae Everywhere: Flink on DC/OS and Apache Mesos",
-    "date": " February 28, 2017",
-    "abstract": "\nTill Rohrmann (@stsffap) is an Engineering Lead at Ververica. This post also appeared on the DC/OS blog. Thanks to J\u00f6rg Schad, Judith Malnick, and Ravi Yadav from Mesosphere for\u00a0their help with...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/apache-flink-on-dcos-and-apache-mesos"
-  },
-  {
-    "title": "Apache Flink\u00ae Community Announces 1.2.0 Release",
-    "date": " February 06, 2017",
-    "abstract": "\nOn Monday, February 6, the Apache Flink\u00ae community announced the project's 1.2.0 release.\u00a0We at data Artisans would like to extend a sincere thanks to the 122 members of the Flink community who...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/apache-flink-1-2-0"
-  },
-  {
-    "title": "Stream Processing Myths Debunked",
-    "date": " November 23, 2016",
-    "abstract": "\nBy @kostas_tzoumas\u00a0and @wints Needless to say, we here at data Artisans spend a lot of time thinking about stream processing. Even cooler: we spend a lot of time helping others think about stream...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/stream-processing-myths-debunked"
-  },
-  {
-    "title": "Savepoints, Part 2: Streaming Applications in the Pit Lane",
-    "date": " November 16, 2016",
-    "abstract": "\nBy Fabian Hueske (@fhueske) and Mike Winters (@wints) Last month, we gave a high-level overview of Apache Flink\u00ae savepoints and touched on why and how you\u2019d reprocess data in a streaming...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/savepoints-part-2-updating-applications"
-  },
-  {
-    "title": "Blink: How Alibaba Uses Apache Flink\u00ae",
-    "date": " October 18, 2016",
-    "abstract": "\nThis is a guest post from Xiaowei Jiang, Senior Director of Alibaba\u2019s search infrastructure team. The post is adapted from Alibaba\u2019s presentation at Flink Forward 2016, and you can see the...\n",
-    "author": "by Xiaowei Jiang",
-    "link": "https://www.ververica.com/blog/blink-flink-alibaba-search"
-  },
-  {
-    "title": "Savepoints: Turning Back Time",
-    "date": " October 14, 2016",
-    "abstract": "\nThis post is the first in a series where the data Artisans team will highlight some of Apache Flink\u2019s\u00ae core features. By Fabian Hueske (@fhueske) and Mike Winters (@wints) Stream processing is...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/turning-back-time-savepoints"
-  },
-  {
-    "title": "Apache Flink and Apache Kafka Streams",
-    "date": " August 31, 2016",
-    "abstract": "\nThis blog post is written jointly by Stephan Ewen, CTO of data Artisans, and Neha Narkhede, CTO of Confluent. You can also find this post at the Confluent blog. The open source stream processing...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/apache-flink-apache-kafka-streams"
-  },
-  {
-    "title": "Robust Stream Processing with Apache Flink\u00ae: A Simple Walkthrough",
-    "date": " August 18, 2016",
-    "abstract": "\nJamie Grier, Director of Applications Engineering at data Artisans, gave an in-depth Apache Flink\u00ae demonstration at OSCON 2016 in Austin, TX. A recording is available on YouTube if you'd like to...\n",
-    "author": "by Michael Winters",
-    "link": "https://www.ververica.com/blog/robust-stream-processing-flink-walkthrough"
-  },
-  {
-    "title": "RBEA: Scalable Real-Time Analytics at King",
-    "date": " May 04, 2016",
-    "abstract": "\nThis is a guest blog post written by Gyula F\u00f3ra and Mattias Andersson from King.com. The original post can be found on the King Tech Blog. This blogpost introduces RBEA (Rule-Based Event...\n",
-    "author": "by Ufuk Celebi",
-    "link": "https://www.ververica.com/blog/rbea-scalable-real-time-analytics-at-king"
-  },
-  {
-    "title": "Why Apache Beam?",
-    "date": " May 03, 2016",
-    "abstract": "\nIn this post, we would like to shed some light upon Apache Beam, the new Apache Incubator project that Google initiated with us and other partners. We would like to highlight our involvement in Beam...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/why-apache-beam"
-  },
-  {
-    "title": "How Apache Flink\u2122 Enables New Streaming Applications, Part 3",
-    "date": " April 27, 2016",
-    "abstract": "\nThis blog post is the third part of our series on how Apache Flink\u2122 enables new stream processing\u00a0applications. The first post introduced event time and out of order processing, the\u00a0second post...\n",
-    "author": "by Aljoscha Krettek",
-    "link": "https://www.ververica.com/blog/session-windowing-in-flink"
-  },
-  {
-    "title": "Counting in streams: A hierarchy of needs",
-    "date": " April 12, 2016",
-    "abstract": "\nThis post is based on the talk I gave at the Strata/Hadoop World conference in San Jose, March 31 2016. You can find the slide set here, and you can also read this article at the MapR blog.\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/counting-in-streams-a-hierarchy-of-needs"
-  },
-  {
-    "title": "How Apache Flink\u2122 Enables New Streaming Applications, Part 2",
-    "date": " February 03, 2016",
-    "abstract": "\nThis is the second blog post in our series on how Flink enables new streaming applications. Part 1\u00a0introduced event time and out of order processing. This post is about versioning application...\n",
-    "author": "by Ufuk Celebi",
-    "link": "https://www.ververica.com/blog/how-apache-flink-enables-new-streaming-applications"
-  },
-  {
-    "title": "Extending the Yahoo! Streaming Benchmark",
-    "date": " February 02, 2016",
-    "abstract": "\nUpdate December 18, 2017:\u00a0Nearly 2 years after this initial post, we discussed the Yahoo streaming benchmark in another blog post where we cover some of the issues we see with modern benchmarking...\n",
-    "author": "by Jamie Grier",
-    "link": "https://www.ververica.com/blog/extending-the-yahoo-streaming-benchmark"
-  },
-  {
-    "title": "Dataflow proposed as Apache Incubator project",
-    "date": " January 20, 2016",
-    "abstract": "\nToday, we are delighted to see Dataflow publicly proposed as an Apache Incubator project with an initial project team from Google, data Artisans, Cloudera, and others. data Artisans is the second...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/dataflow-proposed-as-apache-incubator-project"
-  },
-  {
-    "title": "How Apache Flink\u2122 Enables New Streaming Applications, Part 1",
-    "date": " December 09, 2015",
-    "abstract": "\n(For the rest of this series, see part 2 here\u00a0and part 3 here) Stream data processing is booming in popularity, as it promises better insights from fresher data, as well as a radically simplified...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/how-apache-flink-enables-new-streaming-applications-part-1"
-  },
-  {
-    "title": "Flink 0.10: A significant step forward in open source stream processing",
-    "date": " November 17, 2015",
-    "abstract": "\nWe are delighted to see that the Apache Flink\u2122 community has announced the availability of Apache Flink\u2122 0.10. The 0.10 release is one of the largest Flink releases ever, with about 80 individuals...\n",
-    "author": "by Fabian Hueske",
-    "link": "https://www.ververica.com/blog/flink-0-10-a-significant-step-forward-in-open-source-stream-processing"
-  },
-  {
-    "title": "How we selected Flink as our Stream Processing Framework at Otto Group",
-    "date": " October 06, 2015",
-    "abstract": "\nThis is a guest post written by Christian Kreutzfeldt (@mnxfst) and Alexander Kolb (@lofifnc) from the Otto Group Business Intelligence Department. \u00a0\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/how-we-selected-apache-flink-at-otto-group"
-  },
-  {
-    "title": "Announcing Cascading on Apache Flink\u2122",
-    "date": " September 21, 2015",
-    "abstract": "\nSee also the related announcement at the Cascading blog.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 Today we are thrilled to announce the first availability of Cascading on Flink, a result of a community-driven effort...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/announcing-cascading-on-flink"
-  },
-  {
-    "title": "Batch is a special case of streaming",
-    "date": " September 15, 2015",
-    "abstract": "\nInterested in stream processing? Sign up for Flink Forward 2015, the first conference on Apache Flink\u2122. In recent blog posts, we introduced what we deem as requirements for systems to classify as...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/batch-is-a-special-case-of-streaming"
-  },
-  {
-    "title": "Kafka + Flink: A Practical, How-To Guide",
-    "date": " September 02, 2015",
-    "abstract": "\nA very common use case for Apache Flink\u2122 is stream data movement and analytics. More often than not, the data streams are ingested from Apache Kafka, a system that provides durability and pub/sub...\n",
-    "author": "by Robert Metzger",
-    "link": "https://www.ververica.com/blog/kafka-flink-a-practical-how-to"
-  },
-  {
-    "title": "How Apache Flink\u2122 handles backpressure",
-    "date": " August 31, 2015",
-    "abstract": "\nPeople often ask us how Flink deals with backpressure effects. The answer is simple: Flink does not use any sophisticated mechanism, because it does not need one. It gracefully responds to...\n",
-    "author": "by Ufuk Celebi",
-    "link": "https://www.ververica.com/blog/how-flink-handles-backpressure"
-  },
-  {
-    "title": "High-throughput, low-latency, and exactly-once stream processing with Apache Flink\u2122",
-    "date": " August 05, 2015",
-    "abstract": "\nThe popularity of stream data platforms is skyrocketing. Several companies are transitioning parts of their data infrastructure to a streaming paradigm as a solution to increasing demands for...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/high-throughput-low-latency-and-exactly-once-stream-processing-with-apache-flink"
-  },
-  {
-    "title": "Stream processing at Bouygues Telecom with Apache Flink\u2122",
-    "date": " June 01, 2015",
-    "abstract": "\nThis is a guest post written by Mohamed Amine Abdessemed from Bouygues Telecom About Bouygues Telecom Bouygues Telecom is a full-service communication operator (mobile, fixed telephony, TV,...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/flink-at-bouygues-html"
-  },
-  {
-    "title": "Real-time stream processing: The next step for Apache Flink\u2122",
-    "date": " May 06, 2015",
-    "abstract": "\nThis post also appears as a guest post at the Confluent blog. Stream processing is becoming very popular with open source projects like\u00a0Apache Kafka, Apache Samza, Apache Storm, Apache Spark\u2019s...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/real-time-stream-processing-the-next-step-for-apache-flink"
-  },
-  {
-    "title": "Announcing Google Cloud Dataflow on Flink and easy Flink deployment on Google Cloud",
-    "date": " April 05, 2015",
-    "abstract": "\nToday, we are pleased to announce a deeper engagement between Google, data Artisans, and the broader Apache Flink\u2122 community to bring easy Flink deployment to Google Cloud Platform, and enable Google...\n",
-    "author": "by Maximilian Michels",
-    "link": "https://www.ververica.com/blog/announcing-google-cloud-dataflow-on-flink-and-easy-flink-deployment-on-google-cloud"
-  },
-  {
-    "title": "How to factorize a 700 GB matrix with Apache Flink\u2122",
-    "date": " March 30, 2015",
-    "abstract": "\nThis article is a follow-up post to the earlier published article about Computing recommendations at extreme scale with Apache Flink. We discuss how we implemented the alternating least squares...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/how-to-factorize-a-700-gb-matrix-with-apache-flink"
-  },
-  {
-    "title": "Computing Recommendations at Extreme Scale with Apache Flink\u2122",
-    "date": " March 18, 2015",
-    "abstract": "\nNote: This article is a summary of the more detailed article How to factorize a 700 GB matrix with Apache Flink\u2122. Recommender Systems and Matrix Factorization Recommender Systems are a very...\n",
-    "author": "by Till Rohrmann",
-    "link": "https://www.ververica.com/blog/computing-recommendations-at-extreme-scale-with-apache-flink"
-  },
-  {
-    "title": "Data Analysis with Flink: A case study and tutorial",
-    "date": " November 29, 2014",
-    "abstract": "\nThis article is a step-by-step guide to implement a fairly sophisticated data analysis algorithm, end-to-end in Apache Flink. We will use the PageRankalgorithm, an algorithm used for ranking...\n",
-    "author": "by Stephan Ewen",
-    "link": "https://www.ververica.com/blog/data-analysis-with-flink-a-case-study-and-tutorial"
-  },
-  {
-    "title": "Apache Flink: new kid on the block",
-    "date": " October 29, 2014",
-    "abstract": "\nApache Flink\u00a0(incubating) is a new project undergoing incubation in the Apache Software Foundation. Flink is a new approach to distributed data processing for the Hadoop ecosystem. We believe that...\n",
-    "author": "by Kostas Tzoumas",
-    "link": "https://www.ververica.com/blog/apache-flink-new-kid-on-the-block"
-  }
-]
+{
+    "ververica": [
+        {
+            "title": "Apache Flink's stream-batch unification powers Alibaba's 11.11 in 2020",
+            "date": "2020-12-21",
+            "author": "by Feng Wang",
+            "abstract": "\nApache Flink, Ververica Platform and Alibaba Cloud's RealTime Compute technology stack processes record breaking real time data during this year's Double 11! Wondering how Apache Flink, Ververica...\n",
+            "link": "https://www.ververica.com/blog/apache-flinks-stream-batch-unification-powers-alibabas-11.11-in-2020",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/dd918d0a83e187ecd811ffd46c648dadf86a8fa6.png"
+        },
+        {
+            "title": "Flink-powered model serving & real-time feature generation at Razorpay",
+            "date": "2020-12-15",
+            "author": "by Shashank Agarwal",
+            "abstract": "\nDuring Flink Forward Global 2020 the team from Razorpay showcased how Apache Flink is being utilized in it\u2019s \u2018Mitra\u2019 Data Platform as a way to overcome challenges around feature generation and...\n",
+            "link": "https://www.ververica.com/blog/flink-powered-model-serving-real-time-feature-generation-at-razorpay",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/image2-Dec-14-2020-08-42-36-02-AM.png"
+        },
+        {
+            "title": "Real-Time Performance Monitoring with Flink SQL: AdTech Use Case",
+            "date": "2020-11-27",
+            "author": "by Alexander Fedulov",
+            "abstract": "\nBackground Advertising Technologies (Ad Tech) is a collective name that describes systems and tools for managing and analyzing programmatic advertising campaigns. The goal of digital advertising...\n",
+            "link": "https://www.ververica.com/blog/real-time-performance-monitoring-with-flink-sql-ad-tech-use-case",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/CTR%20results%20presented%20in%20Apache%20Superset.png"
+        },
+        {
+            "title": "Data Pipelines with Flink SQL on Ververica Platform",
+            "date": "2020-11-18",
+            "author": "by Seth Wiesman",
+            "abstract": "\nModern data pipelines require working with data across a number of external systems. Sometimes data lives in a message queue like Apache Kafka, AWS Kinesis, or Apache Pulsar but other times it\u2019s...\n",
+            "link": "https://www.ververica.com/blog/data-pipelines-with-flink-sql-on-ververica-platform",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Available%20Connectors%20&%20Formats-thumb.png"
+        },
+        {
+            "title": "Flink Forward Global 2020 Recap",
+            "date": "2020-11-11",
+            "author": "by Seth Wiesman",
+            "abstract": "\nOn October 19-22, 2020 we virtually welcomed more than 1,500 members of the Apache Flink\u00ae community at Flink Forward Global 2020. The second virtual Flink Forward featured several exciting keynote...\n",
+            "link": "https://www.ververica.com/blog/flink-forward-global-2020-recap",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Flink%20Forward%20Global%202020%20Infographic-thumb.png"
+        },
+        {
+            "title": "Ververica Platform 2.3: Getting Started with Flink SQL on Ververica Platform",
+            "date": "2020-11-09",
+            "author": "by Konstantin Knauf",
+            "abstract": "\nFlink SQL is one of the three main programming interfaces of Apache Flink.\u00a0 It is declarative and, because the community kept the syntax inline with the SQL standard, anyone who knows traditional...\n",
+            "link": "https://www.ververica.com/blog/ververica-platform-2.3-getting-started-with-flink-sql-on-ververica-platform",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Executing%20%28%E2%80%9CRun%20Selection%E2%80%9D%29%20the%20CREATE%20TABLE%20statement%20for%20the%20result%20table%20average_temperatures.png"
+        },
+        {
+            "title": "How mitigating event-time skewness can reduce checkpoint failures and task manager crashes",
+            "date": "2020-11-04",
+            "author": "by Fred Teunissen & Erik de Nooij",
+            "abstract": "\nIntroduction Support for event time and stateful event processing are some of the features that make Apache Flink stand out compared to other stream processors. However, using event time may cause...\n",
+            "link": "https://www.ververica.com/blog/how-mitigating-event-time-skewness-can-reduce-checkpoint-failures-and-task-manager-crashes",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/ING-blog-post-figure-1.png"
+        },
+        {
+            "title": "Ververica Platform 2.3: An End-To-End Platform for Flink SQL",
+            "date": "2020-10-21",
+            "author": "by Konstantin Knauf",
+            "abstract": "\nVerverica Platform becomes an integrated platform for the development and operations of Flink SQL\n",
+            "link": "https://www.ververica.com/blog/ververica-platform-2.3-an-end-to-end-platform-for-flink-sql",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/SQL-Editor-VVP-Thumbnail.png"
+        },
+        {
+            "title": "Ververica Stream Alliance: Introducing New Business Partner Category",
+            "date": "2020-10-15",
+            "author": "by Ververica Press Office",
+            "abstract": "\nAfter the successful introduction of Ververica\u2019s Stream Alliance Program, Ververica today announces an update to the program scheme and the addition of a new partner category, the Ververica...\n",
+            "link": "https://www.ververica.com/blog/ververica-stream-alliance-introducing-new-business-partner-category",
+            "image": "https://f.hubspotusercontent10.net/hubfs/4757017/Stream%20Alliance-Business%20Partner-THUMB.png"
+        },
+        {
+            "title": "Intel\u2019s distributed Model Inference platform presented at Flink Forward",
+            "date": "2020-09-21",
+            "abstract": "\nFlink Forward Global Virtual Conference 2020 is kicking off next month and the Flink community is getting ready to discuss the future of stream processing, and Apache Flink. This time, the...\n",
+            "author": "by Dongjie Shi & Jiaming Song",
+            "link": "https://www.ververica.com/blog/intel-distributed-model-inference-platform-presented-at-flink-forward"
+        },
+        {
+            "title": "A deep dive on Change Data Capture with Flink SQL during Flink Forward",
+            "date": "2020-09-10",
+            "abstract": "\nCan you believe that Flink Forward Global Virtual Conference 2020 is only a few weeks away?\u00a0\n",
+            "author": "by Jark Wu & Qingsheng Ren",
+            "link": "https://www.ververica.com/blog/a-deep-dive-on-change-data-capture-with-flink-sql-during-flink-forward"
+        },
+        {
+            "title": "Introducing Ververica Platform 2.2 with Autoscaling for Apache Flink",
+            "date": "2020-08-04",
+            "abstract": "\nThe latest release of Ververica Platform introduces autoscaling for Apache Flink and support for Apache Flink 1.11\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/introducing-ververica-platform-2.2-with-autoscaling-for-apache-flink"
+        },
+        {
+            "title": "Presenting our Streaming Concepts & Introduction to Flink Video Series",
+            "date": "2020-07-09",
+            "abstract": "\nTransitioning from the batch data processing world into the world of stream processing and real time analytics can be challenging. Throughout this process, there are many new concepts you need to...\n",
+            "author": "by Alexander Fedulov",
+            "link": "https://www.ververica.com/blog/presenting-our-streaming-concepts-introduction-to-flink-video-series"
+        },
+        {
+            "title": "Announcing Early Access Program for Flink SQL in Ververica Platform",
+            "date": "2020-07-06",
+            "abstract": "\nBeen wondering what's next for Ververica Platform? Maybe you've already guessed: Flink SQL is coming to Ververica Platform later this year! Today we are excited to announce our Early Access Program\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/announcing-early-access-program-for-flink-sql-in-ververica-platform"
+        },
+        {
+            "title": "Data-driven Matchmaking at Azar with Apache Flink",
+            "date": "2020-06-23",
+            "abstract": "\nThe Hyperconnect team attended Flink Forward for the first time a couple of months back and presented how we utilize Apache Flink to perform real time matchmaking for the video-based social...\n",
+            "author": "by Jaehyeuk Oh & Gihoon Yeom",
+            "link": "https://www.ververica.com/blog/data-driven-matchmaking-at-azar-with-apache-flink"
+        },
+        {
+            "title": "Advanced Configurations with Ververica Platform Community Edition",
+            "date": "2020-06-22",
+            "abstract": "\nWelcome to the third post in our Ververica Platform Community Edition series. The first two posts covered installation and common operational activities. If you missed the first part and want to...\n",
+            "author": "by Seth Wiesman",
+            "link": "https://www.ververica.com/blog/advanced-configurations-with-ververica-platform-community-edition"
+        },
+        {
+            "title": "Flink for online Machine Learning and real-time processing at Weibo",
+            "date": "2020-06-15",
+            "abstract": "\nThe Flink Forward event gave me an amazing opportunity to present to the global Apache Flink community how Weibo uses Apache Flink to run real time data processing and Machine Learning on our...\n",
+            "author": "by Yu Qian",
+            "link": "https://www.ververica.com/blog/flink-for-online-machine-learning-and-real-time-processing-at-weibo"
+        },
+        {
+            "title": "Upgrade Strategies & High Availability with Ververica Platform Community Edition",
+            "date": "2020-06-11",
+            "abstract": "\nWelcome to the second part in a series of blog posts on the Ververica Platform. The first post covered the installation of the platform and the deployment of a simple job. If you missed the first...\n",
+            "author": "by Seth Wiesman",
+            "link": "https://www.ververica.com/blog/upgrade-strategies-high-availability-ververica-platform-community-edition"
+        },
+        {
+            "title": "Analyzing GitHub Activity with Ververica Platform Community Edition\u00a0 \u00a0- Part 1: Getting Started",
+            "date": "2020-05-28",
+            "abstract": "\nVerverica Platform provides a turnkey solution for running Apache Flink in production. The Community Edition of Ververica Platform, is a free-to-use package that offers the core operational...\n",
+            "author": "by Seth Wiesman",
+            "link": "https://www.ververica.com/blog/analyzing-github-activity-with-ververica-platform-community-edition"
+        },
+        {
+            "title": "How GoDaddy uses Flink to run real time streaming pipelines",
+            "date": "2020-05-19",
+            "abstract": "\nDuring Flink Forward Virtual 2020, GoDaddy demonstrated to the Flink community how our Data Platform Team uses Apache Flink for running real time streaming pipelines. In this post, I will describe...\n",
+            "author": "by Ankit Jhalaria",
+            "link": "https://www.ververica.com/blog/how-godaddy-uses-flink-to-run-real-time-streaming-pipelines"
+        },
+        {
+            "title": "Setting up Role-based Access Control (RBAC) with UAA & LDAP in Ververica Platform",
+            "date": "2020-05-13",
+            "abstract": "\nUser Account and Authentication (UAA) from Cloud Foundry is a free, open source, and enterprise scale identity management and authorization service. Its primary role is as an OAuth2 provider,...\n",
+            "author": "by Jun Qin",
+            "link": "https://www.ververica.com/blog/role-based-access-control-rbac-uaa-ldap-in-ververica-platform"
+        },
+        {
+            "title": "Flink Forward Virtual 2020 Recap",
+            "date": "2020-04-30",
+            "abstract": "\nLast week, more than 1,400 members of the Apache Flink community signed up for the first-ever Flink Forward Virtual conference. If you missed the opportunity to join the conference, you can find...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/flink-forward-virtual-2020-recap"
+        },
+        {
+            "title": "Dell Technologies and Ververica: Analyzing Continuous Data Streams Across Industries",
+            "date": "2020-04-23",
+            "abstract": "\nThis post originally appeared on the Dell EMC blog. It was reproduced on the Ververica blog with permission from its author. Every single entity in the digital world, be it an end user or a...\n",
+            "author": "by Flavio Junqueira",
+            "link": "https://www.ververica.com/blog/dell-ververica-analyzing-continuous-data-streams-across-industries"
+        },
+        {
+            "title": "Session Preview: Stateful Functions for Stateful Serverless Applications",
+            "date": "2020-04-21",
+            "abstract": "\nStateful Functions, Flink\u2019s newest API and runtime, attempts to solve the problem of building rapidly scalable and resilient distributed stateful applications. Users implement polyglot...\n",
+            "author": "by Tzu-Li (Gordon) Tai",
+            "link": "https://www.ververica.com/blog/session-preview-stateful-functions-for-stateful-serverless-applications"
+        },
+        {
+            "title": "Session preview:\u00a0Adobe's realtime identity graph with Flink",
+            "date": "2020-04-20",
+            "abstract": "\nAre you ready for the Virtual Flink Forward this week? As a first time speaker, I am very excited to meet the Apache Flink community and share our experience using Flink at Adobe! This blog post...\n",
+            "author": "by Fakrudeen Ali Ahmed",
+            "link": "https://www.ververica.com/blog/adobe-realtime-identity-graph-with-flink"
+        },
+        {
+            "title": "Session preview:\u00a0Building Stateful Streaming Pipelines at Godaddy with Flink",
+            "date": "2020-04-02",
+            "abstract": "\nAre you thinking of joining the Virtual Flink Forward on April 22 - 24? It\u2019s the first time the Godaddy team will present at a Flink Forward event and we are beyond excited to share our experience...\n",
+            "author": "by Ankit Jhalaria",
+            "link": "https://www.ververica.com/blog/session-preview-building-stateful-streaming-pipelines-at-godaddy-with-flink-1"
+        },
+        {
+            "title": "Announcing Ververica Platform Community Edition",
+            "date": "2020-03-31",
+            "abstract": "\nWe are excited to announce the release of Ververica Platform Community Edition \u2014 the easiest way to get started with Apache Flink! With the Community Edition of Ververica Platform, we are making...\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/announcing-ververica-platform-community-edition"
+        },
+        {
+            "title": "How\u00a0OpenSSL in Ververica Platform 2.1 improves your Flink performance",
+            "date": "2020-03-17",
+            "abstract": "\nWith Ververica Platform, we are always striving to provide our users the best Flink experience they can get. Our newest release, version 2.1, includes a very nice performance improvement that does...\n",
+            "author": "by Nico Kruber",
+            "link": "https://www.ververica.com/blog/how-openssl-in-ververica-platform-improves-your-flink-job-performance"
+        },
+        {
+            "title": "Integrate Microsoft Azure Pipelines with Ververica Platform",
+            "date": "2020-03-12",
+            "abstract": "\nMicrosoft Azure Pipelines is one of the most popular Continuous Integration (CI)/Continuous Delivery(CD) platforms. In this article, we will walk you through the steps to integrate Microsoft Azure...\n",
+            "author": "by Jun Qin",
+            "link": "https://www.ververica.com/blog/integrate-microsoft-azure-pipelines-with-ververica-platform"
+        },
+        {
+            "title": "Introducing Ververica Platform 2.1",
+            "date": "2020-03-09",
+            "abstract": "\nThe latest release includes Apache Flink\u24c7 1.10 and significantly enhances the platform\u2019s capabilities around multi-tenancy and disaster recovery We are very excited to announce the release of...\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/introducing-ververica-platform-2.1"
+        },
+        {
+            "title": "A Journey to Beating Flink's SQL Performance",
+            "date": "2020-02-27",
+            "abstract": "\nRecently, we were doing some experiments with a SQL query that joins a few dimensional tables to enrich incoming records. While doing so, we were thinking of whether an implementation of the same...\n",
+            "author": "by Nico Kruber",
+            "link": "https://www.ververica.com/blog/a-journey-to-beating-flinks-sql-performance"
+        },
+        {
+            "title": "How to manage your RocksDB memory size in Apache Flink",
+            "date": "2020-02-26",
+            "abstract": "\nThis blog post describes some configuration options that will help you to efficiently manage the memory size of the RocksDB state backend in Apache Flink. In an earlier post, we described the...\n",
+            "author": "by Stefan Richter",
+            "link": "https://www.ververica.com/blog/manage-rocksdb-memory-size-apache-flink"
+        },
+        {
+            "title": "Ververica Platform Multitenancy: deployment isolation on OpenShift",
+            "date": "2020-02-17",
+            "abstract": "\nOrganizational decisions to adopt Apache Flink by our customers are oftentimes taken on a global level,\u00a0 designed to allow independent teams to start working with streaming technology without the...\n",
+            "author": "by Alexander Fedulov",
+            "link": "https://www.ververica.com/blog/ververica-platform-multitenancy-deployment-isolation-on-openshift"
+        },
+        {
+            "title": "Application Log Intelligence & Performance Insight at Salesforce using Flink",
+            "date": "2020-02-13",
+            "abstract": "\nWhile many fast-paced, hyper-growth tech companies such as Salesforce expand exponentially, oftentimes their application log infrastructure is evolving organically, trailing behind the operational...\n",
+            "author": "by Andrew Torson",
+            "link": "https://www.ververica.com/blog/application-log-intelligence-performance-insights-salesforce-flink"
+        },
+        {
+            "title": "Getting Started with Ververica Platform on Microsoft Azure, part 2",
+            "date": "2020-01-23",
+            "abstract": "\nIt has been a while since our last blog post about how to set up Ververica Platform (vvP) on Microsoft Azure and a few things have improved since then. Time for an update and an extension on...\n",
+            "author": "by Nico Kruber",
+            "link": "https://www.ververica.com/blog/getting-started-with-ververica-platform-on-microsoft-azure-part-2"
+        },
+        {
+            "title": "How SK telecom democratizes streaming data with FLOW and Flink",
+            "date": "2020-01-20",
+            "abstract": "\nData Labs from SK telecom was at FlinkForward Berlin 2017 and 2018, to present how SK telecom uses Apache Flink for different scenarios in the company. Last year at FlinkForward Europe 2019, we...\n",
+            "author": "by Dongwon Kim & Markos Sfikas",
+            "link": "https://www.ververica.com/blog/how-sk-telecom-democratizes-streaming-data-with-flow-and-flink"
+        },
+        {
+            "title": "Replayable Process Functions: Time, Ordering, and Timers",
+            "date": "2019-12-17",
+            "abstract": "\nThis post originally appeared on the Bird Engineering account on Medium. It was reproduced here with permission from the author. \u00a0 Detecting Offline Scooters with Stream Processing Some of the...\n",
+            "author": "by Philip Wilcox",
+            "link": "https://www.ververica.com/blog/replayable-process-functions-time-ordering-and-timers"
+        },
+        {
+            "title": "Key Highlights from Flink Forward Beijing 2019",
+            "date": "2019-12-05",
+            "abstract": "\nOn November 28-30, Beijing welcomed the 2019 Flink Forward conference for the second time. This year\u2019s attendance number exceeded 2,000 people, an increase of nearly 100% year-on-year. In addition...\n",
+            "author": "by Yuan Mei & Markos Sfikas",
+            "link": "https://www.ververica.com/blog/flink-forward-asia-2019-summary"
+        },
+        {
+            "title": "Announcing Flink Community Packages",
+            "date": "2019-11-18",
+            "abstract": "\nToday, we are excited to announce the launch of Flink Community Packages \u2014 a website that showcases the work of the community to push forward the ecosystem surrounding Apache Flink\u00ae. Users can...\n",
+            "author": "by Robert Metzger",
+            "link": "https://www.ververica.com/blog/announcing-flink-community-packages"
+        },
+        {
+            "title": "Introducing the Ververica Development and Startup License Programs",
+            "date": "2019-11-14",
+            "abstract": "\nSince its inception, Ververica Platform has focused on enabling and supporting the modern enterprise in its adoption of state-of-the-art data processing powered by real-time data. Oftentimes,...\n",
+            "author": "by Holger Temme & Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/introducing-the-ververica-developer-and-startup-license-programs"
+        },
+        {
+            "title": "Real-time Experiment Analytics at Pinterest using Apache Flink",
+            "date": "2019-11-11",
+            "abstract": "\nThis post originally appeared on the\u00a0Pinterest Engineering Blog on Medium. It was reproduced here with permission from the authors. \u00a0 At Pinterest, we run thousands of experiments every day. We...\n",
+            "author": "by Parag Kesar & Ben Liu",
+            "link": "https://www.ververica.com/blog/real-time-experiment-analytics-at-pinterest-using-apache-flink"
+        },
+        {
+            "title": "Flink Forward Europe 2019 Recap",
+            "date": "2019-11-01",
+            "abstract": "\nA couple of weeks back more than 400 members of the Apache Flink and stream processing communities gathered in Berlin for the 5th edition of Flink Forward Europe. If you haven\u2019t had the chance to...\n",
+            "author": "by Fabian Hueske & Robert Metzger",
+            "link": "https://www.ververica.com/blog/flink-forward-europe-2019-recap"
+        },
+        {
+            "title": "Introducing Ververica Platform 2.0",
+            "date": "2019-10-15",
+            "abstract": "\nVerverica Platform 2.0 brings long term enterprise support for Apache Flink 1.9.0, Kubernetes-based Flink Master Failover, artifact management, and a simplified approach to role-based access...\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/introducing-ververica-platform-2.0"
+        },
+        {
+            "title": "Announcing Stateful Functions: Distributed State, Uncomplicated",
+            "date": "2019-10-08",
+            "abstract": "\nWe are thrilled to announce the launch of Stateful Functions (statefun.io), an open source framework that reduces the complexity of building and orchestrating distributed stateful applications at...\n",
+            "author": "by Stephan Ewen & Marta Paes",
+            "link": "https://www.ververica.com/blog/announcing-stateful-functions-distributed-state-uncomplicated"
+        },
+        {
+            "title": "Google Cloud Platform's Flink Operator for Kubernetes is here!",
+            "date": "2019-10-03",
+            "abstract": "\nAt Flink Forward Europe 2019, the Google team will be presenting a keynote about \u201cBuilding and operating a serverless streaming runtime for Apache Beam in the Google Cloud\u201d. This comes along with...\n",
+            "author": "by Christopher Crosbie",
+            "link": "https://www.ververica.com/blog/google-cloud-platforms-flink-operator-for-kubernetes"
+        },
+        {
+            "title": "Announcing the Ververica Stream Alliance Program",
+            "date": "2019-09-18",
+            "abstract": "\nEarlier this year we announced the pre-registration to our Ververica Partner Program. After an overwhelming number of organizations expressed their interest to join Ververica\u2019s partner ecosystem,...\n",
+            "author": "by Ververica Press Office",
+            "link": "https://www.ververica.com/blog/announcing-the-ververica-stream-alliance-program"
+        },
+        {
+            "title": "Flink Forward Session Preview: Real-time Experiment Analytics at Pinterest with Apache Flink",
+            "date": "2019-09-17",
+            "abstract": "\nFlink Forward Europe 2019 is fast approaching and we would like to share with the Apache Flink community some more information about the talk that we will be presenting at the conference in...\n",
+            "author": "by Parag Kesar & Ben Liu",
+            "link": "https://www.ververica.com/blog/flink-forward-preview-real-time-experiment-analytics-pinterest-apache-flink"
+        },
+        {
+            "title": "Flink Forward Session Preview:\u00a0Not So Big - Flink as a true Application Framework",
+            "date": "2019-09-11",
+            "abstract": "\nHow does an engineering team start thinking of\u00a0 Apache Flink more like an \u201capplication framework\u201d instead of a \u201cstream processor\u201d? This will be one of the discussion items in our Flink Forward...\n",
+            "author": "by Oytun Tez",
+            "link": "https://www.ververica.com/blog/flink-forward-session-preview-not-so-big-flink-as-a-true-application-framework"
+        },
+        {
+            "title": "Introducing Ververica's redesigned training",
+            "date": "2019-09-05",
+            "abstract": "\nWe are excited to present our re-designed public training offering effective September 2019. The all-new training experience has been re-designed from the ground-up to meet the requirements of a...\n",
+            "author": "by David Anderson",
+            "link": "https://www.ververica.com/blog/introducing-ververicas-redesigned-training-experience"
+        },
+        {
+            "title": "Flink Forward Session Preview: Streaming Event-Time Partitioning With Apache Flink and Apache Iceberg at Netflix",
+            "date": "2019-08-29",
+            "abstract": "\nAre you thinking of joining Flink Forward Europe 2019? As a first-time speaker at the event, I am excited to meet the Apache Flink community and share how we leveraged Apache Flink and Apache...\n",
+            "author": "by Julia Bennett",
+            "link": "https://www.ververica.com/blog/flink-forward-preview-event-time-partitioning-with-apache-flink-apache-iceberg-netflix"
+        },
+        {
+            "title": "How Yelp uses Flink for predicting store visits in real time",
+            "date": "2019-08-26",
+            "abstract": "\nI recently presented at Flink Forward San Francisco 2019 and showcased how the User Location Intelligence team at Yelp uses Apache Flink for predicting real-time store visits. In the following...\n",
+            "author": "by Luca Giovagnoli",
+            "link": "https://www.ververica.com/blog/how-yelp-uses-flink-for-predicting-store-visits-in-real-time"
+        },
+        {
+            "title": "Flink Forward Europe 2019 - Program Announced",
+            "date": "2019-08-01",
+            "abstract": "\nThe 5th annual conference features 70+ sessions with speakers from Airbus, Goldman Sachs, Emirates NBD, Pinterest, Stripe and more \u00a0\n",
+            "author": "by Ververica Press Office",
+            "link": "https://www.ververica.com/blog/flink-forward-europe-2019-program-announced"
+        },
+        {
+            "title": "Stream processing with High Cardinality and Large State at Klaviyo",
+            "date": "2019-06-04",
+            "abstract": "\nWe recently presented Klaviyo\u2019s use case at Flink Forward San Francisco 2019 and\u00a0showcased how our engineering team leverages Apache Flink to scale the company\u2019s real-time analytics system that...\n",
+            "author": "by Ning Shi & Seed Zeng",
+            "link": "https://www.ververica.com/blog/stream-processing-with-high-cardinality-and-large-state-at-klaviyo"
+        },
+        {
+            "title": "Announcing Ververica Platform 1.4.0",
+            "date": "2019-05-21",
+            "abstract": "\nWe are pleased to announce the general availability of Ververica Platform 1.4.0! This last platform release introduces improvements to existing components and some useful new features, from native...\n",
+            "author": "by Ufuk Celebi & Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/announcing-ververica-platform-1.4.0"
+        },
+        {
+            "title": "Getting Started with Ververica Platform on Alibaba Cloud",
+            "date": "2019-05-17",
+            "abstract": "\nIn previous posts, we walked you through how to get Ververica Platform up and running in different public cloud providers such as \u00a0Google Cloud Platform, Amazon Web Services and Microsoft Azure....\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/getting-started-ververica-platform-on-alibaba-cloud"
+        },
+        {
+            "title": "Flux capacitor, huh? Temporal Tables and Joins in Streaming SQL",
+            "date": "2019-05-08",
+            "abstract": "\nFiguring out how to manage and model temporal data for effective point-in-time analysis was a longstanding battle, dating as far back as the early 80\u2019s, that culminated with the introduction of...\n",
+            "author": "by Marta Paes",
+            "link": "https://www.ververica.com/blog/flux-capacitor-huh-temporal-tables-and-joins-in-streaming-sql"
+        },
+        {
+            "title": "Key\u00a0Takeaways from Flink Forward San Francisco 2019",
+            "date": "2019-04-29",
+            "abstract": "\nA few weeks back, I attended Flink Forward in San Francisco. This was my\u00a0first time at the conference and I was very excited to see that the Apache Flink Community is alive and well in 2019! As a...\n",
+            "author": "by Austin Cawley-Edwards",
+            "link": "https://www.ververica.com/blog/key-takeaways-from-flink-forward-san-francisco-2019"
+        },
+        {
+            "title": "Flink Forward San Francisco 2019 welcomes an ever-growing community",
+            "date": "2019-04-16",
+            "abstract": "\nBERLIN, Apr 16, 2019\u00a0\u2014 Flink Forward, the premier event for Apache Flink\u00ae and the open source stream processing community, took stage in San Francisco, April 1-2 for its largest ever conference in...\n",
+            "author": "by Ververica Press Office",
+            "link": "https://www.ververica.com/blog/flink-forward-san-francisco-2019-welcomes-a-growing-flink-community"
+        },
+        {
+            "title": "What's new in Flink 1.8.0?",
+            "date": "2019-04-11",
+            "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0. The Apache Flink community is pleased to announce Apache Flink 1.8.0. The...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/whats-new-in-flink-1.8"
+        },
+        {
+            "title": "Using Apache Flink for Smart Cities: the case of Warsaw",
+            "date": "2019-04-10",
+            "abstract": "\nAuthors: Piotr Wawrzyniak &\u00a0Jaros\u0142aw Legierski This blog post describes how we used Apache Flink as the primary stream processing framework for a Smart City project in the city of Warsaw in...\n",
+            "author": "by Piotr Wawrzyniak",
+            "link": "https://www.ververica.com/blog/using-apache-flink-for-smart-cities-the-case-of-warsaw"
+        },
+        {
+            "title": "Flink Forward San Francisco Session Preview: Scaling a real-time streaming warehouse with Apache Flink, Parquet and Kubernetes",
+            "date": "2019-03-30",
+            "abstract": "\nAuthors:\u00a0Ramesh Shanmugam & Aditi Verma Flink Forward San Francisco is a couple of days away! In case you haven\u2019t booked your tickets yet, here\u2019s a sneak preview of our session Scaling a real-time...\n",
+            "author": "by Ramesh Shanmugam",
+            "link": "https://www.ververica.com/blog/flink-forward-session-preview-scaling-a-real-time-streaming-warehouse-flink-parquet-kubernetes"
+        },
+        {
+            "title": "Flink Forward San Francisco Session Preview: Massive Scale Data Processing at Netflix using Flink",
+            "date": "2019-03-14",
+            "abstract": "\nAuthors:\u00a0Pallavi Phadnis\u00a0& Snehal Nagmote\u00a0\n",
+            "author": "by Pallavi Phadnis",
+            "link": "https://www.ververica.com/blog/flink-forward-session-preview-massive-scale-data-processing-at-netflix"
+        },
+        {
+            "title": "Flink and Prometheus: Cloud-native monitoring of streaming applications",
+            "date": "2019-03-13",
+            "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0. This blog post describes how developers can leverage Apache Flink\u2019s built-in ...\n",
+            "author": "by Maximilian Bode",
+            "link": "https://www.ververica.com/blog/apache-flink-and-prometheus-monitoring-streaming-applications"
+        },
+        {
+            "title": "What are the benefits of stream processing with Apache Flink for modern application development?",
+            "date": "2019-03-05",
+            "abstract": "\nThis blog post is a Q&A session with Vino Yang, Senior Engineer at Tencent\u2019s Big Data team. Below, we discuss the benefits of adopting stream processing and Apache Flink for modern application...\n",
+            "author": "by Vino Yang",
+            "link": "https://www.ververica.com/blog/benefits-stream-processing-flink-application-development"
+        },
+        {
+            "title": "Flink Forward Session Preview: Elastic Data Processing with Apache Flink and Apache Pulsar",
+            "date": "2019-02-28",
+            "abstract": "\nExcited for Flink Forward San Francisco 2019? As one of the 30+ conference speakers, I want to give a sneak preview of my upcoming Flink Forward talk: Elastic Data Processing with Apache Flink and...\n",
+            "author": "by Sijie Guo",
+            "link": "https://www.ververica.com/blog/flink-forward-preview-elastic-data-processing-with-apache-flink-and-apache-pulsar"
+        },
+        {
+            "title": "Monitoring Apache Flink Applications 101",
+            "date": "2019-02-27",
+            "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0.\n",
+            "author": "by Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/monitoring-apache-flink-applications-101"
+        },
+        {
+            "title": "Batch as a Special Case of Streaming and Alibaba's contribution of Blink",
+            "date": "2019-02-19",
+            "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0. Last week, we broke the news that Alibaba decided to contribute its...\n",
+            "author": "by Stephan Ewen, Fabian Hueske & Xiaowei Jiang",
+            "link": "https://www.ververica.com/blog/batch-as-a-special-case-of-streaming-and-alibabas-contribution-of-blink"
+        },
+        {
+            "title": "3 important performance factors for stateful functions and operators in Flink",
+            "date": "2019-02-15",
+            "abstract": "\nThis post focuses on the 3 factors developers should keep in mind when assessing the performance of a function or operator that uses Flink\u2019s Keyed State in a stateful streaming application.\n",
+            "author": "by Tzu-Li (Gordon) Tai",
+            "link": "https://www.ververica.com/blog/performance-factors-stateful-functions-operators-flink"
+        },
+        {
+            "title": "Smart Systems IoT Use Case with open source Kafka, Flink & CrateDB",
+            "date": "2019-02-12",
+            "abstract": "\nThe Smart Systems IoT Use Case IoT systems use data and artificial intelligence (AI) to monitor, control, or predict the behavior of internet-connected devices. They are the basis for new smart...\n",
+            "author": "by Markos Sfikas",
+            "link": "https://www.ververica.com/blog/smart-systems-iot-use-case-open-source-kafka-flink-cratedb"
+        },
+        {
+            "title": "Introducing our new name!",
+            "date": "2019-02-08",
+            "abstract": "\nToday, we\u2019re excited to share the next phase of our journey - introducing our new name!\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/introducing-our-new-name"
+        },
+        {
+            "title": "MATCH_RECOGNIZE: where Flink SQL and Complex Event Processing meet.",
+            "date": "2019-01-29",
+            "abstract": "\nWith the unavoidable and ever-growing presence of sensors and smart devices, Complex Event Processing (CEP) is fast becoming a critical paradigm for enterprises to keep ahead of the curve and turn...\n",
+            "author": "by Marta Paes",
+            "link": "https://www.ververica.com/blog/match_recognize-where-flink-sql-and-complex-event-processing-meet"
+        },
+        {
+            "title": "Oceanus: A one-stop platform for real time stream processing powered by Apache Flink",
+            "date": "2019-01-25",
+            "abstract": "\nIn recent years, the increasing need for timeliness, together with advances in software and hardware technologies, drive the emergence of real-time stream processing. Real-time stream processing...\n",
+            "author": "by The Big Data Team at Tencent",
+            "link": "https://www.ververica.com/blog/oceanus-platform-powered-by-apache-flink"
+        },
+        {
+            "title": "How Trackunit leverages Flink to process real-time data from industrial IoT devices",
+            "date": "2019-01-22",
+            "abstract": "\nRecently there has been significant discussion about edge computing as a major technology trend in 2019. Edge computing brings computing capabilities away from the cloud, and rather close to the...\n",
+            "author": "by Lasse Nedergaard",
+            "link": "https://www.ververica.com/blog/trackunit-leverages-flink-industrial-iot"
+        },
+        {
+            "title": "4 characteristics of Timers in Apache Flink to keep in mind",
+            "date": "2019-01-18",
+            "abstract": "\nThis blog post describes some basic concepts and considerations for the use of Timers in Apache Flink. Developers can register their own Timers with Flink\u2019s ProcessFunction operator that gives...\n",
+            "author": "by Tzu-Li (Gordon) Tai",
+            "link": "https://www.ververica.com/blog/4-characteristics-of-timers-in-apache-flink"
+        },
+        {
+            "title": "The transformation of (open source) data processing",
+            "date": "2019-01-15",
+            "abstract": "\nThis blog post is based on a talk I gave at the Big Data Spain Conference 2018\u00a0in Madrid. The post goes through how [open source] data processing has evolved and covers the different...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/the-evolution-of-open-source-data-processing"
+        },
+        {
+            "title": "data Artisans + Alibaba: A new chapter for Open Source Big Data",
+            "date": "2019-01-08",
+            "abstract": "\nAuthors: Kostas Tzoumas and Stephan Ewen\u00a0\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/data-artisans-alibaba-new-chapter-for-open-source-big-data"
+        },
+        {
+            "title": "Announcing data Artisans Platform 1.3: all power to the user!",
+            "date": "2018-12-18",
+            "abstract": "\nWe are pleased to announce the general availability of Ververica Platform 1.3 as of today! This release is packed with features that strengthen enterprise security and application management, as...\n",
+            "author": "by Marta Paes",
+            "link": "https://www.ververica.com/blog/announcing-data-artisans-platform-1.3"
+        },
+        {
+            "title": "5 \u201cbaby\u201d steps to develop a Flink application",
+            "date": "2018-12-17",
+            "abstract": "\nGetting up and running with Flink is easy as ABC. In this post, we go over 5 \u201cbaby\u201d steps to guide you through setting up your first running Flink application locally. We discuss the software...\n",
+            "author": "by Marta Paes",
+            "link": "https://www.ververica.com/blog/5-steps-flink-application-development"
+        },
+        {
+            "title": "How can companies benefit from data-driven applications and open-source software?",
+            "date": "2018-12-17",
+            "abstract": "\nThis blog post is a Q&A session with Jakub Piasecki, Director of Technology at Freeport Metrics, about the benefits of real-time, data-driven applications and open-source software.\n",
+            "author": "by Jakub Piasecki",
+            "link": "https://www.ververica.com/blog/flink-user-qa-benefits-data-driven-applications"
+        },
+        {
+            "title": "What\u2019s new in the latest Apache Flink 1.7.0 release",
+            "date": "2018-12-17",
+            "abstract": "\nThe Apache Flink community is pleased to announce Apache Flink 1.7.0. The latest release includes more than 420 resolved issues and some exciting additions to Flink that we describe in the...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/apache-flink-1-7-0-release"
+        },
+        {
+            "title": "Getting Started with Ververica Platform on Azure Kubernetes Service",
+            "date": "2018-11-26",
+            "abstract": "\nIn previous posts, we walked you through how to get Ververica Platform up and running in Google Cloud Platform and Amazon Web Services. This time, we are focusing on Microsoft Azure and its hosted...\n",
+            "author": "by Marta Paes & Konstantin Knauf",
+            "link": "https://www.ververica.com/blog/getting-started-data-artisans-platform-azure-kubernetes-service"
+        },
+        {
+            "title": "4 steps to get your Flink application ready for production",
+            "date": "2018-11-23",
+            "abstract": "\nThis post explains the necessary configuration steps that will get your Flink application ready for production. In the following sections, we give an overview of important configuration parameters...\n",
+            "author": "by Nico Kruber",
+            "link": "https://www.ververica.com/blog/4-steps-flink-application-production-ready"
+        },
+        {
+            "title": "Singles Day 2018: data in a Flink of an eye",
+            "date": "2018-11-22",
+            "abstract": "\nSunday 11 November 2018 marked Alibaba\u2019s 10th annual shopping festival Singles Day, which saw a record Gross Merchandise Value (GMV) of $30.8 billion in sales and set a new record for the Chinese...\n",
+            "author": "by Marta Paes",
+            "link": "https://www.ververica.com/blog/singles-day-2018-data-in-a-flink-of-an-eye"
+        },
+        {
+            "title": "Stream processing: An Introduction to Event Time in Apache Flink",
+            "date": "2018-11-16",
+            "abstract": "\nApache Flink supports multiple notions of time for stateful stream processing. This post focuses on event time support in Apache Flink. In the following sections we define what event time is with ...\n",
+            "author": "by Markos Sfikas",
+            "link": "https://www.ververica.com/blog/stream-processing-introduction-event-time-apache-flink"
+        },
+        {
+            "title": "Years in Big Data. Months with Apache Flink. 5 Early Observations With Stream Processing",
+            "date": "2018-11-14",
+            "abstract": "\nThis Fall I became more active with the Apache Flink community in my role as Technical Evangelist at data Artisans, after almost 8 years in Big Data. At October\u2019s Bay Area Flink Meetup, I...\n",
+            "author": "by Jeff Bean",
+            "link": "https://www.ververica.com/blog/early-observations-apache-flink"
+        },
+        {
+            "title": "Broadcast State Pattern in Apache Flink: 4 important considerations",
+            "date": "2018-11-09",
+            "abstract": "\nThis post explores the Broadcast State pattern that was introduced in Apache Flink 1.5.0. In the following sections, we describe what is a Broadcast State Pattern, how Broadcast State differs from...\n",
+            "author": "by Markos Sfikas",
+            "link": "https://www.ververica.com/blog/broadcast-state-pattern-flink-considerations"
+        },
+        {
+            "title": "Flink SQL for powerful querying of data streams and data at rest",
+            "date": "2018-11-06",
+            "abstract": "\nWhile Flink SQL was initially released with Flink 1.1.0 back in August 2016, recent Flink releases have added quite a bit of functionality that makes Flink SQL easier to use by eliminating the...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/flink-sql-powerful-querying-of-data-streams"
+        },
+        {
+            "title": "3 differences between Savepoints and Checkpoints in Apache Flink",
+            "date": "2018-11-02",
+            "abstract": "\nThis episode of our Flink Friday Tip explains what Savepoints and Checkpoints are and examines the main differences between them in Apache Flink. In the following paragraphs, we explain what...\n",
+            "author": "by Stefan Richter",
+            "link": "https://www.ververica.com/blog/differences-between-savepoints-and-checkpoints-in-flink"
+        },
+        {
+            "title": "Stateful Stream Processing: Apache Flink State Backends",
+            "date": "2018-10-26",
+            "abstract": "\nThis episode of our Flink Friday Tip explores stateful stream processing and more precisely the different state backends available in Apache Flink. In the following sections, we present the 3...\n",
+            "author": "by Seth Wiesman",
+            "link": "https://www.ververica.com/blog/stateful-stream-processing-apache-flink-state-backends"
+        },
+        {
+            "title": "How to get started with Ververica Platform on AWS EKS",
+            "date": "2018-10-25",
+            "abstract": "\nIn this article, we describe the setup of Ververica Platform using Amazon Web Services Elastic Container Service for Kubernetes (AWS EKS). Ververica Platform is built on Kubernetes as the...\n",
+            "author": "by Seth Wiesman",
+            "link": "https://www.ververica.com/blog/how-to-get-started-with-data-artisans-platform-on-aws-eks"
+        },
+        {
+            "title": "Community Update: October 2018 Apache Flink Bay Area Meetup",
+            "date": "2018-10-22",
+            "abstract": "\nOn October 11 MapR and data Artisans held their first mutual Apache Flink Meetup in the Bay Area with more than 40 attendees. The Flink community enjoyed a packed agenda with detailed talks and...\n",
+            "author": "by Markos Sfikas",
+            "link": "https://www.ververica.com/blog/community-update-october-2018-apache-flink-bay-area-meetup"
+        },
+        {
+            "title": "Watermarks in Apache Flink Made Easy",
+            "date": "2018-10-19",
+            "abstract": "\nAs folks first begin to work with Flink, watermarks can be a source of confusion. But this topic doesn't have to be complicated. Let's work through a simple example that will show why we need...\n",
+            "author": "by David Anderson",
+            "link": "https://www.ververica.com/blog/watermarks-in-apache-flink-made-easy"
+        },
+        {
+            "title": "How Apache Flink manages Kafka consumer offsets",
+            "date": "2018-10-12",
+            "abstract": "\nIn this blog post, we explain how Apache Flink works with Apache Kafka to ensure that records from Kafka topics are processed with exactly-once guarantees, using\u00a0a step-by-step example. ...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/how-apache-flink-manages-kafka-consumer-offsets"
+        },
+        {
+            "title": "An introduction to ACID guarantees and transaction processing",
+            "date": "2018-10-09",
+            "abstract": "\nLast month we introduced Ververica Streaming Ledger, our new technology that brings serializable, distributed ACID transactions directly on data streams. In this blog post, we take a step back to...\n",
+            "author": "by Markos Sfikas",
+            "link": "https://www.ververica.com/blog/an-introduction-to-acid-guarantees-and-transaction-processing"
+        },
+        {
+            "title": "6 things to consider when defining your Apache Flink cluster size",
+            "date": "2018-10-05",
+            "abstract": "\nThis is the first episode of a blog series provide some easy-to-digest best practices and advice on how to leverage the power of Apache Flink and make the best use of the different Flink features....\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/6-things-to-consider-when-defining-your-apache-flink-cluster-size"
+        },
+        {
+            "title": "Meet the Engineer: Ufuk Celebi",
+            "date": "2018-10-04",
+            "abstract": "\nIn this section of our \u201cMeet the Engineer\u201d series, I\u2019d like to introduce my data Artisans colleague Ufuk Celebi. Ufuk is one of the co-founders of the team and one of the very few Berliners in the...\n",
+            "author": "by Dawid Wysakowicz",
+            "link": "https://www.ververica.com/blog/meet-the-engineer-ufuk-celebi"
+        },
+        {
+            "title": "State TTL for Apache Flink: How to Limit the Lifetime of State",
+            "date": "2018-09-25",
+            "abstract": "\nA common requirement for many stateful streaming applications is the ability to control how long application state can be accessed (e.g., due to legal regulations like GDPR) and when to discard...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/state-ttl-for-apache-flink-how-to-limit-the-lifetime-of-state"
+        },
+        {
+            "title": "Latest improvements for Apache Flink with the release of Flink 1.5.4 and 1.6.1",
+            "date": "2018-09-21",
+            "abstract": "\nThe Apache Flink\u00ae community just released two bugfix versions, Apache Flink 1.5.4 and Apache Flink 1.6.1 including many resolved issues and improvements.\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/latest-improvements-for-apache-flink-with-the-release-of-flink-1-5-4-and-1-6-1"
+        },
+        {
+            "title": "Announcing Data Artisans Platform 1.2 with major new Enterprise Security features",
+            "date": "2018-09-05",
+            "abstract": "\nToday, data Artisans is announcing the availability of data Artisans Platform 1.2,\u00a0with major new Enterprise Security features.Alongside this new release, data Artisans is also announcing the...\n",
+            "author": "by Robert Metzger",
+            "link": "https://www.ververica.com/blog/announcing-data-artisans-platform-1-2-with-major-new-enterprise-security-features"
+        },
+        {
+            "title": "Serializable ACID Transactions on Streaming Data",
+            "date": "2018-09-04",
+            "abstract": "\nWe are excited to announce the general availability of data Artisans Streaming Ledger, an exciting new technology that brings serializable ACID transactions to applications built on a streaming...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/serializable-acid-transactions-on-streaming-data"
+        },
+        {
+            "title": "Meet the Engineer: Dawid Wysakowicz",
+            "date": "2018-08-15",
+            "abstract": "\nIn this edition of our \u201cMeet the Engineer\u201d series, I\u2019d like to present my data Artisans colleague Dawid Wysakowicz. Dawid is an Apache Flink committer and an avid Liverpool FC fan who made the...\n",
+            "author": "by Cameron Wood",
+            "link": "https://www.ververica.com/blog/meet-the-engineer-dawid-wysakowicz"
+        },
+        {
+            "title": "Apache Flink 1.6.0: What\u2019s new in the latest Apache Flink release",
+            "date": "2018-08-09",
+            "abstract": "\nThe Apache Flink\u00ae community has just release v. 1.6.0 with major improvements and additions to the technology. The community worked hard in the last 2+ months to resolve more than 360 issues and...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/apache-flink-1-6-0-whats-new-in-the-latest-apache-flink-release"
+        },
+        {
+            "title": "A Practical Guide to Broadcast State in Apache Flink",
+            "date": "2018-08-02",
+            "abstract": "\nSince version 1.5.0, Apache Flink\u24c7 features a new type of state which is called Broadcast State. In this post, we explain what Broadcast State is, and show an example of how it can be applied to...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/a-practical-guide-to-broadcast-state-in-apache-flink"
+        },
+        {
+            "title": "How Kcell and GetInData built a stream analytics platform using Apache Flink\u00ae as a core component.",
+            "date": "2018-07-24",
+            "abstract": "\nTelecommunications companies, such as Kcell, hold vast amounts of data at their disposal. Whether arriving from billing, data usage, roaming, or location events, being able to access and react...\n",
+            "author": "by Dawid Wysakowicz",
+            "link": "https://www.ververica.com/blog/how-kcell-and-getindata-built-a-stream-analytics-platform-using-apache-flink-as-a-core-component"
+        },
+        {
+            "title": "Apache Flink\u00ae Master Branch Monthly: New in Flink in June 2018",
+            "date": "2018-07-10",
+            "abstract": "\nThanks to Dawid Wysakowicz, Piotr Nowojski, and Stefan Richter for their contributions and support in this blog post. At the beginning of the year, we introduced the\u00a0Flink Master Monthly blog post...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/apache-flink-master-branch-monthly-new-in-flink-in-june-2018"
+        },
+        {
+            "title": "How Germany can benefit from Machine Learning and Artificial Intelligence: A Discussion with Chancellor Angela Merkel.",
+            "date": "2018-07-05",
+            "abstract": "\nMachine learning and artificial intelligence are at the forefront of enabling many technological advances. It\u2019s not only technology companies involved in these areas but also governments are...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/how-germany-can-benefit-from-machine-learning-and-artificial-intelligence-a-discussion-with-chancellor-angela-merkel"
+        },
+        {
+            "title": "Getting Started with Ververica Platform on Google Kubernetes Engine",
+            "date": "2018-06-18",
+            "abstract": "\nOverview Ververica Platform is a production-ready platform for stream processing with Apache Flink\u00ae. The Platform includes open source Apache Flink, a stateful stream processing and event-driven...\n",
+            "author": "by Robert Metzger",
+            "link": "https://www.ververica.com/blog/getting-started-with-da-platform-on-google-kubernetes-engine"
+        },
+        {
+            "title": "Apache Flink 1.5.0 Release Announcement",
+            "date": "2018-05-25",
+            "abstract": "\nThis post originally appeared\u00a0on the Apache Flink blog.\u00a0It was reproduced here under the Apache License, Version 2.0.\u00a0The Apache Flink community is thrilled to announce the 1.5.0 release. Over the...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/apache-flink-1-5-0-release-announcement"
+        },
+        {
+            "title": "Full Stream Ahead! dA Platform is Generally Available and Ready for Download",
+            "date": "2018-03-28",
+            "abstract": "\nToday, we\u2019re excited to announce that dA Platform, a production-ready stream processing infrastructure with open-source Apache Flink\u00ae, is generally available!We\u00a0first unveiled dA Platform at Flink...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/da-platform-with-apache-flink-general-availability"
+        },
+        {
+            "title": "Apache Flink\u00ae Master Branch Monthly: New in Flink in February 2018",
+            "date": "2018-03-15",
+            "abstract": "\nThanks to Stefan Richter, Kostas Kloudas, and Chesnay Schepler for their contributions to this post. Last month, we introduced our first ever Flink Master Monthly blog post so we could highlight...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/apache-flink-master-branch-monthly-whats-new-flink-february-2018"
+        },
+        {
+            "title": "Meet the Engineer: Timo Walther",
+            "date": "2018-02-27",
+            "abstract": "\nTimo is one of the driving forces behind the SQL efforts in Apache Flink and has been working on Flink since its creation at TU Berlin (even before it became Flink) where he was instrumental in...\n",
+            "author": "by Kostas Kloudas",
+            "link": "https://www.ververica.com/blog/meet-engineer-timo-walther"
+        },
+        {
+            "title": "An Overview of End-to-End Exactly-Once Processing in Apache Flink\u00ae (with Apache Kafka, too!)",
+            "date": "2018-02-15",
+            "abstract": "\nThis post is an adaptation of Piotr Nowojski\u2019s presentation from Flink Forward Berlin 2017. You can find the slides and a recording of the presentation on the Flink Forward Berlin website.Apache...\n",
+            "author": "by Piotr Nowojski",
+            "link": "https://www.ververica.com/blog/end-to-end-exactly-once-processing-apache-flink-apache-kafka"
+        },
+        {
+            "title": "Apache Flink\u00ae Master Branch Monthly: New in Flink in January 2018",
+            "date": "2018-02-09",
+            "abstract": "\nFlink\u2019s major version releases occur every few months, and there\u2019s a constant stream of activity as new features are merged to the Flink master branch in between releases. Keeping an eye on what\u2019s...\n",
+            "author": "by Timo Walther",
+            "link": "https://www.ververica.com/blog/apache-flink-master-branch-monthly-whats-new-flink-january-2018"
+        },
+        {
+            "title": "Streaming Data in the Enterprise Hits a Tipping Point: Our 2018 Predictions",
+            "date": "2018-01-26",
+            "abstract": "\nOn January 18, 2018 Information Management published an article that we contributed about some of our predictions for this year in the big data and analytics space.The key takeaway is that stream...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/streaming-data-in-the-enterprise-hits-a-tipping-point"
+        },
+        {
+            "title": "Managing Large State in Apache Flink\u00ae: An Intro to Incremental Checkpointing",
+            "date": "2018-01-23",
+            "abstract": "\nApache Flink was purpose-built for stateful stream processing. Let's quickly review: what is state in a stream processing application? I defined state and stateful stream processing in a previous...\n",
+            "author": "by Stefan Richter",
+            "link": "https://www.ververica.com/blog/managing-large-state-apache-flink-incremental-checkpointing-overview"
+        },
+        {
+            "title": "Apache Flink\u00ae\u00a0User Survey 2017: A Brief Summary",
+            "date": "2018-01-17",
+            "abstract": "\nIn November 2017, data Artisans conducted a second-annual Apache Flink user survey. There were a total of 217 responses, and the survey provided of lots of useful insights and feedback about Flink.\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/apache-flink-user-survey-2017-recap"
+        },
+        {
+            "title": "How To Size Your Apache Flink\u00ae Cluster: A Back-of-the-Envelope Calculation",
+            "date": "2018-01-11",
+            "abstract": "\nA favorite session from Flink Forward Berlin 2017 was Robert Metzger's \"Keep It Going: How to Reliably and Efficiently Operate Apache Flink\". One of the topics that Robert touches on is how to\u00a0...\n",
+            "author": "by Robert Metzger",
+            "link": "https://www.ververica.com/blog/how-to-size-your-apache-flink-cluster-general-guidelines"
+        },
+        {
+            "title": "Apache Flink in 2017: Year in Review",
+            "date": "2018-01-04",
+            "abstract": "\nThis post originally appeared on the\u00a0Apache Flink blog. It was reproduced here under the\u00a0Apache License, Version 2.0.\u00a0\n",
+            "author": "by Chris Ward",
+            "link": "https://www.ververica.com/blog/apache-flink-in-2017-year-in-review"
+        },
+        {
+            "title": "Meet the Engineer: Konstantinos Kloudas",
+            "date": "2017-12-20",
+            "abstract": "\nThis blog post features my colleague, Konstantinos Kloudas, who is a committer on Apache Flink and works in the Berlin office. He usually goes by Kostas, but we call him Klou, because we have a...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/meet-engineer-konstantinos-kloudas"
+        },
+        {
+            "title": "The Curious Case of the Broken Benchmark: Revisiting Apache Flink\u00ae vs. Databricks Runtime",
+            "date": "2017-12-15",
+            "abstract": "\nTl;dr For the past few months, Databricks has been promoting an Apache Spark vs. Apache Flink vs. Apache Kafka Streams benchmark result that shows Spark significantly outperforming the other...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/curious-case-broken-benchmark-revisiting-apache-flink-vs-databricks-runtime"
+        },
+        {
+            "title": "Announcing the Apache Flink 1.4.0 Release",
+            "date": "2017-12-12",
+            "abstract": "\nThis post originally appeared on the Apache Flink blog.\u00a0It was reproduced here under the\u00a0Apache License, Version 2.0.\u00a0The Apache Flink community is pleased to announce the 1.4.0 release. Over the...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/announcing-the-apache-flink-1-4-0-release"
+        },
+        {
+            "title": "Complex Event Processing with Flink: An Update on the State of Flink CEP",
+            "date": "2017-11-08",
+            "abstract": "\nModern organizations rely on the timely and efficient processing of their data to make decisions that have a direct impact on the quality of their services and products. Based on user...\n",
+            "author": "by Kostas Kloudas",
+            "link": "https://www.ververica.com/blog/complex-event-processing-flink-cep-update"
+        },
+        {
+            "title": "Meet the Engineer: Till Rohrmann",
+            "date": "2017-11-02",
+            "abstract": "\nThis blog post features my colleague, Till Rohrmann, who works at the data Artisans headquarters in Berlin. He is an early member of the data Artisans team and leads the team working on Flink\u2019s...\n",
+            "author": "by Tzu-Li (Gordon) Tai",
+            "link": "https://www.ververica.com/blog/meet-engineer-till-rohrmann-data-artisans"
+        },
+        {
+            "title": "StreamING Machine Learning Models: How ING Adds Fraud Detection Models at Runtime with Apache Flink\u00ae",
+            "date": "2017-10-25",
+            "abstract": "\nToday\u2019s guest author, Erik de Nooij, is an IT Chapter Lead at ING Bank, headquartered in The Netherlands.\n",
+            "author": "by Erik de Nooij",
+            "link": "https://www.ververica.com/blog/real-time-fraud-detection-ing-bank-apache-flink"
+        },
+        {
+            "title": "Uber Introduces Open Source AthenaX, A Streaming SQL Platform Powered By Apache Flink\u00ae",
+            "date": "2017-10-10",
+            "abstract": "\nYesterday, the Uber engineering team introduced its open source AthenaX, a SQL-based and Apache Flink-powered streaming analytics platform. There\u2019s a detailed announcement on the Uber engineering...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/uber-introduces-open-source-athenax-streaming-sql-platform-apache-flink"
+        },
+        {
+            "title": "Introducing dA Platform: Stateful Stream Processing Powered by Apache Flink\u00ae Made Easier for Everyone",
+            "date": "2017-09-11",
+            "abstract": "\nFor more than three years, data Artisans has been working closely with the teams who manage some of the largest stream processing deployments in the world, including Apache Flink\u00ae deployments at...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/da-platform-stateful-stream-processing-with-apache-flink-made-easier"
+        },
+        {
+            "title": "Streaming SQL in Apache Flink, KSQL, and Stream Processing for Everyone",
+            "date": "2017-09-01",
+            "abstract": "\nIf you read our blog, you\u2019ve likely seen this week\u2019s news that Confluent shared an early version of its new offering KSQL, streaming SQL for Apache Kafka.The data Artisans team and Apache Flink...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/flink-streaming-sql-ksql-stream-processing"
+        },
+        {
+            "title": "Meet the Engineer: Tzu-Li (Gordon) Tai",
+            "date": "2017-08-29",
+            "abstract": "\nIn this this edition of our \"Meet the Engineer\" series, I\u2019d like to introduce my colleague Gordon Tai. He works remotely from Taipei, Taiwan, and he is the only member of the data Artisans team in...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/meet-engineer-tzu-li-gordon-tai-data-artisans"
+        },
+        {
+            "title": "On Designing a Stream Processing Benchmark",
+            "date": "2017-07-27",
+            "abstract": "\nUpdate December 18, 2017: We wrote a follow-up blog post about stream processing benchmarks that goes into more detail about the issues we see with common benchmarking methods. It serves as a...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/on-designing-a-stream-processing-benchmark"
+        },
+        {
+            "title": "Complex Event Generation for Business Process Monitoring using Apache Flink\u00ae",
+            "date": "2017-07-13",
+            "abstract": "\nThis is a guest post by\u00a0Hung Chang & Mihail Vieru of Zalando. It originally appeared on the Zalando Technology Blog and was reposted here with permission.\u00a0While developing Zalando\u2019s real-time...\n",
+            "author": "by Mihail Vieru",
+            "link": "https://www.ververica.com/blog/complex-event-generation-business-process-monitoring-using-apache-flink"
+        },
+        {
+            "title": "Meet the Engineer: Aljoscha Krettek",
+            "date": "2017-07-13",
+            "abstract": "\nWelcome to the inaugural post in our \u201cMeet the Engineer\u201d series, where we\u2019ll introduce a member of the data Artisans team.\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/meet-engineer-aljoscha-krettek"
+        },
+        {
+            "title": "Dynamically Configured Stream Processing: How BetterCloud Built an Alerting System with Apache Flink\u00ae",
+            "date": "2017-06-29",
+            "abstract": "\nMany Apache Flink\u00ae users are building applications for alerting or anomaly detection, and ING and Mux are two such examples from the most recent Flink Forward conference.\n",
+            "author": "by David Hardwick",
+            "link": "https://www.ververica.com/blog/bettercloud-dynamic-alerting-apache-flink"
+        },
+        {
+            "title": "Apache Flink\u00ae at MediaMath: Rescaling Stateful Applications in Production",
+            "date": "2017-06-12",
+            "abstract": "\nThis post also appeared on the MediaMath Developer Blog.\u00a0\n",
+            "author": "by Stefan Richter",
+            "link": "https://www.ververica.com/blog/apache-flink-at-mediamath-rescaling-stateful-applications"
+        },
+        {
+            "title": "Apache Flink\u00ae\u00a01.3.0 and the Evolution of Stream Processing with Flink",
+            "date": "2017-06-01",
+            "abstract": "\nIt\u2019s official: on June 1, the Apache Flink\u00ae community announced the release of Flink\u00ae 1.3.0. The announcement on the project site and the changelog provide detail on what\u2019s included in the...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/apache-flink-1-3-0-evolution-stream-processing"
+        },
+        {
+            "title": "A Year of Blink at Alibaba: Apache Flink\u00ae in Large Scale Production",
+            "date": "2017-05-30",
+            "abstract": "\nEarlier this month, Dataversity published a follow-up post from Xiaowei\u00a0Jiang, a Senior Director on Alibaba's search infrastructure team, where he gave an update on his team's progress both with...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/year-blink-flink-alibaba-update"
+        },
+        {
+            "title": "Introducing Official Docker Images for Apache Flink\u00ae",
+            "date": "2017-05-16",
+            "abstract": "\nPatrick Lucas\u00a0is a Senior Data Engineer at data Artisans, and Isma\u00ebl Mej\u00eda (@iemejia)\u00a0is a software engineer at Talend. The\u00a0post originally appeared on the Apache Flink blog. It was reproduced...\n",
+            "author": "by Patrick Lucas",
+            "link": "https://www.ververica.com/blog/official-docker-images-apache-flink"
+        },
+        {
+            "title": "Continuous Queries on Dynamic Tables: Analyzing Data Streams with Streaming SQL",
+            "date": "2017-04-11",
+            "abstract": "\nXiaowei Jiang is a Senior Director in Alibaba\u2019s Search Infrastructure\u00a0division, and Shaoxuan Wang\u00a0is\u00a0a Senior Manager in Alibaba's Search Infrastructure division.\u00a0Fabian Hueske\u00a0(@fhueske) is a...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/continuous-queries-on-dynamic-tables-analyzing-data-streams-with-sql"
+        },
+        {
+            "title": "From Streams to Tables and Back Again: An Update on Apache Flink's Table & Streaming SQL API",
+            "date": "2017-04-03",
+            "abstract": "\nTimo Walther (@twalthr) is a software engineer at data Artisans and an Apache Flink\u00ae committer and PMC member.\u00a0This post originally appeared on the Apache Flink blog. It was reproduced here under...\n",
+            "author": "by Timo Walther",
+            "link": "https://www.ververica.com/blog/flink-table-sql-api-update"
+        },
+        {
+            "title": "Queryable State or How to Build a Billing System Without a Database",
+            "date": "2017-03-24",
+            "abstract": "\nKonstantin Knauf and Maximilian Bode of Munich-based TNG Technology Consulting\u00a0are no strangers to stateful stream processing. They've been working closely with Apache Flink\u00ae for well over a year...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/flink-forward-sf-preview-queryable-state-tng"
+        },
+        {
+            "title": "Queryable State in Apache Flink\u00ae 1.2.0: An Overview & Demo",
+            "date": "2017-03-24",
+            "abstract": "\nUfuk Celebi (@iamuce) is a co-founder and software engineer at data Artisans.\u00a0 2016 was the year that stateful, event-time, and event-at-a-time stream processing arrived as the paradigm for...\n",
+            "author": "by Ufuk Celebi",
+            "link": "https://www.ververica.com/blog/queryable-state-use-case-demo"
+        },
+        {
+            "title": "Drivetribe's Modern Take On CQRS With Apache Flink\u00ae",
+            "date": "2017-03-09",
+            "abstract": "\nThis is a guest post from Aris Koliopoulos, a senior software engineer at London-based Drivetribe. Drivetribe is the world\u2019s digital hub for motoring. The platform was created by former Top Gear...\n",
+            "author": "by Aris Koliopoulos",
+            "link": "https://www.ververica.com/blog/drivetribe-cqrs-apache-flink"
+        },
+        {
+            "title": "Flink Forward San Francisco Preview: Real-time Anomaly Detection with Mux",
+            "date": "2017-03-02",
+            "abstract": "\nLast month, software engineer Scott Kidder (@hexdumpster) of Mux published a popular post on his\u00a0company's blog titled \"Discovering Anomalies in Real-Time with Apache Flink\".\u00a0The post...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/flink-forward-sf-preview-anomaly-detection-mux"
+        },
+        {
+            "title": "Running Apache Flink\u00ae Everywhere: Flink on DC/OS and Apache Mesos",
+            "date": "2017-02-28",
+            "abstract": "\nTill Rohrmann (@stsffap) is an Engineering Lead at Ververica. This post also appeared on the DC/OS blog. Thanks to J\u00f6rg Schad, Judith Malnick, and Ravi Yadav from Mesosphere for\u00a0their help with...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/apache-flink-on-dcos-and-apache-mesos"
+        },
+        {
+            "title": "Apache Flink\u00ae Community Announces 1.2.0 Release",
+            "date": "2017-02-06",
+            "abstract": "\nOn Monday, February 6, the Apache Flink\u00ae community announced the project's 1.2.0 release.\u00a0We at data Artisans would like to extend a sincere thanks to the 122 members of the Flink community who...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/apache-flink-1-2-0"
+        },
+        {
+            "title": "Stream Processing Myths Debunked",
+            "date": "2016-11-23",
+            "abstract": "\nBy @kostas_tzoumas\u00a0and @wints Needless to say, we here at data Artisans spend a lot of time thinking about stream processing. Even cooler: we spend a lot of time helping others think about stream...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/stream-processing-myths-debunked"
+        },
+        {
+            "title": "Savepoints, Part 2: Streaming Applications in the Pit Lane",
+            "date": "2016-11-16",
+            "abstract": "\nBy Fabian Hueske (@fhueske) and Mike Winters (@wints) Last month, we gave a high-level overview of Apache Flink\u00ae savepoints and touched on why and how you\u2019d reprocess data in a streaming...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/savepoints-part-2-updating-applications"
+        },
+        {
+            "title": "Blink: How Alibaba Uses Apache Flink\u00ae",
+            "date": "2016-10-18",
+            "abstract": "\nThis is a guest post from Xiaowei Jiang, Senior Director of Alibaba\u2019s search infrastructure team. The post is adapted from Alibaba\u2019s presentation at Flink Forward 2016, and you can see the...\n",
+            "author": "by Xiaowei Jiang",
+            "link": "https://www.ververica.com/blog/blink-flink-alibaba-search"
+        },
+        {
+            "title": "Savepoints: Turning Back Time",
+            "date": "2016-10-14",
+            "abstract": "\nThis post is the first in a series where the data Artisans team will highlight some of Apache Flink\u2019s\u00ae core features. By Fabian Hueske (@fhueske) and Mike Winters (@wints) Stream processing is...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/turning-back-time-savepoints"
+        },
+        {
+            "title": "Apache Flink and Apache Kafka Streams",
+            "date": "2016-08-31",
+            "abstract": "\nThis blog post is written jointly by Stephan Ewen, CTO of data Artisans, and Neha Narkhede, CTO of Confluent. You can also find this post at the Confluent blog. The open source stream processing...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/apache-flink-apache-kafka-streams"
+        },
+        {
+            "title": "Robust Stream Processing with Apache Flink\u00ae: A Simple Walkthrough",
+            "date": "2016-08-18",
+            "abstract": "\nJamie Grier, Director of Applications Engineering at data Artisans, gave an in-depth Apache Flink\u00ae demonstration at OSCON 2016 in Austin, TX. A recording is available on YouTube if you'd like to...\n",
+            "author": "by Michael Winters",
+            "link": "https://www.ververica.com/blog/robust-stream-processing-flink-walkthrough"
+        },
+        {
+            "title": "RBEA: Scalable Real-Time Analytics at King",
+            "date": "2016-05-04",
+            "abstract": "\nThis is a guest blog post written by Gyula F\u00f3ra and Mattias Andersson from King.com. The original post can be found on the King Tech Blog. This blogpost introduces RBEA (Rule-Based Event...\n",
+            "author": "by Ufuk Celebi",
+            "link": "https://www.ververica.com/blog/rbea-scalable-real-time-analytics-at-king"
+        },
+        {
+            "title": "Why Apache Beam?",
+            "date": "2016-05-03",
+            "abstract": "\nIn this post, we would like to shed some light upon Apache Beam, the new Apache Incubator project that Google initiated with us and other partners. We would like to highlight our involvement in Beam...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/why-apache-beam"
+        },
+        {
+            "title": "How Apache Flink\u2122 Enables New Streaming Applications, Part 3",
+            "date": "2016-04-27",
+            "abstract": "\nThis blog post is the third part of our series on how Apache Flink\u2122 enables new stream processing\u00a0applications. The first post introduced event time and out of order processing, the\u00a0second post...\n",
+            "author": "by Aljoscha Krettek",
+            "link": "https://www.ververica.com/blog/session-windowing-in-flink"
+        },
+        {
+            "title": "Counting in streams: A hierarchy of needs",
+            "date": "2016-04-12",
+            "abstract": "\nThis post is based on the talk I gave at the Strata/Hadoop World conference in San Jose, March 31 2016. You can find the slide set here, and you can also read this article at the MapR blog.\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/counting-in-streams-a-hierarchy-of-needs"
+        },
+        {
+            "title": "How Apache Flink\u2122 Enables New Streaming Applications, Part 2",
+            "date": "2016-02-03",
+            "abstract": "\nThis is the second blog post in our series on how Flink enables new streaming applications. Part 1\u00a0introduced event time and out of order processing. This post is about versioning application...\n",
+            "author": "by Ufuk Celebi",
+            "link": "https://www.ververica.com/blog/how-apache-flink-enables-new-streaming-applications"
+        },
+        {
+            "title": "Extending the Yahoo! Streaming Benchmark",
+            "date": "2016-02-02",
+            "abstract": "\nUpdate December 18, 2017:\u00a0Nearly 2 years after this initial post, we discussed the Yahoo streaming benchmark in another blog post where we cover some of the issues we see with modern benchmarking...\n",
+            "author": "by Jamie Grier",
+            "link": "https://www.ververica.com/blog/extending-the-yahoo-streaming-benchmark"
+        },
+        {
+            "title": "Dataflow proposed as Apache Incubator project",
+            "date": "2016-01-20",
+            "abstract": "\nToday, we are delighted to see Dataflow publicly proposed as an Apache Incubator project with an initial project team from Google, data Artisans, Cloudera, and others. data Artisans is the second...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/dataflow-proposed-as-apache-incubator-project"
+        },
+        {
+            "title": "How Apache Flink\u2122 Enables New Streaming Applications, Part 1",
+            "date": "2015-12-09",
+            "abstract": "\n(For the rest of this series, see part 2 here\u00a0and part 3 here) Stream data processing is booming in popularity, as it promises better insights from fresher data, as well as a radically simplified...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/how-apache-flink-enables-new-streaming-applications-part-1"
+        },
+        {
+            "title": "Flink 0.10: A significant step forward in open source stream processing",
+            "date": "2015-11-17",
+            "abstract": "\nWe are delighted to see that the Apache Flink\u2122 community has announced the availability of Apache Flink\u2122 0.10. The 0.10 release is one of the largest Flink releases ever, with about 80 individuals...\n",
+            "author": "by Fabian Hueske",
+            "link": "https://www.ververica.com/blog/flink-0-10-a-significant-step-forward-in-open-source-stream-processing"
+        },
+        {
+            "title": "How we selected Flink as our Stream Processing Framework at Otto Group",
+            "date": "2015-10-06",
+            "abstract": "\nThis is a guest post written by Christian Kreutzfeldt (@mnxfst) and Alexander Kolb (@lofifnc) from the Otto Group Business Intelligence Department. \u00a0\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/how-we-selected-apache-flink-at-otto-group"
+        },
+        {
+            "title": "Announcing Cascading on Apache Flink\u2122",
+            "date": "2015-09-21",
+            "abstract": "\nSee also the related announcement at the Cascading blog.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 Today we are thrilled to announce the first availability of Cascading on Flink, a result of a community-driven effort...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/announcing-cascading-on-flink"
+        },
+        {
+            "title": "Batch is a special case of streaming",
+            "date": "2015-09-15",
+            "abstract": "\nInterested in stream processing? Sign up for Flink Forward 2015, the first conference on Apache Flink\u2122. In recent blog posts, we introduced what we deem as requirements for systems to classify as...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/batch-is-a-special-case-of-streaming"
+        },
+        {
+            "title": "Kafka + Flink: A Practical, How-To Guide",
+            "date": "2015-09-02",
+            "abstract": "\nA very common use case for Apache Flink\u2122 is stream data movement and analytics. More often than not, the data streams are ingested from Apache Kafka, a system that provides durability and pub/sub...\n",
+            "author": "by Robert Metzger",
+            "link": "https://www.ververica.com/blog/kafka-flink-a-practical-how-to"
+        },
+        {
+            "title": "How Apache Flink\u2122 handles backpressure",
+            "date": "2015-08-31",
+            "abstract": "\nPeople often ask us how Flink deals with backpressure effects. The answer is simple: Flink does not use any sophisticated mechanism, because it does not need one. It gracefully responds to...\n",
+            "author": "by Ufuk Celebi",
+            "link": "https://www.ververica.com/blog/how-flink-handles-backpressure"
+        },
+        {
+            "title": "High-throughput, low-latency, and exactly-once stream processing with Apache Flink\u2122",
+            "date": "2015-08-05",
+            "abstract": "\nThe popularity of stream data platforms is skyrocketing. Several companies are transitioning parts of their data infrastructure to a streaming paradigm as a solution to increasing demands for...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/high-throughput-low-latency-and-exactly-once-stream-processing-with-apache-flink"
+        },
+        {
+            "title": "Stream processing at Bouygues Telecom with Apache Flink\u2122",
+            "date": "2015-06-01",
+            "abstract": "\nThis is a guest post written by Mohamed Amine Abdessemed from Bouygues Telecom About Bouygues Telecom Bouygues Telecom is a full-service communication operator (mobile, fixed telephony, TV,...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/flink-at-bouygues-html"
+        },
+        {
+            "title": "Real-time stream processing: The next step for Apache Flink\u2122",
+            "date": "2015-05-06",
+            "abstract": "\nThis post also appears as a guest post at the Confluent blog. Stream processing is becoming very popular with open source projects like\u00a0Apache Kafka, Apache Samza, Apache Storm, Apache Spark\u2019s...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/real-time-stream-processing-the-next-step-for-apache-flink"
+        },
+        {
+            "title": "Announcing Google Cloud Dataflow on Flink and easy Flink deployment on Google Cloud",
+            "date": "2015-04-05",
+            "abstract": "\nToday, we are pleased to announce a deeper engagement between Google, data Artisans, and the broader Apache Flink\u2122 community to bring easy Flink deployment to Google Cloud Platform, and enable Google...\n",
+            "author": "by Maximilian Michels",
+            "link": "https://www.ververica.com/blog/announcing-google-cloud-dataflow-on-flink-and-easy-flink-deployment-on-google-cloud"
+        },
+        {
+            "title": "How to factorize a 700 GB matrix with Apache Flink\u2122",
+            "date": "2015-03-30",
+            "abstract": "\nThis article is a follow-up post to the earlier published article about Computing recommendations at extreme scale with Apache Flink. We discuss how we implemented the alternating least squares...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/how-to-factorize-a-700-gb-matrix-with-apache-flink"
+        },
+        {
+            "title": "Computing Recommendations at Extreme Scale with Apache Flink\u2122",
+            "date": "2015-03-18",
+            "abstract": "\nNote: This article is a summary of the more detailed article How to factorize a 700 GB matrix with Apache Flink\u2122. Recommender Systems and Matrix Factorization Recommender Systems are a very...\n",
+            "author": "by Till Rohrmann",
+            "link": "https://www.ververica.com/blog/computing-recommendations-at-extreme-scale-with-apache-flink"
+        },
+        {
+            "title": "Data Analysis with Flink: A case study and tutorial",
+            "date": "2014-11-29",
+            "abstract": "\nThis article is a step-by-step guide to implement a fairly sophisticated data analysis algorithm, end-to-end in Apache Flink. We will use the PageRankalgorithm, an algorithm used for ranking...\n",
+            "author": "by Stephan Ewen",
+            "link": "https://www.ververica.com/blog/data-analysis-with-flink-a-case-study-and-tutorial"
+        },
+        {
+            "title": "Apache Flink: new kid on the block",
+            "date": "2014-10-29",
+            "abstract": "\nApache Flink\u00a0(incubating) is a new project undergoing incubation in the Apache Software Foundation. Flink is a new approach to distributed data processing for the Hadoop ecosystem. We believe that...\n",
+            "author": "by Kostas Tzoumas",
+            "link": "https://www.ververica.com/blog/apache-flink-new-kid-on-the-block"
+        }
+    ]
+}
