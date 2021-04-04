@@ -1,0 +1,36 @@
+name: Automated WebScraping of Data
+
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: "23 8 * * *" # runs every night 
+
+jobs:
+  scrape-latest:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install dependencies & execute script
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install bs4
+          python -m pip install lxml
+          python -m pip install requests
+          python instagram.py
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
