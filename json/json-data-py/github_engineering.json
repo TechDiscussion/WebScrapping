@@ -1,0 +1,1838 @@
+{
+  "Github_Engineering": [
+    {
+      "title": "GitHub Availability Report: March 2021",
+      "date": "2021-04-07",
+      "abstract": "In March, we experienced three incidents resulting in significant impact and degraded state of availability for issues, pull requests, webhooks, API requests, GitHub Pages, and GitHub Actions services. Follow up to March 1 09:59 UTC",
+      "link": "https://github.blog/2021-04-07-github-availability-report-march-2021/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Behind GitHub's new authentication token formats",
+      "date": "2021-04-05",
+      "abstract": "We're excited to share a deep dive into how our new authentication token formats are built and how these improvements are keeping your tokens more secure. As we continue to focus on the security of",
+      "link": "https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/",
+      "author": "Heather Harvey"
+    },
+    {
+      "title": "How we scaled the GitHub API with a sharded, replicated rate limiter in Redis",
+      "date": "2021-04-05",
+      "abstract": "About a year ago, we migrated an old rate limiter in order to serve more traffic and accommodate a more resilient platform architecture. We adopted a replicated Redis backend with client-side sharding. In the end,",
+      "link": "https://github.blog/2021-04-05-how-we-scaled-github-api-sharded-replicated-rate-limiter-redis/",
+      "author": "Robert Mosolgo"
+    },
+    {
+      "title": "GitHub Desktop now supports cherry-picking",
+      "date": "2021-03-30",
+      "abstract": "GitHub Desktop aims to provide an intuitive way for users to complete everyday Git and GitHub workflows. One of our most requested features from the past year is cherry-picking, and we're excited to release it",
+      "link": "https://github.blog/2021-03-30-github-desktop-now-supports-cherry-picking/",
+      "author": "Rebecca Hovemeyer"
+    },
+    {
+      "title": "How GitHub Actions renders large-scale logs",
+      "date": "2021-03-25",
+      "abstract": "Rendering logs in a web UI might seem simple: they are just lines of plain text. However, there are a lot of additional features that make them more useful to our users: coloring, grouping, search,",
+      "link": "https://github.blog/2021-03-25-how-github-actions-renders-large-scale-logs/",
+      "author": "Alberto Gimeno"
+    },
+    {
+      "title": "How we found and fixed a rare race condition in our session handling",
+      "date": "2021-03-18",
+      "abstract": "On March 8, we shared that, out of an abundance of caution, we logged all users out of GitHub.com due to a rare security vulnerability. We believe that transparency is key in earning and keeping",
+      "link": "https://github.blog/2021-03-18-how-we-found-and-fixed-a-rare-race-condition-in-our-session-handling/",
+      "author": "Dirkjan Bussink"
+    },
+    {
+      "title": "Improving large monorepo performance on GitHub",
+      "date": "2021-03-16",
+      "abstract": "Every day, GitHub serves the needs of over 56M developers, working on over 200M code repositories. All but a tiny fraction of those repositories are served with amazing performance, for customers from around the world.",
+      "link": "https://github.blog/2021-03-16-improving-large-monorepo-performance-on-github/",
+      "author": "Scott Arbeit"
+    },
+    {
+      "title": "Highlights from Git 2.31",
+      "date": "2021-03-15",
+      "abstract": "The open source Git project just released Git 2.31 with features and bug fixes from 85 contributors, 23 of them new. Last time we caught up with you, Git 2.29 had just been released. Two",
+      "link": "https://github.blog/2021-03-15-highlights-from-git-2-31/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "GitHub Availability Report: February 2021",
+      "date": "2021-03-03",
+      "abstract": "Introduction In February, we experienced no incidents resulting in service downtime to our core services. This month's GitHub Availability Report will provide initial details around an incident from March 1 that caused significant impact and",
+      "link": "https://github.blog/2021-03-03-github-availability-report-february-2021/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "New global ID format coming to GraphQL",
+      "date": "2021-02-10",
+      "abstract": "The GitHub GraphQL API has been publicly available for over 4 years now. Its usage has grown immensely over time, and we've learned a lot from running one of the largest public GraphQL APIs in",
+      "link": "https://github.blog/2021-02-10-new-global-id-format-coming-to-graphql/",
+      "author": "Wissam Abirached"
+    },
+    {
+      "title": "GitHub reduces Marketplace transaction fees, revamps Technology Partner Program",
+      "date": "2021-02-04",
+      "abstract": "At GitHub, our community is at the heart of everything we do. We want to make it easier to build the things you love, with the tools you prefer to use\u2014which is why we're committed",
+      "link": "https://github.blog/2021-02-04-github-reduces-marketplace-transaction-fees-revamps-technology-partner-program/",
+      "author": "Ryan J. Salva"
+    },
+    {
+      "title": "Deployment reliability at GitHub",
+      "date": "2021-02-03",
+      "abstract": "Last week, we described how we improved the deployment experience for github.com. When we describe deployments at GitHub, the deployment experience is an important part of what it takes to ship applications to production, especially at GitHub's scale, but there is more to it: the actual deployment mechanics need to be fast and reliable.",
+      "link": "https://github.blog/2021-02-03-deployment-reliability-at-github/",
+      "author": "Raffaele Di Fazio"
+    },
+    {
+      "title": "GitHub Availability Report: January 2021",
+      "date": "2021-02-02",
+      "abstract": "Introduction In January, we experienced one incident resulting in significant impact and degraded state of availability for the GitHub Actions service. January 28 04:21 UTC (lasting 3 hours 53 minutes) Our service monitors detected abnormal",
+      "link": "https://github.blog/2021-02-02-github-availability-report-january-2021/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Making GitHub's new homepage fast and performant",
+      "date": "2021-01-29",
+      "abstract": "This post is the third installment of our five-part series on building GitHub's new homepage: How our globe is built How we collect and use the data behind the globe How we made the page",
+      "link": "https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/",
+      "author": "Tobias Ahlin"
+    },
+    {
+      "title": "Improving how we deploy GitHub",
+      "date": "2021-01-25",
+      "abstract": "As GitHub doubled it's developer head count, tooling that worked for us no longer functioned in the same capacity. We aimed to improve the deployment process for all developers at GitHub and mitigate risk associated with deploying one of the largest developer platforms in the world.",
+      "link": "https://github.blog/2021-01-25-improving-how-we-deploy-github/",
+      "author": "Julian Nadeau"
+    },
+    {
+      "title": "The best of Changelog \u2022 2020 Edition",
+      "date": "2021-01-21",
+      "abstract": "If you haven't seen it, the GitHub Changelog helps you keep up-to-date with all the latest features and updates to GitHub. We shipped a tonne of changes last year, and it's impossible to blog about",
+      "link": "https://github.blog/2021-01-21-changelog-2020-edition/",
+      "author": "Michelle Mannering"
+    },
+    {
+      "title": "GitHub Availability Report: December 2020",
+      "date": "2021-01-06",
+      "abstract": "In December, we experienced no incidents resulting in service downtime. This month's GitHub Availability Report will provide a summary and follow-up details on how we addressed an incident mentioned in November's report.",
+      "link": "https://github.blog/2021-01-06-github-availability-report-december-2020/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Building On-Call Culture at GitHub",
+      "date": "2021-01-06",
+      "abstract": "GitHub's engineering group moved from a monolithic, hero-based on-call rotation to a more balanced on-call culture in order to increase our on-call expertise and improve the experience for our customers.",
+      "link": "https://github.blog/2021-01-06-building-on-call-culture-at-github/",
+      "author": "Mary Moore-Simmons"
+    },
+    {
+      "title": "Git clone: a data-driven study on cloning behaviors",
+      "date": "2020-12-22",
+      "abstract": "@derrickstolee\u00a0recently\u00a0discussed several different\u00a0git clone\u00a0options, but how do those options actually affect your Git performance? Which option is fastest for your client experience? Which option is fastest for your build machines? How can these options impact",
+      "link": "https://github.blog/2020-12-22-git-clone-a-data-driven-study-on-cloning-behaviors/",
+      "author": "Solmaz Abbaspoursani"
+    },
+    {
+      "title": "Get up to speed with partial clone and shallow clone",
+      "date": "2020-12-21",
+      "abstract": "As your Git repositories grow, it becomes harder and harder for new developers to clone and start working on them. Git is designed as a\u00a0distributed\u00a0version control system. This means that you can work on your",
+      "link": "https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/",
+      "author": "Derrick Stolee"
+    },
+    {
+      "title": "Visualizing GitHub's global community",
+      "date": "2020-12-21",
+      "abstract": "This is the second post in a series about how we built our new homepage. How our globe is built How we collect and use the data behind the globe How we made the page",
+      "link": "https://github.blog/2020-12-21-visualizing-githubs-global-community/",
+      "author": "Tal Safran"
+    },
+    {
+      "title": "How we built the GitHub globe",
+      "date": "2020-12-21",
+      "abstract": "GitHub is where the world builds software. More than 56 million developers around the world build and work together on GitHub. With our new homepage, we wanted to show how open source development transcends the",
+      "link": "https://github.blog/2020-12-21-how-we-built-the-github-globe/",
+      "author": "Tobias Ahlin"
+    },
+    {
+      "title": "Commits are snapshots, not diffs",
+      "date": "2020-12-17",
+      "abstract": "Git\u00a0has a reputation\u00a0for\u00a0being confusing. Users stumble over terminology and phrasing that misguides their expectations. This is most apparent in commands that \u201crewrite history\u201d such as\u00a0git cherry-pick\u00a0or\u00a0git rebase. In my experience, the root cause of this",
+      "link": "https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/",
+      "author": "Derrick Stolee"
+    },
+    {
+      "title": "Reducing flaky builds by 18x",
+      "date": "2020-12-16",
+      "abstract": "Part of the\u00a0Building GitHub blog series. It's four o'clock in the afternoon as you push the last tweak to your branch. Your teammate already reviewed and approved your pull request and now all that's left",
+      "link": "https://github.blog/2020-12-16-reducing-flaky-builds-by-18x/",
+      "author": "Jordan Raine"
+    },
+    {
+      "title": "Encapsulating Ruby on Rails views",
+      "date": "2020-12-15",
+      "abstract": "Learn more about how we are bringing encapsulation to our views as we scale to over 4,500 templates in our Ruby on Rails monolith.",
+      "link": "https://github.blog/2020-12-15-encapsulating-ruby-on-rails-views/",
+      "author": "Joel Hawksley"
+    },
+    {
+      "title": "The evolving role of operations in DevOps",
+      "date": "2020-12-03",
+      "abstract": "GitHub's team delves into answering the question \u201cwhat are operations roles in the development and operations (DevOps) environments\u201d. From automating the role of QA in DevOps and more for smaller, faster delivery cycles.",
+      "link": "https://github.blog/2020-12-03-the-evolving-role-of-operations-in-devops/",
+      "author": "Jared Murrell"
+    },
+    {
+      "title": "Improving the GHES release process: release candidates",
+      "date": "2020-12-03",
+      "abstract": "In our ongoing \u201cBuilding GitHub\u201d series, we talk about some of the projects we're working on to improve how efficiently we build GitHub, as well as increase GitHub's availability, stability, and resilience. We know how",
+      "link": "https://github.blog/2020-12-03-improving-the-ghes-release-process-release-candidates/",
+      "author": "Maya Ross"
+    },
+    {
+      "title": "GitHub Availability Report: November 2020",
+      "date": "2020-12-02",
+      "abstract": "Introduction In November, we experienced two incidents resulting in significant impact and degraded state of availability for issues, pull requests, and GitHub Actions services. November 2 12:00 UTC (lasting 32 minutes) The SSL certificate for",
+      "link": "https://github.blog/2020-12-02-availability-report-november-2020/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Nbdev: A literate programming environment that democratizes software engineering best practices",
+      "date": "2020-11-20",
+      "abstract": "Learn about nbdev, a new literate programming environment for Python.",
+      "link": "https://github.blog/2020-11-20-nbdev-a-literate-programming-environment-that-democratizes-software-engineering-best-practices/",
+      "author": "Hamel Husain"
+    },
+    {
+      "title": "Getting started with DevOps automation",
+      "date": "2020-10-29",
+      "abstract": "This is the second post in our series on DevOps fundamentals. For a guide to what DevOps is and answers to common DevOps myths check out part one. What role does automation play in DevOps?",
+      "link": "https://github.blog/2020-10-29-getting-started-with-devops-automation/",
+      "author": "Jared Murrell"
+    },
+    {
+      "title": "Making GitHub CI workflow 3x faster",
+      "date": "2020-10-29",
+      "abstract": "Using deferred compliance in GitHub's CI process to improve developer productivity.",
+      "link": "https://github.blog/2020-10-29-making-github-ci-workflow-3x-faster/",
+      "author": "Keerthana Kumar"
+    },
+    {
+      "title": "Building GitHub: introduction",
+      "date": "2020-10-29",
+      "abstract": "An introduction to our blog series on GitHub's investments in technical excellence.",
+      "link": "https://github.blog/2020-10-29-building-github-introduction/",
+      "author": "Kate Studwell"
+    },
+    {
+      "title": "Highlights from Git 2.29",
+      "date": "2020-10-19",
+      "abstract": "The open source Git project\u00a0just released Git 2.29\u00a0with features and bug fixes from over 89 contributors, 24 of them new. Last time\u00a0we caught up\u00a0with you, Git 2.28 had just been released. One version later, let's",
+      "link": "https://github.blog/2020-10-19-git-2-29-released/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "How to get your organization started with containerized deployments",
+      "date": "2020-10-15",
+      "abstract": "This is our second post on cloud deployment with containers. Looking for more? Join our upcoming GitHub Actions webcast with Sarah, Solutions Engineer Pavan Ravipati, and Senior Product Manager Kayla Ngan on October 22. In",
+      "link": "https://github.blog/2020-10-15-how-to-get-your-organization-started-with-containerized-deployments/",
+      "author": "Sarah Khalife"
+    },
+    {
+      "title": "Testing cloud apps with GitHub Actions and cloud-native open source tools",
+      "date": "2020-10-09",
+      "abstract": "See this post in action during GitHub Demo Days on October 16. What makes a project successful? For developers building cloud-native applications, successful projects thrive on transparent, consistent, and rigorous collaboration. That collaboration is one",
+      "link": "https://github.blog/2020-10-09-devops-cloud-testing/",
+      "author": "Sarah Khalife"
+    },
+    {
+      "title": "GitHub Availability Report: August 2020",
+      "date": "2020-09-02",
+      "abstract": "Introduction In August, we experienced no incidents resulting in service downtime. This month's GitHub Availability Report will dive into updates to the GitHub Status Page and provide follow-up details on how we've addressed the incident",
+      "link": "https://github.blog/2020-09-02-github-availability-report-august-2020/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Upgrading GitHub to Ruby 2.7",
+      "date": "2020-08-25",
+      "abstract": "GitHub recently upgraded to Ruby 2.7. Learn how the team approached the deprecation warnings, why upgrading is important, and the notable performance improvements.",
+      "link": "https://github.blog/2020-08-25-upgrading-github-to-ruby-2-7/",
+      "author": "Eileen M. Uchitelle"
+    },
+    {
+      "title": "Introducing the Rally + GitHub integration",
+      "date": "2020-08-18",
+      "abstract": "GitHub's Professional Services Engineering team has decided to open source another project:\u00a0Rally + GitHub. You may have seen our most recent open source project,\u00a0Super Linter. Well, the team has done it again, this time to",
+      "link": "https://github.blog/2020-08-18-introducing-the-rally-github-integration/",
+      "author": "Jared Murrell"
+    },
+    {
+      "title": "Why Write ADRs",
+      "date": "2020-08-13",
+      "abstract": "How architecture decision records can help your team.",
+      "link": "https://github.blog/2020-08-13-why-write-adrs/",
+      "author": "Eli Perkins"
+    },
+    {
+      "title": "GitHub Availability Report: July 2020",
+      "date": "2020-08-05",
+      "abstract": "Last month we introduced GitHub's monthly availability report to address service disruptions and share our learnings with the community.",
+      "link": "https://github.blog/2020-08-05-github-availability-report-july-2020/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "CodeGen: Semantic's improved language support system",
+      "date": "2020-08-04",
+      "abstract": "The Semantic Code team shipped a massive improvement to the language support system that powers code navigation. Code navigation features only scratch the surface of possibilities that start to open up when we combine Semantic\u2018s program analysis potential with GitHub's scale.",
+      "link": "https://github.blog/2020-08-04-codegen-semantics-improved-language-support-system/",
+      "author": "Ayman Nadeem"
+    },
+    {
+      "title": "Highlights from Git 2.28",
+      "date": "2020-07-27",
+      "abstract": "The open source Git project just released Git 2.28 with features and bug fixes from over 58 contributors, 13 of them new. We last caught up with you on the latest in Git back when",
+      "link": "https://github.blog/2020-07-27-highlights-from-git-2-28/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "Introducing GitHub's OpenAPI Description",
+      "date": "2020-07-27",
+      "abstract": "The GitHub REST API has been through three major revisions since it was first released, only a month after the site was launched. We often receive feedback that our REST API is an inspiration to",
+      "link": "https://github.blog/2020-07-27-introducing-githubs-openapi-description/",
+      "author": "Marc-Andre Giroux"
+    },
+    {
+      "title": "Introducing the GitHub Availability Report",
+      "date": "2020-07-08",
+      "abstract": "What is the Availability Report? Historically, GitHub has published post-incident reviews for major incidents that impact service availability. Whether we're sharing new investments to infrastructure or detailing site downtimes, our belief is that we can",
+      "link": "https://github.blog/2020-07-08-introducing-the-github-availability-report/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "How we launched docs.github.com",
+      "date": "2020-07-02",
+      "abstract": "ICYMI: docs.github.com is the new place to discover all of GitHub's product documentation! We recently completed a major overhaul of GitHub's documentation websites. When you visit docs.github.com today, you'll see content from the former help.github.com",
+      "link": "https://github.blog/2020-07-02-how-we-launched-docs-github-com/",
+      "author": "Sarah Schneider"
+    },
+    {
+      "title": "Introducing GitHub Super Linter: one linter to rule them all",
+      "date": "2020-06-18",
+      "abstract": "Setting up a new repository with all the right linters for the different types of code can be time consuming and tedious. So many tools and configurations to choose from and often more than one",
+      "link": "https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/",
+      "author": "Lucas Gravley"
+    },
+    {
+      "title": "Using GitHub Actions for MLOps & Data Science",
+      "date": "2020-06-17",
+      "abstract": "Background Machine Learning Operations (or MLOps) enables Data Scientists to work in a more collaborative fashion, by providing testing, lineage, versioning, and historical information in an automated way.\u00a0 Because the landscape of MLOps is nascent,",
+      "link": "https://github.blog/2020-06-17-using-github-actions-for-mlops-data-science/",
+      "author": "Hamel Husain"
+    },
+    {
+      "title": "April service disruptions analysis",
+      "date": "2020-05-22",
+      "abstract": "We had multiple service interruptions in April that may have impacted your projects and businesses. We know how important reliability is for our users and have detailed an analysis on the disruptions.",
+      "link": "https://github.blog/2020-05-22-april-service-disruptions-analysis/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Three bugs in the Go MySQL Driver",
+      "date": "2020-05-20",
+      "abstract": "Check out what we learned from shipping our busiest Go service in production\u2014we found 3 bugs in the Go MySQL driver.",
+      "link": "https://github.blog/2020-05-20-three-bugs-in-the-go-mysql-driver/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "Sawfish phishing campaign targets GitHub users",
+      "date": "2020-04-14",
+      "abstract": "A phishing campaign targeting our customers lures GitHub users into providing their credentials (including two-factor authentication codes). Learn more about the threat and what you can do to protect yourself.",
+      "link": "https://github.blog/2020-04-14-sawfish-phishing-campaign-targets-github-users/",
+      "author": "GitHub SIRT"
+    },
+    {
+      "title": "From 48k lines of code to 10\u2014the story of GitHub's JavaScript SDK",
+      "date": "2020-04-09",
+      "abstract": "Learn about the legacy, architecture, and methods used to reduce 48k lines of code to 10 as we take a deep dive into GitHub's Javascript SDK.",
+      "link": "https://github.blog/2020-04-09-from-48k-lines-of-code-to-10-the-story-of-githubs-javascript-sdk/",
+      "author": "Gregor Martynus"
+    },
+    {
+      "title": "February service disruptions post-incident analysis",
+      "date": "2020-03-26",
+      "abstract": "In-depth analysis of February service disruptions that impacted GitHub services.",
+      "link": "https://github.blog/2020-03-26-february-service-disruptions-post-incident-analysis/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Six years of the GitHub Security Bug Bounty program",
+      "date": "2020-03-25",
+      "abstract": "Learn more about the Bug Bounty program, including a recap of 2019's bugs, our expanded scope, new features, and more.",
+      "link": "https://github.blog/2020-03-25-six-years-of-the-github-security-bug-bounty-program/",
+      "author": "Brian Anglin"
+    },
+    {
+      "title": "CERT partners with GitHub Security Lab for automated remediation",
+      "date": "2020-03-18",
+      "abstract": "Learn more about how we found ways to scale our vulnerability hunting efforts and empower others to do the same. In this post, we'll take a deep-dive in the remediation of a security vulnerability with CERT.",
+      "link": "https://github.blog/2020-03-18-cert-partners-with-github-security-lab-for-automated-remediation/",
+      "author": "Nico Waisman"
+    },
+    {
+      "title": "February service disruptions",
+      "date": "2020-02-28",
+      "abstract": "Recently, we've had multiple service interruptions on GitHub.com. We know how important reliability of our service is for your projects and teams. We take this responsibility very seriously and apologize for these disruptions. These incidents",
+      "link": "https://github.blog/2020-02-28-february-service-disruptions/",
+      "author": "Keith Ballinger"
+    },
+    {
+      "title": "Automating MySQL schema migrations with GitHub Actions and more",
+      "date": "2020-02-14",
+      "abstract": "In this deep dive, we cover how our daily schema migrations amounted to a significant toil on the database infrastructure team, and how we searched for a solution to automate the manual parts of the process.",
+      "link": "https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/",
+      "author": "Shlomi Noach"
+    },
+    {
+      "title": "Supercharge your command line experience: GitHub CLI is now in beta",
+      "date": "2020-02-12",
+      "abstract": "We want your feedback about GitHub's new command line tool that makes it easier to work with GitHub and reduce friction for many of your common workflows.",
+      "link": "https://github.blog/2020-02-12-supercharge-your-command-line-experience-github-cli-is-now-in-beta/",
+      "author": "Billy Griffin"
+    },
+    {
+      "title": "How we built the good first issues feature",
+      "date": "2020-01-22",
+      "abstract": "We've recently launched good first issues recommendations to help new contributors find easy gateways into open source projects. Read about the machine learning engine behind these recommendations.",
+      "link": "https://github.blog/2020-01-22-how-we-built-good-first-issues/",
+      "author": "Tiferet Gazit"
+    },
+    {
+      "title": "Behind the scenes: GitHub security alerts",
+      "date": "2019-12-11",
+      "abstract": "Learn more about what's behind the scenes with GitHub vulnerability alerts.",
+      "link": "https://github.blog/2019-12-11-behind-the-scenes-github-vulnerability-alerts/",
+      "author": "Justin Hutchings"
+    },
+    {
+      "title": "Debugging network stalls on Kubernetes",
+      "date": "2019-11-21",
+      "abstract": "In this deep-dive, we identified and worked through sporadic latency issues with services running on Kubernetes in our environment.",
+      "link": "https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/",
+      "author": "Theo Julienne"
+    },
+    {
+      "title": "Getting started with Git and GitHub is easier than ever with GitHub Desktop 2.2",
+      "date": "2019-10-02",
+      "abstract": "GitHub Desktop 2.2 now features an interactive tutorial to help introduce new users to Git and GitHub.",
+      "link": "https://github.blog/2019-10-02-get-started-easier-with-github-desktop-2-2/",
+      "author": "Amanda Pinsker"
+    },
+    {
+      "title": "New workflow editor for GitHub Actions",
+      "date": "2019-10-01",
+      "abstract": "Edit your GitHub Actions workflow files easier with features to help you minimize errors and more.",
+      "link": "https://github.blog/2019-10-01-new-workflow-editor-for-github-actions/",
+      "author": "Chris Patterson"
+    },
+    {
+      "title": "Introducing the CodeSearchNet challenge",
+      "date": "2019-09-26",
+      "abstract": "We're announcing the CodeSearchNet Challenge and releasing a large dataset for natural language processing and machine learning.",
+      "link": "https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/",
+      "author": "Hamel Husain"
+    },
+    {
+      "title": "Track your work easily with the latest changes to project boards",
+      "date": "2019-09-25",
+      "abstract": "The projects section of the issue sidebar has been updated to better convey project information, and you can change an issue's project column directly from the sidebar.",
+      "link": "https://github.blog/2019-09-25-project-board-improvements/",
+      "author": "Lauren Brose"
+    },
+    {
+      "title": "Accelerating the GitHub Sponsors beta with Stripe Connect",
+      "date": "2019-09-10",
+      "abstract": "GitHub Sponsors now features a new streamlined onboarding and payment experience with Stripe Connect.",
+      "link": "https://github.blog/2019-09-10-accelerating-the-github-sponsors-beta/",
+      "author": "Katie Delfin"
+    },
+    {
+      "title": "Running GitHub on Rails 6.0",
+      "date": "2019-09-09",
+      "abstract": "On August 26, 2019, the GitHub application was deployed to production with 100% of traffic on the newest Rails version: 6.0. Read more about our process for upgrading, what we learned, and what's next.",
+      "link": "https://github.blog/2019-09-09-running-github-on-rails-6-0/",
+      "author": "Eileen M. Uchitelle"
+    },
+    {
+      "title": "C# or Java? TypeScript or JavaScript? Machine learning based classification of programming languages",
+      "date": "2019-07-02",
+      "abstract": "To make language detection more robust and maintainable in the long run, we developed a machine learning classifier named OctoLingua based on an Artificial Neural Network (ANN) architecture which can handle language predictions in tricky scenarios.",
+      "link": "https://github.blog/2019-07-02-c-or-java-typescript-or-javascript-machine-learning-based-classification-of-programming-languages/",
+      "author": "Kavita Ganesan"
+    },
+    {
+      "title": "Atom editor is now faster",
+      "date": "2019-06-12",
+      "abstract": "The Atom editor has been updated to make common features notably faster.",
+      "link": "https://github.blog/2019-06-12-atom-editor-is-now-faster/",
+      "author": "Rafael Oleza"
+    },
+    {
+      "title": "Direct instruction marking in Ruby 2.6",
+      "date": "2019-06-04",
+      "abstract": "We recently upgraded GitHub to use the latest version of Ruby 2.6. Ruby 2.6 contains an optimization for reducing memory usage.",
+      "link": "https://github.blog/2019-06-04-direct-instruction-marking-in-ruby-2-6/",
+      "author": "Aaron Patterson"
+    },
+    {
+      "title": "Vulcanizer: a library for operating Elasticsearch",
+      "date": "2019-03-05",
+      "abstract": "Vulcanizer is a Go library for interacting with an Elasticsearch cluster. Its goal is to provide a high-level API to help with common tasks associated with operating an Elasticsearch cluster such as querying health status of the cluster, migrating data off of nodes, updating cluster settings, and more.",
+      "link": "https://github.blog/2019-03-05-vulcanizer-a-library-for-operating-elasticsearch/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Highlights from Git 2.21",
+      "date": "2019-02-24",
+      "abstract": "A look at some of the new features in recent Git releases.",
+      "link": "https://github.blog/2019-02-24-highlights-from-git-2-21/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "Five years of the GitHub Bug Bounty program",
+      "date": "2019-02-19",
+      "abstract": "Read about some big changes for the coming year: full legal protection for researchers, more GitHub properties eligible for rewards, and increased reward amounts.",
+      "link": "https://github.blog/2019-02-19-five-years-of-the-github-bug-bounty-program/",
+      "author": "Phil Turnbull"
+    },
+    {
+      "title": "An open source parser for GitHub Actions",
+      "date": "2019-02-07",
+      "abstract": "Update: This blog post is no longer relevant with the update to GitHub Actions in August 2019. See the GitHub Actions documentation for more information. Since the beta release of GitHub Actions last October, thousands",
+      "link": "https://github.blog/2019-02-07-an-open-source-parser-for-github-actions/",
+      "author": "Patrick Reynolds"
+    },
+    {
+      "title": "Atom understands your code better than ever before",
+      "date": "2018-10-31",
+      "abstract": "Atom 1.32 provides improved syntax highlighting and code folding by parsing your code while you type it.",
+      "link": "https://github.blog/2018-10-31-atoms-new-parsing-system/",
+      "author": "Max Brunsfeld"
+    },
+    {
+      "title": "October 21 post-incident analysis",
+      "date": "2018-10-30",
+      "abstract": "In-depth analysis of the incident that impacted GitHub services on October 21 and 22.",
+      "link": "https://github.blog/2018-10-30-oct21-post-incident-analysis/",
+      "author": "Jason Warner"
+    },
+    {
+      "title": "Behind the scenes of GitHub Token Scanning",
+      "date": "2018-10-17",
+      "abstract": "We've extended GitHub Token Scanning to include tokens from cloud service providers and additional credentials.",
+      "link": "https://github.blog/2018-10-17-behind-the-scenes-of-github-token-scanning/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "Applying machine intelligence to GitHub security alerts",
+      "date": "2018-10-09",
+      "abstract": "Learn how we use machine learning to power and build on security alerts and make GitHub more secure.",
+      "link": "https://github.blog/2018-10-09-applying-machine-intelligence-to-security-alerts/",
+      "author": "Ben Thompson"
+    },
+    {
+      "title": "Upgrading GitHub from Rails 3.2 to 5.2",
+      "date": "2018-09-28",
+      "abstract": "On August 15th GitHub celebrated a major milestone: our main application is now running on the latest version of Rails: 5.2.1! \u00f0\u0178\u017d\u2030 In total the project took a year and a half to upgrade from",
+      "link": "https://github.blog/2018-09-28-upgrading-github-from-rails-3-2-to-5-2/",
+      "author": "Eileen M. Uchitelle"
+    },
+    {
+      "title": "Towards Natural Language Semantic Code Search",
+      "date": "2018-09-18",
+      "abstract": "Our machine learning scientists have been researching ways to enable the semantic search of code.",
+      "link": "https://github.blog/2018-09-18-towards-natural-language-semantic-code-search/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Removing jQuery from GitHub.com frontend",
+      "date": "2018-09-06",
+      "abstract": "We have recently completed a milestone where we were able to drop jQuery as a dependency of the frontend code for GitHub.com. This marks the end of a gradual, years-long transition of increasingly decoupling from",
+      "link": "https://github.blog/2018-09-06-removing-jquery-from-github-frontend/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "GLB: GitHub's open source load balancer",
+      "date": "2018-08-08",
+      "abstract": "At GitHub, we serve tens of thousands of requests every second out of our network edge, operating on GitHub's metal cloud. We've previously introduced GLB, our scalable load balancing solution for bare metal datacenters, which",
+      "link": "https://github.blog/2018-08-08-glb-director-open-source-load-balancer/",
+      "author": "Theo Julienne"
+    },
+    {
+      "title": "MySQL High Availability at GitHub",
+      "date": "2018-06-20",
+      "abstract": "GitHub uses MySQL as its main datastore for all things non-git, and its availability is critical to GitHub's operation. The site itself, GitHub's API, authentication and more, all require database access. We run multiple MySQL",
+      "link": "https://github.blog/2018-06-20-mysql-high-availability-at-github/",
+      "author": "Shlomi Noach"
+    },
+    {
+      "title": "Performance Impact of Removing OOBGC",
+      "date": "2018-05-18",
+      "abstract": "Until last week, GitHub used an Out of Band Garbage Collector (OOBGC) in production. Since removing it, we decreased CPU time across our production machines by 10%. Let's talk about what an OOBGC is, when",
+      "link": "https://github.blog/2018-05-18-removing-oobgc/",
+      "author": "Aaron Patterson"
+    },
+    {
+      "title": "Using Figma designs to build the Octicons icon library",
+      "date": "2018-04-12",
+      "abstract": "How we use Figma files to keep the Octicons icon library up to date",
+      "link": "https://github.blog/2018-04-12-driving-changes-from-designs/",
+      "author": "Jon Rohan"
+    },
+    {
+      "title": "Four years of the GitHub Security Bug Bounty",
+      "date": "2018-03-14",
+      "abstract": "Last month GitHub celebrated the fourth year of our Security Bug Bounty program. As we've done in the past, we're sharing some details and highlights from 2017 and looking ahead to where we see the",
+      "link": "https://github.blog/2018-03-14-four-years-of-bug-bounty/",
+      "author": "Greg Ose"
+    },
+    {
+      "title": "Improving your OSS dependency workflow with Licensed",
+      "date": "2018-03-07",
+      "abstract": "GitHub recently open sourced Licensed in the hopes that it is as helpful to the OSS community as it has been to us. <disclaimer> 1 of 1 consulted lawyers agree, Licensed is not a replacement",
+      "link": "https://github.blog/2018-03-07-improving-your-oss-dependency-workflow-with-licensed/",
+      "author": "Jon Ruskin"
+    },
+    {
+      "title": "Measuring the many sizes of a Git repository",
+      "date": "2018-03-05",
+      "abstract": "Is your Git repository bursting at the seams? git-sizer is a new open source tool that can tell you when your repo is getting too big. git-sizer computes various Git repository size metrics and alerts",
+      "link": "https://github.blog/2018-03-05-measuring-the-many-sizes-of-a-git-repository/",
+      "author": "Michael Haggerty"
+    },
+    {
+      "title": "February 28th DDoS Incident Report",
+      "date": "2018-03-01",
+      "abstract": "On Wednesday, February 28, 2018 GitHub.com was unavailable from 17:21 to 17:26 UTC and intermittently unavailable from 17:26 to 17:30 UTC due to a distributed denial-of-service (DDoS) attack. We understand how much you rely on",
+      "link": "https://github.blog/2018-03-01-ddos-incident-report/",
+      "author": "Sam Kottler"
+    },
+    {
+      "title": "Weak cryptographic standards removed",
+      "date": "2018-02-23",
+      "abstract": "Earlier today we permanently removed support for the following weak cryptographic standards on github.com and api.github.com: TLSv1/TLSv1.1: This applies to all HTTPS connections, including web, API, and Git connections to https://github.com and https://api.github.com. diffie-hellman-group1-sha1: This",
+      "link": "https://github.blog/2018-02-23-weak-cryptographic-standards-removed/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "Weak cryptographic standards removal notice",
+      "date": "2018-02-01",
+      "abstract": "Last year we announced the deprecation of several weak cryptographic standards. Then we provided a status update toward the end of last year outlining some changes we'd made to make the transition easier for clients.",
+      "link": "https://github.blog/2018-02-01-crypto-removal-notice/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "Doubling Bug Bounty rewards",
+      "date": "2017-10-18",
+      "abstract": "We're coming up on four years since the Bug Bounty program was first announced. A lot has changed in that time, and we constantly try to keep our reward structure inline with top security bug",
+      "link": "https://github.blog/2017-10-18-doubling-bug-bounty-rewards/",
+      "author": "Brent Johnson"
+    },
+    {
+      "title": "Mitigating replication lag and reducing read load with freno",
+      "date": "2017-10-13",
+      "abstract": "At GitHub, we use MySQL as the main database technology backing our services. We run classic MySQL master-replica setups, where writes go to the master, and replicas replay master's changes asynchronously. To be able to serve our traffic we read data from the MySQL replicas.",
+      "link": "https://github.blog/2017-10-13-mitigating-replication-lag-and-reducing-read-load-with-freno/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Stretching Spokes",
+      "date": "2017-10-13",
+      "abstract": "GitHub's Spokes system stores multiple distributed copies of Git repositories. This article discusses how we got Spokes replication to span widely separated datacenters. Background: Spokes GitHub developed a system called Spokes to store multiple replicas",
+      "link": "https://github.blog/2017-10-13-stretching-spokes/",
+      "author": "Michael Haggerty"
+    },
+    {
+      "title": "Transit and Peering: How your requests reach GitHub",
+      "date": "2017-10-12",
+      "abstract": "GitHub is at a scale that provides exposure to interesting aspects of running a major site and are working to mature and level-up many parts of our infrastructure as we grow. One of the areas",
+      "link": "https://github.blog/2017-10-12-transit-and-peering-how-your-requests-reach-github/",
+      "author": "Ross McFarland"
+    },
+    {
+      "title": "Evolution of GitHub's data centers",
+      "date": "2017-10-12",
+      "abstract": "Over the past 18 months we've made a significant investment in GitHub's physical infrastructure. The goal of this work is to improve the redundancy and global availability of our system. In doing so we've solidified",
+      "link": "https://github.blog/2017-10-12-evolution-of-our-data-centers/",
+      "author": "Sam Kottler"
+    },
+    {
+      "title": "GitHub Debug",
+      "date": "2017-09-19",
+      "abstract": "GitHub is proud to handle thousands of requests per second from our millions of users. The Internet, however, can be a fickle beast of cables and sparks, and sometimes those requests don't happen very fast",
+      "link": "https://github.blog/2017-09-19-github-debug/",
+      "author": "Alice Goldfuss"
+    },
+    {
+      "title": "Weak cryptographic standards deprecation update",
+      "date": "2017-09-18",
+      "abstract": "Earlier this year, we announced the deprecation of several weak cryptographic standards. As noted during our initial announcement, the vast majority of HTTPS clients connect to GitHub using TLSv1.2 and won't be affected by our",
+      "link": "https://github.blog/2017-09-18-crypto-deprecation-notice-update-1/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "Git LFS 2.3.0 released",
+      "date": "2017-09-14",
+      "abstract": "Git LFS v2.3.0 is now available with performance improvements to git lfs migrate and git clone, new features, bug fixes, and more. Download Git LFS v2.3.0 git lfs migrate With our latest release, git lfs",
+      "link": "https://github.blog/2017-09-14-git-lfs-2-3-0-released/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "The data science behind topic suggestions",
+      "date": "2017-09-14",
+      "abstract": "Earlier this year, we launched topics, a new feature that lets you tag repositories with descriptive words or phrases. Topics help you create connections between similar GitHub projects and explore them by type, technology, and",
+      "link": "https://github.blog/2017-09-14-the-data-science-behind-topic-suggestions/",
+      "author": "Kavita Ganesan"
+    },
+    {
+      "title": "Keeping an eye on our network",
+      "date": "2017-09-05",
+      "abstract": "Visibility is essential to effectively operating complex systems. As our network has grown, we've had to improve the the way we collect data about it to keep up. Key to these improvements has been the",
+      "link": "https://github.blog/2017-09-05-keeping-an-eye-on-our-network/",
+      "author": "Ross McFarland"
+    },
+    {
+      "title": "Kubernetes at GitHub",
+      "date": "2017-08-16",
+      "abstract": "Over the last year, GitHub has gradually evolved the infrastructure that runs the Ruby on Rails application responsible for github.com and api.github.com. We reached a big milestone recently: all web and API requests are served",
+      "link": "https://github.blog/2017-08-16-kubernetes-at-github/",
+      "author": "Jesse Newland"
+    },
+    {
+      "title": "Topic Suggestions for Millions of Repositories",
+      "date": "2017-07-31",
+      "abstract": "We recently launched Topics, a new feature that lets you tag your repositories with descriptive words or phrases, making it easy to discover projects and explore GitHub.com. Topic suggestions on public repositories, provides a quick",
+      "link": "https://github.blog/2017-07-31-topics/",
+      "author": "Kavita Ganesan"
+    },
+    {
+      "title": "Introducing Soft U2F, a software U2F authenticator for macOS",
+      "date": "2017-07-24",
+      "abstract": "In an effort to increase the adoption of FIDO U2F second factor authentication, we're releasing Soft U2F\u2014a software-based U2F authenticator for macOS. Soft U2F currently works with Google Chrome and Opera's built-in U2F implementations, as",
+      "link": "https://github.blog/2017-07-24-introducing-soft-u2f-a-software-u2f-authenticator-for-macos/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "Soft U2F",
+      "date": "2017-07-20",
+      "abstract": "In an effort to increase the adoption of FIDO U2F second factor authentication, we're releasing Soft U2F: a software-based U2F authenticator for macOS. We've long been interested in promoting better user security through two-factor authentication",
+      "link": "https://github.blog/2017-07-20-soft-u2f/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "MySQL infrastructure testing automation at GitHub",
+      "date": "2017-07-06",
+      "abstract": "Our MySQL infrastructure is a critical component to GitHub. MySQL serves GitHub.com, GitHub's API, authentication and more. Every git request touches MySQL in some way. We are tasked with keeping the data available, and maintaining",
+      "link": "https://github.blog/2017-07-06-mysql-testing-automation-at-github/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Git LFS 2.2.0 released",
+      "date": "2017-06-27",
+      "abstract": "Git LFS v2.2.0 is now available with the all-new git-lfs-migrate command, making it easier than ever to start using Git LFS in your repository. For example, if you've tried to push a large file to",
+      "link": "https://github.blog/2017-06-27-git-lfs-2-2-0-released/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "DNS Infrastructure at GitHub",
+      "date": "2017-05-31",
+      "abstract": "At GitHub we recently revamped how we do DNS from the ground up. This included both how we interact with external DNS providers and how we serve records internally to our hosts. To do this,",
+      "link": "https://github.blog/2017-05-31-dns-infrastructure-at-github/",
+      "author": "Joe Williams"
+    },
+    {
+      "title": "How Four Native Developers Wrote An Electron App",
+      "date": "2017-05-16",
+      "abstract": "Today we released the new GitHub Desktop Beta, rewritten on Electron.Electron is a well-known on-ramp for web developers to build desktop apps using familiar web technologies: HTML, CSS, and JavaScript.",
+      "link": "https://github.blog/2017-05-16-how-four-native-developers-wrote-an-electron-app/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Integrating Git in Atom",
+      "date": "2017-05-16",
+      "abstract": "Perform common Git operations without leaving the editor: stage changes, make commits, create and switch branches, resolve merge conflicts, and more.",
+      "link": "https://github.blog/2017-05-16-integrating-git-in-atom/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Git 2.13 has been released",
+      "date": "2017-05-10",
+      "abstract": "The open source Git project has just released Git 2.13.0, with features and bugfixes from over 65 contributors. Before we dig into the new features, we have a brief security announcement. For those running their",
+      "link": "https://github.blog/2017-05-10-git-2-13-has-been-released/",
+      "author": "Jeff King"
+    },
+    {
+      "title": "Git LFS 2.1.0 released",
+      "date": "2017-04-28",
+      "abstract": "Today we're announcing the next major release of Git LFS: v2.1.0, including new features, performance improvements, and more. New features Status subcommand With Git LFS 2.1.0, get a more comprehensive look at which files are",
+      "link": "https://github.blog/2017-04-28-git-lfs-2-1-0-released/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "Enabling DNS split authority with OctoDNS",
+      "date": "2017-04-27",
+      "abstract": "Building robust systems involves designing for failure. As Site Reliability Engineers at GitHub, we're always on the lookout for places where redundancy can help to mitigate problems, and today we'll be talking about steps we've",
+      "link": "https://github.blog/2017-04-27-enabling-split-authority-dns-with-octodns/",
+      "author": "Ross McFarland"
+    },
+    {
+      "title": "Open sourcing our Delegated Account Recovery implementation",
+      "date": "2017-04-14",
+      "abstract": "In February, we shipped the \u201cRecover Accounts Elsewhere\u201d feature to help people regain access to their accounts if they lose access to their two-factor device or token. It is an implementation of the Delegated Account",
+      "link": "https://github.blog/2017-04-14-open-sourcing-our-delegated-recovery-implementation/",
+      "author": "Neil Matatall"
+    },
+    {
+      "title": "SHA-1 collision detection on GitHub.com",
+      "date": "2017-03-20",
+      "abstract": "A few weeks ago, researchers announced SHAttered, the first collision of the SHA-1 hash function. Starting today, all SHA-1 computations on GitHub.com will detect and reject any Git content that shows evidence of being part",
+      "link": "https://github.blog/2017-03-20-sha-1-collision-detection-on-github-com/",
+      "author": "Jeff King"
+    },
+    {
+      "title": "Bug Bounty third anniversary wrap-up",
+      "date": "2017-03-14",
+      "abstract": "In honor of our Bug Bounty Program's third birthday, we kicked off a promotional bounty period in January and February. In addition to bonus payouts, the scope of the bug bounty was expanded to include",
+      "link": "https://github.blog/2017-03-14-bug-bounty-third-anniversary-wrap-up/",
+      "author": "Neil Matatall"
+    },
+    {
+      "title": "A formal spec for GitHub Flavored Markdown",
+      "date": "2017-03-14",
+      "abstract": "We're releasing a formal specification of the syntax for GitHub Flavored Markdown, and its corresponding reference implementation.",
+      "link": "https://github.blog/2017-03-14-a-formal-spec-for-github-markdown/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Git LFS 2.0.0 released",
+      "date": "2017-03-02",
+      "abstract": "Today we're announcing the next major release of Git LFS: v2.0.0. The official release notes have the complete list of all the new features, performance improvements, and more. In the meantime, here's our look at",
+      "link": "https://github.blog/2017-03-02-git-lfs-2-0-0-released/",
+      "author": "Taylor Blau"
+    },
+    {
+      "title": "Discontinue support for weak cryptographic standards",
+      "date": "2017-02-27",
+      "abstract": "Cryptographic standards are ever evolving. It is the canonical game of security cat and mouse, with attacks rendering older standards ill-suited, and driving the community to develop newer and stronger standards to take their place.",
+      "link": "https://github.blog/2017-02-27-crypto-deprecation-notice/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "A glimpse into GitHub's Bug Bounty workflow",
+      "date": "2017-02-22",
+      "abstract": "Last month, we announced the third anniversary of our Bug Bounty Program. While there's still time to disclose your findings through the program, we wanted to pull back the curtain and give you a glimpse",
+      "link": "https://github.blog/2017-02-22-githubs-bug-bounty-workflow/",
+      "author": "Greg Ose"
+    },
+    {
+      "title": "Adding Community & Safety checks to new features",
+      "date": "2017-01-31",
+      "abstract": "With the continuous shipping nature at GitHub, it's easy for the most well-intentioned feature to accidentally become the vector of abuse and harassment. The Community & Safety engineering team focuses on building community management tools",
+      "link": "https://github.blog/2017-01-31-community-and-safety-feature-reviews/",
+      "author": "Danielle Leong"
+    },
+    {
+      "title": "New and improved two-factor lockout recovery process",
+      "date": "2017-01-30",
+      "abstract": "The Recover Accounts Elsewhere feature lets you associate your GitHub account with your Facebook account. This will help us recover your account for certain two-factor authentication lockout scenarios. For example, you may become locked out",
+      "link": "https://github.blog/2017-01-30-recover-accounts-elsewhere/",
+      "author": "Neil Matatall"
+    },
+    {
+      "title": "GitHub's post-CSP journey",
+      "date": "2017-01-19",
+      "abstract": "Last year we shared some details on GitHub's CSP journey. A journey was a good way to describe it, as our usage of Content Security Policy (CSP) significantly changed from our initial release nearly four",
+      "link": "https://github.blog/2017-01-19-githubs-post-csp-journey/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "Moving persistent data out of Redis",
+      "date": "2017-01-10",
+      "abstract": "Historically, we have used Redis in two ways at GitHub: We used it as an LRU cache to conveniently store the results of expensive computations over data originally persisted in Git repositories or MySQL. We",
+      "link": "https://github.blog/2017-01-10-moving-persistent-data-out-of-redis/",
+      "author": "Bryana Knight"
+    },
+    {
+      "title": "Bug Bounty anniversary promotion: bigger bounties in January and February",
+      "date": "2017-01-09",
+      "abstract": "The GitHub Bug Bounty Program is turning three years old. To celebrate, we're offering bigger bounties for the most severe bugs found in January and February. The bigger the bug, the bigger the prize The",
+      "link": "https://github.blog/2017-01-09-bug-bounty-anniversary-promotion-bigger-bounties-in-january-and-february/",
+      "author": "Neil Matatall"
+    },
+    {
+      "title": "Orchestrator at GitHub",
+      "date": "2016-12-08",
+      "abstract": "GitHub uses MySQL to store its metadata: Issues, Pull Requests, comments, organizations, notifications and so forth. While git repository data does not need MySQL to exist and persist, GitHub's service does. Authentication, API, and the",
+      "link": "https://github.blog/2016-12-08-orchestrator-github/",
+      "author": "Shlomi Noach"
+    },
+    {
+      "title": "How we made diff pages three times faster",
+      "date": "2016-12-06",
+      "abstract": "We serve a lot of diffs here at GitHub. Because it is computationally expensive to generate and display a diff, we've traditionally had to apply some very conservative limits on what gets loaded. We knew",
+      "link": "https://github.blog/2016-12-06-how-we-made-diff-pages-3x-faster/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "GLB part 2: HAProxy zero-downtime, zero-delay reloads with multibinder",
+      "date": "2016-12-01",
+      "abstract": "As part of the design of GLB, we set out to solve a few of the common issues found when using HAProxy at scale.",
+      "link": "https://github.blog/2016-12-01-glb-part-2-haproxy-zero-downtime-zero-delay-reloads-with-multibinder/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Incident Report: Inadvertent Private Repository Disclosure",
+      "date": "2016-10-28",
+      "abstract": "On Thursday, October 20th, a bug in GitHub's system exposed a small amount of user data via Git pulls and clones. In total, 156 private repositories of GitHub.com users were affected (including one of GitHub's).",
+      "link": "https://github.blog/2016-10-28-incident-report-inadvertent-private-repository-disclosure/",
+      "author": "Todd Berman"
+    },
+    {
+      "title": "octocatalog-diff: GitHub's Puppet development and testing tool",
+      "date": "2016-10-20",
+      "abstract": "Today we are announcing the open source release of octocatalog-diff: GitHub's Puppet development and testing tool. GitHub uses Puppet to configure the infrastructure that powers GitHub.com, comprised of hundreds of roles deployed on thousands of",
+      "link": "https://github.blog/2016-10-20-octocatalog-diff-github-s-puppet-development-and-testing-tool/",
+      "author": "Kevin Paulisse"
+    },
+    {
+      "title": "Introducing the GitHub Load Balancer",
+      "date": "2016-09-22",
+      "abstract": "Over the last year we've developed our new load balancer, called GLB (GitHub Load Balancer). Today, and over the next few weeks, we will be sharing the design and releasing its components as open source software.",
+      "link": "https://github.blog/2016-09-22-introducing-glb/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "The GitHub GraphQL API",
+      "date": "2016-09-14",
+      "abstract": "GitHub announced a public API one month after the site launched. We've evolved this platform through three versions, adhering to RFC standards and embracing new design patterns to provide a clear and consistent interface.",
+      "link": "https://github.blog/2016-09-14-the-github-graphql-api/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Building resilience in Spokes",
+      "date": "2016-09-07",
+      "abstract": "Spokes is the replication system for the file servers where we store over 38 million Git repositories and over 36 million gists.It keeps at least three copies of every repository and every gist so that",
+      "link": "https://github.blog/2016-09-07-building-resilience-in-spokes/",
+      "author": "Patrick Reynolds"
+    },
+    {
+      "title": "Context aware MySQL pools via HAProxy",
+      "date": "2016-08-17",
+      "abstract": "At GitHub we use MySQL as our main datastore. While repository data lies in git, metadata is stored in MySQL. This includes Issues, Pull Requests, Comments etc. We also auth against MySQL via a custom",
+      "link": "https://github.blog/2016-08-17-context-aware-mysql-pools-via-haproxy/",
+      "author": "Shlomi Noach"
+    },
+    {
+      "title": "gh-ost: GitHub's online schema migration tool for MySQL",
+      "date": "2016-08-01",
+      "abstract": "Today we are announcing the open source release of gh-ost: GitHub's triggerless online schema migration tool for MySQL. gh-ost has been developed at GitHub in recent months to answer a problem we faced with ongoing,",
+      "link": "https://github.blog/2016-08-01-gh-ost-github-s-online-migration-tool-for-mysql/",
+      "author": "Shlomi Noach"
+    },
+    {
+      "title": "SYN Flood Mitigation with synsanity",
+      "date": "2016-07-12",
+      "abstract": "GitHub hosts a wide range of user content, and like all large websites this often causes us to become a target of denial of service attacks. Around a year ago, GitHub was on the receiving",
+      "link": "https://github.blog/2016-07-12-syn-flood-mitigation-with-synsanity/",
+      "author": "Theo Julienne"
+    },
+    {
+      "title": "GitHub's CSP journey",
+      "date": "2016-04-12",
+      "abstract": "We shipped subresource integrity a few months back to reduce the risk of a compromised CDN serving malicious JavaScript. That is a big win, but does not address related content injection issues that may exist",
+      "link": "https://github.blog/2016-04-12-githubs-csp-journey/",
+      "author": "Patrick Toomey"
+    },
+    {
+      "title": "Introducing DGit",
+      "date": "2016-04-05",
+      "abstract": "Edit: DGit is now called Spokes GitHub hosts over 35 million repositories and over 30 million Gists on hundreds of servers. Over the past year, we've built DGit, a new distributed storage system that dramatically",
+      "link": "https://github.blog/2016-04-05-introducing-dgit/",
+      "author": "Patrick Reynolds"
+    },
+    {
+      "title": "Revamping GitHub's Subversion Bridge",
+      "date": "2016-03-08",
+      "abstract": "One of GitHub's niche features is the ability to access a Git repository on GitHub using Subversion clients. Last year we re-architected a large portion of the Subversion bridge to work with our changing infrastructure.",
+      "link": "https://github.blog/2016-03-08-revamping-githubs-subversion-bridge/",
+      "author": "GitHub Engineering"
+    },
+    {
+      "title": "Delivering Octicons with SVG",
+      "date": "2016-02-22",
+      "abstract": "GitHub.com no longer delivers its icons via icon font. Instead, we've replaced all the Octicons throughout our codebase with SVG alternatives. While the changes are mostly under-the-hood, you'll immediately feel the benefits of the SVG",
+      "link": "https://github.blog/2016-02-22-delivering-octicons-with-svg/",
+      "author": "Aaron Shekey"
+    },
+    {
+      "title": "Two years of bounties",
+      "date": "2016-02-04",
+      "abstract": "Despite the best efforts of its writers, software has vulnerabilities, and GitHub is no exception. Finding, fixing, and learning from past bugs is a critical part of keeping our users and their data safe on",
+      "link": "https://github.blog/2016-02-04-two-years-of-bounties/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "January 28th Incident Report",
+      "date": "2016-02-03",
+      "abstract": "Last week GitHub was unavailable for two hours and six minutes. We understand how much you rely on GitHub and consider the availability of our service one of the core features we offer. Over the",
+      "link": "https://github.blog/2016-02-03-january-28th-incident-report/",
+      "author": "Scott Sanders"
+    },
+    {
+      "title": "Scientist: Measure Twice, Cut Once",
+      "date": "2016-02-03",
+      "abstract": "Today we're releasing Scientist 1.0 to help you rewrite critical code with confidence. As codebases mature and requirements change, it is inevitable that you will need to replace or rewrite a part of your system.",
+      "link": "https://github.blog/2016-02-03-scientist/",
+      "author": "Jesse Toth"
+    },
+    {
+      "title": "Update on 1/28 service outage",
+      "date": "2016-01-29",
+      "abstract": "On Thursday, January 28, 2016 at 00:23am UTC, we experienced a severe service outage that impacted GitHub.com. We know that any disruption in our service can impact your development workflow, and are truly sorry for",
+      "link": "https://github.blog/2016-01-29-update-on-1-28-service-outage/",
+      "author": "Sam Lambert"
+    },
+    {
+      "title": "Move Fast and Fix Things",
+      "date": "2015-12-15",
+      "abstract": "Anyone who has worked on a large enough codebase knows that technical debt is an inescapable reality: The more rapidly an application grows in size and complexity, the more technical debt is accrued. With GitHub's",
+      "link": "https://github.blog/2015-12-15-move-fast/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "GitHub's Metal Cloud",
+      "date": "2015-12-01",
+      "abstract": "At GitHub we place an emphasis on stability, availability, and performance. A large component of ensuring we excel in these areas is deploying services on bare-metal hardware. This allows us to tailor hardware configurations to",
+      "link": "https://github.blog/2015-12-01-githubs-metal-cloud/",
+      "author": "Lee Reilly"
+    },
+    {
+      "title": "LIKE injection",
+      "date": "2015-11-03",
+      "abstract": "Looking through our exception tracker the other day, I ran across a notice from our slow-query logger that caught my eye. I saw a SELECT \u2026 WHERE \u2026 LIKE query with lots of percent signs",
+      "link": "https://github.blog/2015-11-03-like-injection/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "Git Concurrency in GitHub Desktop",
+      "date": "2015-10-20",
+      "abstract": "Careful use of concurrency is particularly important when writing responsive desktop applications. Typically, complex operations are executed on background threads. This results in an app that remains responsive to user input, while still performing complex",
+      "link": "https://github.blog/2015-10-20-git-concurrency-in-github-desktop/",
+      "author": "Amy Palamountain"
+    },
+    {
+      "title": "Runnable Documentation: Code for Humans",
+      "date": "2015-10-06",
+      "abstract": "On GitHub Enterprise we've moved our release process to using what we like to call \u201cRunnable Documentation\u201d: a step-by-step series of instructions that can be run by any person without requiring special domain knowledge. When",
+      "link": "https://github.blog/2015-10-06-runnable-documentation/",
+      "author": "Mike McQuaid"
+    },
+    {
+      "title": "Counting Objects",
+      "date": "2015-09-22",
+      "abstract": "The Systems Team at GitHub works to solve complex bugs and performance bottlenecks at the lowest levels of our infrastructure. Over the past two years we've undertaken a major project to improve the performance of",
+      "link": "https://github.blog/2015-09-22-counting-objects/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "Subresource Integrity",
+      "date": "2015-09-19",
+      "abstract": "Like many sites, GitHub uses a content delivery network (CDN) to serve static assets such as JavaScript, CSS, and images to our users. The CDN makes web browsing faster by delivering assets from data centers",
+      "link": "https://github.blog/2015-09-19-subresource-integrity/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "GitHub implements Subresource Integrity",
+      "date": "2015-09-18",
+      "abstract": "With Subresource Integrity (SRI), using GitHub is safer than ever. SRI tells your browser to double check that our Content Delivery Network (CDN) is sending the right JavaScript and CSS to your browser. Without SRI,",
+      "link": "https://github.blog/2015-09-18-github-implements-subresource-integrity/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "Cross-platform UI in GitHub Desktop",
+      "date": "2015-08-19",
+      "abstract": "The comparison graph is the centerpiece of GitHub Desktop. It both drives the interaction with your branch and shows you the effects of your changes relative to a base branch. It's easily the most sophisticated",
+      "link": "https://github.blog/2015-08-19-cross-platform-ui-in-github-desktop/",
+      "author": "Rob Rix"
+    },
+    {
+      "title": "Benchmarking GitHub Enterprise",
+      "date": "2015-07-22",
+      "abstract": "The release of GitHub Enterprise 2.0 brought more than just new features and support for deployment on Amazon Web Services. It also included a rework of our virtual machine architecture to improve performance and reliability.",
+      "link": "https://github.blog/2015-07-22-benchmarking-github-enterprise/",
+      "author": "Dirkjan Bussink"
+    },
+    {
+      "title": "Scripts to Rule Them All",
+      "date": "2015-06-30",
+      "abstract": "At GitHub we have a lot of software running our product and company. We also have a lot of potential contributing members. Being able to get from git clone to an up-and-running project in a",
+      "link": "https://github.blog/2015-06-30-scripts-to-rule-them-all/",
+      "author": "Jon Maddox"
+    },
+    {
+      "title": "Read-only deploy keys",
+      "date": "2015-06-16",
+      "abstract": "You can now create deploy keys with read-only access. A deploy key is an SSH key that is stored on your server and grants access to a single GitHub repository. They are often used to",
+      "link": "https://github.blog/2015-06-16-read-only-deploy-keys/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "Exception Monitoring and Response",
+      "date": "2015-06-16",
+      "abstract": "Like most software applications, GitHub can generate a few exceptions. Incoming exceptions range from system-level issues including Git timeouts and missing references, to application-level issues including simple code mistakes and JavaScript errors. We take stability",
+      "link": "https://github.blog/2015-06-16-exception-monitoring-and-response/",
+      "author": "Justin Palmer"
+    },
+    {
+      "title": "Brubeck, a statsd-compatible metrics aggregator",
+      "date": "2015-06-15",
+      "abstract": "One of the key points of GitHub's engineering culture \u2014and I believe, of any good engineering culture\u2014 is our obsession with aggressively measuring everything. Coda Hale's seminal talk \u201cMetrics, Metrics Everywhere\u201d has been a cornerstone",
+      "link": "https://github.blog/2015-06-15-brubeck/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "Deploying branches to GitHub.com",
+      "date": "2015-06-02",
+      "abstract": "At GitHub, we use a variant of the Flow pattern to deploy changes: new code is always deployed from a pull request branch, and merged only once it has been confirmed in production. master is",
+      "link": "https://github.blog/2015-06-02-deploying-branches-to-github-com/",
+      "author": "Aman Gupta"
+    },
+    {
+      "title": "Rearchitecting GitHub Pages",
+      "date": "2015-05-27",
+      "abstract": "GitHub Pages, our static site hosting service, has always had a very simple architecture. From launch up until around the beginning of 2015, the entire service ran on a single pair of machines (in active/standby",
+      "link": "https://github.blog/2015-05-27-rearchitecting-github-pages/",
+      "author": "Charlie Somerville"
+    },
+    {
+      "title": "Browser Monitoring for GitHub.com",
+      "date": "2015-05-19",
+      "abstract": "Most large-scale web applications incorporate at least some browser monitoring, collecting metrics about the user experience with JavaScript in the browser, but, as a community, we don't talk much about what's working here and what's",
+      "link": "https://github.blog/2015-05-19-browser-monitoring-for-github-com/",
+      "author": "Emily Nakashima"
+    },
+    {
+      "title": "Workload Analysis with MySQL's Performance Schema",
+      "date": "2015-05-19",
+      "abstract": "Earlier this spring, we upgraded our database cluster to MySQL 5.6. Along with many other improvements, 5.6 added some exciting new features to the performance schema. MySQL's performance schema is a set of tables that",
+      "link": "https://github.blog/2015-05-19-using-mysql-performance-schema-for-workload-analysis/",
+      "author": "Natalie Siskin"
+    },
+    {
+      "title": "Hello World",
+      "date": "2015-05-19",
+      "abstract": "What does it take to run and build GitHub? On our new Engineering Blog we'll show you how it's done. Through the writings of our engineers you'll gain insight into the practices we use, the",
+      "link": "https://github.blog/2015-05-19-hello-world/",
+      "author": "Sam Lambert"
+    },
+    {
+      "title": "The GitHub Engineering Blog",
+      "date": "2015-05-19",
+      "abstract": "We are happy to introduce GitHub's Engineering Blog to the world. Starting today, you can read details about our infrastructure, learn about our development practices, and hear about the knowledge we've gained while running the",
+      "link": "https://github.blog/2015-05-19-the-github-engineering-blog/",
+      "author": "Sam Lambert"
+    },
+    {
+      "title": "Eight lessons learned hacking on GitHub Pages for six months",
+      "date": "2015-04-27",
+      "abstract": "Believe it or not, just over a year ago, GitHub Pages, the documentation hosting service that powers nearly three-quarters of a million sites, was little more than a 100-line shell script. Today, it's a fully",
+      "link": "https://github.blog/2015-04-27-eight-lessons-learned-hacking-on-github-pages-for-six-months/",
+      "author": "Ben Balter"
+    },
+    {
+      "title": "Large Scale DDoS Attack on github.com",
+      "date": "2015-03-27",
+      "abstract": "We are currently experiencing the largest DDoS (distributed denial of service) attack in github.com's history. The attack began around 2AM UTC on Thursday, March 26, and involves a wide combination of attack vectors. These include",
+      "link": "https://github.blog/2015-03-27-large-scale-ddos-attack-on-github-com/",
+      "author": "Jesse Newland"
+    },
+    {
+      "title": "The Game Off Returns!",
+      "date": "2015-03-02",
+      "abstract": "The GitHub Game Off, our very own game jam is returning next week! We've had some great games submitted in previous years and can't wait to see what you come up with this year. We'll",
+      "link": "https://github.blog/2015-03-02-the-game-off-returns/",
+      "author": "Lee Reilly"
+    },
+    {
+      "title": "Git 2.3 has been released",
+      "date": "2015-02-06",
+      "abstract": "The Git developers have just released a major new version of the Git command-line utility, Git 2.3.0. As usual, this release contains many improvements, performance enhancements, and bug fixes. Full details about what's included can",
+      "link": "https://github.blog/2015-02-06-git-2-3-has-been-released/",
+      "author": "Michael Haggerty"
+    },
+    {
+      "title": "Keeping GitHub OAuth Tokens Safe",
+      "date": "2015-02-05",
+      "abstract": "While making your source code available in a public GitHub repository is awesome, it's important to be sure you don't accidentally commit your passwords, secrets, or anything else that other people shouldn't know. Starting today",
+      "link": "https://github.blog/2015-02-05-keeping-github-oauth-tokens-safe/",
+      "author": "Neil Matatall"
+    },
+    {
+      "title": "GitHub Security Bug Bounty program turns one",
+      "date": "2015-01-28",
+      "abstract": "It's already been a year since we launched the GitHub Security Bug Bounty, and, thanks to bug reports from researchers across the globe, 73 previously unknown security vulnerabilities in our applications have been identified and",
+      "link": "https://github.blog/2015-01-28-github-security-bug-bounty-program-turns-one/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "How to write the perfect pull request",
+      "date": "2015-01-21",
+      "abstract": "As a company grows, people and projects change. To continue to nurture the culture we want at GitHub, we've found it useful to remind ourselves what we aim for when we communicate. We recently introduced",
+      "link": "https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/",
+      "author": "Keavy McMinn"
+    },
+    {
+      "title": "How GitHub uses GitHub to document GitHub",
+      "date": "2015-01-06",
+      "abstract": "Providing well-written documentation helps people understand, make use of, and contribute back to your project, but it's only half of the documentation equation. The underlying system used to serve documentation can make life easier for",
+      "link": "https://github.blog/2015-01-06-how-github-uses-github-to-document-github/",
+      "author": "Garen Torikian"
+    },
+    {
+      "title": "Improving GitHub's SSL setup",
+      "date": "2014-12-23",
+      "abstract": "To keep GitHub as secure as possible for every user, we will remove RC4 support in our SSL configuration on github.com and in the GitHub API on January 5th 2015. RC4 has a number of",
+      "link": "https://github.blog/2014-12-23-improving-github-s-ssl-setup/",
+      "author": "Dirkjan Bussink"
+    },
+    {
+      "title": "Vulnerability announced: update your Git clients",
+      "date": "2014-12-18",
+      "abstract": "A critical Git security vulnerability has been announced today, affecting all versions of the official Git client and all related software that interacts with Git repositories, including GitHub for Windows and GitHub for Mac. Because",
+      "link": "https://github.blog/2014-12-18-vulnerability-announced-update-your-git-clients/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "GitHub Pages Legacy IP Deprecation",
+      "date": "2014-11-05",
+      "abstract": "Update: We've extended the deprecation deadline to February 2, 2015 to give Pages users more time to update their DNS records. If you use a custom domain with GitHub Pages, please verify that your domain's",
+      "link": "https://github.blog/2014-11-05-github-pages-legacy-ip-deprecation/",
+      "author": "Ben Balter"
+    },
+    {
+      "title": "Security vulnerability in bash addressed",
+      "date": "2014-09-25",
+      "abstract": "Update: 2014-09-29 23:10 UTC We have published an update to the Git Shell tools for GitHub for Windows, which resolves the bash vulnerabilities CVE-2014-6271, CVE-2014-7169, CVE-2014-7186 and CVE-2014-7187. If you are running GitHub for Windows,",
+      "link": "https://github.blog/2014-09-25-security-vulnerability-in-bash-addressed/",
+      "author": "Shawn Davenport"
+    },
+    {
+      "title": "Making MySQL Better at GitHub",
+      "date": "2014-09-02",
+      "abstract": "At GitHub we say, \u201cit's not fully shipped until it's fast.\u201d We've talked before about some of the ways we keep our frontend experience speedy, but that's only part of the story. Our MySQL database",
+      "link": "https://github.blog/2014-09-02-making-mysql-better-at-github/",
+      "author": "Sam Lambert"
+    },
+    {
+      "title": "Security: Heartbleed vulnerability",
+      "date": "2014-04-08",
+      "abstract": "On April 7, 2014 information was released about a new vulnerability (CVE-2014-0160) in OpenSSL, the cryptography library that powers the vast majority of private communication across the Internet. This library is key for maintaining privacy",
+      "link": "https://github.blog/2014-04-08-security-heartbleed-vulnerability/",
+      "author": "Ryan Tomayko"
+    },
+    {
+      "title": "Denial of Service Attacks",
+      "date": "2014-03-14",
+      "abstract": "On Tuesday, March 11th, GitHub was largely unreachable for roughly 2 hours as the result of an evolving distributed denial of service (DDoS) attack. I know that you rely on GitHub to be available all",
+      "link": "https://github.blog/2014-03-14-denial-of-service-attacks/",
+      "author": "Mark Imbriaco"
+    },
+    {
+      "title": "Proxying User Images",
+      "date": "2014-01-28",
+      "abstract": "A while back, we started proxying all non-https images to avoid mixed-content warnings using a custom node server called camo. We're making a small change today and proxying HTTPS images as well. Proxying these images",
+      "link": "https://github.blog/2014-01-28-proxying-user-images/",
+      "author": "Joshua Peek"
+    },
+    {
+      "title": "DNS Outage Post Mortem",
+      "date": "2014-01-18",
+      "abstract": "Last week on Wednesday, January 8th, GitHub experienced an outage of our DNS infrastructure. As a result of this outage, our customers experienced 42 minutes of downtime of services along with an additional 1 hour",
+      "link": "https://github.blog/2014-01-18-dns-outage-post-mortem/",
+      "author": "James Fryman"
+    },
+    {
+      "title": "Optimizing large selector sets",
+      "date": "2014-01-16",
+      "abstract": "CSS selectors are to frontend development as SQL statements are to the backend. Aside from their origin in CSS, we use them all over our JavaScript. Importantly, selectors are declarative, which makes them prime candidates",
+      "link": "https://github.blog/2014-01-16-optimizing-large-selector-sets/",
+      "author": "Joshua Peek"
+    },
+    {
+      "title": "Video from Passion Projects Talk #7 with Jen Myers",
+      "date": "2014-01-15",
+      "abstract": "Jen Myers joined us in December of 2013 for the 7th installment of our Passion Projects talk series. Jen taught us the importance of not being an expert and how to be responsible for our",
+      "link": "https://github.blog/2014-01-15-video-from-passion-projects-talk-7-with-jen-myers/",
+      "author": "Manisha Sharma"
+    },
+    {
+      "title": "Improving our SSL setup",
+      "date": "2014-01-07",
+      "abstract": "As we announced previously we've improved our SSL setup by deploying forward secrecy and improving the list of supported ciphers. Deploying forward secrecy and up to date cipher lists comes with a number of considerations",
+      "link": "https://github.blog/2014-01-07-improving-our-ssl-setup/",
+      "author": "Dirkjan Bussink"
+    },
+    {
+      "title": "Introducing Forward Secrecy and Authenticated Encryption Ciphers",
+      "date": "2013-12-31",
+      "abstract": "As of yesterday we've updated our SSL setup on the systems that serve traffic for GitHub. The changes introduce support for Forward Secrecy and Authenticated Encryption Ciphers. So what is Forward Secrecy? The EFF provides",
+      "link": "https://github.blog/2013-12-31-introducing-forward-secrecy-and-authenticated-encryption-ciphers/",
+      "author": "Dirkjan Bussink"
+    },
+    {
+      "title": "The Ghost of Issues Past",
+      "date": "2013-12-18",
+      "abstract": "The end of the year is fast approaching, and this is a good time to review open issues from long ago. A great way to find older issues and pull requests is our wonderful search",
+      "link": "https://github.blog/2013-12-18-the-ghost-of-issues-past/",
+      "author": "Tim Pease"
+    },
+    {
+      "title": "Join our Octostudy!",
+      "date": "2013-11-20",
+      "abstract": "There are a lot of interesting people on GitHub today. Since we can't meet everyone at a conference, drinkup, or charity dodgeball game, we are hoping you can tell us a little more about yourself.",
+      "link": "https://github.blog/2013-11-20-join-our-octostudy/",
+      "author": "Chrissie Brodigan"
+    },
+    {
+      "title": "Weak passwords brute forced",
+      "date": "2013-11-20",
+      "abstract": "Some GitHub user accounts with weak passwords were recently compromised due to a brute force password-guessing attack. I want to take this opportunity to talk about our response to this specific incident and account security",
+      "link": "https://github.blog/2013-11-20-weak-passwords-brute-forced/",
+      "author": "Shawn Davenport"
+    },
+    {
+      "title": "An African hack trip",
+      "date": "2013-11-13",
+      "abstract": "GitHub has a long tradition of supporting developer communities throughout the world. We throw drinkups, speak at and sponsor conferences, and host training events in most corners of the globe. However, with the exception of",
+      "link": "https://github.blog/2013-11-13-an-african-hack-trip/",
+      "author": "Luke Hefson"
+    },
+    {
+      "title": "Disabling old IP addresses",
+      "date": "2013-10-30",
+      "abstract": "We've made some significant upgrades to the network infrastructure powering GitHub, and it's time to turn off some of the old gear. We've updated DNS records to point at our new IP space, but continue",
+      "link": "https://github.blog/2013-10-30-disabling-old-ip-addresses/",
+      "author": "Jesse Newland"
+    },
+    {
+      "title": "Modeling your App's User Session",
+      "date": "2013-10-18",
+      "abstract": "If you've been keeping an eye on your cookies, you may have noticed some recent changes GitHub has made to how we track your session. You shouldn't notice any difference in session behavior (beyond the",
+      "link": "https://github.blog/2013-10-18-modeling-your-app-s-user-session/",
+      "author": "Joshua Peek"
+    },
+    {
+      "title": "Git Internals PDF Open Sourced",
+      "date": "2013-09-20",
+      "abstract": "Over 5 years ago, shortly after GitHub initially launched, Chris pointed out on one of our earliest blog posts this Peepcode PDF on Git internals that I had just written: Well, today Pluralsight has agreed",
+      "link": "https://github.blog/2013-09-20-git-internals-pdf-open-sourced/",
+      "author": "Scott Chacon"
+    },
+    {
+      "title": "Site Maintenance August 31st 2013",
+      "date": "2013-08-26",
+      "abstract": "This Saturday, August 31st, 2013 at 5AM PDT we will be upgrading a large portion of our database infrastructure in order to provide a faster and more reliable GitHub experience. We estimate that the upgrades",
+      "link": "https://github.blog/2013-08-26-site-maintenance-august-31st-2013/",
+      "author": "Sam Lambert"
+    },
+    {
+      "title": "IP Address Changes",
+      "date": "2013-08-25",
+      "abstract": "As we continue to expand the infrastructure that powers GitHub, we want to make everyone aware of some changes to the IP addresses that we use. Most customers won't have to do anything as a",
+      "link": "https://github.blog/2013-08-25-ip-address-changes/",
+      "author": "Mark Imbriaco"
+    },
+    {
+      "title": "GitHub Flow in the Browser",
+      "date": "2013-07-11",
+      "abstract": "Now that you can delete files directly on GitHub we've reached a very exciting milestone\u2014the entire GitHub Flow\u2122 is now possible using nothing but a web browser. What is GitHub Flow? A little while ago",
+      "link": "https://github.blog/2013-07-11-github-flow-in-the-browser/",
+      "author": "Coby Chapple"
+    },
+    {
+      "title": "Git Merge Berlin 2013",
+      "date": "2013-06-10",
+      "abstract": "Last month GitHub was proud to host the first Git Merge conference, a place for Git core developers and Git users to meet, talk about Git and share what they've been working on or interested",
+      "link": "https://github.blog/2013-06-10-git-merge-berlin-2013/",
+      "author": "Scott Chacon"
+    },
+    {
+      "title": "Hey Judy, don't make it bad",
+      "date": "2013-05-01",
+      "abstract": "Last week we explained how we greatly reduced the rendering time of our web views by switching our escaping routines from Ruby to C. This speed-up was two-fold: the C code for escaping HTML was",
+      "link": "https://github.blog/2013-05-01-hey-judy-don-t-make-it-bad/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "Heads up: nosniff header support coming to Chrome and Firefox",
+      "date": "2013-04-24",
+      "abstract": "Both GitHub and Gist offer ways to view \u201craw\u201d versions of user content. Instead of viewing files in the visual context of the website, the user can see the actual text content as it was",
+      "link": "https://github.blog/2013-04-24-heads-up-nosniff-header-support-coming-to-chrome-and-firefox/",
+      "author": "Ben Toews"
+    },
+    {
+      "title": "Content Security Policy",
+      "date": "2013-04-19",
+      "abstract": "We've started rolling out a new security feature called \u201cContent Security Policy\u201d or CSP. As a user, it will better protect your account against XSS attacks. But, be aware, it may cause issues with some",
+      "link": "https://github.blog/2013-04-19-content-security-policy/",
+      "author": "Joshua Peek"
+    },
+    {
+      "title": "Escape Velocity",
+      "date": "2013-04-17",
+      "abstract": "We work very hard to keep GitHub fast. Ruby is not the fastest programming language, so we go to great lengths benchmarking and optimizing our large codebase: our goal is to keep bringing down response",
+      "link": "https://github.blog/2013-04-17-escape-velocity/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "Yummy cookies across domains",
+      "date": "2013-04-09",
+      "abstract": "Last Friday we announced and performed a migration of all GitHub Pages to their own github.io domain. This was a long-planned migration, with the specific goal of mitigating phishing attacks and cross-domain cookie vulnerabilities arising",
+      "link": "https://github.blog/2013-04-09-yummy-cookies-across-domains/",
+      "author": "Vicent Mart\u00ed"
+    },
+    {
+      "title": "New GitHub Pages domain: github.io",
+      "date": "2013-04-05",
+      "abstract": "Beginning today, all GitHub Pages sites are moving to a new, dedicated domain: github.io. This is a security measure aimed at removing potential vectors for cross domain attacks targeting the main github.com session as well",
+      "link": "https://github.blog/2013-04-05-new-github-pages-domain-github-io/",
+      "author": "Ryan Tomayko"
+    },
+    {
+      "title": "Upcoming IP address changes",
+      "date": "2013-04-02",
+      "abstract": "As we expand our infrastructure, we are making changes to the IP addresses currently in use. If you are explicitly whitelisting GitHub in your firewall rules, please make sure that you include all of the",
+      "link": "https://github.blog/2013-04-02-upcoming-ip-address-changes/",
+      "author": "Scott J. Goldman"
+    },
+    {
+      "title": "GitHub for Windows Recent Improvements",
+      "date": "2013-02-21",
+      "abstract": "It's been almost a year since we first released GitHub for Windows. Today we just shipped version 1.0.38. That's 38 updates since 1.0! As we've said before, we ship early and often. Since we've been",
+      "link": "https://github.blog/2013-02-21-github-for-windows-recent-improvements/",
+      "author": "Phil Haack"
+    },
+    {
+      "title": "TCMalloc and MySQL",
+      "date": "2013-02-21",
+      "abstract": "Over the last month or so, we noticed steady week-over-week rises in overall MySQL query time. A poorly-performing database makes for a slow site and a slow site makes for a terrible experience, so we",
+      "link": "https://github.blog/2013-02-21-tcmalloc-and-mysql/",
+      "author": "Ted Nyman"
+    },
+    {
+      "title": "Introducing Boxen",
+      "date": "2013-02-15",
+      "abstract": "Today we're proud to open source Boxen, our tool for automating and managing Macs at GitHub. Boxen started nearly a year ago as a project called \u201cThe Setup\u201d \u2014 a pipe dream to let anyone",
+      "link": "https://github.blog/2013-02-15-introducing-boxen/",
+      "author": "Will Farrington"
+    },
+    {
+      "title": "Recent Code Search Outages",
+      "date": "2013-02-04",
+      "abstract": "Last week, between Thursday, January 24 and Friday, January 25 we experienced a critical outage surrounding our newly-launched Code Search service. As always, we strive to provide detailed, transparent post-mortems about these incidents. We'll do",
+      "link": "https://github.blog/2013-02-04-recent-code-search-outages/",
+      "author": "Will Farrington"
+    },
+    {
+      "title": "Secrets in the code",
+      "date": "2013-01-25",
+      "abstract": "Programming often involves keeping a bunch of secrets around. You've got account passwords, OAuth tokens, SSL and SSH private keys. The best way to keep a secret is, well, to keep it secret. Sometimes in",
+      "link": "https://github.blog/2013-01-25-secrets-in-the-code/",
+      "author": "Brian Doll"
+    },
+    {
+      "title": "Releasing Make Me",
+      "date": "2013-01-03",
+      "abstract": "A few months ago, GitHub HQ 2.0 got a MakerBot Replicator 2. GitHubbers started printing almost immediately due to the easy setup but having to leave a laptop connected was painful. We quickly learned how",
+      "link": "https://github.blog/2013-01-03-releasing-make-me/",
+      "author": "Mike Skalnik"
+    },
+    {
+      "title": "A More Transparent Clipboard Button",
+      "date": "2013-01-02",
+      "abstract": "Copying long lines of text and shas to your clipboard has been just a click away for a few years now. Today we're putting a new face on that click-to-copy feature, making it easier to",
+      "link": "https://github.blog/2013-01-02-a-more-transparent-clipboard-button/",
+      "author": "Jon Rohan"
+    },
+    {
+      "title": "Downtime last Saturday",
+      "date": "2012-12-26",
+      "abstract": "On Saturday, December 22nd we had a significant outage and we want to take the time to explain what happened. This was one of the worst outages in the history of GitHub, and it's not",
+      "link": "https://github.blog/2012-12-26-downtime-last-saturday/",
+      "author": "Mark Imbriaco"
+    },
+    {
+      "title": "Scheduled Maintenance Windows",
+      "date": "2012-12-20",
+      "abstract": "As our infrastructure continues to grow and evolve, it's sometimes necessary to perform system maintenance that may cause downtime. We have a number of projects queued up over the coming months to take our infrastructure",
+      "link": "https://github.blog/2012-12-20-scheduled-maintenance-windows/",
+      "author": "Mark Imbriaco"
+    },
+    {
+      "title": "Network problems last Friday",
+      "date": "2012-12-05",
+      "abstract": "On Friday, November 30th, GitHub had a rough day. We experienced 18 minutes of complete unavailability along with sporadic bursts of slow responses and intermittent errors for the entire day. I'm very sorry this happened",
+      "link": "https://github.blog/2012-12-05-network-problems-last-friday/",
+      "author": "Mark Imbriaco"
+    },
+    {
+      "title": "html-pipeline: Chainable Content Filters",
+      "date": "2012-11-27",
+      "abstract": "Ever wondered how to get emoji, syntax highlighting, custom linking, and markdown to play nice together? HTML::Pipeline is the answer. We've extracted several HTML utilities that we use internally in GitHub and packaged them into",
+      "link": "https://github.blog/2012-11-27-html-pipeline-chainable-content-filters/",
+      "author": "Jerry Cheung"
+    },
+    {
+      "title": "Rebel: a Framework for Improving AppKit",
+      "date": "2012-10-23",
+      "abstract": "In our last blog post, we revealed Mantle, our Cocoa model framework. Today, we're announcing Rebel, a framework for improving AppKit. Since you may recall our original TwUI announcement, the decision to start using AppKit",
+      "link": "https://github.blog/2012-10-23-rebel-a-framework-for-improving-appkit/",
+      "author": "Justin Spahr-Summers"
+    },
+    {
+      "title": "Mantle: a Model Framework for Objective-C",
+      "date": "2012-10-22",
+      "abstract": "Lately, we've been shipping more in GitHub for Mac than ever before. Now that username autocompletion and Notification Center support are out the door, we're releasing the two frameworks that helped make it happen. This",
+      "link": "https://github.blog/2012-10-22-mantle-a-model-framework-for-objective-c/",
+      "author": "Justin Spahr-Summers"
+    },
+    {
+      "title": "The GitHub:Training Web Site is a Thing",
+      "date": "2012-10-05",
+      "abstract": "The past six months have seen tremendous growth in GitHub's training organization. We've added people, we've added materials, and we've been to more places on the planet to help make it easy for humans to",
+      "link": "https://github.blog/2012-10-05-the-github-training-web-site-is-a-thing/",
+      "author": "Tim Berglund"
+    },
+    {
+      "title": "The GitHub hiring experience",
+      "date": "2012-09-24",
+      "abstract": "Crafting experiences is central to what we do here at GitHub, and our interviewing, hiring, and on-boarding experiences are no exception. Having recently been through this process first-hand, I'd like to share a little bit",
+      "link": "https://github.blog/2012-09-24-the-github-hiring-experience/",
+      "author": "Coby Chapple"
+    },
+    {
+      "title": "How we ship GitHub for Windows",
+      "date": "2012-09-24",
+      "abstract": "We've shipped 25 updates to GitHub for Windows in the 4 months since we first launched. That's more than one release per week, for 17 weeks straight! Here's how we do it. One release per",
+      "link": "https://github.blog/2012-09-24-how-we-ship-github-for-windows/",
+      "author": "Adam Roben"
+    },
+    {
+      "title": "GitHub availability this week",
+      "date": "2012-09-14",
+      "abstract": "GitHub.com suffered two outages early this week that resulted in one hour and 46 minutes of downtime and another hour of significantly degraded performance. This is far below our standard of quality, and for that",
+      "link": "https://github.blog/2012-09-14-github-availability-this-week/",
+      "author": "Jesse Newland"
+    },
+    {
+      "title": "How we keep GitHub fast",
+      "date": "2012-09-05",
+      "abstract": "The most important factor in web application design is responsiveness. And the first step toward responsiveness is speed. But speed within a web application is complicated. Our strategy for keeping GitHub fast begins with powerful",
+      "link": "https://github.blog/2012-09-05-how-we-keep-github-fast/",
+      "author": "Kyle Neath"
+    },
+    {
+      "title": "Deploying at GitHub",
+      "date": "2012-08-29",
+      "abstract": "Deploying is a big part of the lives of most GitHub employees. We don't have a release manager and there are no set weekly deploys. Developers and designers are responsible for shipping new stuff themselves",
+      "link": "https://github.blog/2012-08-29-deploying-at-github/",
+      "author": "Jake Douglas"
+    },
+    {
+      "title": "Optimizing Sales for Happiness",
+      "date": "2012-08-28",
+      "abstract": "Looking for GitHub's sales team? Please Contact Us. 10/17/14 Update from @pjhyett: Building products that people love paired with a customer-focused sales team hasn't changed, but the specifics of our approach have evolved over time",
+      "link": "https://github.blog/2012-08-28-optimizing-sales-for-happiness/",
+      "author": "PJ Hyett"
+    },
+    {
+      "title": "Surviving the SSHpocolypse",
+      "date": "2012-07-26",
+      "abstract": "Over the past few days, we have had some issues with our SSH infrastructure affecting a small number of Git SSH operations. We apologize for the inconvenience, and are happy to report that we've completed",
+      "link": "https://github.blog/2012-07-26-surviving-the-sshpocolypse/",
+      "author": "Scott J. Goldman"
+    },
+    {
+      "title": "Designing GitHub for Windows",
+      "date": "2012-06-07",
+      "abstract": "This article hasn't been updated in a while. For the most current information, please refer to the official Help documentation and the Desktop website. Today, I thought it would be fun to give some insight",
+      "link": "https://github.blog/2012-06-07-designing-github-for-windows/",
+      "author": "Timothy Clem"
+    },
+    {
+      "title": "The Making of Octicons",
+      "date": "2012-05-09",
+      "abstract": "In our last post we announced Octicons, our new icon font. We put a lot of work into the font and gained a lot of knowledge in the process. With five different designers working to",
+      "link": "https://github.blog/2012-05-09-the-making-of-octicons/",
+      "author": "Cameron McEfee"
+    },
+    {
+      "title": "ReactiveCocoa for a better world",
+      "date": "2012-05-04",
+      "abstract": "Native apps spend a lot of time waiting and then reacting. We wait for the user to do something in the UI. Wait for a network call to respond. Wait for an asynchronous operation to",
+      "link": "https://github.blog/2012-05-04-reactivecocoa-for-a-better-world/",
+      "author": "Josh Abernathy"
+    },
+    {
+      "title": "How we use Pull Requests to build GitHub",
+      "date": "2012-05-02",
+      "abstract": "We recently shipped a new About section. It has all sorts of stuff like high resolution logos, pictures of the GitHub team, a little bit about our story, recent press mentions and maybe most importantly",
+      "link": "https://github.blog/2012-05-02-how-we-use-pull-requests-to-build-github/",
+      "author": "Ben Bleikamp"
+    },
+    {
+      "title": "Akavache is now open source",
+      "date": "2012-04-28",
+      "abstract": "Today, we're open-sourcing a library that we have been using at GitHub: Akavache. Akavache is an asynchronous, persistent key-value cache created for writing native desktop and mobile applications in C#. Think of it like memcached",
+      "link": "https://github.blog/2012-04-28-akavache-is-now-open-source/",
+      "author": "Paul Betts"
+    },
+    {
+      "title": "Fileserver Maintenance Wednesday Night",
+      "date": "2012-04-24",
+      "abstract": "We'll be performing some scheduled maintenance on a fileserver pair this Wednesday (April 25th, 2012) at 9PM PDT. A small percentage of repositories will be placed in maintenance mode for around 30 minutes during this",
+      "link": "https://github.blog/2012-04-24-fileserver-maintenance-wednesday-night/",
+      "author": "Jesse Newland"
+    },
+    {
+      "title": "All of the Hooks",
+      "date": "2011-10-19",
+      "abstract": "Over three years ago, @pjhyett launched GitHub Services with just four services: Campfire, IRC, Lighthouse, and Twitter. Since then, 124 other people contributed to a total of 68 third-party services. We and many others depend",
+      "link": "https://github.blog/2011-10-19-all-of-the-hooks/",
+      "author": "Risk Olson"
+    },
+    {
+      "title": "Gist creation in 5 lines with Java v3 API",
+      "date": "2011-05-18",
+      "abstract": "As part of the Mylyn connector announcement last week a new stand-alone Java library was released for accessing GitHub API v3. Below is a 5 line example showing how to create a new private Gist",
+      "link": "https://github.blog/2011-05-18-gist-creation-in-5-lines-with-java-v3-api/",
+      "author": "Kevin Sawicki"
+    },
+    {
+      "title": "Those are some big numbers",
+      "date": "2011-04-20",
+      "abstract": "Every night, our friendly Hubot pops into one of our Campfire rooms and posts some numbers. Turns out we passed some pretty significant numbers in the past couple days. And numbers are fun, so we",
+      "link": "https://github.blog/2011-04-20-those-are-some-big-numbers/",
+      "author": "Kyle Neath"
+    },
+    {
+      "title": "Reply to Comments from Email",
+      "date": "2011-03-10",
+      "abstract": "You should notice a small change to the From address on your email notifications now: they're no longer from no-reply@github.com. We're now accepting replies from most email notifications that you'll receive: Issue comments Commit comments",
+      "link": "https://github.blog/2011-03-10-reply-to-comments-from-email/",
+      "author": "Risk Olson"
+    },
+    {
+      "title": "Scheduled Maintenance Tonight at 22:00 PST",
+      "date": "2011-01-24",
+      "abstract": "We will be performing scheduled maintenance tonight from 22:00 to 22:20 PST. During this window GitHub and all Git access will be entirely unavailable for a short period while we perform MySQL and Redis maintenance.",
+      "link": "https://github.blog/2011-01-24-scheduled-maintenance-tonight-at-22-00-pst/",
+      "author": "Tom Preston-Werner"
+    },
+    {
+      "title": "Recent Services Interruptions",
+      "date": "2011-01-06",
+      "abstract": "Here's a summary of the outages we encountered this week and what we're doing to prevent this from happening again. Monday January 3rd Monday marked the first \u201creal\u201d workday for most people in 2011. Our",
+      "link": "https://github.blog/2011-01-06-recent-services-interruptions/",
+      "author": "Corey Donohoe"
+    },
+    {
+      "title": "The Tree Slider",
+      "date": "2010-12-07",
+      "abstract": "Those of you running recent versions of Safari, Chrome, or Firefox 4 may have noticed some changes to tree browsing on GitHub. The new HTML5 History API (which really has nothing to do with HTML",
+      "link": "https://github.blog/2010-12-07-the-tree-slider/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Scala Projects Classified Properly",
+      "date": "2010-04-20",
+      "abstract": "We just fixed an issue where some Scala projects were being misclassified as Java projects. Now, recent projects like Twitter's FlockDB and Gizzard show up in the Scala language dashboard as they should. package examples",
+      "link": "https://github.blog/2010-04-20-scala-projects-classified-properly/",
+      "author": "Risk Olson"
+    },
+    {
+      "title": "Tracking Deploys with Compare View",
+      "date": "2010-03-09",
+      "abstract": "We log a message to Campfire anytime someone deploys code to staging or production. It looks like this: Recently, we added the link pointing to a Compare View where you can review the commits that",
+      "link": "https://github.blog/2010-03-09-tracking-deploys-with-compare-view/",
+      "author": "Ryan Tomayko"
+    },
+    {
+      "title": "New Languages Highlighted",
+      "date": "2010-02-24",
+      "abstract": "CoffeeScript (.coffee) LotteryDraw: { play: -> result: LotteryTicket.new_random() winners: {} this.tickets.each (buyer, ticket_list) -> ticket_list.each (ticket) -> score: ticket.score(result) return if score is 0 winners[buyer] ||= [] winners[buyer].push([ticket, score]) this.tickets: {} winners } Objective-J (.j)",
+      "link": "https://github.blog/2010-02-24-new-languages-highlighted/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Optimizing asset bundling and serving with Rails",
+      "date": "2009-11-19",
+      "abstract": "We spend a lot of time optimizing the front end experience at GitHub. With that said, our asset (css, javascript, images) packaging and serving has evolved to be the best setup I've seen out of",
+      "link": "https://github.blog/2009-11-19-optimizing-asset-bundling-and-serving-with-rails/",
+      "author": "Kyle Neath"
+    },
+    {
+      "title": "Multiple file gist improvements",
+      "date": "2009-11-19",
+      "abstract": "We've always had the ability to embed multiple file gists: Your browser does not support IFrames But today we added the ability to embed specific files in a multi-file gist! Your browser does not support",
+      "link": "https://github.blog/2009-11-19-multiple-file-gist-improvements/",
+      "author": "Kyle Neath"
+    },
+    {
+      "title": "How We Made GitHub Fast",
+      "date": "2009-10-20",
+      "abstract": "Now that things have settled down from the move to Rackspace, I wanted to take some time to go over the architectural changes that we've made in order to bring you a speedier, more scalable",
+      "link": "https://github.blog/2009-10-20-how-we-made-github-fast/",
+      "author": "Tom Preston-Werner"
+    },
+    {
+      "title": "unicorn.god",
+      "date": "2009-10-12",
+      "abstract": "Some people have been asking for our Unicorn god config. Here it is: # http://unicorn.bogomips.org/SIGNALS.html rails_env = ENV[\u2018RAILS_ENV'] || \u2018production' rails_root = ENV[\u2018RAILS_ROOT'] || \u201c/data/github/current\u201d God.watch do |w| w.name = \u201cunicorn\u201d w.interval = 30.seconds #",
+      "link": "https://github.blog/2009-10-12-unicorn-god/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Unicorn!",
+      "date": "2009-10-09",
+      "abstract": "We've been running Unicorn for more than a month. Time to talk about it. What is it? Unicorn is an HTTP server for Ruby, similar to Mongrel or Thin. It uses Mongrel's Ragel HTTP parser",
+      "link": "https://github.blog/2009-10-09-unicorn/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Rackspace Move Scheduled for Sunday, September 27th at 5PM Pacific Time",
+      "date": "2009-09-22",
+      "abstract": "On Sunday, September 27th at 5PM Pacific time (see it in your timezone) we will begin the final move to Rackspace. We are aiming to have less than an hour of website and push unavailability",
+      "link": "https://github.blog/2009-09-22-rackspace-move-scheduled-for-sunday-september-27th-at-5pm-pacific-time/",
+      "author": "Tom Preston-Werner"
+    },
+    {
+      "title": "Deployment Script Spring Cleaning",
+      "date": "2009-08-05",
+      "abstract": "Better late than never, right? As we get ready to upgrade our servers I thought it'd be a good time to upgrade our deployment process. Currently pushing out a new version of GitHub takes upwards",
+      "link": "https://github.blog/2009-08-05-deployment-script-spring-cleaning/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Smart JS Polling",
+      "date": "2009-07-30",
+      "abstract": "While Comet may be all the rage, some of us are still stuck in web 2.0. And those of us that are use Ajax polling to see if there's anything new on the server. Here",
+      "link": "https://github.blog/2009-07-30-smart-js-polling/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Git as a Data Store in Python (and Ruby)",
+      "date": "2009-03-10",
+      "abstract": "I recently stumbled across an older article titled Using Git as a versioned data store in Python by @jwiegley. Your browser does not support IFrames Basically, it's a module similar to Python's shelve which stores",
+      "link": "https://github.blog/2009-03-10-git-as-a-data-store-in-python-and-ruby/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Keeping GoogleBot Happy",
+      "date": "2009-03-04",
+      "abstract": "One of the interesting side effects I hadn't considered when we rolled out some fairly significant caching updates on GitHub in the beginning of January was how much Google's crawler would take full advantage of",
+      "link": "https://github.blog/2009-03-04-keeping-googlebot-happy/",
+      "author": "PJ Hyett"
+    },
+    {
+      "title": "PHP in Erlang",
+      "date": "2009-02-16",
+      "abstract": "You heard me right. php_app manages a pool of persistent PHP processes and provides a simple API to evaluate PHP code from Erlang. The blog post gives a quick overview and some examples. Your browser",
+      "link": "https://github.blog/2009-02-16-php-in-erlang/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Easy Git!",
+      "date": "2009-02-03",
+      "abstract": "eg is a nifty piece of work. Are you meeting resistance trying to move your coworkers or friends to Git? (\u201cSVN is good enough.\u201d) Know someone who would love to use GitHub but can't seem",
+      "link": "https://github.blog/2009-02-03-easy-git/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Scripting Bioclipse",
+      "date": "2009-01-23",
+      "abstract": "Bioclipse (a Java-based, open source, visual platform for chemo- and bioinformatics) has scripting support and the community has developed a great method for sharing those scripts: Gist! They create Gists then tag them on delicious",
+      "link": "https://github.blog/2009-01-23-scripting-bioclipse/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Compojure: Clojure Web Framework",
+      "date": "2009-01-20",
+      "abstract": "Compojure is a Clojure web framework similar to web.py or Sinatra. Your browser does not support IFrames The project also has a Wikibook and mailing list. Looks cool.",
+      "link": "https://github.blog/2009-01-20-compojure-clojure-web-framework/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Gist for Greasemonkey",
+      "date": "2009-01-19",
+      "abstract": "We're now appending the gist name at the end of its raw url. That means it's dead-simple to serve greasemonkey (or greasekit) scripts directly from gist.github.com. I was able to write my first script and",
+      "link": "https://github.blog/2009-01-19-gist-for-greasemonkey/",
+      "author": "PJ Hyett"
+    },
+    {
+      "title": "Dirty Git State in Your Prompt",
+      "date": "2009-01-15",
+      "abstract": "Henrik has a great article explaining why and how to display Git's dirty state status (along with the branch, of course) in your bash prompt. topfunky prefers a skull and bones for his dirty state",
+      "link": "https://github.blog/2009-01-15-dirty-git-state-in-your-prompt/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "dj.god",
+      "date": "2008-11-18",
+      "abstract": "People have asked for our delayed_job god config. Welp, here it is:",
+      "link": "https://github.blog/2008-11-18-dj-god/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Speedy Queries",
+      "date": "2008-10-31",
+      "abstract": "First our new queue, and now this: ![](https://cloud.githubusercontent.com/assets/391331/6140975/de5ad0f6-b153-11e4-8000-eaf6de1f3d72.png) ![](https://cloud.githubusercontent.com/assets/391331/6140976/e1b220c4-b153-11e4-9b07-b8e763ef49e7.jpg) The site should be much faster \u2013 but it's still not fast enough. We're hard at work making things like git clones, tree browsing, and commit",
+      "link": "https://github.blog/2008-10-31-speedy-queries/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "The New Queue",
+      "date": "2008-10-30",
+      "abstract": "Yesterday we moved to a new queue, Shopify's delayed_job (or dj). After trying a few different solutions in the early days, we settled on Ara Howard's Bj. It was fine for quite a while, but",
+      "link": "https://github.blog/2008-10-30-the-new-queue/",
+      "author": "Chris Wanstrath"
+    },
+    {
+      "title": "Scaling Lesson #23742",
+      "date": "2008-07-17",
+      "abstract": "GitHub was created as a side project, but it seems to have struck a nerve and gained traction quickly. As such, a lot of the infrastructure decisions were made not figuring on this sort of",
+      "link": "https://github.blog/2008-07-17-scaling-lesson-23742/",
+      "author": "PJ Hyett"
+    },
+    {
+      "title": "Supercharged git-daemon",
+      "date": "2008-07-14",
+      "abstract": "Over the past several weeks I've been working on a secret Erlang project that will allow us to grow GitHub in new and novel ways. The project is called egitd and is a replacement for",
+      "link": "https://github.blog/2008-07-14-supercharged-git-daemon/",
+      "author": "Tom Preston-Werner"
+    },
+    {
+      "title": "Supercharged Ruby-Git",
+      "date": "2008-07-09",
+      "abstract": "One of the slowest things you can do in Ruby is shell out to the operating system. As a contrived example, let's open an empty file 1,000 times: >> require \u2018benchmark' >> `touch foo` >>",
+      "link": "https://github.blog/2008-07-09-supercharged-ruby-git/",
+      "author": "PJ Hyett"
+    },
+    {
+      "title": "Downtime Tonight",
+      "date": "2008-03-07",
+      "abstract": "We'll have an hour or two of downtime tonight around midnight PST while the awesome dudes at Engine Yard upgrade our disk capacity. Thanks, see you on the flip side.",
+      "link": "https://github.blog/2008-03-07-downtime-tonight/",
+      "author": "Chris Wanstrath"
+    }
+  ]
+}
