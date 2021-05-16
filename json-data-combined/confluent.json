@@ -1,0 +1,704 @@
+{
+    "confluent": [
+        {
+            "abstract": "I\u2019m proud to announce the release of Apache Kafka 2.7.0 on behalf of the Apache Kafka\u00ae community. The 2.7.0 release contains many new features and improvements. This blog post highlights",
+            "author": "Bill Bejeck",
+            "date": "12:21:2020",
+            "link": "https://www.confluent.io//blog/apache-kafka-2-7-features-updates-improvements",
+            "title": "What\u2019s New in Apache Kafka 2.7.0"
+        },
+        {
+            "abstract": "Microservice architectures continue to grow within engineering organizations as teams strive to increase development velocity. Microservices promote the idea of modularity as a first-class citizen in a distributed architecture, enabling",
+            "author": "Rick Spurgeon",
+            "date": "12:17:2020",
+            "link": "https://www.confluent.io//blog/spring-microservices-into-production-with-kubernetes-gitops/",
+            "title": "Spring Your Microservices into Production with Kubernetes and GitOps"
+        },
+        {
+            "abstract": "We\u2019re pleased to announce ksqlDB 0.14, one of the most feature-packed releases of the year. This version includes expanded query support over materialized views, incremental schema alteration, variable substitution, additional",
+            "author": "Vicky Papavasileiou",
+            "date": "12:16:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-0-14-0-features-updates/",
+            "title": "Announcing ksqlDB 0.14.0"
+        },
+        {
+            "abstract": "Consuming messages in parallel is what Apache Kafka\u00ae is all about, so you may well wonder, why would we want anything else? It turns out that, in practice, there are",
+            "author": "Antony Stubbs",
+            "date": "12:15:2020",
+            "link": "https://www.confluent.io//blog/introducing-confluent-parallel-message-processing-client/",
+            "title": "Introducing the Confluent Parallel Consumer"
+        },
+        {
+            "abstract": "Building event streaming applications has never been simpler with ksqlDB. But what is it? ksqlDB is an event streaming database for building stream processing applications. Unlike Kafka Streams, ksqlDB programs",
+            "author": "Allison Walther",
+            "date": "12:14:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-techniques-that-make-stream-processing-easier-than-ever/",
+            "title": "4 Incredible ksqlDB Techniques (#2 Will Make You Cry)"
+        },
+        {
+            "abstract": "This blog post shows how transactional machine learning (TML) integrates data streams with automated machine learning (AutoML), using Apache Kafka\u00ae as the data backbone, to create a frictionless machine learning",
+            "author": "Sebastian Maurice",
+            "date": "12:11:2020",
+            "link": "https://www.confluent.io//blog/transactional-machine-learning-with-maads-viper-and-apache-kafka/",
+            "title": "Transactional Machine Learning at Scale with MAADS-VIPER and Apache Kafka"
+        },
+        {
+            "abstract": "This article covers one crucial piece of every distributed system: visibility. At AppsFlyer, we call ourselves metrics obsessed and truly believe that you cannot know what you cannot see. We",
+            "author": "Elad Leev",
+            "date": "12:10:2020",
+            "link": "https://www.confluent.io//blog/kafka-lag-monitoring-and-metrics-at-appsflyer/",
+            "title": "Apache Kafka Lag Monitoring at AppsFlyer"
+        },
+        {
+            "abstract": "Is Windows your favorite development environment? Do you want to run Apache Kafka\u00ae on Windows? Thanks to the Windows Subsystem for Linux 2 (WSL 2), now you can, and with",
+            "author": "Jim Galasyn",
+            "date": "12:9:2020",
+            "link": "https://www.confluent.io//blog/set-up-and-run-kafka-on-windows-linux-wsl-2",
+            "title": "How to Run Apache Kafka on Windows"
+        },
+        {
+            "abstract": "If you\u2019re getting started with Apache Kafka\u00ae and event streaming applications, you\u2019ll be pleased to see the variety of languages available to start interacting with the event streaming platform. It",
+            "author": "Lo\u00efc DIVAD",
+            "date": "12:8:2020",
+            "link": "https://www.confluent.io//blog/kafka-scala-tutorial-for-beginners/",
+            "title": "Getting Started with Scala and Apache Kafka"
+        },
+        {
+            "abstract": "Data is the currency of competitive advantage in today\u2019s digital age. All organizations struggle with their data due to the sheer variety of data types and ways that it can",
+            "author": "Derrick Anderson",
+            "date": "12:4:2020",
+            "link": "https://www.confluent.io//blog/apache-kafka-spring-cloud-data-flow-tutorial/",
+            "title": "Getting Started with Spring Cloud Data Flow and Confluent Cloud"
+        },
+        {
+            "abstract": "Organizations define standards and policies around the usage of data to ensure the following: Data quality: Data streams follow the defined data standards as represented in schemas Data evolvability: Schemas",
+            "author": "Yeva Byzek",
+            "date": "12:3:2020",
+            "link": "https://www.confluent.io//blog/ensure-data-quality-and-evolvability-with-secured-schema-registry/",
+            "title": "Ensure Data Quality and Data Evolvability with a Secured Schema Registry"
+        },
+        {
+            "abstract": "This is the eighth and final month of Project Metamorphosis: an initiative that brings the best characteristics of modern cloud-native data systems to the Apache Kafka\u00ae ecosystem, served from Confluent",
+            "author": "Michael NollDiby Malakar",
+            "date": "12:2:2020",
+            "link": "https://www.confluent.io//blog/project-metamorphosis-month-8-complete-kafka-event-streaming-in-confluent-cloud/",
+            "title": "Project Metamorphosis Month 8: Complete Apache Kafka in Confluent Cloud"
+        },
+        {
+            "abstract": "Due to the distributed architecture of Apache Kafka\u00ae, the operational burden of managing it can quickly become a limiting factor on adoption and developer agility. For this reason, it is",
+            "author": "Joseph MoraisJobin George",
+            "date": "12:1:2020",
+            "link": "https://www.confluent.io//blog/real-time-serverless-ingestion-streaming-analytics-using-aws-and-confluent-cloud/",
+            "title": "Real-Time Serverless Ingestion, Streaming, and Analytics using AWS and Confluent Cloud"
+        },
+        {
+            "abstract": "As part of this year\u2019s Kafka Summit, the Confluent Community team hosted a community hackathon named Kafkathon 2020. The event provided an opportunity for participants to learn, build, and showcase",
+            "author": "Alexandr MarchenkoEdgar MadrigalAnthony Middleton",
+            "date": "11:25:2020",
+            "link": "https://www.confluent.io//blog/best-kafkathons-in-2020-event-streaming-everywhere/",
+            "title": "Kafkathon 2020: Hacking Event Streams Everywhere"
+        },
+        {
+            "abstract": "I\u2019m excited to announce a new strategic partnership with IBM. As part of this partnership, IBM will be reselling Confluent Platform, enabling its customers to leverage their existing IBM relationships",
+            "author": "Jay Kreps",
+            "date": "11:24:2020",
+            "link": "https://www.confluent.io//blog/ibm-confluent-announce-strategic-partnership/",
+            "title": "IBM and Confluent Announce Strategic Partnership"
+        },
+        {
+            "abstract": "As a clothing retailer with more than 1.5 million customers worldwide, Boden is always looking to capitalise on business moments to drive sales. For example, when the Duchess of Cambridge",
+            "author": "Matt Simpson",
+            "date": "11:23:2020",
+            "link": "https://www.confluent.io//blog/digital-transformation-in-retail-using-kafka/",
+            "title": "Digital Transformation in Style: How Boden Innovates Retail Using Apache Kafka"
+        },
+        {
+            "abstract": "Building data pipelines isn\u2019t always straightforward. The gap between the shiny \u201chello world\u201d examples of demos and the gritty reality of messy data and imperfect formats is sometimes all too",
+            "author": "Robin Moffatt",
+            "date": "11:20:2020",
+            "link": "https://www.confluent.io//blog/using-kafka-ksqldb-kibana-to-stream-data-and-get-real-time-analytics/",
+            "title": "Analysing Historical and Live Data with ksqlDB and Elastic Cloud"
+        },
+        {
+            "abstract": "Software engineering memes are in vogue, and nothing is more fashionable than joking about how complicated distributed systems can be. Despite the ribbing, many people adopt them. Why? Distributed systems",
+            "author": "Michael Drogalis",
+            "date": "11:19:2020",
+            "link": "https://www.confluent.io//blog/how-real-time-stream-processing-safely-scales-with-ksqldb/",
+            "title": "How Real-Time Stream Processing Safely Scales with ksqlDB, Animated"
+        },
+        {
+            "abstract": "This blog post presents the use cases and architectures of REST APIs and Confluent REST Proxy, and explores a new management API and improved integrations into Confluent Server and Confluent",
+            "author": "Kai Waehner",
+            "date": "11:18:2020",
+            "link": "https://www.confluent.io//blog/http-and-rest-api-use-cases-and-architecture-with-apache-kafka/",
+            "title": "Use Cases and Architectures for HTTP and REST APIs with Apache Kafka"
+        },
+        {
+            "abstract": "My own sense of the passage of time in 2020 is no sure guide, but honestly it seems like Kafka Summit just happened\u2014yet here we are, deep into planning for",
+            "author": "Tim Berglund",
+            "date": "11:17:2020",
+            "link": "https://www.confluent.io//blog/kafka-summit-2021-double-the-fun/",
+            "title": "Kafka Summit 2021 \u2013 Double the Fun"
+        },
+        {
+            "abstract": "It\u2019s almost KubeCon! Let\u2019s talk about the state of cloud-native Apache Kafka\u00ae and other distributed systems on Kubernetes. Over the last decade, our industry has seen the rise of container",
+            "author": "Amit Gupta",
+            "date": "11:16:2020",
+            "link": "https://www.confluent.io//blog/cloud-native-kafka-kubernetes-revolutionizing-distributed-systems",
+            "title": "The Cloud-Native Evolution of Apache Kafka on Kubernetes"
+        },
+        {
+            "abstract": "Asynchronous boundaries. Frameworks. Configuring frameworks. Apache Kafka\u00ae. All of these share one thing in common: complexity in testing. Now imagine them combined\u2014it gets much harder. This is the final blog",
+            "author": "Alexei Zenin",
+            "date": "11:13:2020",
+            "link": "https://www.confluent.io//blog/advanced-testing-techniques-for-spring-kafka/",
+            "title": "Advanced Testing Techniques for Spring for Apache Kafka"
+        },
+        {
+            "abstract": "Have you ever had to write a program that needed to handle any data payload that could be thrown at you? If so, did you always have to update the",
+            "author": "Alexei Zenin",
+            "date": "11:12:2020",
+            "link": "https://www.confluent.io//blog/self-describing-events-using-spring-kafka-and-confluent-schema-registry/",
+            "title": "Self-Describing Events and How They Reduce Code in Your Processors"
+        },
+        {
+            "abstract": "The rise of the cloud introduced a focus on rapid iteration and agility that is founded on specialization. If you are an application developer, you know your applications better than",
+            "author": "Koelli MungeeDustin Cote",
+            "date": "11:10:2020",
+            "link": "https://www.confluent.io//blog/reliable-event-streaming-and-proactive-support-with-confluent-cloud/",
+            "title": "Project Metamorphosis Month 7: Reliable Event Streaming with Confluent Cloud and Proactive Support"
+        },
+        {
+            "abstract": "Event modeling has always been a pain point in organizations. From figuring out the standard format of your schemas, processing said data models effectively, and finally testing before you deploy",
+            "author": "Alexei Zenin",
+            "date": "11:9:2020",
+            "link": "https://www.confluent.io//blog/spring-kafka-protobuf-part-1-event-data-modeling",
+            "title": "How to Choose Between Strict and Dynamic Schemas"
+        },
+        {
+            "abstract": "Today, the ability to capture and harness the value of data in real time is critical for businesses to remain competitive in a data-driven world. Apache Kafka\u00ae, a scalable, open-source,",
+            "author": "Vahid Fereydouny",
+            "date": "11:6:2020",
+            "link": "https://www.confluent.io//blog/confluent-cloud-data-security-features/",
+            "title": "What\u2019s New in Confluent Cloud Security"
+        },
+        {
+            "abstract": "\u201cPersistent\u201d queries have historically formed the basis of ksqlDB applications, which continuously transform, enrich, aggregate, materialize, and join your Apache Kafka\u00ae data using a familiar SQL interface. ksqlDB continuously executes",
+            "author": "Derek Nelson",
+            "date": "11:5:2020",
+            "link": "https://www.confluent.io//blog/pull-queries-in-preview-confluent-cloud-ksqdb/",
+            "title": "Announcing Pull Queries in Preview in Confluent Cloud ksqlDB"
+        },
+        {
+            "abstract": "A fundamental challenge with today\u2019s \u201cdata explosion\u201d is finding the best answer to the question, \u201cSo where do I put my data?\u201d while avoiding the longer-term problem of data warehouses,",
+            "author": "John Neal",
+            "date": "10:30:2020",
+            "link": "https://www.confluent.io//blog/streaming-data-pipelines-and-analytics-with-qlik-and-kafka",
+            "title": "Building Streaming Data Architectures with Qlik Replicate and Apache Kafka"
+        },
+        {
+            "abstract": "As described in the blog post Apache Kafka\u00ae Needs No Keeper: Removing the Apache ZooKeeper Dependency, when KIP-500 lands next year, Apache Kafka will replace its usage of Apache ZooKeeper",
+            "author": "Yeva Byzek",
+            "date": "10:27:2020",
+            "link": "https://www.confluent.io//blog/how-to-prepare-for-kip-500-kafka-zookeeper-removal-guide/",
+            "title": "Preparing Your Clients and Tools for KIP-500: ZooKeeper Removal from Apache Kafka"
+        },
+        {
+            "abstract": "Apache Kafka\u00ae is a distributed real-time processing platform that allows for the ingestion of huge volumes of data. ksqlDB is part of the Kafka ecosystem and offers a SQL-like language",
+            "author": "G\u00e9raud Dug\u00e9 de BernonvilleMaxime Ribera",
+            "date": "10:23:2020",
+            "link": "https://www.confluent.io//blog/build-a-intrusion-detection-using-ksqldb/",
+            "title": "Intrusion Detection with ksqlDB"
+        },
+        {
+            "abstract": "It\u2019s important to be able to limit memory consumption of a running service. Use too much, and your application will crash and need to restart. If this happens too often,",
+            "author": "Rohan Desai",
+            "date": "10:22:2020",
+            "link": "https://www.confluent.io//blog/bounding-ksqldb-memory-usage/",
+            "title": "Bounding ksqlDB Memory Usage"
+        },
+        {
+            "abstract": "Every organization that exposes its services online is subject to the interest of malicious actors. The ongoing struggle with botnets, crawlers, script kiddies, and bounty hunters is challenging and requires",
+            "author": "Daniel Jagielski",
+            "date": "10:21:2020",
+            "link": "https://www.confluent.io//blog/real-time-risk-management-with-kafka-and-event-streaming/",
+            "title": "Lessons Learned from Evolving a Risk Management Platform to Event Streaming"
+        },
+        {
+            "abstract": "Apache Kafka\u00ae is an event streaming platform used by more than 30% of the Fortune 500 today. There are numerous features of Kafka that make it the de-facto standard for",
+            "author": "Bill Bejeck",
+            "date": "10:16:2020",
+            "link": "https://www.confluent.io//blog/5-things-every-kafka-developer-should-know/",
+            "title": "Top 5 Things Every Apache Kafka Developer Should Know"
+        },
+        {
+            "abstract": "With the release of Confluent Platform 6.0, we officially made Tiered Storage generally available. At launch, we supported two major cloud-specific object stores: Amazon S3 and Google Cloud Storage. Today,",
+            "author": "Marc Selwan",
+            "date": "10:14:2020",
+            "link": "https://www.confluent.io//blog/get-cloud-like-flexibility-elasticity-infinite-storage-on-prem-with-confluent-pure-storage",
+            "title": "Cloud-Like Flexibility and Infinite Storage with Confluent Tiered Storage and FlashBlade from Pure Storage"
+        },
+        {
+            "abstract": "All around the world, companies are asking the same question: What is happening right now? We are inundated with pieces of data that have a fragment of the answer. But",
+            "author": "Michael Drogalis",
+            "date": "10:13:2020",
+            "link": "https://www.confluent.io//blog/how-real-time-materialized-views-work-with-ksqldb/",
+            "title": "How Real-Time Materialized Views Work with ksqlDB, Animated"
+        },
+        {
+            "abstract": "It\u2019s 3:00 am and PagerDuty keeps firing you alerts about your application being down. You need to figure out what the issue is, if it\u2019s impacting users, and resolve it",
+            "author": "Rahul BhattacharyaGavin Johnson",
+            "date": "10:9:2020",
+            "link": "https://www.confluent.io//blog/kafka-connect-for-new-relic/",
+            "title": "Getting Started with Kafka Connect for New Relic"
+        },
+        {
+            "abstract": "The cloud opens up exciting new opportunities for information gathering, analysis, and sharing that can make every organization\u2019s products and services better. Thanks to the cloud and its decentralized nature,",
+            "author": "Dan Rosanova",
+            "date": "10:7:2020",
+            "link": "https://www.confluent.io//blog/kafka-security-with-confluent-project-metamorphosis-month-6",
+            "title": "Project Metamorphosis Month 6: Secure Apache Kafka in Confluent Cloud"
+        },
+        {
+            "abstract": "Apache Kafka\u00ae scales well. A Kafka cluster can grow to tens or hundreds of brokers and easily sustain tens of GB per second of read and write traffic. But scaling",
+            "author": "Steve Rodrigues",
+            "date": "10:6:2020",
+            "link": "https://www.confluent.io//blog/self-balancing-kafka-clusters-in-confluent-platform-6-0/",
+            "title": "Restoring Balance to the Cluster: Self-Balancing Clusters in Confluent Platform 6.0"
+        },
+        {
+            "abstract": "With the release of Confluent Platform 6.0 comes a preview of Confluent Cluster Linking available to self-managed customers and in Confluent Cloud for our early access partners. Cluster Linking is",
+            "author": "Brian Byrne",
+            "date": "10:5:2020",
+            "link": "https://www.confluent.io//blog/kafka-cluster-linking-with-confluent-platform/",
+            "title": "Introducing Cluster Linking in Confluent Platform 6.0"
+        },
+        {
+            "abstract": "Stream processing applications, including streaming ETL pipelines, materialized caches, and event-driven microservices, are made easy with ksqlDB. Until recently, your options for interacting with ksqlDB were limited to its command-line",
+            "author": "Victoria Xia",
+            "date": "10:2:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-java-client-iot-inspired-demo/",
+            "title": "ksqlDB Meets Java: An IoT-Inspired Demo of the Java Client for ksqlDB"
+        },
+        {
+            "abstract": "Each month, we\u2019ve announced a set of Confluent features organized around what we think are the key foundational traits of cloud-native data systems as part of Project Metamorphosis. Data systems",
+            "author": "Ganesh Srinivasan",
+            "date": "10:1:2020",
+            "link": "https://www.confluent.io//blog/confluent-platform-6-0-delivers-the-most-powerful-event-streaming-platform-to-date/",
+            "title": "Introducing Confluent Platform 6.0"
+        },
+        {
+            "abstract": "The ksqlDB team is pleased to announce ksqlDB 0.12.0. This release continues to improve upon the usability of ksqlDB and aims to reduce administration time. Highlights include query upgrades, which",
+            "author": "Alan Sheinberg",
+            "date": "9:30:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-0-12-0-features-updates/",
+            "title": "ksqlDB 0.12.0 Introduces Real-Time Query Upgrades and Automatic Query Restarts"
+        },
+        {
+            "abstract": "ksqlDB, the event streaming database, is becoming one of the most popular ways to work with Apache Kafka\u00ae. Every day, we answer many questions about the project, but here\u2019s a",
+            "author": "Michael Drogalis",
+            "date": "9:29:2020",
+            "link": "https://www.confluent.io//blog/how-real-time-stream-processing-works-with-ksqldb",
+            "title": "How Real-Time Stream Processing Works with ksqlDB, Animated"
+        },
+        {
+            "abstract": "Twitter, one of the most popular social media platforms today, is well known for its ever-changing environment\u2014user behaviors evolve quickly; trends are dynamic and versatile; and special and emergent events",
+            "author": "Peilin Yang",
+            "date": "9:25:2020",
+            "link": "https://www.confluent.io//blog/how-twitter-built-a-machine-learning-pipeline-with-kafka",
+            "title": "Building a Machine Learning Logging Pipeline with Kafka Streams at Twitter"
+        },
+        {
+            "abstract": "Operating critical Apache Kafka\u00ae event streaming applications in production requires sound automation and engineering practices. Streaming applications are often at the center of your transaction processing and data systems, requiring",
+            "author": "Rick Spurgeon",
+            "date": "9:24:2020",
+            "link": "https://www.confluent.io//blog/kafka-devops-with-confluent-kubernetes-and-gitops/",
+            "title": "Apache Kafka DevOps with Kubernetes and GitOps"
+        },
+        {
+            "abstract": "The promise of cloud computing is simplicity, speed, and cost savings. But what about workloads that can\u2019t move to the cloud? Are they stuck using expensive legacy tooling and practices?",
+            "author": "Josh TreichelVivian Fialho",
+            "date": "9:23:2020",
+            "link": "https://www.confluent.io//blog/modernize-apps-and-infrastructure-with-anthos-confluent-kafka/",
+            "title": "Infrastructure Modernization with Google Anthos and Apache Kafka"
+        },
+        {
+            "abstract": "Since the MongoDB Atlas source and sink became available in Confluent Cloud, we\u2019ve received many questions around how to set up these connectors in a secure environment. By default, MongoDB",
+            "author": "Nathan Nam",
+            "date": "9:18:2020",
+            "link": "https://www.confluent.io//blog/mongodb-atlas-connector-in-secure-environments/",
+            "title": "Using the Fully Managed MongoDB Atlas Connector in a Secure Environment"
+        },
+        {
+            "abstract": "Near-real-time insights have become a de facto requirement for Azure use cases involving scalable log analytics, time series analytics, and IoT/telemetry analytics. Azure Data Explorer (also called Kusto) is the",
+            "author": "Anagha Khanolkar",
+            "date": "9:16:2020",
+            "link": "https://www.confluent.io//blog/stream-data-from-kafka-to-azure-data-explorer/",
+            "title": "Streaming Data from Apache Kafka into Azure Data Explorer with Kafka Connect"
+        },
+        {
+            "abstract": "Are you looking for a way to run AWS services on premises in your own datacenter? I am excited to share today that we have completed validation of support for",
+            "author": "Joseph MoraisJobin George",
+            "date": "9:15:2020",
+            "link": "https://www.confluent.io//blog/confluent-platform-is-now-certified-ready-on-aws-outposts/",
+            "title": "Confluent Is Now Certified Ready on AWS Outposts"
+        },
+        {
+            "abstract": "Users of messaging technologies such as JMS and AMQP often use message prioritization so that messages can be processed in a different order based on their importance. It doesn\u2019t take",
+            "author": "Ricardo Ferreira",
+            "date": "9:10:2020",
+            "link": "https://www.confluent.io//blog/prioritize-messages-in-kafka/",
+            "title": "Implementing Message Prioritization in Apache Kafka"
+        },
+        {
+            "abstract": "Confluent Operator allows you to deploy and manage Confluent Platform as a cloud-native, stateful container application on Kubernetes and OpenShift. The automation provided by Kubernetes, Operator, and Helm greatly simplifies",
+            "author": "Ram Dhakne",
+            "date": "9:9:2020",
+            "link": "https://www.confluent.io//blog/deploy-kafka-on-kubernetes-with-confluent-and-openshift-on-aws/",
+            "title": "Deploying Confluent Operator on Red Hat OpenShift Container Platform on AWS"
+        },
+        {
+            "abstract": "Hybrid cloud architecture and accelerated cloud migrations are becoming the norm rather than the exception, as our increasingly digital world introduces certain challenges along the way, including modernizing existing application/architecture,",
+            "author": "Israel EkpoMichael Coughlin",
+            "date": "9:3:2020",
+            "link": "https://www.confluent.io//blog/confluent-cloud-enables-event-driven-architectures-everywhere-in-azure/",
+            "title": "Enabling the Deployment of Event-Driven Architectures Everywhere Using Microsoft Azure and Confluent Cloud"
+        },
+        {
+            "abstract": "If you are taking your first steps with Apache Kafka\u00ae, looking at a test environment for your client application, or building a Kafka demo, there are two \u201ceasy button\u201d paths",
+            "author": "Yeva Byzek",
+            "date": "9:1:2020",
+            "link": "https://www.confluent.io//blog/testing-kafka-applications/",
+            "title": "Creating a Serverless Environment for Testing Your Apache Kafka Applications"
+        },
+        {
+            "abstract": "As a South African, who grew up during the era of apartheid, I\u2019ve witnessed firsthand the negative and long-lasting impact of discrimination, bias, and inequity, and I have a strong",
+            "author": "Roger Scott",
+            "date": "8:31:2020",
+            "link": "https://www.confluent.io//blog/diversity-equity-and-inclusion/",
+            "title": "Activating Intent: How Confluent is Energizing Its Diversity, Equity, and Inclusion Practice"
+        },
+        {
+            "abstract": "Whether you are a developer working on a cool new real-time application or an architect formulating the plan to reap the benefits of event streaming for the organisation, the subject",
+            "author": "Peter Gustafsson",
+            "date": "8:28:2020",
+            "link": "https://www.confluent.io//blog/confluent-cloud-security-controls/",
+            "title": "An Overview of Confluent Cloud Security Controls"
+        },
+        {
+            "abstract": "If you know me, you know two things: first, that I am committed to remote work as an effective way to build a company; I\u2019ve been a remote employee for",
+            "author": "Tim Berglund",
+            "date": "8:27:2020",
+            "link": "https://www.confluent.io//blog/kafka-summit-2020-session-highlights",
+            "title": "Best of Kafka Summit 2020 Roundup"
+        },
+        {
+            "abstract": "Here is what happened on day one of the event\u2014spoiler alert: My first Summit was awesome. This year\u2019s Kafka Summit is my first and I\u2019ve been lucky to have a",
+            "author": "Mark Trang",
+            "date": "8:25:2020",
+            "link": "https://www.confluent.io//blog/kafka-summit-2020-day-1-recap/",
+            "title": "Kafka Summit 2020: Day 1 Recap"
+        },
+        {
+            "abstract": "This is the fifth month of Project Metamorphosis: an initiative that addresses the manual toil of running Apache Kafka\u00ae by bringing the best characteristics of modern cloud-native data systems to",
+            "author": "Ben StopfordAddison Huddy",
+            "date": "8:24:2020",
+            "link": "https://www.confluent.io//blog/global-event-streaming-with-cluster-linking-confluent-cloud/",
+            "title": "Project Metamorphosis Month 5: Global Event Streaming in Confluent Cloud"
+        },
+        {
+            "abstract": "Apache Kafka\u00ae is one of the most popular event streaming systems. There are many ways to compare systems in this space, but one thing everyone cares about is performance. Kafka",
+            "author": "Alok NikhilVinoth Chandar",
+            "date": "8:21:2020",
+            "link": "https://www.confluent.io//blog/kafka-fastest-messaging-system/",
+            "title": "Benchmarking Apache Kafka, Apache Pulsar, and RabbitMQ: Which is the Fastest?"
+        },
+        {
+            "abstract": "This article describes why Bolt, the leading European on-demand transportation platform that operates across ride-hailing, food delivery, and e-mobility sectors, has journeyed toward adopting change data capture (CDC). Adopting CDC",
+            "author": "Ruslan Gibaiev",
+            "date": "8:20:2020",
+            "link": "https://www.confluent.io//blog/how-bolt-adopted-cdc-with-confluent-for-real-time-data-and-analytics/",
+            "title": "How Bolt Has Adopted Change Data Capture with Confluent Platform"
+        },
+        {
+            "abstract": "Tools for automated testing of Kafka Streams applications have been available to developers ever since the technology\u2019s genesis. Although these tools are very useful in practice, this blog post will",
+            "author": "Ivan PonomarevJohn Roesler",
+            "date": "8:18:2020",
+            "link": "https://www.confluent.io//blog/testing-kafka-streams/",
+            "title": "Testing Kafka Streams \u2013 A Deep Dive"
+        },
+        {
+            "abstract": "Can you believe that Kafka Summit 2020 is just a week away? The members of the Apache Kafka\u00ae community worldwide (literally) are getting ready to discuss the future of event",
+            "author": "Viktor Gamov",
+            "date": "8:17:2020",
+            "link": "https://www.confluent.io//blog/kafka-summit-2020-pro-tips-and-schedule/",
+            "title": "How to Make the Most of Kafka Summit Virtually"
+        },
+        {
+            "abstract": "In March, I wrote about Confluent\u2019s commitment to our customers, employees, and community during the COVID-19 pandemic. In some respects, it\u2019s hard to believe that only a few months have",
+            "author": "Roger Scott",
+            "date": "8:14:2020",
+            "link": "https://www.confluent.io//blog/offer-for-nonprofits-providing-covid-19-relief/",
+            "title": "Confluent Announces Offer for Nonprofits Providing COVID-19 Relief"
+        },
+        {
+            "abstract": "Multithreading is \u201cthe ability of a central processing unit (CPU) (or a single core in a multi-core processor) to provide multiple threads of execution concurrently, supported by the operating system.\u201d",
+            "author": "Igor Buzatovi\u0107",
+            "date": "8:13:2020",
+            "link": "https://www.confluent.io//blog/kafka-consumer-multi-threaded-messaging/",
+            "title": "Multi-Threaded Message Consumption with the Apache Kafka Consumer"
+        },
+        {
+            "abstract": "When operating cloud infrastructure, \u201ctime is money\u201d is more than a clich\u00e9\u2014it is interpreted literally as every processing second stacks up on the monthly bill. ksqlDB strives to reduce these",
+            "author": "Almog Gavra",
+            "date": "8:12:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-state-stores-in-recovery/",
+            "title": "The Curious Incident of the State Store in Recovery in ksqlDB"
+        },
+        {
+            "abstract": "Building a Cloud ETL Pipeline on Confluent Cloud shows you how to build and deploy a data pipeline entirely in the cloud. However, not all databases can be in the",
+            "author": "Yeva Byzek",
+            "date": "8:11:2020",
+            "link": "https://www.confluent.io//blog/multi-cloud-integration-across-distributed-systems-with-kafka-connect",
+            "title": "Streaming Heterogeneous Databases with Kafka Connect \u2013 The Easy Way"
+        },
+        {
+            "abstract": "On behalf of the Apache Kafka\u00ae community, it is my pleasure to announce the release of Apache Kafka 2.6.0. This another exciting release with many new features and improvements. We\u2019ll",
+            "author": "Randall Hauch",
+            "date": "8:6:2020",
+            "link": "https://www.confluent.io//blog/apache-kafka-2-6-updates/",
+            "title": "What\u2019s New in Apache Kafka 2.6"
+        },
+        {
+            "abstract": "We\u2019re happy to announce that Confluent Cloud, our fully managed event streaming service powered by Apache Kafka\u00ae, now supports AWS PrivateLink for secure network connectivity, in addition to the existing",
+            "author": "Ben EcholsSunil Patil",
+            "date": "8:6:2020",
+            "link": "https://www.confluent.io//blog/deploy-aws-privatelink-in-your-confluent-cloud-cluster/",
+            "title": "Announcing AWS PrivateLink Support in Confluent Cloud"
+        },
+        {
+            "abstract": "We launched Project Metamorphosis in April with the goal of making it dramatically easier for organizations to leverage an event streaming platform for their business needs. By reimagining event streaming",
+            "author": "Aashish KohliDan Rosanova",
+            "date": "8:5:2020",
+            "link": "https://www.confluent.io//blog/confluent-cloud-for-apache-kafka-everywhere/",
+            "title": "Project Metamorphosis Month 4: Confluent Cloud for Apache Kafka Available Everywhere"
+        },
+        {
+            "abstract": "We\u2019re pleased to announce ksqlDB 0.11.0, which takes a big step forward toward improved production stability. This is becoming increasingly important as companies like Bolt and PushOwl use ksqlDB for",
+            "author": "Victoria Xia",
+            "date": "8:4:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-0-11-0-features-and-improvements/",
+            "title": "Announcing ksqlDB 0.11.0"
+        },
+        {
+            "abstract": "As one of the world\u2019s biggest internet-based platform companies, Tencent uses technology to enrich the lives of users and assist the digital upgrade of enterprises. An example product is the",
+            "author": "Kenway ChenKahn ChenGeorge Shu",
+            "date": "8:3:2020",
+            "link": "https://www.confluent.io//blog/tencent-kafka-process-10-trillion-messages-per-day/",
+            "title": "How Tencent PCG Uses Apache Kafka to Handle 10 Trillion+ Messages Per Day"
+        },
+        {
+            "abstract": "ksqlDB 0.10 includes significant changes and improvements to how keys are handled. This is part of a series of enhancements that began with support for non-VARCHAR keys and will ultimately",
+            "author": "Andy Coates",
+            "date": "7:31:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-0-10-updates-key-columns",
+            "title": "I\u2019ve Got the Key, I\u2019ve Got the Secret. Here\u2019s How Keys Work in ksqlDB 0.10."
+        },
+        {
+            "abstract": "Change Data Capture (CDC) is an excellent way to introduce streaming analytics into your existing database, and using Debezium enables you to send your change data through Apache Kafka\u00ae. Although",
+            "author": "Mike Fowler",
+            "date": "7:29:2020",
+            "link": "https://www.confluent.io//blog/cdc-and-streaming-analytics-using-debezium-kafka/",
+            "title": "Analysing Changes with Debezium and Kafka Streams"
+        },
+        {
+            "abstract": "Using a declarative SQL-like interface, ksqlDB makes it easy to integrate event streaming applications into any tech stack. This article illustrates how ksqlDB was added to PushOwl\u2019s Python tech stack,",
+            "author": "Abhishek Kumar",
+            "date": "7:27:2020",
+            "link": "https://www.confluent.io//blog/how-pushowl-uses-ksqldb-to-scale-analytics-and-reporting-use-cases/",
+            "title": "How PushOwl Uses ksqlDB to Scale Their Analytics and Reporting Use Cases"
+        },
+        {
+            "abstract": "This blog post talks about the recent improvements on exactly-once semantics (EOS) to make it simpler to use and more resilient. EOS was first released in Apache Kafka\u00ae 0.11 and",
+            "author": "Boyang ChenBob Barrett",
+            "date": "7:24:2020",
+            "link": "https://www.confluent.io//blog/simplified-robust-exactly-one-semantics-in-kafka-2-5/",
+            "title": "Improved Robustness and Usability of Exactly-Once Semantics in Apache Kafka"
+        },
+        {
+            "abstract": "This blog post applies to ksqlDB version 0.8.1 and later. Keeping a datacenter up and running is no walk in the park. It\u2019s a job that involves mind-boggling amounts of",
+            "author": "Marc-Andr\u00e9 Bouchard",
+            "date": "7:23:2020",
+            "link": "https://www.confluent.io//blog/infrastructure-monitoring-with-ksqldb-udtf/",
+            "title": "Data Enrichment in ksqlDB Using UDTFs"
+        },
+        {
+            "abstract": "You may already know that Confluent Cloud is available across AWS, Azure, and Google Cloud, allowing you to access the amazing stack built by Confluent including a battle-tested version of",
+            "author": "Ricardo Ferreira",
+            "date": "7:22:2020",
+            "link": "https://www.confluent.io//blog/confluent-cloud-managed-kafka-service-aws-marketplace/",
+            "title": "Apache Kafka as a Service with Confluent Cloud Now Available on AWS Marketplace"
+        },
+        {
+            "abstract": "Why data privacy for Apache Kafka\u00ae? As companies seek to leverage all forms of data for competitive advantage, there is a growing regulatory and reputational risk that calls for the",
+            "author": "David Millman",
+            "date": "7:21:2020",
+            "link": "https://www.confluent.io//blog/kafka-data-privacy-security-and-compliance/",
+            "title": "Data Privacy, Security, and Compliance for Apache Kafka"
+        },
+        {
+            "abstract": "While preparing for the launch of Confluent Cloud ksqlDB, the ksqlDB Team built a system of metrics and monitoring that enabled insight into the experience of operating ksqlDB, the associated",
+            "author": "Victoria Xia",
+            "date": "7:20:2020",
+            "link": "https://www.confluent.io//blog/monitoring-confluent-cloud-ksqldb-stream-processing-service",
+            "title": "Measuring and Monitoring a Stream Processing Cloud Service: Inside Confluent Cloud ksqlDB"
+        },
+        {
+            "abstract": "The first-ever virtual Kafka Summit 2020 kicks off next month in the comfort of your home office, couch, spare bedroom, living room, outbuilding, lanai, veranda, or in-home portico, featuring an",
+            "author": "Tim Berglund",
+            "date": "7:17:2020",
+            "link": "https://www.confluent.io//blog/top-5-reasons-to-attend-kafka-summit/",
+            "title": "Top 5 Reasons to Attend Kafka Summit Virtually"
+        },
+        {
+            "abstract": "Apache Kafka\u00ae is a distributed commit log, commonly used as a multi-tenant data hub to connect diverse source systems and sink systems. Source systems can be systems or records, operational",
+            "author": "Ram Dhakne",
+            "date": "7:16:2020",
+            "link": "https://www.confluent.io//blog/real-time-asset-tracking-software-with-kafka-elasticsearch-kibana/",
+            "title": "Track Transportation Assets in Real Time with Apache Kafka and Kafka Streams"
+        },
+        {
+            "abstract": "With billions of Internet of Things (IoT) devices, achieving real-time interoperability has become a major challenge. Together, Confluent, Waterstream, and MQTT are accelerating Industry 4.0 with new Industrial IoT (IIoT)",
+            "author": "Kai WaehnerPaul Lysak",
+            "date": "7:15:2020",
+            "link": "https://www.confluent.io//blog/iot-streaming-use-cases-with-kafka-mqtt-confluent-and-waterstream/",
+            "title": "Apache Kafka Native MQTT at Scale with Confluent Cloud and Waterstream"
+        },
+        {
+            "abstract": "In the article Should You Put Several Event Types in the Same Kafka Topic?, Martin Kleppmann discusses when to combine several event types in the same topic and introduces new",
+            "author": "Robert Yokota",
+            "date": "7:8:2020",
+            "link": "https://www.confluent.io//blog/multiple-event-types-in-the-same-kafka-topic/",
+            "title": "Putting Several Event Types in the Same Topic \u2013 Revisited"
+        },
+        {
+            "abstract": "We are excited to announce the preview release of the fully managed Elasticsearch Service Sink Connector in Confluent Cloud, our fully managed event streaming service based on Apache Kafka\u00ae. Our",
+            "author": "Nathan Nam",
+            "date": "7:6:2020",
+            "link": "https://www.confluent.io//blog/managed-kafka-elasticsearch-service-connector-in-confluent-cloud/",
+            "title": "Announcing the Elasticsearch Service Sink Connector for Apache Kafka in Confluent Cloud"
+        },
+        {
+            "abstract": "This is the third month of Project Metamorphosis, where we discuss new features in Confluent\u2019s offerings that bring together event streams and the best characteristics of modern cloud data systems.",
+            "author": "Jun Rao",
+            "date": "7:1:2020",
+            "link": "https://www.confluent.io//blog/infinite-kafka-data-storage-in-confluent-cloud/",
+            "title": "Project Metamorphosis Month 3: Infinite Storage in Confluent Cloud for Apache Kafka"
+        },
+        {
+            "abstract": "You know the fundamentals of Apache Kafka\u00ae. You are a Spring Boot developer working with Apache Kafka. You have chosen Spring for Apache Kafka for your integration. You have implemented",
+            "author": "Tim van Baarsen",
+            "date": "6:30:2020",
+            "link": "https://www.confluent.io//blog/spring-kafka-can-your-kafka-consumers-handle-a-poison-pill/",
+            "title": "Spring for Apache Kafka \u2013 Beyond the Basics: Can Your Kafka Consumers Handle a Poison Pill?"
+        },
+        {
+            "abstract": "We kicked off Project Metamorphosis last month by announcing a set of features that make Apache Kafka\u00ae more elastic, one of the most important traits of cloud-native data systems. This",
+            "author": "Nick Bryan",
+            "date": "6:26:2020",
+            "link": "https://www.confluent.io//blog/lowering-total-kafka-costs-in-confluent-platform/",
+            "title": "Reducing the Total Cost of Operations for Self-Managed Apache Kafka"
+        },
+        {
+            "abstract": "We are excited to announce the general availability release of the fully managed Snowflake sink connector in Confluent Cloud, our fully managed event streaming service based on Apache Kafka\u00ae. Our",
+            "author": "Nathan Nam",
+            "date": "6:26:2020",
+            "link": "https://www.confluent.io//blog/kafka-snowflake-connector-now-available-in-confluent-cloud/",
+            "title": "Announcing the Snowflake Sink Connector for Apache Kafka in Confluent Cloud"
+        },
+        {
+            "abstract": "We\u2019re excited to announce the release of ksqlDB 0.10.0, available now in the standalone distribution and on Confluent Cloud! This version includes a first-class Java client, improved Apache Kafka\u00ae key",
+            "author": "Steven Zhang",
+            "date": "6:26:2020",
+            "link": "https://www.confluent.io//blog/ksqldb-0-10-0-latest-features-updates/",
+            "title": "Announcing ksqlDB 0.10.0"
+        },
+        {
+            "abstract": "More than ever before, people demand immediacy in every aspect of their lives. Expectations for how we shop, bank, and commute have completely evolved over the last decade. When you",
+            "author": "Michael Drogalis",
+            "date": "6:25:2020",
+            "link": "https://www.confluent.io//blog/unifying-streams-and-state-seamless-path-to-real-time/",
+            "title": "Unifying Streams and State: The Seamless Path to Real Time"
+        },
+        {
+            "abstract": "Company mergers are becoming more common as businesses strive to improve performance and grow market share by saving costs and eliminating competition through acquisitions. But how do business mergers relate",
+            "author": "Naveen Nandan",
+            "date": "6:23:2020",
+            "link": "https://www.confluent.io//blog/merging-data-streams/",
+            "title": "How Merging Companies Will Give Rise to Unified Data Streams"
+        },
+        {
+            "abstract": "When I have a small software project that I want to share with the world, I don\u2019t write my own version control system with a web UI. I don\u2019t even",
+            "author": "Gwen ShapiraJoshua Buss",
+            "date": "6:19:2020",
+            "link": "https://www.confluent.io//blog/guide-to-kafka-pricing-and-diy-open-source-costs/",
+            "title": "The Cost of Apache Kafka: An Engineer\u2019s Guide to Pricing Out DIY Operations"
+        },
+        {
+            "abstract": "Many organisations rely on commercial or open source monitoring tools to measure the performance and stability of business-critical applications. AppDynamics, Datadog, and Prometheus are widely used commercial and open source",
+            "author": "Oli Watson",
+            "date": "6:18:2020",
+            "link": "https://www.confluent.io//blog/build-observability-pipelines-with-confluent-cloud-and-appdynamics/",
+            "title": "Build Real-Time Observability Pipelines with Confluent Cloud and AppDynamics"
+        },
+        {
+            "abstract": "In April, we kicked off Project Metamorphosis. Project Metamorphosis is an effort to bring the simplicity of best of breed cloud systems to the world of event streaming. It is",
+            "author": "Jay Kreps",
+            "date": "6:17:2020",
+            "link": "https://www.confluent.io//blog/cost-effective-kafka-for-lower-tco",
+            "title": "Project Metamorphosis Month 2: Cost-Effective Apache Kafka for Use Cases Big and Small"
+        },
+        {
+            "abstract": "Apache Kafka\u00ae is the de facto standard for event streaming today. The semantics of the partitioned consumer model that Kafka pioneered have enabled scale at a level and at a",
+            "author": "Dan Rosanova",
+            "date": "6:12:2020",
+            "link": "https://www.confluent.io//blog/scaling-kafka-to-10-gb-per-second-in-confluent-cloud/",
+            "title": "Scaling Apache Kafka to 10+ GB Per Second in Confluent Cloud"
+        },
+        {
+            "abstract": "At Confluent, every now and then we like to take a day away from our normal sprint tasks to hack. There are a ton of benefits to hack days, including:",
+            "author": "Cyrus Vafadari",
+            "date": "6:10:2020",
+            "link": "https://www.confluent.io//blog/confluent-hack-day-2020-hack-from-home",
+            "title": "Confluent Hack Day 2020: Hack from Home"
+        },
+        {
+            "abstract": "tl;dr When a client wants to send or receive a message from Apache Kafka\u00ae, there are two types of connection that must succeed: The initial connection to a broker (the",
+            "author": "Robin Moffatt",
+            "date": "6:9:2020",
+            "link": "https://www.confluent.io//blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc",
+            "title": "My Python/Java/Spring/Go/Whatever Client Won\u2019t Connect to My Apache Kafka Cluster in Docker/AWS/My Brother\u2019s Laptop. Please Help!"
+        },
+        {
+            "abstract": "We are excited to announce the preview release of the fully managed MongoDB Atlas source and sink connectors in Confluent Cloud, our fully managed event streaming service based on Apache",
+            "author": "Nathan Nam",
+            "date": "6:8:2020",
+            "link": "https://www.confluent.io//blog/confluent-cloud-offers-kafka-mongodb-connector-fully-managed-clusters",
+            "title": "Announcing the MongoDB Atlas Sink and Source Connectors in Confluent Cloud"
+        },
+        {
+            "abstract": "Most organisations maintain fleets, a collection of vehicles put to use for day-to-day operations. Telcos use a variety of vehicles including cars, vans, and trucks for service, delivery, and maintenance.",
+            "author": "Gnanaguru Sattanathan",
+            "date": "6:5:2020",
+            "link": "https://www.confluent.io//blog/fleet-management-gps-tracking-with-confluent-cloud-mongodb",
+            "title": "Real-Time Fleet Management Using Confluent Cloud and MongoDB"
+        },
+        {
+            "abstract": "The rise of IoT devices means that we have to collect, process, and analyze orders of magnitude more data than ever before. As sensors and devices become ever more ubiquitous,",
+            "author": "Jesse Yates",
+            "date": "6:4:2020",
+            "link": "https://www.confluent.io//blog/stream-processing-iot-data-best-practices-and-techniques",
+            "title": "Stream Processing with IoT Data: Challenges, Best Practices, and Techniques"
+        }
+    ]
+}

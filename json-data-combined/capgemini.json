@@ -1,0 +1,1084 @@
+{
+    "capgemini": [
+        {
+            "title": "\nDistributed Tracing with OpenTelemetry & Jaeger\n",
+            "date": "12:4:2020",
+            "abstract": "\n\n            \n              Scientific inquiry starts with observation. The more one can see, the more one can investigate - Martin Chalfie Imagine if I was to approach you during your lunch and tell you that there has been an increase in customer raised...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Distributed-Tracing-with-OpenTelemetry-And-Jaeger/"
+        },
+        {
+            "title": "\nAn Introduction to Apache NiFi, Use Cases and Best Practices\n",
+            "date": "12:1:2020",
+            "abstract": "\n\n            \n              Overview Apache NiFi is a visual data flow based system which performs data routing, transformation and system mediation logic on data between sources or endpoints. NiFi was developed originally by the US National Security Agency. It was eventually made open...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/introduction-nifi-best-practices/"
+        },
+        {
+            "title": "\n5 Things I wish I knew when I became a software developer\n",
+            "date": "11:9:2020",
+            "abstract": "\n\n            \n              March 2018. Having recently finished a two-year contract collecting map data with a large search engine provider, I found myself at a point in my life where I had a real chance to pursue a new career. Having absolutely no...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/5-things-I-wish-I-knew-when-I-became-a-software-developer/"
+        },
+        {
+            "title": "\nElasticsearch: Introduction\n              A first time hands on with Elasticsearch\n\n",
+            "date": "10:12:2020",
+            "abstract": "\n\n            \n              Introduction Elasticsearch is one of those technologies I have always heard about but never had the opportunity to get hands on with. Apart from making an educated guess I didn\u2019t really know what it was, or what it really provides...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/elasticsearch-introduction/"
+        },
+        {
+            "title": "\nThe Engineering Collective\n              A collective of skills and quests to facilitate learning and promote a shared engineering culture\n\n",
+            "date": "9:28:2020",
+            "abstract": "\n\n            \n              Starting out on a journey to learn something new can be both daunting and challenging. Where do you begin? How do you recognize the good materials from the bad? How do you know you\u2019re on the right path? These are...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/the-engineering-collective/"
+        },
+        {
+            "title": "\nRafael: A Developers Story\n              The personal story of the developers that assembled and brought you Rafael\n\n",
+            "date": "7:14:2020",
+            "abstract": "\n\n            \n              As the global population live in angst about humanity\u2019s future, there are industries across the world that are being stretched to the peak of their abilities in ways never seen before. The healthcare sector is one of those industries. It...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Rafael-Developers-Story/"
+        },
+        {
+            "title": "\nUsing GitHub Actions and Hugo Deploy to Deploy a Static Site to AWS\n",
+            "date": "6:29:2020",
+            "abstract": "\n\n            \n              Owning a website can be fun. Rather than thinking of it as being a bunch of words followed by a \u201c.com\u201d, instead think of it like owning a home in the world of the internet. Your own personal space that...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Using-GitHub-Actions-and-Hugo-Deploy-to-Deploy-to-AWS/"
+        },
+        {
+            "title": "\nUsing Route 53 to Create a New Domain for a Static Site\n              Using Route 53 to create a new domain for a static site together with DDoS protection\n\n",
+            "date": "5:29:2020",
+            "abstract": "\n\n            \n              Over the years there have been countless websites that offer free hosting to users, with the limitation that you use their specific URLs. As shown in previous blog posts where I create a static site and host it on S3...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Using-Route-53-to-Create-a-New-Domain-for-Static-Site/"
+        },
+        {
+            "title": "\nAsk In The Channel\n              Private Messages Considered Harmful\n\n",
+            "date": "5:26:2020",
+            "abstract": "\n\n            \n              Anti-patterns in instant messaging, and why teams need to get more comfortable about being vulnerable.\n            \n          \n",
+            "link": "https://capgemini.github.io//culture/ask-in-the-channel/"
+        },
+        {
+            "title": "\nZero to CKA in 2\u00a0Weeks\n              Some thoughts on the Certified Kubernetes Adminstrator exam and how I managed to pass it in 2 weeks with no prior knowledge of Kubernetes.\n\n",
+            "date": "5:21:2020",
+            "abstract": "\n\n            \n              Prior to the 2 weeks leading up to my CKA exam, I had no Kubernetes knowledge to speak of. I didn\u2019t know what a Kubelet was, how to create a Pod, nor did I know what the Control Plane did....\n            \n          \n",
+            "link": "https://capgemini.github.io//kubernetes/Zero-to-CKA-in-2-Weeks/"
+        },
+        {
+            "title": "\nCypress, isn\u2019t that a popular holiday location?\n",
+            "date": "5:18:2020",
+            "abstract": "\n\n            \n              Overview Cyprus is a nice sunny island and is the third most popular of the Mediterranean islands. However, as I can\u2019t go to Cyprus right now due to COVID-19, I have had to settle for something that sounds similar instead,...\n            \n          \n",
+            "link": "https://capgemini.github.io//testing/cypress-testing-framework/"
+        },
+        {
+            "title": "\nUsing AWS CloudFront as a CDN for an S3 Static Site\n              Implementing a CDN in order to effectively deliver static content in close proximity to readers\n\n",
+            "date": "4:7:2020",
+            "abstract": "\n\n            \n              In my last post Using AWS S3 and Hugo to Create and Host a Static Website we looked at creating a static site in AWS S3 using Hugo. As previously mentioned, there are some slight disadvantages with hosting a static...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Using-AWS-CloudFront-as-a-CDN-for-an-S3-Static-Site/"
+        },
+        {
+            "title": "\nQuarkus meets Liquibase\n              Quarkus application with Liquibase data management\n\n",
+            "date": "3:23:2020",
+            "abstract": "\n\n            \n              Migrating an application to a new framework is mostly painful and challenging. We started to migrate our existing Jakarta EE applications which have been using Liquibase to manage the database changes. Quarkus has native support for Flyway which is another...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Quarkus-meets-Liquibase/"
+        },
+        {
+            "title": "\nTen Steps towards Cloud Native\n",
+            "date": "3:5:2020",
+            "abstract": "\n\n            \n              Here in the Open Source Cloud Engineering (OSCE) division of Capgemini Custom Software Development, cloud native development is what we do. What we struggle with is explaining to people exactly what that is. Cloud native is a buzzword which is...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/cloud-native-steps/"
+        },
+        {
+            "title": "\nUsing AWS S3 and Hugo to Create and Host a Static Website\n              A fast, simple and hassle-free way of creating and hosting a static website\n\n",
+            "date": "3:2:2020",
+            "abstract": "\n\n            \n              As a software engineer and consultant, I have been responsible for designing, developing and deploying custom websites and systems for a range of private and public sector companies and agencies. With most of my time being spent on other people\u2019s...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Using-S3-and-Hugo-to-Create-Hosting-Static-Website/"
+        },
+        {
+            "title": "\nPromoting on Success: A Safe and Reliable Strategy of Promoting Serverless Applications\n              A strategy of promoting serverless applications from Development up to Production\n\n",
+            "date": "2:12:2020",
+            "abstract": "\n\n            \n              Traditionally, there have been many ways of releasing applications. This relates to both the different test environments and the production environment itself. However, with serverless applications, traditional strategies may not transfer so well due to the characteristics of those architectures....\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Promote-On-Success/"
+        },
+        {
+            "title": "\nIntroduction to Serverless Computing on AWS\n              A first dive into Serverless Computing on AWS\n\n",
+            "date": "7:23:2019",
+            "abstract": "\n\n            \n              Back in November 2014, AWS completely changed the paradigm of modern Cloud computing by releasing a service called AWS Lambda. Consequently, this changed the future product road map offerings for a lot of technology companies around the world that have...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Introduction-to-Serverless-Computing-on-AWS/"
+        },
+        {
+            "title": "\nRematch: Redux Without the Bloat\n",
+            "date": "7:19:2019",
+            "abstract": "\n\n            \n              State management. Whilst being a critical aspect of writing frontend applications, it\u2019s an ever-changing landscape. You might be reading this and thinking what even is state, and why do I need it? Fundamentally, at a high level, state management is...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/rematch-redux-without-the-bloat/"
+        },
+        {
+            "title": "\nLead Developer London 2019 Roundup\n",
+            "date": "7:15:2019",
+            "abstract": "\n\n            \n              Feeling very fortunate and full of expectation, I attended the London Lead Developer 2019 conference which was held at the iconic Barbican Centre in June. This event is focussed on technical leadership and it was my first time attending. It...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/Lead-Dev-London-Conference-2019/"
+        },
+        {
+            "title": "\nThe top three challenges in securing Public Sector digital services\n",
+            "date": "7:8:2019",
+            "abstract": "\n\n            \n              When we talk to our clients, it\u2019s often understandable that they are worried about the fact that, somehow, their ability to secure digital products and services cannot keep pace with the speed at which they are built. In a previous...\n            \n          \n",
+            "link": "https://capgemini.github.io//devsecops/Digital-Services-Public-Sector-DevSecOps/"
+        },
+        {
+            "title": "\nFast and Free AWS Web Deployment Tutorial\n              A quick guide to deploying a Spring MVC application on AWS.\n\n",
+            "date": "6:28:2019",
+            "abstract": "\n\n            \n              I wanted to learn how to use Amazon Web Services (AWS) so I worked through a few online courses and decided that it was time to get practical. However, I was wary of getting charged accidentally while using AWS services....\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/fast-and-free-aws-web-deployment-tutorial/"
+        },
+        {
+            "title": "\nDevoxx 2019 Review\n              A report on all the exciting things we saw at Devoxx 2019.\n\n",
+            "date": "5:29:2019",
+            "abstract": "\n\n            \n              Another Devoxx has come and gone and it\u2019s time to reflect on what was seen and loved! There were loads of amazing talks this year: Some new technologies, friendly faces and some wildly futuristic technology that makes it seem like...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/Devoxx-2019-Review/"
+        },
+        {
+            "title": "\nThere isn't a module for that already?\n",
+            "date": "5:24:2019",
+            "abstract": "\n\n            \n              Sometimes clients ask for the wrong thing. Sometimes developers build the wrong thing, because they didn\u2019t ask the right questions. If you\u2019re solving the wrong problem, it doesn\u2019t matter how elegant your solution is. One of the most important services...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/module-already/"
+        },
+        {
+            "title": "\nIntroduction to Quarkus: Supersonic Subatomic Java\n              A first look into Quarkus\n\n",
+            "date": "5:10:2019",
+            "abstract": "\n\n            \n              Due to the constant evolution of different languages and frameworks in the tech industry, developers are able to develop and deploy apps with faster speeds and lower footprint on the underlying systems in which they are deployed to. This simultaneously...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Introduction-to-Quarkus-Supersonic-Subatomic-Java/"
+        },
+        {
+            "title": "\nThe bigger picture and the smaller details\n",
+            "date": "4:18:2019",
+            "abstract": "\n\n            \n              The importance of taking time to think about where we're going\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/bigger-picture-smaller-details/"
+        },
+        {
+            "title": "\nOut of the Comfort Zone and into the Classroom\n",
+            "date": "4:12:2019",
+            "abstract": "\n\n            \n              Last year I decided to run a React (a frontend JavaScript Technology for building user interfaces) course within the account I\u2019m working on. This year, I decided to do the same thing again, except to a wider audience with much...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/out-of-the-comfort-zone-into-the-classroom/"
+        },
+        {
+            "title": "\nWhat is Code Coverage and Why It Should Not Lead Development\n              A proposal to why code coverage should not lead development\n\n",
+            "date": "4:5:2019",
+            "abstract": "\n\n            \n              Within the world of software development and delivery there are not only thousands of tools, frameworks and principles, but there are also many terms that have no concrete definition that tend to fluctuate depending on who you\u2019re talking to. In...\n            \n          \n",
+            "link": "https://capgemini.github.io//testing/What-Is-Code-Coverage-and-Why-It-Should-Not-Lead-Development/"
+        },
+        {
+            "title": "\nThe Conservation of Complexity in Software\n              How you can never remove complexity in a system, you can only move it\n\n",
+            "date": "3:22:2019",
+            "abstract": "\n\n            \n              In physics, the law of conservation of energy states that the total energy of an isolated system remains constant\u2014it is said to be conserved over time. Energy can neither be created nor destroyed; rather, it transforms from one form to...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/The-Conservation-of-Complexity-in-Software-Architecture/"
+        },
+        {
+            "title": "\nHow to update data models in Drupal 8\n              Introducing the process of updating data models in Drupal 8\n\n",
+            "date": "2:1:2019",
+            "abstract": "\n\n            \n              In this article we will see how to update data models in Drupal 8, how to make the difference between model updating and content updating, how to create default content, and finally, the procedure to adopt for successful deployments to...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/How-to-update-data-model-on-drupal-8/"
+        },
+        {
+            "title": "\nProject Management Methodology  \u2013 Probably a necessary evil for large Agile IT Projects\n",
+            "date": "1:24:2019",
+            "abstract": "\n\n            \n              For me, who has been practicing the Agile in the IT industry for much of my career, earlier project management methodologies appeared as a big evil monster which try to control everything. After recently being certified as a PRINCE2 Practitioner,...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/project-management-methodology-agile-projects/"
+        },
+        {
+            "title": "\nA framework for progressively decoupled Drupal\n              Introducing the SPALP module\n\n",
+            "date": "12:14:2018",
+            "abstract": "\n\n            \n              A lot of people have been jumping on the headless CMS bandwagon over the past few years, but I\u2019ve never been entirely convinced. Maybe it\u2019s partly because I don\u2019t want to give up on the sunk costs of what I\u2019ve...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/spalp/"
+        },
+        {
+            "title": "\nBasic Accessibility for Web Applications\n",
+            "date": "11:9:2018",
+            "abstract": "\n\n            \n              As frontend developers, it\u2019s not enough to know how to build the applications, you also need to know how to build applications for everyone to be able to use. With the number of web users continuously growing, it\u2019s important that...\n            \n          \n",
+            "link": "https://capgemini.github.io//accessibility/Basic-Accessibility-for-Web-Applications/"
+        },
+        {
+            "title": "\nIt's OK Not to be Agile\n",
+            "date": "10:22:2018",
+            "abstract": "\n\n            \n              I love messaging platforms. Slack has made a real difference to the way we can work with remote teams and keep our disparate engineers sharing thoughts and mindsets. We\u2019re also experimenting with Teams, which is proving great, but all these...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/ok-not-to-be-agile/"
+        },
+        {
+            "title": "\nWhy you should try React higher-order components now\n",
+            "date": "10:12:2018",
+            "abstract": "\n\n            \n              I am in my final year at university: part of the Capgemini Degree Apprenticeship. This year requires a large software project to be delivered and one component of that is a React frontend. Through it I\u2019ve been experimenting and discovered...\n            \n          \n",
+            "link": "https://capgemini.github.io//frontend/react-HoCs/"
+        },
+        {
+            "title": "\nDo Repeat Yourself - returning to the Lead Developer conference\n",
+            "date": "8:10:2018",
+            "abstract": "\n\n            \n              After such a positive experience at the Lead Developer conference last year, as soon as I saw this year\u2019s announcement, I saved the date and started writing the email to get my company to pay for the ticket. Thankfully, my...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/lead-dev-conference-2018/"
+        },
+        {
+            "title": "\nDesigning Cross Platform Mobile Applications with Xamarin\n              A look at the strategies for code sharing between platform specific applications\n\n",
+            "date": "8:3:2018",
+            "abstract": "\n\n            \n              Xamarin provides a common development experience for creating cross platform mobile applications. The aim of this post is to highlight the design techniques available and options Xamarin provides for maximising code reuse, thus ensuring cleaner code and increased productivity. The...\n            \n          \n",
+            "link": "https://capgemini.github.io//.net/designing-mobile-cross-platform-applications-with-xamarin/"
+        },
+        {
+            "title": "\nCombining OAuth and JWT to gain performance improvements\n",
+            "date": "7:13:2018",
+            "abstract": "\n\n            \n              For many years Simple Object Access Protocol (SOAP) was the standard approach for communicating with remote services, often via HTTP. The landscape has changed significantly in recent years with the increase in the adoption of Representational State Transfer (REST) APIs....\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/combining-oauth-and-jwt-to-gain-performance-improvements/"
+        },
+        {
+            "title": "\nService Fabric Cluster Creation\n              Creating a secure Service Fabric cluster from Visual Studio\n\n",
+            "date": "6:8:2018",
+            "abstract": "\n\n            \n              There are many ways to create a Service Fabric cluster and what follows, is by no means, the only one. A few posts have been written elsewhere on the internet (for example Create Service Fabric clusters from Visual Studio) and...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/service-fabric-cluster-creation/"
+        },
+        {
+            "title": "\nBuilding for Alexa at Devoxx UK\n",
+            "date": "5:18:2018",
+            "abstract": "\n\n            \n              For our Platinum sponsorship of Devoxx UK this year, we had a theme to align with our recruitment drive of \u201cit takes all types to make a team\u201d. One attraction that we had at our stall was an application taking...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/voices-for-women/"
+        },
+        {
+            "title": "\nHow fast are your React\u2011ions\n              Optimising the performance of React applications\n\n",
+            "date": "5:4:2018",
+            "abstract": "\n\n            \n              Overview Since its conception by Facebook in 2013, React has quickly become one of the most popular libraries for building web-based user interfaces. React uses JavaScript to create a dynamic web application normally rendered directly on the client side device,...\n            \n          \n",
+            "link": "https://capgemini.github.io//react/how-fast-are-your-react-ions/"
+        },
+        {
+            "title": "\nA design review checklist for non\u2011designers\n",
+            "date": "4:27:2018",
+            "abstract": "\n\n            \n              If we can't entirely break down the wall that designs are thrown over, let's at least put a gate in it.\n            \n          \n",
+            "link": "https://capgemini.github.io//development/design-review-checklist/"
+        },
+        {
+            "title": "\nA look at Cloud-Native Apps on Azure\n              A framework for building Cloud Native Apps on the Microsoft Azure Cloud\n\n",
+            "date": "4:20:2018",
+            "abstract": "\n\n            \n              Organisations are using software as a key differentiator and source of competitive advantage. Whilst we often think about technology-led companies, such as Netflix and Uber, it is transforming all types of organisation. The cloud supports this transformation, and we are...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/cloud-native-apps-on-azure/"
+        },
+        {
+            "title": "\nRoslyn-Based .NET Code Analyser\n              .NET Compiler as a service\n\n",
+            "date": "4:13:2018",
+            "abstract": "\n\n            \n              While it is relatively easy to write code, it is not so easy to write high quality maintainable code. In this post, we introduce a technology - Roslyn, which enables .NET software engineering teams to implement automated code reviews based...\n            \n          \n",
+            "link": "https://capgemini.github.io//.net/roslyn-based-net-code-analyser/"
+        },
+        {
+            "title": "\nServerless, and the challenges using it\n              Developing a serverless application in Azure with Functions\n\n",
+            "date": "3:23:2018",
+            "abstract": "\n\n            \n              Recently I have been taking a look at serverless computing, trying to go beyond the headlines of why serverless is a good thing. Those headlines are something like \u201ccreate your first serverless application in minutes\u201d. While this isn\u2019t untrue, there...\n            \n          \n",
+            "link": "https://capgemini.github.io//.net/serverless-and-using-it/"
+        },
+        {
+            "title": "\nStarting out in the world of IoT\n",
+            "date": "3:16:2018",
+            "abstract": "\n\n            \n              IoT was a very daunting place for me when I started. After building an IoT scale, I\u2019m now slightly more knowledgeable. It\u2019s been one of the most interesting bits of learning I\u2019ve done for a while because you really get...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/starting-IoT/"
+        },
+        {
+            "title": "\nMusings of a female Software Engineer on International Women's Day\n",
+            "date": "3:8:2018",
+            "abstract": "\n\n            \n              On International Women\u2019s day, I pause to think about the changes that has come about since the whole Active Inclusion and Diversity drive kicked off, not just within Capgemini but in the tech industry as a whole. I wonder how...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/musings_of_a_female_engineer_on_IWD/"
+        },
+        {
+            "title": "\nDebugging into a NuGet package\n              Reducing debugging headaches\n\n",
+            "date": "3:2:2018",
+            "abstract": "\n\n            \n              Over the past year, I have been working on a programme of work that, initially, was intended to extend an existing Azure Service Fabric solution by adding a further 14 WebAPI endpoints. However, early in the project, we took the...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/debugging-into-a-nuget-package/"
+        },
+        {
+            "title": "\nNon functional requirements and Blockchain\n",
+            "date": "2:23:2018",
+            "abstract": "\n\n            \n              Here in the Applied Innovation Exchange we get to be part of some pretty excellent events. One notable example is \u201cCapgemini Week of Innovation Networks\u201d (CWIN) which happened in November 2017 on the 8th floor of our Holborn office. As...\n            \n          \n",
+            "link": "https://capgemini.github.io//blockchain/blockchain-ux/"
+        },
+        {
+            "title": "\nEncrypting configuration in Apache Karaf\n",
+            "date": "1:19:2018",
+            "abstract": "\n\n            \n              It\u2019s very important to encrypt passwords or other sensitive information in configuration files. This stops attackers gaining easy access to sensitive information, limiting the way they can harm your system. This has been made easy in an OSGi environment with...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/java-cryptography-in-karaf/"
+        },
+        {
+            "title": "\n2017 in review - innovation, diversity, funerals and donkeys\n",
+            "date": "12:15:2017",
+            "abstract": "\n\n            \n              Our engineering team blog has continued to grow this year, with 25 authors writing more than 40,000 words in articles across a range of topics. We\u2019ve welcomed 17 first-time authors to the fold, with colleagues from other countries joining the...\n            \n          \n",
+            "link": "https://capgemini.github.io//blog/end-of-year-review/"
+        },
+        {
+            "title": "\nMicrosoft, .NET and not (necessarily) Windows\n              .NET Core to write applications once and run them cross platform\n\n",
+            "date": "12:13:2017",
+            "abstract": "\n\n            \n              Recently I looked into developing a cross platform .NET Core application. Up to a few years ago a .NET application was developed with the intention to run it on Windows. Not anymore. The landscape for .NET has changed dramatically over...\n            \n          \n",
+            "link": "https://capgemini.github.io//.net/core-x-platform/"
+        },
+        {
+            "title": "\nSeeking Frontend Developers\n",
+            "date": "12:8:2017",
+            "abstract": "\n\n            \n              Customers, whether consumer, business, employee, partner, citizen or stakeholder, are demanding the same high grade user experience they experience from the likes of Facebook, Google and Netflix, in the applications and interactions they have with organisations every day. In the...\n            \n          \n",
+            "link": "https://capgemini.github.io//frontend/hiring-front-end/"
+        },
+        {
+            "title": "\nffconf 2017 - Conference review\n",
+            "date": "12:6:2017",
+            "abstract": "\n\n            \n              ffconf is a JavaScript conference which is held in Brighton each year. This post provides a brief summary of ffconf 2017 (held on 9 and 10 November) and links to the talks posted by the organisers. The day offered a...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/ffconf-conference-review/"
+        },
+        {
+            "title": "\nLearning Gulp.js\n",
+            "date": "11:10:2017",
+            "abstract": "\n\n            \n              Gulp.js is a task runner that is used to automate tasks such as compiling all your style sheets into a single file, uglifying your JavaScript and so much more. This post is going to introduce you to the world of...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/learning-gulpjs/"
+        },
+        {
+            "title": "\nKnowledge Is Dead, Long Live Learning\n",
+            "date": "11:6:2017",
+            "abstract": "\n\n            \n              There\u2019s a certain inescapable truth that people who work with technology need to face. As time goes by, the knowledge we\u2019ve gained almost inevitably becomes obsolete. If we specialise in something, how do we deal with the fact that our...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/knowledge-funerals/"
+        },
+        {
+            "title": "\nThoughts on SkillsMatter Meetup: Plugin Architecture\n              Uncle Bob describes plugin architecture and why it's so powerful\n\n",
+            "date": "11:3:2017",
+            "abstract": "\n\n            \n              I attended a SkillsMatter meetup the other day where Uncle Bob (Robert C. Martin) explained some key features of clean architecture. It was a new talk and the content was taken from his new book \u201cClean Architecture\u201d. It was an...\n            \n          \n",
+            "link": "https://capgemini.github.io//design/clean-architecture/"
+        },
+        {
+            "title": "\nTo SQL or not to SQL\n              SQL vs NoSQL: which one should you choose?\n\n",
+            "date": "10:6:2017",
+            "abstract": "\n\n            \n              Overview A common question that many developers and architects struggle to answer is which technology stacks should I use for my project, and more importantly why? This decision is particularly important when it comes to picking a database, as databases...\n            \n          \n",
+            "link": "https://capgemini.github.io//design/sql-vs-nosql/"
+        },
+        {
+            "title": "\nDotnet, Docker, DevOps\n              Docker to build, test and publish Microsoft .NET applications\n\n",
+            "date": "10:2:2017",
+            "abstract": "\n\n            \n              Since starting on my journey down the Microsoft Open Source road, one of the things I have been introduced to is Docker. Increasingly, I have looked for opportunities where I can use Docker when developing my .NET applications. DevOps has...\n            \n          \n",
+            "link": "https://capgemini.github.io//docker/dotnet-docker-devops/"
+        },
+        {
+            "title": "\nDesign Thinking: Cutting through the fluff\n",
+            "date": "9:29:2017",
+            "abstract": "\n\n            \n              Design thinking: What is it and why do I care about it? Design thinking is a framework for finding ideal solutions to complex problems, through observation, empathy and experimentation centered around humans. You might think that this is all rather...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/design-thinking/"
+        },
+        {
+            "title": "\nWays to Skin a Cat\n              Redux and React from a Java developer's perspective\n\n",
+            "date": "9:15:2017",
+            "abstract": "\n\n            \n              I\u2019m too old to be a front-end developer. Talk of frameworks and js-library bingo makes me feel like a WWII veteran at a segway convention. But then I went to Devoxx US and heard Ben Ilegbodu\u2019s talk, \u2018Navigating the React...\n            \n          \n",
+            "link": "https://capgemini.github.io//frontend/react-for-java-devs/"
+        },
+        {
+            "title": "\nManaging Cloud Infrastructure in Amazon Web Service using VoiceOps\n",
+            "date": "8:29:2017",
+            "abstract": "\n\n            \n              Amazon Echo\u00a0has steadily become the hottest smart home product on the market. Suddenly, every tech company wants to integrate its products with Amazon\u2019s customizable virtual assistant, Alexa. Alexa is Amazon\u2019s voice controlled service on many devices like Echo, Echo Dot,...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/Managing-Cloud-Infrastructure-in-Amazon-Web-Service-using-VoiceOps/"
+        },
+        {
+            "title": "\nCapgemini UK Engineering's Response to the Google (Anti-)Diversity Manifesto\n",
+            "date": "8:21:2017",
+            "abstract": "\n\n            \n              A lot has been written about the 10-page memo by former Google employee James Damore. Following on from the folks at MongoDB, we, the Capgemini UK Engineers, felt the need to share our thoughts on it with all our peers...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/Capgemini-Engineering-Diversity-Manifesto/"
+        },
+        {
+            "title": "\nMy First UI5 Application\n",
+            "date": "8:8:2017",
+            "abstract": "\n\n            \n              In this post we will be covering some basic set-up of our development environment (including the SAP Web IDE), going over MVC architecture with particular regard to SAP applications and finally building your first SAP application. Getting Started The first...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/My-first-UI5-application/"
+        },
+        {
+            "title": "\nNeo Engineer or Buridan\u2019s Donkey\n",
+            "date": "7:7:2017",
+            "abstract": "\n\n            \n              \u201cThe Internet?\u00a0 Is that thing still around?\u201d\u00a0 - Homer Simpson True story - Back when I started my IT career nearly 12 years ago, fresh out of college, little did I know that my whole career was being decided by...\n            \n          \n",
+            "link": "https://capgemini.github.io//engineering/becoming-a-neo-engineer/"
+        },
+        {
+            "title": "\nHacking Blockchain\n",
+            "date": "6:30:2017",
+            "abstract": "\n\n            \n              Who can resist the opportunity to join a Hackathon? Certainly not the engineers in Capgemini\u2019s Applied Innovation Exchange (AIE); fast-turnaround cutting-edge product development is what we do. So when Capgemini Financial Services announced a global virtual IBM Hyperledger Hackathon, a...\n            \n          \n",
+            "link": "https://capgemini.github.io//blockchain/hacking-blockchain/"
+        },
+        {
+            "title": "\nChange your debugging mindset\n",
+            "date": "6:26:2017",
+            "abstract": "\n\n            \n              I learnt to code at a bootcamp organised by Capgemini and delivered by QA in the first 13 weeks of my apprenticeship. Undoubtedly the best thing I got out of that was a nugget of wisdom which has stayed with...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/debugging/"
+        },
+        {
+            "title": "\nLearning to Lead, Learning to Listen\n",
+            "date": "6:23:2017",
+            "abstract": "\n\n            \n              On election day I went to Westminster. Not for political reasons, but to attend the Lead Developer conference. I\u2019d been meaning to go ever since hearing good things about it from my colleague Tom Phethean, who went to the inaugural...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/lead-dev-conference-2017/"
+        },
+        {
+            "title": "\nWill this Meteor hit?\n",
+            "date": "6:2:2017",
+            "abstract": "\n\n            \n              Over the past few years, the use of JavaScript as a full-stack web technology has increased through the use of libraries such as React and Angular. As a result, the open-source platform Meteor was created. This post looks at the...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/will-this-Meteor-hit/"
+        },
+        {
+            "title": "\nCQL Statement Builder\n",
+            "date": "5:9:2017",
+            "abstract": "\n\n            \n              Anyone who has worked with Apache Cassandra will not underestimate the importance of selecting the right data model. However, this could be a daunting task due to the lack of a generic schema generator (in Java). For example, each time...\n            \n          \n",
+            "link": "https://capgemini.github.io//apache%20cassandra/cql-statement-builder/"
+        },
+        {
+            "title": "\nCapgemini Microsoft Dynamics 365 team at Extreme 365\n",
+            "date": "5:3:2017",
+            "abstract": "\n\n            \n              \"Invest in the future because that is where you are going to spend the rest of your life.\" Habeeb Akande Capgemini Microsoft Dynamics 365 UK team attended Extreme 365 hosted in Lisbon, it's important to understand where Microsoft Dynamics 365...\n            \n          \n",
+            "link": "https://capgemini.github.io//dynamics365/capgemini-dynamics-365-team-at-Extreme-365/"
+        },
+        {
+            "title": "\nQCon London 2017\n",
+            "date": "4:12:2017",
+            "abstract": "\n\n            \n              I had heard great stories about QCon. It\u2019s the conference where practicing engineers find new trends and technologies and learn how to adopt them. Did the content match the inviting wrapping? This is my experience from QCon London 2017 as...\n            \n          \n",
+            "link": "https://capgemini.github.io//culture/qcon-london-2017/"
+        },
+        {
+            "title": "\nDevoxx UK 2017 Giveaway!\n",
+            "date": "3:31:2017",
+            "abstract": "\n\n            \n              Enjoy a free ticket to one of the most sought after developer\u2019s conference of the year, Devoxx UK 2017, courtesy of Capgemini Engineering.\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/devoxx-givaway/"
+        },
+        {
+            "title": "\nA Portable Kubernetes Cluster\n",
+            "date": "3:27:2017",
+            "abstract": "\n\n            \n              Kubernetes is rapidly becoming the de facto industry standard for container orchestration. Initially a development of Google\u2019s internal Borg orchestration software, Kubernetes provides a number of critical features including: Service discovery Container replication Auto scaling and load balancing Flexible and...\n            \n          \n",
+            "link": "https://capgemini.github.io//kubernetes/a-portable-kubernetes-cluster/"
+        },
+        {
+            "title": "\nEmbracing the Legacy\n",
+            "date": "3:24:2017",
+            "abstract": "\n\n            \n              \u201cWait what! You\u2019re still using that version of X?!\u201d We\u2019ve all been there. You\u2019re on a new project and the first thing you\u2019re made painfully aware of is that it is a \u2018legacy\u2019 project. Legacy\u2026 That single word is often...\n            \n          \n",
+            "link": "https://capgemini.github.io//legacy/embracing-the-legacy/"
+        },
+        {
+            "title": "\nA blurry look into the future\n",
+            "date": "3:21:2017",
+            "abstract": "\n\n            \n              Along with some of my colleagues in the Digital Platforms team, I recently took a tour of the London lab of Capgemini\u2019s Applied Innovation Exchange. The AIE is a series of facilities around the world giving Capgemini and our clients...\n            \n          \n",
+            "link": "https://capgemini.github.io//innovation/blurry-look-future/"
+        },
+        {
+            "title": "\nDrupalCamp London experience\n",
+            "date": "3:7:2017",
+            "abstract": "\n\n            \n              This weekend\u2019s DrupalCamp London wasn\u2019t my first Drupal event at all, I\u2019ve been to 3 DrupalCon Europe, 4 DrupalCamp Dublin, and a few other DrupalCamps in Ireland and lots of meetups, but in this case I experienced a lot of...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/drupalcamp-london-experience/"
+        },
+        {
+            "title": "\nThe Best of Capgemini Engineering Blog 2016\n",
+            "date": "2:14:2017",
+            "abstract": "\n\n            \n              Hello! Are you new here? If so, welcome to the Capgemini Engineering blog. It\u2019s written by and for our fellow engineers across the technology industry. This site has gone from strength to strength since it was created in 2014, and...\n            \n          \n",
+            "link": "https://capgemini.github.io//blog/best-of-2016/"
+        },
+        {
+            "title": "\nI Test, Therefore I Am\n",
+            "date": "1:31:2017",
+            "abstract": "\n\n            \n              The three laws of TDD, as espoused by Robert C. (Uncle Bob) Martin state: You are not allowed to write any production code unless it is to make a failing unit test pass. You are not allowed to write any...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/I-Test-Robot/"
+        },
+        {
+            "title": "\nSecurity of the Future\n",
+            "date": "1:27:2017",
+            "abstract": "\n\n            \n              Cybersecurity was a huge focal point of 2016. With a new hacking scandal being highlighted in the news almost on a weekly basis, cybersecurity has become a major issue for all digital companies. Looking at some of the more severe...\n            \n          \n",
+            "link": "https://capgemini.github.io//cybersecurity/security-of-the-future/"
+        },
+        {
+            "title": "\nOur Grade Ladder\n",
+            "date": "1:20:2017",
+            "abstract": "\n\n            \n              Last year, we identified a need to redefine the career framework for our software engineers within the UK engineering teams and started work on a Capgemini Software Engineering grade ladder. The grade ladder is our team\u2019s self-produced documentation to enable...\n            \n          \n",
+            "link": "https://capgemini.github.io//culture/our-grade-ladder/"
+        },
+        {
+            "title": "\nTalking About How We Work\n",
+            "date": "1:13:2017",
+            "abstract": "\n\n            \n              Following the previous blog post about our software engineering team culture that I wrote with my colleague Andrew Harmel-Law, I spoke about the subject at the January Drupal Show & Tell last night. I\u2019ve been meaning to speak at a...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/how-we-work-talk/"
+        },
+        {
+            "title": "\nDevOps - Why I need to know about it as an Engineer\n",
+            "date": "12:9:2016",
+            "abstract": "\n\n            \n              I recently attended DevOps days at Les Fontaines (Capgemini University in Paris). The key reasons were to understand some details of this buzzword and how it may impact me as an engineer and my existing clients. Being an engineer, my...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/DevOpsAndMeEngineer/"
+        },
+        {
+            "title": "\nReact-ing to change\n",
+            "date": "11:25:2016",
+            "abstract": "\n\n            \n              With the recent release of the \u2018The State of JavaScript\u2019 the clear big gainer of 2016 is ReactJS. So what\u2019s all the fuss about? I\u2019m going to look at the two big boys in the front end space. Angular and...\n            \n          \n",
+            "link": "https://capgemini.github.io//react/reacting-to-change/"
+        },
+        {
+            "title": "\nAnsible and Weave step by step\n",
+            "date": "11:11:2016",
+            "abstract": "\n\n            \n              This is a pragmatic guide to Ansible for beginners. This use case will guide you on how to set up a cross-cloud software defined network for containers using Weave Net, Weave Scope and Docker. There is a full gitbook including...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/ansible-weave/"
+        },
+        {
+            "title": "\nKubernetes, Ingress controllers and Traefik\n",
+            "date": "11:4:2016",
+            "abstract": "\n\n            \n              When running your application services on top of an orchestration tool like Kubernetes or Mesos with Marathon there are some common necessities you\u2019ll need to satisfy. Your application will usually contain two types of services, those that should be visible...\n            \n          \n",
+            "link": "https://capgemini.github.io//kubernetes/kube-traefik/"
+        },
+        {
+            "title": "\nWhat to look for in a code review\n",
+            "date": "10:28:2016",
+            "abstract": "\n\n            \n              In a previous article on this blog, I talked about why code review is a good idea, and some aspects of how to conduct them. This time I want to dig deeper into the practicalities of reviewing code, and mention...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/what-to-look-for-in-code-review/"
+        },
+        {
+            "title": "\nFun with Drupal 8 configuration management\n",
+            "date": "10:21:2016",
+            "abstract": "\n\n            \n              It has been a few years since I have had the opportunity to build a website from the absolute beginning. The most recent project I\u2019m on continues in that vein, but it\u2019s early enough for me to consider ripping it...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/d8config-fun/"
+        },
+        {
+            "title": "\nRearing Good Design Ideas in the Wild\n",
+            "date": "10:14:2016",
+            "abstract": "\n\n            \n              Imagine you\u2019re in a design session for a new component. The conversation is going back and forth between developers and architects but as they talk you discover the feeling of uneasiness in the current plan. It seems inflexible and prone...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/presenting-ideas/"
+        },
+        {
+            "title": "\nTips and Thoughts on Prototyping with AWS Elastic Beanstalk\n",
+            "date": "9:30:2016",
+            "abstract": "\n\n            \n              The choice of PaaS I\u2019ve investigated a few Platform as a Service (PaaS) offerings as part of small projects or prototypes I\u2019ve done recently. I\u2019ve used Openshift (version 2), Heroku and now Amazon Web Services (AWS). This is only a...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/aws-elastic-beanstalk/"
+        },
+        {
+            "title": "\nConsiderations for a Drupal 8 upgrade\n",
+            "date": "9:19:2016",
+            "abstract": "\n\n            \n              If you\u2019re migrating from a different CMS platform, the advantages of Drupal 8 seem fairly clear. But what if you\u2019re already on Drupal? There has been a lot of discussion in the Drupal community lately about upgrading to Drupal 8....\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/considering-drupal-8-upgrade/"
+        },
+        {
+            "title": "\nDigital Developer Meetup, Birmingham, 22nd September, 2016\n",
+            "date": "9:9:2016",
+            "abstract": "\n\n            \n              Capgemini UK is hosting an event for digital technologists and experts on the evening of Thursday 22nd September at the Old Library, Custard Factory in Birmingham\u2019s creative quarter! Whether you\u2019re a platform engineer, project manager, scrum master, technologist or tester,...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Digital-Developer-Meetup/"
+        },
+        {
+            "title": "\nHow We Work\n",
+            "date": "9:2:2016",
+            "abstract": "\n\n            \n              Recently within the various Capgemini UK software engineering teams we\u2019ve been looking at our approach to learning and development. Capgemini is a big corporation, and in the past there has been a focus on certification. Like many people in the...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/how-we-work/"
+        },
+        {
+            "title": "\nMy take on Capgemini University's recent DevOps Hackathon\n",
+            "date": "8:26:2016",
+            "abstract": "\n\n            \n              Recently, I took part in a DevOps Hackathon organised by our Capgemini University in Les Fontaines. It was part of the overall Talent Week program which had an underlying theme \u201cLeading All the Way\u201d. Twenty four Capgemini Engineers with different...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/my-take-on-capgemini-university-devops-hackathon/"
+        },
+        {
+            "title": "\nSay Hello to KuWit\n",
+            "date": "8:22:2016",
+            "abstract": "\n\n            \n              It is not a secret that the industry is betting hard on building AI engines using the power of machine learning and big data to provide the foundation for delivering extremely personalized user experience. Platforms like FBLearner Flow, Google TensorFlow,...\n            \n          \n",
+            "link": "https://capgemini.github.io//bots/kuwit/"
+        },
+        {
+            "title": "\nINVEST in User Stories\n",
+            "date": "8:12:2016",
+            "abstract": "\n\n            \n              An INVEST-able User Story evolves through the journey of a Sprint. Let us follow this journey through the eyes of an Agile Team Member. This post is directed at Team Members in companies planning on adopting an Agile methodology, especially...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/invest-in-user-stories/"
+        },
+        {
+            "title": "\nHow to write effective bug reports\n",
+            "date": "8:5:2016",
+            "abstract": "\n\n            \n              Unfortunately, software will always have bugs, and those defects need to be tracked. Whether you\u2019re doing automated or manual testing, when that testing finds a problem, you need to communicate that problem to the development team. The way to communicate...\n            \n          \n",
+            "link": "https://capgemini.github.io//testing/effective-bug-reports/"
+        },
+        {
+            "title": "\nHacking on Bluemix\n",
+            "date": "7:29:2016",
+            "abstract": "\n\n            \n              I\u2019m currently sitting at an airport in Paris awaiting my flight back to Cardiff and thought it would be a good time to share my experience of using IBM Bluemix. First off some background: Capgemini has its own University Campus...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/hacking-on-bluemix/"
+        },
+        {
+            "title": "\nUnit Tests are the Best Documentation\n",
+            "date": "7:22:2016",
+            "abstract": "\n\n            \n              As a relatively new developer (I\u2019ve only been writing code and learning for just over 3 years) this has been a bit of a revelation for me. I\u2019m sure for most seasoned developers this is old news but it\u2019s improved...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/unit-tests-as-documentation/"
+        },
+        {
+            "title": "\nThrowing stones at Clouds\n",
+            "date": "7:8:2016",
+            "abstract": "\n\n            \n              Once I was a serious developer, but this year all I have been allowed to do is play with Platform as a Service (PaaS) offerings. Instead of sulking, I have embraced the concept, and I think it\u2019s time a lot...\n            \n          \n",
+            "link": "https://capgemini.github.io//cloud/throwing-stones-at-clouds/"
+        },
+        {
+            "title": "\nDigital Developer Meetup, Birmingham, 14th July, 2016\n",
+            "date": "7:5:2016",
+            "abstract": "\n\n            \n              After the success of our first digital developers meetup last month, we are holding another one at the Birmingham Custard Factory on the 14th July. This event will give you the opportunity to find out about the innovative projects we...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Digital-Developer-Meetup-Birmingham/"
+        },
+        {
+            "title": "\nDefining a Minimum Viable Redesign\n",
+            "date": "6:24:2016",
+            "abstract": "\n\n            \n              These days, it\u2019s pretty rare that we build websites that aren\u2019t some kind of redesign. Unless it\u2019s a brand new company or project, the client usually has some sort of web presence already, and for one reason or another, they\u2019ve...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/minimum-viable-redesign/"
+        },
+        {
+            "title": "\nDigital Developer Meetup, London, 30th June, 2016\n",
+            "date": "6:21:2016",
+            "abstract": "\n\n            \n              Capgemini are holding a meetup for digital developers at our recently opened Applied Innovation Exchange (AIE) in Holborn, London on the 30th June. This event will give you the opportunity to find out about the innovative projects we are working...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Digital-Developer-Meetup/"
+        },
+        {
+            "title": "\nUnit Testing Timer Based Code\n",
+            "date": "6:17:2016",
+            "abstract": "\n\n            \n              Code that relies on timers is tricky to unit test. You have to check the functionality of your code and ensure there is the correct synchronisation between the test and the timer thread. Unless special measures are taken, exceptions thrown...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/testing-timers/"
+        },
+        {
+            "title": "\nLondon Calling - Devoxx UK, 2016\n",
+            "date": "6:16:2016",
+            "abstract": "\n\n            \n              UPDATE (21/07/2016): the Devoxx folks published the video of the sessions, so we linked them in. We came to Devoxx UK 2016 because we wanted to hire people. (A LOT of people.) But we also wanted to let the community...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/Devoxx-2016-report/"
+        },
+        {
+            "title": "\nKubeform: Kubernetes clusters in any cloud\n",
+            "date": "6:8:2016",
+            "abstract": "\n\n            \n              Today we are introducing Kubeform: A tool for provisioning production ready Kubernetes clusters to any cloud with security, scalability and maintainability in mind. We\u2019ve had this project open-source for a little while but have been a tad slow to get...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/kubeform/"
+        },
+        {
+            "title": "\nWe're Sponsoring ContainerSched\n",
+            "date": "6:6:2016",
+            "abstract": "\n\n            \n              The Capgemini UK Platform Engineering team is sponsoring ContainerSched 2016.\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/sponsoring-containersched/"
+        },
+        {
+            "title": "\nCleaning the Camel\n",
+            "date": "6:3:2016",
+            "abstract": "\n\n            \n              You can almost smell bad code and it\u2019s not a nice thing to behold. It can be even worse when you have to get your hands dirty and fix the stuff. In this post I\u2019m going to take a look...\n            \n          \n",
+            "link": "https://capgemini.github.io//java/cleaning-the-camel/"
+        },
+        {
+            "title": "\nWin Tickets to Devoxx UK 2016!\n",
+            "date": "5:26:2016",
+            "abstract": "\n\n            \n              Capgemini UK is proud to announce another fantastic giveaway for the dev community\u2026 Tickets to Devoxx UK 2016 worth \u00a3474!\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/win-tickets-to-devoxx/"
+        },
+        {
+            "title": "\nControlling the state of your infrastructure\n",
+            "date": "5:20:2016",
+            "abstract": "\n\n            \n              It is now a necessity to be able to rapidly and easily deploy and evolve a platform where your apps will be running. In order to do this you need to manage your own compute resources in a given cloud...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/Controlling-the-state-of-your-infrastructure/"
+        },
+        {
+            "title": "\nBuilding private Ethereum networks with Docker Compose\n",
+            "date": "5:16:2016",
+            "abstract": "\n\n            \n              In my previous article about building a blockchain application, I shared some of the tools, tips and techniques I used to create an end-to-end blockchain web application. Let\u2019s hone in on a specific part of that and explain in more...\n            \n          \n",
+            "link": "https://capgemini.github.io//blockchain/ethereum-docker-compose/"
+        },
+        {
+            "title": "\nThe ramblings of an open source newbie\n",
+            "date": "5:13:2016",
+            "abstract": "\n\n            \n              Some thoughts and opinions on a first foray as an open source contributor\n            \n          \n",
+            "link": "https://capgemini.github.io//open%20source/experiences-of-open-source/"
+        },
+        {
+            "title": "\nWe're Sponsoring Devoxx\n",
+            "date": "5:9:2016",
+            "abstract": "\n\n            \n              The Capgemini UK JVM team is sponsoring Devoxx UK 2016.\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/were-heading-to-devoxx/"
+        },
+        {
+            "title": "\nMusings on estimation\n",
+            "date": "5:6:2016",
+            "abstract": "\n\n            \n              Thinking about writing a blog post about estimating but not sure how long it will take.\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/on-estimating/"
+        },
+        {
+            "title": "\nAdventures in Blockchain\n",
+            "date": "5:2:2016",
+            "abstract": "\n\n            \n              I\u2019ve recently been engaged with the Capgemini Applied Innovation Exchange (AIE) where I\u2019ve been experimenting and working with emerging technologies in conjunction with our business and our clients. As part of that we\u2019ve been looking to leverage blockchain technology for...\n            \n          \n",
+            "link": "https://capgemini.github.io//blockchain/adventures-in-blockchain/"
+        },
+        {
+            "title": "\nSVG Icon Workflow for Jekyll with Gulp\n",
+            "date": "4:29:2016",
+            "abstract": "\n\n            \n              The engineering blog is a great opportunity for us to make decisions without those pesky clients getting in the way. For one thing, the audience is other developers, which means that the browser profile of our visitors is very different...\n            \n          \n",
+            "link": "https://capgemini.github.io//frontend/jekyll-svg-icons/"
+        },
+        {
+            "title": "\nScala Appetizer for Java Devs\n",
+            "date": "4:22:2016",
+            "abstract": "\n\n            \n              I have been a Java developer for a long time. That goes beyond the time when EJBs or even Struts were introduced. In my madness I decided to start my PhD a few years back. As part of my research...\n            \n          \n",
+            "link": "https://capgemini.github.io//scala/scala-appetizer-for-java-devs/"
+        },
+        {
+            "title": "\nHow Not To Lead A Team\n",
+            "date": "4:13:2016",
+            "abstract": "\n\n            \n              In my previous article about good lead developers, I said that there was another story, about some of the bad leaders I\u2019ve worked with. Well, it\u2019s time to tell that story. Initially I was reluctant to focus on the negatives,...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/how-not-to-lead/"
+        },
+        {
+            "title": "\nTransparency of Things\n",
+            "date": "4:8:2016",
+            "abstract": "\n\n            \n              So this blog post will mainly cover what dashboards can bring to transparency, which is at the core of what most IT projects are about these days, unlocking some feature set in the business or exposing a data set previously...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/transparency-of-things/"
+        },
+        {
+            "title": "\nHow to do NFR Testing (Non Functional Testing)\n",
+            "date": "3:18:2016",
+            "abstract": "\n\n            \n              On my current project I\u2019m working as an Integration developer (using among other things Camel, Hystrix and MongoDB). This post is based on a series of conversations with Andrew Harmel-Law (@al94781). I\u2019ve recently been involved in Non Functional Requirement (NFR)...\n            \n          \n",
+            "link": "https://capgemini.github.io//testing/how-to-do-nft/"
+        },
+        {
+            "title": "\nTechniques to improve Application Design\n",
+            "date": "3:11:2016",
+            "abstract": "\n\n            \n              Design is important because it gives an application a vision; a vision that can be shared amongst the team. It gives the team a direction; a foundation on which to build the code. It is not a means to make...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/application_design_made_easy/"
+        },
+        {
+            "title": "\nUnderstanding and Addressing our Waste\n",
+            "date": "3:4:2016",
+            "abstract": "\n\n            \n              How often do you find yourself having to wait for an event to happen so you can progress what you are trying to do? Waiting for your application to build? Waiting for someone to code review so you can commit?...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/understanding-and-addressing-our-waste/"
+        },
+        {
+            "title": "\nThe Thing about Things\n",
+            "date": "2:25:2016",
+            "abstract": "\n\n            \n              This article looks at two sides of the Internet of Things \u2013 the emerging technologies and the cultural impacts. The other week I attended a talk by Mat Henshall, Head of Things at Thoughtworks, San Francisco. I went along hoping...\n            \n          \n",
+            "link": "https://capgemini.github.io//infrastructure/the-thing-about-things/"
+        },
+        {
+            "title": "\nWin tickets to Voxxed Days Bristol\n",
+            "date": "2:19:2016",
+            "abstract": "\n\n            \n              Want to win a free ticket to Voxxed Days\u2019 first open source conference in Bristol? We at Capgemini Engineering are giving away a few full day passes to the Voxxed Days Bristol conference, February 25th 2016 (retail value \u00a3180). As...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/win-tickets-to-voxxeddays-bristol/"
+        },
+        {
+            "title": "\nSeniority, strength, and serendipity - what makes a good lead developer?\n",
+            "date": "2:9:2016",
+            "abstract": "\n\n            \n              Like many other people, I fell into a lead developer role, mainly because I found myself part of a team that had no leader. The idea of self-organising teams makes a lot of sense to me, but I think that...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/seniority-serendipity/"
+        },
+        {
+            "title": "\nWomen in Technology is an issue for everyone\n",
+            "date": "2:5:2016",
+            "abstract": "\n\n            \n              Last week Thursday (28th of Jan) a few of our ladies and a gent had the opportunity to attend the inaugural Women of Silicon Roundabout conference. Over 200 women and men working in technology were present at the conference and...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/women-in-tech-conf"
+        },
+        {
+            "title": "\nVoxxed Bristol Feb. 25th 2016\n",
+            "date": "1:29:2016",
+            "abstract": "\n\n            \n              What\u2019s the technology / architecture / way of working that will be big this year? You\u2019re not alone if you\u2019re not sure. The Voxxed Days Bristol conference will highlight some of these big choices over the space of 18 talks,...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/voxxed-bristol-feb-25th-2016/"
+        },
+        {
+            "title": "\nDocker Continuous Delivery Workflows\n",
+            "date": "1:26:2016",
+            "abstract": "\n\n            \n              So this big new world of containers has come along, and with it we are solving a lot of problems we previously had with virtual machines, and we are developing much more elegant solutions to problems as a community. One...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/docker-ci-workflows/"
+        },
+        {
+            "title": "\nSpecialism Constrains Throughput\n",
+            "date": "1:22:2016",
+            "abstract": "\n\n            \n              Why Specialisms Within a Team Leads to Constraints on Productivity Tim, a good developer, has been working on a story. \u201cFred, I need the build configuration changed to pick up the new component I\u2019ve added.\u201d Fred responds, \u201cokay, I can...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/specialism-constrains-throughput/"
+        },
+        {
+            "title": "\nTechniques on transforming your team to create a better culture\n",
+            "date": "1:15:2016",
+            "abstract": "\n\n            \n              We are all individuals - our experiences and personality affect who we are and how we see the world. We all learn in different ways and grasp concepts at different rates. Some of us need to fully understand how a...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/techniques-for-a-better-culture"
+        },
+        {
+            "title": "\nCreating a CXF REST service with Camel Blueprint\n",
+            "date": "1:8:2016",
+            "abstract": "\n\n            \n              CXF and Blueprint Before diving into the main content I\u2019ll just give some short snippets about the technology used here. Camel is a framework which implements all the (widely-used) enterprise integration patterns and allows for communication between multiple transports (JMS,...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/creating-a-cxf-restful-service-in-camel-blueprint/"
+        },
+        {
+            "title": "\nIs REST Best in a Microservices Architecture?\n",
+            "date": "12:18:2015",
+            "abstract": "\n\n            \n              During my journey into microservices, it has become apparent that the majority of online sample/howto posts regarding implementation focus solely on REST as a means for microservices to communicate with each other. Because of this, you could be forgiven for...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/is-rest-best-microservices/"
+        },
+        {
+            "title": "\nMeet our Team\n",
+            "date": "12:9:2015",
+            "abstract": "\n\n            \n              In a recent blog article, Tom spoke about the \u201cFind a Tech Job In London\u201d meetup that was hosted by Capgemini. If you missed the meetup or if you\u2019re still looking for an exciting opportunity, why not consider joining Capgemini?...\n            \n          \n",
+            "link": "https://capgemini.github.io//blog/team-promo-movie/"
+        },
+        {
+            "title": "\nNew Year, New Career?\n",
+            "date": "11:10:2015",
+            "abstract": "\n\n            \n              If your New Year\u2019s resolution will be \u2018find a new job\u2019 now\u2019s the time to start looking for that new and exciting opportunity. On Thursday 26th November Capgemini will be hosting the Find A Tech Job In London (FATJIL) meetup...\n            \n          \n",
+            "link": "https://capgemini.github.io//blog/capgemini-hiring-fatjil/"
+        },
+        {
+            "title": "\nDevOps Legacy\n              (Daft Punk Soundtrack optional)\n\n",
+            "date": "11:6:2015",
+            "abstract": "\n\n            \n              We all know that a DevOps culture should be a core principle of any new projects, and there\u2019s plenty of blog posts to get us started - just take a look at some of our previous posts. But what happens...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/devops_legacy/"
+        },
+        {
+            "title": "\nStylish Unit Tests\n",
+            "date": "10:30:2015",
+            "abstract": "\n\n            \n              Back in March I went to DEVWEEK 2015 and listened to a talk by Kevlin Henney called Programming with GUTs. (You can watch the video behind the link. It\u2019s a good talk.) Since then I\u2019ve been trying to write my...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/unit-test-structure/"
+        },
+        {
+            "title": "\nSuper, Smashing, Great in Barcelona\n",
+            "date": "10:23:2015",
+            "abstract": "\n\n            \n              I\u2019ve just come back from Smashing Conference in Barcelona and first of all, I have to thank the organisers and speakers for a great event. Secondly, I must apologise for the terribly predictable (for British people of a certain age)...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/super-smashing-great/"
+        },
+        {
+            "title": "\nMicroservices Like Change\n",
+            "date": "10:16:2015",
+            "abstract": "\n\n            \n              Do we always need to be scared of change? I got kind of excited the other day, I got told the client wanted a change. I know, weird, right? To make matters worse it was just a month before the...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/microservices-like-change/"
+        },
+        {
+            "title": "\nBetter Learning Through Code Reviews\n",
+            "date": "10:9:2015",
+            "abstract": "\n\n            \n              One of the main reasons I wanted to join a big company was the opportunity to learn. I wanted the chance to work on bigger projects with colleagues who\u2019ve been there and done that, and to benefit from their experience....\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/better-learning-code-reviews/"
+        },
+        {
+            "title": "\nIntroducing mesos-ui: An alternative frontend for Apache Mesos\n",
+            "date": "10:7:2015",
+            "abstract": "\n\n            \n              Today we are open-sourcing mesos-ui - A realtime, responsive dashboard for Apache Mesos, built with React, D3, Nodejs, Socket.io and Google Material UI for React. As part of our work on Apollo we got thinking that we could potentially improve...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/mesos-ui/"
+        },
+        {
+            "title": "\nDeveloper Automation\n",
+            "date": "10:2:2015",
+            "abstract": "\n\n            \n              The Problem As software engineers we\u2019ve all experienced the steps below when joining an established project: Walk in first day, excited at the prospect we can change the world! Get told task one is to read the documentation :/ followed...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/developer-automation/"
+        },
+        {
+            "title": "\nTooling as a service via executable images\n",
+            "date": "9:28:2015",
+            "abstract": "\n\n            \n              This is a recap about how we use the isolation of containers and the power, portability and simplicity of Docker for providing tooling as a service via executable images using DCOS-CLI as an example. True story! The problem: We want...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/tooling-as-a-service/"
+        },
+        {
+            "title": "\nAgile Cambridge 2015\n",
+            "date": "9:25:2015",
+            "abstract": "\n\n            \n              Failing Fast - An Autopsy of a Failed Release I\u2019ve been lucky enough to be selected to speak at Agile Cambridge 2015. My talk is titled \u201cFailing Fast - An Autopsy of a Failed Release\u201d, please read more about this...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/agile-cambridge-2015/"
+        },
+        {
+            "title": "\nDelivering at Devoxx\n",
+            "date": "9:18:2015",
+            "abstract": "\n\n            \n              There comes a point in a developer\u2019s life where one develops a solid confidence in one\u2019s opinions and actions. For me, this aligned with parenthood; the horrifying responsibility of being in charge of a little one\u2019s life makes choices such...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/delivering-at-devoxx/"
+        },
+        {
+            "title": "\nThe Lead Developer conference\n",
+            "date": "9:14:2015",
+            "abstract": "\n\n            \n              On Friday, I attended The Lead Developer conference, the first outing of a new conference for technical leads. I first heard about the conference back in May, and the tag line piqued my interest immediately: \u201cWhen you\u2019re busy leading a...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/lead-developer/"
+        },
+        {
+            "title": "\nBDD Test Execution Throughput\n",
+            "date": "9:4:2015",
+            "abstract": "\n\n            \n              Background This post is based on the experience of one project in particular. It is the implementation of a large enterprise solution, primarily to speed up the administration of a contract management process. The user-based part of the solution is...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/bdd-test-execution-throughput/"
+        },
+        {
+            "title": "\nWriting custom fields in Drupal 8\n",
+            "date": "8:27:2015",
+            "abstract": "\n\n            \n              Based on my presentations at DrupalCamp London, on Saturday 28th February 2015 and DrupalCamp Bristol, July 4th 2015 Concept of a field Fields are the data entry points to a web application. Usually, they provide HTML elements and may be...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/writing-custom-fields-in-drupal-8/"
+        },
+        {
+            "title": "\nContinuously deploying Apollo with Wercker\n",
+            "date": "7:3:2015",
+            "abstract": "\n\n            \n              When deploying Apollo it will create the cluster infrastructure in the cloud using an image built by Atlas and Packer. Additionally, it will provision and configure the new machines providing a full PAAS ready for deploying containers across the datacenter....\n            \n          \n",
+            "link": "https://capgemini.github.io//open%20source/continuously-deploying-apollo/"
+        },
+        {
+            "title": "\nHow Apollo uses Weave and Weave Scope\n",
+            "date": "6:30:2015",
+            "abstract": "\n\n            \n              In my previous post we launched an Apollo cluster on AWS in under 5 minutes. Some of the magic around how we enable an easier developer experience around deploying and managing the communication between Docker containers is hidden in the...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/how-apollo-uses-weave/"
+        },
+        {
+            "title": "\nDemo: Launching an Apollo cluster on AWS\n",
+            "date": "6:24:2015",
+            "abstract": "\n\n            \n              This post aims to show how you can get up and running with an Apollo cluster on AWS inside 5 minutes. For more background information on Apollo see our Github repo or the original post which gives an insight into...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/apollo-launch-aws/"
+        },
+        {
+            "title": "\nMaking ethical development decisions\n",
+            "date": "6:4:2015",
+            "abstract": "\n\n            \n              We are moral agents. Each of us makes countless choices throughout the course of a day, and many of these choices have ethical parameters and ramifications. We seldom, if ever, stop to think about those choices and their impact on...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/making-ethical-development-choices/"
+        },
+        {
+            "title": "\nLast year an unconference changed my life\n",
+            "date": "5:20:2015",
+            "abstract": "\n\n            \n              NOTE: This post first appeared on Voxxed.com. Come to Unvoxxed, the newest London Unconference brought to you by The Java Posse Roundup and Devoxx UK, 15-16 June, \u00a3125.00 - \u00a3115 if you book before the end of 21st May and...\n            \n          \n",
+            "link": "https://capgemini.github.io//learning/last-year-an-unconf/"
+        },
+        {
+            "title": "\nDrupal integration patterns\n",
+            "date": "5:15:2015",
+            "abstract": "\n\n            \n              As Drupal has evolved, it has become more than just a CMS. It is now a fully fledged Web Development Platform, enabling not just sophisticated content management and digital marketing capabilities but also any number of use cases involving data...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/drupal-integration-patterns/"
+        },
+        {
+            "title": "\nApollo, an open-source platform for running your apps\n",
+            "date": "5:6:2015",
+            "abstract": "\n\n            \n              Today we are releasing Apollo - A platform for running your next generation web services and applications. This is a project that we have been experimenting with internally to power microservices and big data platforms for our clients. Apollo is...\n            \n          \n",
+            "link": "https://capgemini.github.io//devops/apollo/"
+        },
+        {
+            "title": "\nCode Beauty\n",
+            "date": "4:29:2015",
+            "abstract": "\n\n            \n              When was the last time you or a colleague looked at some code and made a comment about its attractiveness? You may have said that some code was \u201cugly\u201d or, if you were more fortunate, you might have called it...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/code-beauty/"
+        },
+        {
+            "title": "\nMicroservices Gotchas\n",
+            "date": "4:16:2015",
+            "abstract": "\n\n            \n              Don\u2019t get me wrong, I\u2019m not anti Microservice, far from it. Come and ask me and I\u2019ll give you a lot of reasons why they can benefit any development project. And there are plenty of posts on the web and...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/microservices-gotchas/"
+        },
+        {
+            "title": "\nWhen It's Clever to Admit That You're Not Feeling Clever\n",
+            "date": "3:18:2015",
+            "abstract": "\n\n            \n              On the first day of my first professional job, an experienced colleague gave me a piece of advice which has served me well for many years: \"Admit it when you don't know the answer\" Simplistically, this works because it prevents...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/its-sometimes-clever-to-admit/"
+        },
+        {
+            "title": "\nRisk Burndown\n",
+            "date": "3:12:2015",
+            "abstract": "\n\n            \n              Few Agile approaches actively manage risk. There are some tools to help with risk, such as sprints, Definition of Done, etc. but there are few tools that are explicit about risk. Risk burndown is an approach I have used to...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/risk-burndown/"
+        },
+        {
+            "title": "\nWhy Microservices Are Right For Us\n",
+            "date": "3:6:2015",
+            "abstract": "\n\n            \n              I posted previously about the fact we\u2019re \u201cdoing\u201d Microservices. At that time I was hedging pretty extensively (as various commenters pointed out). This was predominantly because we we\u2019re pathfinding (or at least broadening the paths for the rest of us...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/why-microservices-are-right-for-us-pt1/"
+        },
+        {
+            "title": "\nDrupal, Symfony and friends\n",
+            "date": "2:27:2015",
+            "abstract": "\n\n            \n              There are thousands of situations in which you do not want to reinvent the wheel. It is a well known principle in Software Engineering, but not always well applied/known into the Drupal world. Let\u2019s say for example, that you have...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/drupal-composer-symfony/"
+        },
+        {
+            "title": "\nAn Introduction to VirtualBox\n",
+            "date": "2:11:2015",
+            "abstract": "\n\n            \n              What is my aim with this post? It is to give you a good introduction to Oracle\u2019s VirtualBox so you know all about it and what it can do. This is not a tutorial on how to install it and...\n            \n          \n",
+            "link": "https://capgemini.github.io//infrastructure/an-introduction-to-virtualbox/"
+        },
+        {
+            "title": "\nDrupal 8 PSR-4 Form compatibility in Drupal 7\n",
+            "date": "1:14:2015",
+            "abstract": "\n\n            \n              Up until Drupal 8 there has been little to encourage well organised code. It now has PSR-4 autoloading so your classes are automatically included. Even though Drupal 8 is just round the corner, a lot of us will still be...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/drupal-7-psr-forms/"
+        },
+        {
+            "title": "\nDrupal 8 in 2 steps\n",
+            "date": "1:7:2015",
+            "abstract": "\n\n            \n              Drupal 8 is the latest version of Drupal, a modern, PHP 5.4-boasting, REST-capable, object-oriented powerhouse. The concepts are still the same as the previous versions but the approach is now different. Drupal 8 comes with a modern Object Oriented Programming...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/drupal-8-in-2-steps/"
+        },
+        {
+            "title": "\nLittle's Law and KanBan\n",
+            "date": "12:12:2014",
+            "abstract": "\n\n            \n              This post delves into Little\u2019s Law and how it relates to KanBan for software development. Understanding these concepts and their relationship will help agile practitioners improve the delivery pipeline, in particular by knowing what to measure and inspect. (Software engineers...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/Littles-Law-and-KanBan/"
+        },
+        {
+            "title": "\nSolving problems being technology agnostic\n",
+            "date": "12:1:2014",
+            "abstract": "\n\n            \n              We are used to building systems and solving problems under high quality requirements as developers. When you are creating a whole system with its own behaviour and idiosyncrasy your solution is probably going to have some specific characteristics due to...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/solving-problems/"
+        },
+        {
+            "title": "\nPair Programming and Bud\u014d\n",
+            "date": "11:21:2014",
+            "abstract": "\n\n            \n              Confession time: I find pair programming hugely useful, productive, informative - and draining. Like many developers of my acquaintance, I\u2019m an introvert; which doesn\u2019t mean I don\u2019t like people, just that I am less than enthused about spending hours at...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/pair-programming-budo/"
+        },
+        {
+            "title": "\nAgile Analogies for Software Development\n",
+            "date": "11:18:2014",
+            "abstract": "\n\n            \n              I\u2019ve recently been working in a training role, with people who have never been exposed to the software engineering lifecycle before. I was drawn to considering analogies to try and explain to them what we were trying to do. It...\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/agile-analogies/"
+        },
+        {
+            "title": "\nAutomation as a way of thinking... and docker\n",
+            "date": "11:10:2014",
+            "abstract": "\n\n            \n              Automation is a key and essential fact when solving problems and assembling pieces together. By automating you only need to do the same thing once, reducing the possibility of human errors so it helps to increase quality, efficiency and productivity...\n            \n          \n",
+            "link": "https://capgemini.github.io//open%20source/automation/"
+        },
+        {
+            "title": "\nKeeping Drupal Secure\n",
+            "date": "10:31:2014",
+            "abstract": "\n\n            \n              The recent announcement of Drupal SA-CORE-2014-005 caused a global scramble amongst Drupal site owners, developers and hosting providers to patch their sites and protect themselves from the vulnerability. Unfortunate site owners who weren\u2019t quick enough were left with a site...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/securing-drupal/"
+        },
+        {
+            "title": "\nLooking Forward to the Spring eXchange 2014 with Capgemini Software Engineering\n",
+            "date": "10:28:2014",
+            "abstract": "\n\n            \n              It\u2019s the 2014 Spring eXchange at skillsmatter Thursday, 6th - Friday, 7th November, and Capgemini are incredibly excited to be sponsoring the event! Need Some Great Reasons to go to the Spring eXchange 2014? The Spring eXchange is the best...\n            \n          \n",
+            "link": "https://capgemini.github.io//development/spring-exchange-2014/"
+        },
+        {
+            "title": "\nReflections on Drupalcon Amsterdam\n",
+            "date": "10:23:2014",
+            "abstract": "\n\n            \n              Along with Malcolm and other colleagues from the Capgemini Drupal team, I attended the recent Drupalcon in Amsterdam. And as well as admiring the Dutch attitude to cycling and its integration in the city (btw London, blue paint on the...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/drupalcon-amsterdam/"
+        },
+        {
+            "title": "\nAgile and Lean\n",
+            "date": "10:22:2014",
+            "abstract": "\n\n            \n              Or should that be Scrum and Kanban? I was in a short conversation a few days ago around whether we, in the business of software development, want to raise the profile of Lean. Perhaps even create some formal training materials....\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/agile-v-lean/"
+        },
+        {
+            "title": "\nComponent Based Development for the Enterprise\n",
+            "date": "10:21:2014",
+            "abstract": "\n\n            \n              Recently 10 members of the Drupal development team at Capgemini went to Drupalcon Amsterdam. Having been to two Drupalcons before, I more or less knew what to expect, but something I hadn\u2019t previously given much thought to was how big...\n            \n          \n",
+            "link": "https://capgemini.github.io//drupal/component-based-design/"
+        },
+        {
+            "title": "\nMicroservices - A Reality Check(point)\n",
+            "date": "10:17:2014",
+            "abstract": "\n\n            \n              It\u2019s reached the point where it\u2019s even a cliche to state \u201cthere\u2019s a lot written about Microservices these days.\u201d But despite this, here\u2019s another post on the topic. Why does the internet need another? Please bear with me\u2026 We\u2019re doing...\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/microservices-reality-check/"
+        },
+        {
+            "title": "\nTrade-Offs\n",
+            "date": "10:16:2014",
+            "abstract": "\n\n            \n              Why Stuff Goes Slow\n\n  waiting\n  blocked\n  taking the long way round\n  forgetting what you knew\n\n\nWhy Stuff Gets Complicated\n\n  Engineering around why stuff goes slow\n\n\n            \n          \n",
+            "link": "https://capgemini.github.io//architecture/trade-offs/"
+        },
+        {
+            "title": "\nAutomated testing for POODLE\n",
+            "date": "10:10:2014",
+            "abstract": "\n\n            \n              Why should systems and infrastructure not be treated in the same way as other software components, especially when it comes to implementing security concerns. With today\u2019s POODLE announcement of another SSL vulnerability it makes sense to add infrastructure tests to...\n            \n          \n",
+            "link": "https://capgemini.github.io//open%20source/testing-for-poodle/"
+        },
+        {
+            "title": "\nReflections on Symfony Live London 2014\n",
+            "date": "10:10:2014",
+            "abstract": "\n\n            \n              At the end of September, I went to my first \u201cnon-Drupal\u201d PHP event, Symfony Live London 2014. With Symfony components becoming a large part of Drupal 8 it was an excellent opportunity to learn a bit about what it all...\n            \n          \n",
+            "link": "https://capgemini.github.io//open%20source/symfony-live/"
+        },
+        {
+            "title": "\nAnswering: How long will it take?\n",
+            "date": "10:6:2014",
+            "abstract": "\n\n            \n              How long will it take?\n            \n          \n",
+            "link": "https://capgemini.github.io//agile/estimation/"
+        },
+        {
+            "title": "\nSome Details on the Subtleties of Scala and the Uniform Access Principle\n",
+            "date": "10:3:2014",
+            "abstract": "\n\n            \n              Lets start off by taking a really simple function, f, which simply makes and returns a 5-value tuple which can be captured in a val or var: def f = (1, 3.14, \u201cMouse\u201d, false, \u201cAltitude\u201d) The first element of this...\n            \n          \n",
+            "link": "https://capgemini.github.io//scala/scala-uniform-access-principle/"
+        },
+        {
+            "title": "\nEffective BDD\n",
+            "date": "9:29:2014",
+            "abstract": "\n\n            \n              It\u2019s always important to remember that whilst Behat can be just used as a scripting language, in order to get the many benefits associated with BDD then you should always view your scenarios as \u2018Executable Specifications\u2019 for features that deliver...\n            \n          \n",
+            "link": "https://capgemini.github.io//bdd/effective-bdd/"
+        },
+        {
+            "title": "\nWelcome to Capgemini Engineering\n",
+            "date": "9:26:2014",
+            "abstract": "\n\n            \n              At Capgemini, we\u2019re passionate about Engineering and the many facets that make up successful engineering teams. We like to experiment with new technologies, establishing patterns that make our lives easier and more efficient. We are active in the various open...\n            \n          \n",
+            "link": "https://capgemini.github.io//blog/first-post/"
+        }
+    ]
+}
