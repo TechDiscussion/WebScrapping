@@ -1,0 +1,715 @@
+{
+    "slack": [
+      {
+        "abstract": "From the very beginning of Slack, MySQL was used as the storage engine for all our data. Slack operated MySQL servers in an active-active configuratio…",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/12/chuttersnap-q3o7xqYQtes-unsplash.jpg?w=1920",
+        "link": "https://slack.engineering/scaling-datastores-at-slack-with-vitess/",
+        "title": "Scaling Datastores at Slack with Vitess"
+      },
+      {
+        "abstract": "Last year, we migrated Airflow from 1.8 to 1.10 at Slack (see here) and we did a “Big bang” upgrade because of the constraints we had. This year, due …",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/11/lukasz-szmigiel-jgFBXnK4F_g-unsplash-2.jpg?w=1920",
+        "link": "https://slack.engineering/migrating-slack-airflow-to-python-3-without-disruption/",
+        "title": "Migrating Slack Airflow to Python 3 Without Disruption"
+      },
+      {
+        "abstract": "Part I",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_1pDqkj6W_98A7NKxpCaGsg.png?w=1920",
+        "link": "https://slack.engineering/creating-a-react-analytics-logging-library/",
+        "title": "Creating a React Analytics Logging Library"
+      },
+      {
+        "abstract": "Architecture of Email Bridge",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/10/modestas-urbonas-vj_9l20fzj0-unsplash.jpg?w=1920",
+        "link": "https://slack.engineering/bridging-the-gap-between-slack-and-email-users/",
+        "title": "Bridging the Gap Between Slack and Email Users"
+      },
+      {
+        "abstract": "At Slack, we’ve gone through an evolution of our AWS infrastructure from the early days of running a few hand-built EC2 instances, all the way to prov…",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/09/building_the_next_evolution_of_cloud-_networks_at_slack_cover_1.jpg?w=1920",
+        "link": "https://slack.engineering/building-the-next-evolution-of-cloud-networks-at-slack/",
+        "title": "Building the Next Evolution of Cloud Networks at Slack"
+      },
+      {
+        "abstract": "Together, we’ll explore the must-add features Slack uses to build web forms that generate leads for successful deals and reflect on the impact they’ve had.",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/09/contact-sales-header@2x.jpg?w=1920",
+        "link": "https://slack.engineering/the-unsuspecting-beauty-complexity-of-web-forms/",
+        "title": "The Unsuspecting Beauty & Complexity of Web Forms"
+      },
+      {
+        "abstract": "Thoughts on starting and continuing an engineering-driven initiative",
+        "author": "@Josh Cartmell",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/08/DSCF1247-1.jpg?w=1920",
+        "link": "https://slack.engineering/starting-an-initiative/",
+        "title": "Starting an Initiative"
+      },
+      {
+        "abstract": "",
+        "author": "@Josh Cartmell",
+        "title": ""
+      },
+      {
+        "abstract": "“Why is it slow?'' is the hardest problem to debug in a complex distributed system like Slack. To diagnose a slow-loading channel with over a hundred …",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/08/alex-iby-Nb-KiMNgJTc-unsplash.jpg?w=1920",
+        "link": "https://slack.engineering/tracing-at-slack-thinking-in-causal-graphs/",
+        "title": "Tracing at Slack: Thinking in Causal Graphs"
+      },
+      {
+        "abstract": "Tips for joining a fully distributed company",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/08/SecurityTeamInternship2020.png?w=1920",
+        "link": "https://slack.engineering/how-to-have-an-impactful-internship-virtually/",
+        "title": "How to Have an Impactful Internship… Virtually"
+      },
+      {
+        "abstract": "A case study in leveraging machine learning",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/07/franck-v-oIMXkEuiXpc-unsplash.jpg?w=1920",
+        "link": "https://slack.engineering/blocking-slack-invite-spam-with-machine-learning/",
+        "title": "Blocking Slack Invite Spam With Machine Learning"
+      },
+      {
+        "abstract": "What does Slack do when Slack goes down?",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/07/1_dQGibYIh0KoedyBtlDnYwQ.jpeg?w=1600",
+        "link": "https://slack.engineering/all-hands-on-deck/",
+        "title": "All Hands on Deck"
+      },
+      {
+        "abstract": "On May 12, 2020, Slack had our first significant outage in a long time. This is a detailed look into the technical issues that caused it.",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/07/1_IpaWqnHCZNFfaOrTJOUSbQ.jpeg?w=1400",
+        "link": "https://slack.engineering/a-terrible-horrible-no-good-very-bad-day-at-slack/",
+        "title": "A Terrible, Horrible, No-Good, Very Bad Day at Slack"
+      },
+      {
+        "abstract": "What is the \"app sandbox,\" what is it protecting against, and why does it matter?",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/07/0_g_Prp6ZEuAhTa9P9.jpeg?w=1600",
+        "link": "https://slack.engineering/the-app-sandbox/",
+        "title": "The App Sandbox"
+      },
+      {
+        "abstract": "At Slack, Quality is a shared responsibility. The Quality Engineering team is focused on creating a culture of testing, increasing test coverage, and …",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/07/0_opq5zZ-pUmSMYLlo.jpeg?w=1000",
+        "link": "https://slack.engineering/scaling-end-to-end-user-interface-tests/",
+        "title": "Scaling End-to-End User Interface Tests"
+      },
+      {
+        "abstract": "Over the years at Slack — usually during periods of high growth — teams have defaulted to working in a waterfall where an idea is proposed and researc…",
+        "author": "@Kavita Chodavarapu@Bryant Ung",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_67Tj-K4CRsyAsCrnUMS7kw.jpeg?w=1400",
+        "link": "https://slack.engineering/prototyping-at-slack/",
+        "title": "Prototyping at Slack"
+      },
+      {
+        "abstract": "6:28 am\nFirst alarm rings. Snooze.\n6:30 am\nSecond alarm rings. Snooze.\n6:34 am\nFinal alarm rings and I know this is the last one, so I hop out of…",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_hHyJEizqexlj_kYFtVeHIQ.jpeg?w=1400",
+        "link": "https://slack.engineering/a-day-in-the-life-of-a-frontend-foundations-engineer-at-slack/",
+        "title": "A Day in the Life of a Frontend Foundations Engineer at Slack"
+      },
+      {
+        "abstract": "Starting From the Top\nImagine joining a new team at a new company and you finally get access to a codebase.\n\n Slack iOS Xcode File Hierarchy 2017\n\nWhe…",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_bipan_epV7HjhXzICdoISw.jpeg?w=1920",
+        "link": "https://slack.engineering/happiness-is-a-freshly-organized-codebase/",
+        "title": "Happiness is… a freshly organized codebase"
+      },
+      {
+        "abstract": "How Slack’s development environments have evolved over time.",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_3uDpfP-oNoLbBOqw.jpeg?w=1600",
+        "link": "https://slack.engineering/development-environments-at-slack/",
+        "title": "Development Environments at Slack"
+      },
+      {
+        "abstract": "6:45 am\nMy alarm is set for 6:45 but I often wake up before it goes off. I tend to wake up earlier during Vancouver’s long summer days, when the sun …",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_c1HU1M3OxkZhPSmNufKvMg.jpeg?w=1400",
+        "link": "https://slack.engineering/a-day-in-the-life-of-a-mobile-product-engineer-at-slack/",
+        "title": "A Day in the Life of a Mobile Product Engineer at Slack"
+      },
+      {
+        "abstract": "How and why Slack migrated to Hack, the benefits it gave us, and things to consider for your own codebase.",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_j80dms3VT7UVXQ-T9amdpw.jpeg?w=1400",
+        "link": "https://slack.engineering/hacklang-at-slack-a-better-php/",
+        "title": "Hacklang at Slack: A Better PHP"
+      },
+      {
+        "abstract": "Prior to the COVID-19 outbreak and our current shelter in place orders in San Francisco.",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_Fw1rbDmCCL1HwES9.jpeg?w=1920",
+        "link": "https://slack.engineering/a-day-in-the-life-of-a-backend-product-engineer-at-slack/",
+        "title": "A Day in the Life of a Backend Product Engineer at Slack"
+      },
+      {
+        "abstract": "Deploys require a careful balance of speed and reliability.",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_7L9veNnguQxeWZNDWmk2Hw.jpeg?w=1920",
+        "link": "https://slack.engineering/deploys-at-slack/",
+        "title": "Deploys at Slack"
+      },
+      {
+        "abstract": "Most new things in technology turn out to be fads: patterns of talking and doing that come and go without leaving a permanent mark. Microkernels; EPIC…",
+        "author": "@Michael Deng@Jonathan Chang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_XEnEE7B_IYvKobT0vmaG7A.jpeg?w=1920",
+        "link": "https://slack.engineering/how-big-technical-changes-happen-at-slack/",
+        "title": "How Big Technical Changes Happen at Slack"
+      },
+      {
+        "abstract": "This is the second in a series of posts describing the everyday life of Engineers in different parts of Slack’s ecosystem.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_xaEn7NPR32qSMa__TasoFA.jpeg?w=1920",
+        "link": "https://slack.engineering/a-day-in-the-life-of-a-frontend-product-engineer-at-slack/",
+        "title": "A Day in the Life of a Frontend Product Engineer at Slack"
+      },
+      {
+        "abstract": "For two years we’ve been running Airflow 1.8, and it was time for us to catch up. Here’s how we did it without impacting 700B daily records.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_xvDEF8FCPk8uQ0vv.jpeg?w=1920",
+        "link": "https://slack.engineering/reliably-upgrading-apache-airflow-at-slacks-scale/",
+        "title": "Reliably Upgrading Apache Airflow at Slack’s Scale"
+      },
+      {
+        "abstract": "Introducing Nebula, an open source scalable overlay networking tool with a focus on performance, simplicity and security.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_SjZE-XX5wQSjG0JtmjuthA.jpeg?w=1920",
+        "link": "https://slack.engineering/introducing-nebula-the-open-source-global-overlay-network-from-slack/",
+        "title": "Introducing Nebula, the open source global overlay network from Slack"
+      },
+      {
+        "abstract": "This is the first in a series of posts describing the everyday life of Engineers in different parts of Slack’s ecosystem.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_ruw10_A1FOxBrEOlKWF5kA.jpeg?w=1920",
+        "link": "https://slack.engineering/a-day-in-the-life-of-a-backend-foundation-engineer-at-slack/",
+        "title": "A Day in the Life of a Backend Foundation Engineer at Slack"
+      },
+      {
+        "abstract": "Our quest to streamline product development, improve productivity, and automatically adopt best performance practices on the frontend.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_jfFiJr4OxVaU882JZBp1Hg.jpeg?w=1400",
+        "link": "https://slack.engineering/gantry-slacks-fast-booting-frontend-framework/",
+        "title": "Gantry: Slack’s Fast-booting Frontend Framework"
+      },
+      {
+        "abstract": "Two years ago, I wrote a post about Libslack, Slack’s shared C++ client library. That post described how Slack used the Libslack library in its mobile…",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_Ou2jo5RM6BoXRT3_Y7ftTg.jpeg?w=1400",
+        "link": "https://slack.engineering/client-consistency-at-slack-beyond-libslack/",
+        "title": "Client Consistency at Slack: Beyond Libslack"
+      },
+      {
+        "abstract": "More than just CSS, dark mode represents a new way of thinking about color and styles at Slack.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_LjRHaoTgo9NrwURO66PIVw.png?w=1920",
+        "link": "https://slack.engineering/building-dark-mode-on-desktop/",
+        "title": "Building Dark Mode on Desktop"
+      },
+      {
+        "abstract": "Building shared channels challenged Slack’s fundamental assumption that the workspace is the atomic unit of partitioning customer data.",
+        "author": "@Kyle Stetz",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_rzCFdUvEX6D4z6cibPopDQ.jpeg?w=1920",
+        "link": "https://slack.engineering/how-slack-built-shared-channels/",
+        "title": "How Slack Built Shared Channels"
+      },
+      {
+        "abstract": "A group of engineers, designers, and writers began to centralize and standardize components. We named it Slack Kit.",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_2pwlDPbiCI6rzRGB6iJQHg.png?w=1340",
+        "link": "https://slack.engineering/the-gradual-design-system-how-we-built-slack-kit/",
+        "title": "The Gradual Design System: How We Built Slack Kit"
+      },
+      {
+        "abstract": "Detecting vulnerabilities in Javascript/npm packages with daily scans",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/0_8EMpLB4ut2Op9dSC.png?w=1400",
+        "link": "https://slack.engineering/interning-on-slacks-product-security-team/",
+        "title": "Interning on Slack’s Product Security Team"
+      },
+      {
+        "abstract": "Using a CDN-cached HTML file, a persisted Redux store, and a Service Worker, we reduced Slack boot time by more than 50%.",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_kOguV71qyHa7Xr1FH5-xA.jpeg?w=1920",
+        "link": "https://slack.engineering/service-workers-at-slack-our-quest-for-faster-boot-times-and-offline-support/",
+        "title": "Service Workers at Slack: Our Quest for Faster Boot Times and Offline Support"
+      },
+      {
+        "abstract": "What does it mean to design for thumbs?",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_ZsIycIWQi00CJpVoTkJ3UQ.jpeg?w=1400",
+        "link": "https://slack.engineering/panmodal-better-support-for-thumb-accessibility-on-slack-mobile/",
+        "title": "PanModal: Better support for thumb accessibility on Slack mobile"
+      },
+      {
+        "abstract": "Slack is a large and complex piece of software that’s been added to and changed many times over the last five years. We added features, grew to 10,000…",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_4H9Q9HasZ1IoJz5rxhbUfA-scaled-1.jpeg?w=1920",
+        "link": "https://slack.engineering/disasterpiece-theater-slacks-process-for-approachable-chaos-engineering/",
+        "title": "Disasterpiece Theater: Slack’s process for approachable Chaos Engineering"
+      },
+      {
+        "abstract": "A new version of Slack is rolling out for our desktop customers, built from the ground up to be faster, more efficient, and easier to work on.",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_cgkWRCMtQXti3jbA-scaled-1.jpeg?w=1920",
+        "link": "https://slack.engineering/rebuilding-slack-on-the-desktop/",
+        "title": "When a rewrite isn’t: rebuilding Slack on the desktop"
+      },
+      {
+        "abstract": "Shipping features with confidence and finding bottlenecks before our users do",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_GafRQLY4KsSdzq2H0EIYuQ.jpeg?w=1920",
+        "link": "https://slack.engineering/%ef%b8%8f-surfs-up-preparing-for-huge-waves-of-traffic-via-load-testing/",
+        "title": "🏄‍♀️ Surf’s Up! Preparing for Huge Waves of Traffic via Load Testing"
+      },
+      {
+        "abstract": "You might have used DevTools to profile your JavaScript. But there’s a lot that DevTools can’t tell you.",
+        "author": "@Serry Park@Arka Ganguli@Joe Smith",
+        "link": "https://slack.engineering/chrome-tracing-for-fun-and-profit/",
+        "title": "Chrome Tracing for Fun and Profit"
+      },
+      {
+        "abstract": "Our Journey to Python 3",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_49Jnazl5kM_YpVyOcNmfsA-scaled-1.jpeg?w=1920",
+        "link": "https://slack.engineering/rewriting-the-slack-python-sdk/",
+        "title": "Rewriting the Slack Python SDK"
+      },
+      {
+        "abstract": "What is a pentest or a red team? Before we go any further, we should define our terms, though you may find they’re often used interchangeably:\n\n \tPe…",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_oMO7bK5yI2nkvUICS9xrRg.jpeg?w=1920",
+        "link": "https://slack.engineering/how-slack-hires-a-red-team-and-you-can-too/",
+        "title": "How Slack Hires a Red Team (and you can too!)"
+      },
+      {
+        "abstract": "For anyone who’s ever been involved in the hiring process, it’s no easy feat — particularly in a growing company. To get hiring practices right, it ta…",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_NaUmBti42n0FMMffyjTtBg.jpeg?w=1920",
+        "link": "https://slack.engineering/refactoring-backend-engineering-hiring-at-slack/",
+        "title": "Refactoring Backend Engineering Hiring at Slack"
+      },
+      {
+        "abstract": "The mission of the Slack Growth team is to ensure that every company can successfully adopt and scale Slack. We act on this mission in the following w…",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_SnsMRZGuTSIZO6OASwp8kA.jpeg?w=1400",
+        "link": "https://slack.engineering/highlights-from-slacks-march-growth-meetup/",
+        "title": "Highlights from Slack’s March Growth Meetup"
+      },
+      {
+        "abstract": "A look into how the Slack engineering team designed and made Slack Enterprise Key Management, a tailor-made solution for security-conscious",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/img-hero-ekm@2x.jpg?w=1000",
+        "link": "https://slack.engineering/engineering-dive-into-slack-enterprise-key-management/",
+        "title": "Engineering dive into Slack Enterprise Key Management"
+      },
+      {
+        "abstract": "Developer Relations (DevRel) is an interdisciplinary role that sits in a border space between product, engineering, and marketing.",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_EbE4qvknu4gRTLjaUqJhxQ.jpeg?w=1400",
+        "link": "https://slack.engineering/defining-a-career-path-for-developer-relations/",
+        "title": "Defining a career path for Developer Relations"
+      },
+      {
+        "abstract": "Strategies for building accessibility awareness into your development process",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_Gc-eliSqRQytbucC_0aX-w.png?w=1898",
+        "link": "https://slack.engineering/how-to-fail-at-accessibility/",
+        "title": "How to Fail at Accessibility"
+      },
+      {
+        "abstract": "Slack believes in making our users’ working lives simpler, more pleasant, and more productive. This is true whether they are at their desk or on the g…",
+        "author": "@Trish Ang",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_fTnZl5ZicW4g-zXdGzPOMw.jpeg?w=1400",
+        "link": "https://slack.engineering/highlights-from-slacks-august-mobile-meetup/",
+        "title": "Highlights from Slack’s August Mobile Meetup"
+      },
+      {
+        "abstract": "Scaling is hard. Design decisions that initially seemed reasonable break down with little warning, and suddenly even the simplest parts of your data m…",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_QREnO9tDvA4SqelyV1R_Qg.jpeg?w=1400",
+        "link": "https://slack.engineering/re-architecting-slacks-workspace-preferences-how-to-move-to-an-eav-model-to-support-scalability/",
+        "title": "Re-architecting Slack’s Workspace Preferences: How to Move to an EAV Model to Support Scalability"
+      },
+      {
+        "abstract": "How Slack unified performance metrics across Desktop, iOS, and Android",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_zxqXoiRyIEeXhWSU5zFnnQ.jpeg?w=1920",
+        "link": "https://slack.engineering/unified-cross-platform-performance-metrics/",
+        "title": "Unified Cross-Platform Performance Metrics"
+      },
+      {
+        "abstract": "Digging through a large codebase to locate a bug can feel incredibly overwhelming, especially for a junior developer. While some might argue that well…",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_FeVNoYxcy1cGntp1.jpeg?w=1000",
+        "link": "https://slack.engineering/streamlining-your-workflow-debugging-for-hhvm/",
+        "title": "Streamlining Your Workflow: Debugging for HHVM"
+      },
+      {
+        "abstract": "Ever needed to squint to see some text? How about feeling unsure where a button is because it’s indistinguishable from the background color? Accessibl…",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_9q9p_pdkvGXR-PO2n4_RYA.jpeg?w=1920",
+        "link": "https://slack.engineering/ways-we-make-the-slack-ios-app-accessible/",
+        "title": "Ways we make the Slack iOS app accessible"
+      },
+      {
+        "abstract": "The SDL at Slack and goSDL",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_I7foPGuLhqRN3U9v_WHf_A.jpeg?w=1920",
+        "link": "https://slack.engineering/moving-fast-and-securing-things/",
+        "title": "Moving Fast and Securing Things"
+      },
+      {
+        "abstract": "Things aren’t always what they seem in this place, so you can’t take anything for granted.",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_9vePJLifakl8FuEr1_rXpg-scaled-1.jpeg?w=1920",
+        "link": "https://slack.engineering/interops-labyrinth-sharing-code-between-web-electron-apps/",
+        "title": "Interop’s Labyrinth: Sharing Code Between Web & Electron Apps"
+      },
+      {
+        "abstract": "You know how to design a good API, but how do you evolve that API when it’s time to make changes? We’ve faced this with each major feature release her…",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/0_kHI_n5HvxLP-sEo5.png?w=1280",
+        "link": "https://slack.engineering/evolving-the-slack-api/",
+        "title": "Evolving the Slack API"
+      },
+      {
+        "abstract": "webpack is a brilliant tool for bundling frontend assets. When things start to slow down, though, its batteries-included nature and the ocean of third…",
+        "author": "@Brenda Jin",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_n7SFvwKvpLsW0ZcEDbgBtg.jpeg?w=1400",
+        "link": "https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance/",
+        "title": "Keep webpack Fast: A Field Guide for Better Build Performance"
+      },
+      {
+        "abstract": "In Part 1 we introduced the targeted and hermetic UI test approach that helped Slack Android engineers write hundreds of stable UI tests. However, as …",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_KzLoOI9IQRCwnI6sA-NGCw.jpeg?w=1920",
+        "link": "https://slack.engineering/android-ui-automation-part-2-making-it-easy/",
+        "title": "Android UI Automation: Part 2, Making It Easy"
+      },
+      {
+        "abstract": "How we integrated UI testing into the Android developer workflow at Slack",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_-31yNWgt4_GmxDruKg5Nhw.jpeg?w=1398",
+        "link": "https://slack.engineering/android-ui-automation-part-1-building-trust/",
+        "title": "Android UI Automation: Part 1, Building Trust"
+      },
+      {
+        "abstract": "Robustly Handling Billions of Tasks in Milliseconds Using Kafka and Redis",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_o2fT1qDAtgRiaQKH2_VQlw.jpeg?w=1920",
+        "link": "https://slack.engineering/scaling-slacks-job-queue/",
+        "title": "Scaling Slack’s Job Queue"
+      },
+      {
+        "abstract": "Recently Slack on the desktop has been going through an awkward adolescence. Instead of flailing limbs and pitch squeaks, ours has manifested in ways …",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_XUVMBPik989EGn3Lkj3W2Q.jpeg?w=1920",
+        "link": "https://slack.engineering/growing-pains-migrating-slacks-desktop-app-to-browserview/",
+        "title": "Growing Pains: Migrating Slack’s Desktop App to BrowserView"
+      },
+      {
+        "abstract": "A redesign powered by CSS Grid and optimized for performance and accessibility.",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_N48fpqutpCqswRistXpymw.jpeg?w=1920",
+        "link": "https://slack.engineering/rebuilding-slack-com/",
+        "title": "Rebuilding slack.com"
+      },
+      {
+        "abstract": "Slack ships its client application on many different platforms — we currently support Mac, Windows, Linux, iOS, Android, and Windows Phone. Initially …",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_Gp8TZGxZNh3eJtruOpTPiQ.jpeg?w=1920",
+        "link": "https://slack.engineering/libslack-the-c-library-at-the-foundation-of-our-client-application-architecture/",
+        "title": "LibSlack: The C++ Library at the Foundation of Our Client Application Architecture"
+      },
+      {
+        "abstract": "Localization is so easy!\n\n…said no one ever.\n\nThis week, we launched French, German, and Spanish localization in Slack. I’d like to share some of …",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_yIX75HocfepUS8GzG-Gbpg.png?w=1920",
+        "link": "https://slack.engineering/localizing-slack/",
+        "title": "Localizing Slack"
+      },
+      {
+        "abstract": "At Slack, the size and scope of the data we expose via our APIs has changed dramatically since the product first launched. Endpoints that were designe…",
+        "author": "@Scott Sandler",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_kfiQI6i9X-iXuqSe6qfjkw.jpeg?w=1920",
+        "link": "https://slack.engineering/evolving-api-pagination-at-slack/",
+        "title": "Evolving API Pagination at Slack"
+      },
+      {
+        "abstract": "Slack Enterprise Grid lifted off in January 2017, allowing Slack to power the work behind even the largest and most complex companies in the world. To…",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_HlcWIl6uWvUUwtfi7cXi0Q.jpeg?w=1400",
+        "link": "https://slack.engineering/maximum-warp-building-migrations-for-slack-enterprise-grid/",
+        "title": "Maximum Warp: Building Migrations for Slack Enterprise Grid"
+      },
+      {
+        "abstract": "The Individual Contributor path begins with Leading Self\nBefore I became a software engineer, I thought that the most important part of the job would…",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2017/07/brooke-lark-nMffL1zjbw4-unsplash.jpg?w=1920",
+        "link": "https://slack.engineering/technical-leadership-getting-started/",
+        "title": "Technical Leadership: Getting Started"
+      },
+      {
+        "abstract": "Since launching in 2013, Slack has helped millions of users across hundreds of thousands of teams communicate more efficiently, effectively, and trans…",
+        "author": "@Felix Rieseberg",
+        "link": "https://slack.engineering/introducing-highlights/",
+        "title": "Introducing Highlights"
+      },
+      {
+        "abstract": "A Journey Into Slack Mobile Push Notifications",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_Zb3slxZjY91rMBHq.jpeg?w=1600",
+        "link": "https://slack.engineering/into-the-clouds/",
+        "title": "Into the Clouds"
+      },
+      {
+        "abstract": "Professor Robin Dunbar, when studying Neolithic farming villages and primate troupes in the 90s, theorized that the maximum number of stable relations…",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_9GNzO0TCru9lJ6wWXvI2Rg.jpeg?w=1011",
+        "link": "https://slack.engineering/flannel-an-application-level-edge-cache-to-make-slack-scale/",
+        "title": "Flannel: An Application-Level Edge Cache to Make Slack Scale"
+      },
+      {
+        "abstract": "Slack is transitioning its web client to React. When Slack was first built, our frontend consisted of established technologies like jQuery and Handleb…",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_1pDqkj6W_98A7NKxpCaGsg.png?w=1920",
+        "link": "https://slack.engineering/rebuilding-slacks-emoji-picker-in-react/",
+        "title": "Rebuilding Slack’s Emoji Picker in React"
+      },
+      {
+        "abstract": "Or, How I Learned to Stop Worrying & Trust the Compiler",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_-h1bH8gB3I7gPh5AG1HmsQ.png?w=1920",
+        "link": "https://slack.engineering/typescript-at-slack/",
+        "title": "TypeScript at Slack"
+      },
+      {
+        "abstract": "We’ve reached a few big milestones for the Slack Bug Bounty program: it’s our three-year anniversary, and we’ve paid out more than $210,000 in bountie…",
+        "author": "@Felix Rieseberg",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_Z1QiAukH6kOHOFGtfocmPw.jpeg?w=1920",
+        "link": "https://slack.engineering/slack-bug-bounty-three-years-later/",
+        "title": "Slack Bug Bounty: Three Years Later"
+      },
+      {
+        "abstract": "Mentorship, Impact, and a Culture of Growth",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_vZ8farhAztJj6bHcwsx59A.jpeg?w=1400",
+        "link": "https://slack.engineering/how-slack-supports-junior-engineers/",
+        "title": "How Slack Supports Junior Engineers"
+      },
+      {
+        "abstract": "Our desktop app is the most widely used and most capable Slack client that we offer. For many of our customers, it is one of just a few apps they keep…",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_vM0VJfoIwi7_gSILWFinuw.jpeg?w=1920",
+        "link": "https://slack.engineering/reducing-slacks-memory-footprint/",
+        "title": "Reducing Slack’s memory footprint"
+      },
+      {
+        "abstract": "On average, 20% of a knowledge worker’s day is spent looking for the information they need to get their work done. If you think about a typical work w…",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_ky2qVfXI8GR-AyUnySWrkA.jpeg?w=1920",
+        "link": "https://slack.engineering/search-at-slack/",
+        "title": "Search at Slack"
+      },
+      {
+        "abstract": "This is a continuation of Part 1, covering some highlights and lessons learned from a refactor of the way the Slack desktop client fetches messages. I…",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_bN4eAdr5v77wGk-HuAbZmA.jpeg?w=1920",
+        "link": "https://slack.engineering/making-slack-faster-by-being-lazy-part-2/",
+        "title": "Making Slack Faster By Being Lazy: Part 2"
+      },
+      {
+        "abstract": "A human-centric approach to organizing conversations",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_g5I-BUyxRbtgsDOlm1NrOA.jpeg?w=1800",
+        "link": "https://slack.engineering/weaving-threads/",
+        "title": "Weaving Threads"
+      },
+      {
+        "abstract": "The Slack Desktop Client is powered by Electron, the same framework that enables Atom, Visual Studio Code, and Basecamp to deliver delightful desktop …",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_ubMDlxwdFpNxfmMb75eaXQ.jpeg?w=1920",
+        "link": "https://slack.engineering/introducing-electron-to-the-windows-runtime/",
+        "title": "Introducing Electron to the Windows Runtime"
+      },
+      {
+        "abstract": "Software performance is like a series of card tricks:\n\n \tDo less up front.\n \tBe really lazy.\n \tPrepare in the background.\n \tBe one step ahead of …",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_SCxUrFANB1Yo4f7GpCjNAQ.jpeg?w=1400",
+        "link": "https://slack.engineering/making-slack-faster-by-being-lazy/",
+        "title": "Making Slack Faster By Being Lazy"
+      },
+      {
+        "abstract": "For a company like Slack that strives to be as data-driven as possible, understanding how our users use our product is essential.\n\nThe Data Engineer…",
+        "author": "@Scott Schiller",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/0_TH9RSHb2vtmB3r3T.jpeg?w=1600",
+        "link": "https://slack.engineering/data-wrangling-at-slack/",
+        "title": "Data Wrangling at Slack"
+      },
+      {
+        "abstract": "If you are are an engineer whose organization uses Linux in production, I have two quick questions for you:\n\n1) How many unique outbound TCP connect…",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_jOVQy8XQAM5RjBupnPmqBQ.png?w=1651",
+        "link": "https://slack.engineering/syscall-auditing-at-scale/",
+        "title": "Syscall Auditing at Scale"
+      },
+      {
+        "abstract": "Building small features to help our users do what they do in Slack.",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_tUsX-D9ZValamvHz05cu2Q.jpeg?w=1400",
+        "link": "https://slack.engineering/what-matters-to-you-matters-to-us/",
+        "title": "What matters to you, matters to us."
+      },
+      {
+        "abstract": "Today we’ve just shipped a new version of the Slack Desktop application for macOS. We built it with Electron, and, as a result, it’s faster, sports a …",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_xb38loTAsqvMJTFd9Xu9zg.jpeg?w=1714",
+        "link": "https://slack.engineering/building-hybrid-applications-with-electron/",
+        "title": "Building Hybrid Applications with Electron"
+      },
+      {
+        "abstract": "How we support college-level interns",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_vRX8ewuigD4z7BWZwSQvXQ.jpeg?w=1920",
+        "link": "https://slack.engineering/mentorship-at-slack/",
+        "title": "Mentorship at Slack"
+      },
+      {
+        "abstract": "Slack uses PHP for most of its server-side application logic, which is an unusual choice these days. Why did we choose to build a new project in this …",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_x5N8tfTVEmQro2ySxoZtvw.jpeg?w=1920",
+        "link": "https://slack.engineering/taking-php-seriously/",
+        "title": "Taking PHP Seriously"
+      },
+      {
+        "abstract": "Public channels provide much of Slack’s advantages over email: they are searchable, long-lasting, themed conversations that are easy to join and leave…",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_bgSX76hZy8gWQHwPN61SBw@2x.jpeg?w=1920",
+        "link": "https://slack.engineering/personalized-channel-recommendations-in-slack/",
+        "title": "Personalized channel recommendations in Slack"
+      },
+      {
+        "abstract": "A reflection on what I learned as a Slack intern.",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_tg1Rn-IjfM0GEadqADidQw.jpeg?w=1400",
+        "link": "https://slack.engineering/the-slack-ternship/",
+        "title": "The Slack Internship"
+      },
+      {
+        "abstract": "Databases. They are the single source of truth for our most critical business data, yet as engineers we tend to overlook tooling with this in mind.\n\n…",
+        "author": "@Melissa Khuat",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_G7VJ7c7duf_ahDPApXshdw.jpeg?w=1400",
+        "link": "https://slack.engineering/data-consistency-checks/",
+        "title": "Data Consistency Checks"
+      },
+      {
+        "abstract": "At Slack, we’re on a mission to make people’s working lives simpler, more pleasant, and more productive — improving the performance of our products fa…",
+        "author": "@Ryan Huber",
+        "link": "https://slack.engineering/getting-to-slack-faster-with-incremental-boot/",
+        "title": "Getting to Slack faster with incremental boot"
+      },
+      {
+        "abstract": "Our plans for deduplicating client code and improving edge caching",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_dk6TjmZ_HExpMBc91RYH2g.jpeg?w=1920",
+        "link": "https://slack.engineering/making-slack-feel-like-slack/",
+        "title": "Making Slack Feel Like Slack"
+      },
+      {
+        "abstract": "Slack Calls are now in beta, on Mac, Windows, iOS, Android and Chrome. If you haven’t given it a try yet, please do (and let us know how it goes)! Our…",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2016/05/alexander-andrews-JYGnB9gTCls-unsplash.jpg?w=1920",
+        "link": "https://slack.engineering/calls-is-it-you-or-is-it-me/",
+        "title": "Calls: Is it you or is it me?"
+      },
+      {
+        "abstract": "Interviews, eh? Horrid, stressful ordeals that fly by in a sweaty mess and then linger long in the memory. Or, at least, that’s the traditional model.…",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_e_p0IATjIvOWVvErChbwNQ.jpeg?w=1920",
+        "link": "https://slack.engineering/a-walkthrough-guide-to-finding-an-engineering-job-at-slack/",
+        "title": "A Walkthrough Guide to Finding an Engineering Job at Slack"
+      },
+      {
+        "abstract": "As part of writing the Slack Desktop application, we created a new library / set of tools that will save other developers writing Electron application…",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_p3RGZ_ceE_jfqj2dyqBl7w.jpeg?w=1920",
+        "link": "https://slack.engineering/using-es2015-with-electron-introducing-electron-compile/",
+        "title": "Using ES2015 with Electron — introducing electron-compile"
+      },
+      {
+        "abstract": "Developers working on the same project often have wildly different workflows, based on how they like to work and the tools they are familiar with. Des…",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/04/1_2f5o-ndgk89Cbm677WXp3g-scaled-1.jpeg?w=1920",
+        "link": "https://slack.engineering/the-joy-of-internal-tools/",
+        "title": "The Joy of Internal Tools"
+      },
+      {
+        "abstract": "How does a company know when it has been hacked? Let’s list some ways, in order of best case to worst case:\n\n \tThe company’s employees notice someth…",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_FcTSGdtXiv5M3BH4w1nDtA.jpeg?w=1920",
+        "link": "https://slack.engineering/distributed-security-alerting/",
+        "title": "Distributed Security Alerting"
+      },
+      {
+        "abstract": "Last time, we talked about empathy and what goes into good pull requests. This time, let’s talk about the other side of the equation: what makes a goo…",
+        "author": "@Ryan Huber",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_dFeArwWerBtwmUaz3QFq-g.png?w=1920",
+        "link": "https://slack.engineering/how-about-code-reviews/",
+        "title": "How About Code Reviews?"
+      },
+      {
+        "abstract": "At Slack, we believe that empathy is humanity's most important superpower. For our engineering team, that starts when we sit down at our keyboards.\n\n…",
+        "author": "",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_q5GRdOj64x5idlWR12nbdw.png?w=1920",
+        "link": "https://slack.engineering/on-empathy-pull-requests/",
+        "title": "On Empathy & Pull Requests"
+      },
+      {
+        "abstract": "Getting to the right conversation in Slack should be easy. And it should be fast. Like, really fast. When we first released the Quick Switcher in earl…",
+        "author": "",
+        "image": "https://slack.engineering/wp-content/uploads/sites/7/2020/05/1_VfY_n9_DS42MrbCrKpZEXw.jpeg?w=1920",
+        "link": "https://slack.engineering/a-faster-smarter-quick-switcher/",
+        "title": "A faster, smarter Quick Switcher"
+      },
+      {
+        "abstract": "",
+        "author": "",
+        "title": ""
+      },
+      {
+        "abstract": "",
+        "author": "",
+        "title": ""
+      },
+      {
+        "abstract": "",
+        "author": "",
+        "title": ""
+      },
+      {
+        "abstract": "",
+        "author": "",
+        "title": ""
+      },
+      {
+        "abstract": "",
+        "author": "",
+        "title": ""
+      },
+      {
+        "abstract": "",
+        "author": "",
+        "title": ""
+      }
+    ]
+  }

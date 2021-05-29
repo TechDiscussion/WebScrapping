@@ -1,0 +1,1052 @@
+{
+    "nvidia": [
+        {
+            "title": "Inception to the Rule: AI Startups Thrive Amid Tough 2020",
+            "category": "Corporate",
+            "date": "12:18:2020",
+            "author": "Jeff Herbst",
+            "link": "https://blogs.nvidia.com/blog/2020/12/18/inception-ai-startups-milestones/",
+            "abstract": "2020 served up a global pandemic that roiled the economy. Yet the startup ecosystem has managed to thrive and even flourish amid the tumult. That may be no coincidence. Crisis\u2026 Read article >"
+        },
+        {
+            "title": "All AIs on Quality: Startup\u2019s NVIDIA Jetson-Enabled Inspections Boost Manufacturing",
+            "category": "Autonomous Machines",
+            "date": "12:16:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/12/16/startups-nvidia-jetson-enabled-inspections-boost-manufacturing/",
+            "abstract": "Once the founder of a wearable computing startup, Arye Barnehama understands the toils of manufacturing consumer devices. He moved to Shenzhen in 2014 to personally oversee production lines for his\u2026 Read article >"
+        },
+        {
+            "title": "Pinterest Trains Visual Search Faster with Optimized Architecture on NVIDIA GPUs",
+            "category": "Corporate",
+            "date": "12:16:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/12/16/pinterest-trains-visual-search-faster-nvidia-gpus/",
+            "abstract": "Pinterest now has more than 440 million reasons to offer the best visual search experience. That\u2019s because its monthly active users are tracking this high for its popular image sharing\u2026 Read article >"
+        },
+        {
+            "title": "The Metaverse Begins: NVIDIA Omniverse Open Beta Now Available",
+            "category": "Pro Graphics",
+            "date": "12:15:2020",
+            "author": "Richard Kerris",
+            "link": "https://blogs.nvidia.com/blog/2020/12/15/omniverse-open-beta-available/",
+            "abstract": "Explore virtual collaboration and photorealistic simulation with NVIDIA Omniverse open beta, available now. NVIDIA Omniverse is an open, cloud-native platform that makes it easy to accelerate design workflows and collaborate\u2026 Read article >"
+        },
+        {
+            "title": "How GPUs Can Democratize Deep Reinforcement Learning for Robotics Development",
+            "category": "Autonomous Machines",
+            "date": "12:10:2020",
+            "author": "Gavriel State",
+            "link": "https://blogs.nvidia.com/blog/2020/12/10/deep-reinforcement-learning-gpus-robotics/",
+            "abstract": "It can take a puppy weeks to learn that certain kinds of behaviors will result in a yummy treat, extra cuddles or a belly rub \u2014 and that other behaviors\u2026 Read article >"
+        },
+        {
+            "title": "Behind the Scenes at NeurIPS with NVIDIA and CalTech\u2019s Anima Anandkumar",
+            "category": "The AI Podcast",
+            "date": "12:9:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/12/09/neurips-nvidia-caltech-anima-anandkumar/",
+            "abstract": "Anima Anandkumar is setting a personal record this week with seven of her team\u2019s research papers accepted to NeurIPS 2020. The 34th annual Neural Information Processing Systems conference is taking\u2026 Read article >"
+        },
+        {
+            "title": "Talk Stars: Israeli AI Startup Brings Fluency to Natural Language Understanding",
+            "category": "Deep Learning",
+            "date": "12:9:2020",
+            "author": "Tony Kontzer",
+            "link": "https://blogs.nvidia.com/blog/2020/12/09/onvego-natural-language-ai/",
+            "abstract": "Whether talking with banks, cell phone providers or insurance companies, customers often encounter AI-powered voice interfaces to direct their calls to the right department. But these interfaces typically are limited\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Chief Scientist Bill Dally to Keynote at GTC China",
+            "category": "Corporate",
+            "date": "12:8:2020",
+            "author": "Sheryl Huynh",
+            "link": "https://blogs.nvidia.com/blog/2020/12/08/bill-dally-gtc-china-keynote/",
+            "abstract": "Bill Dally \u2014 one of the world\u2019s foremost computer scientists and head of NVIDIA\u2019s research efforts \u2014 will deliver the keynote address during GTC China, the latest event in the\u2026 Read article >"
+        },
+        {
+            "title": "Majority Report: Experts Talk Future of AI and Its Impact on Global Industries",
+            "category": "Deep Learning",
+            "date": "12:8:2020",
+            "author": "Cliff Edwards",
+            "link": "https://blogs.nvidia.com/blog/2020/12/08/ai-predictions-2021/",
+            "abstract": "AI is the largest technology force of our time, with the most potential to transform industries. It will bring new intelligence to healthcare, education, automotive, retail and finance, creating trillions\u2026 Read article >"
+        },
+        {
+            "title": "Faster Physics: How AI and NVIDIA A100 GPUs Automate Particle Physics",
+            "category": "Deep Learning",
+            "date": "12:8:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/12/08/nvidia-a100-gpu-automate-particle-physics/",
+            "abstract": "What are the fundamental laws that govern our universe? How did the matter in the universe today get there? What exactly is dark matter? The questions may be eternal, but\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Research Achieves AI Training Breakthrough Using Limited Datasets",
+            "category": "Deep Learning",
+            "date": "12:7:2020",
+            "author": "Isha Salian",
+            "link": "https://blogs.nvidia.com/blog/2020/12/07/neurips-research-limited-data-gan/",
+            "abstract": "NVIDIA Research\u2019s latest AI model is a prodigy among generative adversarial networks. Using a fraction of the study material needed by a typical GAN, it can learn skills as complex\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Boosts Academic AI Research for Business Innovation",
+            "category": "Autonomous Machines",
+            "date": "12:7:2020",
+            "author": "Sandra Skaff",
+            "link": "https://blogs.nvidia.com/blog/2020/12/07/new-nvidia-program-helps-academic-ai-research-business-innovation/",
+            "abstract": "Academic researchers are developing AI to solve challenging problems with everything from agricultural robotics to autonomous flying machines. To help AI research like this make the leap from academia to\u2026 Read article >"
+        },
+        {
+            "title": "Chalk and Awe: Studio Crafts Creative Battle Between Stick Figures with Real-Time Rendering",
+            "category": "Pro Graphics",
+            "date": "12:3:2020",
+            "author": "Nicole Castro",
+            "link": "https://blogs.nvidia.com/blog/2020/12/03/stick-figure-war/",
+            "abstract": "It\u2019s time to bring krisp graphics to stick figure drawings. Creative studio SoKrispyMedia, started by content creators Sam Wickert and Eric Leigh, develops short videos blended with high-quality visual effects.\u2026 Read article >"
+        },
+        {
+            "title": "How to Avoid Speed Bumps and Stay in the AI Fast Lane with Hybrid Cloud Infrastructure",
+            "category": "Cloud",
+            "date": "11:30:2020",
+            "author": "Tony Paikeday",
+            "link": "https://blogs.nvidia.com/blog/2020/11/30/dgx-hybrid-cloud-infrastructure-google-anthos/",
+            "abstract": "Cloud or on premises? That\u2019s the question many organizations ask when building AI infrastructure. Cloud computing can help developers get a fast start with minimal cost. It\u2019s great for early\u2026 Read article >"
+        },
+        {
+            "title": "MONAI Imaging Framework Fast-Tracked to Production to Accelerate AI in Healthcare",
+            "category": "Deep Learning",
+            "date": "11:30:2020",
+            "author": "Raghav Mani",
+            "link": "https://blogs.nvidia.com/blog/2020/11/30/monai-ai-imaging-framework/",
+            "abstract": "MONAI \u2014 the Medical Open Network for AI, a domain-optimized, open-source framework for healthcare \u2014 is now ready for production with the upcoming release of the NVIDIA Clara application framework\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Launches Inception Alliance with GE Healthcare and Nuance to Accelerate Medical Imaging AI Startups",
+            "category": "Deep Learning",
+            "date": "11:30:2020",
+            "author": "Renee Yao",
+            "link": "https://blogs.nvidia.com/blog/2020/11/30/inception-alliance-ge-healthcare-nuance/",
+            "abstract": "Just over 125 years ago, on Nov. 8, 1895, the world\u2019s first X-ray image was captured. It was a breakthrough that set the stage for the modern medical imaging industry.\u2026 Read article >"
+        },
+        {
+            "title": "Supercomputing Chops: China\u2019s Tsinghua Takes Top Flops in SC20 Student Cluster Battle",
+            "category": "Supercomputing",
+            "date": "11:20:2020",
+            "author": "Cheryl Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/11/20/tsinghua-u-takes-top-flops-in-sc20-student-battle/",
+            "abstract": "Props to team top flops. Virtual this year, the SC20 Student Cluster Competition was still all about teams vying for top supercomputing performance in the annual battle for HPC bragging\u2026 Read article >"
+        },
+        {
+            "title": "Bringing Enterprise Medical Imaging to Life: RSNA Highlights What\u2019s Next for Radiology",
+            "category": "Deep Learning",
+            "date": "11:20:2020",
+            "author": "Vanessa Braunstein",
+            "link": "https://blogs.nvidia.com/blog/2020/11/20/rsna-ai-enterprise-radiology/",
+            "abstract": "As the healthcare world battles the pandemic, the medical-imaging field is gaining ground with AI, forging new partnerships and funding startup innovation. It will all be on display at RSNA,\u2026 Read article >"
+        },
+        {
+            "title": "Science Magnified: Gordon Bell Winners Combine HPC, AI",
+            "category": "Supercomputing",
+            "date": "11:19:2020",
+            "author": "Geetika Gupta",
+            "link": "https://blogs.nvidia.com/blog/2020/11/19/gordon-bell-awards-sc20/",
+            "abstract": "Seven finalists including both winners of the 2020 Gordon Bell awards used supercomputers to see more clearly atoms, stars and more \u2014 all accelerated with NVIDIA technologies. Their efforts required\u2026 Read article >"
+        },
+        {
+            "title": "COVID-19 Spurs Scientific Revolution in Drug Discovery with AI",
+            "category": "Deep Learning",
+            "date": "11:19:2020",
+            "author": "Geetika Gupta",
+            "link": "https://blogs.nvidia.com/blog/2020/11/19/covid-ai-gordon-bell-winner/",
+            "abstract": "Research across global academic and commercial labs to create a more efficient drug discovery process won recognition today with a special Gordon Bell Prize for work fighting COVID-19. A team\u2026 Read article >"
+        },
+        {
+            "title": "A Binding Decision: Startup Uses Microscopy Breakthrough to Speed Creation of COVID-19 Vaccines",
+            "category": "Deep Learning",
+            "date": "11:19:2020",
+            "author": "Renee Yao",
+            "link": "https://blogs.nvidia.com/blog/2020/11/19/structura-microscopy-covid-vaccines/",
+            "abstract": "In the global race to tame the spread of COVID-19, scientific researchers and pharmaceutical companies first must understand the virus\u2019s protein structure. Doing so requires building detailed 3D models of\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA RTX Real-Time Rendering Inspires Vivid Visuals, Captivating Cinematics for Film and Television",
+            "category": "Pro Graphics",
+            "date": "11:19:2020",
+            "author": "Rick Champagne",
+            "link": "https://blogs.nvidia.com/blog/2020/11/19/ryan-church-rtx/",
+            "abstract": "Concept art is often considered the bread and butter of filmmaking, and Ryan Church is the concept design supervisor that\u2019s behind the visuals of many of our favorite films. Church\u2026 Read article >"
+        },
+        {
+            "title": "Anatomical Adventures in VR: University\u2019s Science Visualizations Tap NVIDIA CloudXR and 5G",
+            "category": "Pro Graphics",
+            "date": "11:17:2020",
+            "author": "Greg Jones",
+            "link": "https://blogs.nvidia.com/blog/2020/11/17/coventry-university-cloudxr/",
+            "abstract": "5G networks are poised to transform the healthcare industry, starting with how medical students learn. The Grid Factory, a U.K.-based provider of NVIDIA GPU-accelerated services, is partnering with telecommunications company\u2026 Read article >"
+        },
+        {
+            "title": "Take the A100 Train: HPC Centers Worldwide Jump Aboard NVIDIA AI Supercomputing Fast Track",
+            "category": "Supercomputing",
+            "date": "11:17:2020",
+            "author": "Dion Harris",
+            "link": "https://blogs.nvidia.com/blog/2020/11/17/hpc-centers-worldwide-nvidia-ai/",
+            "abstract": "Supercomputing centers worldwide are onboarding NVIDIA Ampere GPU architecture to serve the growing demands of heftier AI models for everything from drug discovery to energy research. Joining this movement, Fujitsu\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA, Ampere Computing Raise Arm 26x in Supercomputing",
+            "category": "Supercomputing",
+            "date": "11:17:2020",
+            "author": "Dion Harris",
+            "link": "https://blogs.nvidia.com/blog/2020/11/17/arm-ampere-hpc-sc20/",
+            "abstract": "In the past 18 months, researchers have witnessed a whopping 25.5x performance boost for Arm-based platforms in high performance computing, thanks to the combined efforts of the Arm and NVIDIA\u2026 Read article >"
+        },
+        {
+            "title": "Changing Times: How the World\u2019s TOP500 Supercomputers Don\u2019t Just Have to Be Fast, But Smart",
+            "category": "Data Center",
+            "date": "11:16:2020",
+            "author": "Chintan Patel",
+            "link": "https://blogs.nvidia.com/blog/2020/11/16/top500-supercomputers-fast-smart-ai/",
+            "abstract": "The world\u2019s fastest supercomputers aren\u2019t just faster than ever. They\u2019re smarter and support a greater variety of workloads, too. Nearly 70 percent of the machines, including eight of the top\u2026 Read article >"
+        },
+        {
+            "title": "Fast and Furio: Artist Accelerates Rendering on the Go with NVIDIA RTX Laptop",
+            "category": "Pro Graphics",
+            "date": "11:12:2020",
+            "author": "Nicole Castro",
+            "link": "https://blogs.nvidia.com/blog/2020/11/12/artist-rendering-rtx/",
+            "abstract": "No traveling for work? No problem \u2014 at least not for character concept artist Furio Tedeschi. Tedeschi has worked on films like Transformers and Bumblebee: The Movie, as well as\u2026 Read article >"
+        },
+        {
+            "title": "Hyundai Motor Group to Integrate Software-Defined AI Infotainment Powered by NVIDIA DRIVE Across Entire Fleet",
+            "category": "Driving",
+            "date": "11:9:2020",
+            "author": "Danny Shapiro",
+            "link": "https://blogs.nvidia.com/blog/2020/11/09/hyundai-ai-infotainment-nvidia-drive/",
+            "abstract": "From its entry-level vehicles to premium ones, Hyundai Motor Group will deliver the latest in AI-powered convenience and safety to every new customer. The leading global auto group, which produces\u2026 Read article >"
+        },
+        {
+            "title": "Accelerating Research: Texas A&M Launching Grace Supercomputer for up to 20x Boost",
+            "category": "Supercomputing",
+            "date": "11:9:2020",
+            "author": "Cheryl Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/11/09/texas-am-launching-grace-supercomputer/",
+            "abstract": "Texas A&M University is turbocharging the research of its scientists and engineers with a new supercomputer powered by NVIDIA A100 Tensor Core GPUs. The Grace supercomputer \u2014 named to honor\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA A100 Launches on AWS, Marking Dawn of Next Decade in Accelerated Cloud Computing",
+            "category": "Cloud",
+            "date": "11:2:2020",
+            "author": "Ian Buck",
+            "link": "https://blogs.nvidia.com/blog/2020/11/02/nvidia-a100-launches-on-aws/",
+            "abstract": "Amazon Web Services\u2019 first GPU instance debuted 10 years ago, with the NVIDIA M2050. At that time, CUDA-based applications were focused primarily on accelerating scientific simulations, with the rise of\u2026 Read article >"
+        },
+        {
+            "title": "\u2018Marbles at Night\u2019 Illuminates Future of Graphics in NVIDIA Omniverse",
+            "category": "Pro Graphics",
+            "date": "11:2:2020",
+            "author": "Richard Kerris",
+            "link": "https://blogs.nvidia.com/blog/2020/11/02/marbles-at-night/",
+            "abstract": "Reflections have never looked so good. Artists are using NVIDIA RTX GPUs to take real-time graphics to the next level, creating visuals with rendered surfaces and light reflections to produce\u2026 Read article >"
+        },
+        {
+            "title": "Data Makes It Beta: Roborace Returns for Second Season with Updateable Self-Driving Vehicles Powered by NVIDIA DRIVE",
+            "category": "Driving",
+            "date": "10:29:2020",
+            "author": "Katie Burke",
+            "link": "https://blogs.nvidia.com/blog/2020/10/29/roborace-second-season-nvidia-drive/",
+            "abstract": "Amid the COVID-19 pandemic, live sporting events are mostly being held without fans in the stands. At Roborace, they\u2019re removing humans from the field as well, without sacrificing any of\u2026 Read article >"
+        },
+        {
+            "title": "SoftBank Group, NVIDIA CEOs on What\u2019s Next for AI",
+            "category": "Corporate",
+            "date": "10:28:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/10/28/softbank-nvidia/",
+            "abstract": "Good news: AI will soon be everywhere. Better news: it will be put to work by everyone. Sharing a vision of AI enabling humankind, NVIDIA CEO Jensen Huang Wednesday joined\u2026 Read article >"
+        },
+        {
+            "title": "Listening to the Siren Call: Virginia Tech Works with NVIDIA to Test AV Interactions with Emergency Vehicles",
+            "category": "Driving",
+            "date": "10:27:2020",
+            "author": "Katie Burke",
+            "link": "https://blogs.nvidia.com/blog/2020/10/27/virginia-tech-test-av-emergency-vehicles/",
+            "abstract": "Move over, self-driving cars. The Virginia Tech Transportation Institute has received a federal grant from the U.S. Department of Transportation to study how autonomous vehicles interact with emergency vehicles and\u2026 Read article >"
+        },
+        {
+            "title": "Government Execs Must Be \u2018Brave, Bold and Benevolent\u2019 to Hasten AI Adoption, Experts Say",
+            "category": "Corporate",
+            "date": "10:23:2020",
+            "author": "Ned Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/10/23/gtc-public-sector-summit/",
+            "abstract": "Hundreds of technology experts from the public and private sectors, as well as academia, came together earlier this month for NVIDIA\u2019s GPU Technology Conference to discuss U.S. federal agency adoption\u2026 Read article >"
+        },
+        {
+            "title": "Old Clips Become Big Hits: AI-Enhanced Videos Script a Success Story",
+            "category": "Deep Learning",
+            "date": "10:23:2020",
+            "author": "Rick Merritt",
+            "link": "https://blogs.nvidia.com/blog/2020/10/23/ai-startup-enhances-video/",
+            "abstract": "After his AI-enhanced vintage video went viral, Denis Shiryaev launched a startup to bottle the magic. Soon anyone who wants to dust off their old films may be able to\u2026 Read article >"
+        },
+        {
+            "title": "What Is Computer Vision?",
+            "category": "Corporate",
+            "date": "10:23:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/10/23/what-is-computer-vision/",
+            "abstract": "Computer vision has become so good that the days of general managers screaming at umpires in baseball games in disputes over pitches may become a thing of the past. That\u2019s\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Xavier Shatters Records, Excels in Back-to-Back Performance Benchmarks",
+            "category": "Driving",
+            "date": "10:21:2020",
+            "author": "Danny Shapiro",
+            "link": "https://blogs.nvidia.com/blog/2020/10/21/xavier-shatters-mlperf-records/",
+            "abstract": "AI-powered vehicles aren\u2019t a future vision, they\u2019re a reality today. And they\u2019re only truly possible on NVIDIA Xavier, our system-on-a-chip for autonomous vehicles. The key to these cutting-edge vehicles is\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Inference Performance Surges as AI Use Crosses Tipping Point",
+            "category": "Deep Learning",
+            "date": "10:21:2020",
+            "author": "Paresh Kharya",
+            "link": "https://blogs.nvidia.com/blog/2020/10/21/inference-mlperf-benchmarks/",
+            "abstract": "Inference, the work of using AI in applications, is moving into mainstream uses, and it\u2019s running faster than ever. NVIDIA GPUs won all tests of AI inference in data center\u2026 Read article >"
+        },
+        {
+            "title": "Taking It to the MAX: Adobe Photoshop Gets New NVIDIA AI-Powered Neural Filters",
+            "category": "Deep Learning",
+            "date": "10:20:2020",
+            "author": "Stanley Tack",
+            "link": "https://blogs.nvidia.com/blog/2020/10/20/adobe-max-ai/",
+            "abstract": "3D artists and video editors have long used real-time AI features to improve their work and speed up how they turn inspiration into finished art. Now, those benefits are extending\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA, Zoom CEOs Talk the Future of Work",
+            "category": "Corporate",
+            "date": "10:15:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/10/15/nvidia-zoom-zoomtopia/",
+            "abstract": "Amid a pandemic that\u2019s put much of the world\u2019s work, learning, even family reunions online, two of the leaders who have made today\u2019s virtual world possible met Thursday on, where\u2026 Read article >"
+        },
+        {
+            "title": "Europe Launches New Era in HPC with World\u2019s Fastest AI Supercomputer",
+            "category": "Supercomputing",
+            "date": "10:15:2020",
+            "author": "Marc Hamilton",
+            "link": "https://blogs.nvidia.com/blog/2020/10/15/supercomputing-ai-eurohpc/",
+            "abstract": "Four new supercomputers backed by a pan-European initiative will use NVIDIA\u2019s data center accelerators, networks and software to advance AI and high performance computing. They include one system dubbed Leonardo,\u2026 Read article >"
+        },
+        {
+            "title": "AI Draws World\u2019s Smallest Wanted Posters to Apprehend COVID",
+            "category": "Deep Learning",
+            "date": "10:15:2020",
+            "author": "Geetika Gupta",
+            "link": "https://blogs.nvidia.com/blog/2020/10/15/ai-hpc-covid-stonybrook/",
+            "abstract": "Using AI and a supercomputer simulation, Ken Dill\u2019s team drew the equivalent of wanted posters for a gang of proteins that make up COVID-19. With a little luck, one of\u2026 Read article >"
+        },
+        {
+            "title": "How GPUs Are Helping Paris\u2019 Public Hospital System Combat the Spread of COVID-19",
+            "category": "Deep Learning",
+            "date": "10:15:2020",
+            "author": "Mona Flores",
+            "link": "https://blogs.nvidia.com/blog/2020/10/15/paris-university-hospital-kinetica-rapids/",
+            "abstract": "In the battle against COVID-19, Greater Paris University Hospitals \u2013 Public Assistance Hospital of Paris (AP-HP is the French acronym) isn\u2019t just on the medical front lines \u2014 it\u2019s on\u2026 Read article >"
+        },
+        {
+            "title": "At GTC, Educators and Leaders Focus on Equity in AI, Developer Diversity",
+            "category": "Corporate",
+            "date": "10:14:2020",
+            "author": "Louis Stewart",
+            "link": "https://blogs.nvidia.com/blog/2020/10/14/gtc-ai-equity-developer-diversity/",
+            "abstract": "Not everyone needs to be a developer, but everyone will need to be an AI decision maker. That was the message behind a panel discussion on Advancing Equitable AI, which\u2026 Read article >"
+        },
+        {
+            "title": "Lilt CEO Spence Green Talks Removing Language Barriers in Business",
+            "category": "The AI Podcast",
+            "date": "10:14:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/10/14/lilt-ceo-spence-green/",
+            "abstract": "When large organizations require translation services, there\u2019s no room for the amusing errors often produced by automated apps. That\u2019s where Lilt, an AI-powered enterprise language translation company, comes in. Lilt\u2026 Read article >"
+        },
+        {
+            "title": "On Cloud Mine: Lenovo, Microsoft and NVIDIA Bring Cloud Computing on Premises with Azure Stack Hub",
+            "category": "Networking",
+            "date": "10:13:2020",
+            "author": "Motti Beck",
+            "link": "https://blogs.nvidia.com/blog/2020/10/13/hybrid-cloud-azure-stack-hub/",
+            "abstract": "The popularity of public cloud offerings is evident \u2014 just look at how top cloud service providers report double-digit growth year over year. However, application performance requirements and regulatory compliance\u2026 Read article >"
+        },
+        {
+            "title": "Turn Your Radio On: NVIDIA Engineer Creates COVID-Safe Choirs in Cars",
+            "category": "Inner Geek",
+            "date": "10:12:2020",
+            "author": "Rick Merritt",
+            "link": "https://blogs.nvidia.com/blog/2020/10/12/covid-driveway-choir-denneys/",
+            "abstract": "Music and engineering were completely separate parts of Bryce Denney\u2019s life until the pandemic hit. By day, the Massachusetts-based NVIDIA engineer helped test processors. On nights and weekends, he played\u2026 Read article >"
+        },
+        {
+            "title": "AI for America: US Lawmakers Encourage \u2018Massive Investment\u2019 in Artificial Intelligence",
+            "category": "Corporate",
+            "date": "10:9:2020",
+            "author": "Austin Carson",
+            "link": "https://blogs.nvidia.com/blog/2020/10/09/ai-for-america-gtc-panel/",
+            "abstract": "The upcoming election isn\u2019t the only thing on lawmakers\u2019 minds. Several congressional representatives have been grappling with U.S. AI policy for years, and their work is getting closer to being\u2026 Read article >"
+        },
+        {
+            "title": "Now\u2019s the Time: NVIDIA CEO Speaks Out on Startups, Holodecks",
+            "category": "Corporate",
+            "date": "10:8:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/10/08/gtc-inception-startup-showcase/",
+            "abstract": "In a conversation that ranged from the automation of software to holodeck-style working environments, NVIDIA CEO and founder Jensen Huang explained why now is the moment to back a new\u2026 Read article >"
+        },
+        {
+            "title": "Why Retailers Are Investing in Edge Computing and AI",
+            "category": "Corporate",
+            "date": "10:8:2020",
+            "author": "Azita Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/10/08/retailers-edge-computing-ai/",
+            "abstract": "AI is a retailer\u2019s automated helper, acting as a smart assistant to suggest the perfect position for products in stores, accurately predict consumer demand, automate order fulfillment in warehouses, and\u2026 Read article >"
+        },
+        {
+            "title": "From Content Creation to Collaboration, NVIDIA Omniverse Transforms Entertainment Industry",
+            "category": "Pro Graphics",
+            "date": "10:8:2020",
+            "author": "Rick Champagne",
+            "link": "https://blogs.nvidia.com/blog/2020/10/08/omniverse-media-entertainment/",
+            "abstract": "There are major shifts happening in the media and entertainment industry. With the rise of streaming services, there\u2019s a growing demand for high-quality programming  and an increasing need for fresh\u2026 Read article >"
+        },
+        {
+            "title": "AI, 5G Will Energize U.S. Economy, Says FCC Chair at GTC",
+            "category": "Corporate",
+            "date": "10:8:2020",
+            "author": "Ned Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/10/08/ai-5g-fcc-gtc/",
+            "abstract": "Ajit Pai recalls a cold February day, standing in a field at the Wind River reservation in central Wyoming with Arapaho Indian leaders, hearing how they used a Connecting America\u2026 Read article >"
+        },
+        {
+            "title": "AI Artist Pindar Van Arman\u2019s Painting Robots Visit GTC 2020",
+            "category": "The AI Podcast",
+            "date": "10:8:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/10/08/ai-art-pindar-van-arman/",
+            "abstract": "Pindar Van Arman is a veritable triple threat \u2014 he can paint, he can program and he can program robots that paint. The AI Podcast \u00b7 Art(ificial) Intelligence: Pindar Van\u2026 Read article >"
+        },
+        {
+            "title": "Bada Bing Bada Boom: Microsoft Turns to Turing-NLG, NVIDIA GPUs to Instantly Suggest Full-Phrase Queries",
+            "category": "Cloud",
+            "date": "10:7:2020",
+            "author": "Murat Guney",
+            "link": "https://blogs.nvidia.com/blog/2020/10/07/microsoft-turing-nlg/",
+            "abstract": "Hate hunting and pecking away at your keyboard every time you have a quick question? You\u2019ll love this. Microsoft\u2019s Bing search engine has turned to Turing-NLG and NVIDIA GPUs to\u2026 Read article >"
+        },
+        {
+            "title": "Coronavirus Gets a Close-Up: Folding@home Live in NVIDIA Omniverse",
+            "category": "Graphics Virtualization",
+            "date": "10:7:2020",
+            "author": "Richard Kerris",
+            "link": "https://blogs.nvidia.com/blog/2020/10/07/foldingathome-omniverse-coronavirus/",
+            "abstract": "For researchers like Max Zimmerman, it was a welcome pile-on to tackle a global pandemic. A million citizen scientists donated time on their home systems so the Folding@home consortium could\u2026 Read article >"
+        },
+        {
+            "title": "Simulation Without Limits: DRIVE Sim Levels Up with NVIDIA Omniverse",
+            "category": "Driving",
+            "date": "10:6:2020",
+            "author": "Matt Cragun",
+            "link": "https://blogs.nvidia.com/blog/2020/10/06/drive-sim-nvidia-omniverse/",
+            "abstract": "The line between the physical and virtual worlds is blurring as autonomous vehicle simulation sharpens with NVIDIA Omniverse, our photorealistic 3D simulation and collaboration platform. During the GPU Technology Conference\u2026 Read article >"
+        },
+        {
+            "title": "Do the Robot: Free Online Training, AI Certifications Make It Easy to Learn and Teach Robotics",
+            "category": "Autonomous Machines",
+            "date": "10:6:2020",
+            "author": "David Pinto",
+            "link": "https://blogs.nvidia.com/blog/2020/10/06/jetson-training-ai-certifications/",
+            "abstract": "On land, underwater, in the air \u2014 even underground and on other planets \u2014 new autonomous machines and the applications that run on them are emerging daily. Robots are working\u2026 Read article >"
+        },
+        {
+            "title": "Hands-On AI: Duckietown Foundation Offering Free edX Robotics Course Powered by NVIDIA Jetson Nano 2GB",
+            "category": "Autonomous Machines",
+            "date": "10:6:2020",
+            "author": "Lynette Farinas",
+            "link": "https://blogs.nvidia.com/blog/2020/10/06/jetson-nano-2gb-duckietown/",
+            "abstract": "For many, the portal into AI is robotics. And one of the best ways to get good at robotics is to get hands on. Roll up your sleeves, because this\u2026 Read article >"
+        },
+        {
+            "title": "Locomation and Blackshark.ai Innovate in Real and Virtual Dimensions at GTC",
+            "category": "Driving",
+            "date": "10:6:2020",
+            "author": "Katie Burke",
+            "link": "https://blogs.nvidia.com/blog/2020/10/06/locomation-blackshark-innovate-gtc/",
+            "abstract": "The NVIDIA DRIVE ecosystem is going multidimensional. During the NVIDIA GPU Technology Conference this week, autonomous trucking startup Locomation and simulation company Blackshark.ai announced technological developments powered by NVIDIA DRIVE.\u2026 Read article >"
+        },
+        {
+            "title": "Swede-sational: Link\u00f6ping University to Build Country\u2019s Fastest AI Supercomputer",
+            "category": "Data Center",
+            "date": "10:6:2020",
+            "author": "Carlo Ruiz",
+            "link": "https://blogs.nvidia.com/blog/2020/10/06/linkoeping-university-ai-supercomputer/",
+            "abstract": "The land famed for its midsummer festivities and everyone\u2019s favorite flatpack furniture store is about to add another jewel to its crown. Link\u00f6ping University, home to 36,000 staff and students,\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA CEO Outlines Vision for \u2018Age of AI\u2019 in News-Packed GTC Kitchen Keynote",
+            "category": "Corporate",
+            "date": "10:5:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/age-ai-jensen-huang-cambridge-doca-bluefield-dpu-superpod-jetson-omniverse-videoconferencing/",
+            "abstract": "Outlining a sweeping vision for the \u201cage of AI,\u201d NVIDIA CEO Jensen Huang Monday kicked off this week\u2019s GPU Technology Conference. Huang made major announcements in data centers, edge AI,\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA AI on Microsoft Azure Machine Learning to Power Grammar Suggestions in Microsoft Editor for Word",
+            "category": "Deep Learning",
+            "date": "10:5:2020",
+            "author": "Paresh Kharya",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/microsoft-triton-ai-grammar-word/",
+            "abstract": "It\u2019s been said that good writing comes from editing. Fortunately for discerning readers everywhere, Microsoft is putting an AI-powered grammar editor at the fingertips of millions of people. Like any\u2026 Read article >"
+        },
+        {
+            "title": "To 3D and Beyond: Pixar\u2019s USD Coming to an Industry Near You",
+            "category": "Graphics Virtualization",
+            "date": "10:5:2020",
+            "author": "Rick Merritt",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/usd-ecosystem-omniverse/",
+            "abstract": "It was the kind of career moment developers dream of but rarely experience. To whoops and cheers from the crowd at SIGGRAPH 2016, Dirk Van Gelder of Pixar Animation Studios\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Jarvis and Merlin Enter Open Beta, Enabling Conversational AI and Democratizing Recommenders",
+            "category": "Deep Learning",
+            "date": "10:5:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/jarvis-merlin-open-beta-conversational-ai-recommenders/",
+            "abstract": "We\u2019ve all been there: on a road trip and hungry. Wouldn\u2019t it be amazing to ask your car\u2019s driving assistant and get recommendations to nearby food, personalized to your taste?\u2026 Read article >"
+        },
+        {
+            "title": "AI Can See Clearly Now: GANs Take the Jitters Out of Video Calls",
+            "category": "Cloud",
+            "date": "10:5:2020",
+            "author": "Sid Sharma",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/gan-video-conferencing-maxine/",
+            "abstract": "Ming-Yu Liu and Arun Mallya were on a video call when one of them started to break up, then freeze. It\u2019s an irksome reality of life in the pandemic that\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Delivers Streaming AR and VR from the Cloud with AWS",
+            "category": "Pro Graphics",
+            "date": "10:5:2020",
+            "author": "Greg Jones",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/cloudxr-on-aws/",
+            "abstract": "NVIDIA and AWS are bringing the future of XR streaming to the cloud. Announced today, the NVIDIA CloudXR platform will be available on Amazon EC2 P3 and G4 instances, which\u2026 Read article >"
+        },
+        {
+            "title": "Triaging COVID-19 Patients: 20 Hospitals in 20 Days Build AI Model that Predicts Oxygen Needs",
+            "category": "Deep Learning",
+            "date": "10:5:2020",
+            "author": "Mona Flores",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/federated-learning-covid-oxygen-needs/",
+            "abstract": "Researchers at NVIDIA and Massachusetts General Brigham Hospital have developed an AI model that determines whether a person showing up in the emergency room with COVID-19 symptoms will need supplemental\u2026 Read article >"
+        },
+        {
+            "title": "American Express Adopts NVIDIA AI to Help Prevent Fraud and Foil Cybercrime",
+            "category": "Deep Learning",
+            "date": "10:5:2020",
+            "author": "John Ashley",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/american-express-nvidia-ai/",
+            "abstract": "Financial fraud is surging along with waves of cybersecurity breaches. Cybercrime cost the global economy $600 billion annually, or 0.8 percent of worldwide GDP, according to an estimate in 2018\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Ampere Architecture GPUs for Professional Designers Bring Unparalleled Performance to Desktop, Data Center and Cloud",
+            "category": "Pro Graphics",
+            "date": "10:5:2020",
+            "author": "Bob Pette",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/nvidia-ampere-pro-graphics/",
+            "abstract": "The coronavirus pandemic has shifted the way content is created and consumed. Work now often involves teams dispersed across the globe, working remotely on high-resolution content while using multiple workloads\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Accelerates Arm from Cloud to Edge",
+            "category": "Corporate",
+            "date": "10:5:2020",
+            "author": "Greg Estes",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/arm-ecosystem-support/",
+            "abstract": "Arm is at the heart of billions of devices \u2014 from mobile phones and autonomous vehicles to edge systems and the world\u2019s fastest supercomputer, Fugaku, in Japan. This broad range\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Enables Future of Zero-Trust Enterprise Security",
+            "category": "Data Center",
+            "date": "10:5:2020",
+            "author": "Yael Shenhav",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/bluefield-zero-trust-security/",
+            "abstract": "Cloud-minded enterprises face a number of challenges: From hybrid cloud architectures and infrastructure virtualization to multiple levels of attacks and a lack of visibility. Complex issues like these limit an enterprise\u2019s ability to\u2026 Read article >"
+        },
+        {
+            "title": "New NVIDIA Studio Announcements at GTC Support Creators at Home and in Studio",
+            "category": "Pro Graphics",
+            "date": "10:5:2020",
+            "author": "Stanley Tack",
+            "link": "https://blogs.nvidia.com/blog/2020/10/05/a6000-creators/",
+            "abstract": "Creators now have access to more options and unparalleled computing performance with the expansion of the NVIDIA Studio program, announced today at the GPU Technology Conference (GTC). NVIDIA introduced a\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA vGPU Software Accelerates Performance with Support for NVIDIA Ampere Architecture",
+            "category": "Graphics Virtualization",
+            "date": "10:1:2020",
+            "author": "Anne Hecht",
+            "link": "https://blogs.nvidia.com/blog/2020/10/01/vgpu-support-ampere-architecture/",
+            "abstract": "From AI to VDI, NVIDIA virtual GPU products provide employees with powerful performance for any workflow. vGPU technology helps IT departments easily scale the delivery of GPU resources, and allows\u2026 Read article >"
+        },
+        {
+            "title": "Get Trained, Go Deep: How Organizations Can Transform Their Workforce into an AI Powerhouse",
+            "category": "Deep Learning",
+            "date": "10:1:2020",
+            "author": "Katie Young",
+            "link": "https://blogs.nvidia.com/blog/2020/10/01/deep-learning-dli-training-organization/",
+            "abstract": "Despite the pandemic putting in-person training on hold, organizations can still offer instructor-led courses to their staff to develop key skills in AI, data science and accelerated computing. NVIDIA\u2019s Deep\u2026 Read article >"
+        },
+        {
+            "title": "How AI Startup BroadBridge Networks Helps Security Teams Make Sense of Data Chaos",
+            "category": "Accelerated Analytics",
+            "date": "9:30:2020",
+            "author": "Tony Kontzer",
+            "link": "https://blogs.nvidia.com/blog/2020/09/30/broadbridge-networks-cybersecurity/",
+            "abstract": "Cybersecurity has grown into a morass. With increasingly hybrid computing environments, dispersed users accessing networks around the clock, and the Internet of Things creating more data than security teams have\u2026 Read article >"
+        },
+        {
+            "title": "AI for Every Enterprise: NVIDIA, VMware CEOs Discuss Broad New Partnership",
+            "category": "Data Center",
+            "date": "9:29:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/09/29/vmware-gelsinger-nvidia-huang/",
+            "abstract": "Promising to bring AI to every enterprise, VMware CEO Pat Gelsinger and NVIDIA CEO Jensen Huang kicked off VMworld 2020 Tuesday with a conversation detailing the companies\u2019 broad new partnership.\u2026 Read article >"
+        },
+        {
+            "title": "The Power of Two: VMware, NVIDIA Bring AI to the Virtual Data Center",
+            "category": "Data Center",
+            "date": "9:29:2020",
+            "author": "Erik Pounds",
+            "link": "https://blogs.nvidia.com/blog/2020/09/29/vmware-nvidia-enterprise-ai/",
+            "abstract": "Two key components of enterprise AI just snapped in place thanks to longtime partners who pioneered virtual desktops, virtual graphics workstations and more. Taking their partnership to a new level,\u2026 Read article >"
+        },
+        {
+            "title": "Networks on Steroids: VMware, NVIDIA Power the Data Center with DPUs",
+            "category": "Data Center",
+            "date": "9:29:2020",
+            "author": "Kevin Deierling",
+            "link": "https://blogs.nvidia.com/blog/2020/09/29/vmware-bluefield2-dpus/",
+            "abstract": "The data center\u2019s grid is about to plug in to a new source of power. It rides a kind of network interface card called a SmartNIC. Its smarts and speed\u2026 Read article >"
+        },
+        {
+            "title": "Drug Discovery in the Age of COVID-19",
+            "category": "Deep Learning",
+            "date": "9:28:2020",
+            "author": "Isha Salian",
+            "link": "https://blogs.nvidia.com/blog/2020/09/28/drug-discovery-covid-19/",
+            "abstract": "Drug discovery is like searching for the right jigsaw tile \u2014 in a puzzle box with 1060 molecular-size pieces. AI and HPC tools help researchers more quickly narrow down the\u2026 Read article >"
+        },
+        {
+            "title": "AI in Schools: Sony Reimagines Remote Learning with Artificial Intelligence",
+            "category": "Autonomous Machines",
+            "date": "9:28:2020",
+            "author": "Murali Gopalakrishna",
+            "link": "https://blogs.nvidia.com/blog/2020/09/28/sony-remote-learning-ai-solution/",
+            "abstract": "Back to school was destined to look different this year. With the world adapting to COVID-19, safety measures are preventing a return to in-person teaching in many places. Also, students\u2026 Read article >"
+        },
+        {
+            "title": "Whether It\u2019s Rembrandt or Toilets, \u2018Curiosity About How Things Work\u2019 Is Key to Innovation, CGI Legend Pat Hanrahan Says",
+            "category": "Corporate",
+            "date": "9:26:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/09/26/cgi-wizard-pat-hanrahan-speaks-nvidia-ntech/",
+            "abstract": "You may have never heard of Pat Hanrahan, but you have almost certainly seen his work. His list of credits includes three Academy Awards, and his work on Pixar\u2019s RenderMan\u2026 Read article >"
+        },
+        {
+            "title": "New Earth Simulator to Take on Planet\u2019s Biggest Challenges",
+            "category": "Data Center",
+            "date": "9:25:2020",
+            "author": "Gilad Shainer",
+            "link": "https://blogs.nvidia.com/blog/2020/09/25/jamstec-earth-simulator/",
+            "abstract": "A new supercomputer under construction is designed to tackle some of the planet\u2019s toughest life sciences challenges by speedily crunching vast quantities of environmental data. The Japan Agency for Marine-Earth\u2026 Read article >"
+        },
+        {
+            "title": "Modeled Behavior: dSPACE Introduces High-Fidelity Vehicle Dynamics Simulation on NVIDIA DRIVE Sim",
+            "category": "Driving",
+            "date": "9:24:2020",
+            "author": "Katie Burke",
+            "link": "https://blogs.nvidia.com/blog/2020/09/24/dspace-vehicle-dynamics-simulation/",
+            "abstract": "When it comes to autonomous vehicle simulation testing, every detail must be on point. With its high-fidelity automotive simulation model (ASM) on NVIDIA DRIVE Sim, global automotive supplier dSPACE is\u2026 Read article >"
+        },
+        {
+            "title": "Inception: Exploring the AI Startup Ecosystem with NVIDIA\u2019s Jeff Herbst",
+            "category": "The AI Podcast",
+            "date": "9:24:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/09/24/nvidia-inception-ai-startup/",
+            "abstract": "Jeff Herbst is a fixture of the AI startup ecosystem. Which makes sense since he\u2019s the VP of business development at NVIDIA and head of NVIDIA Inception, a virtual accelerator\u2026 Read article >"
+        },
+        {
+            "title": "Surfing Gravity\u2019s Waves: HPC+AI Hang a Cosmic Ten",
+            "category": "Deep Learning",
+            "date": "9:23:2020",
+            "author": "Geetika Gupta",
+            "link": "https://blogs.nvidia.com/blog/2020/09/23/hpc-ai-black-holes/",
+            "abstract": "Eliu Huerta is harnessing AI and high performance computing (HPC) to observe the cosmos more clearly. For several years, the astrophysics researcher has been chipping away at a grand challenge,\u2026 Read article >"
+        },
+        {
+            "title": "AI Scorekeeper: Scotiabank Sharpens the Pencil in Credit Risk",
+            "category": "Deep Learning",
+            "date": "9:23:2020",
+            "author": "John Ashley",
+            "link": "https://blogs.nvidia.com/blog/2020/09/23/ai-credit-risk-scotiabank/",
+            "abstract": "Paul Edwards is helping carry the age-old business of giving loans into the modern era of AI. Edwards started his career modeling animal behavior as a Ph.D. in numerical ecology.\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA and Oracle Advance AI in Cloud for Enterprises Globally",
+            "category": "Cloud",
+            "date": "9:22:2020",
+            "author": "Ian Buck",
+            "link": "https://blogs.nvidia.com/blog/2020/09/22/oracle-cloud-infrastructure-a100/",
+            "abstract": "AI is reshaping markets in extraordinary ways. Soon, every company will be in AI, and will need both speed and scale to power increasingly complex machine learning models. Accelerating innovation\u2026 Read article >"
+        },
+        {
+            "title": "AI in the Hand of the Artist",
+            "category": "Autonomous Machines",
+            "date": "9:22:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/09/22/ai-art-gallery/",
+            "abstract": "Humans are wielding AI to create art, and a virtual exhibit that\u2019s part of NVIDIA\u2019s GPU Technology Conference showcases the stunning results. The AI Art Gallery at NVIDIA GTC features\u2026 Read article >"
+        },
+        {
+            "title": "Li Auto Aims to Extend Lead in Chinese EV Market with NVIDIA DRIVE",
+            "category": "Driving",
+            "date": "9:22:2020",
+            "author": "Danny Shapiro",
+            "link": "https://blogs.nvidia.com/blog/2020/09/22/li-auto-chinese-ev-nvidia-drive/",
+            "abstract": "One of the leading EV startups in China is charging up its compute capabilities. Li Auto announced today it would develop its next generation of electric vehicles using the high-performance,\u2026 Read article >"
+        },
+        {
+            "title": "Meet the Maker: Mr. Fascinate Encourages Kids to Get on the Cool Bus and Study STEM",
+            "category": "Autonomous Machines",
+            "date": "9:20:2020",
+            "author": "Angie Lee",
+            "link": "https://blogs.nvidia.com/blog/2020/09/20/justin-shaifer-mr-fascinate/",
+            "abstract": "STEM is dope. That\u2019s the simple message that Justin \u201cMr. Fascinate\u201d Shaifer evangelizes to young people around the world. Through social media and other platforms, Shaifer fascinates children with STEM\u2026 Read article >"
+        },
+        {
+            "title": "Top Healthcare Innovators Share AI Developments at GTC",
+            "category": "Deep Learning",
+            "date": "9:18:2020",
+            "author": "Vanessa Braunstein",
+            "link": "https://blogs.nvidia.com/blog/2020/09/18/ai-hpc-healthcare-gtc/",
+            "abstract": "Healthcare is under the microscope this year like never before. Hospitals are being asked to do more with less, and researchers are working around the clock to answer pressing questions.\u2026 Read article >"
+        },
+        {
+            "title": "Discover How AI Is Transforming Video Analytics, at GTC",
+            "category": "Autonomous Machines",
+            "date": "9:17:2020",
+            "author": "Joanne Chang",
+            "link": "https://blogs.nvidia.com/blog/2020/09/17/gtc-transforming-video-analytics/",
+            "abstract": "AI-based video analytics is one of the fastest growing areas of computer vision. From creating AI models to building a real-time seamless video analytics pipeline, developers need powerful tools to\u2026 Read article >"
+        },
+        {
+            "title": "More Space, Less Jam: Transportation Agency Uses NVIDIA DRIVE for Federal Highway Pilot",
+            "category": "Driving",
+            "date": "9:15:2020",
+            "author": "Katie Burke",
+            "link": "https://blogs.nvidia.com/blog/2020/09/15/ccta-nvidia-drive-federal-highway-pilot/",
+            "abstract": "It could be just a fender bender or an unforeseen rain shower, but a few seconds of disruption can translate to extra minutes or even hours of mind-numbing highway traffic.\u2026 Read article >"
+        },
+        {
+            "title": "AI From the Sky: Stealth Entrepreneur\u2019s Drone Platform Sees into Mines",
+            "category": "Autonomous Machines",
+            "date": "9:15:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/09/15/skycatch-drone-platform-sees-into-mines-construction/",
+            "abstract": "Christian Sanz isn\u2019t above trying disguises to sneak into places. He once put on a hard hat, vest and steel-toed boots to get onto the construction site of the San\u2026 Read article >"
+        },
+        {
+            "title": "Letter From Jensen: Creating a Premier Company for the Age of AI",
+            "category": "Corporate",
+            "date": "9:13:2020",
+            "author": "Jensen Huang",
+            "link": "https://blogs.nvidia.com/blog/2020/09/13/jensen-employee-letter-arm/",
+            "abstract": "NVIDIA founder and CEO Jensen Huang sent the following letter to NVIDIA employees today: Hi everyone,  Today, we announced that we have signed a definitive agreement to purchase Arm.  Thirty\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA and Arm to Create World-Class AI Research Center in Cambridge",
+            "category": "Corporate",
+            "date": "9:13:2020",
+            "author": "Jensen Huang",
+            "link": "https://blogs.nvidia.com/blog/2020/09/13/arm-ai-research-center-cambridge-uk/",
+            "abstract": "Artificial intelligence is the most powerful technology force of our time.  It is the automation of automation, where software writes software. While AI began in the data center, it is\u2026 Read article >"
+        },
+        {
+            "title": "Perfect Pairing: NVIDIA\u2019s David Luebke on the Intersection of AI and Graphics",
+            "category": "The AI Podcast",
+            "date": "9:11:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/09/11/nvidia-david-luebke-ai-graphics/",
+            "abstract": "NVIDIA Research comprises more than 200 scientists around the world driving innovation across a range of industries. One of its central figures is David Luebke, who founded the team in\u2026 Read article >"
+        },
+        {
+            "title": "Vision of AI: Startup Helps Diabetic Retinopathy Patients Retain Their Sight",
+            "category": "Deep Learning",
+            "date": "9:11:2020",
+            "author": "Angie Lee",
+            "link": "https://blogs.nvidia.com/blog/2020/09/11/digital-diagnostics-idx-dr/",
+            "abstract": "Every year, 60,000 people go blind from diabetic retinopathy, a condition caused by damage to the blood vessels in the eye and a risk factor of high blood sugar levels.\u2026 Read article >"
+        },
+        {
+            "title": "Scaling New Heights: Surge in Remote Work Fuels NVIDIA Cloud Service Provider Program",
+            "category": "Graphics Virtualization",
+            "date": "9:10:2020",
+            "author": "Matt McGrigg",
+            "link": "https://blogs.nvidia.com/blog/2020/09/10/csp-program/",
+            "abstract": "For many of the tens of millions of employees working from home amid the pandemic, their change of scenery is likely to stick. Fifty-two percent of global IT and business\u2026 Read article >"
+        },
+        {
+            "title": "The Great AI Bake-Off: Recommendation Systems on the Rise",
+            "category": "Deep Learning",
+            "date": "9:10:2020",
+            "author": "Rick Merritt",
+            "link": "https://blogs.nvidia.com/blog/2020/09/10/ai-recommendation-systems-challenge/",
+            "abstract": "If you want to create a world-class recommendation system, follow this recipe from a global team of experts: Blend a big helping of GPU-accelerated AI with a dash of old-fashioned\u2026 Read article >"
+        },
+        {
+            "title": "Office Ready? Jetson-Driven \u2018Double Robot\u2019 Supports Remote Working",
+            "category": "Autonomous Machines",
+            "date": "9:8:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/09/08/jetson-driven-double-robot-supports-remote-working/",
+            "abstract": "Apple\u2019s iPad 2 launch in 2011 ignited a touch tablet craze, but when David Cann and Marc DeVidts got their hands on one they saw something different: They rigged it\u2026 Read article >"
+        },
+        {
+            "title": "Telltale Signs: AI Researchers Trace Cancer Risk Factors Using Tumor DNA",
+            "category": "Research",
+            "date": "9:8:2020",
+            "author": "Isha Salian",
+            "link": "https://blogs.nvidia.com/blog/2020/09/08/ml-cancer-risk-dna/",
+            "abstract": "Life choices can change a person\u2019s DNA \u2014 literally. Gene changes that occur in human cells over a person\u2019s lifetime, known as somatic mutations, cause the vast majority of cancers.\u2026 Read article >"
+        },
+        {
+            "title": "Startup\u2019s AI Platform Allows Contact-Free Hospital Interactions",
+            "category": "Deep Learning",
+            "date": "9:3:2020",
+            "author": "Renee Yao",
+            "link": "https://blogs.nvidia.com/blog/2020/09/03/ouva-contact-free-hospitals/",
+            "abstract": "Hands-free phone calls and touchless soap dispensers have been the norm for years. Next up, contact-free hospitals. San Francisco-based startup Ouva has created a hospital intelligence platform that monitors patient\u2026 Read article >"
+        },
+        {
+            "title": "DIY with AI: GTC to Host NVIDIA Deep Learning Institute Courses for Anyone, Anywhere",
+            "category": "Deep Learning",
+            "date": "9:3:2020",
+            "author": "Craig Clawson",
+            "link": "https://blogs.nvidia.com/blog/2020/09/03/gtc-dli-courses/",
+            "abstract": "The NVIDIA Deep Learning Institute is launching three new courses, which can be taken for the first time ever at the GPU Technology Conference next month. The new instructor-led workshops\u2026 Read article >"
+        },
+        {
+            "title": "What Is MLOps?",
+            "category": "Deep Learning",
+            "date": "9:3:2020",
+            "author": "Rick Merritt",
+            "link": "https://blogs.nvidia.com/blog/2020/09/03/what-is-mlops/",
+            "abstract": "MLOps may sound like the name of a shaggy, one-eyed monster, but it\u2019s actually an acronym that spells success in enterprise AI. A shorthand for machine learning operations, MLOps is\u2026 Read article >"
+        },
+        {
+            "title": "In a Class of Its Own: New Mercedes-Benz S-Class Sports Next-Gen AI Cockpit, Powered by NVIDIA",
+            "category": "Driving",
+            "date": "9:2:2020",
+            "author": "Danny Shapiro",
+            "link": "https://blogs.nvidia.com/blog/2020/09/02/mercedes-benz-s-class-ai-cockpit-powered-nvidia/",
+            "abstract": "The Mercedes-Benz S-Class has always combined the best in engineering with a legendary heritage of craftsmanship. Now, the flagship sedan is adding intelligence to the mix, fusing AI with the\u2026 Read article >"
+        },
+        {
+            "title": "Up Your Creative Game: GeForce RTX 30 Series GPUs Amp Up Performance",
+            "category": "Pro Graphics",
+            "date": "9:1:2020",
+            "author": "Stanley Tack",
+            "link": "https://blogs.nvidia.com/blog/2020/09/01/studio-geforce-30-series/",
+            "abstract": "Creative workflows are riddled with hurry up and wait. GeForce RTX 30 Series GPUs, powered by our second-generation RTX architecture, aim to reduce the wait, giving creators more time to\u2026 Read article >"
+        },
+        {
+            "title": "Speed Reader: Startup Primer Helps Analysts Make Every Second Count",
+            "category": "Deep Learning",
+            "date": "8:31:2020",
+            "author": "Tony Kontzer",
+            "link": "https://blogs.nvidia.com/blog/2020/08/31/startup-primer-ai-analysts/",
+            "abstract": "Expected to read upwards of 200,000 words daily from hundreds, if not thousands, of documents, financial analysts are asked to perform the impossible. Primer is using AI to apply the\u2026 Read article >"
+        },
+        {
+            "title": "Rise and Sunshine: NASA Uses Deep Learning to Map Flows on Sun\u2019s Surface, Predict Solar Flares",
+            "category": "Pro Graphics",
+            "date": "8:31:2020",
+            "author": "Nicole Castro",
+            "link": "https://blogs.nvidia.com/blog/2020/08/31/nasa-maps-solar-flows/",
+            "abstract": "Looking directly at the sun isn\u2019t recommended \u2014 unless you\u2019re doing it with AI, which is what NASA is working on. The surface of the sun, which is the layer\u2026 Read article >"
+        },
+        {
+            "title": "Pixel Perfect: V7 Labs Automates Image Annotation for Deep Learning Models",
+            "category": "Deep Learning",
+            "date": "8:28:2020",
+            "author": "Renee Yao",
+            "link": "https://blogs.nvidia.com/blog/2020/08/28/v7-labs-image-annotation/",
+            "abstract": "Cells under a microscope, grapes on a vine and species in a forest are just a few of the things that AI can identify using the image annotation platform created\u2026 Read article >"
+        },
+        {
+            "title": "More Than a Wheeling: Boston Band of Roboticists Aims to Rock Sidewalks With Personal Bots",
+            "category": "Autonomous Machines",
+            "date": "8:27:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/08/27/piaggio-fast-forward-aims-to-rock-sidewalks-with-personal-bots/",
+            "abstract": "With Lime and Bird scooters covering just about every major U.S. city, you\u2019d think all bets were off for walking. Think again. Piaggio Fast Forward is staking its future on\u2026 Read article >"
+        },
+        {
+            "title": "Sterling Support: SHIELD TV\u2019s 25th Software Upgrade Now Available",
+            "category": "Gaming",
+            "date": "8:26:2020",
+            "author": "Brian Choi",
+            "link": "https://blogs.nvidia.com/blog/2020/08/26/shield-upgrade-25/",
+            "abstract": "With NVIDIA SHIELD TV, there\u2019s always more to love. Today\u2019s software update \u2014 SHIELD Software Experience Upgrade 8.2 \u2014 is the 25th for owners of the original SHIELD TV. It\u2019s\u2026 Read article >"
+        },
+        {
+            "title": "Safe Travels: Voyage Intros Ambulance-Grade, Self-Cleaning Driverless Vehicle Powered by NVIDIA DRIVE",
+            "category": "Driving",
+            "date": "8:26:2020",
+            "author": "Katie Burke",
+            "link": "https://blogs.nvidia.com/blog/2020/08/26/voyage-self-cleaning-driverless-vehicle/",
+            "abstract": "Self-driving cars continue to amaze passengers as a truly transformative technology. However, in the time of COVID-19, a self-cleaning car may be even more appealing. Robotaxi startup Voyage introduced its\u2026 Read article >"
+        },
+        {
+            "title": "Real-Time Ray Tracing Realized: RTX Brings the Future of Graphics to Millions",
+            "category": "Pro Graphics",
+            "date": "8:25:2020",
+            "author": "Rick Champagne",
+            "link": "https://blogs.nvidia.com/blog/2020/08/25/rtx-real-time-ray-tracing/",
+            "abstract": "Only a dream just a few years ago, real-time ray tracing has become the new reality in graphics because of NVIDIA RTX \u2014 and it\u2019s just getting started. The world\u2019s\u2026 Read article >"
+        },
+        {
+            "title": "AI in Action: NVIDIA Showcases New Research, Enhanced Tools for Creators at SIGGRAPH",
+            "category": "Pro Graphics",
+            "date": "8:25:2020",
+            "author": "Nicole Castro",
+            "link": "https://blogs.nvidia.com/blog/2020/08/25/nvidia-siggraph/",
+            "abstract": "The future of graphics is here, and AI is leading the way. At the SIGGRAPH 2020 virtual conference, NVIDIA is showcasing advanced AI technologies that allow artists to elevate storytelling\u2026 Read article >"
+        },
+        {
+            "title": "Need Healthcare? AI Startup Curai Has an App for That",
+            "category": "Deep Learning",
+            "date": "8:21:2020",
+            "author": "Tony Kontzer",
+            "link": "https://blogs.nvidia.com/blog/2020/08/21/curai-ai-healthcare-app/",
+            "abstract": "As a child, Neal Khosla became engrossed by the Oakland Athletics baseball team\u2019s \u201cMoneyball\u201d approach of using data analytics to uncover the value and potential of the sport\u2019s players. A\u2026 Read article >"
+        },
+        {
+            "title": "There\u2019s a Code for That: Hugging Face\u2019s Sam Shleifer Talks Natural Language Processing",
+            "category": "The AI Podcast",
+            "date": "8:21:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/08/21/ai-podcast-hugging-face/",
+            "abstract": "Hugging Face is more than just an adorable emoji \u2014 it\u2019s a company that\u2019s demystifying AI by transforming the latest developments in deep learning into usable code for businesses and\u2026 Read article >"
+        },
+        {
+            "title": "On Becoming Green: 800+ Interns Enliven Our First-Ever Virtual Internship Program",
+            "category": "Corporate",
+            "date": "8:20:2020",
+            "author": "Angie Lee",
+            "link": "https://blogs.nvidia.com/blog/2020/08/20/virtual-internship-program/",
+            "abstract": "More than 800 students from over 100 universities around the world joined NVIDIA as the first class of our virtual internship program \u2014 I\u2019m one of them, working on the\u2026 Read article >"
+        },
+        {
+            "title": "Starry, Starry Night: AI-Based Camera System Discovers Two New Meteor Showers",
+            "category": "Deep Learning",
+            "date": "8:20:2020",
+            "author": "Angie Lee",
+            "link": "https://blogs.nvidia.com/blog/2020/08/20/cams-meteor-showers/",
+            "abstract": "Spotting a meteor flash across the sky is a rare event for most people, unless you\u2019re the operators of the CAMS meteor shower surveillance project, who frequently spot more than\u2026 Read article >"
+        },
+        {
+            "title": "2 Million Registered Developers, Countless Breakthroughs",
+            "category": "Corporate",
+            "date": "8:19:2020",
+            "author": "Will Ramey",
+            "link": "https://blogs.nvidia.com/blog/2020/08/19/2-million-registered-developers-breakthroughs/",
+            "abstract": "Everyone has problems. Whether they\u2019re tackling challenges at the cutting edge of physics, trying to tame a worldwide pandemic, or sorting their child\u2019s Lego collection, innovators join NVIDIA\u2019s developer program\u2026 Read article >"
+        },
+        {
+            "title": "Wherever You Go with Chromebook, GeForce NOW Lets You Bring Your Games with You ",
+            "category": "Gaming",
+            "date": "8:18:2020",
+            "author": "Andrew Fear",
+            "link": "https://blogs.nvidia.com/blog/2020/08/18/geforce-now-open-a-chromebook/",
+            "abstract": "Chromebooks, like GeForce NOW, are ready when you are. With today\u2019s beta launch on ChromeOS, Chromebooks now wield the power to play PC games using GeForce NOW. Chromebook users join\u2026 Read article >"
+        },
+        {
+            "title": "Meet the Maker: YouTuber Insists It\u2019s Easier Than You Think to Make Something Super Using AI",
+            "category": "Autonomous Machines",
+            "date": "8:17:2020",
+            "author": "Angie Lee",
+            "link": "https://blogs.nvidia.com/blog/2020/08/17/super-make-something/",
+            "abstract": "Alex Schepelmann went from being a teacher\u2019s assistant for an Intro to Programming class to educating 40,000 YouTube subscribers by championing the mantra: anyone can make something super using AI\u2026 Read article >"
+        },
+        {
+            "title": "NVIDIA Partner Program Expands to 1,500 Members, Adds New Benefits",
+            "category": "Corporate",
+            "date": "8:17:2020",
+            "author": "Alvin Da Costa",
+            "link": "https://blogs.nvidia.com/blog/2020/08/17/npn-expands-1500-members-new-benefits/",
+            "abstract": "NVIDIA\u2019s enterprise partner program has grown to more than 1,500 members worldwide and added new resources to boost opportunities for training, collaboration and sales. The expanded NVIDIA Partner Network boasts\u2026 Read article >"
+        },
+        {
+            "title": "AI of the Storm: How We Built the Most Powerful Industrial Computer in the U.S. in Three Weeks During a Pandemic",
+            "category": "Deep Learning",
+            "date": "8:14:2020",
+            "author": "Rick Merritt",
+            "link": "https://blogs.nvidia.com/blog/2020/08/14/making-selene-pandemic-ai/",
+            "abstract": "In under a month amid the global pandemic, a small team assembled the world\u2019s seventh-fastest computer. Today that mega-system, called Selene, communicates with its operators on Slack, has its own\u2026 Read article >"
+        },
+        {
+            "title": "How Abyss Solutions Helps Keep Offshore Rig Operators Afloat",
+            "category": "Deep Learning",
+            "date": "8:13:2020",
+            "author": "Tony Kontzer",
+            "link": "https://blogs.nvidia.com/blog/2020/08/13/abyss-solutions-offshore-rigs/",
+            "abstract": "As its evocative name suggests, Abyss Solutions is a company taking AI to places where humans can\u2019t \u2014 or shouldn\u2019t \u2014 go. The brainchild of four University of Sydney scientists\u2026 Read article >"
+        },
+        {
+            "title": "Startup Lunit Uses AI to Help Doctors Prioritize Patients with COVID-19 Symptoms",
+            "category": "Deep Learning",
+            "date": "8:12:2020",
+            "author": "Angie Lee",
+            "link": "https://blogs.nvidia.com/blog/2020/08/12/lunit-insight-cxr/",
+            "abstract": "Testing for COVID-19 has become more widespread, but addressing the pandemic will require quickly screening for and triaging patients who are experiencing symptoms. Lunit, a South Korean medical imaging startup\u2026 Read article >"
+        },
+        {
+            "title": "Here Comes the Sun: NASA Scientists Talk Solar Physics",
+            "category": "The AI Podcast",
+            "date": "8:12:2020",
+            "author": "Lauren Finkle",
+            "link": "https://blogs.nvidia.com/blog/2020/08/12/nasa-solar-physics/",
+            "abstract": "Michael Kirk and Raphael Attie, scientists at NASA\u2019s Goddard Space Flight Center, regularly face terabytes of data in their quest to analyze images of the sun. This computational challenge, which\u2026 Read article >"
+        },
+        {
+            "title": "Clarifying Training Time, Startup Launches AI-Assisted Data Annotation",
+            "category": "Deep Learning",
+            "date": "8:11:2020",
+            "author": "Scott Martin",
+            "link": "https://blogs.nvidia.com/blog/2020/08/11/clarifai-launches-labeler-ai-assisted-data-annotation/",
+            "abstract": "Creating a labeled dataset for training an AI application can hit the brakes on a company\u2019s speed to market. Clarifai, an image and text recognition startup, aims to put that\u2026 Read article >"
+        },
+        {
+            "title": "Mass General\u2019s Martinos Center Adopts AI for COVID, Radiology Research",
+            "category": "Deep Learning",
+            "date": "8:10:2020",
+            "author": "Rory Kelleher",
+            "link": "https://blogs.nvidia.com/blog/2020/08/10/martinos-center-ai-covid-radiology/",
+            "abstract": "Academic medical centers worldwide are building new AI tools to battle COVID-19 \u2014  including at Mass General, where one center is adopting NVIDIA DGX A100 AI systems to accelerate its\u2026 Read article >"
+        },
+        {
+            "title": "Nerd Watching: GPU-Powered AI Helps Researchers Identify Individual Birds",
+            "category": "Deep Learning",
+            "date": "8:10:2020",
+            "author": "Brian Caulfield",
+            "link": "https://blogs.nvidia.com/blog/2020/08/10/ai-researchers-birds/",
+            "abstract": "Anyone can tell an eagle from an ostrich. It takes a skilled birdwatcher to tell a chipping sparrow from a house sparrow from an American tree sparrow. Now researchers are\u2026 Read article >"
+        }
+    ]
+}
