@@ -1,0 +1,627 @@
+Semi-Supervised 3D Hand-Object Poses Estimation with Interactions in Time
+
+NeRF in detail: Learning to sample for view synthesis
+
+We Can Always Catch You: Detecting Adversarial Patched Objects WITH or WITHOUT Signature
+
+Bayesian parameter estimation of stellar-mass black-hole binaries with LISA
+
+Generative Models as a Data Source for Multiview Representation Learning
+
+High mobility SiMOSFETs fabricated in a full 300mm CMOS process
+
+A brief introduction to quantum groups
+
+Bayesian Attention Belief Networks
+
+What Would a Teacher Do? Predicting Future Talk Moves
+
+Pinnacle sets revisited
+
+Local Algorithms for Finding Densely Connected Clusters
+
+Multi-Facet Clustering Variational Autoencoders
+
+I Don't Need $\mathbf{u}$: Identifiable Non-Linear ICA Without Side Information
+
+Knowledge distillation: A good teacher is patient and consistent
+
+Machine learning of superconducting critical temperature from Eliashberg theory
+
+Do Transformers Really Perform Bad for Graph Representation?
+
+Intrinsic local symmetry-breaking in nominally cubic paraelectric BaTiO3
+
+Revisiting the explodability of single massive star progenitors of stripped-envelope supernovae
+
+Understanding Privacy Attitudes and Concerns Towards Remote Communications During the COVID-19 Pandemic
+
+Vector vortex solitons and soliton control in vertical-cavity surface-emitting lasers
+
+Single-layer T'-type nickelates: Ni$^{1+}$ is Ni$^{1+}$
+
+Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling
+
+Single-Server Private Linear Transformation: The Individual Privacy Case
+
+Single-Server Private Linear Transformation: The Joint Privacy Case
+
+Fast construction of optimal composite likelihoods
+
+Convergence of parallel overlapping domain decomposition methods for the Helmholtz equation
+
+Surface excitations relaxation in the Kondo insulator Sm$_{1-x}$Gd$_{x}$B$_{6}$
+
+A machine learning pipeline for aiding school identification from child trafficking images
+
+Implicit field learning for unsupervised anomaly detection in medical images
+
+Hilbert's Irreducibility, Modular Forms, and Computation of Certain Galois Groups
+
+Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation
+
+Distilling Image Classifiers in Object Detectors
+
+Copula-Frailty Models for Recurrent Event Data Based on Monte Carlo EM Algorithm
+
+On homological properties of strict polynomial functors of degree p
+
+Geometry-Consistent Neural Shape Representation with Implicit Displacement Fields
+
+Workflows Community Summit: Advancing the State-of-the-art of Scientific Workflows Management Systems Research and Development
+
+An Improved Bound for the Tree Conjecture in Network Creation Games
+
+Learning Multilingual Representation for Natural Language Understanding with Enhanced Cross-Lingual Supervision
+
+A Lyapunov-Based Methodology for Constrained Optimization with Bandit Feedback
+
+Nonlinear analysis of forced mechanical systems with internal resonance using spectral submanifolds -- Part I: Periodic response and forced response curve
+
+Interactive Modelling of Volumetric Musculoskeletal Anatomy
+
+Case Studies on using Natural Language Processing Techniques in Customer Relationship Management Software
+
+Spin dynamics slowdown near the antiferromagnetic critical point in atomically thin FePS3
+
+Verification of asymptotic homogenization method developed for periodic architected materials in strain gradient continuum
+
+Long-Range Order Enhances Charge Transfer in Donor/Acceptor Co-Crystals
+
+Rethink Transfer Learning in Medical Image Classification
+
+Scaling Up Graph Neural Networks Via Graph Coarsening
+
+An arbitrary order and pointwise divergence-free finite element scheme for the incompressible 3D Navier-Stokes equations
+
+Relative Clustering Coefficient
+
+Learning to Rank Words: Optimizing Ranking Metrics for Word Spotting
+
+AUGVIC: Exploiting BiText Vicinity for Low-Resource NMT
+
+Pretrained Encoders are All You Need
+
+Second order scheme for self-similar solutions of a time-fractional porous medium equation on the half-line
+
+Bayesian Persuasion in Sequential Decision-Making
+
+Quantum Annealing for Automated Feature Selection in Stress Detection
+
+A multi-stage GAN for multi-organ chest X-ray image generation and segmentation
+
+Prior-Aware Distribution Estimation for Differential Privacy
+
+IoT Solution for Winter Survival of Indoor Plants
+
+Deep Clustering based Fair Outlier Detection
+
+PCNet: A Structure Similarity Enhancement Method for Multispectral and Multimodal Image Registration
+
+Grounding inductive biases in natural images:invariance stems from variations in data
+
+More than meets the eye: Self-supervised depth reconstruction from brain activity
+
+A Comparative Study on Neural Architectures and Training Methods for Japanese Speech Recognition
+
+Self-Paced Context Evaluation for Contextual Reinforcement Learning
+
+Gaussian Mixture Estimation from Weighted Samples
+
+LB4OMP: A Dynamic Load Balancing Library for Multithreaded Applications
+
+An Efficient Point of Gaze Estimator for Low-Resolution Imaging Systems Using Extracted Ocular Features Based Neural Architecture
+
+Modified gravity over the linearized metric perturbation for two body dynamics
+
+A Communication Layer for Integrated Sensors and Robotic ecology Solutions to Ambient Intelligence
+
+Computing Markov functions of Toeplitz matrices
+
+Multiple simultaneous solution representations in a population based evolutionary algorithm
+
+ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation
+
+Semi-supervised lane detection with Deep Hough Transform
+
+Order-Agnostic Cross Entropy for Non-Autoregressive Machine Translation
+
+Markov-Switching State-Space Models with Applications to Neuroimaging
+
+Design and Implementation of 5G eHealth Systems, Technologies, Use Cases and Future Challenges
+
+Diagnostic capabilities of spectropolarimetric observations for understanding solar phenomena I. Zeeman-sensitive photospheric lines
+
+Agile wide-field imaging with selective high resolution
+
+Phase-Resolved Spectroscopy of the Magnetar SGR J1745-2900 Based on Data from the NuSTAR Observatory
+
+An Approximate Coupled Cluster Theory via Nonlinear Dynamics and Synergetics: the Adiabatic Decoupling Conditions
+
+Automating Induction by Reflection
+
+Sharp Elements and the Scott Topology of Continuous Dcpos
+
+Unraveling the role of the magnetic anisotropy on thermoelectric response: a theoretical and experimental approach
+
+Guest Editorial: Overview of the Special Issue and a Dialog on Starshades
+
+Towards Training Stronger Video Vision Transformers for EPIC-KITCHENS-100 Action Recognition
+
+Multiple Kernel Representation Learning on Networks
+
+Choice Logics and Their Computational Properties
+
+IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors
+
+Salient Object Ranking with Position-Preserved Attention
+
+Fuzzy propositional configuration logics
+
+Towards Defending against Adversarial Examples via Attack-Invariant Features
+
+Scientometric engineering: Revealing spatiotemporal citation dynamics via open eprints
+
+Towards a Framework for Nonlinear Predictive Control using Derivative-Free Optimization
+
+Adaptive Inference through Early-Exit Networks: Design, Challenges and Directions
+
+Network insensitivity to parameter noise via adversarial regularization
+
+Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data
+
+Relaxation Deferred Correction Methods and their Applications to Residual Distribution Schemes
+
+Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing
+
+No Fear of Heterogeneity: Classifier Calibration for Federated Learning with Non-IID Data
+
+Low-Energy Switching of Antiferromagnetic CuMnAs/ GaP Using sub-10 Nanosecond Current Pulses
+
+Intriguing Magnetoelectric Effect in Two-dimensional Ferromagnetic/Perovskite Oxide Ferroelectric Heterostructure
+
+ergm 4.0: New features and improvements
+
+Salient Positions based Attention Network for Image Classification
+
+Crosslingual Embeddings are Essential in UNMT for Distant Languages: An English to IndoAryan Case Study
+
+Initialization Matters: Regularizing Manifold-informed Initialization for Neural Recommendation Systems
+
+Maximizing Spin-Orbit Torque Generated by the Spin Hall Effect of Pt
+
+It Takes Two to Tango: Mixup for Deep Metric Learning
+
+CLCC: Contrastive Learning for Color Constancy
+
+Optimal Inspection of Network Systems via Value of Information Analysis
+
+Multistep Electric Vehicle Charging Station Occupancy Prediction using Mixed LSTM Neural Networks
+
+Energy-Based Models for Code Generation under Compilability Constraints
+
+A machine learning approach to mapping baryons onto dark matter halos using the EAGLE and C-EAGLE simulations
+
+Benchmarking the Nvidia GPU Lineage
+
+Grand Theft App: Digital Forensics of Vehicle Assistant Apps
+
+Reachability Problems for Transmission Graphs
+
+Solutions of the imploding shock problem in a medium with varying density
+
+Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding
+
+Eight Reasons Why Cybersecurity on Novel Generations of Brain-Computer Interfaces Must Be Prioritized
+
+Towards Explainable Abnormal Infant Movements Identification: A Body-part Based Prediction and Visualisation Framework
+
+The Kauffman bracket skein module of the complement of $(2, 2p+1)$-torus knots via braids
+
+Psycholinguistic Tripartite Graph Network for Personality Detection
+
+Spatio-Temporal Dual-Stream Neural Network for Sequential Whole-Body PET Segmentation
+
+Mechanical response of butylamine based Ruddlesden Popper organic-inorganic lead halide perovskites
+
+Auto-tagging of Short Conversational Sentences using Natural Language Processing Methods
+
+Unifying Behavioral and Response Diversity for Open-ended Learning in Zero-sum Games
+
+Real Time Egocentric Object Segmentation: THU-READ Labeling and Benchmarking Results
+
+Exceptional Points in the Flatland: A Non-Hermitian Line-Wave Scenario
+
+Photochemical reaction on graphene surfaces controlled by substrate-surface modification with polar self-assembled monolayers
+
+Water permeation pathways in laminated organic single-crystal devices
+
+Nanoscale Chemical Heterogeneity Dominates the Optoelectronic Response over Local Electronic Disorder and Strain in Alloyed Perovskite Solar Cells
+
+Symmetric Spaces for Graph Embeddings: A Finsler-Riemannian Approach
+
+Phraseformer: Multimodal Key-phrase Extraction using Transformer and Graph Embedding
+
+Neural Supervised Domain Adaptation by Augmenting Pre-trained Models with Random Units
+
+Berry connection polarizability tensor and third-order Hall effect
+
+Fast and More Powerful Selective Inference for Sparse High-order Interaction Model
+
+Self-supervision of Feature Transformation for Further Improving Supervised Learning
+
+Self-supervised Feature Enhancement: Applying Internal Pretext Task to Supervised Learning
+
+Cervical Cytology Classification Using PCA & GWO Enhanced Deep Features Selection
+
+Erratum: Leveraging Flexible Tree Matching to Repair Broken Locators in Web Automation Scripts
+
+Exploiting Learned Symmetries in Group Equivariant Convolutions
+
+Kinetics of grain-boundary nucleated transformations in rectangular geometries and one paradox relating to Cahn's model
+
+Automatic Sexism Detection with Multilingual Transformer Models
+
+Engineering-Economic Evaluation of Diffractive Non-Line-Of-Sight Backhaul (e3nb): A Techno-economic Model for 3D Wireless Backhaul Assessment
+
+DGA-Net Dynamic Gaussian Attention Network for Sentence Semantic Matching
+
+Quantum holography with undetected light
+
+Fragmented and Valuable: Following Sentiment Changes in Food Tweets
+
+The conundrum of weak noise limit for diffusion in a tilted periodic potential
+
+Simulating Continuum Mechanics with Multi-Scale Graph Neural Networks
+
+Continuous-discrete multiple target tracking with out-of-sequence measurements
+
+Unsupervised Automatic Speech Recognition: A Review
+
+A 2D front-tracking Lagrangian model for the modeling of anisotropic grain growth
+
+On the geometric fixed-points of real topological cyclic homology
+
+A gradient based resolution strategy for a PDE-constrained optimization approach for 3D-1D coupled problems
+
+Cellular Automata Simulation of Grain Growth of Powder Metallurgy Nickel-Based Superalloy
+
+A Blockchain-Based Trust Management Framework with Verifiable Interactions
+
+Fractal Structure and Generalization Properties of Stochastic Optimization Algorithms
+
+Deep Interaction between Masking and Mapping Targets for Single-Channel Speech Enhancement
+
+Recovering AES Keys with a Deep Cold Boot Attack
+
+Approaching the intrinsic strength of metallic glasses at ultra-high strain rates
+
+Unifying description of the vibrational anomalies of amorphous materials
+
+A Case Study: Using Genetic Algorithm for Job Scheduling Problem
+
+DravidianMultiModality: A Dataset for Multi-modal Sentiment Analysis in Tamil and Malayalam
+
+Deep Tiny Network for Recognition-Oriented Face Image Quality Assessment
+
+Proca equation and vector field quantization in rotating system
+
+High diffusivity pathways govern massively enhanced oxidation during tribological sliding
+
+UniKeyphrase: A Unified Extraction and Generation Framework for Keyphrase Prediction
+
+Tracking by Joint Local and Global Search: A Target-aware Attention based Approach
+
+A black-box, general purpose quadratic self-consistent field code with and without Cholesky Decomposition of the two-electron integrals
+
+Joint System-Wise Optimization for Pipeline Goal-Oriented Dialog System
+
+RealTranS: End-to-End Simultaneous Speech Translation with Convolutional Weighted-Shrinking Transformer
+
+Probing Multilingual Language Models for Discourse
+
+MICE: A Crosslinguistic Emotion Corpus in Malay, Indonesian, Chinese and English
+
+Catchphrase: Automatic Detection of Cultural References
+
+Temporal Averaging LSTM-based Channel Estimation Scheme for IEEE 802.11p Standard
+
+Verification of a Merkle Patricia Tree Library Using F*
+
+Fast Computational Ghost Imaging using Unpaired Deep Learning and a Constrained Generative Adversarial Network
+
+Making Better Use of Bilingual Information for Cross-Lingual AMR Parsing
+
+Benchmarking NetBASILISK: a Network Security Project for Science
+
+Fracture Mechanics-Based Quantitative Matching of Forensic Evidence Fragments
+
+Blockchain for IoT Access Control: Recent Trends and Future Research Directions
+
+Efficient simulation of non-classical liquid-vapour phase-transition flows: a method of fundamental solutions
+
+CoAtNet: Marrying Convolution and Attention for All Data Sizes
+
+Biocarbon reinforced polypropylene composite: An investigation of mechanical and filler behavior through advanced dynamic atomic force microscopy and X-ray micro CT
+
+Element-specific electronic and structural dynamics using transient X-ray spectroscopy
+
+Deep learning based low-dose synchrotron radiation CT reconstruction
+
+Sentence Embeddings using Supervised Contrastive Learning
+
+Lagrangian approach to super-sample effects on biased tracers at field level: galaxy density fields and intrinsic alignments
+
+On the inexact scaled gradient projection method
+
+Accelerating Neural Architecture Search via Proxy Data
+
+Embedding Physics to Learn Spatiotemporal Dynamics from Sparse Data
+
+Point Cloud Upsampling via Disentangled Refinement
+
+SHARP: Shape-Aware Reconstruction of People In Loose Clothing
+
+A reversible system based on hybrid toggle radius-4 cellular automata and its application as a block cipher
+
+Uncovering Closed-form Governing Equations of Nonlinear Dynamics from Videos
+
+A 2020 taxonomy of algorithms inspired on living beings behavior
+
+HyCA: A Hybrid Computing Architecture for Fault Tolerant Deep Learning
+
+Ex uno plures: Splitting One Model into an Ensemble of Subnetworks
+
+Communication-efficient SGD: From Local SGD to One-Shot Averaging
+
+Quantum Carry Lookahead Adders for NISQ and Quantum Image Processing
+
+Classically-Boosted Variational Quantum Eigensolver
+
+Effect of Blue Component Stars in Parameters of NGC 6866
+
+On Sample Based Explanation Methods for NLP:Efficiency, Faithfulness, and Semantic Evaluation
+
+Self-Supervised Graph Learning with Hyperbolic Embedding for Temporal Health Event Prediction
+
+Cooperative Beamforming for Wireless Fronthaul and Access Links in Ultra-Dense C-RANs with SWIPT: A First-Order Approach
+
+ArQTiC: A full-stack software package for simulating materials on quantum computers
+
+Online Optimization in Games via Control Theory: Connecting Regret, Passivity and Poincaré Recurrence
+
+A Review of Human Evaluation for Style Transfer
+
+Comprehensive Laboratory Measurements Resolving the LMM Dielectronic Recombination Satellite Lines in Ne-like Fe XVII Ions
+
+Gradient expansion technique for inhomogeneous, magnetized quark matter
+
+Learning subtree pattern importance for Weisfeiler-Lehmanbased graph kernels
+
+Optical Networks for Composable Data Centers
+
+Intrinsic time resolution and efficiency characterization for two size of BC-404 plastic scintillators studies in Geant4
+
+AdaMatch: A Unified Approach to Semi-Supervised Learning and Domain Adaptation
+
+5d/6d Wilson loops from blowups
+
+Drones for Medical Delivery Considering Different Demands Classes: A Markov Decision Process Approach for Managing Health Centers Dispatching Medical Products
+
+ParChain: A Framework for Parallel Hierarchical Agglomerative Clustering using Nearest-Neighbor Chain
+
+Tiplines to Combat Misinformation on Encrypted Platforms: A Case Study of the 2019 Indian Election on WhatsApp
+
+OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Devices
+
+Tunable spin-orbit coupling in two-dimensional InSe
+
+FastSeq: Make Sequence Generation Faster
+
+Increased hole mobility in anti-ThCr$_2$Si$_2$-type La$_2$O$_2$Bi co-sintered with alkaline earth metal oxides for oxygen intercalation and hole carrier doping
+
+Labeled Data Generation with Inexact Supervision
+
+Measurable Monte Carlo Search Error Bounds
+
+High electrical conduction of Sb square net in anti-ThCr$_2$Si$_2$ type La$_2$O$_2$Sb thin film grown by multilayer solid-phase epitaxy
+
+Fermions on wobbling kinks: normal versus quasinormal modes
+
+Pricing Ordered Items
+
+Categorical Data Structures for Technical Computing
+
+Atomic iron and nickel in the coma of C/1996 B2 (Hyakutake): production rates, emission mechanisms, and possible parents
+
+Network Topologies for Composable Data Centres
+
+Edge Disorder in Bottom-Up Zigzag Graphene Nanoribbons: Implications for Magnetism and Quantum Electronic Transport
+
+Curriculum Design for Teaching via Demonstrations: Theory and Applications
+
+A tipping point for open citation data
+
+On the Evolution of Neuron Communities in a Deep Learning Architecture
+
+Provably Faster Algorithms for Bilevel Optimization
+
+Learning to Price Against a Moving Target
+
+Cartographic Design of Cultural Maps
+
+Mitigating Current Variation in Particle Beam Microscopy
+
+Explainable AI for medical imaging: Explaining pneumothorax diagnoses with Bayesian Teaching
+
+Streetonomics: Quantifying Culture Using Street Names
+
+Casimir-Polder shift of ground-state hyperfine Zeeman sub-levels of hydrogen isotopes in a micron-sized metallic cavity at finite temperature
+
+DNS attack mitigation Using OpenStack Isolation
+
+Solving Structured Hierarchical Games Using Differential Backward Induction
+
+Sequential End-to-End Intent and Slot Label Classification and Localization
+
+NMR Chemical Shift Computations at Second-Order Møller-Plesset Perturbation Theory Using Gauge-Including Atomic Orbitals and Cholesky-Decomposed Two-Electron Integrals
+
+Comprehension Based Question Answering using Bloom's Taxonomy
+
+TED-net: Convolution-free T2T Vision Transformer-based Encoder-decoder Dilation network for Low-dose CT Denoising
+
+Possible evidence of p-modes in Cassini measurements of Saturn's gravity field
+
+Compacter: Efficient Low-Rank Hypercomplex Adapter Layers
+
+Semiconducting character of LaN: magnitude of the band gap, and origin of the electrical conductivity
+
+Existence of a zero-free strip for the Riemann zeta function
+
+The G-index of a closed, spin, hyperbolic manifold of dimension 2 or 4
+
+Predicting the Success of Domain Adaptation in Text Similarity
+
+Constraining the effect of convective inhibition on the thermal evolution of Uranus and Neptune
+
+Automatically Differentiable Random Coefficient Logistic Demand Estimation
+
+A Quantum Advantage for a Natural Streaming Problem
+
+VALUE: A Multi-Task Benchmark for Video-and-Language Understanding Evaluation
+
+On the Lack of Robust Interpretability of Neural Text Classifiers
+
+PAM: Understanding Product Images in Cross Product Category Attribute Extraction
+
+Torsional strain engineering of transition metal dichalcogenide nanotubes: An ab initio study
+
+Densely connected normalizing flows
+
+Self-Supervised Learning with Data Augmentations Provably Isolates Content from Style
+
+EXPObench: Benchmarking Surrogate-based Optimisation Algorithms on Expensive Black-box Functions
+
+Communicating astronomy with the public: perspectives of an international community of practice
+
+Extracting Bigravity from String Theory
+
+Neural Extractive Search
+
+Reverse analysis of a spiral injector to find geometrical parameters and flow conditions us-ing a GA-based program
+
+Check It Again: Progressive Visual Question Answering via Visual Entailment
+
+Systematics of the $α'$ Expansion in F-Theory
+
+Supersymmetry breaking, brane dynamics and Swampland conjectures
+
+TIMEDIAL: Temporal Commonsense Reasoning in Dialog
+
+Meta Learning for Knowledge Distillation
+
+Simulated Adversarial Testing of Face Recognition Models
+
+Structure of Kaluza-Klein Graviton Scattering Amplitudes from Gravitational Equivalence Theorem and Double-Copy
+
+Data-Efficient Instance Generation from Instance Discrimination
+
+Translate, then Parse! A strong baseline for Cross-Lingual AMR Parsing
+
+Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection
+
+XtremeDistilTransformers: Task Transfer for Task-agnostic Distillation
+
+Entanglement wedge cross section for noncommutative Yang-Mills theory
+
+Scaling Vision Transformers
+
+Turing: an Accurate and Interpretable Multi-Hypothesis Cross-Domain Natural Language Database Interface
+
+Identification of Magnetic Interactions and High-field Quantum Spin Liquid in $α$-RuCl$_3$
+
+Hierarchical Lovász Embeddings for Proposal-free Panoptic Segmentation
+
+A Survey of Transformers
+
+The planar limit of ${\cal N}=2$ chiral correlators
+
+DETReg: Unsupervised Pretraining with Region Priors for Object Detection
+
+Optical and electrical properties of Nd3+doped Na2O-ZnO-TeO2 Material
+
+Object Based Attention Through Internal Gating
+
+Can You Learn an Algorithm? Generalizing from Easy to Hard Problems with Recurrent Networks
+
+Chasing Sparsity in Vision Transformers:An End-to-End Exploration
+
+RobustNav: Towards Benchmarking Robustness in Embodied Navigation
+
+The distance and extinction to the Milky Way's spiral arms along the Galactic centre line-of-sight
+
+Modeling of Particle Transport, Neutrals and Radiation in Magnetically-Confined Plasmas with AURORA
+
+A window on infrared QCD with small expansion parameters
+
+An App for Visual Exploration, Discovery, and Sharing of Poncelet 3-Periodic Phenomena
+
+MViT: Mask Vision Transformer for Facial Expression Recognition in the wild
+
+Formal Verification of a Map Merging Protocol in the Multi-Agent Programming Contest
+
+Cyberbullying Detection Using Deep Neural Network from Social Media Comments in Bangla Language
+
+Federated Hyperparameter Tuning: Challenges, Baselines, and Connections to Weight-Sharing
+
+Spectral Measures for Derivative Powers via Matrix-Valued Clark Theory
+
+Optimization of Service Addition in Multilevel Index Model for Edge Computing
+
+Parameter-efficient Multi-task Fine-tuning for Transformers via Shared Hypernetworks
+
+Low-Rank Subspaces in GANs
+
+The Fast Kernel Transform
+
+Are VQA Systems RAD? Measuring Robustness to Augmented Data with Focused Interventions
+
+Using differentiable programming to obtain an energy and density-optimized exchange-correlation functional
+
+MoCo-Flow: Neural Motion Consensus Flow for Dynamic Humans in Stationary Monocular Cameras
+
+One Semantic Parser to Parse Them All: Sequence to Sequence Multi-Task Learning on Semantic Parsing Datasets
+
+Globular weak $ω$-categories as models of a type theory
+
+Continuous Cohomology and Ext-Groups
+
+Interpreting Deep Learning based Cerebral Palsy Prediction with Channel Attention
+
+Lower Bounds and Optimal Algorithms for Smooth and Strongly Convex Decentralized Optimization Over Time-Varying Networks
+
+Tackling spam in the era of end-to-end encryption: A case study of WhatsApp
+
+PolypGen: A multi-center polyp detection and segmentation dataset for generalisability assessment
+
+Muddling Label Regularization: Deep Learning for Tabular Datasets
