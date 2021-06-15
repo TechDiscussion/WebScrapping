@@ -35,6 +35,7 @@ titles = map(lambda x: x['title'], entries)
 authors = map(lambda x: x['author'], entries)
 updated = map(lambda x: x['updated'], entries)
 links = map(lambda x: x['link'], entries)
+abstract = map(lambda x: x['summary'], entries)
 
 # Create empty dataframe called "papers"
 
@@ -46,10 +47,13 @@ papers['Title'] = pd.Series(titles)
 papers['Author'] = pd.Series(authors)
 papers['Updated'] = pd.Series(updated)
 papers['Link'] = pd.Series(links)
+papers['Abstract'] = pd.Series(abstract)
 
 # Slice HH:MM:SS off of each row in date column
 
 papers['Updated'] = papers['Updated'].str.slice(stop=10)
+
+papers['Abstract'] = papers['Abstract'].str.slice(stop=100)
 
 # Reformat URL string to take user to the PDF of the paper
 
@@ -70,7 +74,7 @@ papers = papers.sort_values(
 
 # Show first 20 papers in dataframe
 
-# papers.head(20)
+print(papers.head(1))
 
 
 # Loop through index, pull ID for each paper from dataframe,
@@ -80,7 +84,7 @@ papers = papers.sort_values(
 # If you simply want the papers to download in the same location as your notebook,
 # either remove the target_folder argument entirely, or enter '.' as the file path
 
-for i in range(0, 5):
+# for i in range(0, 5):
 
-    download_entries(entries_or_ids_or_uris=[papers['ID'][i]],
-                     target_folder='./papers')
+#     download_entries(entries_or_ids_or_uris=[papers['ID'][i]],
+#                      target_folder='./papers')
