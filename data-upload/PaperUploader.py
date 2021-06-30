@@ -13,55 +13,55 @@
 # for result in search.get():
 #     print(result.title + '\n')
 
-
+"""
 from pyarxiv import query, download_entries
 from pyarxiv.arxiv_categories import ArxivCategory, arxiv_category_map
 
 import pandas as pd
 import numpy as np
-
+ """
 # Ask user for a topic and call it "topic"
 
-topic = input("Enter the topic for which you want to search papers on arXiv: ")
+# topic = input("Enter the topic for which you want to search papers on arXiv: ")
 
 # Generate API response based on "topic" and call it "entries"
 
-entries = query(title=topic)
+# entries = query(title=topic)
 
 # Pull title, author, date, link to PDF of paper from "entries"
 # and put each in its own list
-
+"""
 titles = map(lambda x: x['title'], entries)
 authors = map(lambda x: x['author'], entries)
 updated = map(lambda x: x['updated'], entries)
 links = map(lambda x: x['link'], entries)
 abstract = map(lambda x: x['summary'], entries)
-
+ """
 # Create empty dataframe called "papers"
 
-papers = pd.DataFrame()
+# papers = pd.DataFrame()
 
 # Insert columns into "papers" from the previously created lists
-
+"""
 papers['Title'] = pd.Series(titles)
 papers['Author'] = pd.Series(authors)
 papers['Updated'] = pd.Series(updated)
 papers['Link'] = pd.Series(links)
 papers['Abstract'] = pd.Series(abstract)
-
+ """
 # Slice HH:MM:SS off of each row in date column
 
-papers['Updated'] = papers['Updated'].str.slice(stop=10)
+# papers['Updated'] = papers['Updated'].str.slice(stop=10)
 
-papers['Abstract'] = papers['Abstract'].str.slice(stop=100)
+# papers['Abstract'] = papers['Abstract'].str.slice(stop=100)
 
 # Reformat URL string to take user to the PDF of the paper
 
-papers['Link'] = papers['Link'].str.replace("abs", "pdf", case=True)
+# papers['Link'] = papers['Link'].str.replace("abs", "pdf", case=True)
 
 # Strip paper ID from Link URL and put it in its own column called "ID"
 
-papers['ID'] = pd.Series(papers['Link'].str.rsplit("/", n=1, expand=True)[1])
+# papers['ID'] = pd.Series(papers['Link'].str.rsplit("/", n=1, expand=True)[1])
 
 # Uncomment line of code below to export result as a CSV file
 
@@ -69,12 +69,12 @@ papers['ID'] = pd.Series(papers['Link'].str.rsplit("/", n=1, expand=True)[1])
 
 # Sort dataframe in descending order by date
 
-papers = papers.sort_values(
+""" papers = papers.sort_values(
     by='Updated', ascending=False).reset_index(drop=True)
 
 # Show first 20 papers in dataframe
 
-print(papers.head(1))
+print(papers.head(1)) """
 
 
 # Loop through index, pull ID for each paper from dataframe,
@@ -88,3 +88,48 @@ print(papers.head(1))
 
 #     download_entries(entries_or_ids_or_uris=[papers['ID'][i]],
 #                      target_folder='./papers')
+
+""" import urllib
+import urllib.request
+url = 'http://export.arxiv.org/api/query?search_query=all:cs&order=-submitted_date'
+data = urllib.request.urlopen(url)
+print(data.read().decode('utf-8'))
+ """
+
+
+import requests
+import json
+from xml.dom import minidom
+urls = ['http://export.arxiv.org/api/query?search_query=all:cs&start=0&max_results=3000', 'http://export.arxiv.org/api/query?search_query=all:cs&start=3000&max_results=3000',
+        'http://export.arxiv.org/api/query?search_query=all:cs&start=6000&max_results=3000', 'http://export.arxiv.org/api/query?search_query=all:cs&start=9000&max_results=3000']
+
+
+def load_urls(url):
+
+    data = []
+    response = requests.get(url)
+    root = minidom.parseString(response._content)
+    index = 0
+    for entry in root.getElementsByTagName('entry'):
+        paper_entities = {}
+        paper_entities['link'] = entry.getElementsByTagName(
+            'id')[0].firstChild.nodeValue.strip()
+        paper_entities['title'] = entry.getElementsByTagName(
+            'title')[0].firstChild.nodeValue.strip()
+        paper_entities['abstract'] = entry.getElementsByTagName(
+            'summary')[0].firstChild.nodeValue.strip()
+        paper_entities['date'] = entry.getElementsByTagName(
+            'published')[0].firstChild.nodeValue.strip()
+        paper_entities['author'] = entry.getElementsByTagName(
+            'author')[0].getElementsByTagName('name')[0].firstChild.nodeValue.strip()
+        paper_entities['authors'] = []
+        for author in entry.getElementsByTagName('author'):
+            paper_entities['authors'].append(author.getElementsByTagName('name')[
+                0].firstChild.nodeValue.strip())
+        data.append(paper_entities)
+        index += 1
+    with open('arXiv.json', 'a') as json_file:
+        json.dump(data, json_file)
+
+
+load_urls(urls[0])

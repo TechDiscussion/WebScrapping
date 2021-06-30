@@ -1,1 +1,40 @@
-Enter the topic for which you want to search papers on arXiv: 
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Acs%26id_list%3D%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:cs&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/mlmr5vA9paHvxtEavcCCPU4HGBE</id>
+  <updated>2021-06-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">4929</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03031v1</id>
+    <updated>2019-12-06T09:14:04Z</updated>
+    <published>2019-12-06T09:14:04Z</published>
+    <title>Symmetry of extending properties in nonsingular Utumi rings</title>
+    <summary>  This paper presents the right-left symmetry of the CS and max-min CS
+conditions on nonsingular rings, and generalization to nonsingular modules. We
+prove that a ring is right nonsingular right CS and left Utumi if and only if
+it is left nonsingular left CS and right Utumi. A nonsingular Utumi ring is
+right max (resp. right min, right max-min) CS if and only if it is left min
+(resp. left max, left max-min) CS. In addition, a semiprime nonsingular ring is
+right max-min CS with finite right uniform dimension if and only if it is left
+max-min CS with finite left uniform dimension.
+</summary>
+    <author>
+      <name>Thuat Do</name>
+    </author>
+    <author>
+      <name>Hai Dinh Hoang</name>
+    </author>
+    <author>
+      <name>Truong Dinh Tu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1912.03031v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.03031v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16D70, 16S50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
+
