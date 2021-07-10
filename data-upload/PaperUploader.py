@@ -13,13 +13,13 @@
 # for result in search.get():
 #     print(result.title + '\n')
 
-"""
-from pyarxiv import query, download_entries
-from pyarxiv.arxiv_categories import ArxivCategory, arxiv_category_map
+# """
+# from pyarxiv import query, download_entries
+# from pyarxiv.arxiv_categories import ArxivCategory, arxiv_category_map
 
-import pandas as pd
-import numpy as np
- """
+# import pandas as pd
+# import numpy as np
+#  """
 # Ask user for a topic and call it "topic"
 
 # topic = input("Enter the topic for which you want to search papers on arXiv: ")
@@ -30,25 +30,25 @@ import numpy as np
 
 # Pull title, author, date, link to PDF of paper from "entries"
 # and put each in its own list
-"""
-titles = map(lambda x: x['title'], entries)
-authors = map(lambda x: x['author'], entries)
-updated = map(lambda x: x['updated'], entries)
-links = map(lambda x: x['link'], entries)
-abstract = map(lambda x: x['summary'], entries)
- """
+# """
+# titles = map(lambda x: x['title'], entries)
+# authors = map(lambda x: x['author'], entries)
+# updated = map(lambda x: x['updated'], entries)
+# links = map(lambda x: x['link'], entries)
+# abstract = map(lambda x: x['summary'], entries)
+#  """
 # Create empty dataframe called "papers"
 
 # papers = pd.DataFrame()
 
 # Insert columns into "papers" from the previously created lists
-"""
-papers['Title'] = pd.Series(titles)
-papers['Author'] = pd.Series(authors)
-papers['Updated'] = pd.Series(updated)
-papers['Link'] = pd.Series(links)
-papers['Abstract'] = pd.Series(abstract)
- """
+# """
+# papers['Title'] = pd.Series(titles)
+# papers['Author'] = pd.Series(authors)
+# papers['Updated'] = pd.Series(updated)
+# papers['Link'] = pd.Series(links)
+# papers['Abstract'] = pd.Series(abstract)
+#  """
 # Slice HH:MM:SS off of each row in date column
 
 # papers['Updated'] = papers['Updated'].str.slice(stop=10)
@@ -69,12 +69,12 @@ papers['Abstract'] = pd.Series(abstract)
 
 # Sort dataframe in descending order by date
 
-""" papers = papers.sort_values(
-    by='Updated', ascending=False).reset_index(drop=True)
+# """ papers = papers.sort_values(
+#     by='Updated', ascending=False).reset_index(drop=True)
 
-# Show first 20 papers in dataframe
+# # Show first 20 papers in dataframe
 
-print(papers.head(1)) """
+# print(papers.head(1)) """
 
 
 # Loop through index, pull ID for each paper from dataframe,
@@ -89,19 +89,26 @@ print(papers.head(1)) """
 #     download_entries(entries_or_ids_or_uris=[papers['ID'][i]],
 #                      target_folder='./papers')
 
-""" import urllib
-import urllib.request
-url = 'http://export.arxiv.org/api/query?search_query=all:cs&order=-submitted_date'
-data = urllib.request.urlopen(url)
-print(data.read().decode('utf-8'))
- """
+# """ import urllib
+# import urllib.request
+# url = 'http://export.arxiv.org/api/query?search_query=all:cs&order=-submitted_date'
+# data = urllib.request.urlopen(url)
+# print(data.read().decode('utf-8'))
+# """
+
+''' MAIN SCRIPT '''
 
 
-import requests
-import json
+"""
+- Covers all SubCategories under CS
+- Sort By Last Updated Date in descending order => Latest Published First
+- Sliced by 3000 papers => To prevent API request limit
+"""
 from xml.dom import minidom
-urls = ['http://export.arxiv.org/api/query?search_query=all:cs&start=0&max_results=3000', 'http://export.arxiv.org/api/query?search_query=all:cs&start=3000&max_results=3000',
-        'http://export.arxiv.org/api/query?search_query=all:cs&start=6000&max_results=3000', 'http://export.arxiv.org/api/query?search_query=all:cs&start=9000&max_results=3000']
+import json
+import requests
+urls = ['http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=3000&max_results=3000',
+        'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=6000&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=9000&max_results=3000']
 
 
 def load_urls(url):
