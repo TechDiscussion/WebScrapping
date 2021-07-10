@@ -104,9 +104,10 @@
 - Sort By Last Updated Date in descending order => Latest Published First
 - Sliced by 3000 papers => To prevent API request limit
 """
-from xml.dom import minidom
-import json
 import requests
+import json
+from xml.dom import minidom
+import glob
 urls = ['http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=3000&max_results=3000',
         'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=6000&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=9000&max_results=3000']
 
@@ -140,3 +141,44 @@ def load_urls(url):
 
 
 load_urls(urls[0])
+
+# For Uploading it to MongoDB URL
+
+
+path = r"/content/drive/MyDrive/All_blogs1"
+files = glob.glob(path+"/*.json")
+print(files)
+json_data = []
+for file in files:
+    with open(file, encoding="utf8") as f:
+        # f.close()
+        print(file)
+        json_data.append(json.load(f))
+json_data = sum(json_data, [])
+print(len(json_data))
+
+# Connect with database
+client = MongoClient(
+    "mongodb+srv://<username>:<password>@cluster0.kf3n4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+
+DB_NAME = 'testing_upload'
+COLLECTION_NAME = 'testing_upload'
+
+
+for i in json_data:
+    i['totalComments'] = 0
+    i['totalViews'] = 0
+    i['totalLikes'] = 0
+    i['company'] = i['website']
+    del i['website']
+    i['full_content'] = i['abstract']
+    i['type'] = 'paper'
+    date = i['date']
+    i['date'] = clean_date(date)
+    i['author'] = clean_author(i['author'])
+    i['abstract'] = i['abstract'][0:900]
+    i['keywords'] = keywordsFromBlog(i['full_content'], keywords)
+    id = uuid.uuid4()
+    i['uuid'] = id.hex
+    print("Uploading ", i['company'])
+    collection.insert_one(i)
