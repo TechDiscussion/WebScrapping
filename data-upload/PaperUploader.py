@@ -145,7 +145,7 @@ load_urls(urls[0])
 # For Uploading it to MongoDB URL
 
 
-path = r"/content/drive/MyDrive/All_blogs1"
+path = r"./arXiv.json"
 files = glob.glob(path+"/*.json")
 print(files)
 json_data = []
