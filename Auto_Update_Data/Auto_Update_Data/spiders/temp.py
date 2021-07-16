@@ -1,17 +1,8 @@
-import follow as follow
 import scrapy
-import json
-from ..items import AutoUpdateDataItem
+from Auto_Update_Data.Auto_Update_Data.spiders.items import AutoUpdateDataItem
 import re
 from bs4 import BeautifulSoup
-from scrapy.crawler import CrawlerProcess
-from scrapy.spiders import CrawlSpider, Rule
-from scrapy.spiders import SitemapSpider
-from scrapy.linkextractors import LinkExtractor
-import datetime
 
-
-from pymongo import MongoClient
 import json
 
 # Connect with TechVault's database

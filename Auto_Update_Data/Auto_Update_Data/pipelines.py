@@ -23,6 +23,7 @@ class AutoUpdateDataPipeline:
 
         db = self.conn['TechVault']
         self.collection = db['contents']
+
     def process_item(self, item, spider):
         item['totalComments'] = 0
         item['totalViews'] = 0

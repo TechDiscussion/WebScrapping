@@ -1,8 +1,12 @@
 
 import scrapy
-import sys, os
-sys.path.append(os.path.abspath('..'))
+# import sys, os
+# sys.path.append(os.path.abspath('..'))
+import os
+import sys
 
+file_dir = os.path.dirname(__file__)
+sys.path.append(file_dir)
 from items import AutoUpdateDataItem
 from scrapy.utils.project import get_project_settings
 import re
@@ -18,25 +22,17 @@ client = MongoClient("mongodb+srv://chedvi:c@cluster0.kf3n4.mongodb.net/myFirstD
 DB_NAME = 'TechVault'
 COLLECTION_NAME = 'contents'
 
-# client = MongoClient("mongodb+srv://Chedvi:4999@cluster0.u1rxa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-# DB_NAME = 'Temp'
-# COLLECTION_NAME = 'blog_data'
-
-
-
 
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
-#sites = ["Chef", "Airbrake", "Facebook", "Deepmind", "Open-AI"]
 
-# db_blogs = []
 
-with open('companies','r') as f:
+with open('Auto_Update_Data/spiders/companies','r') as f:
   sites = f.read().split()
   sites = [i.strip() for i in sites]
 
 class blogs_spider(scrapy.Spider):
-    with open(r'setup.json') as f:
+    with open(r'Auto_Update_Data/spiders/setup.json') as f:
         json_data = json.load(f)
 
     name = 'update'
@@ -143,6 +139,7 @@ class blogs_spider(scrapy.Spider):
         items['date'] = date
         yield items
 if __name__ == "__main__":
+    sys.path.append(os.path.abspath('..'))
     os.environ['SCRAPY_SETTINGS_MODULE'] = 'Auto_Update_Data.Auto_Update_Data.settings'
     scrapy_settings = get_project_settings()
 
