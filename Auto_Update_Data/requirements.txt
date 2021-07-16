@@ -1,4 +1,3 @@
-python
 yake
 scrapy
 pymongo
