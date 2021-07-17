@@ -5,9 +5,10 @@ import json
 import re
 from xml.dom import minidom
 import glob
-# urls = ['http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=3000&max_results=3000',
-#         'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=6000&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=9000&max_results=3000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=12000&max_results=3000']
+# urls = ['http://export.arxiv.org/api/query?search_query=cat:CS.*&start=0&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=10000&max_results=10000',
+#         'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=20000&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=30000&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=40000&max_results=10000','http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=50000&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=60000&max_results=10000']
 
+#  use below for testing
 urls = ['https://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=5']
 
 
@@ -38,7 +39,10 @@ def load_urls(url):
     return data
 
 
-data = load_urls(urls[0])
+# data = load_urls(urls[0])
+data = load_urls(urls[1])
+# data = load_urls(urls[2])
+# data = load_urls(urls[3])
 
 
 # path = "arXiv.json"
@@ -52,8 +56,8 @@ data = load_urls(urls[0])
 client = MongoClient(
     "mongodb+srv://prateek:p@cluster0.kf3n4.mongodb.net/TechVault?retryWrites=true&w=majority")
 
-DB_NAME = 'testing_upload'
-COLLECTION_NAME = 'testing_upload'
+DB_NAME = 'TechVault'
+COLLECTION_NAME = 'papers'
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
@@ -97,6 +101,7 @@ for i in data:
     i['totalComments'] = 0
     i['totalViews'] = 0
     i['totalLikes'] = 0
+    i['keywords'] = []
     i['type'] = 'paper'
     date = i['date']
     print(date)

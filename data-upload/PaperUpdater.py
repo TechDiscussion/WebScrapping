@@ -7,6 +7,10 @@ from xml.dom import minidom
 import glob
 
 
+# urls = ['http://export.arxiv.org/api/query?search_query=cat:CS.*&start=0&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=10000&max_results=10000',
+#         'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=20000&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=30000&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=40000&max_results=10000','http://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=50000&max_results=10000', 'http://export.arxiv.org/api/query?search_query=cat:CS.*&start=60000&max_results=10000']
+
+#  use below for testing
 urls = ['https://export.arxiv.org/api/query?search_query=cat:CS.*&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=5']
 
 
@@ -22,7 +26,45 @@ collection = db[COLLECTION_NAME]
 
 db_blogs = []
 for obj in collection.find({}):
+    # print(obj['link'])
     db_blogs.append(obj['link'])
+
+
+def data_update(url):
+
+    data = []
+    response = requests.get(url)
+    root = minidom.parseString(response._content)
+    index = 0
+    for entry in root.getElementsByTagName('entry'):
+        link = entry.getElementsByTagName(
+            'id')[0].firstChild.nodeValue.strip()
+        print(link)
+        if link not in db_blogs:
+            paper_entities = {}
+            paper_entities['link'] = entry.getElementsByTagName(
+                'id')[0].firstChild.nodeValue.strip()
+            paper_entities['title'] = entry.getElementsByTagName(
+                'title')[0].firstChild.nodeValue.strip()
+            paper_entities['abstract'] = entry.getElementsByTagName(
+                'summary')[0].firstChild.nodeValue.strip()
+            paper_entities['date'] = entry.getElementsByTagName(
+                'published')[0].firstChild.nodeValue.strip()
+            paper_entities['author'] = []
+            for author in entry.getElementsByTagName('author'):
+                paper_entities['author'].append(author.getElementsByTagName('name')[
+                    0].firstChild.nodeValue.strip())
+            data.append(paper_entities)
+            index += 1
+    return data
+
+
+# data = data_update(urls[0])
+data = data_update(urls[1])
+# data = data_update(urls[2])
+# data = data_update(urls[3])
+# data = data_update(urls[4])
+# data = data_update(urls[5])
 
 
 def clean_date(date):
@@ -60,42 +102,11 @@ def clean_date(date):
 # TODO: Generate Keywords
 
 
-def data_update(url):
-
-    data = []
-    response = requests.get(url)
-    root = minidom.parseString(response._content)
-    index = 0
-    for entry in root.getElementsByTagName('entry'):
-        link = entry.getElementsByTagName(
-            'id')[0].firstChild.nodeValue.strip()
-        print(link)
-        if link not in db_blogs:
-            paper_entities = {}
-            paper_entities['link'] = entry.getElementsByTagName(
-                'id')[0].firstChild.nodeValue.strip()
-            paper_entities['title'] = entry.getElementsByTagName(
-                'title')[0].firstChild.nodeValue.strip()
-            paper_entities['abstract'] = entry.getElementsByTagName(
-                'summary')[0].firstChild.nodeValue.strip()
-            paper_entities['date'] = entry.getElementsByTagName(
-                'published')[0].firstChild.nodeValue.strip()
-            paper_entities['author'] = []
-            for author in entry.getElementsByTagName('author'):
-                paper_entities['author'].append(author.getElementsByTagName('name')[
-                    0].firstChild.nodeValue.strip())
-            data.append(paper_entities)
-            index += 1
-    return data
-
-
-data = data_update(urls[0])
-
-
 for i in data:
     i['totalComments'] = 0
     i['totalViews'] = 0
     i['totalLikes'] = 0
+    i['keywords'] = []
     i['type'] = 'paper'
     date = i['date']
     print(date)
