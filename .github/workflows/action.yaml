@@ -3,7 +3,7 @@ name: Automated WebScraping of Data
 on:
   workflow_dispatch:
   # schedule:
-  #   - cron: "23 8 * * *" # runs every night
+  #   - cron: "0 0 * * *" # runs every day at 0:00
 
 jobs:
   scrape-latest:
