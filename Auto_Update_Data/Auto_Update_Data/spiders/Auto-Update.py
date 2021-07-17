@@ -19,13 +19,21 @@ from pymongo import MongoClient
 
 
 client = MongoClient("mongodb+srv://chedvi:c@cluster0.kf3n4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DB_NAME = 'TechVault'
-COLLECTION_NAME = 'contents'
+# DB_NAME = 'TechVault'
+# COLLECTION_NAME = 'contents'
+DB_NAME = 'testing_upload'
+COLLECTION_NAME = 'Blog_Testing'
+
+
+
+
 
 
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
+#sites = ["Chef", "Airbrake", "Facebook", "Deepmind", "Open-AI"]
 
+# db_blogs = []
 
 with open('Auto_Update_Data/spiders/companies','r') as f:
   sites = f.read().split()

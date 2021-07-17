@@ -21,9 +21,10 @@ class AutoUpdateDataPipeline:
             "mongodb+srv://chedvi:c@cluster0.kf3n4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 
-        db = self.conn['TechVault']
-        self.collection = db['contents']
-
+        # db = self.conn['TechVault']
+        # self.collection = db['contents']
+        db = self.conn['testing_upload']
+        self.collection = db['Blog_Testing']
     def process_item(self, item, spider):
         item['totalComments'] = 0
         item['totalViews'] = 0
