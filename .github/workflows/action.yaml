@@ -24,7 +24,8 @@ jobs:
           python -m pip install pymongo
           python -m pip install bs4
           python -m pip install dnspython
-          cd Auto_Update_Data/spiders
+          ls -la
+          cd ./Auto_Update_Data/Auto_Update_Data/spiders
           python Auto-Update.py
       # - name: commit files
       #   run: |
