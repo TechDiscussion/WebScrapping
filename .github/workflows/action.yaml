@@ -25,8 +25,8 @@ jobs:
           python -m pip install bs4
           python -m pip install dnspython
           ls -la
-          cd ./Auto_Update_Data/Auto_Update_Data/spiders
-          python Auto-Update.py
+          cd ./Auto_Update_Data
+          python Auto_Update_Data/spiders/Auto-Update.py
       # - name: commit files
       #   run: |
       #     git config --local user.email "action@github.com"
