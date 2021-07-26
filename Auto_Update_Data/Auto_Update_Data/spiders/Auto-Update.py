@@ -19,10 +19,10 @@ from pymongo import MongoClient
 
 
 client = MongoClient("mongodb+srv://chedvi:c@cluster0.kf3n4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-# DB_NAME = 'TechVault'
-# COLLECTION_NAME = 'contents'
-DB_NAME = 'testing_upload'
-COLLECTION_NAME = 'Blog_Testing'
+DB_NAME = 'TechVault'
+COLLECTION_NAME = 'contents'
+# DB_NAME = 'testing_upload'
+# COLLECTION_NAME = 'Blog_Testing'
 
 
 
@@ -95,16 +95,32 @@ class blogs_spider(scrapy.Spider):
         return ' '.join(soup.stripped_strings)
 
     def reformatDate(self, date):
+        date = date.strip()
+
+        #If the date is in "Thursday, May 6, 2021" format.
+        days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+        if any(item in date for item in days):
+            date = date.replace(',', '')
+            date = ' '.join(date.split(' ')[1:])
+
+
+
+
+
+        if(re.match(".+|.+",date)):
+            # If date is in " May 21, 2021 | By Rahul Subramaniam format"(for Engine-Yard company)
+            date = date.split('|')[0]
+            date = date.strip()
         date = date.strip('Last updated on ')
         if re.match(".+\dT\d.+", date):
-            # If date is in 2018-11-06T23:51:41Z format
+            # If date is in "2018-11-06T23:51:41Z" format
             date = date.split('T')[0]
             return date
         if date.replace('-', '').isnumeric():
             # If date is in yy-mm-dd it returns directly
             return date
         date = date.replace(',', '')
-        # replacing 1st,2nd 3rd kind of strings
+        # replacing 1st,2nd 3rd in "January 1st" kind of date formats
         date = re.sub(r'(\d)(st|nd|rd|th)', r'\1', date)
 
         month, day, year = date.split()
@@ -134,8 +150,9 @@ class blogs_spider(scrapy.Spider):
         abstract = self.clean_abstract(response.xpath(self.json_data[website]['abstract']).extract_first())
         date = response.css(self.json_data[website]['date']).extract_first()
 
-
+        print(date)
         date = self.reformatDate(str(date))
+
 
         items['website'] = website
         items['title'] = title

@@ -21,10 +21,10 @@ class AutoUpdateDataPipeline:
             "mongodb+srv://chedvi:c@cluster0.kf3n4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 
-        # db = self.conn['TechVault']
-        # self.collection = db['contents']
-        db = self.conn['testing_upload']
-        self.collection = db['Blog_Testing']
+        db = self.conn['TechVault']
+        self.collection = db['contents']
+        # db = self.conn['testing_upload']
+        # self.collection = db['Blog_Testing']
     def process_item(self, item, spider):
         item['totalComments'] = 0
         item['totalViews'] = 0
@@ -33,6 +33,7 @@ class AutoUpdateDataPipeline:
         del item['website']
         item['full_content'] = item['abstract']
         item['type'] = 'blog'
+        item['title'] = item['title'].strip()
         item['author'] = self.clean_author(item['author'])
         item['abstract'] = item['abstract'][0:900]
         item['keywords'] = keywordsFromBlog(item['full_content'], keywords)
