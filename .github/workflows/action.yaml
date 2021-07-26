@@ -1,9 +1,9 @@
-name: Automated WebScraping of Data
+name: Automated WebScraping & Uploading of Blogs
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "0 0 * * *" # runs every day at 0:00
+  schedule:
+    - cron: "0 0 * * *" # runs every day at 0:00
 
 jobs:
   scrape-latest:
@@ -27,14 +27,3 @@ jobs:
           ls -la
           cd ./Auto_Update_Data
           python Auto_Update_Data/spiders/Auto-Update.py
-      # - name: commit files
-      #   run: |
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-      #     git add -A
-      #     git commit -m "update data" -a
-      # - name: push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: main
