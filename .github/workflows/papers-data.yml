@@ -25,7 +25,7 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLEUSERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLEKEY }}
       - name: Unzip Downloaed File
-        uses: actions/unzip@v1
+        uses: montudor/action-zip@v1
         with: 
           args: unzip -qq arxiv.zip
       # - name: commit files
