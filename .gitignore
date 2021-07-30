@@ -4,3 +4,7 @@ node_modules/
 /build/
 hs_err_pid*
 /out/
+data-upload/*.json
+arxiv/*.json
+./arxiv
+*.zip
