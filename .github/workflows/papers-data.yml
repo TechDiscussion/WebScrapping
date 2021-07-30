@@ -21,11 +21,13 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install kaggle
           kaggle datasets download Cornell-University/arxiv
-          !unzip arxiv.zip
-          rm -rf arxiv.zip
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLEUSERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLEKEY }}
+      - name: Unzip Downloaed File
+        uses: actions/unzip@v1
+        with: 
+          args: unzip -qq arxiv.zip
       # - name: commit files
       #   run: |
       #     git config --local user.email "action@github.com"
