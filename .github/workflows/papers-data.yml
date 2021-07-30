@@ -36,7 +36,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install dask[bag] --upgrade
-          python -m pip install pymongo dnspython pdfplumber uuid yake
+          python -m pip install pymongo dnspython pdfplumber uuid yake pandas tqdm
       - name: Executing Python Script to Upload Papers
         run: |
           cd ./data-upload
