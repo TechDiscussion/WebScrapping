@@ -22,8 +22,6 @@ import itertools
 from uuid import uuid4
 from collections import Counter, defaultdict
 from tqdm.notebook import tqdm
-import matplotlib.pyplot as plt
-%matplotlib inline
 year_pattern = r'([1-2][0-9]{3})'
 ###############################################################################
 
