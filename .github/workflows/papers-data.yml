@@ -24,14 +24,17 @@ jobs:
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLEUSERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLEKEY }}
-      - name: Unzip Downloaed File
+      - name: Unzip Downloaded File
         uses: montudor/action-zip@v1
         with: 
           args: unzip -qq arxiv.zip -d arxiv
-      - name: Checking Files
+      - name: Moving Files to Data Upload Directory
         run: |
           ls -la
           cd arxiv/
+          ls -la
+          mv *.json ./data-upload/
+          cd ./data-upload/
           ls -la
       # - name: commit files
       #   run: |
