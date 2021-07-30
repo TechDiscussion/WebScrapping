@@ -33,7 +33,7 @@ jobs:
           ls -la
           cd arxiv/
           ls -la
-          mv *.json ./data-upload/
+          mv *.json .././data-upload
           cd ./data-upload/
           ls -la
       # - name: commit files
