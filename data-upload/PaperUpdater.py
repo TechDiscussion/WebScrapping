@@ -6,7 +6,6 @@ from datetime import datetime
 from pymongo.errors import DuplicateKeyError
 import dask.bag as db
 import re
-import plotly.express as px
 from pymongo import MongoClient
 import glob
 import yake
