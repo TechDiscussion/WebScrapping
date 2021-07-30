@@ -3,7 +3,7 @@ name: Automated Uploading of Papers Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 4 * * SUN" # runs every Sunday at 04:00
+    - cron: "0 4 * * SUN" # runs every Sunday at 04:00 UTC
 
 jobs:
   scrape-latest:
@@ -45,6 +45,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull
           git add .
           git commit -m ":rocket: Papers Updated"
           git push
