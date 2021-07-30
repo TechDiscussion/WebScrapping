@@ -1,4 +1,4 @@
-name: Automated WebScraping of Data
+name: Automated Uploading of Papers Data
 
 on:
   workflow_dispatch:
@@ -22,6 +22,9 @@ jobs:
           python -m pip install kaggle
           kaggle datasets download Cornell-University/arxiv -f arxiv-metadata-oai-snapshot.json
           whereis arxiv-metadata-oai-snapshot.json
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLEUSERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLEKEY }}
       # - name: commit files
       #   run: |
       #     git config --local user.email "action@github.com"
