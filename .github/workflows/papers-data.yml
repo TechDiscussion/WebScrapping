@@ -34,7 +34,7 @@ jobs:
           sudo mv ./arxiv/arxiv-metadata-oai-snapshot.json ./data-upload
       - name: Checking Files
         run: |
-          cd ./
+          cd ./data-upload
           ls -la
       # - name: commit files
       #   run: |
