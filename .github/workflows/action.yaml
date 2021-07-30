@@ -35,3 +35,4 @@ jobs:
           git add .
           git commit -m ":rocket: Blogs Updated"
           git push
+          
