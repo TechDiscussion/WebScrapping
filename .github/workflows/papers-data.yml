@@ -31,9 +31,9 @@ jobs:
       - name: Moving Files to Data Upload Directory
         run: |
           ls -la
-          sudo mv ~/./arxiv/arxiv-metadata-oai-snapshot.json ~/data-upload/
-          cd ./data-upload/
+          cd ~
           ls -la
+          sudo mv ~/.././arxiv/arxiv-metadata-oai-snapshot.json ~/data-upload/
       - name: Checking Files
         run: |
           cd ./
