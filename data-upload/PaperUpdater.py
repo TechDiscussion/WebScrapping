@@ -24,7 +24,7 @@ from tqdm.notebook import tqdm
 year_pattern = r'([1-2][0-9]{3})'
 ###############################################################################
 
-logFilename = f"PapersLog-{datetime.now():%Y-%m-%d %H:%M:%d}"
+logFilename = f"PapersLog-{datetime.now():%Y-%m-%d}.txt"
 
 
 ### List of Categories of Papers ###

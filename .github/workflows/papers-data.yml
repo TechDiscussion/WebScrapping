@@ -2,8 +2,8 @@ name: Automated Uploading of Papers Data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 4 * * SUN" # runs every Sunday at 04:00 UTC
+  # schedule:
+    # - cron: "0 4 * * SUN" # runs every Sunday at 04:00 UTC
 
 jobs:
   scrape-latest:
