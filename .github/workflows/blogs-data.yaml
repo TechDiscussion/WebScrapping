@@ -1,0 +1,38 @@
+name: Automated WebScraping & Uploading of Blogs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # runs every day at 0:00
+
+jobs:
+  scrape-latest:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install dependencies & execute script
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install yake
+          python -m pip install scrapy
+          python -m pip install pymongo
+          python -m pip install bs4
+          python -m pip install dnspython
+          ls -la
+          cd ./Auto_Update_Data
+          python Auto_Update_Data/spiders/Auto-Update.py
+      - name: Adding Log Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull
+          git add .
+          git commit -m ":rocket: Blogs Updated"
+          git push
+          
