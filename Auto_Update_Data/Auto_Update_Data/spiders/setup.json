@@ -909,7 +909,24 @@
                                                   "deny_rules": [],
                                                  "author": "div > div.coauthors.coauthors--byline > a::text",
                                                   "abstract": "//div[contains(concat( \" \", @class, \" \" ), concat( \" \", \"td-post-content\", \" \" )) and contains(concat( \" \", @class, \" \" ), concat( \" \", \"tagdiv-type\", \" \" ))]",
-                                                  "date": ".td-post-title .td-module-date::text"}
+                                                  "date": ".td-post-title .td-module-date::text"},
+          "Razorpay" : {"sitemap" : "https://engineering.razorpay.com/sitemap/sitemap.xml",
+                                                  "allowed_domains": "",
+                                                 "allow_rules": "https://engineering.razorpay.com/.+",
+                                                  "deny_rules": [".*/tagged/.*",".*/about"],
+                                                 "title": "head meta[property='og:title']::attr(content)",
+                                                 "author": "head meta[name=author]::attr(content)",
+                                                  "abstract": "//article",
+                                                  "date": "head meta[property='article:published_time']::attr(content)"},
+          "Algolia" : {"sitemap" : "https://www.algolia.com/blog/sitemap.xml",
+                                                  "allowed_domains": "",
+                                                 "allow_rules": "https://www.algolia.com/blog/engineering/.+",
+                                                  "deny_rules": [],
+                                                 "title": "section > div > div > div > div > div > h1::text",
+                                                 "author": "div.d-flex.fxd-column.jc-start.color-nebula-300.w-100p > p::text",
+                                                  "abstract": "//*[contains(concat( \" \", @class, \" \" ), concat( \" \", \"css-19zk6qp\", \" \" ))]",
+                                                  "date": "section > div > div > div > div > div > div > p::text"}
+
 }
 
 
