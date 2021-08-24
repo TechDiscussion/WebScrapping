@@ -33,7 +33,8 @@ class AutoUpdateDataPipeline:
         del item['website']
         item['full_content'] = item['abstract']
         item['type'] = 'blog'
-        item['title'] = item['title'].strip()
+        if(item['title']) :
+            item['title'] = item['title'].strip()
         item['author'] = self.clean_author(item['author'])
         item['abstract'] = item['abstract'][0:900]
         item['keywords'] = keywordsFromBlog(item['full_content'], keywords)
