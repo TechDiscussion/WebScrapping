@@ -22,7 +22,7 @@ client = MongoClient("mongodb+srv://chedvi:c@cluster0.kf3n4.mongodb.net/myFirstD
 DB_NAME = 'TechVault'
 COLLECTION_NAME = 'contents'
 # DB_NAME = 'testing_upload'
-# COLLECTION_NAME = 'Blog_Testing'
+# COLLECTION_NAME = 'test'
 
 
 
@@ -59,6 +59,13 @@ class blogs_spider(scrapy.Spider):
         db_blogs = response.meta.get('db_blogs')
         all_blogs = re.findall(r"<loc>(.*?)</loc>", response.text, re.DOTALL)
 
+        sitemap_tree = self.json_data[website]['sitemap_allowed']
+        if sitemap_tree != "":
+            for sitemaps in all_blogs:
+                if re.match(sitemap_tree, sitemaps):
+                    start_url_next = sitemaps
+                    yield scrapy.Request(url=start_url_next, callback=self.parse, meta={'website': website,"db_blogs":db_blogs})
+
         all_blogs1 = all_blogs.copy()
         for i in all_blogs:
             for j in self.json_data[website]['deny_rules']:
@@ -78,7 +85,7 @@ class blogs_spider(scrapy.Spider):
         f.write(dt)
         f.write('\t')
         f.write("Added {count} blogs from {company}'s website to the database".format(count=len(matched_blogs),
-                                                                                      company=website))
+                                                                                    company=website))
         f.write('\n')
 
         for link in matched_blogs:
@@ -103,10 +110,6 @@ class blogs_spider(scrapy.Spider):
             date = date.replace(',', '')
             date = ' '.join(date.split(' ')[1:])
 
-
-
-
-
         if(re.match(".+|.+",date)):
             # If date is in " May 21, 2021 | By Rahul Subramaniam format"(for Engine-Yard company)
             date = date.split('|')[0]
@@ -115,6 +118,10 @@ class blogs_spider(scrapy.Spider):
         if re.match(".+\dT\d.+", date):
             # If date is in "2018-11-06T23:51:41Z" format
             date = date.split('T')[0]
+            return date
+        if re.match(".+\s.+", date):
+            # If date is in "2018-11-06 23:51:41" format
+            date = date.split(' ')[0]
             return date
         if date.replace('-', '').isnumeric():
             # If date is in yy-mm-dd it returns directly
@@ -145,8 +152,11 @@ class blogs_spider(scrapy.Spider):
 
         link = response.meta.get('link-item')
         title = response.css(self.json_data[website]['title']).extract_first()
-        author = response.css(self.json_data[website]['author']).extract()
-        author = [i.strip() for i in author]
+        if self.json_data[website]['author'] != "":
+            author = response.css(self.json_data[website]['author']).extract()
+            author = [i.strip() for i in author]
+        else :
+            author = []
         abstract = self.clean_abstract(response.xpath(self.json_data[website]['abstract']).extract_first())
         date = response.css(self.json_data[website]['date']).extract_first()
 
