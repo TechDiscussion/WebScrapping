@@ -119,10 +119,10 @@ class blogs_spider(scrapy.Spider):
             # If date is in "2018-11-06T23:51:41Z" format
             date = date.split('T')[0]
             return date
-        if re.match(".+\s.+", date):
-            # If date is in "2018-11-06 23:51:41" format
-            date = date.split(' ')[0]
-            return date
+#         if re.match(".+\s.+", date):
+#             # If date is in "2018-11-06 23:51:41" format
+#             date = date.split(' ')[0]
+#             return date
         if date.replace('-', '').isnumeric():
             # If date is in yy-mm-dd it returns directly
             return date
