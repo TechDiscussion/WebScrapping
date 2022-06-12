@@ -1,0 +1,5 @@
+yake
+scrapy
+pymongo
+bs4
+dnspython
